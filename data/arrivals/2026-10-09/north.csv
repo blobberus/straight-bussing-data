@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1791580949,2026-10-09T21:22:29Z,2026-10-09 16:22:29,4,16,982,1075,North,501582,4313,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,5,,,,,,24,1791580937,140,proximity
+1791581024,2026-10-09T21:23:44Z,2026-10-09 16:23:44,4,16,983,1075,North,501582,4313,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,140009,334.6,1791580949,75,6.56,0,1791580982,156,transition
+1791581307,2026-10-09T21:28:27Z,2026-10-09 16:28:27,4,16,988,1075,North,501582,4313,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,7,8637,1138.1,1791581024,283,4.02,0,1791581279,123,transition
