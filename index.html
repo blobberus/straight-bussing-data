@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shuttle Movement Data</title>
+<meta name="description" content="Ground-truth arrivals of the UChicago campus shuttles (unofficial), updated every 30 minutes.">
+<link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+<header class="top">
+  <h1>Shuttle movement</h1>
+  <p class="sub" id="meta">Loading&hellip;</p>
+</header>
+<main>
+  <section class="controls" aria-label="Choose what to show">
+    <label>Service day <select id="day"></select></label>
+    <label>Route <select id="route"></select></label>
+    <a class="dl" id="csv" href="#" download>Download CSV</a>
+  </section>
+  <section class="card">
+    <h2 id="chartTitle">Bus trips</h2>
+    <p class="hint">Each line is one bus trip: left to right is time of day, top to bottom is the stop order along the route. Steep lines are fast, flat stretches are slow or waiting. Hover or tap a dot for details.</p>
+    <div id="chart" class="chart" role="img" aria-label="Time and stop chart of bus trips"></div>
+    <p class="stats" id="stats"></p>
+  </section>
+  <section class="card">
+    <h2>Latest arrivals on this route</h2>
+    <div class="tablewrap"><table id="routeTable"><thead><tr><th>Time</th><th>Stop</th><th>Bus</th><th>Trip</th><th>From previous stop</th></tr></thead><tbody></tbody></table></div>
+  </section>
+  <section class="card">
+    <h2>Latest arrivals, all routes</h2>
+    <div class="tablewrap"><table id="latestTable"><thead><tr><th>Time</th><th>Route</th><th>Stop</th><th>Bus</th></tr></thead><tbody></tbody></table></div>
+  </section>
+</main>
+<footer class="foot">
+  Unofficial; not affiliated with the University of Chicago. Data: arrivals detected from the public Passio GTFS-Realtime feed by
+  <a href="https://github.com/blobberus/straight-bussing">Straight Bussing</a>; stops and routes from the public GTFS schedule.
+  Files and methodology: <a href="https://github.com/blobberus/straight-bussing-data">github.com/blobberus/straight-bussing-data</a>.
+  Official service information: 773.702.8181.
+</footer>
+<script src="viewer.js"></script>
+</body>
+</html>

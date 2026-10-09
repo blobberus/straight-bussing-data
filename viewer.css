@@ -1,0 +1,33 @@
+:root {
+  --bg: #f2f2f7; --card: #ffffff; --text: #1c1c1e; --text2: #5c5c63; --line: #d8d8de; --accent: #0066d6; --grid: #ececf0;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #000000; --card: #1c1c1e; --text: #f2f2f7; --text2: #a1a1a8; --line: #3a3a3c; --accent: #409cff; --grid: #2c2c2e; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+.top { padding: 20px 16px 4px; max-width: 1100px; margin: 0 auto; }
+h1 { margin: 0; font-size: 1.6rem; letter-spacing: -.02em; }
+h2 { margin: 0 0 6px; font-size: 1.05rem; }
+.sub, .hint, .stats { color: var(--text2); margin: 4px 0; font-size: .9rem; }
+main { max-width: 1100px; margin: 0 auto; padding: 0 16px 24px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: end; margin: 12px 0; }
+.controls label { display: flex; flex-direction: column; gap: 4px; font-size: .85rem; color: var(--text2); }
+select { min-height: 40px; min-width: 180px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); font: inherit; }
+.dl { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); text-decoration: none; }
+.card { background: var(--card); border-radius: 16px; padding: 14px 16px; margin: 12px 0; }
+.chart { width: 100%; overflow-x: auto; }
+.chart svg { display: block; width: 100%; min-width: 640px; height: auto; }
+.chart .grid { stroke: var(--grid); stroke-width: 1; }
+.chart .axis { fill: var(--text2); font-size: 11px; }
+.chart .trip { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; opacity: .9; }
+.chart .dot { stroke: var(--card); stroke-width: 1; }
+.chart .dot:hover { r: 5; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--text2); font-weight: 600; }
+.chip { display: inline-block; min-width: 34px; padding: 1px 6px; border-radius: 6px; font-size: .75rem; font-weight: 700; text-align: center; }
+.foot { max-width: 1100px; margin: 0 auto; padding: 8px 16px 28px; color: var(--text2); font-size: .82rem; }
