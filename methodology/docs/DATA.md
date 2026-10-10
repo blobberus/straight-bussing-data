@@ -62,17 +62,26 @@ schtasks /Create /TN SBTruth /SC HOURLY /ST 00:07 /F /TR "\"C:\Users\NK\AppData\
 ```
 
 ## Automatic collection and reading it
-`.github/workflows/collect.yml` (must live on **main**: GitHub only runs schedules from the default branch)
-starts a run at :07 and :37 every hour, and each run logs for 70 min. Runs always overlap, so a start
-GitHub delays or skips leaves no gap. Each run:
+`.github/workflows/collect.yml` (must live on **main**: GitHub only runs schedules from the default branch).
+Each run logs for 70 min and, 40 min in, starts its own successor (`tools/collect_chain.py`), so runs
+overlap by ~30 min. Why: GitHub fired only ~4 of the 48 scheduled runs on 2026-10-09 (23% coverage). The
+:07/:37 cron stays as a backstop that restarts the chain if it ever stops. It can't run away: two
+concurrency slots (a/b) cap it at 2 running collect runs, and a run dispatches at most once, only while it
+is the only active collect run (tests: `tools/test_chain.py`, incl. a 72-h simulation with crashes and
+manual dispatches). Off switch: repo variable `COLLECT_CHAIN=off` (Settings > Secrets and variables >
+Actions > Variables), or "Disable workflow" in the Actions tab (the keepalive step respects that). Each run:
 1. checks out main, refreshes `web/data` from the GTFS zip (falls back to the committed copy),
 2. seeds the detector from the tail of the shared CSV, logs 70 min into its own `run.csv`,
 3. merges with `tools/merge_arrivals.py` into a worktree of the orphan `data` branch: duplicates from
-   the overlap (same vehicle + trip + stop + stop_index within 120 s) are dropped, keeping the row with
+   the overlap (same vehicle + stop within 120 s, whatever trip id or stop_index: collectors can
+   disagree on Passio's trip id) are dropped, keeping the row with
    more filled fields; the file is archived past 40 MB,
 4. refreshes `web/data/learned.json`, commits `data: arrivals <ts>`, pushes. If another run pushed first
    it re-fetches and re-merges (5 tries),
-5. re-enables its own workflow through the API so GitHub's 60-day idle rule does not switch it off.
+5. re-enables its own workflow through the API so GitHub's 60-day idle rule does not switch it off
+   (unless someone disabled it by hand),
+6. annotates the run (`::warning::`) when logging stopped early, the feed kept failing, or the chain did
+   not start the next run; the job stays green so the merge always runs.
 
 It never pushes to main, so Pages never redeploys. One row per bus per stop visit; no rows overnight
 while no shuttles run.
@@ -82,9 +91,16 @@ git show origin/data:data/ground_truth/arrivals.csv > data/ground_truth/arrivals
 ```
 or download `https://raw.githubusercontent.com/blobberus/straight-bussing/data/data/ground_truth/arrivals.csv`.
 
-**Cost**: free; GitHub Actions minutes are unlimited for public repos (about 2-3 runners are busy at any
-time; a private repo would need ~100k min/month vs 2k free). If the Actions tab ever shows the
+**Cost**: free; GitHub Actions minutes are unlimited for public repos (at most 2 runners are busy at any
+time; a private repo would need ~90k min/month vs 2k free, so never make this repo private with the chain on). If the Actions tab ever shows the
 workflow disabled, press "Enable workflow" there.
+
+**Raw position polls** (RouteKnower E03, since 2026-10-10): each CI run also keeps every vehiclePositions
+poll (`truth_logger.py --raw-out`, one JSON line per poll: `{"t", "h", "v": [[veh, trip, route, lat, lon,
+bearing, speed, q, stop_id, status, vt], ...]}`) as the artifact `raw-polls-<run id>` (about 1 MB per run,
+kept 90 days, never on the data branch). `python tools/raw_fetch.py` downloads the new ones into
+`data/raw_polls/days/<service day>.jsonl` (deduped on vehicle + vt; git-ignored); `--list` shows what is on
+GitHub. Download at least every 2 months or they expire.
 
 **Privacy**: the feeds hold only vehicle positions and predictions, no riders. Nothing personal is
 collected; addresses come from public OpenStreetMap data via Photon (stop coordinates only).
