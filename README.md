@@ -32,20 +32,20 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-10 07:34 UTC · 6,824 arrivals · 2 service days · newest arrival 2026-10-09 20:28:28 (Chicago time)_
+_Last sync: 2026-10-10 13:57 UTC · 6,814 arrivals · 2 service days · newest arrival 2026-10-09 20:28:28 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-09 | 3,258 | 14 | [data/arrivals/2026-10-09/](data/arrivals/2026-10-09) |
-| 2026-10-08 | 3,566 | 13 | [data/arrivals/2026-10-08/](data/arrivals/2026-10-08) |
+| 2026-10-09 | 3,256 | 14 | [data/arrivals/2026-10-09/](data/arrivals/2026-10-09) |
+| 2026-10-08 | 3,558 | 13 | [data/arrivals/2026-10-08/](data/arrivals/2026-10-08) |
 
 Routes on 2026-10-09:
 
 | Route | Arrivals | File |
 |---|---:|---|
 | Midway Metra | 464 | [midway-metra.csv](data/arrivals/2026-10-09/midway-metra.csv) |
-| Downtown Campus Connector | 433 | [downtown-campus-connector.csv](data/arrivals/2026-10-09/downtown-campus-connector.csv) |
-| 53rd Street Express | 425 | [53rd-street-express.csv](data/arrivals/2026-10-09/53rd-street-express.csv) |
+| Downtown Campus Connector | 432 | [downtown-campus-connector.csv](data/arrivals/2026-10-09/downtown-campus-connector.csv) |
+| 53rd Street Express | 424 | [53rd-street-express.csv](data/arrivals/2026-10-09/53rd-street-express.csv) |
 | Apostolic/Drexel | 396 | [apostolic-drexel.csv](data/arrivals/2026-10-09/apostolic-drexel.csv) |
 | Friend Center/Metra | 350 | [friend-center-metra.csv](data/arrivals/2026-10-09/friend-center-metra.csv) |
 | Red Line/Arts Block | 324 | [red-line-arts-block.csv](data/arrivals/2026-10-09/red-line-arts-block.csv) |

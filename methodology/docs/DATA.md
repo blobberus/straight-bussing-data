@@ -17,11 +17,13 @@ predictions and train our own (`tools/model_*.py`, `docs/ALGORITHMS.md`). Unoffi
 `minute_of_day` · `route_id` `route_name` `trip_id` `vehicle_id` (Passio) · `stop_id` `stop_name`
 `stop_address` `stop_lat` `stop_lon` · `stop_index` position in `web/data/route_stops.json[route]` (loops: last
 index = back at the first stop) · `prev_stop_id` `prev_arrival_epoch` previous detected stop of the same
-trip (stops in between may have been skipped) · `dist_prev_m` metres along the route shape
+trip (stops in between may have been skipped; blank if it is > 25 min old or the bus logged another arrival
+in between) · `dist_prev_m` metres along the route shape
 (`web/data/shapes.json`; else haversine x 1.15) · `segment_s` = epoch - prev_arrival_epoch (includes the
 previous dwell) · `speed_mps` = dist / (segment_s - previous dwell), blank if > 30 m/s · `dwell_s` time
 stopped here (0 = drove through, blank = unknown) · `passio_pred_epoch` Passio's newest prediction for this
-trip+stop made >= 120 s before the arrival, `passio_pred_lead_s` = epoch - when it was made · `source`
+bus + trip + stop (at a loop terminal: the one with the matching stop_sequence) made >= 120 s before the
+arrival, `passio_pred_lead_s` = epoch - when it was made · `source`
 `transition` | `proximity`. Rows are appended when the bus leaves the stop, so files are only roughly sorted.
 
 ## Detection (`tools/arrival_detector.py`, every 10 s on Passio `vehiclePositions` + `tripUpdates`)
@@ -31,19 +33,37 @@ trip+stop made >= 120 s before the arrival, `passio_pred_lead_s` = epoch - when 
   bus is still closing in the arrival waits until it stops, turns away, or 60 s pass.
 - **proximity**: within 40 m of the current/adjacent stop at < 1 m/s.
 - Time = when the track crosses the stop, interpolated between reports with the reported speed; else the
-  earliest closest report inside 40 m; else closest within 120 m. No row if the bus was already at the
-  stop in every remembered report (logger start, layovers): we never saw it arrive.
+  earliest closest report inside 40 m; else closest within 120 m; else (transitions only) the midpoint of
+  the last two reports, if they are <= 60 s apart and the stop lies between them. No row if the bus was
+  already at the stop in every remembered report (logger start, layovers): we never saw it arrive; and no
+  row if `stop_id` moved on while the bus was nowhere near the stop (it switched late, or over a stop the
+  bus does not serve).
 - `current_stop_sequence` is ignored when `stop_id` is present (it does not match route order);
   loop terminals are disambiguated with `tripUpdates` stop_sequence, then forward progress.
 - Dedupe per vehicle+trip+stop index; also one row per physical visit when the trip id flips at a terminal
   (the new trip links to it). GPS jitter / `stop_id` flapping, repeated or stale (> 90 s) reports, and a
   second lap on the same trip id are handled. Restart-safe: the CSV tail (last ~600 kB) is re-read.
+- Links (`prev_*`): only to an arrival at most 25 min old (`MAX_LINK_S`; a feed or collector gap means
+  stops were missed) with no later arrival of the same bus under another trip id in between. Passio flaps
+  trip ids: a bus back on a trip id it left > 60 s ago starts that trip's state afresh (no row for the
+  stop it was heading to back then); a flap of a poll or two keeps it. A restart links only to CSV rows
+  <= 25 min old.
 
 ## Error bounds
 Arrival times are good to about **+-10 s**: reports come every ~10 s, GPS is +-5-10 m. Simulation
 (`tools/test_truth.py`, 200 arrivals, noise, early flips): mean |error| 1.2 s, max 7.7 s. Replaying a real
 16-minute capture at 5 s vs 10 s cadence: 29 of 30 arrivals in both, median difference 0 s, max 8 s. `dwell_s` is
 +-5-10 s; short segments (< 60 s) have large relative speed error. Passio outages leave gaps, not errors.
+
+**Known defects in the real file (RouteKnower E01, 2026-10-10; `experiments/routeknower/E01-data-quality-2026-10-10.md`).**
+About 4% of `prev_*` links jump over other arrivals of the same bus (trip-id flaps, collector gaps); >= 1.5% of transition
+rows are timed while the bus was elsewhere; the same visit is sometimes logged twice 2-5 min apart. The Passio
+prediction is ambiguous when several buses share a trip id (every Downtown Campus Connector bus runs trip 874028)
+or at a trip's first stop, and `passio_pred_lead_s` is ~2-4 min unless Passio had stopped updating that trip (a
+lead >= 5 min is a failure case, not a 5-minute forecast). `tools/model_core.py` `load_rows` handles all of these
+(`clean_dicts`); read the CSV raw only with that in mind. Collector fixes B1-B4 (2026-10-10: `cc40831` per-bus
+predictions, `9eb11c7` far-away transitions, `2ba339c` stale links, `c3831ca` 300 s merge window) stop new rows from
+having the first four; rows logged before keep them, and the lead caveat stays until fixed-lead logging (E01 B5).
 
 ## Run it
 ```
@@ -73,7 +93,7 @@ Actions > Variables), or "Disable workflow" in the Actions tab (the keepalive st
 1. checks out main, refreshes `web/data` from the GTFS zip (falls back to the committed copy),
 2. seeds the detector from the tail of the shared CSV, logs 70 min into its own `run.csv`,
 3. merges with `tools/merge_arrivals.py` into a worktree of the orphan `data` branch: duplicates from
-   the overlap (same vehicle + stop within 120 s, whatever trip id or stop_index: collectors can
+   the overlap (same vehicle + stop within 300 s, whatever trip id or stop_index: collectors can
    disagree on Passio's trip id) are dropped, keeping the row with
    more filled fields; the file is archived past 40 MB,
 4. refreshes `web/data/learned.json`, commits `data: arrivals <ts>`, pushes. If another run pushed first
