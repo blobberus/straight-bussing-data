@@ -32,29 +32,20 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-10 13:57 UTC · 6,814 arrivals · 2 service days · newest arrival 2026-10-09 20:28:28 (Chicago time)_
+_Last sync: 2026-10-10 21:55 UTC · 6,861 arrivals · 3 service days · newest arrival 2026-10-10 16:36:40 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
+| 2026-10-10 | 47 | 4 | [data/arrivals/2026-10-10/](data/arrivals/2026-10-10) |
 | 2026-10-09 | 3,256 | 14 | [data/arrivals/2026-10-09/](data/arrivals/2026-10-09) |
 | 2026-10-08 | 3,558 | 13 | [data/arrivals/2026-10-08/](data/arrivals/2026-10-08) |
 
-Routes on 2026-10-09:
+Routes on 2026-10-10:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Midway Metra | 464 | [midway-metra.csv](data/arrivals/2026-10-09/midway-metra.csv) |
-| Downtown Campus Connector | 432 | [downtown-campus-connector.csv](data/arrivals/2026-10-09/downtown-campus-connector.csv) |
-| 53rd Street Express | 424 | [53rd-street-express.csv](data/arrivals/2026-10-09/53rd-street-express.csv) |
-| Apostolic/Drexel | 396 | [apostolic-drexel.csv](data/arrivals/2026-10-09/apostolic-drexel.csv) |
-| Friend Center/Metra | 350 | [friend-center-metra.csv](data/arrivals/2026-10-09/friend-center-metra.csv) |
-| Red Line/Arts Block | 324 | [red-line-arts-block.csv](data/arrivals/2026-10-09/red-line-arts-block.csv) |
-| Apostolic | 252 | [apostolic.csv](data/arrivals/2026-10-09/apostolic.csv) |
-| Central | 188 | [central.csv](data/arrivals/2026-10-09/central.csv) |
-| Drexel | 141 | [drexel.csv](data/arrivals/2026-10-09/drexel.csv) |
-| East | 131 | [east.csv](data/arrivals/2026-10-09/east.csv) |
-| South | 75 | [south.csv](data/arrivals/2026-10-09/south.csv) |
-| North | 55 | [north.csv](data/arrivals/2026-10-09/north.csv) |
-| Regents Express | 18 | [regents-express.csv](data/arrivals/2026-10-09/regents-express.csv) |
-| South Loop Shuttle | 6 | [south-loop-shuttle.csv](data/arrivals/2026-10-09/south-loop-shuttle.csv) |
+| East | 18 | [east.csv](data/arrivals/2026-10-10/east.csv) |
+| South | 14 | [south.csv](data/arrivals/2026-10-10/south.csv) |
+| North | 10 | [north.csv](data/arrivals/2026-10-10/north.csv) |
+| Central | 5 | [central.csv](data/arrivals/2026-10-10/central.csv) |
 <!-- SYNC:END -->

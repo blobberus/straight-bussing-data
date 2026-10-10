@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1791667863,2026-10-10T21:31:03Z,2026-10-10 16:31:03,5,16,991,1078,Central,501716,4322,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,,,,,,0,,,transition
+1791667956,2026-10-10T21:32:36Z,2026-10-10 16:32:36,5,16,992,1078,Central,501720,4317,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,1,,,,,,0,1791667942,153,transition
+1791667974,2026-10-10T21:32:54Z,2026-10-10 16:32:54,5,16,992,1078,Central,501716,4322,140012,53 & Kimbark (WB),East 53rd Street,41.79956,-87.59485,12,141862,358.6,1791667863,111,3.23,0,,,transition
+1791668143,2026-10-10T21:35:43Z,2026-10-10 16:35:43,5,16,995,1078,Central,501720,4317,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,2,141882,574.2,1791667956,187,3.07,0,1791668032,154,transition
+1791668184,2026-10-10T21:36:24Z,2026-10-10 16:36:24,5,16,996,1078,Central,501720,4317,9593,International House,South Dorchester Avenue,41.78786,-87.59148,3,8658,222.5,1791668143,41,5.43,42,1791668085,129,transition
