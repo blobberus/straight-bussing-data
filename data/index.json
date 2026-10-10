@@ -1,8 +1,8 @@
 {
- "synced": "2026-10-09 21:29",
+ "synced": "2026-10-10 01:08",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 5675,
- "newest": "2026-10-09 16:28:57",
+ "rows": 6451,
+ "newest": "2026-10-09 18:35:40",
  "cutoff_hour": 4,
  "days": [
   {
@@ -78,11 +78,11 @@
   },
   {
    "day": "2026-10-09",
-   "rows": 2073,
+   "rows": 2849,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-09/53rd-street-express.csv",
-     "rows": 369,
+     "rows": 425,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -92,17 +92,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-09/apostolic-drexel.csv",
-     "rows": 192,
+     "rows": 320,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-10-09/central.csv",
-     "rows": 20,
+     "rows": 111,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-09/downtown-campus-connector.csv",
-     "rows": 331,
+     "rows": 409,
      "route_id": "5704"
     },
     "Drexel": {
@@ -112,33 +112,43 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-09/east.csv",
-     "rows": 13,
+     "rows": 57,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-10-09/friend-center-metra.csv",
-     "rows": 278,
+     "rows": 320,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-09/midway-metra.csv",
-     "rows": 307,
+     "rows": 461,
      "route_id": "5703"
     },
     "North": {
      "file": "data/arrivals/2026-10-09/north.csv",
-     "rows": 3,
+     "rows": 34,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-10-09/red-line-arts-block.csv",
-     "rows": 158,
+     "rows": 254,
      "route_id": "5699"
+    },
+    "Regents Express": {
+     "file": "data/arrivals/2026-10-09/regents-express.csv",
+     "rows": 7,
+     "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-09/south.csv",
-     "rows": 5,
+     "rows": 51,
      "route_id": "1076"
+    },
+    "South Loop Shuttle": {
+     "file": "data/arrivals/2026-10-09/south-loop-shuttle.csv",
+     "rows": 3,
+     "route_id": "5716"
     }
    }
   }

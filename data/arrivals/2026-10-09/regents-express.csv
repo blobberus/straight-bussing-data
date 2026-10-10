@@ -1,0 +1,8 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1791586473,2026-10-09T22:54:33Z,2026-10-09 17:54:33,4,17,1074,5715,Regents Express,524063,12644,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,0,,,transition
+1791586545,2026-10-09T22:55:45Z,2026-10-09 17:55:45,4,17,1075,5715,Regents Express,524063,12644,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,8599,315.7,1791586473,72,4.38,3,1791587541,181,proximity
+1791586576,2026-10-09T22:56:16Z,2026-10-09 17:56:16,4,17,1076,5715,Regents Express,524063,12644,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,72572,121.2,1791586545,31,4.33,8,1791586530,144,transition
+1791586705,2026-10-09T22:58:25Z,2026-10-09 17:58:25,4,17,1078,5715,Regents Express,524063,12644,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,72573,558.3,1791586576,129,4.61,0,1791586674,137,transition
+1791587647,2026-10-09T23:14:07Z,2026-10-09 18:14:07,4,18,1094,5715,Regents Express,524063,12644,8578,Regents Park Apartments,South East End Avenue,41.8032,-87.5855,5,8657,1197.7,1791586705,942,1.27,,1791586925,759,transition
+1791587654,2026-10-09T23:14:14Z,2026-10-09 18:14:14,4,18,1094,5715,Regents Express,524063,12644,8643,Law School (N),East 60th Street,41.78589,-87.59906,0,,,,,,319,1791587589,161,proximity
+1791588240,2026-10-09T23:24:00Z,2026-10-09 18:24:00,4,18,1104,5715,Regents Express,524063,12644,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,20,1791588205,182,proximity
