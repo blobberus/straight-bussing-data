@@ -18,7 +18,8 @@ is one bus trip moving stop to stop over time; hover or tap a point for the stop
 | `index.html`, `viewer.js`, `viewer.css` | the viewer page |
 | `scripts/sync.py`, `.github/workflows/sync.yml` | the sync that keeps all of this current |
 
-Column meanings: `methodology/docs/DATA.md` ("Schema"). Times are good to about +-10 s; `segment_s` is the time from
+**What each column means, in plain English:** [`methodology/docs/DATA-GUIDE.md`](methodology/docs/DATA-GUIDE.md)
+(with a worked example row and spreadsheet recipes). Technical details: `methodology/docs/DATA.md` ("Schema"). Times are good to about +-10 s; `segment_s` is the time from
 the previous detected stop; `passio_pred_epoch` is the official app's prediction made at least 2 minutes earlier.
 
 ## How it stays current
