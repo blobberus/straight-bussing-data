@@ -11,7 +11,7 @@ Writes (only files whose content changed are rewritten, so git records real chan
   data/latest.csv                          the newest 200 arrivals (all routes)
   data/index.json                          days, routes, counts, newest arrival, sync time (used by index.html)
   data/network/{routes,stops,route_stops}.json   route colors, stop names and stop order (from the app's GTFS data)
-  methodology/                             RouteKnower.md, experiments/routeknower/**, docs DATA / DATA-GUIDE / ALGORITHMS / BACKTEST
+  methodology/                             RouteKnower.md, experiments/routeknower/**, docs DATA / DATA-GUIDE / GOAL-AND-METHOD / ALGORITHMS / BACKTEST
   README.md                                the summary block between the SYNC markers
 The source of truth stays in the app repo: edit methodology there; this copy follows within the hour.
 """
@@ -22,7 +22,7 @@ from pathlib import Path
 
 SOURCE = "https://github.com/blobberus/straight-bussing"
 KEY = ("vehicle_id", "trip_id", "stop_id", "stop_index", "epoch")
-METHODOLOGY = ["RouteKnower.md", "experiments/routeknower", "docs/DATA.md", "docs/DATA-GUIDE.md", "docs/ALGORITHMS.md", "docs/BACKTEST.md"]
+METHODOLOGY = ["RouteKnower.md", "experiments/routeknower", "docs/DATA.md", "docs/DATA-GUIDE.md", "docs/GOAL-AND-METHOD.md", "docs/ALGORITHMS.md", "docs/BACKTEST.md"]
 NETWORK = ["routes.json", "stops.json", "route_stops.json"]
 CUTOFF_HOUR = 4
 
