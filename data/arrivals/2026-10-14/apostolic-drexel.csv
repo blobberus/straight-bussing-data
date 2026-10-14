@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1791989969,2026-10-14T14:59:29Z,2026-10-14 09:59:29,2,9,599,6126,Apostolic/Drexel,501457,4324,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,0,,,pass
+1791990812,2026-10-14T15:13:32Z,2026-10-14 10:13:32,2,10,613,6126,Apostolic/Drexel,501457,4324,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,9,8630,2699.0,1791989969,843,3.2,,1791990507,328,transition
