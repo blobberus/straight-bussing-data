@@ -1,8 +1,8 @@
 {
- "synced": "2026-10-16 23:03",
+ "synced": "2026-10-16 23:29",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 25559,
- "newest": "2026-10-16 17:38:24",
+ "rows": 25739,
+ "newest": "2026-10-16 18:18:31",
  "cutoff_hour": 4,
  "days": [
   {
@@ -495,11 +495,11 @@
   },
   {
    "day": "2026-10-16",
-   "rows": 2567,
+   "rows": 2747,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-16/53rd-street-express.csv",
-     "rows": 425,
+     "rows": 443,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -509,17 +509,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-16/apostolic-drexel.csv",
-     "rows": 243,
+     "rows": 278,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-10-16/central.csv",
-     "rows": 33,
+     "rows": 40,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-16/downtown-campus-connector.csv",
-     "rows": 389,
+     "rows": 416,
      "route_id": "5704"
     },
     "Drexel": {
@@ -529,32 +529,37 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-16/east.csv",
-     "rows": 30,
+     "rows": 37,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-10-16/friend-center-metra.csv",
-     "rows": 308,
+     "rows": 313,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-16/midway-metra.csv",
-     "rows": 390,
+     "rows": 427,
      "route_id": "5703"
     },
     "North": {
      "file": "data/arrivals/2026-10-16/north.csv",
-     "rows": 23,
+     "rows": 31,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-10-16/red-line-arts-block.csv",
-     "rows": 368,
+     "rows": 396,
      "route_id": "5699"
+    },
+    "Regents Express": {
+     "file": "data/arrivals/2026-10-16/regents-express.csv",
+     "rows": 1,
+     "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-16/south.csv",
-     "rows": 18,
+     "rows": 25,
      "route_id": "1076"
     }
    }
