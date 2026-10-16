@@ -94,13 +94,16 @@ never delay or stop the 10 s arrival loop. Each run writes its versions to `run_
 merges them into this file in the same commit as the arrivals (a merge failure only warns: the arrivals are still
 pushed). Parsing and the version rule: `tools/alerts_lib.py`. Tests: `tools/test_alerts.py`.
 
-A **version** = Passio's entity id + a 12-hex hash of header, description, cause, effect, active periods and informed
-entities (order-independent; Passio's extra `startDatetime` / `endDatetime` strings are ignored). A changed text,
-window or route makes a new row; the same version seen again only moves `last_seen`. Merge: one row per
-(`alert_id`, `version`), earliest `first_seen`, latest `last_seen`; the file is rewritten whole, sorted by
-`first_seen` (a few versions a day; no rotation).
+A **version** = a 12-hex hash of header, description, cause, effect, active periods and informed entities
+(order-independent; Passio's extra `startDatetime` / `endDatetime` strings are ignored). A changed text, window or
+route makes a new row; the same version seen again only moves `last_seen`. Merge: one row per `version`, earliest
+`first_seen`, latest `last_seen`, every entity id joined; the file is rewritten whole, sorted by `first_seen`
+(a few versions a day; no rotation). Since 2026-10-16 (DC-012): Passio's entity id is the alert's place in the feed,
+so an alert's id changes when one listed above it ends ("UGo Bus Route Assistance" went from 2 to 1); rows used to
+be keyed by id + version and split there; the next merge collapses such rows.
 
-`alert_id` Passio's entity id (small numbers, **reused for unrelated alerts**: always key on alert_id + version) ·
+`alert_id` every Passio entity id the version was seen under, `;`-separated (`1;2`); positions in the feed, not
+stable ids: **key on `version`** ·
 `version` · `first_seen` `last_seen` unix s of the first / last of our polls that showed it, plus `first_seen_local`
 `last_seen_local` (Chicago clock) · `active_start` `active_end` the earliest start / latest end of its active
 periods (epoch; blank = open on that side, or no period = always active), `active_start_local` `active_end_local` ·
@@ -143,7 +146,9 @@ late, the bus came early**) and `_rel` = err / lead_s, so **the 10% rule is |rel
 on headway trips, the Downtown Campus Connector) `tt_err_s` `tt_rel`; `ttd_epoch` (timetable + the bus's current
 delay) `ttd_err_s` `ttd_rel`. Passio at t uses the collector's rules (this bus, loop stop_sequence, first seen by t
 and still shown within 90 s, only for its next visit; an update made before the previous visit on the same trip =
-previous_lap). Inputs: the archived `pred-updates`, `raw-polls`, `gtfs` files of the day and arrivals.csv. About
+previous_lap; since 2026-10-16 (DC-010) a minute the own trip id left empty, after one it filled for the same arrival,
+takes the bus's prediction under a trip id Passio re-matched it to, by the detector's own rule, as in
+predictions.csv, and that time is no longer a no_arrival row). Inputs: the archived `pred-updates`, `raw-polls`, `gtfs` files of the day and arrivals.csv. About
 130,000 rows and 4 MB gzipped per service day.
 
 **Aggregating it (`summary()`, `data/eta/summary.csv`).** Rows of one arrival are near-copies (up to 45 per arrival),
