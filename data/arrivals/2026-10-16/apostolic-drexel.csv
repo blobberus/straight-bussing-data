@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792145429,2026-10-16T10:10:29Z,2026-10-16 05:10:29,4,5,310,6126,Apostolic/Drexel,501492,4322,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,7,,,,,,11,,,pass
+1792148017,2026-10-16T10:53:37Z,2026-10-16 05:53:37,4,5,353,6126,Apostolic/Drexel,501492,4322,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,,,,,,18,,,proximity
