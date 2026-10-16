@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792184790,2026-10-16T21:06:30Z,2026-10-16 16:06:30,4,16,966,1075,North,501582,12646,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,,,,,,0,,,pass
+1792184845,2026-10-16T21:07:25Z,2026-10-16 16:07:25,4,16,967,1075,North,501582,12646,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1792184790,55,2.41,50,,,transition
+1792185075,2026-10-16T21:11:15Z,2026-10-16 16:11:15,4,16,971,1075,North,501582,12646,140008,S. Drexel Ave & E 53rd St,5327 South Drexel Avenue,41.79853,-87.60374,4,8635,685.0,1792184845,230,3.81,0,1792184990,190,transition
