@@ -2,6 +2,10 @@ name: Sync from straight-bussing
 # Every 30 minutes: pull the shuttle arrival data (the app repo's 'data' branch) and the RouteKnower methodology
 # (its 'main' branch) from the PUBLIC app repo github.com/blobberus/straight-bussing, rebuild the per-day / per-route
 # CSVs, the viewer index and the README summary (scripts/sync.py), and commit only real changes. No secrets needed.
+# Self-chaining since 2026-10-16 (app repo docs/DATA-COLLECTION-LOG.md DC-013): GitHub fired the cron below only about
+# every 4 to 5 hours, so each run now starts the next one about 30 min later; the cron stays as a backstop. The
+# concurrency group keeps at most one run waiting, so there is only ever one chain. Stop it: repo variable
+# SYNC_CHAIN = off.
 on:
   schedule: [{ cron: "4,34 * * * *" }]
   workflow_dispatch:
@@ -12,7 +16,7 @@ concurrency: { group: sync, cancel-in-progress: false }
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45     # the chain step waits 25 min
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -38,3 +42,11 @@ jobs:
         run: |
           curl -fsS -X PUT -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/sync.yml/enable" || echo "keepalive failed (harmless)"
+      - name: Chain the next sync in about 30 min (DC-013)
+        if: always() && vars.SYNC_CHAIN != 'off'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          sleep 1500
+          waiting=$(gh run list -R "${{ github.repository }}" -w sync.yml -L 20 --json status             --jq '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length' || echo 0)
+          if [ "${waiting:-0}" -gt 0 ]; then echo "a sync is already waiting: no new link"; exit 0; fi
+          gh workflow run sync.yml -R "${{ github.repository }}" --ref main && echo "next sync dispatched"             || echo "::warning title=Sync chain::dispatch failed; the cron backstop still runs"
