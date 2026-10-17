@@ -1,4 +1,5 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792098255,2026-10-15T21:04:15Z,2026-10-15 16:04:15,3,16,964,1075,North,501582,4325,140008,S. Drexel Ave & E 53rd St,S. Drexel Ave & E 53rd St,41.79853,-87.60374,4,,,,,,,,,gps
 1792099153,2026-10-15T21:19:13Z,2026-10-15 16:19:13,3,16,979,1075,North,501582,4325,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,5,,,,,,0,1792099122,222,transition
 1792099255,2026-10-15T21:20:55Z,2026-10-15 16:20:55,3,16,980,1075,North,501582,4325,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,140009,334.6,1792099153,102,3.28,0,1792099094,204,transition
 1792099463,2026-10-15T21:24:23Z,2026-10-15 16:24:23,3,16,984,1075,North,501582,4325,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,7,8637,1138.1,1792099255,208,5.47,0,1792099468,209,transition

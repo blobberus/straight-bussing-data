@@ -323,11 +323,30 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792106623,2026-10-15T23:23:43Z,2026-10-15 18:23:43,3,18,1103,5700,Friend Center/Metra,499516,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1792106604,19,6.69,0,1792105312,1506,transition
 1792106632,2026-10-15T23:23:52Z,2026-10-15 18:23:52,3,18,1103,5700,Friend Center/Metra,499516,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1792106623,9,7.79,0,1792105317,1515,transition
 1792107730,2026-10-15T23:42:10Z,2026-10-15 18:42:10,3,18,1122,5700,Friend Center/Metra,499516,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,138838,434.8,1792106632,1098,0.4,0,1792108249,503,pass
+1792107765,2026-10-15T23:42:45Z,2026-10-15 18:42:45,3,18,1122,5700,Friend Center/Metra,499516,4320,8613,Wyler Pavilion,Wyler Pavilion,41.7888,-87.60487,1,,,,,,,,,gps
+1792107799,2026-10-15T23:43:19Z,2026-10-15 18:43:19,3,18,1123,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,Bernard Mitchell Hospital,41.78943,-87.60487,2,,,,,,,,,gps
+1792107841,2026-10-15T23:44:01Z,2026-10-15 18:44:01,3,18,1124,5700,Friend Center/Metra,499517,4320,8616,58th Street & Drexel,58th Street & Drexel,41.78951,-87.60392,3,,,,,,,,,gps
 1792107853,2026-10-15T23:44:13Z,2026-10-15 18:44:13,3,18,1124,5700,Friend Center/Metra,499517,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,0,1792108428,695,transition
 1792107884,2026-10-15T23:44:44Z,2026-10-15 18:44:44,3,18,1124,5700,Friend Center/Metra,499517,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,0,,,transition
 1792108901,2026-10-16T00:01:41Z,2026-10-15 19:01:41,3,19,1141,5700,Friend Center/Metra,499518,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,20,,,proximity
+1792108985,2026-10-16T00:03:05Z,2026-10-15 19:03:05,3,19,1143,5700,Friend Center/Metra,499516,4320,8613,Wyler Pavilion,Wyler Pavilion,41.7888,-87.60487,1,,,,,,,,,gps
+1792109015,2026-10-16T00:03:35Z,2026-10-15 19:03:35,3,19,1143,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,Bernard Mitchell Hospital,41.78943,-87.60487,2,,,,,,,,,gps
+1792109063,2026-10-16T00:04:23Z,2026-10-15 19:04:23,3,19,1144,5700,Friend Center/Metra,499516,4320,8616,58th Street & Drexel,58th Street & Drexel,41.78951,-87.60392,3,,,,,,,,,gps
+1792109105,2026-10-16T00:05:05Z,2026-10-15 19:05:05,3,19,1145,5700,Friend Center/Metra,499516,4320,8617,Comer Children's Hospital,Comer Children's Hospital,41.79051,-87.60365,4,,,,,,,,,gps
+1792110315,2026-10-16T00:25:15Z,2026-10-15 19:25:15,3,19,1165,5700,Friend Center/Metra,499516,4320,8613,Wyler Pavilion,Wyler Pavilion,41.7888,-87.60487,1,,,,,,,,,gps
+1792110334,2026-10-16T00:25:34Z,2026-10-15 19:25:34,3,19,1165,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,Bernard Mitchell Hospital,41.78943,-87.60487,2,,,,,,,,,gps
+1792110363,2026-10-16T00:26:03Z,2026-10-15 19:26:03,3,19,1166,5700,Friend Center/Metra,499516,4320,8616,58th Street & Drexel,58th Street & Drexel,41.78951,-87.60392,3,,,,,,,,,gps
 1792110989,2026-10-16T00:36:29Z,2026-10-15 19:36:29,3,19,1176,5700,Friend Center/Metra,499519,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,288,,,proximity
+1792111338,2026-10-16T00:42:18Z,2026-10-15 19:42:18,3,19,1182,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,Bernard Mitchell Hospital,41.78943,-87.60487,2,,,,,,,,,gps
+1792111386,2026-10-16T00:43:06Z,2026-10-15 19:43:06,3,19,1183,5700,Friend Center/Metra,499519,4320,8616,58th Street & Drexel,58th Street & Drexel,41.78951,-87.60392,3,,,,,,,,,gps
 1792111398,2026-10-16T00:43:18Z,2026-10-15 19:43:18,3,19,1183,5700,Friend Center/Metra,499519,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,0,,,transition
+1792111425,2026-10-16T00:43:45Z,2026-10-15 19:43:45,3,19,1183,5700,Friend Center/Metra,499516,4320,138838,S Drexel Ave & 57th St,S Drexel Ave & 57th St,41.79114,-87.60365,5,,,,,,,,,gps
 1792112415,2026-10-16T01:00:15Z,2026-10-15 20:00:15,3,20,1200,5700,Friend Center/Metra,499516,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1792112876,438,pass
+1792112463,2026-10-16T01:01:03Z,2026-10-15 20:01:03,3,20,1201,5700,Friend Center/Metra,499516,4320,8613,Wyler Pavilion,Wyler Pavilion,41.7888,-87.60487,1,,,,,,,,,gps
+1792112481,2026-10-16T01:01:21Z,2026-10-15 20:01:21,3,20,1201,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,Bernard Mitchell Hospital,41.78943,-87.60487,2,,,,,,,,,gps
+1792112517,2026-10-16T01:01:57Z,2026-10-15 20:01:57,3,20,1201,5700,Friend Center/Metra,499516,4320,8616,58th Street & Drexel,58th Street & Drexel,41.78951,-87.60392,3,,,,,,,,,gps
+1792112541,2026-10-16T01:02:21Z,2026-10-15 20:02:21,3,20,1202,5700,Friend Center/Metra,499520,4320,8617,Comer Children's Hospital,Comer Children's Hospital,41.79051,-87.60365,4,,,,,,,,,gps
 1792112547,2026-10-16T01:02:27Z,2026-10-15 20:02:27,3,20,1202,5700,Friend Center/Metra,499520,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,0,,,transition
+1792114858,2026-10-16T01:40:58Z,2026-10-15 20:40:58,3,20,1240,5700,Friend Center/Metra,499516,4320,8616,58th Street & Drexel,58th Street & Drexel,41.78951,-87.60392,3,,,,,,,,,gps
+1792114888,2026-10-16T01:41:28Z,2026-10-15 20:41:28,3,20,1241,5700,Friend Center/Metra,499516,4320,8617,Comer Children's Hospital,Comer Children's Hospital,41.79051,-87.60365,4,,,,,,,,,gps
 1792114895,2026-10-16T01:41:35Z,2026-10-15 20:41:35,3,20,1241,5700,Friend Center/Metra,499516,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,8,,,proximity

@@ -34,17 +34,17 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-17 15:28 UTC · 26,623 arrivals · 9 service days · newest arrival 2026-10-17 00:46:10 (Chicago time)_
+_Last sync: 2026-10-17 15:54 UTC · 28,412 arrivals · 9 service days · newest arrival 2026-10-17 00:46:10 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-16 | 3,631 | 14 | [data/arrivals/2026-10-16/](data/arrivals/2026-10-16) |
-| 2026-10-15 | 3,431 | 13 | [data/arrivals/2026-10-15/](data/arrivals/2026-10-15) |
-| 2026-10-14 | 3,636 | 13 | [data/arrivals/2026-10-14/](data/arrivals/2026-10-14) |
-| 2026-10-13 | 3,735 | 13 | [data/arrivals/2026-10-13/](data/arrivals/2026-10-13) |
-| 2026-10-12 | 3,719 | 13 | [data/arrivals/2026-10-12/](data/arrivals/2026-10-12) |
-| 2026-10-11 | 720 | 4 | [data/arrivals/2026-10-11/](data/arrivals/2026-10-11) |
-| 2026-10-10 | 937 | 5 | [data/arrivals/2026-10-10/](data/arrivals/2026-10-10) |
+| 2026-10-16 | 3,994 | 14 | [data/arrivals/2026-10-16/](data/arrivals/2026-10-16) |
+| 2026-10-15 | 3,805 | 13 | [data/arrivals/2026-10-15/](data/arrivals/2026-10-15) |
+| 2026-10-14 | 3,995 | 13 | [data/arrivals/2026-10-14/](data/arrivals/2026-10-14) |
+| 2026-10-13 | 3,998 | 13 | [data/arrivals/2026-10-13/](data/arrivals/2026-10-13) |
+| 2026-10-12 | 4,000 | 13 | [data/arrivals/2026-10-12/](data/arrivals/2026-10-12) |
+| 2026-10-11 | 784 | 4 | [data/arrivals/2026-10-11/](data/arrivals/2026-10-11) |
+| 2026-10-10 | 1,022 | 5 | [data/arrivals/2026-10-10/](data/arrivals/2026-10-10) |
 | 2026-10-09 | 3,256 | 14 | [data/arrivals/2026-10-09/](data/arrivals/2026-10-09) |
 | 2026-10-08 | 3,558 | 13 | [data/arrivals/2026-10-08/](data/arrivals/2026-10-08) |
 
@@ -52,18 +52,18 @@ Routes on 2026-10-16:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic/Drexel | 546 | [apostolic-drexel.csv](data/arrivals/2026-10-16/apostolic-drexel.csv) |
-| Downtown Campus Connector | 516 | [downtown-campus-connector.csv](data/arrivals/2026-10-16/downtown-campus-connector.csv) |
-| Red Line/Arts Block | 481 | [red-line-arts-block.csv](data/arrivals/2026-10-16/red-line-arts-block.csv) |
-| Midway Metra | 461 | [midway-metra.csv](data/arrivals/2026-10-16/midway-metra.csv) |
-| 53rd Street Express | 443 | [53rd-street-express.csv](data/arrivals/2026-10-16/53rd-street-express.csv) |
-| Friend Center/Metra | 313 | [friend-center-metra.csv](data/arrivals/2026-10-16/friend-center-metra.csv) |
-| Apostolic | 220 | [apostolic.csv](data/arrivals/2026-10-16/apostolic.csv) |
-| East | 135 | [east.csv](data/arrivals/2026-10-16/east.csv) |
-| Central | 132 | [central.csv](data/arrivals/2026-10-16/central.csv) |
+| Downtown Campus Connector | 595 | [downtown-campus-connector.csv](data/arrivals/2026-10-16/downtown-campus-connector.csv) |
+| Apostolic/Drexel | 573 | [apostolic-drexel.csv](data/arrivals/2026-10-16/apostolic-drexel.csv) |
+| Red Line/Arts Block | 564 | [red-line-arts-block.csv](data/arrivals/2026-10-16/red-line-arts-block.csv) |
+| Midway Metra | 475 | [midway-metra.csv](data/arrivals/2026-10-16/midway-metra.csv) |
+| 53rd Street Express | 447 | [53rd-street-express.csv](data/arrivals/2026-10-16/53rd-street-express.csv) |
+| Friend Center/Metra | 314 | [friend-center-metra.csv](data/arrivals/2026-10-16/friend-center-metra.csv) |
+| Apostolic | 227 | [apostolic.csv](data/arrivals/2026-10-16/apostolic.csv) |
+| Central | 201 | [central.csv](data/arrivals/2026-10-16/central.csv) |
+| South | 172 | [south.csv](data/arrivals/2026-10-16/south.csv) |
+| East | 137 | [east.csv](data/arrivals/2026-10-16/east.csv) |
 | Drexel | 120 | [drexel.csv](data/arrivals/2026-10-16/drexel.csv) |
 | North | 112 | [north.csv](data/arrivals/2026-10-16/north.csv) |
-| South | 102 | [south.csv](data/arrivals/2026-10-16/south.csv) |
-| Regents Express | 27 | [regents-express.csv](data/arrivals/2026-10-16/regents-express.csv) |
+| Regents Express | 34 | [regents-express.csv](data/arrivals/2026-10-16/regents-express.csv) |
 | South Loop Shuttle | 23 | [south-loop-shuttle.csv](data/arrivals/2026-10-16/south-loop-shuttle.csv) |
 <!-- SYNC:END -->
