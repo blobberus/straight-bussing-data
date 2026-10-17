@@ -459,3 +459,4 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792194812,2026-10-16T23:53:32Z,2026-10-16 18:53:32,4,18,1133,5703,Midway Metra,503273,12644,8655,60th & Cottage Grove,East 60th Street,41.78582,-87.60596,6,,,,,,0,1792194691,142,transition
 1792195679,2026-10-17T00:07:59Z,2026-10-16 19:07:59,4,19,1147,5703,Midway Metra,503273,12644,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,8655,394.3,1792194815,864,0.46,0,1792195331,439,pass
 1792200823,2026-10-17T01:33:43Z,2026-10-16 20:33:43,4,20,1233,5703,Midway Metra,503273,12644,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,,,,,,8,,,proximity
+1792202052,2026-10-17T01:54:12Z,2026-10-16 20:54:12,4,20,1254,5703,Midway Metra,503273,12644,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,,,,,,0,,,pass
