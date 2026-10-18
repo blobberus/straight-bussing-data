@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-17 23:53 UTC · 28,826 arrivals · 10 service days · newest arrival 2026-10-17 18:48:12 (Chicago time)_
+_Last sync: 2026-10-18 00:44 UTC · 28,926 arrivals · 10 service days · newest arrival 2026-10-17 19:28:27 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-17 | 414 | 5 | [data/arrivals/2026-10-17/](data/arrivals/2026-10-17) |
+| 2026-10-17 | 514 | 5 | [data/arrivals/2026-10-17/](data/arrivals/2026-10-17) |
 | 2026-10-16 | 3,994 | 14 | [data/arrivals/2026-10-16/](data/arrivals/2026-10-16) |
 | 2026-10-15 | 3,805 | 13 | [data/arrivals/2026-10-15/](data/arrivals/2026-10-15) |
 | 2026-10-14 | 3,995 | 13 | [data/arrivals/2026-10-14/](data/arrivals/2026-10-14) |
@@ -53,9 +53,9 @@ Routes on 2026-10-17:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| East | 137 | [east.csv](data/arrivals/2026-10-17/east.csv) |
-| Central | 131 | [central.csv](data/arrivals/2026-10-17/central.csv) |
-| South | 76 | [south.csv](data/arrivals/2026-10-17/south.csv) |
-| North | 65 | [north.csv](data/arrivals/2026-10-17/north.csv) |
-| South Loop Shuttle | 5 | [south-loop-shuttle.csv](data/arrivals/2026-10-17/south-loop-shuttle.csv) |
+| East | 168 | [east.csv](data/arrivals/2026-10-17/east.csv) |
+| Central | 166 | [central.csv](data/arrivals/2026-10-17/central.csv) |
+| South | 89 | [south.csv](data/arrivals/2026-10-17/south.csv) |
+| North | 82 | [north.csv](data/arrivals/2026-10-17/north.csv) |
+| South Loop Shuttle | 9 | [south-loop-shuttle.csv](data/arrivals/2026-10-17/south-loop-shuttle.csv) |
 <!-- SYNC:END -->
