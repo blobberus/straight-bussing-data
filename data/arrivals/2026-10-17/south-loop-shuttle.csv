@@ -21,3 +21,9 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792291586,2026-10-18T02:46:26Z,2026-10-17 21:46:26,5,21,1306,5716,South Loop Shuttle,501793,4327,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,841,,,proximity
 1792292595,2026-10-18T03:03:15Z,2026-10-17 22:03:15,5,22,1323,5716,South Loop Shuttle,,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,,,,gps
 1792293846,2026-10-18T03:24:06Z,2026-10-17 22:24:06,5,22,1344,5716,South Loop Shuttle,501793,4327,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,0,,,pass
+1792295004,2026-10-18T03:43:24Z,2026-10-17 22:43:24,5,22,1363,5716,South Loop Shuttle,501793,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,0,,,transition
+1792295006,2026-10-18T03:43:26Z,2026-10-17 22:43:26,5,22,1363,5716,South Loop Shuttle,501797,4327,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,,,,,,,,,gps
+1792295134,2026-10-18T03:45:34Z,2026-10-17 22:45:34,5,22,1365,5716,South Loop Shuttle,501797,4327,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,,,,,,0,,,transition
+1792295256,2026-10-18T03:47:36Z,2026-10-17 22:47:36,5,22,1367,5716,South Loop Shuttle,501797,4327,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,9593,943.4,1792295134,122,7.73,0,1792295252,239,transition
+1792296217,2026-10-18T04:03:37Z,2026-10-17 23:03:37,5,23,1383,5716,South Loop Shuttle,501798,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,0,1792295693,672,transition
+1792296224,2026-10-18T04:03:44Z,2026-10-17 23:03:44,5,23,1383,5716,South Loop Shuttle,501798,4327,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,8579,1069.8,1792295256,968,1.11,0,1792298501,679,pass
