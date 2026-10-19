@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792444715,2026-10-19T21:18:35Z,2026-10-19 16:18:35,0,16,978,1075,North,501582,4538,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,7,,,,,,0,1792445920,191,transition
+1792445413,2026-10-19T21:30:13Z,2026-10-19 16:30:13,0,16,990,1075,North,501585,4538,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1792444715,698,0.19,31,1792445070,349,proximity
+1792445609,2026-10-19T21:33:29Z,2026-10-19 16:33:29,0,16,993,1075,North,501585,4538,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1792445413,196,2.04,9,1792445451,207,transition
