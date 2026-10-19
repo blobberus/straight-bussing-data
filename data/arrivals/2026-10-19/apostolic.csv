@@ -1,0 +1,8 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792404752,2026-10-19T10:12:32Z,2026-10-19 05:12:32,0,5,312,5702,Apostolic,675878,4322,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,0,,,,,,0,,,transition
+1792404995,2026-10-19T10:16:35Z,2026-10-19 05:16:35,0,5,316,5702,Apostolic,675878,4322,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,1,133007,1635.3,1792404752,243,6.73,0,1792404910,196,transition
+1792405029,2026-10-19T10:17:09Z,2026-10-19 05:17:09,0,5,317,5702,Apostolic,675878,4322,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,2,8612,237.8,1792404995,34,6.99,0,1792404953,230,transition
+1792405041,2026-10-19T10:17:21Z,2026-10-19 05:17:21,0,5,317,5702,Apostolic,675878,4322,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,3,8613,70.1,1792405029,12,5.84,35,1792404978,178,transition
+1792405092,2026-10-19T10:18:12Z,2026-10-19 05:18:12,0,5,318,5702,Apostolic,675878,4322,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,4,8615,95.8,1792405041,51,5.99,0,1792405010,229,transition
+1792405117,2026-10-19T10:18:37Z,2026-10-19 05:18:37,0,5,318,5702,Apostolic,675878,4322,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,5,8616,127.0,1792405092,25,5.08,0,1792405058,191,transition
+1792405125,2026-10-19T10:18:45Z,2026-10-19 05:18:45,0,5,318,5702,Apostolic,675878,4322,8609,57th Street & Drexel (NB),South Drexel Avenue,41.79131,-87.60367,6,8617,89.1,1792405117,8,11.13,,1792405068,199,transition
