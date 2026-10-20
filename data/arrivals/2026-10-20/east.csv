@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792530297,2026-10-20T21:04:57Z,2026-10-20 16:04:57,1,16,964,1077,East,501673,12648,20132,53 & Kimbark (EB),1301 East 53rd Street,41.79938,-87.59512,5,,,,,,0,,,pass

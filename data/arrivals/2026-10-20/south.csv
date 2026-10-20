@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792530373,2026-10-20T21:06:13Z,2026-10-20 16:06:13,1,16,966,1076,South,501621,4328,8659,63rd & Woodlawn,East 63rd Street,41.78066,-87.59638,2,,,,,,0,,,pass
