@@ -1,2 +1,7 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
 1792496472,2026-10-20T11:41:12Z,2026-10-20 06:41:12,1,6,401,5704,Downtown Campus Connector,874028,12649,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,,,,,,0,,,pass
+1792497071,2026-10-20T11:51:11Z,2026-10-20 06:51:11,1,6,411,5704,Downtown Campus Connector,874028,4318,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1792497395,2026-10-20T11:56:35Z,2026-10-20 06:56:35,1,6,416,5704,Downtown Campus Connector,,4318,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1792497631,2026-10-20T12:00:31Z,2026-10-20 07:00:31,1,7,420,5704,Downtown Campus Connector,,4318,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1792498024,2026-10-20T12:07:04Z,2026-10-20 07:07:04,1,7,427,5704,Downtown Campus Connector,874028,12649,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,24,1792498269,184,pass
+1792498268,2026-10-20T12:11:08Z,2026-10-20 07:11:08,1,7,431,5704,Downtown Campus Connector,874028,12649,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1792498024,244,6.01,82,1792498188,194,proximity
