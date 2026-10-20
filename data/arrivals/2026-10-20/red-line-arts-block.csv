@@ -252,10 +252,29 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792517533,2026-10-20T17:32:13Z,2026-10-20 12:32:13,1,12,752,5699,Red Line/Arts Block,,4331,67600,Smart Museum of Arts,South Ellis Avenue,41.79412,-87.60125,3,,,,,,,,,gps
 1792517733,2026-10-20T17:35:33Z,2026-10-20 12:35:33,1,12,755,5699,Red Line/Arts Block,,4331,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,,,,gps
 1792517812,2026-10-20T17:36:52Z,2026-10-20 12:36:52,1,12,756,5699,Red Line/Arts Block,,4331,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,,,,,,,,,gps
-1792517910,2026-10-20T17:38:30Z,2026-10-20 12:38:30,1,12,758,5699,Red Line/Arts Block,,4331,67602,Garfield Red Line Station (WB),West Garfield Boulevard,41.79467,-87.63111,6,,,,,,,,,gps
-1792518086,2026-10-20T17:41:26Z,2026-10-20 12:41:26,1,12,761,5699,Red Line/Arts Block,,4331,69624,Garfield Red Line Station (EB),West Garfield Boulevard,41.79416,-87.63123,7,,,,,,,,,gps
-1792518184,2026-10-20T17:43:04Z,2026-10-20 12:43:04,1,12,763,5699,Red Line/Arts Block,,4331,161392,Garfield & Wabash (EB),East Garfield Boulevard,41.79424,-87.62365,8,,,,,,,,,gps
-1792518272,2026-10-20T17:44:32Z,2026-10-20 12:44:32,1,12,764,5699,Red Line/Arts Block,,4331,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,,,,,,,,,gps
-1792518429,2026-10-20T17:47:09Z,2026-10-20 12:47:09,1,12,767,5699,Red Line/Arts Block,,4331,138836,Midway Plaisance & Cottage Grove,East Midway Plaisance,41.78635,-87.60624,10,,,,,,,,,gps
-1792518501,2026-10-20T17:48:21Z,2026-10-20 12:48:21,1,12,768,5699,Red Line/Arts Block,,4331,67598,Logan Center for Arts,East 60th Street,41.78586,-87.6038,11,,,,,,,,,gps
+1792517910,2026-10-20T17:38:30Z,2026-10-20 12:38:30,1,12,758,5699,Red Line/Arts Block,690483,4331,67602,Garfield Red Line Station (WB),West Garfield Boulevard,41.79467,-87.63111,6,,,,,,,,,gps
+1792518086,2026-10-20T17:41:26Z,2026-10-20 12:41:26,1,12,761,5699,Red Line/Arts Block,690483,4331,69624,Garfield Red Line Station (EB),West Garfield Boulevard,41.79416,-87.63123,7,,,,,,,,,gps
+1792518184,2026-10-20T17:43:04Z,2026-10-20 12:43:04,1,12,763,5699,Red Line/Arts Block,690483,4331,161392,Garfield & Wabash (EB),East Garfield Boulevard,41.79424,-87.62365,8,,,,,,,,,gps
+1792518272,2026-10-20T17:44:32Z,2026-10-20 12:44:32,1,12,764,5699,Red Line/Arts Block,690483,4331,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,,,,,,,,,gps
+1792518429,2026-10-20T17:47:09Z,2026-10-20 12:47:09,1,12,767,5699,Red Line/Arts Block,690483,4331,138836,Midway Plaisance & Cottage Grove,East Midway Plaisance,41.78635,-87.60624,10,,,,,,,,,gps
+1792518501,2026-10-20T17:48:21Z,2026-10-20 12:48:21,1,12,768,5699,Red Line/Arts Block,690483,4331,67598,Logan Center for Arts,East 60th Street,41.78586,-87.6038,11,,,,,,,,,gps
 1792518899,2026-10-20T17:54:59Z,2026-10-20 12:54:59,1,12,774,5699,Red Line/Arts Block,,4331,67599,Institute for Study of Ancient Cultures,South Ellis Avenue,41.78956,-87.60124,1,,,,,,,,,gps
+1792518935,2026-10-20T17:55:35Z,2026-10-20 12:55:35,1,12,775,5699,Red Line/Arts Block,,4331,8650,Ellis/57th,East 57th Street,41.79129,-87.60125,2,,,,,,,,,gps
+1792518994,2026-10-20T17:56:34Z,2026-10-20 12:56:34,1,12,776,5699,Red Line/Arts Block,,4331,67600,Smart Museum of Arts,South Ellis Avenue,41.79412,-87.60125,3,,,,,,,,,gps
+1792519283,2026-10-20T18:01:23Z,2026-10-20 13:01:23,1,13,781,5699,Red Line/Arts Block,,4331,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,,,,gps
+1792519357,2026-10-20T18:02:37Z,2026-10-20 13:02:37,1,13,782,5699,Red Line/Arts Block,,4331,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,,,,,,,,,gps
+1792519440,2026-10-20T18:04:00Z,2026-10-20 13:04:00,1,13,784,5699,Red Line/Arts Block,,4331,67602,Garfield Red Line Station (WB),West Garfield Boulevard,41.79467,-87.63111,6,,,,,,,,,gps
+1792519616,2026-10-20T18:06:56Z,2026-10-20 13:06:56,1,13,786,5699,Red Line/Arts Block,,4331,69624,Garfield Red Line Station (EB),West Garfield Boulevard,41.79416,-87.63123,7,,,,,,,,,gps
+1792519717,2026-10-20T18:08:37Z,2026-10-20 13:08:37,1,13,788,5699,Red Line/Arts Block,,4331,161392,Garfield & Wabash (EB),East Garfield Boulevard,41.79424,-87.62365,8,,,,,,,,,gps
+1792519802,2026-10-20T18:10:02Z,2026-10-20 13:10:02,1,13,790,5699,Red Line/Arts Block,,4331,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,,,,,,,,,gps
+1792519992,2026-10-20T18:13:12Z,2026-10-20 13:13:12,1,13,793,5699,Red Line/Arts Block,,4331,138836,Midway Plaisance & Cottage Grove,East Midway Plaisance,41.78635,-87.60624,10,,,,,,,,,gps
+1792520053,2026-10-20T18:14:13Z,2026-10-20 13:14:13,1,13,794,5699,Red Line/Arts Block,,4331,67598,Logan Center for Arts,East 60th Street,41.78586,-87.6038,11,,,,,,,,,gps
+1792520216,2026-10-20T18:16:56Z,2026-10-20 13:16:56,1,13,796,5699,Red Line/Arts Block,,4331,67599,Institute for Study of Ancient Cultures,South Ellis Avenue,41.78956,-87.60124,1,,,,,,,,,gps
+1792520263,2026-10-20T18:17:43Z,2026-10-20 13:17:43,1,13,797,5699,Red Line/Arts Block,,4331,8650,Ellis/57th,East 57th Street,41.79129,-87.60125,2,,,,,,,,,gps
+1792520329,2026-10-20T18:18:49Z,2026-10-20 13:18:49,1,13,798,5699,Red Line/Arts Block,,4331,67600,Smart Museum of Arts,South Ellis Avenue,41.79412,-87.60125,3,,,,,,,,,gps
+1792520602,2026-10-20T18:23:22Z,2026-10-20 13:23:22,1,13,803,5699,Red Line/Arts Block,,4331,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,,,,gps
+1792520901,2026-10-20T18:28:21Z,2026-10-20 13:28:21,1,13,808,5699,Red Line/Arts Block,,4331,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,,,,,,,,,gps
+1792520985,2026-10-20T18:29:45Z,2026-10-20 13:29:45,1,13,809,5699,Red Line/Arts Block,,4331,67602,Garfield Red Line Station (WB),West Garfield Boulevard,41.79467,-87.63111,6,,,,,,,,,gps
+1792521146,2026-10-20T18:32:26Z,2026-10-20 13:32:26,1,13,812,5699,Red Line/Arts Block,,4331,69624,Garfield Red Line Station (EB),West Garfield Boulevard,41.79416,-87.63123,7,,,,,,,,,gps
+1792521250,2026-10-20T18:34:10Z,2026-10-20 13:34:10,1,13,814,5699,Red Line/Arts Block,,4331,161392,Garfield & Wabash (EB),East Garfield Boulevard,41.79424,-87.62365,8,,,,,,,,,gps
+1792521330,2026-10-20T18:35:30Z,2026-10-20 13:35:30,1,13,815,5699,Red Line/Arts Block,,4331,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,,,,,,,,,gps
