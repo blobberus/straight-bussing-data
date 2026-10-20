@@ -9,5 +9,12 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792450502,2026-10-19T22:55:02Z,2026-10-19 17:55:02,0,17,1075,5715,Regents Express,524063,4326,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,,,,,,,,,gps
 1792450532,2026-10-19T22:55:32Z,2026-10-19 17:55:32,0,17,1075,5715,Regents Express,524063,4326,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,,,,,,,,,gps
 1792450643,2026-10-19T22:57:23Z,2026-10-19 17:57:23,0,17,1077,5715,Regents Express,524063,4326,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,,,,,,,,,gps
-1792451310,2026-10-19T23:08:30Z,2026-10-19 18:08:30,0,18,1088,5715,Regents Express,,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,,,,,,,,,gps
-1792451530,2026-10-19T23:12:10Z,2026-10-19 18:12:10,0,18,1092,5715,Regents Express,524065,4326,8643,Law School (N),East 60th Street,41.78589,-87.59906,0,,,,,,454,,,proximity
+1792451315,2026-10-19T23:08:35Z,2026-10-19 18:08:35,0,18,1088,5715,Regents Express,524063,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,,,,,,,,,gps
+1792451535,2026-10-19T23:12:15Z,2026-10-19 18:12:15,0,18,1092,5715,Regents Express,524063,4326,8643,Law School (N),East 60th Street,41.78589,-87.59906,7,,,,,,464,1792451487,222,pass
+1792452368,2026-10-19T23:26:08Z,2026-10-19 18:26:08,0,18,1106,5715,Regents Express,524063,4326,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,,,,,,,,,gps
+1792452393,2026-10-19T23:26:33Z,2026-10-19 18:26:33,0,18,1106,5715,Regents Express,524063,4326,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,,,,,,,,,gps
+1792452523,2026-10-19T23:28:43Z,2026-10-19 18:28:43,0,18,1108,5715,Regents Express,524063,4326,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,,,,,,,,,gps
+1792453179,2026-10-19T23:39:39Z,2026-10-19 18:39:39,0,18,1119,5715,Regents Express,,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,,,,,,,,,gps
+1792453396,2026-10-19T23:43:16Z,2026-10-19 18:43:16,0,18,1123,5715,Regents Express,524066,4326,8643,Law School (N),East 60th Street,41.78589,-87.59906,0,,,,,,371,1792451614,1780,proximity
+1792454026,2026-10-19T23:53:46Z,2026-10-19 18:53:46,0,18,1133,5715,Regents Express,524063,4326,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,,,,gps
+1792454063,2026-10-19T23:54:23Z,2026-10-19 18:54:23,0,18,1134,5715,Regents Express,524063,4326,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,,,,,,,,,gps
