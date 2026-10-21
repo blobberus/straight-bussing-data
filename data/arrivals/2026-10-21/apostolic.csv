@@ -1,0 +1,10 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792578232,2026-10-21T10:23:52Z,2026-10-21 05:23:52,2,5,323,5702,Apostolic,675878,4322,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,3,,,,,,25,1792578603,364,proximity
+1792578254,2026-10-21T10:24:14Z,2026-10-21 05:24:14,2,5,324,5702,Apostolic,675879,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,1,,,,,,0,,,transition
+1792578295,2026-10-21T10:24:55Z,2026-10-21 05:24:55,2,5,324,5702,Apostolic,675879,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,2,8612,237.8,1792578254,41,5.8,0,,,transition
+1792578306,2026-10-21T10:25:06Z,2026-10-21 05:25:06,2,5,325,5702,Apostolic,675879,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,3,8613,70.1,1792578295,11,6.37,13,,,transition
+1792578334,2026-10-21T10:25:34Z,2026-10-21 05:25:34,2,5,325,5702,Apostolic,675879,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,4,8615,95.8,1792578306,28,6.39,6,,,transition
+1792578355,2026-10-21T10:25:55Z,2026-10-21 05:25:55,2,5,325,5702,Apostolic,675879,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,5,8616,127.0,1792578334,21,8.47,0,,,transition
+1792578365,2026-10-21T10:26:05Z,2026-10-21 05:26:05,2,5,326,5702,Apostolic,675879,4320,8609,57th Street & Drexel (NB),South Drexel Avenue,41.79131,-87.60367,6,8617,89.1,1792578355,10,8.91,14,,,transition
+1792578374,2026-10-21T10:26:14Z,2026-10-21 05:26:14,2,5,326,5702,Apostolic,675878,4322,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,4,8615,95.8,1792578232,142,0.82,0,1792578181,198,transition
+1792578397,2026-10-21T10:26:37Z,2026-10-21 05:26:37,2,5,326,5702,Apostolic,675878,4322,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,5,8616,127.0,1792578374,23,5.52,,1792578291,157,transition

@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792578206,2026-10-21T10:23:26Z,2026-10-21 05:23:26,2,5,323,5700,Friend Center/Metra,499490,4325,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,,,,,,0,1792578039,232,transition
+1792578392,2026-10-21T10:26:32Z,2026-10-21 05:26:32,2,5,326,5700,Friend Center/Metra,499490,4325,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1792578206,186,7.26,0,1792578407,163,transition
