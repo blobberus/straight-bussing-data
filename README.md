@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-21 01:49 UTC · 37,546 arrivals · 13 service days · newest arrival 2026-10-20 20:30:11 (Chicago time)_
+_Last sync: 2026-10-21 02:14 UTC · 37,636 arrivals · 13 service days · newest arrival 2026-10-20 21:09:10 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-20 | 3,308 | 13 | [data/arrivals/2026-10-20/](data/arrivals/2026-10-20) |
+| 2026-10-20 | 3,398 | 13 | [data/arrivals/2026-10-20/](data/arrivals/2026-10-20) |
 | 2026-10-19 | 4,070 | 13 | [data/arrivals/2026-10-19/](data/arrivals/2026-10-19) |
 | 2026-10-18 | 729 | 4 | [data/arrivals/2026-10-18/](data/arrivals/2026-10-18) |
 | 2026-10-17 | 1,027 | 5 | [data/arrivals/2026-10-17/](data/arrivals/2026-10-17) |
@@ -56,17 +56,17 @@ Routes on 2026-10-20:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Red Line/Arts Block | 551 | [red-line-arts-block.csv](data/arrivals/2026-10-20/red-line-arts-block.csv) |
+| Red Line/Arts Block | 583 | [red-line-arts-block.csv](data/arrivals/2026-10-20/red-line-arts-block.csv) |
 | Midway Metra | 434 | [midway-metra.csv](data/arrivals/2026-10-20/midway-metra.csv) |
+| Apostolic/Drexel | 428 | [apostolic-drexel.csv](data/arrivals/2026-10-20/apostolic-drexel.csv) |
 | 53rd Street Express | 421 | [53rd-street-express.csv](data/arrivals/2026-10-20/53rd-street-express.csv) |
-| Apostolic/Drexel | 420 | [apostolic-drexel.csv](data/arrivals/2026-10-20/apostolic-drexel.csv) |
-| Downtown Campus Connector | 391 | [downtown-campus-connector.csv](data/arrivals/2026-10-20/downtown-campus-connector.csv) |
-| Friend Center/Metra | 334 | [friend-center-metra.csv](data/arrivals/2026-10-20/friend-center-metra.csv) |
+| Downtown Campus Connector | 395 | [downtown-campus-connector.csv](data/arrivals/2026-10-20/downtown-campus-connector.csv) |
+| Friend Center/Metra | 338 | [friend-center-metra.csv](data/arrivals/2026-10-20/friend-center-metra.csv) |
 | Apostolic | 220 | [apostolic.csv](data/arrivals/2026-10-20/apostolic.csv) |
 | Drexel | 202 | [drexel.csv](data/arrivals/2026-10-20/drexel.csv) |
-| East | 109 | [east.csv](data/arrivals/2026-10-20/east.csv) |
-| Central | 100 | [central.csv](data/arrivals/2026-10-20/central.csv) |
-| South | 66 | [south.csv](data/arrivals/2026-10-20/south.csv) |
-| North | 54 | [north.csv](data/arrivals/2026-10-20/north.csv) |
-| Regents Express | 6 | [regents-express.csv](data/arrivals/2026-10-20/regents-express.csv) |
+| East | 127 | [east.csv](data/arrivals/2026-10-20/east.csv) |
+| Central | 113 | [central.csv](data/arrivals/2026-10-20/central.csv) |
+| South | 68 | [south.csv](data/arrivals/2026-10-20/south.csv) |
+| North | 61 | [north.csv](data/arrivals/2026-10-20/north.csv) |
+| Regents Express | 8 | [regents-express.csv](data/arrivals/2026-10-20/regents-express.csv) |
 <!-- SYNC:END -->
