@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792582527,2026-10-21T11:35:27Z,2026-10-21 06:35:27,2,6,395,5699,Red Line/Arts Block,690483,4331,69624,Garfield Red Line Station (EB),West Garfield Boulevard,41.79416,-87.63123,7,,,,,,0,,,pass
+1792582527,2026-10-21T11:35:27Z,2026-10-21 06:35:27,2,6,395,5699,Red Line/Arts Block,690483,4331,67602,Garfield Red Line Station (WB),West Garfield Boulevard,41.79467,-87.63111,6,,,,,,0,,,transition
+1792582629,2026-10-21T11:37:09Z,2026-10-21 06:37:09,2,6,397,5699,Red Line/Arts Block,690483,4331,161392,Garfield & Wabash (EB),East Garfield Boulevard,41.79424,-87.62365,8,67602,953.6,1792582527,102,9.35,0,1792583352,157,transition
