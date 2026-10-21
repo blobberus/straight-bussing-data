@@ -338,3 +338,8 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792546942,2026-10-21T01:42:22Z,2026-10-20 20:42:22,1,20,1242,5700,Friend Center/Metra,499521,4325,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1792546913,29,4.38,0,1792546812,174,transition
 1792546948,2026-10-21T01:42:28Z,2026-10-20 20:42:28,1,20,1242,5700,Friend Center/Metra,499521,4325,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1792546942,6,11.69,0,1792546819,180,transition
 1792550563,2026-10-21T02:42:43Z,2026-10-20 21:42:43,1,21,1302,5700,Friend Center/Metra,499521,4325,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1792547907,2659,pass
+1792550616,2026-10-21T02:43:36Z,2026-10-20 21:43:36,1,21,1303,5700,Friend Center/Metra,499521,4325,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,,,,gps
+1792550639,2026-10-21T02:43:59Z,2026-10-20 21:43:59,1,21,1303,5700,Friend Center/Metra,499521,4325,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,,,,,,,,,gps
+1792550665,2026-10-21T02:44:25Z,2026-10-20 21:44:25,1,21,1304,5700,Friend Center/Metra,499521,4325,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,,,,gps
+1792550697,2026-10-21T02:44:57Z,2026-10-20 21:44:57,1,21,1304,5700,Friend Center/Metra,499521,4325,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,,,gps
+1792550705,2026-10-21T02:45:05Z,2026-10-20 21:45:05,1,21,1305,5700,Friend Center/Metra,499521,4325,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,,,,gps
