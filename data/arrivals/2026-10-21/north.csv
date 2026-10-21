@@ -1,2 +1,7 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
-1792615952,2026-10-21T20:52:32Z,2026-10-21 15:52:32,2,15,952,1075,North,501582,12649,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,,,,proximity
+1792615942,2026-10-21T20:52:22Z,2026-10-21 15:52:22,2,15,952,1075,North,501582,12649,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,765,,,proximity
+1792616735,2026-10-21T21:05:35Z,2026-10-21 16:05:35,2,16,965,1075,North,501582,12649,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1792615942,793,4.77,16,,,proximity
+1792616860,2026-10-21T21:07:40Z,2026-10-21 16:07:40,2,16,967,1075,North,501582,12649,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1792616735,125,3.08,0,,,transition
+1792616889,2026-10-21T21:08:09Z,2026-10-21 16:08:09,2,16,968,1075,North,501582,12649,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1792616860,29,4.57,0,,,transition
+1792617069,2026-10-21T21:11:09Z,2026-10-21 16:11:09,2,16,971,1075,North,501582,12649,140008,S. Drexel Ave & E 53rd St,5327 South Drexel Avenue,41.79853,-87.60374,4,8635,685.0,1792616889,180,3.81,0,1792617005,213,transition
+1792618097,2026-10-21T21:28:17Z,2026-10-21 16:28:17,2,16,988,1075,North,501582,12649,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,,,,,,0,1792618024,158,transition
