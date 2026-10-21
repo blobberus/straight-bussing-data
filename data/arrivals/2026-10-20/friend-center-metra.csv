@@ -343,3 +343,13 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792550665,2026-10-21T02:44:25Z,2026-10-20 21:44:25,1,21,1304,5700,Friend Center/Metra,499521,4325,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,,,,gps
 1792550697,2026-10-21T02:44:57Z,2026-10-20 21:44:57,1,21,1304,5700,Friend Center/Metra,499521,4325,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,,,gps
 1792550705,2026-10-21T02:45:05Z,2026-10-20 21:45:05,1,21,1305,5700,Friend Center/Metra,499521,4325,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,,,,gps
+1792551669,2026-10-21T03:01:09Z,2026-10-20 22:01:09,1,22,1321,5700,Friend Center/Metra,499521,4325,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,,,,gps
+1792551686,2026-10-21T03:01:26Z,2026-10-20 22:01:26,1,22,1321,5700,Friend Center/Metra,499521,4325,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,,,,,,,,,gps
+1792551736,2026-10-21T03:02:16Z,2026-10-20 22:02:16,1,22,1322,5700,Friend Center/Metra,499521,4325,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,,,,gps
+1792551758,2026-10-21T03:02:38Z,2026-10-20 22:02:38,1,22,1322,5700,Friend Center/Metra,499521,4325,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,,,gps
+1792551772,2026-10-21T03:02:52Z,2026-10-20 22:02:52,1,22,1322,5700,Friend Center/Metra,499521,4325,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,,,,gps
+1792554053,2026-10-21T03:40:53Z,2026-10-20 22:40:53,1,22,1360,5700,Friend Center/Metra,,4325,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,,,,gps
+1792554074,2026-10-21T03:41:14Z,2026-10-20 22:41:14,1,22,1361,5700,Friend Center/Metra,,4325,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,,,,,,,,,gps
+1792554107,2026-10-21T03:41:47Z,2026-10-20 22:41:47,1,22,1361,5700,Friend Center/Metra,,4325,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,,,,gps
+1792554138,2026-10-21T03:42:18Z,2026-10-20 22:42:18,1,22,1362,5700,Friend Center/Metra,,4325,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,,,gps
+1792554148,2026-10-21T03:42:28Z,2026-10-20 22:42:28,1,22,1362,5700,Friend Center/Metra,499521,4325,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,17,1792553509,755,proximity
