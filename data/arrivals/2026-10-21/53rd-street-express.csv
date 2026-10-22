@@ -415,8 +415,10 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792623655,2026-10-21T23:00:55Z,2026-10-21 18:00:55,2,18,1080,4346,53rd Street Express,,4328,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,,,,,,,,,gps
 1792623740,2026-10-21T23:02:20Z,2026-10-21 18:02:20,2,18,1082,4346,53rd Street Express,,4328,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,,,,,,,,,gps
 1792623902,2026-10-21T23:05:02Z,2026-10-21 18:05:02,2,18,1085,4346,53rd Street Express,,4328,8629,Ellis Garage & Ratner Athletic (West),South Ellis Avenue,41.79463,-87.60148,4,,,,,,,,,gps
-1792623995,2026-10-21T23:06:35Z,2026-10-21 18:06:35,2,18,1086,4346,53rd Street Express,,4328,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,,,,,,,,,gps
-1792624037,2026-10-21T23:07:17Z,2026-10-21 18:07:17,2,18,1087,4346,53rd Street Express,,4328,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,,,,gps
-1792624103,2026-10-21T23:08:23Z,2026-10-21 18:08:23,2,18,1088,4346,53rd Street Express,,4328,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,7,,,,,,,,,gps
+1792623995,2026-10-21T23:06:35Z,2026-10-21 18:06:35,2,18,1086,4346,53rd Street Express,672355,4328,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,,,,,,,,,gps
+1792624031,2026-10-21T23:07:11Z,2026-10-21 18:07:11,2,18,1087,4346,53rd Street Express,672355,4328,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,,,,gps
+1792624103,2026-10-21T23:08:23Z,2026-10-21 18:08:23,2,18,1088,4346,53rd Street Express,672355,4328,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,7,,,,,,,,,gps
 1792624345,2026-10-21T23:12:25Z,2026-10-21 18:12:25,2,18,1092,4346,53rd Street Express,,4328,8589,Logan Center,East 60th Street,41.78585,-87.60376,8,,,,,,,,,gps
 1792624374,2026-10-21T23:12:54Z,2026-10-21 18:12:54,2,18,1092,4346,53rd Street Express,,4328,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,9,,,,,,,,,gps
+1792624466,2026-10-21T23:14:26Z,2026-10-21 18:14:26,2,18,1094,4346,53rd Street Express,,4328,8632,60th St. & Woodlawn Ave (SE Corner),East 60th Street,41.78594,-87.59653,10,,,,,,,,,gps
+1792625049,2026-10-21T23:24:09Z,2026-10-21 18:24:09,2,18,1104,4346,53rd Street Express,672355,4328,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,,,,,,47,1792624517,1241,pass
