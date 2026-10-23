@@ -415,11 +415,31 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792793923,2026-10-23T22:18:43Z,2026-10-23 17:18:43,4,17,1038,4346,53rd Street Express,,4327,161844,Keller Center EB,5801 South Ellis Avenue,41.78598,-87.59403,11,,,,,,,,,gps
 1792794004,2026-10-23T22:20:04Z,2026-10-23 17:20:04,4,17,1040,4346,53rd Street Express,,4327,8594,Press Building,South Blackstone Avenue,41.78604,-87.59018,12,,,,,,,,,gps
 1792794217,2026-10-23T22:23:37Z,2026-10-23 17:23:37,4,17,1043,4346,53rd Street Express,681014,12646,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,0,,,,,,15,,,proximity
-1792794240,2026-10-23T22:24:00Z,2026-10-23 17:24:00,4,17,1044,4346,53rd Street Express,,4327,8624,Stony Island Parking Lot,East 60th Street,41.78633,-87.58739,13,,,,,,,,,gps
-1792794352,2026-10-23T22:25:52Z,2026-10-23 17:25:52,4,17,1045,4346,53rd Street Express,,4327,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,,,,,,,,,gps
-1792794482,2026-10-23T22:28:02Z,2026-10-23 17:28:02,4,17,1048,4346,53rd Street Express,,4327,8626,Lake Park & 55th St. (SE Corner),South Lake Park Avenue,41.79506,-87.58745,15,,,,,,,,,gps
-1792794566,2026-10-23T22:29:26Z,2026-10-23 17:29:26,4,17,1049,4346,53rd Street Express,,4327,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,16,,,,,,,,,gps
-1792794828,2026-10-23T22:33:48Z,2026-10-23 17:33:48,4,17,1053,4346,53rd Street Express,,4327,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,,,,,,,,,gps
+1792794238,2026-10-23T22:23:58Z,2026-10-23 17:23:58,4,17,1043,4346,53rd Street Express,672355,4327,8624,Stony Island Parking Lot,East 60th Street,41.78633,-87.58739,13,,,,,,,,,gps
+1792794351,2026-10-23T22:25:51Z,2026-10-23 17:25:51,4,17,1045,4346,53rd Street Express,672355,4327,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,,,,,,,,,gps
+1792794480,2026-10-23T22:28:00Z,2026-10-23 17:28:00,4,17,1048,4346,53rd Street Express,672355,4327,8626,Lake Park & 55th St. (SE Corner),South Lake Park Avenue,41.79506,-87.58745,15,,,,,,,,,gps
+1792794566,2026-10-23T22:29:26Z,2026-10-23 17:29:26,4,17,1049,4346,53rd Street Express,672355,4327,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,16,,,,,,115,1792795029,229,pass
+1792794824,2026-10-23T22:33:44Z,2026-10-23 17:33:44,4,17,1053,4346,53rd Street Express,672355,4327,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,,,,,,,,,gps
 1792794919,2026-10-23T22:35:19Z,2026-10-23 17:35:19,4,17,1055,4346,53rd Street Express,,4327,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,,,,,,,,,gps
 1792795042,2026-10-23T22:37:22Z,2026-10-23 17:37:22,4,17,1057,4346,53rd Street Express,,4327,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,,,,,,,,,gps
 1792795163,2026-10-23T22:39:23Z,2026-10-23 17:39:23,4,17,1059,4346,53rd Street Express,,4327,8629,Ellis Garage & Ratner Athletic (West),South Ellis Avenue,41.79463,-87.60148,4,,,,,,,,,gps
+1792795234,2026-10-23T22:40:34Z,2026-10-23 17:40:34,4,17,1060,4346,53rd Street Express,,4327,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,,,,,,,,,gps
+1792795284,2026-10-23T22:41:24Z,2026-10-23 17:41:24,4,17,1061,4346,53rd Street Express,,4327,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,,,,gps
+1792795383,2026-10-23T22:43:03Z,2026-10-23 17:43:03,4,17,1063,4346,53rd Street Express,,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,7,,,,,,,,,gps
+1792795525,2026-10-23T22:45:25Z,2026-10-23 17:45:25,4,17,1065,4346,53rd Street Express,,4327,8589,Logan Center,East 60th Street,41.78585,-87.60376,8,,,,,,,,,gps
+1792795588,2026-10-23T22:46:28Z,2026-10-23 17:46:28,4,17,1066,4346,53rd Street Express,,4327,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,9,,,,,,,,,gps
+1792795656,2026-10-23T22:47:36Z,2026-10-23 17:47:36,4,17,1067,4346,53rd Street Express,,4327,8632,60th St. & Woodlawn Ave (SE Corner),East 60th Street,41.78594,-87.59653,10,,,,,,,,,gps
+1792795704,2026-10-23T22:48:24Z,2026-10-23 17:48:24,4,17,1068,4346,53rd Street Express,,4327,161844,Keller Center EB,5801 South Ellis Avenue,41.78598,-87.59403,11,,,,,,,,,gps
+1792795766,2026-10-23T22:49:26Z,2026-10-23 17:49:26,4,17,1069,4346,53rd Street Express,,4327,8594,Press Building,South Blackstone Avenue,41.78604,-87.59018,12,,,,,,,,,gps
+1792796048,2026-10-23T22:54:08Z,2026-10-23 17:54:08,4,17,1074,4346,53rd Street Express,672355,4327,8624,Stony Island Parking Lot,East 60th Street,41.78633,-87.58739,13,,,,,,47,1792796031,201,proximity
+1792796217,2026-10-23T22:56:57Z,2026-10-23 17:56:57,4,17,1076,4346,53rd Street Express,,4327,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,,,,,,,,,gps
+1792796295,2026-10-23T22:58:15Z,2026-10-23 17:58:15,4,17,1078,4346,53rd Street Express,,4327,8626,Lake Park & 55th St. (SE Corner),South Lake Park Avenue,41.79506,-87.58745,15,,,,,,,,,gps
+1792796455,2026-10-23T23:00:55Z,2026-10-23 18:00:55,4,18,1080,4346,53rd Street Express,,4327,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,16,,,,,,,,,gps
+1792796599,2026-10-23T23:03:19Z,2026-10-23 18:03:19,4,18,1083,4346,53rd Street Express,681014,12646,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,,,,,,15,,,proximity
+1792796670,2026-10-23T23:04:30Z,2026-10-23 18:04:30,4,18,1084,4346,53rd Street Express,,4327,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,,,,,,,,,gps
+1792796790,2026-10-23T23:06:30Z,2026-10-23 18:06:30,4,18,1086,4346,53rd Street Express,,4327,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,,,,,,,,,gps
+1792796886,2026-10-23T23:08:06Z,2026-10-23 18:08:06,4,18,1088,4346,53rd Street Express,,4327,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,,,,,,,,,gps
+1792796982,2026-10-23T23:09:42Z,2026-10-23 18:09:42,4,18,1089,4346,53rd Street Express,,4327,8629,Ellis Garage & Ratner Athletic (West),South Ellis Avenue,41.79463,-87.60148,4,,,,,,,,,gps
+1792797052,2026-10-23T23:10:52Z,2026-10-23 18:10:52,4,18,1090,4346,53rd Street Express,,4327,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,,,,,,,,,gps
+1792797091,2026-10-23T23:11:31Z,2026-10-23 18:11:31,4,18,1091,4346,53rd Street Express,,4327,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,,,,gps
+1792797219,2026-10-23T23:13:39Z,2026-10-23 18:13:39,4,18,1093,4346,53rd Street Express,681015,12646,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,0,,,,,,14,,,proximity
