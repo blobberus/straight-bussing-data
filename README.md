@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-23 04:50 UTC · 45,758 arrivals · 15 service days · newest arrival 2026-10-22 23:31:29 (Chicago time)_
+_Last sync: 2026-10-23 05:16 UTC · 45,823 arrivals · 15 service days · newest arrival 2026-10-23 00:02:39 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-22 | 3,692 | 13 | [data/arrivals/2026-10-22/](data/arrivals/2026-10-22) |
+| 2026-10-22 | 3,757 | 13 | [data/arrivals/2026-10-22/](data/arrivals/2026-10-22) |
 | 2026-10-21 | 4,124 | 13 | [data/arrivals/2026-10-21/](data/arrivals/2026-10-21) |
 | 2026-10-20 | 3,704 | 13 | [data/arrivals/2026-10-20/](data/arrivals/2026-10-20) |
 | 2026-10-19 | 4,070 | 13 | [data/arrivals/2026-10-19/](data/arrivals/2026-10-19) |
@@ -57,17 +57,17 @@ Routes on 2026-10-22:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic/Drexel | 518 | [apostolic-drexel.csv](data/arrivals/2026-10-22/apostolic-drexel.csv) |
+| Apostolic/Drexel | 535 | [apostolic-drexel.csv](data/arrivals/2026-10-22/apostolic-drexel.csv) |
 | Red Line/Arts Block | 518 | [red-line-arts-block.csv](data/arrivals/2026-10-22/red-line-arts-block.csv) |
 | Downtown Campus Connector | 475 | [downtown-campus-connector.csv](data/arrivals/2026-10-22/downtown-campus-connector.csv) |
 | 53rd Street Express | 437 | [53rd-street-express.csv](data/arrivals/2026-10-22/53rd-street-express.csv) |
 | Midway Metra | 432 | [midway-metra.csv](data/arrivals/2026-10-22/midway-metra.csv) |
 | Friend Center/Metra | 312 | [friend-center-metra.csv](data/arrivals/2026-10-22/friend-center-metra.csv) |
 | Apostolic | 264 | [apostolic.csv](data/arrivals/2026-10-22/apostolic.csv) |
-| Central | 238 | [central.csv](data/arrivals/2026-10-22/central.csv) |
+| Central | 251 | [central.csv](data/arrivals/2026-10-22/central.csv) |
 | Drexel | 162 | [drexel.csv](data/arrivals/2026-10-22/drexel.csv) |
-| South | 138 | [south.csv](data/arrivals/2026-10-22/south.csv) |
-| East | 97 | [east.csv](data/arrivals/2026-10-22/east.csv) |
-| North | 70 | [north.csv](data/arrivals/2026-10-22/north.csv) |
+| South | 151 | [south.csv](data/arrivals/2026-10-22/south.csv) |
+| East | 109 | [east.csv](data/arrivals/2026-10-22/east.csv) |
+| North | 80 | [north.csv](data/arrivals/2026-10-22/north.csv) |
 | Regents Express | 31 | [regents-express.csv](data/arrivals/2026-10-22/regents-express.csv) |
 <!-- SYNC:END -->
