@@ -1,0 +1,7 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792794332,2026-10-23T22:25:32Z,2026-10-23 17:25:32,4,17,1045,5715,Regents Express,524063,4326,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,0,1792794218,160,transition
+1792794406,2026-10-23T22:26:46Z,2026-10-23 17:26:46,4,17,1046,5715,Regents Express,524063,4326,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,8599,315.7,1792794332,74,4.27,0,1792794336,174,transition
+1792794429,2026-10-23T22:27:09Z,2026-10-23 17:27:09,4,17,1047,5715,Regents Express,524063,4326,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,72572,121.2,1792794406,23,5.27,0,1792794361,197,transition
+1792794546,2026-10-23T22:29:06Z,2026-10-23 17:29:06,4,17,1049,5715,Regents Express,524063,4326,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,72573,558.3,1792794429,117,4.77,0,1792794503,197,transition
+1792795408,2026-10-23T22:43:28Z,2026-10-23 17:43:28,4,17,1063,5715,Regents Express,524063,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,8657,3691.1,1792794546,862,4.28,38,1792795337,215,proximity
+1792795674,2026-10-23T22:47:54Z,2026-10-23 17:47:54,4,17,1067,5715,Regents Express,524064,4326,8643,Law School (N),East 60th Street,41.78589,-87.59906,0,,,,,,72,1792795613,179,proximity
