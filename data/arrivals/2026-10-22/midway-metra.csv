@@ -426,4 +426,6 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792715427,2026-10-23T00:30:27Z,2026-10-22 19:30:27,3,19,1170,5703,Midway Metra,,12648,8655,60th & Cottage Grove,East 60th Street,41.78582,-87.60596,6,,,,,,,,,gps
 1792715469,2026-10-23T00:31:09Z,2026-10-22 19:31:09,3,19,1171,5703,Midway Metra,,12648,8589,Logan Center,East 60th Street,41.78585,-87.60376,7,,,,,,,,,gps
 1792715506,2026-10-23T00:31:46Z,2026-10-22 19:31:46,3,19,1171,5703,Midway Metra,,12648,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,,,,,,,,,gps
-1792717227,2026-10-23T01:00:27Z,2026-10-22 20:00:27,3,20,1200,5703,Midway Metra,,12648,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,,,,,,,,,gps
+1792716711,2026-10-23T00:51:51Z,2026-10-22 19:51:51,3,19,1191,5703,Midway Metra,676445,12648,8589,Logan Center,East 60th Street,41.78585,-87.60376,7,,,,,,,,,gps
+1792717227,2026-10-23T01:00:27Z,2026-10-22 20:00:27,3,20,1200,5703,Midway Metra,676445,12648,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,,,,,,,,,gps
+1792720220,2026-10-23T01:50:20Z,2026-10-22 20:50:20,3,20,1250,5703,Midway Metra,,12648,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,4,,,,,,,,,gps
