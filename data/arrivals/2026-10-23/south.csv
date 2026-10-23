@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792789974,2026-10-23T21:12:54Z,2026-10-23 16:12:54,4,16,972,1076,South,501621,12643,8661,Cottage Grove & 63rd,South Cottage Grove Avenue,41.78057,-87.60582,4,,,,,,45,,,proximity
+1792790058,2026-10-23T21:14:18Z,2026-10-23 16:14:18,4,16,974,1076,South,501621,12643,141863,Cottage & 61st,South Cottage Grove Avenue,41.78396,-87.6059,5,8661,401.2,1792789974,84,10.29,0,1792791108,149,transition
+1792790176,2026-10-23T21:16:16Z,2026-10-23 16:16:16,4,16,976,1076,South,501625,12643,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,0,,,,,,35,1792790877,207,proximity
