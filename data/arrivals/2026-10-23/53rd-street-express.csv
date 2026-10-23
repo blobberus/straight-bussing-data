@@ -258,3 +258,22 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792776466,2026-10-23T17:27:46Z,2026-10-23 12:27:46,4,12,747,4346,53rd Street Express,672355,4327,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,8624,622.1,1792776318,148,5.51,0,1792776444,172,pass
 1792776583,2026-10-23T17:29:43Z,2026-10-23 12:29:43,4,12,749,4346,53rd Street Express,672355,4327,8626,Lake Park & 55th St. (SE Corner),South Lake Park Avenue,41.79506,-87.58745,15,8599,545.3,1792776466,117,4.66,74,1792776521,158,pass
 1792776832,2026-10-23T17:33:52Z,2026-10-23 12:33:52,4,12,753,4346,53rd Street Express,672355,4327,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,16,8626,562.6,1792776583,249,3.21,25,1792776800,158,pass
+1792776991,2026-10-23T17:36:31Z,2026-10-23 12:36:31,4,12,756,4346,53rd Street Express,,4327,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,,,,,,,,,gps
+1792777060,2026-10-23T17:37:40Z,2026-10-23 12:37:40,4,12,757,4346,53rd Street Express,,4327,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,,,,,,,,,gps
+1792777186,2026-10-23T17:39:46Z,2026-10-23 12:39:46,4,12,759,4346,53rd Street Express,,4327,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,,,,,,,,,gps
+1792777309,2026-10-23T17:41:49Z,2026-10-23 12:41:49,4,12,761,4346,53rd Street Express,,4327,8629,Ellis Garage & Ratner Athletic (West),South Ellis Avenue,41.79463,-87.60148,4,,,,,,,,,gps
+1792777365,2026-10-23T17:42:45Z,2026-10-23 12:42:45,4,12,762,4346,53rd Street Express,,4327,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,,,,,,,,,gps
+1792777411,2026-10-23T17:43:31Z,2026-10-23 12:43:31,4,12,763,4346,53rd Street Express,,4327,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,,,,gps
+1792777504,2026-10-23T17:45:04Z,2026-10-23 12:45:04,4,12,765,4346,53rd Street Express,,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,7,,,,,,,,,gps
+1792777668,2026-10-23T17:47:48Z,2026-10-23 12:47:48,4,12,767,4346,53rd Street Express,,4327,8589,Logan Center,East 60th Street,41.78585,-87.60376,8,,,,,,,,,gps
+1792777715,2026-10-23T17:48:35Z,2026-10-23 12:48:35,4,12,768,4346,53rd Street Express,,4327,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,9,,,,,,,,,gps
+1792777785,2026-10-23T17:49:45Z,2026-10-23 12:49:45,4,12,769,4346,53rd Street Express,,4327,8632,60th St. & Woodlawn Ave (SE Corner),East 60th Street,41.78594,-87.59653,10,,,,,,,,,gps
+1792777836,2026-10-23T17:50:36Z,2026-10-23 12:50:36,4,12,770,4346,53rd Street Express,,4327,161844,Keller Center EB,5801 South Ellis Avenue,41.78598,-87.59403,11,,,,,,,,,gps
+1792777907,2026-10-23T17:51:47Z,2026-10-23 12:51:47,4,12,771,4346,53rd Street Express,,4327,8594,Press Building,South Blackstone Avenue,41.78604,-87.59018,12,,,,,,,,,gps
+1792778024,2026-10-23T17:53:44Z,2026-10-23 12:53:44,4,12,773,4346,53rd Street Express,,4327,8624,Stony Island Parking Lot,East 60th Street,41.78633,-87.58739,13,,,,,,,,,gps
+1792778151,2026-10-23T17:55:51Z,2026-10-23 12:55:51,4,12,775,4346,53rd Street Express,,4327,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,,,,,,,,,gps
+1792778287,2026-10-23T17:58:07Z,2026-10-23 12:58:07,4,12,778,4346,53rd Street Express,,4327,8626,Lake Park & 55th St. (SE Corner),South Lake Park Avenue,41.79506,-87.58745,15,,,,,,,,,gps
+1792778596,2026-10-23T18:03:16Z,2026-10-23 13:03:16,4,13,783,4346,53rd Street Express,,4327,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,,,,,,,,,gps
+1792778677,2026-10-23T18:04:37Z,2026-10-23 13:04:37,4,13,784,4346,53rd Street Express,,4327,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,,,,,,,,,gps
+1792778782,2026-10-23T18:06:22Z,2026-10-23 13:06:22,4,13,786,4346,53rd Street Express,,4327,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,,,,,,,,,gps
+1792778879,2026-10-23T18:07:59Z,2026-10-23 13:07:59,4,13,787,4346,53rd Street Express,,4327,8629,Ellis Garage & Ratner Athletic (West),South Ellis Avenue,41.79463,-87.60148,4,,,,,,,,,gps
