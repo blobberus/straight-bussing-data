@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-23 12:00 UTC · 46,053 arrivals · 16 service days · newest arrival 2026-10-23 06:46:12 (Chicago time)_
+_Last sync: 2026-10-23 12:51 UTC · 46,258 arrivals · 16 service days · newest arrival 2026-10-23 07:26:22 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-23 | 230 | 5 | [data/arrivals/2026-10-23/](data/arrivals/2026-10-23) |
+| 2026-10-23 | 435 | 7 | [data/arrivals/2026-10-23/](data/arrivals/2026-10-23) |
 | 2026-10-22 | 3,757 | 13 | [data/arrivals/2026-10-22/](data/arrivals/2026-10-22) |
 | 2026-10-21 | 4,124 | 13 | [data/arrivals/2026-10-21/](data/arrivals/2026-10-21) |
 | 2026-10-20 | 3,704 | 13 | [data/arrivals/2026-10-20/](data/arrivals/2026-10-20) |
@@ -57,9 +57,11 @@ Routes on 2026-10-23:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic | 75 | [apostolic.csv](data/arrivals/2026-10-23/apostolic.csv) |
-| Drexel | 61 | [drexel.csv](data/arrivals/2026-10-23/drexel.csv) |
-| Friend Center/Metra | 45 | [friend-center-metra.csv](data/arrivals/2026-10-23/friend-center-metra.csv) |
-| Midway Metra | 44 | [midway-metra.csv](data/arrivals/2026-10-23/midway-metra.csv) |
-| Downtown Campus Connector | 5 | [downtown-campus-connector.csv](data/arrivals/2026-10-23/downtown-campus-connector.csv) |
+| Apostolic | 107 | [apostolic.csv](data/arrivals/2026-10-23/apostolic.csv) |
+| Midway Metra | 102 | [midway-metra.csv](data/arrivals/2026-10-23/midway-metra.csv) |
+| Drexel | 86 | [drexel.csv](data/arrivals/2026-10-23/drexel.csv) |
+| Friend Center/Metra | 60 | [friend-center-metra.csv](data/arrivals/2026-10-23/friend-center-metra.csv) |
+| Red Line/Arts Block | 32 | [red-line-arts-block.csv](data/arrivals/2026-10-23/red-line-arts-block.csv) |
+| Downtown Campus Connector | 27 | [downtown-campus-connector.csv](data/arrivals/2026-10-23/downtown-campus-connector.csv) |
+| 53rd Street Express | 21 | [53rd-street-express.csv](data/arrivals/2026-10-23/53rd-street-express.csv) |
 <!-- SYNC:END -->
