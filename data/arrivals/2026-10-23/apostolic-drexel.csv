@@ -441,4 +441,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792806094,2026-10-24T01:41:34Z,2026-10-23 20:41:34,4,20,1241,6126,Apostolic/Drexel,,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,,,gps
 1792806196,2026-10-24T01:43:16Z,2026-10-23 20:43:16,4,20,1243,6126,Apostolic/Drexel,,4320,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,,,,gps
 1792806395,2026-10-24T01:46:35Z,2026-10-23 20:46:35,4,20,1246,6126,Apostolic/Drexel,,4320,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,7,,,,,,,,,gps
+1792806738,2026-10-24T01:52:18Z,2026-10-23 20:52:18,4,20,1252,6126,Apostolic/Drexel,676398,4320,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,9,,,,,,,,,gps
 1792807015,2026-10-24T01:56:55Z,2026-10-23 20:56:55,4,20,1256,6126,Apostolic/Drexel,676400,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,,,,proximity
