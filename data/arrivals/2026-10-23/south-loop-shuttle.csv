@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792800192,2026-10-24T00:03:12Z,2026-10-23 19:03:12,4,19,1143,5716,South Loop Shuttle,501794,4328,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,,1792800022,398,proximity
+1792800210,2026-10-24T00:03:30Z,2026-10-23 19:03:30,4,19,1143,5716,South Loop Shuttle,501794,4328,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,8619,36.3,1792800192,18,2.01,30,1792802613,416,proximity
+1792801469,2026-10-24T00:24:29Z,2026-10-23 19:24:29,4,19,1164,5716,South Loop Shuttle,501794,4328,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,77,1792801442,211,proximity
