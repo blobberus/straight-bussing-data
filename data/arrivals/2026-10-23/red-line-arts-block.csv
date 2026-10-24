@@ -604,5 +604,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792807322,2026-10-24T02:02:02Z,2026-10-23 21:02:02,4,21,1262,5699,Red Line/Arts Block,690514,4315,67599,Institute for Study of Ancient Cultures,South Ellis Avenue,41.78956,-87.60124,1,67598,615.3,1792806902,420,1.46,0,1792807245,145,transition
 1792807596,2026-10-24T02:06:36Z,2026-10-23 21:06:36,4,21,1266,5699,Red Line/Arts Block,690514,4315,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,67599,2135.0,1792807322,274,7.79,341,1792807643,233,pass
 1792807988,2026-10-24T02:13:08Z,2026-10-23 21:13:08,4,21,1273,5699,Red Line/Arts Block,690514,4315,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,67601,473.1,1792807596,392,9.28,0,1792807606,441,pass
-1792809843,2026-10-24T02:44:03Z,2026-10-23 21:44:03,4,21,1304,5699,Red Line/Arts Block,,12647,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,,,,gps
-1792809895,2026-10-24T02:44:55Z,2026-10-23 21:44:55,4,21,1304,5699,Red Line/Arts Block,,12647,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,,,,,,,,,gps
+1792809843,2026-10-24T02:44:03Z,2026-10-23 21:44:03,4,21,1304,5699,Red Line/Arts Block,690526,12647,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,,,,gps
+1792809896,2026-10-24T02:44:56Z,2026-10-23 21:44:56,4,21,1304,5699,Red Line/Arts Block,690526,12647,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,,,,,,,,,gps
