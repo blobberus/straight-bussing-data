@@ -1,5 +1,9 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792875563,2026-10-24T20:59:23Z,2026-10-24 15:59:23,5,15,959,1075,North,501585,4314,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,,,,proximity
 1792876669,2026-10-24T21:17:49Z,2026-10-24 16:17:49,5,16,977,1075,North,680979,4328,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,,,,,,0,,,transition
 1792876722,2026-10-24T21:18:42Z,2026-10-24 16:18:42,5,16,978,1075,North,680979,4328,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1792876669,53,6.34,0,,,transition
 1792876743,2026-10-24T21:19:03Z,2026-10-24 16:19:03,5,16,979,1075,North,680979,4328,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1792876722,21,6.31,0,,,transition
 1792876879,2026-10-24T21:21:19Z,2026-10-24 16:21:19,5,16,981,1075,North,680979,4328,140008,S. Drexel Ave & E 53rd St,5327 South Drexel Avenue,41.79853,-87.60374,4,8635,685.0,1792876743,136,5.04,0,1792876870,173,transition
+1792877649,2026-10-24T21:34:09Z,2026-10-24 16:34:09,5,16,994,1075,North,680979,4328,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,5,140008,708.5,1792876879,770,0.92,0,1792877623,182,transition
+1792877683,2026-10-24T21:34:43Z,2026-10-24 16:34:43,5,16,994,1075,North,680979,4328,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,140009,334.6,1792877649,34,9.84,0,1792877635,160,transition
+1792877933,2026-10-24T21:38:53Z,2026-10-24 16:38:53,5,16,998,1075,North,680979,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,7,8637,1138.1,1792877683,250,4.55,27,1792877888,155,transition
