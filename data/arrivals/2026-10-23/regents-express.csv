@@ -31,3 +31,4 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792805201,2026-10-24T01:26:41Z,2026-10-23 20:26:41,4,20,1226,5715,Regents Express,524070,4322,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,72572,121.2,1792805169,32,3.79,0,1792805120,234,transition
 1792805290,2026-10-24T01:28:10Z,2026-10-23 20:28:10,4,20,1228,5715,Regents Express,524070,4322,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,72573,558.3,1792805201,89,6.27,0,1792805229,146,transition
 1792807275,2026-10-24T02:01:15Z,2026-10-23 21:01:15,4,21,1261,5715,Regents Express,524070,4322,8643,Law School (N),East 60th Street,41.78589,-87.59906,7,,,,,,0,1792807122,175,pass
+1792809874,2026-10-24T02:44:34Z,2026-10-23 21:44:34,4,21,1304,5715,Regents Express,524070,4322,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,,,,,,0,,,pass
