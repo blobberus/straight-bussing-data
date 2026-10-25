@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792963430,2026-10-25T21:23:50Z,2026-10-25 16:23:50,6,16,983,1078,Central,501716,4538,140012,53 & Kimbark (WB),East 53rd Street,41.79956,-87.59485,12,,,,,,0,,,transition
+1792963509,2026-10-25T21:25:09Z,2026-10-25 16:25:09,6,16,985,1078,Central,540706,4313,8597,Levi Hall (E),South Ellis Avenue,41.7895,-87.6012,6,,,,,,0,,,transition

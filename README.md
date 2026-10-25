@@ -34,10 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-25 06:35 UTC · 50,832 arrivals · 17 service days · newest arrival 2026-10-25 00:45:30 (Chicago time)_
+_Last sync: 2026-10-25 21:46 UTC · 50,839 arrivals · 18 service days · newest arrival 2026-10-25 16:26:00 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
+| 2026-10-25 | 7 | 4 | [data/arrivals/2026-10-25/](data/arrivals/2026-10-25) |
 | 2026-10-24 | 1,065 | 6 | [data/arrivals/2026-10-24/](data/arrivals/2026-10-24) |
 | 2026-10-23 | 3,944 | 14 | [data/arrivals/2026-10-23/](data/arrivals/2026-10-23) |
 | 2026-10-22 | 3,757 | 13 | [data/arrivals/2026-10-22/](data/arrivals/2026-10-22) |
@@ -51,16 +52,13 @@ _Last sync: 2026-10-25 06:35 UTC · 50,832 arrivals · 17 service days · newest
 | 2026-10-14 | 3,995 | 13 | [data/arrivals/2026-10-14/](data/arrivals/2026-10-14) |
 | 2026-10-13 | 3,998 | 13 | [data/arrivals/2026-10-13/](data/arrivals/2026-10-13) |
 | 2026-10-12 | 4,000 | 13 | [data/arrivals/2026-10-12/](data/arrivals/2026-10-12) |
-| 2026-10-11 | 784 | 4 | [data/arrivals/2026-10-11/](data/arrivals/2026-10-11) |
 
-Routes on 2026-10-24:
+Routes on 2026-10-25:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Central | 361 | [central.csv](data/arrivals/2026-10-24/central.csv) |
-| East | 295 | [east.csv](data/arrivals/2026-10-24/east.csv) |
-| South | 209 | [south.csv](data/arrivals/2026-10-24/south.csv) |
-| North | 169 | [north.csv](data/arrivals/2026-10-24/north.csv) |
-| South Loop Shuttle | 29 | [south-loop-shuttle.csv](data/arrivals/2026-10-24/south-loop-shuttle.csv) |
-| Red Line/Arts Block | 2 | [red-line-arts-block.csv](data/arrivals/2026-10-24/red-line-arts-block.csv) |
+| East | 3 | [east.csv](data/arrivals/2026-10-25/east.csv) |
+| Central | 2 | [central.csv](data/arrivals/2026-10-25/central.csv) |
+| North | 1 | [north.csv](data/arrivals/2026-10-25/north.csv) |
+| South | 1 | [south.csv](data/arrivals/2026-10-25/south.csv) |
 <!-- SYNC:END -->

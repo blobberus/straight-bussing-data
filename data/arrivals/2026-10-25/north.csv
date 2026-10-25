@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792962431,2026-10-25T21:07:11Z,2026-10-25 16:07:11,6,16,967,1075,North,501582,4315,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,,,,proximity

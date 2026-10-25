@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1792962400,2026-10-25T21:06:40Z,2026-10-25 16:06:40,6,16,966,1077,East,501673,4313,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,511,,,proximity
+1792963344,2026-10-25T21:22:24Z,2026-10-25 16:22:24,6,16,982,1077,East,540628,4325,20132,53 & Kimbark (EB),1301 East 53rd Street,41.79938,-87.59512,5,,,,,,0,,,pass
+1792963560,2026-10-25T21:26:00Z,2026-10-25 16:26:00,6,16,986,1077,East,540628,4325,8627,Harper Court (EB),1525 East 53rd Street,41.79953,-87.5881,6,20132,578.6,1792963344,216,2.68,0,1792963459,209,transition
