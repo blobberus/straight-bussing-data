@@ -1,8 +1,8 @@
 {
- "synced": "2026-10-25 05:45",
+ "synced": "2026-10-25 06:35",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 50831,
- "newest": "2026-10-25 00:20:58",
+ "rows": 50832,
+ "newest": "2026-10-25 00:45:30",
  "cutoff_hour": 4,
  "days": [
   {
@@ -988,7 +988,7 @@
   },
   {
    "day": "2026-10-24",
-   "rows": 1064,
+   "rows": 1065,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-24/central.csv",
@@ -1017,7 +1017,7 @@
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-10-24/south-loop-shuttle.csv",
-     "rows": 28,
+     "rows": 29,
      "route_id": "5716"
     }
    }
