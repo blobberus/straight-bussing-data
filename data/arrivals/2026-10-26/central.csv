@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793016293,2026-10-26T12:04:53Z,2026-10-26 07:04:53,0,7,424,1078,Central,540728,4313,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,2,,,,,,0,,,pass
