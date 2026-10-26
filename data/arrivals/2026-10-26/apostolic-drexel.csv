@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793026844,2026-10-26T15:00:44Z,2026-10-26 10:00:44,0,10,600,6126,Apostolic/Drexel,501457,4324,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,0,,,pass
