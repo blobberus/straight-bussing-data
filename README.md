@@ -34,10 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-26 05:46 UTC · 51,688 arrivals · 18 service days · newest arrival 2026-10-26 00:00:16 (Chicago time)_
+_Last sync: 2026-10-26 10:50 UTC · 51,723 arrivals · 19 service days · newest arrival 2026-10-26 05:25:48 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
+| 2026-10-26 | 35 | 3 | [data/arrivals/2026-10-26/](data/arrivals/2026-10-26) |
 | 2026-10-25 | 856 | 4 | [data/arrivals/2026-10-25/](data/arrivals/2026-10-25) |
 | 2026-10-24 | 1,065 | 6 | [data/arrivals/2026-10-24/](data/arrivals/2026-10-24) |
 | 2026-10-23 | 3,944 | 14 | [data/arrivals/2026-10-23/](data/arrivals/2026-10-23) |
@@ -51,14 +52,12 @@ _Last sync: 2026-10-26 05:46 UTC · 51,688 arrivals · 18 service days · newest
 | 2026-10-15 | 3,805 | 13 | [data/arrivals/2026-10-15/](data/arrivals/2026-10-15) |
 | 2026-10-14 | 3,995 | 13 | [data/arrivals/2026-10-14/](data/arrivals/2026-10-14) |
 | 2026-10-13 | 3,998 | 13 | [data/arrivals/2026-10-13/](data/arrivals/2026-10-13) |
-| 2026-10-12 | 4,000 | 13 | [data/arrivals/2026-10-12/](data/arrivals/2026-10-12) |
 
-Routes on 2026-10-25:
+Routes on 2026-10-26:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Central | 327 | [central.csv](data/arrivals/2026-10-25/central.csv) |
-| East | 234 | [east.csv](data/arrivals/2026-10-25/east.csv) |
-| South | 188 | [south.csv](data/arrivals/2026-10-25/south.csv) |
-| North | 107 | [north.csv](data/arrivals/2026-10-25/north.csv) |
+| Drexel | 16 | [drexel.csv](data/arrivals/2026-10-26/drexel.csv) |
+| Friend Center/Metra | 12 | [friend-center-metra.csv](data/arrivals/2026-10-26/friend-center-metra.csv) |
+| Apostolic | 7 | [apostolic.csv](data/arrivals/2026-10-26/apostolic.csv) |
 <!-- SYNC:END -->
