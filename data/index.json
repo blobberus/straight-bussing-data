@@ -1,8 +1,8 @@
 {
- "synced": "2026-10-26 02:49",
+ "synced": "2026-10-26 03:14",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 51478,
- "newest": "2026-10-25 21:25:14",
+ "rows": 51541,
+ "newest": "2026-10-25 22:04:10",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1024,26 +1024,26 @@
   },
   {
    "day": "2026-10-25",
-   "rows": 646,
+   "rows": 709,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-25/central.csv",
-     "rows": 262,
+     "rows": 277,
      "route_id": "1078"
     },
     "East": {
      "file": "data/arrivals/2026-10-25/east.csv",
-     "rows": 183,
+     "rows": 203,
      "route_id": "1077"
     },
     "North": {
      "file": "data/arrivals/2026-10-25/north.csv",
-     "rows": 71,
+     "rows": 82,
      "route_id": "1075"
     },
     "South": {
      "file": "data/arrivals/2026-10-25/south.csv",
-     "rows": 130,
+     "rows": 147,
      "route_id": "1076"
     }
    }
