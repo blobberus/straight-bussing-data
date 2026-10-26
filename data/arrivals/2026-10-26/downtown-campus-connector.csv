@@ -1,0 +1,5 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793014265,2026-10-26T11:31:05Z,2026-10-26 06:31:05,0,6,391,5704,Downtown Campus Connector,874028,4314,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,0,,,transition
+1793014483,2026-10-26T11:34:43Z,2026-10-26 06:34:43,0,6,394,5704,Downtown Campus Connector,874028,4314,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793014265,218,8.69,18,1793014536,176,pass
+1793014688,2026-10-26T11:38:08Z,2026-10-26 06:38:08,0,6,398,5704,Downtown Campus Connector,874028,4314,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793014483,205,7.42,0,1793014655,200,pass
+1793014760,2026-10-26T11:39:20Z,2026-10-26 06:39:20,0,6,399,5704,Downtown Campus Connector,874028,4314,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793014688,72,5.3,0,1793014720,216,pass
