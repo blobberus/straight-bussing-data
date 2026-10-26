@@ -319,8 +319,10 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1792989387,2026-10-26T04:36:27Z,2026-10-25 23:36:27,6,23,1416,1078,Central,501746,4538,9593,International House,South Dorchester Avenue,41.78786,-87.59148,3,,,,,,,,,gps
 1792989491,2026-10-26T04:38:11Z,2026-10-25 23:38:11,6,23,1418,1078,Central,501746,4538,8584,Keller Center WB,East 60th Street,41.78611,-87.59405,4,,,,,,,,,gps
 1792989594,2026-10-26T04:39:54Z,2026-10-25 23:39:54,6,23,1419,1078,Central,501746,4538,8644,Burton-Judson Courts (NE Corner),East 60th Street,41.78599,-87.60102,5,,,,,,,,,gps
-1792989716,2026-10-26T04:41:56Z,2026-10-25 23:41:56,6,23,1421,1078,Central,,4538,8597,Levi Hall (E),South Ellis Avenue,41.7895,-87.6012,6,,,,,,,,,gps
-1792989808,2026-10-26T04:43:28Z,2026-10-25 23:43:28,6,23,1423,1078,Central,,4538,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,7,,,,,,,,,gps
-1792989835,2026-10-26T04:43:55Z,2026-10-25 23:43:55,6,23,1423,1078,Central,,4538,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,8,,,,,,,,,gps
-1792989894,2026-10-26T04:44:54Z,2026-10-25 23:44:54,6,23,1424,1078,Central,,4538,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,9,,,,,,,,,gps
+1792989716,2026-10-26T04:41:56Z,2026-10-25 23:41:56,6,23,1421,1078,Central,501746,4538,8597,Levi Hall (E),South Ellis Avenue,41.7895,-87.6012,6,,,,,,,,,gps
+1792989808,2026-10-26T04:43:28Z,2026-10-25 23:43:28,6,23,1423,1078,Central,501746,4538,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,7,,,,,,,,,gps
+1792989835,2026-10-26T04:43:55Z,2026-10-25 23:43:55,6,23,1423,1078,Central,501746,4538,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,8,,,,,,,,,gps
+1792989894,2026-10-26T04:44:54Z,2026-10-25 23:44:54,6,23,1424,1078,Central,501746,4538,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,9,,,,,,,,,gps
 1792990146,2026-10-26T04:49:06Z,2026-10-25 23:49:06,6,23,1429,1078,Central,,4538,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,,,,,,,,,gps
+1792990219,2026-10-26T04:50:19Z,2026-10-25 23:50:19,6,23,1430,1078,Central,,4538,140012,53 & Kimbark (WB),East 53rd Street,41.79956,-87.59485,12,,,,,,,,,gps
+1792990437,2026-10-26T04:53:57Z,2026-10-25 23:53:57,6,23,1433,1078,Central,501746,4538,8652,Booth School,South Woodlawn Avenue,41.78955,-87.59636,13,,,,,,5,1792990600,197,proximity
