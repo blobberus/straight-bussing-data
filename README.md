@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-27 04:59 UTC · 55,612 arrivals · 19 service days · newest arrival 2026-10-26 23:56:54 (Chicago time)_
+_Last sync: 2026-10-27 05:50 UTC · 55,613 arrivals · 19 service days · newest arrival 2026-10-26 23:58:16 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-26 | 3,924 | 13 | [data/arrivals/2026-10-26/](data/arrivals/2026-10-26) |
+| 2026-10-26 | 3,925 | 13 | [data/arrivals/2026-10-26/](data/arrivals/2026-10-26) |
 | 2026-10-25 | 856 | 4 | [data/arrivals/2026-10-25/](data/arrivals/2026-10-25) |
 | 2026-10-24 | 1,065 | 6 | [data/arrivals/2026-10-24/](data/arrivals/2026-10-24) |
 | 2026-10-23 | 3,944 | 14 | [data/arrivals/2026-10-23/](data/arrivals/2026-10-23) |
@@ -57,7 +57,7 @@ Routes on 2026-10-26:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic/Drexel | 655 | [apostolic-drexel.csv](data/arrivals/2026-10-26/apostolic-drexel.csv) |
+| Apostolic/Drexel | 656 | [apostolic-drexel.csv](data/arrivals/2026-10-26/apostolic-drexel.csv) |
 | Downtown Campus Connector | 587 | [downtown-campus-connector.csv](data/arrivals/2026-10-26/downtown-campus-connector.csv) |
 | Red Line/Arts Block | 497 | [red-line-arts-block.csv](data/arrivals/2026-10-26/red-line-arts-block.csv) |
 | 53rd Street Express | 418 | [53rd-street-express.csv](data/arrivals/2026-10-26/53rd-street-express.csv) |
