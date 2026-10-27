@@ -1,0 +1,5 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793134895,2026-10-27T21:01:35Z,2026-10-27 16:01:35,1,16,961,1075,North,501582,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,,,,,,8,1793134743,159,proximity
+1793134994,2026-10-27T21:03:14Z,2026-10-27 16:03:14,1,16,963,1075,North,501582,4326,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1793134895,99,3.69,0,1793134807,258,transition
+1793135029,2026-10-27T21:03:49Z,2026-10-27 16:03:49,1,16,963,1075,North,501582,4326,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1793134994,35,3.78,0,1793134854,293,transition
+1793135167,2026-10-27T21:06:07Z,2026-10-27 16:06:07,1,16,966,1075,North,501582,4326,140008,S. Drexel Ave & E 53rd St,5327 South Drexel Avenue,41.79853,-87.60374,4,8635,685.0,1793135029,138,4.96,7,1793135161,193,proximity

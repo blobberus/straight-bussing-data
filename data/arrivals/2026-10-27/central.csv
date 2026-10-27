@@ -1,0 +1,5 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793135149,2026-10-27T21:05:49Z,2026-10-27 16:05:49,1,16,965,1078,Central,501716,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,3,,,,,,0,,,transition
+1793135222,2026-10-27T21:07:02Z,2026-10-27 16:07:02,1,16,967,1078,Central,501716,4328,8584,Keller Center WB,East 60th Street,41.78611,-87.59405,4,9593,403.2,1793135149,73,5.52,0,,,transition
+1793135299,2026-10-27T21:08:19Z,2026-10-27 16:08:19,1,16,968,1078,Central,501716,4328,8644,Burton-Judson Courts (NE Corner),East 60th Street,41.78599,-87.60102,5,8584,590.5,1793135222,77,7.67,0,,,transition
+1793135451,2026-10-27T21:10:51Z,2026-10-27 16:10:51,1,16,970,1078,Central,501716,4328,8597,Levi Hall (E),South Ellis Avenue,41.7895,-87.6012,6,8644,413.5,1793135299,152,2.72,,1793135359,166,transition
