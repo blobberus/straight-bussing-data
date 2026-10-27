@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793096485,2026-10-27T10:21:25Z,2026-10-27 05:21:25,1,5,321,5702,Apostolic,675879,4328,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,10,,,,,,,,,transition
+1793096585,2026-10-27T10:23:05Z,2026-10-27 05:23:05,1,5,323,5702,Apostolic,675879,4328,225833,Kimbark Garage,Kimbark Garage,41.78424,-87.59473,1,,,,,,0,,,transition
+1793096784,2026-10-27T10:26:24Z,2026-10-27 05:26:24,1,5,326,5702,Apostolic,675879,4328,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,225833,1139.3,1793096585,199,5.73,0,1793096737,173,transition
