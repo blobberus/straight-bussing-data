@@ -262,3 +262,11 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1793115984,2026-10-27T15:46:24Z,2026-10-27 10:46:24,1,10,646,5702,Apostolic,,4538,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,3,,,,,,,,,gps
 1793116035,2026-10-27T15:47:15Z,2026-10-27 10:47:15,1,10,647,5702,Apostolic,,4538,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,5,,,,,,,,,gps
 1793116069,2026-10-27T15:47:49Z,2026-10-27 10:47:49,1,10,647,5702,Apostolic,,4538,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,6,,,,,,,,,gps
+1793116225,2026-10-27T15:50:25Z,2026-10-27 10:50:25,1,10,650,5702,Apostolic,,4538,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,8,,,,,,,,,gps
+1793116950,2026-10-27T16:02:30Z,2026-10-27 11:02:30,1,11,662,5702,Apostolic,,4538,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,10,,,,,,,,,gps
+1793117038,2026-10-27T16:03:58Z,2026-10-27 11:03:58,1,11,663,5702,Apostolic,,4538,225833,Kimbark Garage,Kimbark Garage,41.78424,-87.59473,1,,,,,,,,,gps
+1793117646,2026-10-27T16:14:06Z,2026-10-27 11:14:06,1,11,674,5702,Apostolic,,4538,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,3,,,,,,,,,gps
+1793117646,2026-10-27T16:14:06Z,2026-10-27 11:14:06,1,11,674,5702,Apostolic,,4538,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,4,,,,,,,,,gps
+1793117678,2026-10-27T16:14:38Z,2026-10-27 11:14:38,1,11,674,5702,Apostolic,,4538,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,5,,,,,,,,,gps
+1793117711,2026-10-27T16:15:11Z,2026-10-27 11:15:11,1,11,675,5702,Apostolic,,4538,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,6,,,,,,,,,gps
+1793118622,2026-10-27T16:30:22Z,2026-10-27 11:30:22,1,11,690,5702,Apostolic,501436,4538,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,10,,,,,,0,,,transition
