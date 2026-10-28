@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793224012,2026-10-28T21:46:52Z,2026-10-28 16:46:52,2,16,1006,1078,Central,501720,4322,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,7,,,,,,12,,,proximity
+1793224038,2026-10-28T21:47:18Z,2026-10-28 16:47:18,2,16,1007,1078,Central,501720,4322,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,8,8634,138.1,1793224012,26,9.86,16,,,transition
+1793224176,2026-10-28T21:49:36Z,2026-10-28 16:49:36,2,16,1009,1078,Central,501720,4322,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,9,8635,360.3,1793224038,138,2.95,30,,,transition
+1793224273,2026-10-28T21:51:13Z,2026-10-28 16:51:13,2,16,1011,1078,Central,501720,4322,140016,55th Street & Blackstone,1436 East 55th Street,41.79563,-87.59021,10,140009,865.2,1793224176,97,12.91,0,1793224666,190,transition
+1793224412,2026-10-28T21:53:32Z,2026-10-28 16:53:32,2,16,1013,1078,Central,501720,4322,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,140016,461.2,1793224273,139,3.32,,1793224761,198,proximity

@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793224195,2026-10-28T21:49:55Z,2026-10-28 16:49:55,2,16,1009,1076,South,501625,4538,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,15,,,,,,19,,,proximity
+1793224345,2026-10-28T21:52:25Z,2026-10-28 16:52:25,2,16,1012,1076,South,501625,4538,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,16,8630,435.3,1793224195,150,3.32,0,1793224247,179,transition

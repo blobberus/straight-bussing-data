@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793224152,2026-10-28T21:49:12Z,2026-10-28 16:49:12,2,16,1009,1077,East,501677,4325,140013,S. Hyde Park Blvd/55th Street,1660 East 55th Street,41.79537,-87.58401,8,,,,,,30,,,proximity
+1793224224,2026-10-28T21:50:24Z,2026-10-28 16:50:24,2,16,1010,1077,East,501677,4325,140014,Hyde Park Places Apts,South Hyde Park Boulevard,41.7942,-87.58402,9,140013,155.8,1793224152,72,3.71,0,,,transition
+1793224331,2026-10-28T21:52:11Z,2026-10-28 16:52:11,2,16,1012,1077,East,501677,4325,140015,Windermere Apts,1642 East 56th Street,41.79346,-87.58465,10,140014,132.7,1793224224,107,1.24,16,,,proximity
