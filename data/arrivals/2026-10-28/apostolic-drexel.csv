@@ -1,0 +1,11 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793199407,2026-10-28T14:56:47Z,2026-10-28 09:56:47,2,9,596,6126,Apostolic/Drexel,501457,4324,8609,57th Street & Drexel (NB),South Drexel Avenue,41.79131,-87.60367,5,,,,,,0,,,pass
+1793199854,2026-10-28T15:04:14Z,2026-10-28 10:04:14,2,10,604,6126,Apostolic/Drexel,501457,4324,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,7,8609,1248.5,1793199407,447,2.79,0,1793200164,180,pass
+1793199967,2026-10-28T15:06:07Z,2026-10-28 10:06:07,2,10,606,6126,Apostolic/Drexel,501457,4324,225834,61st & Kimbark,61st & Kimbark,41.78412,-87.59492,8,,,,,,,,,gps
+1793200591,2026-10-28T15:16:31Z,2026-10-28 10:16:31,2,10,616,6126,Apostolic/Drexel,501457,4324,225833,Kimbark Garage,Kimbark Garage,41.78424,-87.59473,11,,,,,,,,,gps
+1793200942,2026-10-28T15:22:22Z,2026-10-28 10:22:22,2,10,622,6126,Apostolic/Drexel,501457,4324,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,0,1793200006,1019,pass
+1793200959,2026-10-28T15:22:39Z,2026-10-28 10:22:39,2,10,622,6126,Apostolic/Drexel,501457,4324,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793200942,17,5.64,23,1793200008,1036,pass
+1793201008,2026-10-28T15:23:28Z,2026-10-28 10:23:28,2,10,623,6126,Apostolic/Drexel,501458,4324,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,25,1793201577,287,proximity
+1793201042,2026-10-28T15:24:02Z,2026-10-28 10:24:02,2,10,624,6126,Apostolic/Drexel,501458,4324,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793201008,34,14.11,,1793201614,321,transition
+1793201063,2026-10-28T15:24:23Z,2026-10-28 10:24:23,2,10,624,6126,Apostolic/Drexel,501458,4324,8609,57th Street & Drexel (NB),South Drexel Avenue,41.79131,-87.60367,5,8617,89.1,1793201042,21,4.24,85,1793201656,342,transition
+1793201433,2026-10-28T15:30:33Z,2026-10-28 10:30:33,2,10,630,6126,Apostolic/Drexel,501457,4324,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,1793201692,179,pass
