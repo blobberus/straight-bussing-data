@@ -126,3 +126,4 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1793151711,2026-10-28T01:41:51Z,2026-10-27 20:41:51,1,20,1241,1076,South,501621,4320,8652,Booth School,South Woodlawn Avenue,41.78955,-87.59636,13,,,,,,,,,gps
 1793151837,2026-10-28T01:43:57Z,2026-10-27 20:43:57,1,20,1243,1076,South,501621,4320,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,14,,,,,,,,,gps
 1793151900,2026-10-28T01:45:00Z,2026-10-27 20:45:00,1,20,1245,1076,South,501621,4320,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,15,,,,,,,,,gps
+1793154548,2026-10-28T02:29:08Z,2026-10-27 21:29:08,1,21,1289,1076,South,501645,4320,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,0,,,,,,,,,proximity
