@@ -1,8 +1,8 @@
 {
- "synced": "2026-10-27 23:10",
+ "synced": "2026-10-28 00:00",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 58546,
- "newest": "2026-10-27 18:01:16",
+ "rows": 58756,
+ "newest": "2026-10-27 18:42:56",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1121,11 +1121,11 @@
   },
   {
    "day": "2026-10-27",
-   "rows": 2933,
+   "rows": 3143,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-27/53rd-street-express.csv",
-     "rows": 417,
+     "rows": 426,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -1135,17 +1135,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-27/apostolic-drexel.csv",
-     "rows": 340,
+     "rows": 389,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-10-27/central.csv",
-     "rows": 52,
+     "rows": 65,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-27/downtown-campus-connector.csv",
-     "rows": 377,
+     "rows": 403,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1155,7 +1155,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-27/east.csv",
-     "rows": 54,
+     "rows": 72,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1165,22 +1165,27 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-27/midway-metra.csv",
-     "rows": 395,
+     "rows": 434,
      "route_id": "5703"
     },
     "North": {
      "file": "data/arrivals/2026-10-27/north.csv",
-     "rows": 29,
+     "rows": 39,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-10-27/red-line-arts-block.csv",
-     "rows": 454,
+     "rows": 481,
      "route_id": "5699"
+    },
+    "Regents Express": {
+     "file": "data/arrivals/2026-10-27/regents-express.csv",
+     "rows": 5,
+     "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-27/south.csv",
-     "rows": 51,
+     "rows": 65,
      "route_id": "1076"
     }
    }
