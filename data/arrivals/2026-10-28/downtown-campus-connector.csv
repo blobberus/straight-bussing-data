@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793187078,2026-10-28T11:31:18Z,2026-10-28 06:31:18,2,6,391,5704,Downtown Campus Connector,874028,4314,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,0,,,transition
+1793187111,2026-10-28T11:31:51Z,2026-10-28 06:31:51,2,6,391,5704,Downtown Campus Connector,874028,4314,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793187078,33,6.26,0,,,transition
+1793187372,2026-10-28T11:36:12Z,2026-10-28 06:36:12,2,6,396,5704,Downtown Campus Connector,874028,4313,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,,,,,,0,,,transition
+1793187382,2026-10-28T11:36:22Z,2026-10-28 06:36:22,2,6,396,5704,Downtown Campus Connector,874028,4314,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793187111,271,6.22,0,,,transition
+1793187507,2026-10-28T11:38:27Z,2026-10-28 06:38:27,2,6,398,5704,Downtown Campus Connector,874028,4314,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793187382,125,11.1,,,,transition
