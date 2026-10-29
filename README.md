@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-29 10:40 UTC · 63,527 arrivals · 22 service days · newest arrival 2026-10-29 05:25:07 (Chicago time)_
+_Last sync: 2026-10-29 11:05 UTC · 63,603 arrivals · 22 service days · newest arrival 2026-10-29 05:55:47 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-29 | 35 | 3 | [data/arrivals/2026-10-29/](data/arrivals/2026-10-29) |
+| 2026-10-29 | 111 | 4 | [data/arrivals/2026-10-29/](data/arrivals/2026-10-29) |
 | 2026-10-28 | 3,728 | 13 | [data/arrivals/2026-10-28/](data/arrivals/2026-10-28) |
 | 2026-10-27 | 4,151 | 13 | [data/arrivals/2026-10-27/](data/arrivals/2026-10-27) |
 | 2026-10-26 | 3,925 | 13 | [data/arrivals/2026-10-26/](data/arrivals/2026-10-26) |
@@ -57,7 +57,8 @@ Routes on 2026-10-29:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic | 16 | [apostolic.csv](data/arrivals/2026-10-29/apostolic.csv) |
-| Friend Center/Metra | 11 | [friend-center-metra.csv](data/arrivals/2026-10-29/friend-center-metra.csv) |
-| Drexel | 8 | [drexel.csv](data/arrivals/2026-10-29/drexel.csv) |
+| Apostolic | 52 | [apostolic.csv](data/arrivals/2026-10-29/apostolic.csv) |
+| Drexel | 24 | [drexel.csv](data/arrivals/2026-10-29/drexel.csv) |
+| Friend Center/Metra | 23 | [friend-center-metra.csv](data/arrivals/2026-10-29/friend-center-metra.csv) |
+| Midway Metra | 12 | [midway-metra.csv](data/arrivals/2026-10-29/midway-metra.csv) |
 <!-- SYNC:END -->
