@@ -319,3 +319,19 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793312722,2026-10-29 17:25:22,5700,Friend Center/Metra,499514,4325,8658,59th St & Metra,11,60,1793312668,1793312643,79,-54,1793312646
 1793313071,2026-10-29 17:31:11,5700,Friend Center/Metra,499514,4325,8612,Goldblatt Pavilion,12,60,1793313017,1793312902,169,-54,1793312966
 1793313132,2026-10-29 17:32:12,5700,Friend Center/Metra,499515,4325,8613,Wyler Pavilion,1,60,1793313041,1793312972,160,-91,1793313026
+1793313166,2026-10-29 17:32:46,5700,Friend Center/Metra,499515,4325,8615,Bernard Mitchell Hospital,2,,,,,,
+1793313208,2026-10-29 17:33:28,5700,Friend Center/Metra,499515,4325,8616,58th Street & Drexel,3,,,,,,
+1793313246,2026-10-29 17:34:06,5700,Friend Center/Metra,499515,4325,8617,Comer Children's Hospital,4,,,,,,
+1793313276,2026-10-29 17:34:36,5700,Friend Center/Metra,499515,4325,138838,S Drexel Ave & 57th St,5,,,,,,
+1793313395,2026-10-29 17:36:35,5700,Friend Center/Metra,499515,4325,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
+1793313462,2026-10-29 17:37:42,5700,Friend Center/Metra,499515,4325,8618,Ronald McDonald House & Friend Center,7,,,,,,
+1793313627,2026-10-29 17:40:27,5700,Friend Center/Metra,499515,4325,140009,55th Street & University,8,,,,,,
+1793313775,2026-10-29 17:42:55,5700,Friend Center/Metra,499515,4325,8645,Hyde Park Shopping Center (S),9,,,,,,
+1793313962,2026-10-29 17:46:02,5700,Friend Center/Metra,499515,4325,8619,57th Street Metra Station (E),10,,,,,,
+1793314174,2026-10-29 17:49:34,5700,Friend Center/Metra,499515,4325,8658,59th St & Metra,11,,,,,,
+1793315057,2026-10-29 18:04:17,5700,Friend Center/Metra,499515,4325,8612,Goldblatt Pavilion,12,,,,,,
+1793315135,2026-10-29 18:05:35,5700,Friend Center/Metra,499516,4325,8613,Wyler Pavilion,1,,,,,,
+1793315181,2026-10-29 18:06:21,5700,Friend Center/Metra,499516,4325,8615,Bernard Mitchell Hospital,2,,,,,,
+1793315250,2026-10-29 18:07:30,5700,Friend Center/Metra,499516,4325,8616,58th Street & Drexel,3,,,,,,
+1793315274,2026-10-29 18:07:54,5700,Friend Center/Metra,499516,4325,8617,Comer Children's Hospital,4,,,,,,
+1793315313,2026-10-29 18:08:33,5700,Friend Center/Metra,499516,4325,138838,S Drexel Ave & 57th St,5,,,,,,

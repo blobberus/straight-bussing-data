@@ -20,3 +20,11 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793312978,2026-10-29 17:29:38,1075,North,501589,4538,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
 1793313011,2026-10-29 17:30:11,1075,North,501589,4538,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
 1793313132,2026-10-29 17:32:12,1075,North,501589,4538,140008,S. Drexel Ave & E 53rd St,4,120,1793313275,1793312498,634,143,1793312526
+1793313135,2026-10-29 17:32:15,1075,North,501589,4538,140008,S. Drexel Ave & E 53rd St,4,,,,,,
+1793313979,2026-10-29 17:46:19,1075,North,501589,4538,140009,55th Street & University,5,,,,,,
+1793314035,2026-10-29 17:47:15,1075,North,501589,4538,8637,Alumni House (NW Corner),6,,,,,,
+1793314236,2026-10-29 17:50:36,1075,North,501589,4538,8579,Reynolds Club,7,,,,,,
+1793314680,2026-10-29 17:58:00,1075,North,501591,4538,8633,Regenstein Library (N),1,,,,,,
+1793314811,2026-10-29 18:00:11,1075,North,501591,4538,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
+1793314847,2026-10-29 18:00:47,1075,North,501591,4538,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
+1793314958,2026-10-29 18:02:38,1075,North,501591,4538,140008,S. Drexel Ave & E 53rd St,4,,,,,,

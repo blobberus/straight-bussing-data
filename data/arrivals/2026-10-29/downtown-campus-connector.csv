@@ -350,6 +350,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793312028,2026-10-29 17:13:48,5704,Downtown Campus Connector,874028,4313,151794,S Lake Park & E 53rd St,4,1200,1793309865,1793309849,2179,-2163,1793309856
 1793312175,2026-10-29 17:16:15,5704,Downtown Campus Connector,874028,4313,155005,S Lake Park Ave & E Hyde Park Blvd,5,1800,1793309867,1793309849,2326,-2308,1793309856
 1793312187,2026-10-29 17:16:27,5704,Downtown Campus Connector,874028,12645,155006,E Randolph St & S Michigan Ave,7,,,,,,
+1793312256,2026-10-29 17:17:36,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,14,,,,,,
 1793312302,2026-10-29 17:18:22,5704,Downtown Campus Connector,874028,4314,132968,Roosevelt Station,13,,,,,,
 1793312391,2026-10-29 17:19:51,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,900,1793310585,1793310569,1822,-1806,1793310616
 1793312433,2026-10-29 17:20:33,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,300,1793311119,1793311112,1321,-1314,1793311126
@@ -360,3 +361,18 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793312957,2026-10-29 17:29:17,5704,Downtown Campus Connector,874028,12645,132964,UCHICAGO Medicine - River East,9,,,,,,
 1793312960,2026-10-29 17:29:20,5704,Downtown Campus Connector,874028,4313,132965,S Michigan Ave/Roosevelt,6,,,,,,
 1793312980,2026-10-29 17:29:40,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,900,1793311123,1793311112,1868,-1857,1793311126
+1793313414,2026-10-29 17:36:54,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
+1793313471,2026-10-29 17:37:51,5704,Downtown Campus Connector,874028,4314,8591,Rockefeller Chapel,14,,,,,,
+1793313506,2026-10-29 17:38:26,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
+1793313558,2026-10-29 17:39:18,5704,Downtown Campus Connector,874028,4313,155006,E Randolph St & S Michigan Ave,7,,,,,,
+1793313612,2026-10-29 17:40:12,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
+1793313619,2026-10-29 17:40:19,5704,Downtown Campus Connector,874028,4314,8654,59th & Ellis,1,,,,,,
+1793313692,2026-10-29 17:41:32,5704,Downtown Campus Connector,874028,4314,8612,Goldblatt Pavilion,2,,,,,,
+1793313956,2026-10-29 17:45:56,5704,Downtown Campus Connector,874028,4313,132963,Gleacher Center,8,,,,,,
+1793314009,2026-10-29 17:46:49,5704,Downtown Campus Connector,874028,4314,140009,55th Street & University,3,,,,,,
+1793314266,2026-10-29 17:51:06,5704,Downtown Campus Connector,874028,4314,151794,S Lake Park & E 53rd St,4,,,,,,
+1793314395,2026-10-29 17:53:15,5704,Downtown Campus Connector,874028,4314,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
+1793314406,2026-10-29 17:53:26,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
+1793314861,2026-10-29 18:01:01,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
+1793315174,2026-10-29 18:06:14,5704,Downtown Campus Connector,874028,4314,132965,S Michigan Ave/Roosevelt,6,,,,,,
+1793315320,2026-10-29 18:08:40,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,8,,,,,,
