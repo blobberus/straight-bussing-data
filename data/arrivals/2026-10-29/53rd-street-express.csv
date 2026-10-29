@@ -1,0 +1,11 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793275326,2026-10-29T12:02:06Z,2026-10-29 07:02:06,3,7,422,4346,53rd Street Express,680993,4326,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,0,,,,,,20,,,proximity
+1793275445,2026-10-29T12:04:05Z,2026-10-29 07:04:05,3,7,424,4346,53rd Street Express,680993,4326,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,8596,376.0,1793275326,119,3.8,11,,,proximity
+1793275516,2026-10-29T12:05:16Z,2026-10-29 07:05:16,3,7,425,4346,53rd Street Express,680993,4326,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,8811,331.4,1793275445,71,5.52,5,,,proximity
+1793275606,2026-10-29T12:06:46Z,2026-10-29 07:06:46,3,7,426,4346,53rd Street Express,680993,4326,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,8628,409.7,1793275516,90,4.82,0,,,transition
+1793275763,2026-10-29T12:09:23Z,2026-10-29 07:09:23,3,7,429,4346,53rd Street Express,680993,4326,8629,Ellis Garage & Ratner Athletic (West),South Ellis Avenue,41.79463,-87.60148,4,8595,491.6,1793275606,157,3.13,0,,,transition
+1793275837,2026-10-29T12:10:37Z,2026-10-29 07:10:37,3,7,430,4346,53rd Street Express,680993,4326,138837,Ellis Ave & 57th St,East 57th Street,41.79145,-87.60134,5,8629,383.0,1793275763,74,5.18,25,,,proximity
+1793275894,2026-10-29T12:11:34Z,2026-10-29 07:11:34,3,7,431,4346,53rd Street Express,680993,4326,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,138837,201.5,1793275837,57,6.3,20,,,transition
+1793276005,2026-10-29T12:13:25Z,2026-10-29 07:13:25,3,7,433,4346,53rd Street Express,680993,4326,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,7,8630,403.6,1793275894,111,4.44,16,1793276555,176,proximity
+1793276163,2026-10-29T12:16:03Z,2026-10-29 07:16:03,3,7,436,4346,53rd Street Express,680993,4326,8589,Logan Center,East 60th Street,41.78585,-87.60376,8,8612,604.4,1793276005,158,4.26,0,1793276607,157,transition
+1793276201,2026-10-29T12:16:41Z,2026-10-29 07:16:41,3,7,436,4346,53rd Street Express,680993,4326,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,9,8589,204.2,1793276163,38,5.37,,1793276609,195,transition
