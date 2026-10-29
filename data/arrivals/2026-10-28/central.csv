@@ -135,3 +135,9 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1793248581,2026-10-29T04:36:21Z,2026-10-28 23:36:21,2,23,1416,1078,Central,,4328,8584,Keller Center WB,East 60th Street,41.78611,-87.59405,4,,,,,,,,,gps
 1793248659,2026-10-29T04:37:39Z,2026-10-28 23:37:39,2,23,1417,1078,Central,,4328,8644,Burton-Judson Courts (NE Corner),East 60th Street,41.78599,-87.60102,5,,,,,,,,,gps
 1793248723,2026-10-29T04:38:43Z,2026-10-28 23:38:43,2,23,1418,1078,Central,,4328,8597,Levi Hall (E),South Ellis Avenue,41.7895,-87.6012,6,,,,,,,,,gps
+1793248780,2026-10-29T04:39:40Z,2026-10-28 23:39:40,2,23,1419,1078,Central,,4328,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,7,,,,,,,,,gps
+1793248804,2026-10-29T04:40:04Z,2026-10-28 23:40:04,2,23,1420,1078,Central,,4328,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,8,,,,,,,,,gps
+1793248883,2026-10-29T04:41:23Z,2026-10-28 23:41:23,2,23,1421,1078,Central,,4328,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,9,,,,,,,,,gps
+1793249085,2026-10-29T04:44:45Z,2026-10-28 23:44:45,2,23,1424,1078,Central,,4328,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,,,,,,,,,gps
+1793249146,2026-10-29T04:45:46Z,2026-10-28 23:45:46,2,23,1425,1078,Central,,4328,140012,53 & Kimbark (WB),East 53rd Street,41.79956,-87.59485,12,,,,,,,,,gps
+1793249389,2026-10-29T04:49:49Z,2026-10-28 23:49:49,2,23,1429,1078,Central,,4328,8652,Booth School,South Woodlawn Avenue,41.78955,-87.59636,13,,,,,,,,,gps
