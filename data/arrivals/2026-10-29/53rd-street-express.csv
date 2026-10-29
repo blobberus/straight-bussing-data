@@ -465,3 +465,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793315280,2026-10-29 18:08:00,4346,53rd Street Express,681015,4326,8595,Ellis & 53rd St.,3,,,,,,
 1793315451,2026-10-29 18:10:51,4346,53rd Street Express,681015,4326,8629,Ellis Garage & Ratner Athletic (West),4,,,,,,
 1793315508,2026-10-29 18:11:48,4346,53rd Street Express,681015,4326,138837,Ellis Ave & 57th St,5,,,,,,
+1793315593,2026-10-29 18:13:13,4346,53rd Street Express,681015,4326,8630,Levi Hall (W),6,,,,,,
