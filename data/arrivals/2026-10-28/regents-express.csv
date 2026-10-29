@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793230044,2026-10-28T23:27:24Z,2026-10-28 18:27:24,2,18,1107,5715,Regents Express,524065,12648,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,,,,,,,,,gps
+1793230173,2026-10-28T23:29:33Z,2026-10-28 18:29:33,2,18,1109,5715,Regents Express,524065,12648,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,,,,,,0,,,transition
+1793230962,2026-10-28T23:42:42Z,2026-10-28 18:42:42,2,18,1122,5715,Regents Express,524065,12648,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,8657,3691.1,1793230173,789,4.68,0,1793230984,187,pass
+1793231628,2026-10-28T23:53:48Z,2026-10-28 18:53:48,2,18,1133,5715,Regents Express,524066,12648,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,0,1793231269,661,transition
+1793231676,2026-10-28T23:54:36Z,2026-10-28 18:54:36,2,18,1134,5715,Regents Express,524066,12648,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,8599,315.7,1793231628,48,6.58,,1793231304,709,transition
