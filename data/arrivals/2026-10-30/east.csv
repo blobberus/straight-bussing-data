@@ -1,2 +1,9 @@
 epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
 1793394648,2026-10-30 16:10:48,1077,East,501673,4317,20132,53 & Kimbark (EB),5,,,,,,
+1793395081,2026-10-30 16:18:01,1077,East,501673,4317,8627,Harper Court (EB),6,,,,,,
+1793395796,2026-10-30 16:29:56,1077,East,501673,4317,140013,S. Hyde Park Blvd/55th Street,8,,,,,,
+1793395876,2026-10-30 16:31:16,1077,East,501673,4317,140014,Hyde Park Places Apts,9,,,,,,
+1793395975,2026-10-30 16:32:55,1077,East,501673,4317,140015,Windermere Apts,10,,,,,,
+1793396201,2026-10-30 16:36:41,1077,East,501673,4317,8641,Hyde Park Shopping Center (N),11,,,,,,
+1793396395,2026-10-30 16:39:55,1077,East,501673,4317,8637,Alumni House (NW Corner),12,,,,,,
+1793396735,2026-10-30 16:45:35,1077,East,501681,4317,8579,Reynolds Club,0,,,,,,
