@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-30 12:25 UTC · 72,362 arrivals · 23 service days · newest arrival 2026-10-30 07:16:38 (Chicago time)_
+_Last sync: 2026-10-30 13:16 UTC · 72,587 arrivals · 23 service days · newest arrival 2026-10-30 07:56:32 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-30 | 405 | 7 | [data/arrivals/2026-10-30/](data/arrivals/2026-10-30) |
+| 2026-10-30 | 630 | 7 | [data/arrivals/2026-10-30/](data/arrivals/2026-10-30) |
 | 2026-10-29 | 4,301 | 13 | [data/arrivals/2026-10-29/](data/arrivals/2026-10-29) |
 | 2026-10-28 | 3,999 | 13 | [data/arrivals/2026-10-28/](data/arrivals/2026-10-28) |
 | 2026-10-27 | 4,539 | 13 | [data/arrivals/2026-10-27/](data/arrivals/2026-10-27) |
@@ -57,11 +57,11 @@ Routes on 2026-10-30:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic | 128 | [apostolic.csv](data/arrivals/2026-10-30/apostolic.csv) |
-| Midway Metra | 79 | [midway-metra.csv](data/arrivals/2026-10-30/midway-metra.csv) |
-| Drexel | 67 | [drexel.csv](data/arrivals/2026-10-30/drexel.csv) |
-| Friend Center/Metra | 55 | [friend-center-metra.csv](data/arrivals/2026-10-30/friend-center-metra.csv) |
-| Red Line/Arts Block | 38 | [red-line-arts-block.csv](data/arrivals/2026-10-30/red-line-arts-block.csv) |
-| Downtown Campus Connector | 22 | [downtown-campus-connector.csv](data/arrivals/2026-10-30/downtown-campus-connector.csv) |
-| 53rd Street Express | 16 | [53rd-street-express.csv](data/arrivals/2026-10-30/53rd-street-express.csv) |
+| Apostolic | 168 | [apostolic.csv](data/arrivals/2026-10-30/apostolic.csv) |
+| Midway Metra | 137 | [midway-metra.csv](data/arrivals/2026-10-30/midway-metra.csv) |
+| Drexel | 86 | [drexel.csv](data/arrivals/2026-10-30/drexel.csv) |
+| Red Line/Arts Block | 78 | [red-line-arts-block.csv](data/arrivals/2026-10-30/red-line-arts-block.csv) |
+| Friend Center/Metra | 71 | [friend-center-metra.csv](data/arrivals/2026-10-30/friend-center-metra.csv) |
+| Downtown Campus Connector | 56 | [downtown-campus-connector.csv](data/arrivals/2026-10-30/downtown-campus-connector.csv) |
+| 53rd Street Express | 34 | [53rd-street-express.csv](data/arrivals/2026-10-30/53rd-street-express.csv) |
 <!-- SYNC:END -->
