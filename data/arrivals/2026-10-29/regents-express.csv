@@ -17,3 +17,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793323565,2026-10-29 20:26:05,5715,Regents Express,524070,12646,72572,E 56th St & S Cornell Ave (SW Corner),2,,,,,,
 1793323600,2026-10-29 20:26:40,5715,Regents Express,524070,12646,72573,E 56th St & S Hyde Park Blvd (SW Corner),3,,,,,,
 1793323715,2026-10-29 20:28:35,5715,Regents Express,524070,12646,8657,Shoreland Building,4,,,,,,
+1793327398,2026-10-29 21:29:58,5715,Regents Express,,12646,8643,Law School (N),7,,,,,,
