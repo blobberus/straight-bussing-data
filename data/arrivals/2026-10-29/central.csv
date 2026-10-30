@@ -314,3 +314,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793335290,2026-10-29 23:41:30,1078,Central,501746,4320,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
 1793335350,2026-10-29 23:42:30,1078,Central,501746,4320,140009,55th Street & University,9,,,,,,
 1793335506,2026-10-29 23:45:06,1078,Central,501746,4320,140016,55th Street & Blackstone,10,,,,,,
+1793335574,2026-10-29 23:46:14,1078,Central,501746,4320,141862,Blackstone & 53rd,11,,,,,,
+1793335646,2026-10-29 23:47:26,1078,Central,501746,4320,140012,53 & Kimbark (WB),12,,,,,,
+1793335896,2026-10-29 23:51:36,1078,Central,501746,4320,8652,Booth School,13,,,,,,
+1793335999,2026-10-29 23:53:19,1078,Central,501746,4320,8579,Reynolds Club,14,,,,,,

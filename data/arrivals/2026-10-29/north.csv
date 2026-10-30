@@ -101,3 +101,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793335380,2026-10-29 23:43:00,1075,North,501611,4538,140009,55th Street & University,5,,,,,,
 1793335413,2026-10-29 23:43:33,1075,North,501611,4538,8637,Alumni House (NW Corner),6,,,,,,
 1793335448,2026-10-29 23:44:08,1075,North,501611,4538,8579,Reynolds Club,7,,,,,,
+1793335932,2026-10-29 23:52:12,1075,North,501611,4538,8633,Regenstein Library (N),1,,,,,,
