@@ -17,3 +17,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793396746,2026-10-30 16:45:46,1078,Central,501720,4322,8597,Levi Hall (E),6,,,,,,
 1793396877,2026-10-30 16:47:57,1078,Central,501720,4322,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
 1793397070,2026-10-30 16:51:10,1078,Central,501720,4322,140009,55th Street & University,9,,,,,,
+1793397366,2026-10-30 16:56:06,1078,Central,501720,4322,140016,55th Street & Blackstone,10,,,,,,
+1793397515,2026-10-30 16:58:35,1078,Central,501720,4322,141862,Blackstone & 53rd,11,,,,,,
+1793397731,2026-10-30 17:02:11,1078,Central,501720,4322,140012,53 & Kimbark (WB),12,,,,,,
+1793398183,2026-10-30 17:09:43,1078,Central,501720,4322,8652,Booth School,13,,,,,,
+1793398917,2026-10-30 17:21:57,1078,Central,501722,4322,8584,Keller Center WB,4,,,,,,
