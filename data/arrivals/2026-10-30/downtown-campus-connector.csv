@@ -1,0 +1,4 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793359907,2026-10-30 06:31:47,5704,Downtown Campus Connector,874028,4314,8654,59th & Ellis,1,,,,,,
+1793359954,2026-10-30 06:32:34,5704,Downtown Campus Connector,874028,4314,8612,Goldblatt Pavilion,2,,,,,,
+1793360163,2026-10-30 06:36:03,5704,Downtown Campus Connector,874028,4314,140009,55th Street & University,3,,,,,,
