@@ -1,0 +1,3 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793394570,2026-10-30 16:09:30,1078,Central,501716,4322,8584,Keller Center WB,4,,,,,,
+1793394638,2026-10-30 16:10:38,1078,Central,501716,4322,8644,Burton-Judson Courts (NE Corner),5,,,,,,

@@ -1,0 +1,10 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793393493,2026-10-30 15:51:33,1076,South,501621,4327,8631,60th St. & Ellis (SE Corner),0,,,,,,
+1793394078,2026-10-30 16:01:18,1076,South,501621,4327,161849,Woodlawn Ave & 61st St,1,,,,,,
+1793394125,2026-10-30 16:02:05,1076,South,501621,4327,8659,63rd & Woodlawn,2,,,,,,
+1793394229,2026-10-30 16:03:49,1076,South,501621,4327,8660,63rd & Ellis,3,,,,,,
+1793394389,2026-10-30 16:06:29,1076,South,501621,4327,8661,Cottage Grove & 63rd,4,,,,,,
+1793394421,2026-10-30 16:07:01,1076,South,501621,4327,141863,Cottage & 61st,5,,,,,,
+1793394595,2026-10-30 16:09:55,1076,South,501621,4327,8623,South Campus Resident Hall,7,,,,,,
+1793394629,2026-10-30 16:10:29,1076,South,501621,4327,140011,61st Street & University,8,,,,,,
+1793394645,2026-10-30 16:10:45,1076,South,501621,4327,140010,61st St & Woodlawn Ave,9,,,,,,
