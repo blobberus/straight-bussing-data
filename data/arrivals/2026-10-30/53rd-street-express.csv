@@ -418,4 +418,6 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793400794,2026-10-30 17:53:14,4346,53rd Street Express,681014,4326,8624,Stony Island Parking Lot,13,,,,,,
 1793400911,2026-10-30 17:55:11,4346,53rd Street Express,681014,4326,8599,57th St. & Metra (NB),14,,,,,,
 1793400990,2026-10-30 17:56:30,4346,53rd Street Express,681014,4326,8626,Lake Park & 55th St. (SE Corner),15,,,,,,
-1793401160,2026-10-30 17:59:20,4346,53rd Street Express,681015,4326,8596,Harper Court (NE Corner),0,,,,,,
+1793401160,2026-10-30 17:59:20,4346,53rd Street Express,681014,4326,8596,Harper Court (NE Corner),16,,,,,,
+1793401516,2026-10-30 18:05:16,4346,53rd Street Express,681015,4326,8811,53rd St & Kenwood,1,,,,,,
+1793401732,2026-10-30 18:08:52,4346,53rd Street Express,681015,4326,8628,Kimbark Plaza (NE Corner),2,,,,,,
