@@ -1,3 +1,13 @@
 epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
 1793318932,2026-10-29 19:08:52,5715,Regents Express,524066,12646,8633,Regenstein Library (N),6,,,,,,
 1793319141,2026-10-29 19:12:21,5715,Regents Express,524066,12646,8643,Law School (N),7,,,,,,
+1793319842,2026-10-29 19:24:02,5715,Regents Express,524067,12646,8599,57th St. & Metra (NB),1,,,,,,
+1793319902,2026-10-29 19:25:02,5715,Regents Express,524067,12646,72572,E 56th St & S Cornell Ave (SW Corner),2,,,,,,
+1793319934,2026-10-29 19:25:34,5715,Regents Express,524067,12646,72573,E 56th St & S Hyde Park Blvd (SW Corner),3,,,,,,
+1793320024,2026-10-29 19:27:04,5715,Regents Express,524067,12646,8657,Shoreland Building,4,,,,,,
+1793320611,2026-10-29 19:36:51,5715,Regents Express,524067,12646,8633,Regenstein Library (N),6,,,,,,
+1793320823,2026-10-29 19:40:23,5715,Regents Express,524069,12646,8643,Law School (N),0,,,,,,
+1793321647,2026-10-29 19:54:07,5715,Regents Express,524069,12646,8599,57th St. & Metra (NB),1,,,,,,
+1793321702,2026-10-29 19:55:02,5715,Regents Express,524069,12646,72572,E 56th St & S Cornell Ave (SW Corner),2,,,,,,
+1793321720,2026-10-29 19:55:20,5715,Regents Express,524069,12646,72573,E 56th St & S Hyde Park Blvd (SW Corner),3,,,,,,
+1793321837,2026-10-29 19:57:17,5715,Regents Express,524069,12646,8657,Shoreland Building,4,,,,,,

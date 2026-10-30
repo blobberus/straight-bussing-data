@@ -465,5 +465,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793317653,2026-10-29 18:47:33,5703,Midway Metra,503264,4324,8607,59th St & Kimbark / Lab School,2,,,,,,
 1793317743,2026-10-29 18:49:03,5703,Midway Metra,503264,4324,8654,59th & Ellis,3,,,,,,
 1793317765,2026-10-29 18:49:25,5703,Midway Metra,503273,4324,8612,Goldblatt Pavilion,4,,,,,,
-1793319069,2026-10-29 19:11:09,5703,Midway Metra,,12648,8589,Logan Center,7,,,,,,
+1793319069,2026-10-29 19:11:09,5703,Midway Metra,676444,12648,8589,Logan Center,7,,,,,,
 1793319105,2026-10-29 19:11:45,5703,Midway Metra,676444,12648,8631,60th St. & Ellis (SE Corner),8,,,,,,
