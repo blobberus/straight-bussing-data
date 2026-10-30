@@ -1,0 +1,10 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793354417,2026-10-30 05:00:17,5701,Drexel,501392,4327,8611,Drexel Garage,0,,,,,,
+1793354738,2026-10-30 05:05:38,5701,Drexel,501392,4327,8613,Wyler Pavilion,2,,,,,,
+1793354767,2026-10-30 05:06:07,5701,Drexel,501392,4327,8615,Bernard Mitchell Hospital,3,,,,,,
+1793355006,2026-10-30 05:10:06,5701,Drexel,676408,4322,8611,Drexel Garage,0,,,,,,
+1793355264,2026-10-30 05:14:24,5701,Drexel,676408,4322,8612,Goldblatt Pavilion,1,,,,,,
+1793355319,2026-10-30 05:15:19,5701,Drexel,676408,4322,8613,Wyler Pavilion,2,,,,,,
+1793355333,2026-10-30 05:15:33,5701,Drexel,676408,4322,8615,Bernard Mitchell Hospital,3,,,,,,
+1793355913,2026-10-30 05:25:13,5701,Drexel,501393,4327,8613,Wyler Pavilion,2,,,,,,
+1793355931,2026-10-30 05:25:31,5701,Drexel,501393,4327,8615,Bernard Mitchell Hospital,3,,,,,,
