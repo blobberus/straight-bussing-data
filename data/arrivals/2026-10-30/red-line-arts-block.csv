@@ -595,3 +595,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793411631,2026-10-30 20:53:51,5699,Red Line/Arts Block,690513,12648,161392,Garfield & Wabash (EB),8,,,,,,
 1793411715,2026-10-30 20:55:15,5699,Red Line/Arts Block,690513,12648,67603,Washington Park Arts Incubator,9,,,,,,
 1793411786,2026-10-30 20:56:26,5699,Red Line/Arts Block,,4315,161393,Garfield & Wabash (WB),5,,,,,,
+1793413494,2026-10-30 21:24:54,5699,Red Line/Arts Block,,12648,67601,Garfield Green Line Station,4,,,,,,
+1793413583,2026-10-30 21:26:23,5699,Red Line/Arts Block,,12648,161393,Garfield & Wabash (WB),5,,,,,,
+1793414345,2026-10-30 21:39:05,5699,Red Line/Arts Block,,12642,67601,Garfield Green Line Station,4,,,,,,
+1793414403,2026-10-30 21:40:03,5699,Red Line/Arts Block,,12642,161393,Garfield & Wabash (WB),5,,,,,,
