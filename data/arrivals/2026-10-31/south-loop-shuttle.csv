@@ -1,0 +1,4 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793487958,2026-10-31 18:05:58,5716,South Loop Shuttle,501793,4538,8619,57th Street Metra Station (E),1,,,,,,
+1793487977,2026-10-31 18:06:17,5716,South Loop Shuttle,501793,4538,141882,57th St. & Metra (SB),3,,,,,,
+1793489092,2026-10-31 18:24:52,5716,South Loop Shuttle,501793,4538,8621,Roosevelt CTA Station,2,,,,,,
