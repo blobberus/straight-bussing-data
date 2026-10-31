@@ -369,3 +369,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793410440,2026-10-30 20:34:00,5700,Friend Center/Metra,499521,4331,138838,S Drexel Ave & 57th St,5,,,,,,
 1793410539,2026-10-30 20:35:39,5700,Friend Center/Metra,499521,4331,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
 1793410655,2026-10-30 20:37:35,5700,Friend Center/Metra,499521,4331,8618,Ronald McDonald House & Friend Center,7,,,,,,
+1793410847,2026-10-30 20:40:47,5700,Friend Center/Metra,499521,4331,140009,55th Street & University,8,,,,,,
+1793410980,2026-10-30 20:43:00,5700,Friend Center/Metra,499521,4331,8645,Hyde Park Shopping Center (S),9,,,,,,
+1793411105,2026-10-30 20:45:05,5700,Friend Center/Metra,499521,4331,8619,57th Street Metra Station (E),10,,,,,,
+1793411248,2026-10-30 20:47:28,5700,Friend Center/Metra,499521,4331,8658,59th St & Metra,11,,,,,,
+1793411478,2026-10-30 20:51:18,5700,Friend Center/Metra,499521,4331,8612,Goldblatt Pavilion,12,,,,,,
