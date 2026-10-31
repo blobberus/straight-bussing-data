@@ -34,11 +34,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-10-31 05:45 UTC · 76,158 arrivals · 23 service days · newest arrival 2026-10-31 00:19:40 (Chicago time)_
+_Last sync: 2026-10-31 06:10 UTC · 76,160 arrivals · 23 service days · newest arrival 2026-10-31 00:47:35 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-10-30 | 4,201 | 14 | [data/arrivals/2026-10-30/](data/arrivals/2026-10-30) |
+| 2026-10-30 | 4,203 | 14 | [data/arrivals/2026-10-30/](data/arrivals/2026-10-30) |
 | 2026-10-29 | 4,301 | 13 | [data/arrivals/2026-10-29/](data/arrivals/2026-10-29) |
 | 2026-10-28 | 3,999 | 13 | [data/arrivals/2026-10-28/](data/arrivals/2026-10-28) |
 | 2026-10-27 | 4,539 | 13 | [data/arrivals/2026-10-27/](data/arrivals/2026-10-27) |
@@ -70,5 +70,5 @@ Routes on 2026-10-30:
 | Central | 132 | [central.csv](data/arrivals/2026-10-30/central.csv) |
 | North | 101 | [north.csv](data/arrivals/2026-10-30/north.csv) |
 | Regents Express | 41 | [regents-express.csv](data/arrivals/2026-10-30/regents-express.csv) |
-| South Loop Shuttle | 27 | [south-loop-shuttle.csv](data/arrivals/2026-10-30/south-loop-shuttle.csv) |
+| South Loop Shuttle | 29 | [south-loop-shuttle.csv](data/arrivals/2026-10-30/south-loop-shuttle.csv) |
 <!-- SYNC:END -->

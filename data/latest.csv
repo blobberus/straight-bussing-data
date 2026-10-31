@@ -1,6 +1,4 @@
 epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
-1793417986,2026-10-30 22:39:46,6126,Apostolic/Drexel,676403,4325,225834,61st & Kimbark,8,,,,,,
-1793418009,2026-10-30 22:40:09,6126,Apostolic/Drexel,676404,12644,8613,Wyler Pavilion,1,,,,,,
 1793418022,2026-10-30 22:40:22,6126,Apostolic/Drexel,676404,12644,8615,Bernard Mitchell Hospital,2,,,,,,
 1793418042,2026-10-30 22:40:42,1076,South,501649,4538,8623,South Campus Resident Hall,7,,,,,,
 1793418052,2026-10-30 22:40:52,6126,Apostolic/Drexel,676404,12644,8616,58th Street & Drexel,3,,,,,,
@@ -199,3 +197,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793423058,2026-10-31 00:04:18,6126,Apostolic/Drexel,676406,4325,225833,Kimbark Garage,11,,,,,,
 1793423341,2026-10-31 00:09:01,6126,Apostolic/Drexel,676406,4325,8612,Goldblatt Pavilion,12,,,,,,
 1793423980,2026-10-31 00:19:40,5716,South Loop Shuttle,501799,4327,8621,Roosevelt CTA Station,2,,,,,,
+1793425516,2026-10-31 00:45:16,5716,South Loop Shuttle,501799,4327,9593,International House,4,,,,,,
+1793425655,2026-10-31 00:47:35,5716,South Loop Shuttle,501799,4327,8579,Reynolds Club,5,,,,,,
