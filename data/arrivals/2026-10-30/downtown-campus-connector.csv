@@ -533,7 +533,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793414705,2026-10-30 21:45:05,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,2,,,,,,
 1793415026,2026-10-30 21:50:26,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,,,,,,
 1793415203,2026-10-30 21:53:23,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,4,,,,,,
-1793415216,2026-10-30 21:53:36,5704,Downtown Campus Connector,,12646,8591,Rockefeller Chapel,0,,,,,,
+1793415216,2026-10-30 21:53:36,5704,Downtown Campus Connector,874028,12646,8591,Rockefeller Chapel,0,,,,,,
 1793415271,2026-10-30 21:54:31,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
 1793415303,2026-10-30 21:55:03,5704,Downtown Campus Connector,874028,12646,8654,59th & Ellis,1,,,,,,
 1793415391,2026-10-30 21:56:31,5704,Downtown Campus Connector,874028,12646,8612,Goldblatt Pavilion,2,,,,,,
