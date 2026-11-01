@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   actions: write          # keepalive: re-enable this workflow so GitHub's 60-day idle rule can't stop it
+  issues: write           # the watchdog's collector-health issue in this repo
 concurrency: { group: sync, cancel-in-progress: false }
 jobs:
   sync:
@@ -36,6 +37,18 @@ jobs:
           git commit -qm "sync: $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do git push && exit 0; git pull --rebase -q; done
           exit 1
+      - name: Watchdog - are buses running while the collector is stopped? (never fails the sync)
+        # From outside the collector (app repo docs/DATA-COLLECTION-LOG.md DC-021): this chain runs on its own, so it
+        # still runs when the collector's self-chain and cron have both stopped. The check is the app repo's
+        # tools/health.py watchdog (cloned above): buses in Passio's feed but no collect run active and nothing merged for
+        # 45 min, or nothing merged for 3 h, opens the collector-health issue here. With a repository secret
+        # COLLECT_DISPATCH_TOKEN (fine-grained, Actions read and write on blobberus/straight-bussing) it also restarts it.
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEALTH_ISSUES: ${{ vars.HEALTH_ISSUES }}
+          COLLECT_DISPATCH_TOKEN: ${{ secrets.COLLECT_DISPATCH_TOKEN }}
+        run: python "$RUNNER_TEMP/src-main/tools/health.py" watchdog --src-data "$RUNNER_TEMP/src-data" || true
       - name: Keep the schedule alive
         if: always()
         env: { GH_TOKEN: "${{ github.token }}" }
