@@ -15,6 +15,7 @@ is one bus trip moving stop to stop over time; hover or tap a point for the stop
 | `data/index.json` | days, routes and counts (used by the viewer) |
 | `data/network/` | route colors, stop names and stop order from the public GTFS schedule |
 | `methodology/` | `RouteKnower.md` (the experiment plan, test protocol, data targets, experiment log), `experiments/routeknower/` (experiment write-ups), and the data / algorithm / backtest docs |
+| `algorithm-test/` | a test bench for arrival-time prediction: Passio, the timetable, boosted trees and a neural network scored against the current accuracy goal on the public forecast tables (trained on earlier days, tested on later ones), what makes buses come later than shown, and the conclusion (`algorithm-test/README.md`, `CONCLUSION.md`). Run it with `python algorithm-test/run_all.py` |
 | `index.html`, `viewer.js`, `viewer.css` | the viewer page |
 | `scripts/sync.py`, `.github/workflows/sync.yml` | the sync that keeps all of this current |
 
