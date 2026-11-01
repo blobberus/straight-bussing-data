@@ -59,3 +59,54 @@ class ShiftWindow(Predictor):
             v = key.map(tab).to_numpy(float)
             c = np.where(np.isnan(c), v, c)
         return test["passio_epoch"].to_numpy(float) + np.nan_to_num(c, nan=0.0)
+
+
+def target_encode(train_key, y, m=50):
+    """Mean residual per category, shrunk toward the overall mean with m pseudo-samples (rare stops stay near it)."""
+    import pandas as pd
+    g = pd.DataFrame({"k": train_key.to_numpy(), "y": y}).groupby("k")["y"].agg(["sum", "count"])
+    mu = float(np.mean(y))
+    return ((g["sum"] + m * mu) / (g["count"] + m)).to_dict(), mu
+
+
+class GBMQuantile(Predictor):
+    """Individual algorithm v2: gradient-boosted trees predicting a quantile (TAU) of the residual from the features
+    known at the query minute (features.py), route and stop as target-encoded lateness, the lead bin as its sample
+    point. A lower TAU keeps too-late predictions rare (about TAU of them land too late); a higher TAU chases band B."""
+    TAU = 0.15
+    ROUNDS = 120
+
+    def _matrix(self, test):
+        from gbm import QuantileGBM  # noqa: F401
+        f = F.frame(test)
+        X = f[F.NUMERIC].to_numpy(float)
+        te_r = f["route_id"].map(self.enc_route).fillna(self.mu).to_numpy(float)
+        te_s = f["stop_key"].map(self.enc_stop).fillna(self.mu).to_numpy(float)
+        mid = f["bin"].map(BIN_MID).to_numpy(float)
+        return np.column_stack([X, te_r, te_s, mid])
+
+    def fit(self, train):
+        from gbm import QuantileGBM
+        f, y = F.frame(train), F.target(train)
+        lead = f["bin"].map(BIN_MID).to_numpy(float)
+        ok = ~S.gross(-y, lead)
+        self.enc_route, self.mu = target_encode(f["route_id"][ok], y[ok])
+        self.enc_stop, _ = target_encode(f["stop_key"][ok], y[ok])
+        X = self._matrix(train)
+        self.model = QuantileGBM(tau=self.TAU, rounds=self.ROUNDS).fit(X[ok], y[ok])
+        return self
+
+    def predict(self, test):
+        return test["passio_epoch"].to_numpy(float) + self.model.predict(self._matrix(test))
+
+
+@register
+class GBMQ15(GBMQuantile):
+    name = "gbm_q15"
+    TAU = 0.15
+
+
+@register
+class GBMQ30(GBMQuantile):
+    name = "gbm_q30"
+    TAU = 0.30
