@@ -1,3 +1,5 @@
+> **Superseded (2026-11-01): these numbers are inflated by a leak** (the model grouped by the goal bin, which comes from the true lead, and trained on the scoreboard's fixed-lead sample). Corrected run: `03-learned-fixed.md`.
+
 # Individual algorithm v1: learned band-B correction per stop
 
 Test days: 2026-10-20 to 2026-10-30 (11 days, 109,376 samples; each model trained only on earlier days).
