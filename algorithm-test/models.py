@@ -110,3 +110,6 @@ class GBMQ15(GBMQuantile):
 class GBMQ30(GBMQuantile):
     name = "gbm_q30"
     TAU = 0.30
+
+# the deep-learning comparison registers itself too
+import model_deep  # noqa: E402,F401
