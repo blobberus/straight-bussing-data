@@ -27,7 +27,7 @@ def band_b_allows_early_up_to_the_allowed_error_but_late_only_one_percent():
     # at 25 min ahead: 2 min early passes, 15 s late passes (1% of 1500 s), 16 s late does not
     s = S.score([-120, 15, 16, -121], [1500] * 4)
     assert s["band_b"] == 0.5 and s["shrink"] == 0.75, s
-    assert s["too_late"] == 0.5
+    assert s["too_late"] == 0.25, s   # only 16 s is MORE than 1% of the lead late; 15 s is exactly the limit
 
 
 @test
