@@ -13,3 +13,6 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793495996,2026-10-31 20:19:56,5716,South Loop Shuttle,501795,4538,8621,Roosevelt CTA Station,2,,,,,,
 1793497543,2026-10-31 20:45:43,5716,South Loop Shuttle,501795,4538,9593,International House,4,,,,,,
 1793497676,2026-10-31 20:47:56,5716,South Loop Shuttle,501796,4538,8579,Reynolds Club,0,,,,,,
+1793498613,2026-10-31 21:03:33,5716,South Loop Shuttle,501796,4538,141882,57th St. & Metra (SB),3,,,,,,
+1793498613,2026-10-31 21:03:33,5716,South Loop Shuttle,501796,4538,8619,57th Street Metra Station (E),1,,,,,,
+1793499793,2026-10-31 21:23:13,5716,South Loop Shuttle,501796,4538,8621,Roosevelt CTA Station,2,,,,,,
