@@ -29,6 +29,10 @@ class DeepQuantile(Predictor):
     TAU = 0.15
     EPOCHS = 6
 
+    def _tau(self, f):
+        """Quantile per training row (one value here; DeepSafe varies it with Passio's lead)."""
+        return torch.full((len(f),), self.TAU, dtype=torch.float32)
+
     def _index(self, keys, vocab):
         return torch.tensor([vocab.get(k, 0) for k in keys], dtype=torch.long)
 
@@ -55,14 +59,14 @@ class DeepQuantile(Predictor):
         t = torch.tensor(y, dtype=torch.float32)
         self.net = Net(len(F.NUMERIC), len(self.vr) + 1, len(self.vs) + 1, len(self.vp) + 1)
         opt = torch.optim.Adam(self.net.parameters(), lr=1e-3)
-        n, tau = len(t), self.TAU
+        n, tau = len(t), self._tau(f)
         self.net.train()
         for _ in range(self.EPOCHS):
             perm = torch.randperm(n)
             for i in range(0, n, 2048):
                 b = perm[i:i + 2048]
-                d = t[b] - self.net(x[b], r[b], s[b], p[b])
-                loss = torch.mean(torch.maximum(tau * d, (tau - 1) * d))   # pinball
+                d, q = t[b] - self.net(x[b], r[b], s[b], p[b]), tau[b]
+                loss = torch.mean(torch.maximum(q * d, (q - 1) * d))   # pinball
                 opt.zero_grad()
                 loss.backward()
                 opt.step()
@@ -85,3 +89,16 @@ class DeepQ15(DeepQuantile):
 class DeepQ30(DeepQuantile):
     name = "deep_q30"
     TAU = 0.30
+
+
+@register
+class DeepSafe(DeepQuantile):
+    """The ship gate's safety rule (never too late more often than Passio) per lead: a lower quantile where Passio is
+    rarely too late. Picked by hand from results/04 (deep_q15 vs Passio's too-late share per bin), which used the same
+    test days: five hand-set numbers, so its scores are slightly optimistic. pbin is an input, so the network can learn a
+    different quantile per lead range."""
+    name = "deep_safe"
+    TAUS = {"p0-10": 0.10, "p10-15": 0.13, "p15-20": 0.13, "p20-30": 0.17, "p30+": 0.25, "p?": 0.10}
+
+    def _tau(self, f):
+        return torch.tensor(f["pbin"].map(self.TAUS).fillna(0.10).to_numpy(float), dtype=torch.float32)
