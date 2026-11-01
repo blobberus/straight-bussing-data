@@ -7,6 +7,7 @@ import scoring as S
 from predictors import Predictor, register
 
 BIN_MID = {b[2]: b[3] for b in S.GOAL_BINS}
+PBIN_MID = {"p0-10": 300.0, "p10-15": 750.0, "p15-20": 1050.0, "p20-30": 1500.0, "p30+": 2250.0, "p?": 750.0}
 
 
 def best_window(y, tol, late):
@@ -33,11 +34,11 @@ class ShiftWindow(Predictor):
 
     def _levels(self, f):
         nt = f["next_trip"].fillna(0).astype(int).astype(str)
-        return [f["stop_key"] + "|" + nt + "|" + f["bin"], f["route_id"] + "|" + nt + "|" + f["bin"], nt + "|" + f["bin"], f["bin"]]
+        return [f["stop_key"] + "|" + nt + "|" + f["pbin"], f["route_id"] + "|" + nt + "|" + f["pbin"], nt + "|" + f["pbin"], f["pbin"]]
 
     def fit(self, train):
         f, y = F.frame(train), F.target(train)
-        lead = f["bin"].map(BIN_MID).to_numpy(float)
+        lead = f["pbin"].map(PBIN_MID).to_numpy(float)      # Passio's predicted lead (known), never the true lead
         tol, late = S.shrink_tol(lead), 0.01 * lead
         ok = ~S.gross(-y, lead)                      # gross misses do not steer the correction
         self.tables = []
@@ -72,7 +73,7 @@ def target_encode(train_key, y, m=50):
 class GBMQuantile(Predictor):
     """Individual algorithm v2: gradient-boosted trees predicting a quantile (TAU) of the residual from the features
     known at the query minute (features.py), route and stop as target-encoded lateness, the lead bin as its sample
-    point. A lower TAU keeps too-late predictions rare (about TAU of them land too late); a higher TAU chases band B."""
+    point is NOT used (it would leak the true lead); Passio's predicted lead is. A lower TAU keeps too-late predictions rare (about TAU of them land too late); a higher TAU chases band B."""
     TAU = 0.15
     ROUNDS = 120
 
@@ -82,14 +83,13 @@ class GBMQuantile(Predictor):
         X = f[F.NUMERIC].to_numpy(float)
         te_r = f["route_id"].map(self.enc_route).fillna(self.mu).to_numpy(float)
         te_s = f["stop_key"].map(self.enc_stop).fillna(self.mu).to_numpy(float)
-        mid = f["bin"].map(BIN_MID).to_numpy(float)
-        return np.column_stack([X, te_r, te_s, mid])
+        return np.column_stack([X, te_r, te_s])   # no lead-bin feature: it comes from the true lead (a leak)
 
     def fit(self, train):
         from gbm import QuantileGBM
         f, y = F.frame(train), F.target(train)
-        lead = f["bin"].map(BIN_MID).to_numpy(float)
-        ok = ~S.gross(-y, lead)
+        lead = f["lead_passio"].to_numpy(float)
+        ok = ~S.gross(-y, np.maximum(lead, 60.0))
         self.enc_route, self.mu = target_encode(f["route_id"][ok], y[ok])
         self.enc_stop, _ = target_encode(f["stop_key"][ok], y[ok])
         X = self._matrix(train)
