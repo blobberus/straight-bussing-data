@@ -1,0 +1,7 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793570503,2026-11-01 16:01:43,1075,North,501582,4313,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
+1793570536,2026-11-01 16:02:16,1075,North,501582,4313,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
+1793570706,2026-11-01 16:05:06,1075,North,501582,4313,140008,S. Drexel Ave & E 53rd St,4,,,,,,
+1793571513,2026-11-01 16:18:33,1075,North,501582,4313,140009,55th Street & University,5,,,,,,
+1793571551,2026-11-01 16:19:11,1075,North,501582,4313,8637,Alumni House (NW Corner),6,,,,,,
+1793571768,2026-11-01 16:22:48,1075,North,501582,4313,8579,Reynolds Club,7,,,,,,
