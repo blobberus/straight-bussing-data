@@ -20,3 +20,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793501398,2026-10-31 21:49:58,5716,South Loop Shuttle,501797,4538,8579,Reynolds Club,0,,,,,,
 1793502161,2026-10-31 22:02:41,5716,South Loop Shuttle,501797,4538,8619,57th Street Metra Station (E),1,,,,,,
 1793502162,2026-10-31 22:02:42,5716,South Loop Shuttle,501797,4538,141882,57th St. & Metra (SB),3,,,,,,
+1793503212,2026-10-31 22:20:12,5716,South Loop Shuttle,501797,4538,8621,Roosevelt CTA Station,2,,,,,,
