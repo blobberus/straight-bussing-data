@@ -1,6 +1,4 @@
 epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
-1793500946,2026-10-31 21:42:26,1077,East,501699,4315,8578,Regents Park Apartments,7,,,,,,
-1793500988,2026-10-31 21:43:08,1078,Central,501740,4325,8634,Max Palevsky Residential Commons (NE Corner),7,,,,,,
 1793501014,2026-10-31 21:43:34,1078,Central,501740,4325,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
 1793501061,2026-10-31 21:44:21,1078,Central,501740,4325,140009,55th Street & University,9,,,,,,
 1793501071,2026-10-31 21:44:31,1076,South,501621,4314,8652,Booth School,13,,,,,,
@@ -199,3 +197,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793508785,2026-10-31 23:53:05,1075,North,501611,4313,8579,Reynolds Club,7,,,,,,
 1793509341,2026-11-01 00:02:21,5716,South Loop Shuttle,501799,4538,8619,57th Street Metra Station (E),1,,,,,,
 1793510411,2026-11-01 00:20:11,5716,South Loop Shuttle,501799,4538,8621,Roosevelt CTA Station,2,,,,,,
+1793511811,2026-11-01 00:43:31,5716,South Loop Shuttle,501799,4538,9593,International House,4,,,,,,
+1793511954,2026-11-01 00:45:54,5716,South Loop Shuttle,501799,4538,8579,Reynolds Club,5,,,,,,
