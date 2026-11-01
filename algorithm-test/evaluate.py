@@ -3,8 +3,8 @@
 
   python algorithm-test/evaluate.py --models passio,timetable,timetable_delay [--test-days 11] [--out results/NAME]
 
-For every test day (the last N service days), each model is fitted on the samples of all EARLIER days only and
-predicts that day; a model's missing predictions fall back to Passio's time (counted as "fallback"). Results per goal
+For every test day (the last N service days), each model is fitted on the training table (every query minute, not
+picked by the true lead: dataset.load_train_all) of all EARLIER days only and predicts that day's scoreboard sample; a model's missing predictions fall back to Passio's time (counted as "fallback"). Results per goal
 bin: the scoring.py numbers, whether the goal is met (most predictions inside band B), and the change in band B and in
 "too late" against Passio with a 95% interval from resampling whole test days (days are the unit of noise).
 """
@@ -23,11 +23,11 @@ import predictors as P       # noqa: E402
 BINS = [b[2] for b in S.GOAL_BINS]
 
 
-def run(models, sample, test_days, log=print):
+def run(models, sample, test_days, train_table, log=print):
     """-> DataFrame of test rows with one predicted-epoch column per model ('pred_<name>') and 'fb_<name>' flags."""
     out = []
     for d in test_days:
-        train, test = sample[sample["service_day"] < d], sample[sample["service_day"] == d].copy()
+        train, test = train_table[train_table["service_day"] < d], sample[sample["service_day"] == d].copy()
         for m in models:
             t0 = time.time()
             p = m().fit(train).predict(test)
@@ -118,7 +118,7 @@ def main(argv=None):
     names = [n.strip() for n in a.models.split(",") if n.strip()]
     if "passio" not in names:
         names.insert(0, "passio")
-    df = run([P.REGISTRY[n] for n in names], sample, test_days)
+    df = run([P.REGISTRY[n] for n in names], sample, test_days, D.load_train_all())
     md, js = report(df, names, a.title)
     print(md)
     if a.out:

@@ -72,3 +72,23 @@ def load_all(cache=None, require="passio_epoch", refresh=False):
     s = load_sample(days, cache, require)
     s.to_pickle(p)
     return s
+
+
+def load_train_all(frac=0.25, seed=7, cache=None, refresh=False):
+    """The TRAINING table: rows where Passio showed a time, at every query minute (a random `frac` of them per day),
+    NOT picked by the true lead. Training on the scoreboard sample would let a model learn that the true lead sits at
+    5 / 12.5 / 17.5 / 25 / 37.5 minutes and snap to it (a leak); real queries come at any minute. Cached as a pickle."""
+    days = days_in(cache)
+    p = Path(cache or HERE / "cache") / f"train-{days[0]}-{days[-1]}-{frac}-{seed}.pkl"
+    if p.exists() and not refresh:
+        return pd.read_pickle(p)
+    rng = np.random.default_rng(seed)
+    parts = []
+    for d in days:
+        df = load_day(d, cache)
+        df = df[df["passio_epoch"].notna()]
+        parts.append(df[rng.random(len(df)) < frac])
+    t = pd.concat(parts, ignore_index=True)
+    t["bin"] = ""          # no goal bin on training rows: it would come from the true lead
+    t.to_pickle(p)
+    return t
