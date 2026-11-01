@@ -59,3 +59,16 @@ def sample(df, require="passio_epoch"):
 def load_sample(days, cache=None, require="passio_epoch"):
     """The evaluation sample of several days, concatenated."""
     return pd.concat([sample(load_day(d, cache), require) for d in days], ignore_index=True)
+
+
+def load_all(cache=None, require="passio_epoch", refresh=False):
+    """The evaluation sample of every cached day, kept in cache/sample-<first>-<last>.pkl so experiments start fast."""
+    days = days_in(cache)
+    if not days:
+        raise SystemExit("no forecast tables in the cache: run fetch.py first")
+    p = Path(cache or HERE / "cache") / f"sample-{days[0]}-{days[-1]}-{require or 'all'}.pkl"
+    if p.exists() and not refresh:
+        return pd.read_pickle(p)
+    s = load_sample(days, cache, require)
+    s.to_pickle(p)
+    return s
