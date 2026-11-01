@@ -104,12 +104,42 @@ def report(df, names, title):
     return "\n".join(lines) + "\n", js
 
 
+def by_route(df, names, bins=("0-10", "10-15", "20-30")):
+    """Ship gate rule 3: no route more than 10% worse than Passio. Band B (and too late) per route, model vs Passio."""
+    lines = ["", "## Per route (ship gate: no route more than 10% worse than Passio in band B)", "",
+             "| route | lead | samples | Passio band B | " + " | ".join(f"{n} band B" for n in names if n != "passio") +
+             " | Passio too late | " + " | ".join(f"{n} too late" for n in names if n != "passio") + " |",
+             "|---|---|---:|---:|" + "---:|" * (2 * (len(names) - 1) + 1)]
+    worse = []
+    for (route, b), g in df.groupby(["route_name", "bin"]):
+        if b not in bins or len(g) < 300:
+            continue
+        lead = g["lead_s"].to_numpy()
+        sc = {n: S.score((g["pred_" + n] - g["actual_epoch"]).to_numpy(), lead) for n in names}
+        ref = sc["passio"]["band_b"]
+        cells_b, cells_l = [], []
+        for n in names:
+            if n == "passio":
+                continue
+            v = sc[n]["band_b"]
+            flag = " (worse by >10%)" if v < 0.9 * ref else ""
+            if flag:
+                worse.append(f"{n} on {route} at {b} min")
+            cells_b.append(f"{100 * v:.1f}%{flag}")
+            cells_l.append(f"{100 * sc[n]['too_late']:.1f}%")
+        lines.append(f"| {route} | {b} min | {len(g):,} | {100 * ref:.1f}% | " + " | ".join(cells_b) +
+                     f" | {100 * sc['passio']['too_late']:.1f}% | " + " | ".join(cells_l) + " |")
+    lines += ["", "Worse than Passio by more than 10% (relative): " + ("; ".join(worse) if worse else "none") + "."]
+    return "\n".join(lines) + "\n"
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--models", default="passio,timetable,timetable_delay")
     ap.add_argument("--test-days", type=int, default=11)
     ap.add_argument("--out", default="")
     ap.add_argument("--title", default="Algorithm test")
+    ap.add_argument("--by-route", action="store_true", help="add the per-route table (ship gate rule 3)")
     a = ap.parse_args(argv)
     import models  # noqa: F401  (registers the learned models)
     sample = D.load_all()
@@ -120,6 +150,8 @@ def main(argv=None):
         names.insert(0, "passio")
     df = run([P.REGISTRY[n] for n in names], sample, test_days, D.load_train_all())
     md, js = report(df, names, a.title)
+    if a.by_route:
+        md += by_route(df, names)
     print(md)
     if a.out:
         out = HERE / a.out
