@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Who makes buses arrive later than riders were told? Late minutes = how much later the bus came than Passio's time
 on display (0 when it came on time or early), one sample per arrival and goal bin (dataset.load_all), every day.
-Each table ranks a dimension by its share of all late minutes; the four biggest perpetrators are picked from them.
+Each table ranks a dimension by its share of all late minutes. The four biggest perpetrators are ranked by EXCESS late
+minutes (late minutes beyond what the same number of average samples would have), so a group is not a perpetrator just
+because it is big; a candidate that shares more than half its late minutes with one already picked is skipped.
 
   python algorithm-test/lateness.py [--out results/07-lateness]
 """
@@ -14,6 +16,7 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import dataset as D   # noqa: E402
+import scoring as S   # noqa: E402
 
 
 def situation(s):
@@ -53,6 +56,54 @@ def table(s, key, title, top=8):
     return lines + [""], g
 
 
+def in_band(s):
+    """True where Passio's shown time is inside band B (the goal's pass test)."""
+    err, lead = (s["passio_epoch"] - s["actual_epoch"]).to_numpy(float), s["lead_s"].to_numpy(float)
+    tol = S.shrink_tol(lead)
+    return pd.Series(~S.gross(err, lead) & (err >= -tol) & (err <= 0.01 * lead), index=s.index)
+
+
+def perpetrators(s, keys, top=4, overlap=0.5):
+    """-> markdown lines ranking candidate groups (every value of every key) by excess late minutes."""
+    late, total, mu = s["late_min"], s["late_min"].sum(), s["late_min"].mean()
+    inb = in_band(s)
+    cands = []
+    for dim, key in keys.items():
+        for k, idx in key.groupby(key).groups.items():
+            n, lm = len(idx), late.loc[idx].sum()
+            cands.append((lm - n * mu, dim, k, idx))
+    cands.sort(key=lambda c: -c[0])
+    picked, lines = [], ["## The four biggest lateness perpetrators", "",
+             "Ranked by excess late minutes: how many more late minutes the group caused than the same number of "
+             "average samples would have. Band B = Passio's time within the goal's allowed error (what riders see today); "
+             "\"if fixed\" = the overall band B if the group did as well as everything else.", "",
+             "| # | perpetrator | kind | excess late minutes (share of all) | share of samples | Passio band B in it / elsewhere | overall band B if fixed | biggest route in it |",
+             "|---:|---|---|---:|---:|---|---:|---|"]
+    base = inb.mean()
+    for ex, dim, k, idx in cands:
+        if len(picked) == top:
+            break
+        lm = late.loc[idx]
+        if any(late.loc[idx.intersection(p)].sum() > overlap * lm.sum() for p in picked):
+            continue
+        picked.append(idx)
+        rest = inb.drop(idx)
+        fixed = base + len(idx) * (rest.mean() - inb.loc[idx].mean()) / len(s)
+        r = s.loc[idx].groupby("route_name")["late_min"].sum().sort_values(ascending=False)
+        lines.append(f"| {len(picked)} | {k} | {dim} | {ex:,.0f} ({100 * ex / total:.1f}%) | {100 * len(idx) / len(s):.1f}% | "
+                     f"{100 * inb.loc[idx].mean():.1f}% / {100 * rest.mean():.1f}% | {100 * fixed:.1f}% (now {100 * base:.1f}%) | "
+                     f"{r.index[0]} ({100 * r.iloc[0] / r.sum():.0f}%) |")
+    union = pd.Index([])
+    for p in picked:
+        union = union.union(p)
+    rest = inb.drop(union)
+    fixed = base + len(union) * (rest.mean() - inb.loc[union].mean()) / len(s)
+    lines += ["", f"All four together cover {100 * len(union) / len(s):.0f}% of the samples. If they did as well as the rest, "
+              f"Passio's band B would go from {100 * base:.1f}% to {100 * fixed:.1f}%: the goal (50%) is missed almost everywhere, "
+              "not only in these groups."]
+    return lines + [""]
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--out", default="results/07-lateness")
@@ -64,6 +115,9 @@ def main(argv=None):
            f"{s['service_day'].min()} to {s['service_day'].max()}, {len(s):,} samples (one per arrival and lead range). "
            f"{100 * (s['late_min'] > 0).mean():.0f}% of samples came later than shown, {total:,.0f} late minutes in total, "
            f"{s['late_min'].mean():.1f} per sample.", ""]
+    keys = {"route": s["route_name"], "situation": situation(s), "delay": delay_bucket(s), "time of day": hour_bucket(s),
+            "route and situation": s["route_name"] + ", " + situation(s), "stop": s["route_name"] + ": " + s["stop_name"]}
+    out += perpetrators(s, keys)
     tabs = {}
     for name, key in [("route", s["route_name"]), ("situation", situation(s)), ("delay", delay_bucket(s)),
                       ("hour", hour_bucket(s)), ("stop", s["route_name"] + ": " + s["stop_name"]),

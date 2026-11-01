@@ -2,6 +2,19 @@
 
 2026-10-12 to 2026-10-30, 183,904 samples (one per arrival and lead range). 89% of samples came later than shown, 955,266 late minutes in total, 5.2 per sample.
 
+## The four biggest lateness perpetrators
+
+Ranked by excess late minutes: how many more late minutes the group caused than the same number of average samples would have. Band B = Passio's time within the goal's allowed error (what riders see today); "if fixed" = the overall band B if the group did as well as everything else.
+
+| # | perpetrator | kind | excess late minutes (share of all) | share of samples | Passio band B in it / elsewhere | overall band B if fixed | biggest route in it |
+|---:|---|---|---:|---:|---|---:|---|
+| 1 | no timetable (frequency trips) or unknown | delay | 65,294 (6.8%) | 14.2% | 7.2% / 13.9% | 13.9% (now 12.9%) | Downtown Campus Connector (91%) |
+| 2 | more than 10 min late | delay | 41,133 (4.3%) | 18.8% | 7.6% / 14.1% | 14.1% (now 12.9%) | Apostolic/Drexel (27%) |
+| 3 | Red Line/Arts Block | route | 29,639 (3.1%) | 10.9% | 5.5% / 13.8% | 13.8% (now 12.9%) | Red Line/Arts Block (100%) |
+| 4 | 3 to 7 PM | time of day | 24,915 (2.6%) | 29.7% | 10.2% / 14.0% | 14.0% (now 12.9%) | Apostolic/Drexel (21%) |
+
+All four together cover 55% of the samples. If they did as well as the rest, Passio's band B would go from 12.9% to 17.5%: the goal (50%) is missed almost everywhere, not only in these groups.
+
 ### By route
 
 | | samples | share of all late minutes | late per sample (min) | more than 3 min late |
