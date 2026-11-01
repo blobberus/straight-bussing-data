@@ -41,24 +41,21 @@ class ShiftWindow(Predictor):
         tol, late = S.shrink_tol(lead), 0.01 * lead
         ok = ~S.gross(-y, lead)                      # gross misses do not steer the correction
         self.tables = []
+        idx = np.flatnonzero(ok)
         for key in self._levels(f):
             tab = {}
-            k = key.to_numpy()
-            for g in np.unique(k[ok]):
-                m = ok & (k == g)
-                if m.sum() >= self.MIN:
-                    tab[g] = best_window(y[m], tol[m][0], late[m][0])
+            groups = key.iloc[idx].groupby(key.iloc[idx].to_numpy()).indices   # group -> positions within idx
+            for g, pos in groups.items():
+                if len(pos) >= self.MIN:
+                    rows = idx[pos]
+                    tab[g] = best_window(y[rows], tol[rows][0], late[rows][0])
             self.tables.append(tab)
         return self
 
     def predict(self, test):
         f = F.frame(test)
-        keys = [k.to_numpy() for k in self._levels(f)]
-        c = np.zeros(len(test))
-        for i in range(len(test)):
-            for lvl, tab in enumerate(self.tables):
-                v = tab.get(keys[lvl][i])
-                if v is not None:
-                    c[i] = v
-                    break
-        return test["passio_epoch"].to_numpy(float) + c
+        c = np.full(len(test), np.nan)
+        for key, tab in zip(self._levels(f), self.tables):   # most specific level first; fill only what is still open
+            v = key.map(tab).to_numpy(float)
+            c = np.where(np.isnan(c), v, c)
+        return test["passio_epoch"].to_numpy(float) + np.nan_to_num(c, nan=0.0)
