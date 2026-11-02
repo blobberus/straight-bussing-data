@@ -65,3 +65,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793580520,2026-11-01 18:48:40,1077,East,501687,4327,8641,Hyde Park Shopping Center (N),11,,,,,,
 1793580641,2026-11-01 18:50:41,1077,East,501687,4327,8637,Alumni House (NW Corner),12,,,,,,
 1793580817,2026-11-01 18:53:37,1077,East,501687,4327,8579,Reynolds Club,13,,,,,,
+1793582267,2026-11-01 19:17:47,1077,East,501673,4327,8579,Reynolds Club,0,,,,,,
