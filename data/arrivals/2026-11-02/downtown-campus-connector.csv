@@ -1,3 +1,13 @@
 epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
 1793621799,2026-11-02 06:16:39,5704,Downtown Campus Connector,874028,4314,8591,Rockefeller Chapel,0,,,,,,
 1793622658,2026-11-02 06:30:58,5704,Downtown Campus Connector,874028,4314,8654,59th & Ellis,1,,,,,,
+1793622701,2026-11-02 06:31:41,5704,Downtown Campus Connector,874028,4314,8612,Goldblatt Pavilion,2,,,,,,
+1793622983,2026-11-02 06:36:23,5704,Downtown Campus Connector,874028,4314,140009,55th Street & University,3,,,,,,
+1793623114,2026-11-02 06:38:34,5704,Downtown Campus Connector,874028,4314,151794,S Lake Park & E 53rd St,4,,,,,,
+1793623168,2026-11-02 06:39:28,5704,Downtown Campus Connector,874028,4314,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
+1793623776,2026-11-02 06:49:36,5704,Downtown Campus Connector,874028,4314,132965,S Michigan Ave/Roosevelt,6,,,,,,
+1793624180,2026-11-02 06:56:20,5704,Downtown Campus Connector,874028,4314,155006,E Randolph St & S Michigan Ave,7,,,,,,
+1793624641,2026-11-02 07:04:01,5704,Downtown Campus Connector,874028,4314,132963,Gleacher Center,8,,,,,,
+1793624831,2026-11-02 07:07:11,5704,Downtown Campus Connector,874028,4325,8591,Rockefeller Chapel,0,,,,,,
+1793624904,2026-11-02 07:08:24,5704,Downtown Campus Connector,874028,4325,8654,59th & Ellis,1,,,,,,
+1793624964,2026-11-02 07:09:24,5704,Downtown Campus Connector,874028,4325,8612,Goldblatt Pavilion,2,,,,,,

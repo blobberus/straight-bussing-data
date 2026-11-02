@@ -35,11 +35,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-02 12:50 UTC · 78,051 arrivals · 26 service days · newest arrival 2026-11-02 06:31:08 (Chicago time)_
+_Last sync: 2026-11-02 13:15 UTC · 78,204 arrivals · 26 service days · newest arrival 2026-11-02 07:11:40 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-02 | 186 | 5 | [data/arrivals/2026-11-02/](data/arrivals/2026-11-02) |
+| 2026-11-02 | 339 | 7 | [data/arrivals/2026-11-02/](data/arrivals/2026-11-02) |
 | 2026-11-01 | 776 | 4 | [data/arrivals/2026-11-01/](data/arrivals/2026-11-01) |
 | 2026-10-31 | 929 | 5 | [data/arrivals/2026-10-31/](data/arrivals/2026-10-31) |
 | 2026-10-30 | 4,203 | 14 | [data/arrivals/2026-10-30/](data/arrivals/2026-10-30) |
@@ -58,9 +58,11 @@ Routes on 2026-11-02:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic | 66 | [apostolic.csv](data/arrivals/2026-11-02/apostolic.csv) |
-| Drexel | 52 | [drexel.csv](data/arrivals/2026-11-02/drexel.csv) |
-| Friend Center/Metra | 37 | [friend-center-metra.csv](data/arrivals/2026-11-02/friend-center-metra.csv) |
-| Midway Metra | 29 | [midway-metra.csv](data/arrivals/2026-11-02/midway-metra.csv) |
-| Downtown Campus Connector | 2 | [downtown-campus-connector.csv](data/arrivals/2026-11-02/downtown-campus-connector.csv) |
+| Apostolic | 108 | [apostolic.csv](data/arrivals/2026-11-02/apostolic.csv) |
+| Drexel | 79 | [drexel.csv](data/arrivals/2026-11-02/drexel.csv) |
+| Midway Metra | 71 | [midway-metra.csv](data/arrivals/2026-11-02/midway-metra.csv) |
+| Friend Center/Metra | 55 | [friend-center-metra.csv](data/arrivals/2026-11-02/friend-center-metra.csv) |
+| Downtown Campus Connector | 12 | [downtown-campus-connector.csv](data/arrivals/2026-11-02/downtown-campus-connector.csv) |
+| 53rd Street Express | 10 | [53rd-street-express.csv](data/arrivals/2026-11-02/53rd-street-express.csv) |
+| Red Line/Arts Block | 4 | [red-line-arts-block.csv](data/arrivals/2026-11-02/red-line-arts-block.csv) |
 <!-- SYNC:END -->
