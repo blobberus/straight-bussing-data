@@ -174,3 +174,6 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793599225,2026-11-02 00:00:25,1077,East,501693,4327,8633,Regenstein Library (N),1,,,,,,
 1793599271,2026-11-02 00:01:11,1077,East,501693,4327,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
 1793599290,2026-11-02 00:01:30,1077,East,501707,4327,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
+1793599368,2026-11-02 00:02:48,1077,East,501707,4327,140009,55th Street & University,4,,,,,,
+1793599483,2026-11-02 00:04:43,1077,East,501707,4327,20132,53 & Kimbark (EB),5,,,,,,
+1793599569,2026-11-02 00:06:09,1077,East,501707,4327,8627,Harper Court (EB),6,,,,,,
