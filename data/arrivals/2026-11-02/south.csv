@@ -1,0 +1,9 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793658256,2026-11-02 16:24:16,1076,South,501621,4328,8623,South Campus Resident Hall,7,,,,,,
+1793658291,2026-11-02 16:24:51,1076,South,501621,4328,140011,61st Street & University,8,,,,,,
+1793658308,2026-11-02 16:25:08,1076,South,501621,4328,140010,61st St & Woodlawn Ave,9,,,,,,
+1793658412,2026-11-02 16:26:52,1076,South,501621,4328,161844,Keller Center EB,10,,,,,,
+1793658672,2026-11-02 16:31:12,1076,South,501621,4328,8652,Booth School,13,,,,,,
+1793658800,2026-11-02 16:33:20,1076,South,501621,4328,8633,Regenstein Library (N),14,,,,,,
+1793658900,2026-11-02 16:35:00,1076,South,501621,4328,8630,Levi Hall (W),15,,,,,,
+1793658985,2026-11-02 16:36:25,1076,South,501621,4328,8631,60th St. & Ellis (SE Corner),16,,,,,,
