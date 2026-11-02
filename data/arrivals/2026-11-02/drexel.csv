@@ -192,6 +192,6 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793634846,2026-11-02 09:54:06,5701,Drexel,676408,4324,8612,Goldblatt Pavilion,1,,,,,,
 1793634929,2026-11-02 09:55:29,5701,Drexel,676408,4324,8613,Wyler Pavilion,2,,,,,,
 1793634949,2026-11-02 09:55:49,5701,Drexel,676408,4324,8615,Bernard Mitchell Hospital,3,,,,,,
+1793635007,2026-11-02 09:56:47,5701,Drexel,676408,4324,8616,58th Street & Drexel,4,,,,,,
 1793635022,2026-11-02 09:57:02,5701,Drexel,676421,4324,8617,Comer Children's Hospital,5,,,,,,
-1793635022,2026-11-02 09:57:02,5701,Drexel,676408,4324,8616,58th Street & Drexel,4,,,,,,
 1793635067,2026-11-02 09:57:47,5701,Drexel,676408,4324,8609,57th Street & Drexel (NB),6,,,,,,
