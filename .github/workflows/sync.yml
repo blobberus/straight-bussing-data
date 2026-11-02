@@ -41,7 +41,7 @@ jobs:
         # From outside the collector (app repo docs/DATA-COLLECTION-LOG.md DC-021): this chain runs on its own, so it
         # still runs when the collector's self-chain and cron have both stopped. The check is the app repo's
         # tools/health.py watchdog (cloned above): buses in Passio's feed but no collect run active and nothing merged for
-        # 45 min, or nothing merged for 3 h, opens the collector-health issue here. With a repository secret
+        # 45 min opens the collector-health issue here (app repo DC-022 dropped a 3-hour rule). With a repository secret
         # COLLECT_DISPATCH_TOKEN (fine-grained, Actions read and write on blobberus/straight-bussing) it also restarts it.
         if: always()
         env:
