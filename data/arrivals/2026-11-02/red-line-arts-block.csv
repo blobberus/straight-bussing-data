@@ -479,3 +479,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793674437,2026-11-02 20:53:57,5699,Red Line/Arts Block,690513,12644,67603,Washington Park Arts Incubator,9,,,,,,
 1793674502,2026-11-02 20:55:02,5699,Red Line/Arts Block,,4322,161393,Garfield & Wabash (WB),5,,,,,,
 1793674605,2026-11-02 20:56:45,5699,Red Line/Arts Block,690513,12644,138836,Midway Plaisance & Cottage Grove,10,,,,,,
+1793685915,2026-11-03 00:05:15,5699,Red Line/Arts Block,,12648,67601,Garfield Green Line Station,4,,,,,,
+1793686014,2026-11-03 00:06:54,5699,Red Line/Arts Block,,12648,161393,Garfield & Wabash (WB),5,,,,,,
