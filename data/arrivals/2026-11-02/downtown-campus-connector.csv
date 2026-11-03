@@ -396,3 +396,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793674978,2026-11-02 21:02:58,5704,Downtown Campus Connector,874028,12645,140009,55th Street & University,3,,,,,,
 1793675209,2026-11-02 21:06:49,5704,Downtown Campus Connector,874028,12645,151794,S Lake Park & E 53rd St,4,,,,,,
 1793675294,2026-11-02 21:08:14,5704,Downtown Campus Connector,874028,12645,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
+1793675944,2026-11-02 21:19:04,5704,Downtown Campus Connector,,12645,132965,S Michigan Ave/Roosevelt,6,,,,,,
