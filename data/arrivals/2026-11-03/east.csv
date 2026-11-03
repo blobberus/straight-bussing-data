@@ -1,0 +1,10 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793742796,2026-11-03 15:53:16,1077,East,501673,4324,8579,Reynolds Club,0,,,,,,
+1793743226,2026-11-03 16:00:26,1077,East,501673,4324,8633,Regenstein Library (N),1,,,,,,
+1793743353,2026-11-03 16:02:33,1077,East,501673,4324,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
+1793743397,2026-11-03 16:03:17,1077,East,501673,4324,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
+1793743503,2026-11-03 16:05:03,1077,East,501673,4324,140009,55th Street & University,4,,,,,,
+1793743648,2026-11-03 16:07:28,1077,East,501673,4324,20132,53 & Kimbark (EB),5,,,,,,
+1793743818,2026-11-03 16:10:18,1077,East,501673,4324,8627,Harper Court (EB),6,,,,,,
+1793744027,2026-11-03 16:13:47,1077,East,501673,4324,8578,Regents Park Apartments,7,,,,,,
+1793744187,2026-11-03 16:16:27,1077,East,501673,4324,140013,S. Hyde Park Blvd/55th Street,8,,,,,,

@@ -1,0 +1,9 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793743374,2026-11-03 16:02:54,1078,Central,,4317,141882,57th St. & Metra (SB),1,,,,,,
+1793743494,2026-11-03 16:04:54,1078,Central,,4317,8658,59th St & Metra,2,,,,,,
+1793743561,2026-11-03 16:06:01,1078,Central,,4317,9593,International House,3,,,,,,
+1793743740,2026-11-03 16:09:00,1078,Central,501716,4317,8644,Burton-Judson Courts (NE Corner),5,,,,,,
+1793743851,2026-11-03 16:10:51,1078,Central,501716,4317,8597,Levi Hall (E),6,,,,,,
+1793743973,2026-11-03 16:12:53,1078,Central,501716,4317,8634,Max Palevsky Residential Commons (NE Corner),7,,,,,,
+1793743997,2026-11-03 16:13:17,1078,Central,501716,4317,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
+1793744102,2026-11-03 16:15:02,1078,Central,501716,4317,140009,55th Street & University,9,,,,,,

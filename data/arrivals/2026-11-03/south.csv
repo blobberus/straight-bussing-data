@@ -1,0 +1,11 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793743427,2026-11-03 16:03:47,1076,South,501621,4319,161849,Woodlawn Ave & 61st St,1,,,,,,
+1793743503,2026-11-03 16:05:03,1076,South,501621,4319,8659,63rd & Woodlawn,2,,,,,,
+1793743638,2026-11-03 16:07:18,1076,South,501621,4319,8660,63rd & Ellis,3,,,,,,
+1793743735,2026-11-03 16:08:55,1076,South,501621,4319,8661,Cottage Grove & 63rd,4,,,,,,
+1793743769,2026-11-03 16:09:29,1076,South,501621,4319,141863,Cottage & 61st,5,,,,,,
+1793743836,2026-11-03 16:10:36,1076,South,501621,4319,8589,Logan Center,6,,,,,,
+1793743903,2026-11-03 16:11:43,1076,South,501621,4319,8623,South Campus Resident Hall,7,,,,,,
+1793743934,2026-11-03 16:12:14,1076,South,501621,4319,140011,61st Street & University,8,,,,,,
+1793743950,2026-11-03 16:12:30,1076,South,501621,4319,140010,61st St & Woodlawn Ave,9,,,,,,
+1793744036,2026-11-03 16:13:56,1076,South,501621,4319,161844,Keller Center EB,10,,,,,,

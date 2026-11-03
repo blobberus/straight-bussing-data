@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-03 21:42",
+ "synced": "2026-11-03 22:33",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 83922,
- "newest": "2026-11-03 15:36:24",
+ "rows": 84123,
+ "newest": "2026-11-03 16:16:42",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1538,11 +1538,11 @@
   },
   {
    "day": "2026-11-03",
-   "rows": 2126,
+   "rows": 2327,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-03/53rd-street-express.csv",
-     "rows": 358,
+     "rows": 378,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -1552,33 +1552,53 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-03/apostolic-drexel.csv",
-     "rows": 117,
+     "rows": 162,
      "route_id": "6126"
+    },
+    "Central": {
+     "file": "data/arrivals/2026-11-03/central.csv",
+     "rows": 8,
+     "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-03/downtown-campus-connector.csv",
-     "rows": 311,
+     "rows": 327,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-11-03/drexel.csv",
-     "rows": 256,
+     "rows": 258,
      "route_id": "5701"
+    },
+    "East": {
+     "file": "data/arrivals/2026-11-03/east.csv",
+     "rows": 9,
+     "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-03/friend-center-metra.csv",
-     "rows": 247,
+     "rows": 265,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-03/midway-metra.csv",
-     "rows": 205,
+     "rows": 248,
      "route_id": "5703"
+    },
+    "North": {
+     "file": "data/arrivals/2026-11-03/north.csv",
+     "rows": 5,
+     "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-03/red-line-arts-block.csv",
-     "rows": 362,
+     "rows": 387,
      "route_id": "5699"
+    },
+    "South": {
+     "file": "data/arrivals/2026-11-03/south.csv",
+     "rows": 10,
+     "route_id": "1076"
     }
    }
   }
