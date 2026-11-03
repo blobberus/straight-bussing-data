@@ -415,3 +415,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793666756,2026-11-02 18:45:56,5703,Midway Metra,676445,12648,161844,Keller Center EB,11,,,,,,
 1793666809,2026-11-02 18:46:49,5703,Midway Metra,676445,12648,8594,Press Building,12,,,,,,
 1793666851,2026-11-02 18:47:31,5703,Midway Metra,676445,12648,8624,Stony Island Parking Lot,13,,,,,,
+1793666932,2026-11-02 18:48:52,5703,Midway Metra,676445,12648,8658,59th St & Metra,1,,,,,,
