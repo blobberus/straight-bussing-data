@@ -195,7 +195,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793719795,2026-11-03 09:29:55,5703,Midway Metra,676433,12644,161844,Keller Center EB,11,,,,,,
 1793719828,2026-11-03 09:30:28,5703,Midway Metra,501539,4538,8612,Goldblatt Pavilion,4,,,,,,
 1793719858,2026-11-03 09:30:58,5703,Midway Metra,676433,12644,8594,Press Building,12,,,,,,
-1793719888,2026-11-03 09:31:28,5703,Midway Metra,676433,12644,8624,Stony Island Parking Lot,13,,,,,,
+1793719893,2026-11-03 09:31:33,5703,Midway Metra,676433,12644,8624,Stony Island Parking Lot,13,,,,,,
 1793720025,2026-11-03 09:33:45,5703,Midway Metra,676433,12644,141882,57th St. & Metra (SB),15,,,,,,
 1793720125,2026-11-03 09:35:25,5703,Midway Metra,676434,12644,8658,59th St & Metra,1,,,,,,
 1793720220,2026-11-03 09:37:00,5703,Midway Metra,676434,12644,8607,59th St & Kimbark / Lab School,2,,,,,,
