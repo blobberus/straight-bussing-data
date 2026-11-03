@@ -7,4 +7,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793672731,2026-11-02 20:25:31,5715,Regents Express,524070,12646,72573,E 56th St & S Hyde Park Blvd (SW Corner),3,,,,,,
 1793672847,2026-11-02 20:27:27,5715,Regents Express,524070,12646,8657,Shoreland Building,4,,,,,,
 1793673385,2026-11-02 20:36:25,5715,Regents Express,524070,12646,8633,Regenstein Library (N),6,,,,,,
-1793673578,2026-11-02 20:39:38,5715,Regents Express,524071,12646,8643,Law School (N),0,,,,,,
+1793673603,2026-11-02 20:40:03,5715,Regents Express,524071,12646,8643,Law School (N),0,,,,,,
