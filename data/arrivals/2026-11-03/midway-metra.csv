@@ -1,0 +1,6 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793708596,2026-11-03 06:23:16,5703,Midway Metra,501528,4538,141882,57th St. & Metra (SB),15,,,,,,
+1793709177,2026-11-03 06:32:57,5703,Midway Metra,501530,4538,8658,59th St & Metra,1,,,,,,
+1793709310,2026-11-03 06:35:10,5703,Midway Metra,501530,4538,8607,59th St & Kimbark / Lab School,2,,,,,,
+1793709411,2026-11-03 06:36:51,5703,Midway Metra,501530,4538,8654,59th & Ellis,3,,,,,,
+1793709447,2026-11-03 06:37:27,5703,Midway Metra,501530,4538,8612,Goldblatt Pavilion,4,,,,,,

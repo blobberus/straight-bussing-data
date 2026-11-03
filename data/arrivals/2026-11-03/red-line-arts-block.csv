@@ -1,0 +1,7 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793708978,2026-11-03 06:29:38,5699,Red Line/Arts Block,690483,4331,67602,Garfield Red Line Station (WB),6,,,,,,
+1793708999,2026-11-03 06:29:59,5699,Red Line/Arts Block,690483,4331,69624,Garfield Red Line Station (EB),7,,,,,,
+1793709109,2026-11-03 06:31:49,5699,Red Line/Arts Block,672389,12648,67598,Logan Center for Arts,0,,,,,,
+1793709392,2026-11-03 06:36:32,5699,Red Line/Arts Block,672389,12648,67599,Institute for Study of Ancient Cultures,1,,,,,,
+1793709429,2026-11-03 06:37:09,5699,Red Line/Arts Block,672389,12648,8650,Ellis/57th,2,,,,,,
+1793709465,2026-11-03 06:37:45,5699,Red Line/Arts Block,672389,12648,67600,Smart Museum of Arts,3,,,,,,
