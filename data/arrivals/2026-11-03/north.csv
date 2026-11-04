@@ -86,3 +86,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793764746,2026-11-03 21:59:06,1075,North,501606,4313,8633,Regenstein Library (N),1,,,,,,
 1793764798,2026-11-03 21:59:58,1075,North,501606,4313,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
 1793764839,2026-11-03 22:00:39,1075,North,501606,4313,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
+1793764957,2026-11-03 22:02:37,1075,North,501606,4313,140008,S. Drexel Ave & E 53rd St,4,,,,,,
+1793765701,2026-11-03 22:15:01,1075,North,501606,4313,140009,55th Street & University,5,,,,,,
+1793765747,2026-11-03 22:15:47,1075,North,501606,4313,8637,Alumni House (NW Corner),6,,,,,,
+1793765901,2026-11-03 22:18:21,1075,North,501606,4313,8579,Reynolds Club,7,,,,,,
+1793766582,2026-11-03 22:29:42,1075,North,501608,4313,8633,Regenstein Library (N),1,,,,,,
