@@ -35,7 +35,7 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-04 06:10 UTC · 85,944 arrivals · 27 service days · newest arrival 2026-11-04 00:00:49 (Chicago time)_
+_Last sync: 2026-11-04 07:01 UTC · 85,944 arrivals · 27 service days · newest arrival 2026-11-04 00:00:49 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
