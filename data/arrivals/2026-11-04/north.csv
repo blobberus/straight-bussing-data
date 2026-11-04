@@ -1,0 +1,4 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793829546,2026-11-04 15:59:06,1075,North,501582,4320,8633,Regenstein Library (N),1,,,,,,
+1793829666,2026-11-04 16:01:06,1075,North,501582,4320,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
+1793829696,2026-11-04 16:01:36,1075,North,501582,4320,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
