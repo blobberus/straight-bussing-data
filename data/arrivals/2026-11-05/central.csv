@@ -1,0 +1,11 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793916188,2026-11-05 16:03:08,1078,Central,501716,4313,141882,57th St. & Metra (SB),1,,,,,,
+1793916334,2026-11-05 16:05:34,1078,Central,501716,4313,8658,59th St & Metra,2,,,,,,
+1793916379,2026-11-05 16:06:19,1078,Central,501716,4313,9593,International House,3,,,,,,
+1793916502,2026-11-05 16:08:22,1078,Central,501716,4313,8584,Keller Center WB,4,,,,,,
+1793916583,2026-11-05 16:09:43,1078,Central,501716,4313,8644,Burton-Judson Courts (NE Corner),5,,,,,,
+1793916816,2026-11-05 16:13:36,1078,Central,501716,4313,8634,Max Palevsky Residential Commons (NE Corner),7,,,,,,
+1793916843,2026-11-05 16:14:03,1078,Central,501716,4313,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
+1793916919,2026-11-05 16:15:19,1078,Central,501716,4313,140009,55th Street & University,9,,,,,,
+1793917157,2026-11-05 16:19:17,1078,Central,501716,4313,140016,55th Street & Blackstone,10,,,,,,
+1793917250,2026-11-05 16:20:50,1078,Central,501716,4313,141862,Blackstone & 53rd,11,,,,,,
