@@ -150,3 +150,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793907754,2026-11-05 13:42:34,5700,Friend Center/Metra,499507,4319,140009,55th Street & University,8,,,,,,
 1793907888,2026-11-05 13:44:48,5700,Friend Center/Metra,499507,4319,8645,Hyde Park Shopping Center (S),9,,,,,,
 1793908019,2026-11-05 13:46:59,5700,Friend Center/Metra,499507,4319,8619,57th Street Metra Station (E),10,,,,,,
+1793908228,2026-11-05 13:50:28,5700,Friend Center/Metra,499507,4319,8658,59th St & Metra,11,,,,,,
+1793908945,2026-11-05 14:02:25,5700,Friend Center/Metra,499507,4319,8612,Goldblatt Pavilion,12,,,,,,
+1793909030,2026-11-05 14:03:50,5700,Friend Center/Metra,499508,4319,8613,Wyler Pavilion,1,,,,,,
+1793909060,2026-11-05 14:04:20,5700,Friend Center/Metra,499508,4319,8615,Bernard Mitchell Hospital,2,,,,,,
+1793909132,2026-11-05 14:05:32,5700,Friend Center/Metra,499508,4319,8616,58th Street & Drexel,3,,,,,,

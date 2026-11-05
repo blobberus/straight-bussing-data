@@ -216,3 +216,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793896549,2026-11-05 10:35:49,5699,Red Line/Arts Block,690462,12648,138836,Midway Plaisance & Cottage Grove,10,,,,,,
 1793896597,2026-11-05 10:36:37,5699,Red Line/Arts Block,690462,12645,69624,Garfield Red Line Station (EB),7,,,,,,
 1793896623,2026-11-05 10:37:03,5699,Red Line/Arts Block,690462,12648,67598,Logan Center for Arts,11,,,,,,
+1793908418,2026-11-05 13:53:38,5699,Red Line/Arts Block,672392,4317,67603,Washington Park Arts Incubator,9,,,,,,
