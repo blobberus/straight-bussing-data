@@ -281,3 +281,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793857067,2026-11-04 23:37:47,1078,Central,501746,4327,8597,Levi Hall (E),6,,,,,,
 1793857145,2026-11-04 23:39:05,1078,Central,501746,4327,8634,Max Palevsky Residential Commons (NE Corner),7,,,,,,
 1793857168,2026-11-04 23:39:28,1078,Central,501746,4327,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
+1793857234,2026-11-04 23:40:34,1078,Central,501732,4327,140009,55th Street & University,9,,,,,,
+1793857443,2026-11-04 23:44:03,1078,Central,501732,4327,141862,Blackstone & 53rd,11,,,,,,
+1793857510,2026-11-04 23:45:10,1078,Central,501732,4327,140012,53 & Kimbark (WB),12,,,,,,
+1793857768,2026-11-04 23:49:28,1078,Central,501732,4327,8652,Booth School,13,,,,,,
+1793857887,2026-11-04 23:51:27,1078,Central,501732,4327,8579,Reynolds Club,0,,,,,,

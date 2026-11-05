@@ -120,6 +120,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793855385,2026-11-04 23:09:45,1077,East,501705,4322,140013,S. Hyde Park Blvd/55th Street,8,,,,,,
 1793855458,2026-11-04 23:10:58,1077,East,501705,4322,8641,Hyde Park Shopping Center (N),11,,,,,,
 1793855579,2026-11-04 23:12:59,1077,East,501705,4322,8637,Alumni House (NW Corner),12,,,,,,
+1793856608,2026-11-04 23:30:08,1077,East,501706,4322,8633,Regenstein Library (N),1,,,,,,
+1793856615,2026-11-04 23:30:15,1077,East,501706,4322,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
 1793856630,2026-11-04 23:30:30,1077,East,501706,4322,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
 1793856704,2026-11-04 23:31:44,1077,East,501706,4322,140009,55th Street & University,4,,,,,,
 1793856842,2026-11-04 23:34:02,1077,East,501706,4322,20132,53 & Kimbark (EB),5,,,,,,
@@ -128,3 +130,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793857227,2026-11-04 23:40:27,1077,East,501706,4322,140013,S. Hyde Park Blvd/55th Street,8,,,,,,
 1793857339,2026-11-04 23:42:19,1077,East,501706,4322,8641,Hyde Park Shopping Center (N),11,,,,,,
 1793857508,2026-11-04 23:45:08,1077,East,501706,4322,8579,Reynolds Club,13,,,,,,
+1793858406,2026-11-05 00:00:06,1077,East,501707,4322,8633,Regenstein Library (N),1,,,,,,
