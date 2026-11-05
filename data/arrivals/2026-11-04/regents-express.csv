@@ -1,0 +1,4 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793835686,2026-11-04 17:41:26,5715,Regents Express,524063,12646,8633,Regenstein Library (N),6,,,,,,
+1793835878,2026-11-04 17:44:38,5715,Regents Express,524063,12646,8643,Law School (N),7,,,,,,
+1793836436,2026-11-04 17:53:56,5715,Regents Express,524064,12646,8599,57th St. & Metra (NB),1,,,,,,
