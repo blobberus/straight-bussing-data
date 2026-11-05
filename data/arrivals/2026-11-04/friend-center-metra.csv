@@ -285,3 +285,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793835957,2026-11-04 17:45:57,5700,Friend Center/Metra,,4319,8645,Hyde Park Shopping Center (S),9,,,,,,
 1793836255,2026-11-04 17:50:55,5700,Friend Center/Metra,,4319,8658,59th St & Metra,11,,,,,,
 1793836859,2026-11-04 18:00:59,5700,Friend Center/Metra,499505,4319,8612,Goldblatt Pavilion,12,,,,,,
+1793845936,2026-11-04 20:32:16,5700,Friend Center/Metra,499521,4331,8615,Bernard Mitchell Hospital,2,,,,,,
+1793845958,2026-11-04 20:32:38,5700,Friend Center/Metra,499521,4331,8616,58th Street & Drexel,3,,,,,,
+1793845990,2026-11-04 20:33:10,5700,Friend Center/Metra,499521,4331,8617,Comer Children's Hospital,4,,,,,,
+1793846024,2026-11-04 20:33:44,5700,Friend Center/Metra,499521,4331,138838,S Drexel Ave & 57th St,5,,,,,,
