@@ -98,7 +98,40 @@ the bus's own motion adds little), the inputs worth adding to the forecast table
 Then rerun this bench (`python algorithm-test/run_all.py`) and the ceiling: if better inputs do not lift the ceiling
 well past a third, the goal itself is worth a second look with the owner.
 
-## 6. What this does not settle
+## 6. Transition time: when a line's bus count changes (results/12, added 2026-11-06)
+
+The owner asked to log what buses do at transition time (a bus leaving a line for a break, its shift end or another
+line, or a bus joining) and to test the algorithms against it. The main repo's RouteKnower E29 labeled every change of
+October 10 to November 5 (`data/labeled/transitions/transitions.csv` there); `transitions.py` joins it to the samples
+and scores every model on the same rows. Test days October 26 to November 5 (11 days, 101,853 samples; 18.5% of them
+within 15 minutes of a transition on their line).
+
+| Band B, normal / transition (within 15 min of a change) | 0-10 min | 10-15 | 15-20 | 20-30 | 30-45 |
+|---|---|---|---|---|---|
+| Passio | 15.7 / 15.0% | 10.4 / 6.8% | 10.3 / 7.6% | 21.0 / 12.1% | 14.1 / 6.1% |
+| Timetable + delay | 11.3 / 13.0% | 8.8 / 7.3% | 11.2 / 10.4% | 21.0 / 17.8% | 23.7 / 10.6% |
+| Boosted trees (`gbm_q15`) | 26.5 / 24.5% | 14.8 / 13.3% | 12.7 / 10.1% | 24.2 / 15.7% | 9.6 / 6.2% |
+| Network (`deep_q15`) | 28.1 / 25.9% | 17.2 / 14.4% | 15.9 / 13.5% | 27.1 / 19.0% | 8.4 / 11.4% |
+| Network, safe setting (`deep_safe`) | 25.7 / 24.1% | 15.1 / 13.9% | 14.9 / 12.2% | 27.7 / 19.5% | 11.0 / 12.1% |
+
+- **Every predictor loses accuracy in transition time at 10 to 45 minutes ahead**, most at 20 to 30 minutes (Passio
+  21.0% to 12.1%, the safe network 27.7% to 19.5%); under 10 minutes the difference is small. Too late is not higher
+  there (Passio 4.2% vs 7.4% at 20-30). A long-range prediction made just before a bus leaves or joins is the weak spot.
+- **The learned models keep their lead in transition time**: the safe network is ahead of Passio by 9.1, 7.1, 4.6, 7.4
+  and 6.0 points there (vs 10.0, 4.7, 4.6, 6.7 and -3.1 in normal time), so transitions are not where they fail; they
+  just do not fix them. Rows of a bus that leaves its line within 30 minutes (1.8% of samples) look like the rest.
+- **Passio's times for buses around a leave are mostly false**: of everything Passio showed for a bus in the 45
+  minutes before it left its line for good, 70.0% never came true (55.7% in the 45 minutes after; 35.5% for other
+  buses). These rows are not in the scored sample (they have no arrival), which is why the main repo's app now drops
+  the times of a bus that has sent no report for 15 minutes (`web/js/core/transition.js`: 98.8% of those times never
+  came true).
+- **What to try next**: give the models the transition columns the forecast tables carry from November 6
+  (`transition_min` is ground truth and must never be a feature; `added_recently`, `break_window`,
+  `leave_spot_dist_m`, `absent_s` are known live) and rerun this step; which bus is about to leave could not be told
+  ahead reliably (E29: at best about 30% precision), so "a bus of this line usually leaves around now" is the realistic
+  input, not "this bus leaves".
+
+## 7. What this does not settle
 
 - 19 days of autumn quarter: no snow, no exam weeks, no breaks yet.
 - The sample is the scoreboard's (one prediction per arrival and lead range).

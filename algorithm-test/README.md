@@ -52,6 +52,7 @@ otherwise, the test days are October 20 to 30 and every model is trained only on
 | [09-ceiling](results/09-ceiling.md) | How good could any model get with these inputs? | Even fitted on the answers, about a third at best. |
 | [10-e24-leak-check](results/10-e24-leak-check.md) | Was the main repo's older headroom estimate (E24) leaky? | Yes; up to 10 points too high, same verdict. |
 | [11-safe-setting](results/11-safe-setting.md) | Can the network obey the "never too late more often than Passio" rule? | Nearly: `deep_safe` 27%, 15%, 15%, 26%, 13%, too late within noise of Passio in every bin. The best candidate so far. |
+| [12-transitions](results/12-transitions.md) | How do the models do when a line's bus count changes (a bus leaving for a break, its shift end or another line, or joining)? | Every predictor is worse within 15 min of a change at 10 to 45 min ahead (Passio 21% to 12% at 20-30 min, the safe network 28% to 20%); the models keep their lead over Passio. 70% of Passio's times for a bus about to leave never came true. Test days Oct 26 to Nov 5. |
 
 ### The four biggest lateness perpetrators (results/07)
 
@@ -92,6 +93,7 @@ The tables (about 6 MB per service day, 118 MB for October 12 to 30) go to `algo
 | `test_leak.py` | proves no model looks at the real arrival (scrambles it and checks the predictions do not move) |
 | `evaluate.py` | rolling-origin evaluation with confidence intervals over days, per route on request |
 | `learning_curve.py`, `lateness.py`, `importance.py`, `ceiling.py`, `e24_leak_check.py` | the other experiments |
+| `transitions.py` | every model in transition periods vs normal ones and on buses about to leave (joins the main repo's `data/labeled/transitions/transitions.csv`; RouteKnower E29) |
 | `run_all.py` | runs everything in order |
 
 ## Caveats
