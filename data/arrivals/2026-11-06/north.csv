@@ -1,0 +1,5 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794001607,2026-11-06 15:46:47,1075,North,501582,4327,8579,Reynolds Club,0,,,,,,
+1794002315,2026-11-06 15:58:35,1075,North,501582,4327,8633,Regenstein Library (N),1,,,,,,
+1794002443,2026-11-06 16:00:43,1075,North,501582,4327,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
+1794002484,2026-11-06 16:01:24,1075,North,501582,4327,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
