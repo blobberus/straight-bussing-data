@@ -1,0 +1,7 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793980833,2026-11-06 10:00:33,6126,Apostolic/Drexel,501459,12644,8613,Wyler Pavilion,1,,,,,,
+1793980838,2026-11-06 10:00:38,6126,Apostolic/Drexel,501459,12644,8615,Bernard Mitchell Hospital,2,,,,,,
+1793980891,2026-11-06 10:01:31,6126,Apostolic/Drexel,501459,12644,8616,58th Street & Drexel,3,,,,,,
+1793980918,2026-11-06 10:01:58,6126,Apostolic/Drexel,501459,12644,8617,Comer Children's Hospital,4,,,,,,
+1793980936,2026-11-06 10:02:16,6126,Apostolic/Drexel,501459,12644,8609,57th Street & Drexel (NB),5,,,,,,
+1793981049,2026-11-06 10:04:09,6126,Apostolic/Drexel,501459,12644,8630,Levi Hall (W),6,,,,,,
