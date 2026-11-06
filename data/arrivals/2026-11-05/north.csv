@@ -37,3 +37,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793925640,2026-11-05 18:40:40,1075,North,501582,4318,140008,S. Drexel Ave & E 53rd St,4,,,,,,
 1793926732,2026-11-05 18:58:52,1075,North,501593,4318,140009,55th Street & University,5,,,,,,
 1793926779,2026-11-05 18:59:39,1075,North,501593,4318,8637,Alumni House (NW Corner),6,,,,,,
+1793927022,2026-11-05 19:03:42,1075,North,501593,4318,8579,Reynolds Club,7,,,,,,
+1793928715,2026-11-05 19:31:55,1075,North,501595,4318,8633,Regenstein Library (N),1,,,,,,
