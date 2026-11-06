@@ -1,0 +1,32 @@
+entry,item,title,status,first line
+DC-023,,Checkup 2026-11-06: a 2-hour gap on Nov 5 (GitHub API errors) and the anomalies of Nov 2 to 5 (fixed / open),fixed / open,"Owner (2026-11-06): ""Check the data collection status and create a log on any anomalies."" Times are Chicago (CST since"
+DC-023,1,"Collection gap, Thu Nov 5, 10:39 AM to 12:39 PM (fixed).",fixed,
+DC-023,2,`monitor.py status` could not read the data CSV (fixed).,fixed,
+DC-023,3,The data repo's sync chain and its watchdog stopped in the same window (fixed).,fixed,
+DC-023,4,"Buses whose two Passio feeds disagreed for hours, Nov 4 and 5 (watch: Passio's side).",watch: Passio's side,
+DC-023,5,"Buses parked at Regenstein Library around 11:50 (owner's report, 2026-11-06; facts from the raw polls).","owner's report, 2026-11-06; facts from the raw polls",
+DC-023,6,"The GPS sweep still misses some stops of buses with sparse reports (open, small; detector).","open, small; detector",
+DC-023,7,"Buses reporting on a route outside its listed hours, Nov 2 to 5 (facts; for the idle-buses workstream).",facts; for the idle-buses workstream,
+DC-023,8,Everything else checked: normal.,,
+DC-022,,Two false alarms on the health alerts' first day (fixed 2026-11-02),fixed 2026-11-02,- Found in the 2026-11-02 checkup; both issues had opened and closed by themselves.
+DC-021,,"Risk review of the collection method: silent failures, one-push breakage, one provider (fixed / mitigated 2026-11-01)",fixed / mitigated 2026-11-01,"Owner: ""Find the greatest constraints and risks in the data collection method and modify the data collection method to"
+DC-020,,Bus count changes (the 2 to 1 bus transitions) were not recorded (added 2026-10-30),added 2026-10-30,"- Owner: ""A large propagating timing error I noticed originates from when buses transition from 2 bus to 1 bus"
+DC-019,,"Bug check 2026-10-29: loop-end predictions (DC-017), replay determinism, daylight saving (fixed)",fixed,- Loop-end predictions dropped (DC-017's main case): `arrival_detector._candidates` (and `build_eta_dataset.shown`)
+DC-018,,The daily archive failed for Oct 26: a new timetable added stops (fixed),fixed,- Found 2026-10-27: the archive run of 2026-10-27 stopped on Oct 26 with `IndexError('list index out of range')`
+DC-017,,"About 40 arrivals a day get no prediction row although Passio showed one for the same trip (fixed in part 2026-10-29, DC-019)","fixed in part 2026-10-29, DC-019",- Found 2026-10-22 comparing Oct 20 / 21 with the raw `pred-updates` archive: 42 (Oct 20) and 39 (Oct 21) non-`gps`
+DC-016,,Central had no Passio predictions on the evening of Oct 20 (accepted: Passio's side),accepted: Passio's side,"- Found 2026-10-22: Central's 181 arrivals on Oct 20 (bus 4320, 4 to 11:59 PM) have no prediction row at any lead."
+DC-015,,Some machines get empty vehicle lists from Passio most of the time (watch; the gate no longer depends on them),watch; the gate no longer depends on them,- Found 2026-10-18 while checking why about 1 in 3 polls had no vehicles: on 2026-10-14 16:00 to 16:06 the two
+DC-014,,"The collector ran all day and night, even while no bus ran (fixed: only while buses run)",fixed: only while buses run,"- Found 2026-10-18 (owner: ""only run when the bus routes are active ... a buffer for time so that just in case the"
+DC-013,,"The public data repo synced every 4 to 5 hours, not every 30 min (fixed)",fixed,- Found 2026-10-16 during the verification. github.com/blobberus/straight-bussing-data's `sync.yml` cron is
+DC-012,,"Passio's alert ids are list positions, so one alert splits into rows (fixed)",fixed,"- Found 2026-10-16. serviceAlerts entity ids are the alert's place in the feed, not a stable id: ""UGo Bus Route"
+DC-011,,Many 30-min predictions are another lap's time (fixed in part; the rest is Passio's own error),fixed in part; the rest is Passio's own error,- Found 2026-10-14 during DC-008. 35.6% of the 30-min rows and 7.2% of the 20-min rows are more than 15 min off;
+DC-010,,"The forecast-snapshot table has the same trip id gap as DC-008 (fixed 2026-10-16, backfilled)","fixed 2026-10-16, backfilled","- Found 2026-10-14. `tools/build_eta_dataset.py` looked up Passio's prediction by the arrival's trip id only, like"
+DC-008,,Passio predictions vanished between leads: our trip id lookup (fixed),fixed,- Found 2026-10-14 (data check of origin/data at 22:29Z).
+DC-009,,"An operator alert names Passio's own route id, so the app's route view skips it (fixed, app side)","fixed, app side","- Found 2026-10-14 while adding DC-007. The live North alert (""The North route will run every 30 minutes..."")"
+DC-007,,Operator service alerts were not recorded (fixed),fixed,- Found 2026-10-14.
+DC-006,,Docs said data merges every 30 min (fixed),fixed,"- Found 2026-10-14. `docs/DATA.md`, `docs/DATA-GUIDE.md`, `RouteKnower.md` still described the pre-2026-10-10 cadence."
+DC-005,,Local run file left unpushed (fixed),fixed,- Found 2026-10-14. A local collector chunk on this PC (08:22-08:28 CDT) was interrupted before its push.
+DC-004,,"Monitor reported ""no run started for 79 min"" while a run was logging (fixed)",fixed,- Found 2026-10-14 15:10 CDT. `monitor.py status` judged the chain by each run's creation time. A backstop cron run
+DC-003,,Buses with a frozen or wrong Passio trip assignment (fixed in part 2026-10-17: frozen / lapped / lagging buses; wrong route open),fixed in part 2026-10-17: frozen / lapped / lagging buses; wrong route open,"- Known since 2026-10-13 (RouteKnower E21). The rules follow Passio's ""next stop"" for each bus, so they miss the"
+DC-002,,"Stops Passio did not name were not logged (fixed 2026-10-13, backfilled)","fixed 2026-10-13, backfilled","- Replaying the raw GPS showed the collector logged only stops Passio named for the bus: South 48%, all lines 83% of"
+DC-001,,"GitHub dropped most scheduled runs (fixed 2026-10-10, backfilled)","fixed 2026-10-10, backfilled","- On 2026-10-09 GitHub fired about 4 of 48 scheduled `collect.yml` runs (23% coverage, multi-hour gaps). Fixed by the"

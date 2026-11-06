@@ -1,0 +1,69 @@
+name: Weekly findings (which bus will leave, findings workbook)
+# Owner 2026-11-06: "retry which bus will leave after applicable intervals of new data collected and revise it. Give me
+# an updating xlsx file to reference for other agents." Every Monday (and by hand) this reruns the app repo's RouteKnower
+# E29 / E28 scripts (read-only clone of the PUBLIC app repo) on every archived service day, re-evaluates the "which bus
+# will leave" signals with an expanding window (test = the newest 7 days, never seen in training), appends
+# findings/leave_eval_history.csv, re-learns the leave windows, and rebuilds findings/straight-bussing-findings.xlsx +
+# findings/csv/. When a signal meets the readiness rule two runs in a row (findings/run_findings.py) it opens or updates
+# ONE issue, "Leave prediction ready for review". It never changes the app: shipping stays a reviewed change (app repo
+# RouteKnower.md E29, "Retry procedure"). Nothing is written to the app repo or its data branch.
+on:
+  schedule: [{ cron: "41 17 * * 1" }]   # Mondays 17:41 UTC (11:41 AM Chicago): after the weekend's days are archived
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: findings, cancel-in-progress: false }
+jobs:
+  findings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Python packages
+        run: pip install --quiet numpy openpyxl
+      - name: Fetch the app repo's scripts and data branch (public, read-only)
+        run: |
+          git clone -q --depth 1 --branch main https://github.com/blobberus/straight-bussing.git "$RUNNER_TEMP/live"
+          git clone -q --depth 1 --branch data https://github.com/blobberus/straight-bussing.git "$RUNNER_TEMP/src-data"
+      - name: Restore the archived days downloaded before
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/dl
+          key: findings-dl-${{ github.run_id }}
+          restore-keys: findings-dl-
+      - name: Refresh the findings
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: >
+          python findings/run_findings.py --live "$RUNNER_TEMP/live" --src-data "$RUNNER_TEMP/src-data"
+          --dl "$RUNNER_TEMP/dl" --out findings --work "$RUNNER_TEMP/work"
+      - name: Keep the archived days for next week
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/dl
+          key: findings-dl-${{ github.run_id }}
+      - name: Leave prediction ready? (one issue; never an app change)
+        if: hashFiles('findings/leave_ready.md') != ''
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          t="Leave prediction ready for review"
+          n=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "$t in:title" --json number,title \
+                --jq ".[] | select(.title == \"$t\") | .number" | head -1)
+          if [ -n "$n" ]; then
+            gh issue edit "$n" -R "$GITHUB_REPOSITORY" --body-file findings/leave_ready.md
+            gh issue comment "$n" -R "$GITHUB_REPOSITORY" --body "Still ready on $(date -u +%F) (run $GITHUB_RUN_ID)."
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$t" --body-file findings/leave_ready.md
+          fi
+      - name: Commit and push the findings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A findings
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -qm "findings: weekly refresh $(date -u +%F)"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep 5; git pull --rebase -q; done
+          exit 1

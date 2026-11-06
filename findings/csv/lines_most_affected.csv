@@ -1,0 +1,11 @@
+table (first row of each block = its column names),c1,c2,c3,c4,c5,c6,c7,c8,c9
+Numbers behind the ranking,Line,Rank sum,"Idle shown, bus-min/day",Shift ends/day,"Passio times for idle buses, min/day","Far from every line, bus-min (E27, 25 days)","Reports outside listed hours, min/day",Listed time with no live bus,Share of all misses (E24)
+Numbers behind the ranking,Downtown Campus Connector,24,288,6.1,139,"2,100",5,11%,14%
+Numbers behind the ranking,Apostolic/Drexel,28,119,3.4,56,605,25,6%,13%
+Numbers behind the ranking,Red Line/Arts Block,31,122,1.3,28,654,24,4%,12%
+Numbers behind the ranking,East,37,29,1.3,13,493,12,35%,7%
+Numbers behind the ranking,Midway Metra,40,34,1.0,5,46,75,19%,9%
+Numbers behind the ranking,Central,43,34,1.7,13,133,57,3%,7%
+Numbers behind the ranking,South,43,63,1.4,24,321,3,35%,3%
+Numbers behind the ranking,North,43,34,1.3,12,339,7,35%,4%
+

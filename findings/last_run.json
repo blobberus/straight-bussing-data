@@ -1,0 +1,42 @@
+{
+ "run_utc": "2026-11-06T19:27Z",
+ "data_from": "2026-10-10",
+ "data_to": "2026-11-05",
+ "days": 27,
+ "train_to": "2026-10-29",
+ "test_days": [
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01",
+  "2026-11-02",
+  "2026-11-03",
+  "2026-11-04",
+  "2026-11-05"
+ ],
+ "ready_signals": [],
+ "readiness_rule": {
+  "min_data_to": "2026-11-26",
+  "precision": 0.9,
+  "recall": 0.2,
+  "min_flagged": 30,
+  "train_precision": 0.85,
+  "consecutive_runs": 2
+ },
+ "transitions": {
+  "leave": {
+   "shift_end": 205,
+   "feed_drop": 178,
+   "route_switch": 160,
+   "layover_swap": 181,
+   "break": 231
+  },
+  "add": {
+   "added_from_garage": 289,
+   "added_from_route": 141,
+   "layover_swap": 213,
+   "unknown": 102,
+   "added_from_break": 226
+  }
+ },
+ "end_of_service_source": "rebuilt this run"
+}
