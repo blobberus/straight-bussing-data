@@ -118,3 +118,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793982705,2026-11-06 10:31:45,5700,Friend Center/Metra,499500,4319,8617,Comer Children's Hospital,4,,,,,,
 1793982718,2026-11-06 10:31:58,5700,Friend Center/Metra,499500,4319,138838,S Drexel Ave & 57th St,5,,,,,,
 1793982832,2026-11-06 10:33:52,5700,Friend Center/Metra,499500,4319,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
+1793983084,2026-11-06 10:38:04,5700,Friend Center/Metra,499500,4319,140009,55th Street & University,8,,,,,,
+1793983256,2026-11-06 10:40:56,5700,Friend Center/Metra,499500,4319,8645,Hyde Park Shopping Center (S),9,,,,,,
+1793983358,2026-11-06 10:42:38,5700,Friend Center/Metra,499500,4319,8619,57th Street Metra Station (E),10,,,,,,
+1793983484,2026-11-06 10:44:44,5700,Friend Center/Metra,499500,4319,8658,59th St & Metra,11,,,,,,
+1793983836,2026-11-06 10:50:36,5700,Friend Center/Metra,499501,4319,8612,Goldblatt Pavilion,0,,,,,,
