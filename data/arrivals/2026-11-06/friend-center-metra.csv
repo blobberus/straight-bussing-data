@@ -1,0 +1,12 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1793962825,2026-11-06 05:00:25,5700,Friend Center/Metra,499490,4319,8613,Wyler Pavilion,1,,,,,,
+1793962846,2026-11-06 05:00:46,5700,Friend Center/Metra,499490,4319,8615,Bernard Mitchell Hospital,2,,,,,,
+1793962873,2026-11-06 05:01:13,5700,Friend Center/Metra,499490,4319,8616,58th Street & Drexel,3,,,,,,
+1793962901,2026-11-06 05:01:41,5700,Friend Center/Metra,499490,4319,8617,Comer Children's Hospital,4,,,,,,
+1793962912,2026-11-06 05:01:52,5700,Friend Center/Metra,499490,4319,138838,S Drexel Ave & 57th St,5,,,,,,
+1793963024,2026-11-06 05:03:44,5700,Friend Center/Metra,499490,4319,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
+1793963098,2026-11-06 05:04:58,5700,Friend Center/Metra,499490,4319,8618,Ronald McDonald House & Friend Center,7,,,,,,
+1793963619,2026-11-06 05:13:39,5700,Friend Center/Metra,499490,4319,140009,55th Street & University,8,,,,,,
+1793963729,2026-11-06 05:15:29,5700,Friend Center/Metra,499490,4319,8645,Hyde Park Shopping Center (S),9,,,,,,
+1793963898,2026-11-06 05:18:18,5700,Friend Center/Metra,499490,4319,8619,57th Street Metra Station (E),10,,,,,,
+1793964347,2026-11-06 05:25:47,5700,Friend Center/Metra,499490,4319,8658,59th St & Metra,11,,,,,,
