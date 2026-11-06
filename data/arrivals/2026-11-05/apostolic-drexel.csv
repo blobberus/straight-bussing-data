@@ -432,3 +432,6 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793933424,2026-11-05 20:50:24,6126,Apostolic/Drexel,676400,4318,225834,61st & Kimbark,8,,,,,,
 1793933590,2026-11-05 20:53:10,6126,Apostolic/Drexel,676400,4318,8614,Apostolic Lot,9,,,,,,
 1793933607,2026-11-05 20:53:27,6126,Apostolic/Drexel,676400,4318,133007,Kenwood & 63rd,10,,,,,,
+1793934756,2026-11-05 21:12:36,6126,Apostolic/Drexel,501485,4324,8613,Wyler Pavilion,1,,,,,,
+1793935675,2026-11-05 21:27:55,6126,Apostolic/Drexel,501485,4324,8615,Bernard Mitchell Hospital,2,,,,,,
+1793935771,2026-11-05 21:29:31,6126,Apostolic/Drexel,676401,12645,8613,Wyler Pavilion,1,,,,,,

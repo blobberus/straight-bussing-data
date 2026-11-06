@@ -130,4 +130,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1793932754,2026-11-05 20:39:14,1076,South,501621,4326,161844,Keller Center EB,10,,,,,,
 1793932960,2026-11-05 20:42:40,1076,South,501621,4326,8652,Booth School,13,,,,,,
 1793933076,2026-11-05 20:44:36,1076,South,501621,4326,8633,Regenstein Library (N),14,,,,,,
+1793933126,2026-11-05 20:45:26,1076,South,501621,4326,8630,Levi Hall (W),15,,,,,,
 1793933221,2026-11-05 20:47:01,1076,South,501643,4326,8631,60th St. & Ellis (SE Corner),0,,,,,,
