@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-06 22:38",
+ "synced": "2026-11-06 23:28",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 96074,
- "newest": "2026-11-06 16:32:04",
+ "rows": 96298,
+ "newest": "2026-11-06 17:12:28",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1751,11 +1751,11 @@
   },
   {
    "day": "2026-11-06",
-   "rows": 2394,
+   "rows": 2618,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-06/53rd-street-express.csv",
-     "rows": 390,
+     "rows": 410,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -1765,17 +1765,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-06/apostolic-drexel.csv",
-     "rows": 289,
+     "rows": 334,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-11-06/central.csv",
-     "rows": 14,
+     "rows": 34,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-06/downtown-campus-connector.csv",
-     "rows": 339,
+     "rows": 363,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1783,29 +1783,34 @@
      "rows": 146,
      "route_id": "5701"
     },
+    "East": {
+     "file": "data/arrivals/2026-11-06/east.csv",
+     "rows": 10,
+     "route_id": "1077"
+    },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-06/friend-center-metra.csv",
-     "rows": 232,
+     "rows": 252,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-06/midway-metra.csv",
-     "rows": 261,
+     "rows": 310,
      "route_id": "5703"
     },
     "North": {
      "file": "data/arrivals/2026-11-06/north.csv",
-     "rows": 11,
+     "rows": 18,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-06/red-line-arts-block.csv",
-     "rows": 391,
+     "rows": 400,
      "route_id": "5699"
     },
     "South": {
      "file": "data/arrivals/2026-11-06/south.csv",
-     "rows": 3,
+     "rows": 23,
      "route_id": "1076"
     }
    }

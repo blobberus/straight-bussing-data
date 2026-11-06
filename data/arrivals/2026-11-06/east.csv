@@ -1,0 +1,11 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794004403,2026-11-06 16:33:23,1077,East,501677,4322,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
+1794004515,2026-11-06 16:35:15,1077,East,501677,4322,140009,55th Street & University,4,,,,,,
+1794004729,2026-11-06 16:38:49,1077,East,501677,4322,20132,53 & Kimbark (EB),5,,,,,,
+1794005046,2026-11-06 16:44:06,1077,East,501677,4322,8627,Harper Court (EB),6,,,,,,
+1794005397,2026-11-06 16:49:57,1077,East,501677,4322,8578,Regents Park Apartments,7,,,,,,
+1794005576,2026-11-06 16:52:56,1077,East,501677,4322,140013,S. Hyde Park Blvd/55th Street,8,,,,,,
+1794005690,2026-11-06 16:54:50,1077,East,501677,4322,140014,Hyde Park Places Apts,9,,,,,,
+1794005761,2026-11-06 16:56:01,1077,East,501677,4322,140015,Windermere Apts,10,,,,,,
+1794006550,2026-11-06 17:09:10,1077,East,501681,4322,140009,55th Street & University,4,,,,,,
+1794006682,2026-11-06 17:11:22,1077,East,501681,4322,20132,53 & Kimbark (EB),5,,,,,,
