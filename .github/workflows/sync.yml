@@ -17,7 +17,7 @@ concurrency: { group: sync, cancel-in-progress: false }
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 45     # the chain step waits 25 min
+    timeout-minutes: 60     # the chain step waits 25 min, then up to 17 min of dispatch retries
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -55,11 +55,21 @@ jobs:
         run: |
           curl -fsS -X PUT -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/sync.yml/enable" || echo "keepalive failed (harmless)"
-      - name: Chain the next sync in about 30 min (DC-013)
+      - name: Chain the next sync in about 30 min (DC-013; retries DC-023)
         if: always() && vars.SYNC_CHAIN != 'off'
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
           sleep 1500
-          waiting=$(gh run list -R "${{ github.repository }}" -w sync.yml -L 20 --json status             --jq '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length' || echo 0)
-          if [ "${waiting:-0}" -gt 0 ]; then echo "a sync is already waiting: no new link"; exit 0; fi
-          gh workflow run sync.yml -R "${{ github.repository }}" --ref main && echo "next sync dispatched"             || echo "::warning title=Sync chain::dispatch failed; the cron backstop still runs"
+          # A failed dispatch is tried again (1, 2, 4, 5, 5 min apart): on 2026-11-05 GitHub's API answered 500 for
+          # minutes, the single try failed and the chain (and the watchdog) stopped for 2 hours (app repo DC-023).
+          # The waiting check runs before every try, so a run GitHub created despite an error is never doubled.
+          for try in 1 2 3 4 5 6; do
+            waiting=$(gh run list -R "${{ github.repository }}" -w sync.yml -L 20 --json status               --jq '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length' || echo 0)
+            if [ "${waiting:-0}" -gt 0 ]; then echo "a sync is already waiting: no new link"; exit 0; fi
+            if gh workflow run sync.yml -R "${{ github.repository }}" --ref main; then echo "next sync dispatched (try $try)"; exit 0; fi
+            [ "$try" -ge 6 ] && break
+            pause=$(( 60 * (1 << (try - 1)) )); [ "$pause" -gt 300 ] && pause=300
+            echo "dispatch failed (try $try of 6); trying again in $pause s"
+            sleep "$pause"
+          done
+          echo "::warning title=Sync chain::dispatch failed 6 times; the cron backstop still runs"
