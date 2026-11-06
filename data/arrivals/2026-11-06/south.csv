@@ -1,0 +1,4 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794004150,2026-11-06 16:29:10,1076,South,501621,4538,161849,Woodlawn Ave & 61st St,1,,,,,,
+1794004207,2026-11-06 16:30:07,1076,South,501621,4538,8659,63rd & Woodlawn,2,,,,,,
+1794004282,2026-11-06 16:31:22,1076,South,501621,4538,8660,63rd & Ellis,3,,,,,,
