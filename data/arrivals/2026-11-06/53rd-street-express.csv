@@ -444,3 +444,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794010456,2026-11-06 18:14:16,4346,53rd Street Express,681015,4328,138837,Ellis Ave & 57th St,5,,,,,,
 1794010721,2026-11-06 18:18:41,4346,53rd Street Express,681015,4328,8612,Goldblatt Pavilion,7,,,,,,
 1794010847,2026-11-06 18:20:47,4346,53rd Street Express,681015,4328,8589,Logan Center,8,,,,,,
+1794011691,2026-11-06 18:34:51,4346,53rd Street Express,681015,4328,8631,60th St. & Ellis (SE Corner),9,,,,,,
+1794013514,2026-11-06 19:05:14,4346,53rd Street Express,681015,4328,8599,57th St. & Metra (NB),14,,,,,,
