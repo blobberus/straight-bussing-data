@@ -420,3 +420,6 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794013924,2026-11-06 19:12:04,5703,Midway Metra,676445,12646,8631,60th St. & Ellis (SE Corner),8,,,,,,
 1794016756,2026-11-06 19:59:16,5703,Midway Metra,676445,12646,8589,Logan Center,7,,,,,,
 1794016798,2026-11-06 19:59:58,5703,Midway Metra,676445,12646,8631,60th St. & Ellis (SE Corner),8,,,,,,
+1794018922,2026-11-06 20:35:22,5703,Midway Metra,676445,12646,8654,59th & Ellis,3,,,,,,
+1794019510,2026-11-06 20:45:10,5703,Midway Metra,676445,12646,8612,Goldblatt Pavilion,4,,,,,,
+1794021501,2026-11-06 21:18:21,5703,Midway Metra,,12646,8631,60th St. & Ellis (SE Corner),8,,,,,,
