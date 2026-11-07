@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-07 01:35",
+ "synced": "2026-11-07 02:01",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 96898,
- "newest": "2026-11-06 19:13:26",
+ "rows": 97031,
+ "newest": "2026-11-06 19:53:44",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1751,7 +1751,7 @@
   },
   {
    "day": "2026-11-06",
-   "rows": 3218,
+   "rows": 3351,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-06/53rd-street-express.csv",
@@ -1765,17 +1765,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-06/apostolic-drexel.csv",
-     "rows": 419,
+     "rows": 437,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-11-06/central.csv",
-     "rows": 84,
+     "rows": 96,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-06/downtown-campus-connector.csv",
-     "rows": 424,
+     "rows": 432,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1785,12 +1785,12 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-06/east.csv",
-     "rows": 46,
+     "rows": 67,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-06/friend-center-metra.csv",
-     "rows": 291,
+     "rows": 314,
      "route_id": "5700"
     },
     "Midway Metra": {
@@ -1800,23 +1800,28 @@
     },
     "North": {
      "file": "data/arrivals/2026-11-06/north.csv",
-     "rows": 47,
+     "rows": 56,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-06/red-line-arts-block.csv",
-     "rows": 488,
+     "rows": 507,
      "route_id": "5699"
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-06/regents-express.csv",
-     "rows": 13,
+     "rows": 20,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-06/south.csv",
-     "rows": 76,
+     "rows": 91,
      "route_id": "1076"
+    },
+    "South Loop Shuttle": {
+     "file": "data/arrivals/2026-11-06/south-loop-shuttle.csv",
+     "rows": 1,
+     "route_id": "5716"
     }
    }
   }
