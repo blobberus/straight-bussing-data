@@ -172,3 +172,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794029644,2026-11-06 23:34:04,1076,South,501651,4538,140010,61st St & Woodlawn Ave,9,,,,,,
 1794029720,2026-11-06 23:35:20,1076,South,501651,4538,161844,Keller Center EB,10,,,,,,
 1794029840,2026-11-06 23:37:20,1076,South,501651,4538,8652,Booth School,13,,,,,,
+1794030973,2026-11-06 23:56:13,1076,South,501651,4538,8633,Regenstein Library (N),14,,,,,,
