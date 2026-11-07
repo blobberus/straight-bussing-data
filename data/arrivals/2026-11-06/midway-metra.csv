@@ -423,3 +423,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794018922,2026-11-06 20:35:22,5703,Midway Metra,676445,12646,8654,59th & Ellis,3,,,,,,
 1794019510,2026-11-06 20:45:10,5703,Midway Metra,676445,12646,8612,Goldblatt Pavilion,4,,,,,,
 1794021501,2026-11-06 21:18:21,5703,Midway Metra,,12646,8631,60th St. & Ellis (SE Corner),8,,,,,,
+1794021591,2026-11-06 21:19:51,5703,Midway Metra,676445,12646,8612,Goldblatt Pavilion,4,,,,,,
