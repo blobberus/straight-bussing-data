@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-07 06:40",
+ "synced": "2026-11-07 07:31",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 97664,
- "newest": "2026-11-07 00:23:22",
+ "rows": 97667,
+ "newest": "2026-11-07 00:53:56",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1751,7 +1751,7 @@
   },
   {
    "day": "2026-11-06",
-   "rows": 3984,
+   "rows": 3987,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-06/53rd-street-express.csv",
@@ -1790,7 +1790,7 @@
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-06/friend-center-metra.csv",
-     "rows": 376,
+     "rows": 377,
      "route_id": "5700"
     },
     "Midway Metra": {
@@ -1820,7 +1820,7 @@
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-11-06/south-loop-shuttle.csv",
-     "rows": 23,
+     "rows": 25,
      "route_id": "5716"
     }
    }

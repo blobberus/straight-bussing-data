@@ -1,7 +1,4 @@
 epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
-1794025795,2026-11-06 22:29:55,1076,South,501647,4538,8660,63rd & Ellis,3,,,,,,
-1794025830,2026-11-06 22:30:30,1076,South,501647,4538,8661,Cottage Grove & 63rd,4,,,,,,
-1794025857,2026-11-06 22:30:57,1076,South,501647,4538,141863,Cottage & 61st,5,,,,,,
 1794025858,2026-11-06 22:30:58,1075,North,501608,12648,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
 1794025870,2026-11-06 22:31:10,6126,Apostolic/Drexel,501489,12644,8613,Wyler Pavilion,1,,,,,,
 1794025873,2026-11-06 22:31:13,6126,Apostolic/Drexel,501489,12644,8615,Bernard Mitchell Hospital,2,,,,,,
@@ -195,7 +192,10 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794030698,2026-11-06 23:51:38,6126,Apostolic/Drexel,501491,12644,8609,57th Street & Drexel (NB),5,,,,,,
 1794030727,2026-11-06 23:52:07,1078,Central,501746,4326,8579,Reynolds Club,14,,,,,,
 1794030973,2026-11-06 23:56:13,1076,South,501651,4538,8633,Regenstein Library (N),14,,,,,,
+1794031009,2026-11-06 23:56:49,5700,Friend Center/Metra,499521,4313,8612,Goldblatt Pavilion,12,,,,,,
 1794031023,2026-11-06 23:57:03,1075,North,501612,4327,8633,Regenstein Library (N),1,,,,,,
 1794031519,2026-11-07 00:05:19,5716,South Loop Shuttle,501799,4328,8619,57th Street Metra Station (E),1,,,,,,
 1794031529,2026-11-07 00:05:29,5716,South Loop Shuttle,501799,4328,141882,57th St. & Metra (SB),3,,,,,,
 1794032602,2026-11-07 00:23:22,5716,South Loop Shuttle,501799,4328,8621,Roosevelt CTA Station,2,,,,,,
+1794034277,2026-11-07 00:51:17,5716,South Loop Shuttle,501799,4328,9593,International House,4,,,,,,
+1794034436,2026-11-07 00:53:56,5716,South Loop Shuttle,501799,4328,8579,Reynolds Club,5,,,,,,
