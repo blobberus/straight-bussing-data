@@ -222,4 +222,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794116703,2026-11-07 23:45:03,1078,Central,501746,4318,141862,Blackstone & 53rd,11,,,,,,
 1794116766,2026-11-07 23:46:06,1078,Central,501746,4318,140012,53 & Kimbark (WB),12,,,,,,
 1794116975,2026-11-07 23:49:35,1078,Central,501746,4318,8652,Booth School,13,,,,,,
-1794117083,2026-11-07 23:51:23,1078,Central,,4318,8579,Reynolds Club,14,,,,,,
+1794117083,2026-11-07 23:51:23,1078,Central,501746,4318,8579,Reynolds Club,14,,,,,,
