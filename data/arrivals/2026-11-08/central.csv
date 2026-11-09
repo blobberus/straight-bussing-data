@@ -355,5 +355,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794203065,2026-11-08 23:44:25,1078,Central,501716,4318,140009,55th Street & University,9,,,,,,
 1794203316,2026-11-08 23:48:36,1078,Central,501716,4318,141862,Blackstone & 53rd,11,,,,,,
 1794203386,2026-11-08 23:49:46,1078,Central,501716,4318,140012,53 & Kimbark (WB),12,,,,,,
-1794203644,2026-11-08 23:54:04,1078,Central,,4318,8652,Booth School,13,,,,,,
+1794203644,2026-11-08 23:54:04,1078,Central,501716,4318,8652,Booth School,13,,,,,,
 1794203774,2026-11-08 23:56:14,1078,Central,501716,4318,8579,Reynolds Club,0,,,,,,
