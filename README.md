@@ -35,11 +35,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-09 12:25 UTC · 99,498 arrivals · 33 service days · newest arrival 2026-11-09 06:07:03 (Chicago time)_
+_Last sync: 2026-11-09 12:51 UTC · 99,531 arrivals · 33 service days · newest arrival 2026-11-09 06:47:40 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-09 | 58 | 2 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
+| 2026-11-09 | 91 | 3 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
 | 2026-11-08 | 1,017 | 4 | [data/arrivals/2026-11-08/](data/arrivals/2026-11-08) |
 | 2026-11-07 | 756 | 5 | [data/arrivals/2026-11-07/](data/arrivals/2026-11-07) |
 | 2026-11-06 | 3,987 | 14 | [data/arrivals/2026-11-06/](data/arrivals/2026-11-06) |
@@ -58,6 +58,7 @@ Routes on 2026-11-09:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Drexel | 46 | [drexel.csv](data/arrivals/2026-11-09/drexel.csv) |
+| Drexel | 72 | [drexel.csv](data/arrivals/2026-11-09/drexel.csv) |
 | Friend Center/Metra | 12 | [friend-center-metra.csv](data/arrivals/2026-11-09/friend-center-metra.csv) |
+| Downtown Campus Connector | 7 | [downtown-campus-connector.csv](data/arrivals/2026-11-09/downtown-campus-connector.csv) |
 <!-- SYNC:END -->

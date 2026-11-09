@@ -1,0 +1,8 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794227454,2026-11-09 06:30:54,5704,Downtown Campus Connector,874028,4318,8654,59th & Ellis,1,,,,,,
+1794227509,2026-11-09 06:31:49,5704,Downtown Campus Connector,874028,4318,8612,Goldblatt Pavilion,2,,,,,,
+1794227793,2026-11-09 06:36:33,5704,Downtown Campus Connector,874028,4318,140009,55th Street & University,3,,,,,,
+1794227986,2026-11-09 06:39:46,5704,Downtown Campus Connector,874028,4318,151794,S Lake Park & E 53rd St,4,,,,,,
+1794228061,2026-11-09 06:41:01,5704,Downtown Campus Connector,874028,4318,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
+1794228344,2026-11-09 06:45:44,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
+1794228393,2026-11-09 06:46:33,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,2,,,,,,
