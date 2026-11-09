@@ -35,11 +35,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-09 13:42 UTC · 99,590 arrivals · 33 service days · newest arrival 2026-11-09 07:27:58 (Chicago time)_
+_Last sync: 2026-11-09 14:33 UTC · 99,786 arrivals · 33 service days · newest arrival 2026-11-09 08:08:01 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-09 | 150 | 4 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
+| 2026-11-09 | 346 | 7 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
 | 2026-11-08 | 1,017 | 4 | [data/arrivals/2026-11-08/](data/arrivals/2026-11-08) |
 | 2026-11-07 | 756 | 5 | [data/arrivals/2026-11-07/](data/arrivals/2026-11-07) |
 | 2026-11-06 | 3,987 | 14 | [data/arrivals/2026-11-06/](data/arrivals/2026-11-06) |
@@ -58,8 +58,11 @@ Routes on 2026-11-09:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Drexel | 101 | [drexel.csv](data/arrivals/2026-11-09/drexel.csv) |
-| Downtown Campus Connector | 19 | [downtown-campus-connector.csv](data/arrivals/2026-11-09/downtown-campus-connector.csv) |
-| 53rd Street Express | 18 | [53rd-street-express.csv](data/arrivals/2026-11-09/53rd-street-express.csv) |
-| Friend Center/Metra | 12 | [friend-center-metra.csv](data/arrivals/2026-11-09/friend-center-metra.csv) |
+| Drexel | 128 | [drexel.csv](data/arrivals/2026-11-09/drexel.csv) |
+| Downtown Campus Connector | 49 | [downtown-campus-connector.csv](data/arrivals/2026-11-09/downtown-campus-connector.csv) |
+| Midway Metra | 49 | [midway-metra.csv](data/arrivals/2026-11-09/midway-metra.csv) |
+| 53rd Street Express | 39 | [53rd-street-express.csv](data/arrivals/2026-11-09/53rd-street-express.csv) |
+| Red Line/Arts Block | 31 | [red-line-arts-block.csv](data/arrivals/2026-11-09/red-line-arts-block.csv) |
+| Apostolic | 26 | [apostolic.csv](data/arrivals/2026-11-09/apostolic.csv) |
+| Friend Center/Metra | 24 | [friend-center-metra.csv](data/arrivals/2026-11-09/friend-center-metra.csv) |
 <!-- SYNC:END -->
