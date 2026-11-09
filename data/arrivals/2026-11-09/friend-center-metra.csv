@@ -9,3 +9,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794222729,2026-11-09 05:12:09,5700,Friend Center/Metra,499490,4319,140009,55th Street & University,8,,,,,,
 1794222868,2026-11-09 05:14:28,5700,Friend Center/Metra,499490,4319,8645,Hyde Park Shopping Center (S),9,,,,,,
 1794223009,2026-11-09 05:16:49,5700,Friend Center/Metra,499490,4319,8619,57th Street Metra Station (E),10,,,,,,
+1794223665,2026-11-09 05:27:45,5700,Friend Center/Metra,499490,4319,8658,59th St & Metra,11,,,,,,
+1794223834,2026-11-09 05:30:34,5700,Friend Center/Metra,499490,4319,8612,Goldblatt Pavilion,12,,,,,,
