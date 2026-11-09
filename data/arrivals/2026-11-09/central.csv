@@ -1,0 +1,11 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794262241,2026-11-09 16:10:41,1078,Central,501716,4322,8597,Levi Hall (E),6,,,,,,
+1794262364,2026-11-09 16:12:44,1078,Central,501716,4322,8634,Max Palevsky Residential Commons (NE Corner),7,,,,,,
+1794262379,2026-11-09 16:12:59,1078,Central,501716,4322,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
+1794262449,2026-11-09 16:14:09,1078,Central,501716,4322,140009,55th Street & University,9,,,,,,
+1794262630,2026-11-09 16:17:10,1078,Central,501716,4322,140016,55th Street & Blackstone,10,,,,,,
+1794262685,2026-11-09 16:18:05,1078,Central,501716,4322,141862,Blackstone & 53rd,11,,,,,,
+1794262782,2026-11-09 16:19:42,1078,Central,501716,4322,140012,53 & Kimbark (WB),12,,,,,,
+1794263014,2026-11-09 16:23:34,1078,Central,501716,4322,8652,Booth School,13,,,,,,
+1794263465,2026-11-09 16:31:05,1078,Central,501716,4322,8579,Reynolds Club,14,,,,,,
+1794264176,2026-11-09 16:42:56,1078,Central,501720,4322,8597,Levi Hall (E),6,,,,,,
