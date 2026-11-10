@@ -1,0 +1,12 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794348359,2026-11-10 16:05:59,1078,Central,501716,4328,8658,59th St & Metra,2,,,,,,
+1794348417,2026-11-10 16:06:57,1078,Central,501716,4328,9593,International House,3,,,,,,
+1794348522,2026-11-10 16:08:42,1078,Central,501716,4328,8584,Keller Center WB,4,,,,,,
+1794348615,2026-11-10 16:10:15,1078,Central,501716,4328,8644,Burton-Judson Courts (NE Corner),5,,,,,,
+1794348784,2026-11-10 16:13:04,1078,Central,501716,4328,8597,Levi Hall (E),6,,,,,,
+1794348918,2026-11-10 16:15:18,1078,Central,501716,4328,8634,Max Palevsky Residential Commons (NE Corner),7,,,,,,
+1794348956,2026-11-10 16:15:56,1078,Central,501716,4328,8635,Ellis Garage & Ratner Athletic Center (East),8,,,,,,
+1794349042,2026-11-10 16:17:22,1078,Central,501716,4328,140009,55th Street & University,9,,,,,,
+1794349248,2026-11-10 16:20:48,1078,Central,501716,4328,140016,55th Street & Blackstone,10,,,,,,
+1794349340,2026-11-10 16:22:20,1078,Central,501716,4328,141862,Blackstone & 53rd,11,,,,,,
+1794349443,2026-11-10 16:24:03,1078,Central,501716,4328,140012,53 & Kimbark (WB),12,,,,,,
