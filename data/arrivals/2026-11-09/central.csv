@@ -25,3 +25,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794266373,2026-11-09 17:19:33,1078,Central,501722,4322,140016,55th Street & Blackstone,10,,,,,,
 1794266453,2026-11-09 17:20:53,1078,Central,501722,4322,141862,Blackstone & 53rd,11,,,,,,
 1794266542,2026-11-09 17:22:22,1078,Central,501722,4322,140012,53 & Kimbark (WB),12,,,,,,
+1794266895,2026-11-09 17:28:15,1078,Central,501722,4322,8652,Booth School,13,,,,,,
+1794268457,2026-11-09 17:54:17,1078,Central,501722,4322,8579,Reynolds Club,14,,,,,,
+1794268897,2026-11-09 18:01:37,1078,Central,501724,4322,8584,Keller Center WB,4,,,,,,
+1794268972,2026-11-09 18:02:52,1078,Central,501724,4322,8644,Burton-Judson Courts (NE Corner),5,,,,,,
