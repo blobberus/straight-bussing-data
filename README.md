@@ -35,11 +35,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-10 11:51 UTC · 103,419 arrivals · 34 service days · newest arrival 2026-11-10 05:25:53 (Chicago time)_
+_Last sync: 2026-11-10 12:17 UTC · 103,460 arrivals · 34 service days · newest arrival 2026-11-10 06:05:33 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-10 | 30 | 2 | [data/arrivals/2026-11-10/](data/arrivals/2026-11-10) |
+| 2026-11-10 | 71 | 2 | [data/arrivals/2026-11-10/](data/arrivals/2026-11-10) |
 | 2026-11-09 | 3,949 | 13 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
 | 2026-11-08 | 1,017 | 4 | [data/arrivals/2026-11-08/](data/arrivals/2026-11-08) |
 | 2026-11-07 | 756 | 5 | [data/arrivals/2026-11-07/](data/arrivals/2026-11-07) |
@@ -58,6 +58,6 @@ Routes on 2026-11-10:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Drexel | 19 | [drexel.csv](data/arrivals/2026-11-10/drexel.csv) |
-| Friend Center/Metra | 11 | [friend-center-metra.csv](data/arrivals/2026-11-10/friend-center-metra.csv) |
+| Drexel | 45 | [drexel.csv](data/arrivals/2026-11-10/drexel.csv) |
+| Friend Center/Metra | 26 | [friend-center-metra.csv](data/arrivals/2026-11-10/friend-center-metra.csv) |
 <!-- SYNC:END -->
