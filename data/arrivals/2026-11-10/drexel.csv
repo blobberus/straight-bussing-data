@@ -179,3 +179,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794325273,2026-11-10 09:41:13,5701,Drexel,501405,4319,8617,Comer Children's Hospital,5,,,,,,
 1794325288,2026-11-10 09:41:28,5701,Drexel,501405,4319,8609,57th Street & Drexel (NB),6,,,,,,
 1794326031,2026-11-10 09:53:51,5701,Drexel,501405,4319,8611,Drexel Garage,7,,,,,,
+1794329856,2026-11-10 10:57:36,5701,Drexel,676416,4324,8612,Goldblatt Pavilion,1,,,,,,
