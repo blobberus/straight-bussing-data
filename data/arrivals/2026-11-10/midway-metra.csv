@@ -192,3 +192,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794324884,2026-11-10 09:34:44,5703,Midway Metra,,4320,8598,Law School (S),9,,,,,,
 1794324912,2026-11-10 09:35:12,5703,Midway Metra,,4320,8632,60th St. & Woodlawn Ave (SE Corner),10,,,,,,
 1794324943,2026-11-10 09:35:43,5703,Midway Metra,,4320,161844,Keller Center EB,11,,,,,,
+1794325788,2026-11-10 09:49:48,5703,Midway Metra,,4320,8624,Stony Island Parking Lot,13,,,,,,
+1794325909,2026-11-10 09:51:49,5703,Midway Metra,676435,4320,141882,57th St. & Metra (SB),15,,,,,,
+1794326035,2026-11-10 09:53:55,5703,Midway Metra,676431,4320,8658,59th St & Metra,1,,,,,,
+1794326119,2026-11-10 09:55:19,5703,Midway Metra,676431,4320,8607,59th St & Kimbark / Lab School,2,,,,,,
+1794327053,2026-11-10 10:10:53,5703,Midway Metra,501539,4315,8654,59th & Ellis,3,,,,,,
