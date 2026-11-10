@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-10 00:21",
+ "synced": "2026-11-10 00:46",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 102199,
- "newest": "2026-11-09 18:03:40",
+ "rows": 102430,
+ "newest": "2026-11-09 18:44:02",
  "cutoff_hour": 4,
  "days": [
   {
@@ -1884,11 +1884,11 @@
   },
   {
    "day": "2026-11-09",
-   "rows": 2759,
+   "rows": 2990,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-09/53rd-street-express.csv",
-     "rows": 415,
+     "rows": 423,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -1898,17 +1898,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-09/apostolic-drexel.csv",
-     "rows": 388,
+     "rows": 442,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-11-09/central.csv",
-     "rows": 30,
+     "rows": 42,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-09/downtown-campus-connector.csv",
-     "rows": 420,
+     "rows": 439,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1918,7 +1918,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-09/east.csv",
-     "rows": 50,
+     "rows": 69,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1928,27 +1928,27 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-09/midway-metra.csv",
-     "rows": 333,
+     "rows": 383,
      "route_id": "5703"
     },
     "North": {
      "file": "data/arrivals/2026-11-09/north.csv",
-     "rows": 29,
+     "rows": 40,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-09/red-line-arts-block.csv",
-     "rows": 409,
+     "rows": 451,
      "route_id": "5699"
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-09/regents-express.csv",
-     "rows": 11,
+     "rows": 18,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-09/south.csv",
-     "rows": 46,
+     "rows": 55,
      "route_id": "1076"
     }
    }
