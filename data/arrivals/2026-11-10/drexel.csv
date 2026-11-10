@@ -174,3 +174,8 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794323477,2026-11-10 09:11:17,5701,Drexel,501404,4319,8617,Comer Children's Hospital,5,,,,,,
 1794323486,2026-11-10 09:11:26,5701,Drexel,501404,4319,8609,57th Street & Drexel (NB),6,,,,,,
 1794323882,2026-11-10 09:18:02,5701,Drexel,501404,4319,8611,Drexel Garage,7,,,,,,
+1794325164,2026-11-10 09:39:24,5701,Drexel,501405,4319,8615,Bernard Mitchell Hospital,3,,,,,,
+1794325228,2026-11-10 09:40:28,5701,Drexel,501405,4319,8616,58th Street & Drexel,4,,,,,,
+1794325273,2026-11-10 09:41:13,5701,Drexel,501405,4319,8617,Comer Children's Hospital,5,,,,,,
+1794325288,2026-11-10 09:41:28,5701,Drexel,501405,4319,8609,57th Street & Drexel (NB),6,,,,,,
+1794326031,2026-11-10 09:53:51,5701,Drexel,501405,4319,8611,Drexel Garage,7,,,,,,
