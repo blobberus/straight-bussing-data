@@ -190,7 +190,7 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794287899,2026-11-09 23:18:19,1077,East,501705,4320,8637,Alumni House (NW Corner),12,,,,,,
 1794288061,2026-11-09 23:21:01,1077,East,501705,4320,8579,Reynolds Club,13,,,,,,
 1794288645,2026-11-09 23:30:45,1077,East,501706,4320,8633,Regenstein Library (N),1,,,,,,
-1794288701,2026-11-09 23:31:41,1077,East,501706,4320,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
+1794288705,2026-11-09 23:31:45,1077,East,501705,4320,8634,Max Palevsky Residential Commons (NE Corner),2,,,,,,
 1794288742,2026-11-09 23:32:22,1077,East,501705,4320,8635,Ellis Garage & Ratner Athletic Center (East),3,,,,,,
 1794288802,2026-11-09 23:33:22,1077,East,501706,4320,140009,55th Street & University,4,,,,,,
 1794288934,2026-11-09 23:35:34,1077,East,501706,4320,20132,53 & Kimbark (EB),5,,,,,,
@@ -201,3 +201,4 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794289380,2026-11-09 23:43:00,1077,East,501706,4320,140015,Windermere Apts,10,,,,,,
 1794289524,2026-11-09 23:45:24,1077,East,501706,4320,8641,Hyde Park Shopping Center (N),11,,,,,,
 1794289632,2026-11-09 23:47:12,1077,East,501706,4320,8637,Alumni House (NW Corner),12,,,,,,
+1794289833,2026-11-09 23:50:33,1077,East,501706,4320,8579,Reynolds Club,13,,,,,,
