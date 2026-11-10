@@ -1,4 +1,12 @@
 entry,item,title,status,first line
+DC-024,,Checkup 2026-11-07: healthy; buses on another line than their Passio label (open); the Downtown Campus Connector off its drawn line (facts); a false status warning (fixed),fixed,"Owner (2026-11-07): ""Run a data collection check."" Times are Chicago (CST). Fri Nov 6 is compared with the Fridays Oct"
+DC-024,1,"Collector: healthy, nothing lost since the Nov 5 gap (nothing to fix).",nothing to fix,
+DC-024,2,Fri Nov 6: normal totals; the short line-hours are explained (accepted).,accepted,
+DC-024,3,"Buses driving another line than their Passio label, measured over 12 days (DC-003 item 4; open, the owner's call).","DC-003 item 4; open, the owner's call",
+DC-024,4,"The Downtown Campus Connector against its drawn line (facts for the app's off-route work, workstream dcc-offroute).","facts for the app's off-route work, workstream dcc-offroute",
+DC-024,5,Archived position polls can list one bus twice (accepted; documented).,accepted; documented,
+DC-024,6,"`monitor.py status` warned ""no new arrivals merged for 3 h"" at each service start (fixed).",fixed,
+DC-024,7,Sat Nov 7 so far (normal).,normal,
 DC-023,,Checkup 2026-11-06: a 2-hour gap on Nov 5 (GitHub API errors) and the anomalies of Nov 2 to 5 (fixed / open),fixed / open,"Owner (2026-11-06): ""Check the data collection status and create a log on any anomalies."" Times are Chicago (CST since"
 DC-023,1,"Collection gap, Thu Nov 5, 10:39 AM to 12:39 PM (fixed).",fixed,
 DC-023,2,`monitor.py status` could not read the data CSV (fixed).,fixed,
