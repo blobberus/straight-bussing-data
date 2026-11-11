@@ -1,0 +1,4 @@
+epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
+1794353257,2026-11-10 17:27:37,5715,Regents Express,524063,12643,72573,E 56th St & S Hyde Park Blvd (SW Corner),3,,,,,,
+1794353397,2026-11-10 17:29:57,5715,Regents Express,524063,12643,8657,Shoreland Building,4,,,,,,
+1794354133,2026-11-10 17:42:13,5715,Regents Express,524063,12643,8633,Regenstein Library (N),6,,,,,,
