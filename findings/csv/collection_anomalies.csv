@@ -1,4 +1,17 @@
 entry,item,title,status,first line
+DC-026,,Checkup 2026-11-11: healthy; the public data repo's per-day files had the prediction columns since Oct 29 (fixed); a whole-database audit (new); the archive check missed two file kinds (fixed); Passio's missing stop times unchanged and its times late on four lines since Oct 27 (open),open,"Owner (2026-11-11): ""Check this project on the repo and the straight bussing database repo. From here, run a database"
+DC-026,1,"Collector: healthy, no gap since the last checkup (nothing to fix).",nothing to fix,
+DC-026,2,"The public data repo's per-day files had the prediction columns since Oct 29 (fixed in the data repo, `36126a1`).","fixed in the data repo, `36126a1`",
+DC-026,3,"A whole-database audit (new: `tools/db_audit.py`, `0617f382`) and what its first run found.",,
+DC-026,4,"The archive check did not miss a day, but it would have missed two file kinds (fixed, `b4e2b58c`).","fixed, `b4e2b58c`",
+DC-026,5,Tue Nov 10 in numbers (normal unless said).,normal unless said,
+DC-026,6,Still open from DC-024 / DC-025 (the numbers go on).,the numbers go on,
+DC-025,,"Checkup 2026-11-10: healthy; one archive day lost to a GitHub 503 (fixed); Passio stopped predicting some stops on Oct 27 (open, Passio's side); a Monday morning with four lines missing from the feed (accepted)",accepted,"Owner (2026-11-10): ""Run a data collection check."" Times are Chicago (CST). Sat Nov 7 is compared with the Saturdays Oct"
+DC-025,1,"Collector: healthy, no gap since the last checkup (nothing to fix).",nothing to fix,
+DC-025,2,The archive lost Sun Nov 8 to one HTTP 503 (fixed).,fixed,
+DC-025,3,Passio stopped publishing times for some stops on Oct 27 (open: Passio's side; facts for the owner).,open: Passio's side; facts for the owner,
+DC-025,5,The weekend and Monday in numbers (normal unless said).,normal unless said,
+DC-025,6,"Buses on another line than their Passio label (DC-024 item 3, still open; the numbers go on).","DC-024 item 3, still open; the numbers go on",
 DC-024,,Checkup 2026-11-07: healthy; buses on another line than their Passio label (open); the Downtown Campus Connector off its drawn line (facts); a false status warning (fixed),fixed,"Owner (2026-11-07): ""Run a data collection check."" Times are Chicago (CST). Fri Nov 6 is compared with the Fridays Oct"
 DC-024,1,"Collector: healthy, nothing lost since the Nov 5 gap (nothing to fix).",nothing to fix,
 DC-024,2,Fri Nov 6: normal totals; the short line-hours are explained (accepted).,accepted,

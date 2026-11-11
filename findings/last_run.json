@@ -1,17 +1,17 @@
 {
- "run_utc": "2026-11-10T00:51Z",
+ "run_utc": "2026-11-11T16:45Z",
  "data_from": "2026-10-10",
- "data_to": "2026-11-07",
- "days": 29,
- "train_to": "2026-10-31",
+ "data_to": "2026-11-09",
+ "days": 31,
+ "train_to": "2026-11-02",
  "test_days": [
-  "2026-11-01",
-  "2026-11-02",
   "2026-11-03",
   "2026-11-04",
   "2026-11-05",
   "2026-11-06",
-  "2026-11-07"
+  "2026-11-07",
+  "2026-11-08",
+  "2026-11-09"
  ],
  "ready_signals": [],
  "readiness_rule": {
@@ -24,19 +24,29 @@
  },
  "transitions": {
   "leave": {
-   "shift_end": 226,
-   "feed_drop": 186,
-   "route_switch": 170,
-   "layover_swap": 185,
-   "break": 246
+   "shift_end": 232,
+   "feed_drop": 200,
+   "route_switch": 181,
+   "layover_swap": 198,
+   "break": 261
   },
   "add": {
-   "added_from_garage": 304,
-   "added_from_route": 148,
-   "layover_swap": 225,
-   "unknown": 112,
-   "added_from_break": 240
+   "added_from_garage": 322,
+   "added_from_route": 156,
+   "layover_swap": 236,
+   "unknown": 116,
+   "added_from_break": 259
   }
  },
- "end_of_service_source": "rebuilt this run"
+ "end_of_service_source": "rebuilt this run",
+ "flags_source": "refreshed",
+ "flags": {
+  "refreshed": [
+   "transition",
+   "prediction_miss"
+  ],
+  "kept": [],
+  "failed": {},
+  "active": 78
+ }
 }

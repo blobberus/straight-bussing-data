@@ -1,48 +1,50 @@
 route_id,route,day_type,stop_id,stop,lat,lon,from,to,days,leaves,visits_in_window,precision_in_sample
-4346,53rd Street Express,weekday,161844,Keller Center EB,41.78598,-87.59403,10:20,10:40,3,3,24,0.12
-4346,53rd Street Express,weekday,8624,Stony Island Parking Lot,41.78633,-87.58739,10:30,10:46,3,3,12,0.25
+4346,53rd Street Express,weekday,161844,Keller Center EB,41.78598,-87.59403,10:20,10:40,3,3,25,0.12
+4346,53rd Street Express,weekday,8624,Stony Island Parking Lot,41.78633,-87.58739,10:30,10:46,3,3,13,0.23
 5702,Apostolic,weekday,8609,57th Street & Drexel (NB),41.79131,-87.60367,08:33,08:46,3,3,31,0.1
 5702,Apostolic,weekday,8630,Levi Hall (W),41.78966,-87.6013,08:34,08:48,4,4,29,0.14
-5702,Apostolic,weekday,8615,Bernard Mitchell Hospital,41.78943,-87.60487,09:41,09:52,3,3,18,0.17
-5702,Apostolic,weekday,8609,57th Street & Drexel (NB),41.79131,-87.60367,09:44,10:06,8,10,30,0.33
-6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,18:08,18:22,3,3,28,0.11
-6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,19:14,19:59,3,3,81,0.04
-6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,20:44,21:03,5,5,17,0.29
-6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,23:41,00:03,3,3,35,0.09
-1078,Central,weekday,8579,Reynolds Club,41.79134,-87.59802,20:47,21:15,3,3,22,0.14
+5702,Apostolic,weekday,8615,Bernard Mitchell Hospital,41.78943,-87.60487,09:41,09:52,3,3,19,0.16
+5702,Apostolic,weekday,8609,57th Street & Drexel (NB),41.79131,-87.60367,09:44,10:06,8,10,32,0.31
+6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,18:08,18:22,4,4,30,0.13
+6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,19:14,19:59,3,3,87,0.03
+6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,20:42,21:03,6,6,22,0.27
+6126,Apostolic/Drexel,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,23:41,00:03,3,3,36,0.08
+1078,Central,weekday,8579,Reynolds Club,41.79134,-87.59802,20:47,21:15,3,3,23,0.13
 1078,Central,weekday,8579,Reynolds Club,41.79134,-87.59802,21:48,22:07,4,4,21,0.19
-5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,08:14,08:56,3,3,42,0.07
-5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,09:49,10:41,13,14,54,0.26
-5704,Downtown Campus Connector,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,09:50,13:30,19,55,194,0.28
+5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,08:14,08:56,3,3,45,0.07
+5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,09:49,10:41,14,15,57,0.26
+5704,Downtown Campus Connector,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,09:50,13:30,20,59,204,0.29
 5704,Downtown Campus Connector,weekday,132963,Gleacher Center,41.88965,-87.62198,09:54,10:31,5,5,33,0.15
-5704,Downtown Campus Connector,weekday,8654,59th & Ellis,41.78778,-87.60105,10:16,12:54,18,31,200,0.15
-5704,Downtown Campus Connector,weekday,8591,Rockefeller Chapel,41.78787,-87.59649,10:31,11:27,5,7,58,0.12
-5704,Downtown Campus Connector,weekday,8654,59th & Ellis,41.78778,-87.60105,13:12,13:58,5,5,40,0.12
-5704,Downtown Campus Connector,weekday,155006,E Randolph St & S Michigan Ave,41.88433,-87.62383,13:48,14:15,3,3,18,0.17
-5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,14:52,15:14,3,3,27,0.11
-5704,Downtown Campus Connector,weekday,155006,E Randolph St & S Michigan Ave,41.88433,-87.62383,17:57,18:29,11,11,34,0.32
-5704,Downtown Campus Connector,weekday,155006,E Randolph St & S Michigan Ave,41.88433,-87.62383,18:39,18:57,3,3,20,0.15
-5704,Downtown Campus Connector,weekday,132963,Gleacher Center,41.88965,-87.62198,18:46,19:49,4,5,43,0.12
+5704,Downtown Campus Connector,weekday,8654,59th & Ellis,41.78778,-87.60105,10:16,12:54,18,31,210,0.15
+5704,Downtown Campus Connector,weekday,8591,Rockefeller Chapel,41.78787,-87.59649,10:22,12:01,7,10,98,0.1
+5704,Downtown Campus Connector,weekday,8654,59th & Ellis,41.78778,-87.60105,13:12,13:58,5,5,42,0.12
+5704,Downtown Campus Connector,weekday,155006,E Randolph St & S Michigan Ave,41.88433,-87.62383,13:48,14:15,3,3,19,0.16
+5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,14:52,15:14,3,3,28,0.11
+5704,Downtown Campus Connector,weekday,155006,E Randolph St & S Michigan Ave,41.88433,-87.62383,17:57,18:29,11,11,35,0.31
+5704,Downtown Campus Connector,weekday,155006,E Randolph St & S Michigan Ave,41.88433,-87.62383,18:39,18:57,3,3,21,0.14
+5704,Downtown Campus Connector,weekday,132963,Gleacher Center,41.88965,-87.62198,18:46,19:49,4,5,46,0.11
 5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,19:14,19:30,3,3,15,0.2
-5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,19:43,20:20,4,4,25,0.16
-5704,Downtown Campus Connector,weekday,8591,Rockefeller Chapel,41.78787,-87.59649,20:34,21:02,3,3,16,0.19
-5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,21:39,22:13,5,6,19,0.32
+5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,19:43,20:32,5,5,32,0.16
+5704,Downtown Campus Connector,weekday,8591,Rockefeller Chapel,41.78787,-87.59649,20:34,21:02,4,4,17,0.24
+5704,Downtown Campus Connector,weekday,132965,S Michigan Ave/Roosevelt,41.8679,-87.624,21:30,21:58,3,3,16,0.19
+5704,Downtown Campus Connector,weekday,132968,Roosevelt Station,41.86734,-87.62686,21:39,22:13,6,7,20,0.35
 5704,Downtown Campus Connector,weekday,132963,Gleacher Center,41.88965,-87.62198,21:40,22:32,6,6,12,0.5
-5704,Downtown Campus Connector,weekday,8654,59th & Ellis,41.78778,-87.60105,21:47,22:09,4,4,21,0.19
-5704,Downtown Campus Connector,weekday,155005,S Lake Park Ave & E Hyde Park Blvd,41.80297,-87.58791,21:50,22:15,4,4,18,0.22
-5701,Drexel,weekday,8609,57th Street & Drexel (NB),41.79131,-87.60367,09:42,10:11,7,7,24,0.29
-1077,East,weekday,8633,Regenstein Library (N),41.79147,-87.59961,21:49,22:04,3,3,21,0.14
-5700,Friend Center/Metra,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,17:50,18:03,3,3,19,0.16
-5703,Midway Metra,weekday,8654,59th & Ellis,41.78778,-87.60105,09:24,10:04,4,4,41,0.1
-5703,Midway Metra,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,09:25,10:07,9,9,35,0.26
-5703,Midway Metra,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,18:41,18:54,7,7,26,0.27
-5699,Red Line/Arts Block,weekday,67598,Logan Center for Arts,41.78586,-87.6038,10:12,10:32,10,10,38,0.26
-5699,Red Line/Arts Block,weekday,138836,Midway Plaisance & Cottage Grove,41.78635,-87.60624,10:51,11:07,4,4,24,0.17
-5699,Red Line/Arts Block,weekday,67598,Logan Center for Arts,41.78586,-87.6038,10:53,11:09,8,8,20,0.4
-5699,Red Line/Arts Block,weekday,67600,Smart Museum of Arts,41.79412,-87.60125,10:59,11:27,7,7,19,0.37
-5699,Red Line/Arts Block,weekday,161393,Garfield & Wabash (WB),41.79478,-87.62367,11:17,11:31,6,6,20,0.3
-5699,Red Line/Arts Block,weekday,161393,Garfield & Wabash (WB),41.79478,-87.62367,13:38,14:12,3,3,36,0.08
-5699,Red Line/Arts Block,weekday,69624,Garfield Red Line Station (EB),41.79416,-87.63123,13:41,13:57,6,6,25,0.24
-5699,Red Line/Arts Block,weekday,67600,Smart Museum of Arts,41.79412,-87.60125,20:35,20:50,3,3,36,0.08
-5699,Red Line/Arts Block,weekday,138836,Midway Plaisance & Cottage Grove,41.78635,-87.60624,20:46,21:06,4,4,18,0.22
-5699,Red Line/Arts Block,weekday,161393,Garfield & Wabash (WB),41.79478,-87.62367,20:50,21:31,11,13,24,0.54
+5704,Downtown Campus Connector,weekday,8654,59th & Ellis,41.78778,-87.60105,21:47,22:09,4,4,22,0.18
+5704,Downtown Campus Connector,weekday,155005,S Lake Park Ave & E Hyde Park Blvd,41.80297,-87.58791,21:50,22:15,4,4,19,0.21
+5701,Drexel,weekday,8609,57th Street & Drexel (NB),41.79131,-87.60367,09:42,10:11,8,8,26,0.31
+1077,East,weekday,8633,Regenstein Library (N),41.79147,-87.59961,21:49,22:04,3,3,22,0.14
+5700,Friend Center/Metra,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,17:50,18:03,3,3,20,0.15
+5703,Midway Metra,weekday,8654,59th & Ellis,41.78778,-87.60105,09:24,10:04,4,4,43,0.09
+5703,Midway Metra,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,09:25,10:07,10,10,37,0.27
+5703,Midway Metra,weekday,8612,Goldblatt Pavilion,41.78774,-87.60361,18:41,18:54,8,8,27,0.3
+5699,Red Line/Arts Block,weekday,67598,Logan Center for Arts,41.78586,-87.6038,10:12,10:32,10,10,41,0.24
+5699,Red Line/Arts Block,weekday,138836,Midway Plaisance & Cottage Grove,41.78635,-87.60624,10:51,11:07,4,4,26,0.15
+5699,Red Line/Arts Block,weekday,67598,Logan Center for Arts,41.78586,-87.6038,10:53,11:09,9,9,22,0.41
+5699,Red Line/Arts Block,weekday,67600,Smart Museum of Arts,41.79412,-87.60125,10:59,11:27,7,7,20,0.35
+5699,Red Line/Arts Block,weekday,161393,Garfield & Wabash (WB),41.79478,-87.62367,11:16,11:31,7,7,22,0.32
+5699,Red Line/Arts Block,weekday,161393,Garfield & Wabash (WB),41.79478,-87.62367,13:38,14:12,3,3,38,0.08
+5699,Red Line/Arts Block,weekday,69624,Garfield Red Line Station (EB),41.79416,-87.63123,13:41,13:57,7,7,27,0.26
+5699,Red Line/Arts Block,weekday,67600,Smart Museum of Arts,41.79412,-87.60125,20:35,20:50,3,3,38,0.08
+5699,Red Line/Arts Block,weekday,67601,Garfield Green Line Station,41.79494,-87.61833,20:40,20:53,3,3,26,0.12
+5699,Red Line/Arts Block,weekday,138836,Midway Plaisance & Cottage Grove,41.78635,-87.60624,20:46,21:06,4,4,19,0.21
+5699,Red Line/Arts Block,weekday,161393,Garfield & Wabash (WB),41.79478,-87.62367,20:50,21:31,11,13,25,0.52
