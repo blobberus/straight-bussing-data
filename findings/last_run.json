@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-11T16:45Z",
+ "run_utc": "2026-11-11T16:56Z",
  "data_from": "2026-10-10",
  "data_to": "2026-11-09",
  "days": 31,
@@ -45,8 +45,10 @@
    "transition",
    "prediction_miss"
   ],
-  "kept": [],
+  "kept": [
+   "display"
+  ],
   "failed": {},
-  "active": 78
+  "active": 100
  }
 }
