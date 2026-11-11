@@ -131,7 +131,26 @@ within 15 minutes of a transition on their line).
   ahead reliably (E29: at best about 30% precision), so "a bus of this line usually leaves around now" is the realistic
   input, not "this bus leaves".
 
-## 7. What this does not settle
+## 7. Flagged lines (results/13, added 2026-11-11)
+
+The main repo's flagged-lines registry (`data/labeled/flags/flagged_lines.csv`: RouteKnower E30 odd bus behavior at
+transition times, E31 large prediction misses) names 77 problems on 14 lines, each narrowed to its stops, hours, days,
+buses and minutes ahead. Step 13 scores every model on each one as its own slice (test days October 30 to November 9;
+a bin decides only with 30+ samples). RouteKnower 6.4: a model that loses on a flagged slice is not shipped.
+
+- **No candidate passes.** Of 55 slices with enough rows, the safe network holds on 21 and loses on 34 (10 of them
+  high severity); the trees lose on 38, the plain network on 42, timetable + delay on 46.
+- **How it loses**: mostly too late more often than Passio (23 of the 34), for example Drexel when the bus is already
+  behind (5.1% vs 2.1% under 10 min), Apostolic around GPS position jumps and the 53rd Street Express at 15-20 min
+  (15.8% vs 8.6%); and band B well below Passio on South while a bus lingers out of service at night (13.0% vs 19.7%
+  at 10-15 min), on Regents Express's late misses (about half of Passio's band B at 10 to 30 min) and on East and South
+  early misses at 10-15 min.
+- **Where it holds**: Central (5 flags), Friend Center/Metra (4), East (3); and 7 of the 8 flags about Passio showing a time
+  only under another trip id of the same bus (Drexel is the exception: too late 10.7% vs 6.9% under 10 min).
+- **What to try next**: the transition and coverage columns as inputs (section 6), then rerun step 13 after every
+  weekly flag refresh (the data repo's `findings/run_findings.py` rebuilds the registry each Monday).
+
+## 8. What this does not settle
 
 - 19 days of autumn quarter: no snow, no exam weeks, no breaks yet.
 - The sample is the scoreboard's (one prediction per arrival and lead range).
