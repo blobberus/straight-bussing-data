@@ -41,14 +41,21 @@ def service_day(local_time):
 
 
 def read_rows(src_data):
+    """The arrivals: arrivals.csv and its rotated parts archive/arrivals-*.csv. archive/ also holds other files
+    (predictions-*.csv since 2026-10-29): reading archive/*.csv took the predictions header and rows for arrivals, so
+    every per-day file lost 16 of its 25 columns and gained rows (app repo docs/DATA-COLLECTION-LOG.md DC-026). A file
+    whose header is not the arrivals header is skipped with a warning."""
     gt = Path(src_data) / "data" / "ground_truth"
-    files = sorted((gt / "archive").glob("*.csv")) + [gt / "arrivals.csv"]
+    files = sorted((gt / "archive").glob("arrivals-*.csv")) + [gt / "arrivals.csv"]
     header, rows, seen = None, [], set()
     for f in files:
         if not f.exists():
             continue
         with open(f, newline="", encoding="utf-8") as fh:
             r = csv.DictReader(fh)
+            if not r.fieldnames or "source" not in r.fieldnames or (header and r.fieldnames != header):
+                print(f"::warning title=Sync::skipped {f.name}: not the arrivals header ({(r.fieldnames or [])[:4]}...)")
+                continue
             header = header or r.fieldnames
             for row in r:
                 k = tuple(row.get(c, "") for c in KEY)

@@ -26,6 +26,8 @@ jobs:
         run: |
           git clone -q --depth 1 --branch data https://github.com/blobberus/straight-bussing.git "$RUNNER_TEMP/src-data"
           git clone -q --depth 1 --branch main https://github.com/blobberus/straight-bussing.git "$RUNNER_TEMP/src-main"
+      - name: Test the rebuild (a failing test leaves the public copy as it is)
+        run: python scripts/test_sync.py
       - name: Rebuild
         run: python scripts/sync.py --src-data "$RUNNER_TEMP/src-data" --src-main "$RUNNER_TEMP/src-main" --out .
       - name: Commit and push real changes
