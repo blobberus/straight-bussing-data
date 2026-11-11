@@ -67,13 +67,13 @@ exact commands are in the app repo's RouteKnower.md, "E29 retry procedure". In s
 ## Refresh by hand
 
 ```
-gh workflow run findings.yml -R blobberus/straight-bussing-data         # the full weekly run (about 20 to 40 min)
+gh workflow run findings.yml -R blobberus/straight-bussing-data         # the full weekly run (about 10 min; Nov 11: 9.5)
 python findings/build_workbook.py --live <app repo checkout>            # only rebuild the workbook from findings/csv
 python findings/run_findings.py --live <app repo checkout> --src-data <app repo data-branch checkout> --dl <cache> --out findings
 ```
 
-The flag step reruns E30 (`experiments/routeknower/E30-scripts/run_odd.py` + `flags.py`, about 6 min) and E31
-(`E31-scripts/misses.py` + `flags.py`, about 3 min; it reads the eta tables, which the fetch now downloads too, and
+The flag step reruns E30 (`experiments/routeknower/E30-scripts/run_odd.py` + `flags.py`, about 2.5 min on GitHub's runner) and E31
+(`E31-scripts/misses.py` + `flags.py`, about 1.5 min; it reads the eta tables, which the fetch now downloads too, and
 the data branch's `predictions.csv` + `archive/predictions-*.csv`), then the app repo's `tools/flag_lines.py`, which
 writes `csv/flagged_lines.csv` and the per-line summary [`FLAGGED-LINES.md`](FLAGGED-LINES.md) (headed by a note on
 what was rerun). The rerun producer files themselves go to [`flags/`](flags/) (`transition_flags.csv`,
