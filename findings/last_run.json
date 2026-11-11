@@ -1,17 +1,17 @@
 {
- "run_utc": "2026-11-11T17:43Z",
+ "run_utc": "2026-11-11T19:23Z",
  "data_from": "2026-10-10",
- "data_to": "2026-11-09",
- "days": 31,
- "train_to": "2026-11-02",
+ "data_to": "2026-11-10",
+ "days": 32,
+ "train_to": "2026-11-03",
  "test_days": [
-  "2026-11-03",
   "2026-11-04",
   "2026-11-05",
   "2026-11-06",
   "2026-11-07",
   "2026-11-08",
-  "2026-11-09"
+  "2026-11-09",
+  "2026-11-10"
  ],
  "ready_signals": [],
  "readiness_rule": {
@@ -24,18 +24,18 @@
  },
  "transitions": {
   "leave": {
-   "shift_end": 232,
-   "feed_drop": 200,
-   "route_switch": 181,
-   "layover_swap": 198,
-   "break": 261
+   "shift_end": 241,
+   "feed_drop": 207,
+   "route_switch": 191,
+   "layover_swap": 201,
+   "break": 276
   },
   "add": {
-   "added_from_garage": 322,
-   "added_from_route": 156,
-   "layover_swap": 236,
-   "unknown": 116,
-   "added_from_break": 259
+   "added_from_garage": 336,
+   "added_from_route": 166,
+   "layover_swap": 244,
+   "unknown": 118,
+   "added_from_break": 270
   }
  },
  "end_of_service_source": "rebuilt this run",
@@ -49,22 +49,31 @@
    "display"
   ],
   "failed": {},
-  "active": 100
+  "active": 104
+ },
+ "service_seen": {
+  "file": "findings/service_seen/service_seen.json",
+  "from": "2026-10-10",
+  "to": "2026-11-10",
+  "days": 32,
+  "lines": 14,
+  "transitions": 32,
+  "valid_until": "2026-12-25"
  },
  "hidden_buses": {
   "file": "findings/hidden_buses/hidden_buses.csv",
-  "rules": "main@190380f",
-  "days": 31,
+  "rules": "main@78a96f1",
+  "days": 32,
   "from": "2026-10-10",
-  "to": "2026-11-09",
+  "to": "2026-11-10",
   "not_replayed": [],
   "all_days_replayed": true,
   "episodes": {
-   "off_route": 1167,
-   "idle": 106,
-   "gone": 187,
-   "held": 0,
-   "not_operating": 215
+   "off_route": 1164,
+   "idle": 113,
+   "gone": 191,
+   "held": 179,
+   "not_operating": 41
   }
  }
 }
