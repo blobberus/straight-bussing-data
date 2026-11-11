@@ -24,7 +24,13 @@ Each run:
     findings/csv/flagged_lines.csv + findings/FLAGGED-LINES.md (first_flagged kept from last week's copy; a flag no
     longer reported becomes resolved); the rerun producer files go to findings/flags/ for the app repo to adopt. Nothing is written to the app repo: its data/labeled/flags/ stays the reviewed copy;
  6. rebuilds findings/straight-bussing-findings.xlsx and its CSV copies in findings/csv/ (build_workbook.py; the
-    flagged_lines tab comes first).
+    flagged_lines tab comes first);
+ 7. refreshes the HIDDEN BUSES (owner, 2026-11-11: "Keep hidden bus times off until it reports again. If passio is
+    still reporting them, add them to a hidden bus file in the data"): replays every archived day through the app
+    repo's own display code (RouteKnower E32 `inputs.py` + `replay.py` in headless Edge, no planner samples) and writes
+    findings/hidden_buses/hidden_buses.csv with `hidden_buses.py` (the app repo's reviewed copy is
+    data/labeled/hidden_buses/). Skipped, with the reason in last_run.json, when the scripts or a browser are missing
+    or a one-day smoke replay fails; capped at HIDDEN_BUDGET_S so it can never take the rest of the run down.
 
 READY (a signal, all must hold): the data reaches READY_MIN_DATA_TO (3 weeks past the first evaluation's
 2026-11-05); held-out precision >= 0.90 AND recall >= 0.20 on >= 30 flagged visits; precision on the training days
@@ -35,7 +41,7 @@ visits keep a 90% estimate's 95% interval above about 75%; 20% recall is the lea
 
   python findings/run_findings.py --live <app repo checkout> --src-data <app repo data-branch checkout> \
       --dl <download cache> --out findings [--work <scratch>] [--skip-fetch] [--skip-eos] [--skip-flags]
-      [--eta-dir <folder of eta-<day>.csv.gz for E31; default --dl>]
+      [--eta-dir <folder of eta-<day>.csv.gz for E31; default --dl>] [--skip-hidden]
 """
 import argparse, csv, json, os, shutil, subprocess, sys, time, urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -52,6 +58,8 @@ HISTORY_COLS = ["run_utc", "data_from", "data_to", "days", "train_to", "test_fro
                 "train_recall", "test_visits_base_rate", "meets_criteria", "consecutive_runs", "ready", "note"]
 KINDS = ("raw-polls-{}.jsonl.gz", "pred-updates-{}.jsonl.gz", "gtfs-{}.zip", "eta-{}.csv.gz")   # eta: E31 features
 FLAG_FILES = {"transition": "transition_flags.csv", "prediction_miss": "prediction_flags.csv", "display": "display_flags.csv"}
+E32 = "experiments/routeknower/E32-scripts"
+HIDDEN_BUDGET_S = 45 * 60      # the whole hidden-bus replay (inputs + replay of every day) stops after this
 
 
 def log(*a):
@@ -278,6 +286,63 @@ def refresh_flags(live, dl, tdir, eos, work, out, days, eta_dir=None):
     return res
 
 
+# ---------------------------------------------------------------- 7. hidden buses (E32 replay)
+def timed(live, timeout, script, *args):
+    """run() with a time limit (seconds); False when it failed or ran out of time."""
+    cmd = [sys.executable, str(Path(live) / script), *map(str, args)]
+    log("$", " ".join(cmd[:8]), "..." if len(cmd) > 8 else "")
+    try:
+        return subprocess.run(cmd, cwd=live, timeout=max(1, timeout)).returncode == 0
+    except subprocess.TimeoutExpired:
+        log(f"{script}: stopped after {timeout:.0f} s")
+        return False
+
+
+def refresh_hidden(live, dl, work, out, days, budget_s=HIDDEN_BUDGET_S):
+    """E32 replay of every archived day through the app repo's web/js (headless Edge: env EDGE, or msedge on PATH),
+    then hidden_buses.py -> out/hidden_buses/hidden_buses.csv. -> what happened, for last_run.json. The app repo's
+    data/labeled/hidden_buses/ stays the reviewed copy (adopt this one there by copying it, after a look at its
+    TOTALS line)."""
+    live, dl = Path(live), Path(dl)
+    if not (live / E32 / "hidden_buses.py").exists():
+        return {"skipped": "the app repo has no E32 hidden_buses.py"}
+    t_end = time.time() + budget_s
+    w, r = work / "e32" / "work", work / "e32" / "results"
+    w.mkdir(parents=True, exist_ok=True)
+    need = ("raw-polls-{}.jsonl.gz", "pred-updates-{}.jsonl.gz", "gtfs-{}.zip")
+    ok = [d for d in days if all((dl / k.format(d)).exists() for k in need)]
+    if not ok:
+        return {"skipped": "no day with raw polls, prediction updates and a timetable"}
+    built = []
+    for d in ok:                                            # one call per day: a bad day cannot stop the others
+        if time.time() > t_end:
+            break
+        if timed(live, min(300, t_end - time.time()), f"{E32}/inputs.py", "--dl", dl, "--alerts", dl / "alerts.csv",
+                 "--days", d, "--out", w):
+            built.append(d)
+    if not built:
+        return {"skipped": "inputs.py built no day"}
+    if not timed(live, min(600, t_end - time.time()), f"{E32}/replay.py", "--work", w, "--results", r, "--days",
+                 built[-1], "--plan", 0, "--jobs", 1, "--timeout", 400):
+        return {"skipped": f"the one-day smoke replay ({built[-1]}) failed: no browser, or the page did not run"}
+    full = timed(live, t_end - time.time(), f"{E32}/replay.py", "--work", w, "--results", r, "--days", *built,
+                 "--plan", 0, "--jobs", 3, "--timeout", 600)
+    replayed = [d for d in built if (r / f"{d}.json").exists()]
+    sha = subprocess.run(["git", "-C", str(live), "rev-parse", "--short", "HEAD"], capture_output=True,
+                         text=True).stdout.strip() or "unknown"
+    dest = Path(out) / "hidden_buses" / "hidden_buses.csv"
+    if not timed(live, 900, f"{E32}/hidden_buses.py", "--work", w, "--results", r, "--arrivals", dl / "arrivals.csv",
+                 "--from", replayed[0], "--to", replayed[-1], "--rules", f"main@{sha}", "--out", dest,
+                 "--json", work / "e32" / "hidden.json"):
+        return {"skipped": "hidden_buses.py failed", "replayed": len(replayed)}
+    per = json.loads((work / "e32" / "hidden.json").read_text(encoding="utf-8")).get("per_line", {})
+    return {"file": dest.relative_to(Path(out).parent).as_posix(), "rules": f"main@{sha}", "days": len(replayed),
+            "from": replayed[0], "to": replayed[-1], "not_replayed": [d for d in ok if d not in replayed],
+            "all_days_replayed": bool(full) and len(replayed) == len(ok),
+            "episodes": {k: sum(v.get(k, 0) for v in per.values())
+                         for k in ("off_route", "idle", "gone", "held", "not_operating")}}
+
+
 # ---------------------------------------------------------------- main
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -290,6 +355,7 @@ def main(argv=None):
     ap.add_argument("--skip-eos", action="store_true", help="use the app repo's committed end-of-service files")
     ap.add_argument("--skip-flags", action="store_true", help="do not rerun E30 / E31 (the workbook shows the app repo's flags)")
     ap.add_argument("--eta-dir", help="folder with eta-<day>.csv.gz for E31 (default: --dl)")
+    ap.add_argument("--skip-hidden", action="store_true", help="do not replay E32 for the hidden-bus file")
     a = ap.parse_args(argv)
     live, out, dl = Path(a.live).resolve(), Path(a.out).resolve(), Path(a.dl).resolve()
     work = Path(a.work or out / ".work").resolve()
@@ -335,6 +401,7 @@ def main(argv=None):
     sys.path.insert(0, str(HERE))
     import build_workbook as W
     W.build(out, live, tdir, eos, Path(out).parent, meta)
+    meta["hidden_buses"] = {"skipped": "--skip-hidden"} if a.skip_hidden else refresh_hidden(live, dl, work, out, days)
     (out / "last_run.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     log(json.dumps(meta, indent=1))
 
