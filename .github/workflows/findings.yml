@@ -11,6 +11,9 @@ name: Weekly findings (which bus will leave, findings workbook)
 # for this data. Flag these lines") it also reruns the flag producers, RouteKnower E30 (odd bus behavior at transition
 # times) and E31 (large prediction misses; needs the eta tables and the data branch's predictions.csv + archive), and
 # merges them with the app repo's tools/flag_lines.py into findings/csv/flagged_lines.csv, the workbook's first tab.
+# Since 2026-11-11 (owner: "Keep hidden bus times off until it reports again. If passio is still reporting them, add them
+# to a hidden bus file in the data") it also replays every archived day through the app's own display code (E32, headless
+# Edge) and writes findings/hidden_buses/hidden_buses.csv (capped at 45 min; skipped without a browser).
 on:
   schedule: [{ cron: "41 17 * * 1" }]   # Mondays 17:41 UTC (11:41 AM Chicago): after the weekend's days are archived
   workflow_dispatch:
@@ -38,6 +41,17 @@ jobs:
           path: ${{ runner.temp }}/dl
           key: findings-dl-${{ github.run_id }}
           restore-keys: findings-dl-
+      - name: Headless Edge for the hidden-bus replay (RouteKnower E32; the run goes on without it)
+        run: |
+          e=$(command -v microsoft-edge || command -v microsoft-edge-stable || command -v google-chrome || true)
+          if [ -n "$e" ]; then
+            printf '#!/bin/sh\nexec "%s" --no-sandbox "$@"\n' "$e" > "$RUNNER_TEMP/edge.sh"
+            chmod +x "$RUNNER_TEMP/edge.sh"
+            echo "EDGE=$RUNNER_TEMP/edge.sh" >> "$GITHUB_ENV"
+            "$e" --version || true
+          else
+            echo "no browser: the hidden-bus replay is skipped (findings/last_run.json says so)"
+          fi
       - name: Refresh the findings
         env: { GH_TOKEN: "${{ github.token }}" }
         run: >
