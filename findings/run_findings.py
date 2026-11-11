@@ -30,7 +30,11 @@ Each run:
     repo's own display code (RouteKnower E32 `inputs.py` + `replay.py` in headless Edge, no planner samples) and writes
     findings/hidden_buses/hidden_buses.csv with `hidden_buses.py` (the app repo's reviewed copy is
     data/labeled/hidden_buses/). Skipped, with the reason in last_run.json, when the scripts or a browser are missing
-    or a one-day smoke replay fails; capped at HIDDEN_BUDGET_S so it can never take the rest of the run down.
+    or a one-day smoke replay fails; capped at HIDDEN_BUDGET_S so it can never take the rest of the run down;
+ 8. rebuilds the SEEN SERVICE WINDOWS (owner, 2026-11-11: "Refresh the end of service data in another file where each
+    line is shown their daily seeming end and start time for each bus and transition"): the app repo's
+    `tools/build_service_seen.py` on every archived day -> findings/service_seen/service_seen.json, a candidate for the
+    app repo's web/data/service_seen.json (which the app loads; adopt it there by hand after a look, like the flags).
 
 READY (a signal, all must hold): the data reaches READY_MIN_DATA_TO (3 weeks past the first evaluation's
 2026-11-05); held-out precision >= 0.90 AND recall >= 0.20 on >= 30 flagged visits; precision on the training days
@@ -343,6 +347,27 @@ def refresh_hidden(live, dl, work, out, days, budget_s=HIDDEN_BUDGET_S):
                          for k in ("off_route", "idle", "gone", "held", "not_operating")}}
 
 
+# ---------------------------------------------------------------- 8. seen service windows
+def refresh_seen(live, dl, work, out, tdir):
+    """tools/build_service_seen.py on every archived day -> out/service_seen/service_seen.json (E30's wrong-label
+    episodes from this run's rerun when it wrote them, else the app repo's)."""
+    live = Path(live)
+    if not (live / "tools" / "build_service_seen.py").exists():
+        return {"skipped": "the app repo has no tools/build_service_seen.py"}
+    odd = Path(tdir) / "odd_episodes.csv"
+    if not odd.exists():
+        odd = live / "data" / "labeled" / "transitions" / "odd_episodes.csv"
+    dest = Path(out) / "service_seen" / "service_seen.json"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if not timed(live, 1200, "tools/build_service_seen.py", "--dl", dl, "--out", dest, "--odd", odd,
+                 "--cache", work / "seen-static", "--calendar", live / "data" / "calendar.json"):
+        return {"skipped": "build_service_seen.py failed"}
+    d = json.loads(dest.read_text(encoding="utf-8"))
+    return {"file": dest.relative_to(Path(out).parent).as_posix(), "from": d.get("from"), "to": d.get("to"),
+            "days": d.get("days_used"), "lines": len(d.get("lines") or {}), "transitions": len(d.get("transitions") or []),
+            "valid_until": d.get("valid_until")}
+
+
 # ---------------------------------------------------------------- main
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -401,6 +426,7 @@ def main(argv=None):
     sys.path.insert(0, str(HERE))
     import build_workbook as W
     W.build(out, live, tdir, eos, Path(out).parent, meta)
+    meta["service_seen"] = refresh_seen(live, dl, work, out, tdir)
     meta["hidden_buses"] = {"skipped": "--skip-hidden"} if a.skip_hidden else refresh_hidden(live, dl, work, out, days)
     (out / "last_run.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     log(json.dumps(meta, indent=1))
