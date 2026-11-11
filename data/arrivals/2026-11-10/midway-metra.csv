@@ -398,3 +398,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794357720,2026-11-10 18:42:00,5703,Midway Metra,503273,4320,8658,59th St & Metra,1,,,,,,
 1794357802,2026-11-10 18:43:22,5703,Midway Metra,503273,4320,8607,59th St & Kimbark / Lab School,2,,,,,,
 1794357893,2026-11-10 18:44:53,5703,Midway Metra,676445,12646,8655,60th & Cottage Grove,6,,,,,,
+1794359467,2026-11-10 19:11:07,5703,Midway Metra,676445,12646,8589,Logan Center,7,,,,,,
+1794359515,2026-11-10 19:11:55,5703,Midway Metra,676445,12646,8631,60th St. & Ellis (SE Corner),8,,,,,,
