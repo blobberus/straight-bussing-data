@@ -344,7 +344,7 @@ def refresh_hidden(live, dl, work, out, days, budget_s=HIDDEN_BUDGET_S):
             "from": replayed[0], "to": replayed[-1], "not_replayed": [d for d in ok if d not in replayed],
             "all_days_replayed": bool(full) and len(replayed) == len(ok),
             "episodes": {k: sum(v.get(k, 0) for v in per.values())
-                         for k in ("off_route", "idle", "gone", "held", "not_operating")}}
+                         for k in ("off_route", "idle", "gone", "held", "transitioning", "not_operating")}}
 
 
 # ---------------------------------------------------------------- 8. seen service windows
