@@ -7,6 +7,10 @@ name: Weekly findings (which bus will leave, findings workbook)
 # findings/csv/. When a signal meets the readiness rule two runs in a row (findings/run_findings.py) it opens or updates
 # ONE issue, "Leave prediction ready for review". It never changes the app: shipping stays a reviewed change (app repo
 # RouteKnower.md E29, "Retry procedure"). Nothing is written to the app repo or its data branch.
+# Since 2026-11-11 (owner: "Create or indicate wherever appropriate for another agent to analyze and notice and account
+# for this data. Flag these lines") it also reruns the flag producers, RouteKnower E30 (odd bus behavior at transition
+# times) and E31 (large prediction misses; needs the eta tables and the data branch's predictions.csv + archive), and
+# merges them with the app repo's tools/flag_lines.py into findings/csv/flagged_lines.csv, the workbook's first tab.
 on:
   schedule: [{ cron: "41 17 * * 1" }]   # Mondays 17:41 UTC (11:41 AM Chicago): after the weekend's days are archived
   workflow_dispatch:
