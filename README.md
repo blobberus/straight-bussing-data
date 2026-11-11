@@ -17,12 +17,18 @@ is one bus trip moving stop to stop over time; hover or tap a point for the stop
 | `methodology/` | `RouteKnower.md` (the experiment plan, test protocol, data targets, experiment log), `experiments/routeknower/` (experiment write-ups), and the data / algorithm / backtest docs |
 | `algorithm-test/` | a test bench for arrival-time prediction: Passio, the timetable, boosted trees and a neural network scored against the current accuracy goal on the public forecast tables (trained on earlier days, tested on later ones), what makes buses come later than shown, and the conclusion (`algorithm-test/README.md`, `CONCLUSION.md`). Run it with `python algorithm-test/run_all.py` |
 | `index.html`, `viewer.js`, `viewer.css` | the viewer page |
-| `scripts/sync.py`, `.github/workflows/sync.yml` | the sync that keeps all of this current |
+| `scripts/sync.py`, `scripts/test_sync.py`, `.github/workflows/sync.yml` | the sync that keeps all of this current, and its test (run before every rebuild) |
 
 **What each column means, in plain English:** [`methodology/docs/DATA-GUIDE.md`](methodology/docs/DATA-GUIDE.md)
 (with a worked example row and spreadsheet recipes). The prediction goal (the 10% rule), how predictions are scored and
 the plan to improve them: [`methodology/docs/GOAL-AND-METHOD.md`](methodology/docs/GOAL-AND-METHOD.md). Technical details: `methodology/docs/DATA.md` ("Schema"). Times are good to about +-10 s; `segment_s` is the time from
 the previous detected stop; `passio_pred_epoch` is the official app's prediction made at least 2 minutes earlier.
+
+**Correction (2026-11-11):** from Oct 29 to Nov 11, 2026 the per-day files and `data/latest.csv` had the 15 columns of
+the prediction file instead of the 25 arrival columns (no `source`, `segment_s`, `dwell_s`, `passio_pred_epoch`, stop
+coordinates ...), and about 4,300 rows too many: the sync read a rotated prediction file as arrivals. Fixed; every
+file was rewritten on Nov 11. A copy downloaded in that time should be downloaded again (app repo
+docs/DATA-COLLECTION-LOG.md, DC-026).
 
 ## How it stays current
 The app repo collects arrivals around the clock (GitHub Actions every 30 minutes plus a local collector) into its
