@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-11T16:56Z",
+ "run_utc": "2026-11-11T17:43Z",
  "data_from": "2026-10-10",
  "data_to": "2026-11-09",
  "days": 31,
@@ -50,5 +50,21 @@
   ],
   "failed": {},
   "active": 100
+ },
+ "hidden_buses": {
+  "file": "findings/hidden_buses/hidden_buses.csv",
+  "rules": "main@190380f",
+  "days": 31,
+  "from": "2026-10-10",
+  "to": "2026-11-09",
+  "not_replayed": [],
+  "all_days_replayed": true,
+  "episodes": {
+   "off_route": 1167,
+   "idle": 106,
+   "gone": 187,
+   "held": 0,
+   "not_operating": 215
+  }
  }
 }
