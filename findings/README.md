@@ -76,7 +76,10 @@ The flag step reruns E30 (`experiments/routeknower/E30-scripts/run_odd.py` + `fl
 (`E31-scripts/misses.py` + `flags.py`, about 3 min; it reads the eta tables, which the fetch now downloads too, and
 the data branch's `predictions.csv` + `archive/predictions-*.csv`), then the app repo's `tools/flag_lines.py`, which
 writes `csv/flagged_lines.csv` and the per-line summary [`FLAGGED-LINES.md`](FLAGGED-LINES.md) (headed by a note on
-what was rerun). A producer that fails keeps the app repo's copy of its flags (the run log says so; `last_run.json`
+what was rerun). The rerun producer files themselves go to [`flags/`](flags/) (`transition_flags.csv`,
+`prediction_flags.csv`; a producer that failed has none there): an app agent adopts a refresh by copying them into the
+app repo's `data/labeled/flags/`, running `python tools/flag_lines.py` there and reviewing the new and resolved flags
+before committing. A producer that fails keeps the app repo's copy of its flags (the run log says so; `last_run.json`
 `flags`), so a failure never marks flags resolved. `--skip-flags` leaves the app repo's registry in the tab.
 
 Packages: numpy and openpyxl (Python 3.11). The workflow keeps the downloaded archive days in the Actions cache, so a

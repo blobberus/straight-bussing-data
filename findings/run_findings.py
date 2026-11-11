@@ -22,7 +22,7 @@ Each run:
     `flags.py`) on the same days, keeps the app repo's reviewed copy of any producer file it cannot rerun (E32's display
     flags need a browser) or whose rerun fails, and merges them with the app repo's `tools/flag_lines.py` into
     findings/csv/flagged_lines.csv + findings/FLAGGED-LINES.md (first_flagged kept from last week's copy; a flag no
-    longer reported becomes resolved). Nothing is written to the app repo: its data/labeled/flags/ stays the reviewed copy;
+    longer reported becomes resolved); the rerun producer files go to findings/flags/ for the app repo to adopt. Nothing is written to the app repo: its data/labeled/flags/ stays the reviewed copy;
  6. rebuilds findings/straight-bussing-findings.xlsx and its CSV copies in findings/csv/ (build_workbook.py; the
     flagged_lines tab comes first).
 
@@ -256,12 +256,21 @@ def refresh_flags(live, dl, tdir, eos, work, out, days, eta_dir=None):
         return None
     reg.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(work / "flagged_lines.csv", reg)
+    pub = Path(out) / "flags"                              # this run's producer files, for the app repo to adopt
+    pub.mkdir(parents=True, exist_ok=True)
+    for c, f in FLAG_FILES.items():
+        if c in res["refreshed"]:
+            shutil.copy2(fdir / f, pub / f)
+        elif (pub / f).exists():                           # never leave last week's file looking fresh
+            (pub / f).unlink()
     head, _, body = (work / "FLAGGED-LINES.md").read_text(encoding="utf-8").partition("\n")
     note = (f"> **Weekly refresh** ({datetime.now(timezone.utc):%Y-%m-%d}) by `findings/run_findings.py` in this repo. "
             f"Rerun on the archived days: {', '.join(res['refreshed']) or 'none'}; kept from the app repo: "
             f"{', '.join(res['kept']) or 'none'}. Machine-readable copy: `findings/csv/flagged_lines.csv` (the workbook's "
-            "first tab). The paths below name the app repo, whose `data/labeled/flags/` is the reviewed copy and whose "
-            "README there says what every agent must do about a flag.\n")
+            "first tab); the rerun producer files are in `findings/flags/` (to adopt them in the app repo: copy them "
+            "into its `data/labeled/flags/`, run `python tools/flag_lines.py`, review the new and resolved flags, commit). "
+            "The paths below name the app repo, whose `data/labeled/flags/` is the reviewed copy and whose README there "
+            "says what every agent must do about a flag.\n")
     with open(Path(out) / "FLAGGED-LINES.md", "w", encoding="utf-8", newline="") as f:
         f.write(head + "\n\n" + note + body)
     with open(reg, encoding="utf-8", newline="") as f:
