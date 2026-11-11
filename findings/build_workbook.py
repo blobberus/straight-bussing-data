@@ -5,8 +5,9 @@ alone on the files already there:
 
   python findings/build_workbook.py --live <app repo checkout> [--out findings]
 
-Sources (all read-only): this run's transitions / leave windows (findings/csv, rebuilt by the app repo's RouteKnower
-E29 scripts), the leave-prediction history (findings/leave_eval_history.csv), the end-of-service episodes (E28), the app
+Sources (all read-only): the flagged-lines registry (this run's refresh in findings/csv/flagged_lines.csv, else the
+app repo's reviewed copy data/labeled/flags/flagged_lines.csv, tools/flag_lines.py), this run's transitions / leave
+windows (findings/csv, rebuilt by the app repo's RouteKnower E29 scripts), the leave-prediction history (findings/leave_eval_history.csv), the end-of-service episodes (E28), the app
 repo's docs/LINES-MOST-AFFECTED.md, RouteKnower.md (experiment log, off-route rows E27 / E27b),
 docs/DATA-COLLECTION-LOG.md (anomalies), and this repo's algorithm-test/CONCLUSION.md + results/12-transitions.md.
 """
@@ -127,10 +128,11 @@ def autosize(ws, header, rows, cap=60):
         ws.column_dimensions[get_column_letter(i)].width = max(8, min(cap, n + 2))
 
 
-def build(out, live, tdir, eos, data_root, meta=None):
+def build(out, live, tdir, eos, data_root, meta=None, flags=None):
     """Write the workbook and the CSV copies. out: findings/; live: app repo checkout; tdir: this run's E29 folder
     (transitions.csv, transition_spots.csv, transition_summary.csv, leave_windows.csv; None = findings/csv already has
-    them); eos: an E28 folder; data_root: this repo's root."""
+    them); eos: an E28 folder; data_root: this repo's root; flags: the flagged-lines registry (default: this run's
+    findings/csv/flagged_lines.csv if a refresh wrote one, else the app repo's data/labeled/flags/flagged_lines.csv)."""
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill
     out, live, data_root = Path(out), Path(live), Path(data_root)
@@ -141,6 +143,21 @@ def build(out, live, tdir, eos, data_root, meta=None):
             shutil.copy2(Path(tdir) / f, cdir / f)
     rk = (live / "RouteKnower.md").read_text(encoding="utf-8")
     tabs = []      # (name, what, source, header, rows)
+    app_fl = live / "data" / "labeled" / "flags" / "flagged_lines.csv"
+    if flags:
+        fl = Path(flags)
+    elif (meta or {}).get("flags_source") == "refreshed" and (cdir / "flagged_lines.csv").exists():
+        fl = cdir / "flagged_lines.csv"          # run_findings.py refreshed the producers and merged them this run
+    else:
+        fl = app_fl
+    fsrc = (f"{APP} data/labeled/flags/flagged_lines.csv (reviewed copy; tools/flag_lines.py)" if fl == app_fl else
+            f"{DATA} findings/csv/flagged_lines.csv (this run's refresh of the producers, merged by {APP} tools/flag_lines.py)")
+    tabs.append(("flagged_lines", "READ FIRST: lines whose data behaves oddly (transition_flags E30, prediction_miss E31, "
+                 "display E32), with where and when (scope), the line's number vs all lines, evidence and what an agent must "
+                 "do (agent_action). Model agents: score every open / watch flag as its own slice (algorithm-test step 13); "
+                 "app agents: read before changing a display rule, never hide a bus on a flag alone. Rules: app repo "
+                 "data/labeled/flags/README.md, summary docs/FLAGGED-LINES.md",
+                 fsrc, *(read_csv(fl) if fl.exists() else ([], []))))
     for name, f, what in (("transitions", "transitions.csv", "every bus count transition (a bus leaving or joining a line), labeled break / shift_end / route_switch / feed_drop / layover_swap / added_from_*, where and what the bus did (E29)"),
                           ("transition_spots", "transition_spots.csv", "named leave / join spots per line: events, days, typical clock times (E29)"),
                           ("transition_summary", "transition_summary.csv", "per line, day type and clock hour: leaves and joins by label (E29)"),
@@ -219,9 +236,11 @@ def main(argv=None):
     ap.add_argument("--live", required=True)
     ap.add_argument("--out", default=str(HERE))
     ap.add_argument("--eos", help="E28 folder (default: the app repo's data/labeled/end_of_service)")
+    ap.add_argument("--flags", help="flagged-lines registry CSV (default: the app repo's data/labeled/flags/flagged_lines.csv)")
     a = ap.parse_args(argv)
     meta = json.loads((Path(a.out) / "last_run.json").read_text(encoding="utf-8")) if (Path(a.out) / "last_run.json").exists() else {}
-    print(build(a.out, a.live, None, a.eos or Path(a.live) / "data" / "labeled" / "end_of_service", Path(a.out).resolve().parent, meta))
+    print(build(a.out, a.live, None, a.eos or Path(a.live) / "data" / "labeled" / "end_of_service", Path(a.out).resolve().parent, meta,
+                a.flags))
 
 
 if __name__ == "__main__":
