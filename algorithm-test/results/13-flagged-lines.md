@@ -1,6 +1,6 @@
 # Flagged lines: every model on each flagged slice
 
-Test days: 2026-10-30 to 2026-11-09 (11 days, 83,002 samples; each model trained only on earlier days). Flags: the main repo's data/labeled/flags/flagged_lines.csv, 77 active (open or watch); each is the flag's line narrowed by its scope (README there). RouteKnower.md 6.4: a model that wins on average but loses on a flagged slice is not shipped.
+Test days: 2026-10-30 to 2026-11-09 (11 days, 83,002 samples; each model trained only on earlier days). Flags: the main repo's data/labeled/flags/flagged_lines.csv, 99 active (open or watch); each is the flag's line narrowed by its scope (README there). RouteKnower.md 6.4: a model that wins on average but loses on a flagged slice is not shipped.
 
 ## Which model loses where
 
@@ -8,10 +8,10 @@ Loses = in a bin with 30+ samples, band B more than 10% (relative) below Passio'
 
 | model | flagged slices it loses on (ship gate: not shipped while any) |
 |---|---|
-| timetable_delay | `prediction_miss:first_stop_next_trip_times:4346`, `prediction_miss:large_early_miss:4346`, `prediction_miss:stops_without_predictions:4346`, `transition:position_jump:5702`, `prediction_miss:other_trip_times:6126`, `transition:after_hours:1078`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_early_miss:1077`, `prediction_miss:stops_without_predictions:1077`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `transition:staying_bus_late_after_drop:5702`, `transition:bunching_after_add:6126`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `prediction_miss:stops_without_predictions:1078`, `prediction_miss:worse_when_behind:1078`, `prediction_miss:stops_without_predictions:5701`, `transition:extra_bus_added:1077`, `prediction_miss:worse_when_behind:1077`, `transition:extra_bus_added:5700`, `prediction_miss:first_stop_next_trip_times:5700`, `transition:service_start_missing:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `transition:off_route_drive:1076`, `prediction_miss:large_late_miss:5701`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:worse_near_transitions:5700`, `prediction_miss:worse_when_behind:5700`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `prediction_miss:first_stop_next_trip_times:5699`, `transition:wrong_line_label:5699`, `prediction_miss:first_stop_next_trip_times:1076`, `transition:unscheduled_leave:1076` |
-| gbm_q15 | `prediction_miss:large_early_miss:4346`, `prediction_miss:stops_without_predictions:4346`, `transition:position_jump:5702`, `prediction_miss:other_trip_times:6126`, `transition:after_hours:1078`, `transition:sparse_reporting:5704`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_early_miss:1077`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `transition:staying_bus_late_after_drop:5702`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `prediction_miss:stops_without_predictions:1078`, `prediction_miss:large_early_miss:5704`, `prediction_miss:stops_without_predictions:5701`, `transition:extra_bus_added:5700`, `transition:service_start_missing:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `transition:off_route_drive:1076`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:worse_near_transitions:5700`, `prediction_miss:worse_when_behind:5700`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `transition:wrong_line_label:5699`, `transition:unscheduled_leave:1076` |
-| deep_q15 | `prediction_miss:large_early_miss:4346`, `prediction_miss:stops_without_predictions:4346`, `transition:position_jump:5702`, `prediction_miss:other_trip_times:6126`, `transition:sparse_reporting:5704`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `transition:staying_bus_late_after_drop:5702`, `transition:bunching_after_add:6126`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `prediction_miss:stops_without_predictions:1078`, `prediction_miss:worse_when_behind:1078`, `transition:frozen_gps:5704`, `prediction_miss:large_early_miss:5704`, `prediction_miss:large_late_miss:5704`, `transition:extra_bus_added:1077`, `prediction_miss:worse_when_behind:1077`, `transition:extra_bus_added:5700`, `prediction_miss:first_stop_next_trip_times:5700`, `transition:service_start_missing:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `transition:off_route_drive:1076`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:worse_near_transitions:5700`, `prediction_miss:worse_when_behind:5700`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `transition:wrong_line_label:5699`, `transition:unscheduled_leave:1076` |
-| deep_safe | `prediction_miss:large_early_miss:4346`, `transition:position_jump:5702`, `transition:sparse_reporting:5704`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_early_miss:1077`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `transition:staying_bus_late_after_drop:5702`, `transition:bunching_after_add:6126`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `transition:frozen_gps:5704`, `prediction_miss:large_early_miss:5704`, `prediction_miss:large_late_miss:5704`, `prediction_miss:worse_when_behind:1077`, `transition:extra_bus_added:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `transition:off_route_drive:1076`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `transition:wrong_line_label:5699`, `transition:unscheduled_leave:1076` |
+| timetable_delay | `prediction_miss:first_stop_next_trip_times:4346`, `prediction_miss:large_early_miss:4346`, `prediction_miss:stops_without_predictions:4346`, `transition:position_jump:5702`, `prediction_miss:other_trip_times:6126`, `transition:after_hours:1078`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_early_miss:1077`, `prediction_miss:stops_without_predictions:1077`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `display:false_hide_idle_serving_bus:1076`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `display:bus_number_churn:5702`, `transition:staying_bus_late_after_drop:5702`, `transition:bunching_after_add:6126`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `prediction_miss:stops_without_predictions:1078`, `prediction_miss:worse_when_behind:1078`, `display:ghost_times_after_leave:5701`, `prediction_miss:stops_without_predictions:5701`, `transition:extra_bus_added:1077`, `prediction_miss:worse_when_behind:1077`, `transition:extra_bus_added:5700`, `prediction_miss:first_stop_next_trip_times:5700`, `transition:service_start_missing:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `display:ghost_bus_on_map:5699`, `display:ghost_times_after_leave:5699`, `transition:off_route_drive:1076`, `display:planner_recommends_leaving_bus:1076`, `display:false_hide_idle_serving_bus:1078`, `prediction_miss:large_late_miss:5701`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:worse_near_transitions:5700`, `prediction_miss:worse_when_behind:5700`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `display:false_hide_gone_serving_bus:5699`, `prediction_miss:first_stop_next_trip_times:5699`, `transition:wrong_line_label:5699`, `prediction_miss:first_stop_next_trip_times:1076`, `transition:unscheduled_leave:1076` |
+| gbm_q15 | `prediction_miss:large_early_miss:4346`, `prediction_miss:stops_without_predictions:4346`, `transition:position_jump:5702`, `prediction_miss:other_trip_times:6126`, `transition:after_hours:1078`, `transition:sparse_reporting:5704`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_early_miss:1077`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `display:false_hide_idle_serving_bus:1076`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `display:bus_number_churn:5702`, `transition:staying_bus_late_after_drop:5702`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `prediction_miss:stops_without_predictions:1078`, `prediction_miss:large_early_miss:5704`, `display:ghost_times_after_leave:5701`, `prediction_miss:stops_without_predictions:5701`, `transition:extra_bus_added:5700`, `transition:service_start_missing:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `display:ghost_bus_on_map:5699`, `display:ghost_times_after_leave:5699`, `transition:off_route_drive:1076`, `display:planner_recommends_leaving_bus:1076`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:worse_near_transitions:5700`, `prediction_miss:worse_when_behind:5700`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `display:false_hide_gone_serving_bus:5699`, `transition:wrong_line_label:5699`, `transition:unscheduled_leave:1076` |
+| deep_q15 | `prediction_miss:large_early_miss:4346`, `prediction_miss:stops_without_predictions:4346`, `transition:position_jump:5702`, `prediction_miss:other_trip_times:6126`, `display:planner_recommends_leaving_bus:5704`, `transition:sparse_reporting:5704`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `display:bus_number_churn:5702`, `transition:staying_bus_late_after_drop:5702`, `transition:bunching_after_add:6126`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `prediction_miss:stops_without_predictions:1078`, `prediction_miss:worse_when_behind:1078`, `display:bus_number_churn:5704`, `transition:frozen_gps:5704`, `display:ghost_times_after_leave:5704`, `prediction_miss:large_early_miss:5704`, `prediction_miss:large_late_miss:5704`, `display:ghost_times_after_leave:5701`, `transition:extra_bus_added:1077`, `prediction_miss:worse_when_behind:1077`, `transition:extra_bus_added:5700`, `prediction_miss:first_stop_next_trip_times:5700`, `transition:service_start_missing:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `display:ghost_bus_on_map:5699`, `display:ghost_times_after_leave:5699`, `transition:off_route_drive:1076`, `display:planner_recommends_leaving_bus:1076`, `display:false_hide_idle_serving_bus:1078`, `display:ghost_bus_on_map:5704`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:worse_near_transitions:5700`, `prediction_miss:worse_when_behind:5700`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `display:false_hide_gone_serving_bus:5699`, `transition:wrong_line_label:5699`, `transition:unscheduled_leave:1076` |
+| deep_safe | `prediction_miss:large_early_miss:4346`, `transition:position_jump:5702`, `display:planner_recommends_leaving_bus:5704`, `transition:sparse_reporting:5704`, `prediction_miss:worse_when_behind:5701`, `prediction_miss:large_early_miss:1077`, `prediction_miss:large_late_miss:5699`, `prediction_miss:large_late_miss:5715`, `prediction_miss:large_early_miss:1076`, `transition:linger_not_in_service:1076`, `prediction_miss:worse_when_behind:1076`, `transition:after_hours:5702`, `display:bus_number_churn:5702`, `transition:staying_bus_late_after_drop:5702`, `transition:bunching_after_add:6126`, `prediction_miss:large_late_miss:6126`, `transition:off_route_drive:6126`, `transition:extra_bus_added:1078`, `display:bus_number_churn:5704`, `transition:frozen_gps:5704`, `display:ghost_times_after_leave:5704`, `prediction_miss:large_early_miss:5704`, `prediction_miss:large_late_miss:5704`, `display:ghost_times_after_leave:5701`, `prediction_miss:worse_when_behind:1077`, `transition:extra_bus_added:5700`, `transition:timetable_add_missed:5703`, `prediction_miss:stops_without_predictions:1075`, `transition:timetable_add_missed:1075`, `prediction_miss:worse_when_behind:1075`, `transition:extra_bus_added:5699`, `display:ghost_bus_on_map:5699`, `display:ghost_times_after_leave:5699`, `transition:off_route_drive:1076`, `display:planner_recommends_leaving_bus:1076`, `display:false_hide_idle_serving_bus:1078`, `display:ghost_bus_on_map:5704`, `prediction_miss:other_trip_times:5701`, `transition:staying_bus_late_after_drop:5701`, `transition:unscheduled_leave:5701`, `prediction_miss:large_late_miss:5703`, `transition:service_start_late:5703`, `display:false_hide_gone_serving_bus:5699`, `transition:wrong_line_label:5699`, `transition:unscheduled_leave:1076` |
 
 ## All rows (for comparison)
 
@@ -183,6 +183,18 @@ Central; scope: stops=8634|8635|140009;lead=0-10;note=stop positions 7 8 9, 212 
 | deep_q15 | Central | 435 | 35.7% / 26.4% (435) |  |  |  |  | holds |
 | deep_safe | Central | 435 | 33.4% / 26.4% (435) |  |  |  |  | holds |
 
+### display:planner_recommends_leaving_bus:5704 (high, open)
+
+Downtown Campus Connector; scope: note=after the rules shipped (2026-11-06 to 2026-11-10): 14.7 vs all lines 5.7, 349 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 14.7 vs all lines 5.7, 349 events); 9,308 samples. Flag: percent of the planner's live bus legs (sampled stop pairs every 5 min, core/planner.js plan()) whose bus never boarded on the line or logged no arrival near the rider's stop (left the line first) 17.8 (all lines 7.1).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | reference |
+| timetable_delay | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | holds |
+| gbm_q15 | Downtown Campus Connector | 9,308 | 17.5% / 26.6% (1,661) | 16.3% / 22.9% (1,858) | 14.5% / 13.6% (1,940) | 13.7% / 4.9% (1,942) | 6.1% / 2.4% (1,907) | holds |
+| deep_q15 | Downtown Campus Connector | 9,308 | 19.8% / 19.4% (1,661) | 17.7% / 15.6% (1,858) | 14.0% / 12.7% (1,940) | 18.3% / 6.7% (1,942) | 9.1% / 1.3% (1,907) | loses: too late 6.7% vs Passio 5.6% at 20-30 min |
+| deep_safe | Downtown Campus Connector | 9,308 | 17.6% / 17.2% (1,661) | 18.3% / 15.3% (1,858) | 13.7% / 13.5% (1,940) | 17.2% / 8.3% (1,942) | 10.4% / 2.9% (1,907) | loses: too late 8.3% vs Passio 5.6% at 20-30 min |
+
 ### transition:service_end_early:5704 (high, open)
 
 Downtown Campus Connector; scope: hours=22-23;days=weekday;note=before Nov 6 100.0, from Nov 6 100.0 (3 episodes) (not applied: note=before Nov 6 100.0, from Nov 6 100.0 (3 episodes)); 3 samples. Flag: service days whose last bus left more than 15 min before the line's listed end, per 100 spans 100 (all lines 27.793).
@@ -255,6 +267,18 @@ East; scope: stops=8633|8634|8635;lead=0-10;note=a time at any lead 1 to 30 min 
 | deep_q15 | East | 43 | 7.9% / 7.0% (43) |  |  |  |  | holds |
 | deep_safe | East | 43 | 4.9% / 7.0% (43) |  |  |  |  | holds |
 
+### display:false_hide_offroute_serving_bus:5700 (high, open)
+
+Friend Center/Metra; scope: hours=18-21;vehicles=4325|4313;stops=8612;note=after the rules shipped (2026-11-06 to 2026-11-10): 68.2 vs all lines 24.4, 88 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 68.2 vs all lines 24.4, 88 events); 11 samples. Flag: percent of minutes core/offroute.js hid a bus (and its times) that then logged an arrival on the line within 15 min 53.1 (all lines 19.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Friend Center/Metra | 11 | (0.0% / 100.0% (2)) | (0.0% / 100.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | reference |
+| timetable_delay | Friend Center/Metra | 11 | (0.0% / 50.0% (2)) | (0.0% / 50.0% (2)) | (0.0% / 33.3% (3)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | too few rows |
+| gbm_q15 | Friend Center/Metra | 11 | (0.0% / 100.0% (2)) | (0.0% / 50.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | too few rows |
+| deep_q15 | Friend Center/Metra | 11 | (0.0% / 100.0% (2)) | (0.0% / 100.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | too few rows |
+| deep_safe | Friend Center/Metra | 11 | (0.0% / 100.0% (2)) | (0.0% / 50.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | too few rows |
+
 ### transition:after_hours:5703 (high, open)
 
 Midway Metra; scope: hours=19-20;days=weekday;note=before Nov 6 1.039, from Nov 6 1.058 (5 episodes), top spot Operator garage (6 of 32) (not applied: note=before Nov 6 1.039, from Nov 6 1.058 (5 episodes), top spot Operator garage (6 of 32)); 4 samples. Flag: bus reporting under the line's label more than 15 min after (30 min before) its listed hours, per 10 bus-hours inside transition windows (30 min around a bus count change, a shift change, a listed start or end, a timetable step) 1.041 (all lines 0.491).
@@ -302,6 +326,18 @@ Regents Express; scope: lead=5-30;note=last 14 days 70.5%, before them 57.7% (wo
 | gbm_q15 | Regents Express | 575 | 11.8% / 28.0% (107) | 2.0% / 0.6% (168) | 3.5% / 1.2% (167) | 7.3% / 0.8% (133) |  | loses: band B 2.0% vs Passio 14.7% at 10-15 min; band B 3.5% vs Passio 16.5% at 15-20 min; band B 7.3% vs Passio 16.4% at 20-30 min |
 | deep_q15 | Regents Express | 575 | 11.4% / 24.3% (107) | 5.6% / 1.2% (168) | 7.3% / 1.8% (167) | 8.1% / 0.8% (133) |  | loses: band B 5.6% vs Passio 14.7% at 10-15 min; band B 7.3% vs Passio 16.5% at 15-20 min; band B 8.1% vs Passio 16.4% at 20-30 min |
 | deep_safe | Regents Express | 575 | 13.3% / 21.5% (107) | 6.8% / 1.8% (168) | 6.9% / 1.8% (167) | 8.8% / 1.5% (133) |  | loses: band B 6.8% vs Passio 14.7% at 10-15 min; band B 6.9% vs Passio 16.5% at 15-20 min; band B 8.8% vs Passio 16.4% at 20-30 min |
+
+### display:false_hide_idle_serving_bus:1076 (high, open)
+
+South; scope: hours=21-22|23-24;stops=8631|8633;note=after the rules shipped (2026-11-06 to 2026-11-10): 96.4 vs all lines 37.0, 27 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 96.4 vs all lines 37.0, 27 events); 158 samples. Flag: percent of minutes core/idle.js hid a still bus that then logged an arrival on the line within 15 min 47.4 (all lines 23.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | South | 158 | 4.0% / 76.4% (55) | 11.8% / 49.0% (49) | (11.8% / 28.6% (28)) | (11.1% / 21.1% (19)) | (0.0% / 0.0% (7)) | reference |
+| timetable_delay | South | 158 | 10.0% / 76.4% (55) | 4.7% / 79.6% (49) | (20.8% / 53.6% (28)) | (43.8% / 10.5% (19)) | (0.0% / 0.0% (7)) | loses: band B 4.7% vs Passio 11.8% at 10-15 min; too late 79.6% vs Passio 49.0% at 10-15 min |
+| gbm_q15 | South | 158 | 24.1% / 21.8% (55) | 2.6% / 26.5% (49) | (11.8% / 14.3% (28)) | (0.0% / 5.3% (19)) | (0.0% / 0.0% (7)) | loses: band B 2.6% vs Passio 11.8% at 10-15 min |
+| deep_q15 | South | 158 | 41.8% / 16.4% (55) | 13.0% / 22.4% (49) | (8.7% / 14.3% (28)) | (10.0% / 5.3% (19)) | (0.0% / 0.0% (7)) | holds |
+| deep_safe | South | 158 | 16.4% / 16.4% (55) | 11.6% / 22.4% (49) | (0.0% / 17.9% (28)) | (20.0% / 5.3% (19)) | (0.0% / 0.0% (7)) | holds |
 
 ### prediction_miss:large_early_miss:1076 (high, open)
 
@@ -363,6 +399,30 @@ Apostolic; scope: hours=10-11;days=weekday;note=before Nov 6 1.827, from Nov 6 4
 | deep_q15 | Apostolic | 133 | 12.5% / 2.2% (45) | 0.0% / 0.0% (40) | 0.0% / 0.0% (37) | (0.0% / 0.0% (11)) |  | loses: too late 2.2% vs Passio 0.0% at 0-10 min |
 | deep_safe | Apostolic | 133 | 7.3% / 2.2% (45) | 0.0% / 0.0% (40) | 0.0% / 0.0% (37) | (0.0% / 0.0% (11)) |  | loses: too late 2.2% vs Passio 0.0% at 0-10 min |
 
+### display:bus_number_churn:5702 (medium, open)
+
+Apostolic; scope: hours=05-10;vehicles=4538;note=after the rules shipped (2026-11-06 to 2026-11-10): 17.1 vs all lines 14.7, 21 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 17.1 vs all lines 14.7, 21 events); 1,689 samples. Flag: Bus 1 / Bus 2 swaps per 10 service hours (a bus shown in two polls in a row whose number changed) 34.33 (all lines 16.53).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Apostolic | 1,689 | 27.3% / 10.1% (445) | 12.4% / 5.5% (384) | 12.2% / 5.8% (379) | 25.4% / 2.8% (351) | 24.7% / 0.8% (130) | reference |
+| timetable_delay | Apostolic | 1,689 | 5.1% / 70.3% (445) | 10.7% / 53.6% (384) | 11.7% / 49.1% (379) | 23.4% / 45.0% (351) | 16.8% / 42.3% (130) | loses: band B 5.1% vs Passio 27.3% at 0-10 min; too late 70.3% vs Passio 10.1% at 0-10 min; band B 10.7% vs Passio 12.4% at 10-15 min; too late 53.6% vs Passio 5.5% at 10-15 min; too late 49.1% vs Passio 5.8% at 15-20 min; too late 45.0% vs Passio 2.8% at 20-30 min; band B 16.8% vs Passio 24.7% at 30-45 min; too late 42.3% vs Passio 0.8% at 30-45 min |
+| gbm_q15 | Apostolic | 1,689 | 30.5% / 22.2% (445) | 16.7% / 16.9% (384) | 15.7% / 9.5% (379) | 28.7% / 3.7% (351) | 17.1% / 0.8% (130) | loses: too late 22.2% vs Passio 10.1% at 0-10 min; too late 16.9% vs Passio 5.5% at 10-15 min; too late 9.5% vs Passio 5.8% at 15-20 min; band B 17.1% vs Passio 24.7% at 30-45 min |
+| deep_q15 | Apostolic | 1,689 | 31.5% / 20.9% (445) | 16.1% / 18.8% (384) | 11.7% / 13.7% (379) | 27.5% / 5.7% (351) | 11.8% / 0.8% (130) | loses: too late 20.9% vs Passio 10.1% at 0-10 min; too late 18.8% vs Passio 5.5% at 10-15 min; too late 13.7% vs Passio 5.8% at 15-20 min; too late 5.7% vs Passio 2.8% at 20-30 min; band B 11.8% vs Passio 24.7% at 30-45 min |
+| deep_safe | Apostolic | 1,689 | 27.7% / 17.5% (445) | 13.8% / 16.7% (384) | 12.9% / 12.4% (379) | 32.1% / 8.0% (351) | 16.9% / 2.3% (130) | loses: too late 17.5% vs Passio 10.1% at 0-10 min; too late 16.7% vs Passio 5.5% at 10-15 min; too late 12.4% vs Passio 5.8% at 15-20 min; too late 8.0% vs Passio 2.8% at 20-30 min; band B 16.9% vs Passio 24.7% at 30-45 min; too late 2.3% vs Passio 0.8% at 30-45 min |
+
+### display:false_hide_gone_serving_bus:5702 (medium, open)
+
+Apostolic; scope: hours=05-10;vehicles=4322;stops=8612;note=after the rules shipped (2026-11-06 to 2026-11-10): 100.0 vs all lines 9.9, 9 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 100.0 vs all lines 9.9, 9 events); 68 samples. Flag: percent of minutes core/transition.js GONE dropped a bus's times (no report for 15 min) and the bus then logged an arrival on the line within 15 min 94.1 (all lines 16.3).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Apostolic | 68 | (25.0% / 11.1% (18)) | (0.0% / 12.5% (16)) | (7.7% / 12.5% (16)) | (41.7% / 13.3% (15)) | (0.0% / 0.0% (3)) | reference |
+| timetable_delay | Apostolic | 68 | (18.8% / 61.1% (18)) | (21.4% / 56.2% (16)) | (21.4% / 56.2% (16)) | (26.7% / 53.3% (15)) | (0.0% / 0.0% (3)) | too few rows |
+| gbm_q15 | Apostolic | 68 | (0.0% / 11.1% (18)) | (12.5% / 12.5% (16)) | (6.7% / 12.5% (16)) | (50.0% / 13.3% (15)) | (0.0% / 0.0% (3)) | too few rows |
+| deep_q15 | Apostolic | 68 | (10.0% / 5.6% (18)) | (0.0% / 12.5% (16)) | (0.0% / 12.5% (16)) | (46.2% / 6.7% (15)) | (0.0% / 0.0% (3)) | too few rows |
+| deep_safe | Apostolic | 68 | (14.3% / 5.6% (18)) | (0.0% / 12.5% (16)) | (0.0% / 12.5% (16)) | (38.5% / 13.3% (15)) | (0.0% / 0.0% (3)) | too few rows |
+
 ### transition:staying_bus_late_after_drop:5702 (medium, open)
 
 Apostolic; scope: hours=10-11;days=weekday;note=staying bus 14.7 min vs 6.2 min at other times, 42 times from 21 drops, late by 3 min or more 92.9 vs 60.6 percent, top spot Wyler Pavilion (1 of 3) (not applied: note=staying bus 14.7 min vs 6.2 min at other times, 42 times from 21 drops, late by 3 min or more 92.9 vs 60.6 percent, top spot Wyler Pavilion (1 of 3)); 133 samples. Flag: mean absolute error of the staying bus's Passio times 10 to 20 min ahead in the 45 min after a 2-to-1 drop, divided by the line's at other times 2.37 (all lines 0.956).
@@ -386,6 +446,18 @@ Apostolic/Drexel; scope: hours=17-19;days=weekday;stops=8612;note=before Nov 6 8
 | gbm_q15 | Apostolic/Drexel | 221 | 5.6% / 5.6% (71) | 1.7% / 0.0% (60) | 0.0% / 0.0% (58) | (0.0% / 0.0% (28)) | (0.0% / 0.0% (4)) | holds |
 | deep_q15 | Apostolic/Drexel | 221 | 12.7% / 11.3% (71) | 1.7% / 1.7% (60) | 5.7% / 0.0% (58) | (0.0% / 0.0% (28)) | (0.0% / 0.0% (4)) | loses: too late 11.3% vs Passio 5.6% at 0-10 min; too late 1.7% vs Passio 0.0% at 10-15 min |
 | deep_safe | Apostolic/Drexel | 221 | 5.6% / 8.5% (71) | 0.0% / 1.7% (60) | 3.8% / 0.0% (58) | (0.0% / 0.0% (28)) | (0.0% / 0.0% (4)) | loses: too late 8.5% vs Passio 5.6% at 0-10 min; too late 1.7% vs Passio 0.0% at 10-15 min |
+
+### display:false_hide_offroute_serving_bus:6126 (medium, open)
+
+Apostolic/Drexel; scope: hours=18-21;vehicles=4331;stops=8609;note=after the rules shipped (2026-11-06 to 2026-11-10): 56.6 vs all lines 24.4, 141 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 56.6 vs all lines 24.4, 141 events); 20 samples. Flag: percent of minutes core/offroute.js hid a bus (and its times) that then logged an arrival on the line within 15 min 37.0 (all lines 19.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Apostolic/Drexel | 20 | (0.0% / 18.2% (11)) | (0.0% / 0.0% (7)) | (0.0% / 0.0% (2)) |  |  | reference |
+| timetable_delay | Apostolic/Drexel | 20 | (0.0% / 18.2% (11)) | (0.0% / 14.3% (7)) | (0.0% / 0.0% (2)) |  |  | too few rows |
+| gbm_q15 | Apostolic/Drexel | 20 | (0.0% / 9.1% (11)) | (0.0% / 0.0% (7)) | (0.0% / 0.0% (2)) |  |  | too few rows |
+| deep_q15 | Apostolic/Drexel | 20 | (27.3% / 0.0% (11)) | (0.0% / 0.0% (7)) | (0.0% / 0.0% (2)) |  |  | too few rows |
+| deep_safe | Apostolic/Drexel | 20 | (9.1% / 0.0% (11)) | (0.0% / 0.0% (7)) | (0.0% / 0.0% (2)) |  |  | too few rows |
 
 ### transition:feed_drop_mid_route:6126 (medium, open)
 
@@ -471,9 +543,33 @@ Central; scope: lead=5-30;note=delay_s > 600 in the forecast table (not applied:
 | deep_q15 | Central | 4,850 | 23.5% / 26.7% (786) | 21.5% / 20.3% (1,265) | 20.8% / 13.4% (1,337) | 38.8% / 6.5% (1,462) |  | loses: too late 13.4% vs Passio 12.1% at 15-20 min |
 | deep_safe | Central | 4,850 | 24.7% / 22.9% (786) | 19.8% / 20.2% (1,265) | 19.1% / 12.7% (1,337) | 39.4% / 9.0% (1,462) |  | holds |
 
+### display:bus_number_churn:5704 (medium, open)
+
+Downtown Campus Connector; scope: note=after the rules shipped (2026-11-06 to 2026-11-10): 120.42 vs all lines 14.7, 569 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 120.42 vs all lines 14.7, 569 events); 9,308 samples. Flag: Bus 1 / Bus 2 swaps per 10 service hours (a bus shown in two polls in a row whose number changed) 119.35 (all lines 16.53).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | reference |
+| timetable_delay | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | holds |
+| gbm_q15 | Downtown Campus Connector | 9,308 | 17.5% / 26.6% (1,661) | 16.3% / 22.9% (1,858) | 14.5% / 13.6% (1,940) | 13.7% / 4.9% (1,942) | 6.1% / 2.4% (1,907) | holds |
+| deep_q15 | Downtown Campus Connector | 9,308 | 19.8% / 19.4% (1,661) | 17.7% / 15.6% (1,858) | 14.0% / 12.7% (1,940) | 18.3% / 6.7% (1,942) | 9.1% / 1.3% (1,907) | loses: too late 6.7% vs Passio 5.6% at 20-30 min |
+| deep_safe | Downtown Campus Connector | 9,308 | 17.6% / 17.2% (1,661) | 18.3% / 15.3% (1,858) | 13.7% / 13.5% (1,940) | 17.2% / 8.3% (1,942) | 10.4% / 2.9% (1,907) | loses: too late 8.3% vs Passio 5.6% at 20-30 min |
+
 ### transition:frozen_gps:5704 (medium, open)
 
 Downtown Campus Connector; scope: days=weekday;note=before Nov 6 0.142, from Nov 6 0 (0 episodes), top spot Unnamed (41.8102, -87.5905) (5 of 16) (not applied: note=before Nov 6 0.142, from Nov 6 0 (0 episodes), top spot Unnamed (41.8102, -87.5905) (5 of 16)); 9,308 samples. Flag: GPS frozen at one point for 5 min while the bus moved, per 10 bus-hours inside transition windows (30 min around a bus count change, a shift change, a listed start or end, a timetable step) 0.122 (all lines 0.055).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | reference |
+| timetable_delay | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | holds |
+| gbm_q15 | Downtown Campus Connector | 9,308 | 17.5% / 26.6% (1,661) | 16.3% / 22.9% (1,858) | 14.5% / 13.6% (1,940) | 13.7% / 4.9% (1,942) | 6.1% / 2.4% (1,907) | holds |
+| deep_q15 | Downtown Campus Connector | 9,308 | 19.8% / 19.4% (1,661) | 17.7% / 15.6% (1,858) | 14.0% / 12.7% (1,940) | 18.3% / 6.7% (1,942) | 9.1% / 1.3% (1,907) | loses: too late 6.7% vs Passio 5.6% at 20-30 min |
+| deep_safe | Downtown Campus Connector | 9,308 | 17.6% / 17.2% (1,661) | 18.3% / 15.3% (1,858) | 13.7% / 13.5% (1,940) | 17.2% / 8.3% (1,942) | 10.4% / 2.9% (1,907) | loses: too late 8.3% vs Passio 5.6% at 20-30 min |
+
+### display:ghost_times_after_leave:5704 (medium, open)
+
+Downtown Campus Connector; scope: note=2026-10-10 to 2026-11-10: 6.5 vs all lines 4.6 (not applied: note=2026-10-10 to 2026-11-10: 6.5 vs all lines 4.6); 9,308 samples. Flag: percent of bus-minutes with times on display (1 to 30 min ahead) from a bus that then logged no arrival on the line until 15 min after its last displayed time (shipped rules) 6.0 (all lines 3.9).
 
 | model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
 |---|---|---:|---|---|---|---|---|---|
@@ -518,6 +614,18 @@ Drexel; scope: hours=10-11;days=weekday;note=before Nov 6 1.322, from Nov 6 3.26
 | gbm_q15 | Drexel | 16 | (0.0% / 16.7% (6)) | (0.0% / 0.0% (4)) | (0.0% / 0.0% (4)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | too few rows |
 | deep_q15 | Drexel | 16 | (0.0% / 33.3% (6)) | (0.0% / 0.0% (4)) | (0.0% / 0.0% (4)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | too few rows |
 | deep_safe | Drexel | 16 | (0.0% / 16.7% (6)) | (0.0% / 0.0% (4)) | (0.0% / 0.0% (4)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | too few rows |
+
+### display:ghost_times_after_leave:5701 (medium, open)
+
+Drexel; scope: hours=09-11;note=2026-10-10 to 2026-11-10: 2.4 vs all lines 4.6 (not applied: note=2026-10-10 to 2026-11-10: 2.4 vs all lines 4.6); 418 samples. Flag: percent of bus-minutes with times on display (1 to 30 min ahead) from a bus that then logged no arrival on the line until 15 min after its last displayed time (shipped rules) 5.9 (all lines 3.9).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Drexel | 418 | 19.2% / 6.8% (207) | 12.9% / 3.0% (100) | 10.2% / 4.9% (82) | (8.3% / 0.0% (25)) | (0.0% / 0.0% (4)) | reference |
+| timetable_delay | Drexel | 418 | 10.6% / 64.7% (207) | 20.5% / 31.0% (100) | 32.9% / 35.4% (82) | (29.4% / 8.0% (25)) | (0.0% / 0.0% (4)) | loses: band B 10.6% vs Passio 19.2% at 0-10 min; too late 64.7% vs Passio 6.8% at 0-10 min; too late 31.0% vs Passio 3.0% at 10-15 min; too late 35.4% vs Passio 4.9% at 15-20 min |
+| gbm_q15 | Drexel | 418 | 30.1% / 12.1% (207) | 15.4% / 3.0% (100) | 9.8% / 2.4% (82) | (0.0% / 0.0% (25)) | (0.0% / 0.0% (4)) | loses: too late 12.1% vs Passio 6.8% at 0-10 min |
+| deep_q15 | Drexel | 418 | 26.8% / 14.0% (207) | 12.7% / 5.0% (100) | 12.9% / 4.9% (82) | (7.1% / 0.0% (25)) | (0.0% / 0.0% (4)) | loses: too late 14.0% vs Passio 6.8% at 0-10 min; too late 5.0% vs Passio 3.0% at 10-15 min |
+| deep_safe | Drexel | 418 | 25.6% / 11.6% (207) | 14.9% / 6.0% (100) | 10.2% / 4.9% (82) | (7.1% / 0.0% (25)) | (0.0% / 0.0% (4)) | loses: too late 11.6% vs Passio 6.8% at 0-10 min; too late 6.0% vs Passio 3.0% at 10-15 min |
 
 ### transition:off_route_drive:5701 (medium, open)
 
@@ -735,6 +843,30 @@ Red Line/Arts Block; scope: hours=10-14;days=weekday;note=before Nov 6 50.0, fro
 | deep_q15 | Red Line/Arts Block | 1,445 | 29.2% / 20.2% (570) | 9.7% / 3.5% (371) | 3.3% / 0.7% (284) | 5.9% / 0.0% (204) | (0.0% / 0.0% (16)) | loses: too late 20.2% vs Passio 18.2% at 0-10 min; too late 3.5% vs Passio 0.0% at 10-15 min |
 | deep_safe | Red Line/Arts Block | 1,445 | 26.9% / 16.7% (570) | 8.0% / 2.2% (371) | 3.5% / 0.0% (284) | 4.4% / 0.0% (204) | (0.0% / 0.0% (16)) | loses: too late 2.2% vs Passio 0.0% at 10-15 min |
 
+### display:ghost_bus_on_map:5699 (medium, open)
+
+Red Line/Arts Block; scope: hours=10-11|19-21;vehicles=4331|4315;note=2026-10-10 to 2026-11-10: 4.1 vs all lines 2.3 (not applied: note=2026-10-10 to 2026-11-10: 4.1 vs all lines 2.3); 206 samples. Flag: percent of map-badge minutes from a bus that logged no arrival on its line within 20 min before or after 4.2 (all lines 1.9).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Red Line/Arts Block | 206 | 8.1% / 20.2% (99) | 0.0% / 0.0% (47) | (0.0% / 0.0% (28)) | (0.0% / 0.0% (21)) | (0.0% / 0.0% (11)) | reference |
+| timetable_delay | Red Line/Arts Block | 206 | 21.3% / 8.1% (99) | 0.0% / 6.4% (47) | (0.0% / 3.6% (28)) | (0.0% / 0.0% (21)) | (0.0% / 0.0% (11)) | loses: too late 6.4% vs Passio 0.0% at 10-15 min |
+| gbm_q15 | Red Line/Arts Block | 206 | 27.3% / 24.2% (99) | 0.0% / 2.1% (47) | (0.0% / 0.0% (28)) | (0.0% / 0.0% (21)) | (0.0% / 0.0% (11)) | loses: too late 24.2% vs Passio 20.2% at 0-10 min; too late 2.1% vs Passio 0.0% at 10-15 min |
+| deep_q15 | Red Line/Arts Block | 206 | 25.3% / 27.3% (99) | 17.8% / 8.5% (47) | (17.6% / 7.1% (28)) | (0.0% / 0.0% (21)) | (0.0% / 0.0% (11)) | loses: too late 27.3% vs Passio 20.2% at 0-10 min; too late 8.5% vs Passio 0.0% at 10-15 min |
+| deep_safe | Red Line/Arts Block | 206 | 25.3% / 20.2% (99) | 14.0% / 2.1% (47) | (21.4% / 0.0% (28)) | (0.0% / 0.0% (21)) | (0.0% / 0.0% (11)) | loses: too late 2.1% vs Passio 0.0% at 10-15 min |
+
+### display:ghost_times_after_leave:5699 (medium, open)
+
+Red Line/Arts Block; scope: hours=10-12|19-22;vehicles=4331|4315;note=2026-10-10 to 2026-11-10: 6.6 vs all lines 4.6 (not applied: note=2026-10-10 to 2026-11-10: 6.6 vs all lines 4.6); 348 samples. Flag: percent of bus-minutes with times on display (1 to 30 min ahead) from a bus that then logged no arrival on the line until 15 min after its last displayed time (shipped rules) 6.5 (all lines 3.9).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Red Line/Arts Block | 348 | 8.8% / 24.6% (171) | 0.0% / 0.0% (79) | 0.0% / 0.0% (49) | 0.0% / 0.0% (35) | (0.0% / 0.0% (14)) | reference |
+| timetable_delay | Red Line/Arts Block | 348 | 24.0% / 6.4% (171) | 1.9% / 6.3% (79) | 15.8% / 2.0% (49) | 33.3% / 0.0% (35) | (0.0% / 0.0% (14)) | loses: too late 6.3% vs Passio 0.0% at 10-15 min; too late 2.0% vs Passio 0.0% at 15-20 min |
+| gbm_q15 | Red Line/Arts Block | 348 | 31.8% / 25.7% (171) | 0.0% / 1.3% (79) | 0.0% / 0.0% (49) | 0.0% / 0.0% (35) | (0.0% / 0.0% (14)) | loses: too late 25.7% vs Passio 24.6% at 0-10 min; too late 1.3% vs Passio 0.0% at 10-15 min |
+| deep_q15 | Red Line/Arts Block | 348 | 25.3% / 25.7% (171) | 10.8% / 5.1% (79) | 9.1% / 4.1% (49) | 0.0% / 0.0% (35) | (0.0% / 0.0% (14)) | loses: too late 25.7% vs Passio 24.6% at 0-10 min; too late 5.1% vs Passio 0.0% at 10-15 min; too late 4.1% vs Passio 0.0% at 15-20 min |
+| deep_safe | Red Line/Arts Block | 348 | 24.7% / 19.3% (171) | 8.3% / 1.3% (79) | 10.0% / 0.0% (49) | 0.0% / 0.0% (35) | (0.0% / 0.0% (14)) | loses: too late 1.3% vs Passio 0.0% at 10-15 min |
+
 ### transition:after_hours:5715 (medium, open)
 
 Regents Express; scope: vehicles=12648;hours=21-22;days=weekday;note=before Nov 6 6.313, from Nov 6 4.243 (5 episodes), top spot Operator garage (5 of 25) (not applied: note=before Nov 6 6.313, from Nov 6 4.243 (5 episodes), top spot Operator garage (5 of 25)); 6 samples. Flag: bus reporting under the line's label more than 15 min after (30 min before) its listed hours, per 10 bus-hours inside transition windows (30 min around a bus count change, a shift change, a listed start or end, a timetable step) 5.97 (all lines 0.491).
@@ -771,6 +903,18 @@ South; scope: hours=22-1;note=before Nov 6 6.566, from Nov 6 2.826 (4 episodes),
 | deep_q15 | South | 1,185 | 23.7% / 23.6% (444) | 11.0% / 16.9% (290) | 11.8% / 11.9% (227) | 21.6% / 14.1% (191) | 0.0% / 0.0% (33) | loses: band B 11.0% vs Passio 18.5% at 10-15 min; band B 11.8% vs Passio 17.1% at 15-20 min; band B 21.6% vs Passio 28.1% at 20-30 min; too late 14.1% vs Passio 13.1% at 20-30 min; band B 0.0% vs Passio 46.7% at 30-45 min |
 | deep_safe | South | 1,185 | 17.9% / 19.4% (444) | 9.2% / 16.6% (290) | 10.4% / 11.0% (227) | 18.2% / 15.2% (191) | 0.0% / 0.0% (33) | loses: band B 9.2% vs Passio 18.5% at 10-15 min; band B 10.4% vs Passio 17.1% at 15-20 min; band B 18.2% vs Passio 28.1% at 20-30 min; too late 15.2% vs Passio 13.1% at 20-30 min; band B 0.0% vs Passio 46.7% at 30-45 min |
 
+### display:planner_recommends_leaving_bus:1076 (medium, open)
+
+South; scope: hours=17-24;note=after the rules shipped (2026-11-06 to 2026-11-10): 9.2 vs all lines 5.7, 195 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 9.2 vs all lines 5.7, 195 events); 4,758 samples. Flag: percent of the planner's live bus legs (sampled stop pairs every 5 min, core/planner.js plan()) whose bus never boarded on the line or logged no arrival near the rider's stop (left the line first) 10.8 (all lines 7.1).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | South | 4,758 | 20.1% / 41.5% (1,565) | 19.3% / 21.8% (1,137) | 21.1% / 8.4% (964) | 38.7% / 6.8% (842) | 28.0% / 0.0% (250) | reference |
+| timetable_delay | South | 4,758 | 6.2% / 63.8% (1,565) | 6.1% / 37.6% (1,137) | 8.8% / 21.0% (964) | 29.2% / 15.7% (842) | 23.8% / 11.6% (250) | loses: band B 6.2% vs Passio 20.1% at 0-10 min; too late 63.8% vs Passio 41.5% at 0-10 min; band B 6.1% vs Passio 19.3% at 10-15 min; too late 37.6% vs Passio 21.8% at 10-15 min; band B 8.8% vs Passio 21.1% at 15-20 min; too late 21.0% vs Passio 8.4% at 15-20 min; band B 29.2% vs Passio 38.7% at 20-30 min; too late 15.7% vs Passio 6.8% at 20-30 min; band B 23.8% vs Passio 28.0% at 30-45 min; too late 11.6% vs Passio 0.0% at 30-45 min |
+| gbm_q15 | South | 4,758 | 31.5% / 22.7% (1,565) | 12.1% / 9.1% (1,137) | 12.0% / 2.1% (964) | 31.6% / 2.3% (842) | 9.6% / 0.0% (250) | loses: band B 12.1% vs Passio 19.3% at 10-15 min; band B 12.0% vs Passio 21.1% at 15-20 min; band B 31.6% vs Passio 38.7% at 20-30 min; band B 9.6% vs Passio 28.0% at 30-45 min |
+| deep_q15 | South | 4,758 | 32.7% / 23.0% (1,565) | 17.4% / 10.1% (1,137) | 15.4% / 6.0% (964) | 39.0% / 5.1% (842) | 8.3% / 0.0% (250) | loses: band B 15.4% vs Passio 21.1% at 15-20 min; band B 8.3% vs Passio 28.0% at 30-45 min |
+| deep_safe | South | 4,758 | 26.7% / 17.6% (1,565) | 16.5% / 9.4% (1,137) | 16.2% / 5.3% (964) | 39.1% / 6.5% (842) | 9.4% / 0.0% (250) | loses: band B 16.5% vs Passio 19.3% at 10-15 min; band B 16.2% vs Passio 21.1% at 15-20 min; band B 9.4% vs Passio 28.0% at 30-45 min |
+
 ### transition:linger_not_in_service:5716 (medium, open)
 
 South Loop Shuttle; scope: stops=8579;note=before Nov 6 8.335, from Nov 6 5.195 (1 episodes), top spot Reynolds Club (6 of 13) (not applied: note=before Nov 6 8.335, from Nov 6 5.195 (1 episodes), top spot Reynolds Club (6 of 13)); 47 samples. Flag: bus still for 5 min or more on the map but not in service (E28 break, end of shift, garage return, never served), per 10 bus-hours inside transition windows (30 min around a bus count change, a shift change, a listed start or end, a timetable step) 7.672 (all lines 2.528).
@@ -794,6 +938,54 @@ South Loop Shuttle; scope: vehicles=4538;hours=22-2;note=before Nov 6 9.724, fro
 | gbm_q15 | South Loop Shuttle | 17 | (0.0% / 100.0% (2)) | (0.0% / 66.7% (3)) | (0.0% / 33.3% (3)) | (0.0% / 50.0% (4)) | (20.0% / 20.0% (5)) | too few rows |
 | deep_q15 | South Loop Shuttle | 17 | (0.0% / 100.0% (2)) | (0.0% / 66.7% (3)) | (0.0% / 33.3% (3)) | (25.0% / 0.0% (4)) | (0.0% / 0.0% (5)) | too few rows |
 | deep_safe | South Loop Shuttle | 17 | (0.0% / 100.0% (2)) | (0.0% / 66.7% (3)) | (0.0% / 33.3% (3)) | (0.0% / 25.0% (4)) | (50.0% / 0.0% (5)) | too few rows |
+
+### display:planner_recommends_leaving_bus:5716 (medium, open)
+
+South Loop Shuttle; scope: hours=00-01|18-24;vehicles=4324|4327;note=after the rules shipped (2026-11-06 to 2026-11-10): 1.6 vs all lines 5.7, 3 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 1.6 vs all lines 5.7, 3 events); 61 samples. Flag: percent of the planner's live bus legs (sampled stop pairs every 5 min, core/planner.js plan()) whose bus never boarded on the line or logged no arrival near the rider's stop (left the line first) 14.5 (all lines 7.1).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | South Loop Shuttle | 61 | (0.0% / 84.6% (13)) | (0.0% / 60.0% (10)) | (0.0% / 58.3% (12)) | (33.3% / 61.5% (13)) | (40.0% / 38.5% (13)) | reference |
+| timetable_delay | South Loop Shuttle | 61 | (0.0% / 53.8% (13)) | (0.0% / 60.0% (10)) | (0.0% / 50.0% (12)) | (0.0% / 30.8% (13)) | (12.5% / 30.8% (13)) | too few rows |
+| gbm_q15 | South Loop Shuttle | 61 | (0.0% / 84.6% (13)) | (0.0% / 60.0% (10)) | (0.0% / 58.3% (12)) | (0.0% / 53.8% (13)) | (0.0% / 38.5% (13)) | too few rows |
+| deep_q15 | South Loop Shuttle | 61 | (20.0% / 76.9% (13)) | (0.0% / 60.0% (10)) | (0.0% / 58.3% (12)) | (9.1% / 38.5% (13)) | (7.7% / 7.7% (13)) | too few rows |
+| deep_safe | South Loop Shuttle | 61 | (0.0% / 76.9% (13)) | (0.0% / 60.0% (10)) | (0.0% / 58.3% (12)) | (20.0% / 46.2% (13)) | (0.0% / 15.4% (13)) | too few rows |
+
+### display:false_hide_idle_serving_bus:1078 (low, watch)
+
+Central; scope: hours=20-22;stops=8579;note=after the rules shipped (2026-11-06 to 2026-11-10): None vs all lines 37.0, 0 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): None vs all lines 37.0, 0 events); 116 samples. Flag: percent of minutes core/idle.js hid a still bus that then logged an arrival on the line within 15 min 36.3 (all lines 23.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Central | 116 | 5.0% / 7.3% (41) | 2.7% / 2.6% (38) | (0.0% / 3.8% (26)) | (10.0% / 0.0% (10)) | (0.0% / 0.0% (1)) | reference |
+| timetable_delay | Central | 116 | 0.0% / 2.4% (41) | 0.0% / 0.0% (38) | (0.0% / 3.8% (26)) | (33.3% / 40.0% (10)) | (0.0% / 0.0% (1)) | loses: band B 0.0% vs Passio 5.0% at 0-10 min; band B 0.0% vs Passio 2.7% at 10-15 min |
+| gbm_q15 | Central | 116 | 12.2% / 4.9% (41) | 2.6% / 0.0% (38) | (0.0% / 0.0% (26)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (1)) | holds |
+| deep_q15 | Central | 116 | 12.2% / 4.9% (41) | 23.7% / 10.5% (38) | (19.2% / 3.8% (26)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (1)) | loses: too late 10.5% vs Passio 2.6% at 10-15 min |
+| deep_safe | Central | 116 | 12.2% / 4.9% (41) | 18.4% / 15.8% (38) | (15.4% / 7.7% (26)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (1)) | loses: too late 15.8% vs Passio 2.6% at 10-15 min |
+
+### display:ghost_bus_on_map:5704 (low, watch)
+
+Downtown Campus Connector; scope: note=after the rules shipped (2026-11-06 to 2026-11-10): 3.0 vs all lines 1.9, 387 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 3.0 vs all lines 1.9, 387 events); 9,308 samples. Flag: percent of map-badge minutes from a bus that logged no arrival on its line within 20 min before or after 3.9 (all lines 2.3).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | reference |
+| timetable_delay | Downtown Campus Connector | 9,308 | 4.8% / 37.5% (1,661) | 9.8% / 27.2% (1,858) | 11.9% / 20.4% (1,940) | 14.5% / 5.6% (1,942) | 5.7% / 2.0% (1,907) | holds |
+| gbm_q15 | Downtown Campus Connector | 9,308 | 17.5% / 26.6% (1,661) | 16.3% / 22.9% (1,858) | 14.5% / 13.6% (1,940) | 13.7% / 4.9% (1,942) | 6.1% / 2.4% (1,907) | holds |
+| deep_q15 | Downtown Campus Connector | 9,308 | 19.8% / 19.4% (1,661) | 17.7% / 15.6% (1,858) | 14.0% / 12.7% (1,940) | 18.3% / 6.7% (1,942) | 9.1% / 1.3% (1,907) | loses: too late 6.7% vs Passio 5.6% at 20-30 min |
+| deep_safe | Downtown Campus Connector | 9,308 | 17.6% / 17.2% (1,661) | 18.3% / 15.3% (1,858) | 13.7% / 13.5% (1,940) | 17.2% / 8.3% (1,942) | 10.4% / 2.9% (1,907) | loses: too late 8.3% vs Passio 5.6% at 20-30 min |
+
+### display:ghost_bus_on_map:5701 (low, watch)
+
+Drexel; scope: hours=09-11;vehicles=4324;note=2026-10-10 to 2026-11-10: 0.5 vs all lines 2.3 (not applied: note=2026-10-10 to 2026-11-10: 0.5 vs all lines 2.3); 38 samples. Flag: percent of map-badge minutes from a bus that logged no arrival on its line within 20 min before or after 3.0 (all lines 1.9).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Drexel | 38 | (0.0% / 0.0% (14)) | (0.0% / 0.0% (8)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (5)) | (0.0% / 0.0% (1)) | reference |
+| timetable_delay | Drexel | 38 | (50.0% / 35.7% (14)) | (0.0% / 25.0% (8)) | (0.0% / 30.0% (10)) | (0.0% / 40.0% (5)) | (0.0% / 0.0% (1)) | too few rows |
+| gbm_q15 | Drexel | 38 | (9.1% / 0.0% (14)) | (0.0% / 0.0% (8)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (5)) | (0.0% / 0.0% (1)) | too few rows |
+| deep_q15 | Drexel | 38 | (0.0% / 0.0% (14)) | (0.0% / 0.0% (8)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (5)) | (0.0% / 0.0% (1)) | too few rows |
+| deep_safe | Drexel | 38 | (9.1% / 0.0% (14)) | (0.0% / 0.0% (8)) | (0.0% / 0.0% (10)) | (0.0% / 0.0% (5)) | (0.0% / 0.0% (1)) | too few rows |
 
 ### prediction_miss:large_late_miss:5701 (low, watch)
 
@@ -867,6 +1059,18 @@ Friend Center/Metra; scope: lead=5-30;note=delay_s > 600 in the forecast table (
 | deep_q15 | Friend Center/Metra | 6,764 | 30.0% / 28.7% (1,056) | 20.5% / 22.6% (1,949) | 20.7% / 19.5% (1,905) | 38.6% / 14.8% (1,854) |  | loses: too late 28.7% vs Passio 25.7% at 0-10 min |
 | deep_safe | Friend Center/Metra | 6,764 | 28.1% / 23.4% (1,056) | 19.1% / 22.0% (1,949) | 19.5% / 19.7% (1,905) | 38.2% / 18.7% (1,854) |  | holds |
 
+### display:false_hide_gone_serving_bus:5703 (low, watch)
+
+Midway Metra; scope: hours=10-11|18-20;vehicles=12646|12648;stops=8655;note=after the rules shipped (2026-11-06 to 2026-11-10): 65.4 vs all lines 9.9, 17 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 65.4 vs all lines 9.9, 17 events); 18 samples. Flag: percent of minutes core/transition.js GONE dropped a bus's times (no report for 15 min) and the bus then logged an arrival on the line within 15 min 48.0 (all lines 16.3).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Midway Metra | 18 | (16.7% / 0.0% (6)) | (16.7% / 0.0% (6)) | (16.7% / 0.0% (6)) |  |  | reference |
+| timetable_delay | Midway Metra | 18 | (0.0% / 100.0% (6)) | (0.0% / 33.3% (6)) | (83.3% / 16.7% (6)) |  |  | too few rows |
+| gbm_q15 | Midway Metra | 18 | (66.7% / 16.7% (6)) | (33.3% / 0.0% (6)) | (50.0% / 0.0% (6)) |  |  | too few rows |
+| deep_q15 | Midway Metra | 18 | (50.0% / 16.7% (6)) | (33.3% / 0.0% (6)) | (33.3% / 0.0% (6)) |  |  | too few rows |
+| deep_safe | Midway Metra | 18 | (50.0% / 16.7% (6)) | (33.3% / 0.0% (6)) | (16.7% / 16.7% (6)) |  |  | too few rows |
+
 ### prediction_miss:large_late_miss:5703 (low, watch)
 
 Midway Metra; scope: lead=10-45;note=last 14 days 63.4%, before them 69.9% (same) (not applied: note=last 14 days 63.4%, before them 69.9% (same)); 4,985 samples. Flag: share of Passio's times 5 to 30 min ahead that the bus came later than by more than the large-miss threshold (2 min at 5 to 15 min ahead, 4 at 20, 5 at 30), last 14 service days 0.6341 (all lines 0.5529).
@@ -891,6 +1095,30 @@ Midway Metra; scope: hours=15-16;days=weekday;note=before Nov 6 26.316, from Nov
 | deep_q15 | Midway Metra | 299 | 17.0% / 67.3% (101) | 11.2% / 40.2% (92) | 12.1% / 16.9% (71) | (34.8% / 0.0% (27)) | (0.0% / 0.0% (8)) | loses: band B 11.2% vs Passio 13.8% at 10-15 min; too late 40.2% vs Passio 20.7% at 10-15 min; band B 12.1% vs Passio 13.6% at 15-20 min |
 | deep_safe | Midway Metra | 299 | 22.0% / 57.4% (101) | 13.8% / 28.3% (92) | 10.8% / 16.9% (71) | (30.4% / 0.0% (27)) | (0.0% / 0.0% (8)) | loses: too late 28.3% vs Passio 20.7% at 10-15 min; band B 10.8% vs Passio 13.6% at 15-20 min |
 
+### display:false_hide_idle_serving_bus:1075 (low, watch)
+
+North; scope: hours=18-19|23-24;vehicles=4313|4317;stops=8579;note=after the rules shipped (2026-11-06 to 2026-11-10): 69.4 vs all lines 37.0, 43 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 69.4 vs all lines 37.0, 43 events); 64 samples. Flag: percent of minutes core/idle.js hid a still bus that then logged an arrival on the line within 15 min 61.6 (all lines 23.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | North | 64 | (15.8% / 21.1% (19)) | (0.0% / 50.0% (18)) | (0.0% / 33.3% (15)) | (0.0% / 18.2% (11)) | (0.0% / 0.0% (1)) | reference |
+| timetable_delay | North | 64 | (0.0% / 42.1% (19)) | (7.1% / 44.4% (18)) | (0.0% / 40.0% (15)) | (0.0% / 18.2% (11)) | (0.0% / 0.0% (1)) | too few rows |
+| gbm_q15 | North | 64 | (5.3% / 10.5% (19)) | (13.3% / 22.2% (18)) | (15.4% / 6.7% (15)) | (11.1% / 9.1% (11)) | (0.0% / 0.0% (1)) | too few rows |
+| deep_q15 | North | 64 | (5.3% / 26.3% (19)) | (5.6% / 33.3% (18)) | (0.0% / 13.3% (15)) | (9.1% / 9.1% (11)) | (0.0% / 0.0% (1)) | too few rows |
+| deep_safe | North | 64 | (5.3% / 26.3% (19)) | (11.1% / 33.3% (18)) | (7.1% / 20.0% (15)) | (9.1% / 18.2% (11)) | (0.0% / 0.0% (1)) | too few rows |
+
+### display:false_hide_gone_serving_bus:5699 (low, watch)
+
+Red Line/Arts Block; scope: hours=15-18|21-22;vehicles=12648|4319;note=2026-10-10 to 2026-11-10: 8.9 vs all lines 16.3 (not applied: note=2026-10-10 to 2026-11-10: 8.9 vs all lines 16.3); 152 samples. Flag: percent of minutes core/transition.js GONE dropped a bus's times (no report for 15 min) and the bus then logged an arrival on the line within 15 min 23.6 (all lines 9.9).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Red Line/Arts Block | 152 | 7.8% / 21.2% (52) | 0.0% / 2.8% (36) | 0.0% / 0.0% (33) | (0.0% / 0.0% (27)) | (0.0% / 0.0% (4)) | reference |
+| timetable_delay | Red Line/Arts Block | 152 | 12.2% / 13.5% (52) | 18.8% / 16.7% (36) | 3.2% / 3.0% (33) | (0.0% / 0.0% (27)) | (0.0% / 0.0% (4)) | loses: too late 16.7% vs Passio 2.8% at 10-15 min; too late 3.0% vs Passio 0.0% at 15-20 min |
+| gbm_q15 | Red Line/Arts Block | 152 | 26.9% / 19.2% (52) | 2.9% / 5.6% (36) | 9.7% / 0.0% (33) | (0.0% / 0.0% (27)) | (0.0% / 0.0% (4)) | loses: too late 5.6% vs Passio 2.8% at 10-15 min |
+| deep_q15 | Red Line/Arts Block | 152 | 25.0% / 25.0% (52) | 8.6% / 8.3% (36) | 6.5% / 0.0% (33) | (4.0% / 0.0% (27)) | (0.0% / 0.0% (4)) | loses: too late 25.0% vs Passio 21.2% at 0-10 min; too late 8.3% vs Passio 2.8% at 10-15 min |
+| deep_safe | Red Line/Arts Block | 152 | 34.6% / 9.6% (52) | 8.6% / 5.6% (36) | 3.2% / 0.0% (33) | (4.0% / 0.0% (27)) | (0.0% / 0.0% (4)) | loses: too late 5.6% vs Passio 2.8% at 10-15 min |
+
 ### prediction_miss:first_stop_next_trip_times:5699 (low, watch)
 
 Red Line/Arts Block; scope: stops=67599|8650|67600;lead=0-10;note=stop positions 1 2 3, 112 of 246 times the bus came later than shown (not applied: note=stop positions 1 2 3, 112 of 246 times the bus came later than shown); 796 samples. Flag: share of the times a screen showed only under another trip id of the same bus 5 min ahead (no own-trip time) that were large misses (more than 2 min either way), last 14 service days 0.5325 (all lines 0.5822).
@@ -914,6 +1142,30 @@ Red Line/Arts Block; scope: hours=15-21;days=weekday;note=before Nov 6 0.517, fr
 | gbm_q15 | Red Line/Arts Block | 2,978 | 24.4% / 23.6% (1,010) | 6.9% / 4.5% (773) | 3.4% / 2.2% (649) | 2.8% / 0.2% (472) | 0.0% / 0.0% (74) | loses: too late 23.6% vs Passio 22.5% at 0-10 min; band B 3.4% vs Passio 4.4% at 15-20 min; band B 2.8% vs Passio 11.3% at 20-30 min |
 | deep_q15 | Red Line/Arts Block | 2,978 | 26.1% / 20.3% (1,010) | 10.8% / 6.2% (773) | 7.5% / 2.3% (649) | 5.2% / 0.8% (472) | 0.0% / 0.0% (74) | loses: band B 5.2% vs Passio 11.3% at 20-30 min |
 | deep_safe | Red Line/Arts Block | 2,978 | 23.1% / 15.3% (1,010) | 7.8% / 4.9% (773) | 5.4% / 2.8% (649) | 5.0% / 1.3% (472) | 0.0% / 0.0% (74) | loses: band B 5.0% vs Passio 11.3% at 20-30 min |
+
+### display:false_hide_gone_serving_bus:5715 (low, watch)
+
+Regents Express; scope: hours=20-22;vehicles=12648;stops=8643;note=after the rules shipped (2026-11-06 to 2026-11-10): 100.0 vs all lines 9.9, 5 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 100.0 vs all lines 9.9, 5 events); 12 samples. Flag: percent of minutes core/transition.js GONE dropped a bus's times (no report for 15 min) and the bus then logged an arrival on the line within 15 min 89.2 (all lines 16.3).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Regents Express | 12 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (3)) | reference |
+| timetable_delay | Regents Express | 12 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (3)) | too few rows |
+| gbm_q15 | Regents Express | 12 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (3)) | too few rows |
+| deep_q15 | Regents Express | 12 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (3)) | too few rows |
+| deep_safe | Regents Express | 12 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (2)) | (0.0% / 0.0% (3)) | (0.0% / 0.0% (3)) | too few rows |
+
+### display:false_hide_offroute_serving_bus:5715 (low, watch)
+
+Regents Express; scope: hours=18-19|21-22;vehicles=4322|12648;stops=8643;note=after the rules shipped (2026-11-06 to 2026-11-10): 0.0 vs all lines 24.4, 0 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 0.0 vs all lines 24.4, 0 events); 6 samples. Flag: percent of minutes core/offroute.js hid a bus (and its times) that then logged an arrival on the line within 15 min 37.8 (all lines 19.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | Regents Express | 6 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) |  | reference |
+| timetable_delay | Regents Express | 6 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) |  | too few rows |
+| gbm_q15 | Regents Express | 6 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) |  | too few rows |
+| deep_q15 | Regents Express | 6 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) |  | too few rows |
+| deep_safe | Regents Express | 6 | (0.0% / 0.0% (2)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) |  | too few rows |
 
 ### transition:off_route_drive:5715 (low, watch)
 
@@ -950,4 +1202,16 @@ South; scope: hours=21-23;days=weekday;note=before Nov 6 92.857, from Nov 6 100.
 | gbm_q15 | South | 756 | 28.3% / 13.0% (247) | 8.1% / 5.0% (179) | 15.6% / 1.9% (156) | 23.5% / 1.6% (125) | 3.2% / 0.0% (49) | loses: band B 8.1% vs Passio 16.4% at 10-15 min; band B 15.6% vs Passio 18.1% at 15-20 min; band B 23.5% vs Passio 27.5% at 20-30 min; band B 3.2% vs Passio 22.6% at 30-45 min |
 | deep_q15 | South | 756 | 25.3% / 11.7% (247) | 6.3% / 8.9% (179) | 7.1% / 10.9% (156) | 20.5% / 11.2% (125) | 0.0% / 0.0% (49) | loses: band B 6.3% vs Passio 16.4% at 10-15 min; band B 7.1% vs Passio 18.1% at 15-20 min; too late 10.9% vs Passio 5.8% at 15-20 min; band B 20.5% vs Passio 27.5% at 20-30 min; too late 11.2% vs Passio 4.0% at 20-30 min; band B 0.0% vs Passio 22.6% at 30-45 min |
 | deep_safe | South | 756 | 18.3% / 8.9% (247) | 8.8% / 7.8% (179) | 8.3% / 9.6% (156) | 16.5% / 12.8% (125) | 0.0% / 0.0% (49) | loses: band B 8.8% vs Passio 16.4% at 10-15 min; band B 8.3% vs Passio 18.1% at 15-20 min; too late 9.6% vs Passio 5.8% at 15-20 min; band B 16.5% vs Passio 27.5% at 20-30 min; too late 12.8% vs Passio 4.0% at 20-30 min; band B 0.0% vs Passio 22.6% at 30-45 min |
+
+### display:false_hide_offroute_serving_bus:5716 (low, watch)
+
+South Loop Shuttle; scope: hours=18-23;vehicles=4538;stops=8621;note=after the rules shipped (2026-11-06 to 2026-11-10): 0.0 vs all lines 24.4, 0 events (not applied: note=after the rules shipped (2026-11-06 to 2026-11-10): 0.0 vs all lines 24.4, 0 events); 13 samples. Flag: percent of minutes core/offroute.js hid a bus (and its times) that then logged an arrival on the line within 15 min 42.7 (all lines 19.6).
+
+| model | line | slice samples | 0-10 min | 10-15 min | 15-20 min | 20-30 min | 30-45 min | verdict vs Passio |
+|---|---|---:|---|---|---|---|---|---|
+| passio | South Loop Shuttle | 13 | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) | (0.0% / 50.0% (4)) | (0.0% / 20.0% (5)) | reference |
+| timetable_delay | South Loop Shuttle | 13 | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (100.0% / 0.0% (2)) | (33.3% / 50.0% (4)) | (40.0% / 60.0% (5)) | too few rows |
+| gbm_q15 | South Loop Shuttle | 13 | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) | (0.0% / 50.0% (4)) | (20.0% / 0.0% (5)) | too few rows |
+| deep_q15 | South Loop Shuttle | 13 | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) | (0.0% / 25.0% (4)) | (0.0% / 0.0% (5)) | too few rows |
+| deep_safe | South Loop Shuttle | 13 | (0.0% / 0.0% (1)) | (0.0% / 0.0% (1)) | (0.0% / 0.0% (2)) | (0.0% / 25.0% (4)) | (20.0% / 0.0% (5)) | too few rows |
 
