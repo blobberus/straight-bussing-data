@@ -16,7 +16,7 @@ Unofficial; not affiliated with the University of Chicago. Official service info
 
 | Tab / file | What it says | Where it comes from |
 |---|---|---|
-| **`flagged_lines`**, `csv/flagged_lines.csv` | **Read first.** The lines whose data behaves oddly, one row per line and problem: odd bus behavior at transition times, large prediction misses, what the shipped display showed riders; where and when (`scope`: stops, hours, days, buses, minutes ahead), the line's number against all lines, severity, evidence, and `agent_action` (what a model or app agent must do). Model agents score every open or watch flag as its own slice (`algorithm-test` step 13); app agents read it before changing a display rule and never hide a bus on a flag alone. | App repo `data/labeled/flags/` (README there: schema, severity, duties), merged by `tools/flag_lines.py` from RouteKnower E30, E31, E32; per-line summary `docs/FLAGGED-LINES.md` |
+| **`flagged_lines`**, `csv/flagged_lines.csv`, [`FLAGGED-LINES.md`](FLAGGED-LINES.md) | **Read first.** The lines whose data behaves oddly, one row per line and problem: odd bus behavior at transition times, large prediction misses, what the shipped display showed riders; where and when (`scope`: stops, hours, days, buses, minutes ahead), the line's number against all lines, severity, evidence, and `agent_action` (what a model or app agent must do). Model agents score every open or watch flag as its own slice (`algorithm-test` step 13); app agents read it before changing a display rule and never hide a bus on a flag alone. | App repo `data/labeled/flags/` (README there: schema, severity, duties), merged by `tools/flag_lines.py` from RouteKnower E30, E31, E32; per-line summary `docs/FLAGGED-LINES.md`. Refreshed here every week: `run_findings.py` reruns E30 and E31 on the archived days and merges them (E32 needs a browser: the app repo's reviewed `display_flags.csv` is used as is), so this tab can be a week newer than the app repo's copy |
 | `transitions`, `csv/transitions.csv` | Every time a line's bus count changed (a bus leaving for a break, its shift end, another line or off the map; a bus joining from the garage, a break or another line): which bus, where it left or joined, where it went or came from, how long, whether Passio kept predicting it, replacement bus. | App repo RouteKnower.md E29, `experiments/routeknower/E29-scripts/transitions.py`; the reviewed copy is the app repo's `data/labeled/transitions/` (README there: labels and columns) |
 | `transition_spots`, `transition_summary` | The usual leave / join places and times per line, and counts per line and hour (e.g. Apostolic bus 4322's half-hour break at South Campus Residence Hall at 8:43 AM; the Downtown Campus Connector's midday breaks). | same |
 | `leave_windows` | Per line, day type and stop: the clock windows in which a bus making its last stop there left on 3 days or more, with the in-sample precision (low: a window says a bus of the line usually leaves, not which). The forecast table's `break_window` / `leave_spot_dist_m` use the app repo's copy. | `transition_rules.py --windows-out` |
@@ -71,6 +71,13 @@ gh workflow run findings.yml -R blobberus/straight-bussing-data         # the fu
 python findings/build_workbook.py --live <app repo checkout>            # only rebuild the workbook from findings/csv
 python findings/run_findings.py --live <app repo checkout> --src-data <app repo data-branch checkout> --dl <cache> --out findings
 ```
+
+The flag step reruns E30 (`experiments/routeknower/E30-scripts/run_odd.py` + `flags.py`, about 6 min) and E31
+(`E31-scripts/misses.py` + `flags.py`, about 3 min; it reads the eta tables, which the fetch now downloads too, and
+the data branch's `predictions.csv` + `archive/predictions-*.csv`), then the app repo's `tools/flag_lines.py`, which
+writes `csv/flagged_lines.csv` and the per-line summary [`FLAGGED-LINES.md`](FLAGGED-LINES.md) (headed by a note on
+what was rerun). A producer that fails keeps the app repo's copy of its flags (the run log says so; `last_run.json`
+`flags`), so a failure never marks flags resolved. `--skip-flags` leaves the app repo's registry in the tab.
 
 Packages: numpy and openpyxl (Python 3.11). The workflow keeps the downloaded archive days in the Actions cache, so a
 run downloads only the new days.
