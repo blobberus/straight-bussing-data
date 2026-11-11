@@ -245,3 +245,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794364257,2026-11-10 20:30:57,5700,Friend Center/Metra,499521,4331,8613,Wyler Pavilion,1,,,,,,
 1794364598,2026-11-10 20:36:38,5700,Friend Center/Metra,499521,4331,8618,Ronald McDonald House & Friend Center,7,,,,,,
 1794364723,2026-11-10 20:38:43,5700,Friend Center/Metra,499521,4331,140009,55th Street & University,8,,,,,,
+1794365022,2026-11-10 20:43:42,5700,Friend Center/Metra,499521,4331,8658,59th St & Metra,11,,,,,,
+1794365273,2026-11-10 20:47:53,5700,Friend Center/Metra,499521,4331,8612,Goldblatt Pavilion,12,,,,,,
