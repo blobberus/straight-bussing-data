@@ -66,7 +66,7 @@ exact commands are in the app repo's RouteKnower.md, "E29 retry procedure". In s
    `valid_until`, like `web/data/idle.json`.
 3. Owner review, full browser suite, iOS CI, one commit.
 
-The hidden-bus step (since 2026-11-11) runs last: E32 `inputs.py` per day, a one-day smoke replay, then every day (3 browsers at a time; the whole step stops after 45 min), then `hidden_buses.py --rules main@<app repo commit>`. To adopt the result in the app repo, copy `hidden_buses/hidden_buses.csv` into its `data/labeled/hidden_buses/`, read the TOTALS line, then commit.
+The hidden-bus step (since 2026-11-11) runs last: E32 `inputs.py` per day, a one-day smoke replay, then every day (3 browsers at a time; the whole step stops after 45 min), then `hidden_buses.py --rules main@<app repo commit>` (first run 2026-11-11: 31 days replayed in about 2.5 min, headless Edge 156). To adopt the result in the app repo, copy `hidden_buses/hidden_buses.csv` into its `data/labeled/hidden_buses/`, read the TOTALS line, then commit.
 
 ## Refresh by hand
 
