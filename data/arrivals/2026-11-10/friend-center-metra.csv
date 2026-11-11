@@ -238,3 +238,5 @@ epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_i
 1794354644,2026-11-10 17:50:44,5700,Friend Center/Metra,499515,4327,8619,57th Street Metra Station (E),10,,,,,,
 1794354765,2026-11-10 17:52:45,5700,Friend Center/Metra,499515,4327,8658,59th St & Metra,11,,,,,,
 1794354990,2026-11-10 17:56:30,5700,Friend Center/Metra,499515,4327,8612,Goldblatt Pavilion,12,,,,,,
+1794363221,2026-11-10 20:13:41,5700,Friend Center/Metra,499520,4331,8619,57th Street Metra Station (E),10,,,,,,
+1794363379,2026-11-10 20:16:19,5700,Friend Center/Metra,499520,4331,8658,59th St & Metra,11,,,,,,
