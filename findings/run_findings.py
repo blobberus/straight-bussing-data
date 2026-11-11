@@ -16,7 +16,15 @@ Each run:
  4. appends one row per signal to findings/leave_eval_history.csv and decides READINESS (below); a ready signal writes
     findings/leave_ready.md, which the workflow turns into ONE issue "Leave prediction ready for review". Nothing here
     changes the app: shipping a leave rule stays a reviewed change (app repo RouteKnower.md E29, "Retry procedure");
- 5. rebuilds findings/straight-bussing-findings.xlsx and its CSV copies in findings/csv/ (build_workbook.py).
+ 5. refreshes the FLAGGED LINES (owner, 2026-11-11: "Create or indicate wherever appropriate for another agent to analyze
+    and notice and account for this data. Flag these lines"): reruns RouteKnower E30 (odd bus behavior at transition
+    times: `E30-scripts/run_odd.py` + `flags.py`) and E31 (large prediction misses: `E31-scripts/misses.py` +
+    `flags.py`) on the same days, keeps the app repo's reviewed copy of any producer file it cannot rerun (E32's display
+    flags need a browser) or whose rerun fails, and merges them with the app repo's `tools/flag_lines.py` into
+    findings/csv/flagged_lines.csv + findings/FLAGGED-LINES.md (first_flagged kept from last week's copy; a flag no
+    longer reported becomes resolved). Nothing is written to the app repo: its data/labeled/flags/ stays the reviewed copy;
+ 6. rebuilds findings/straight-bussing-findings.xlsx and its CSV copies in findings/csv/ (build_workbook.py; the
+    flagged_lines tab comes first).
 
 READY (a signal, all must hold): the data reaches READY_MIN_DATA_TO (3 weeks past the first evaluation's
 2026-11-05); held-out precision >= 0.90 AND recall >= 0.20 on >= 30 flagged visits; precision on the training days
@@ -26,7 +34,8 @@ Why: E25 asked 90% at 15 min; a rule that flags a bus serving the rider's ride m
 visits keep a 90% estimate's 95% interval above about 75%; 20% recall is the least that changes what riders see.
 
   python findings/run_findings.py --live <app repo checkout> --src-data <app repo data-branch checkout> \
-      --dl <download cache> --out findings [--work <scratch>] [--skip-fetch] [--skip-eos]
+      --dl <download cache> --out findings [--work <scratch>] [--skip-fetch] [--skip-eos] [--skip-flags]
+      [--eta-dir <folder of eta-<day>.csv.gz for E31; default --dl>]
 """
 import argparse, csv, json, os, shutil, subprocess, sys, time, urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -41,7 +50,8 @@ READY_PRECISION, READY_RECALL, READY_MIN_FLAGGED, READY_TRAIN_PRECISION = 0.90, 
 HISTORY_COLS = ["run_utc", "data_from", "data_to", "days", "train_to", "test_from", "test_to", "signal", "kind",
                 "test_flagged", "test_hits", "test_precision", "test_recall", "train_flagged", "train_precision",
                 "train_recall", "test_visits_base_rate", "meets_criteria", "consecutive_runs", "ready", "note"]
-KINDS = ("raw-polls-{}.jsonl.gz", "pred-updates-{}.jsonl.gz", "gtfs-{}.zip")
+KINDS = ("raw-polls-{}.jsonl.gz", "pred-updates-{}.jsonl.gz", "gtfs-{}.zip", "eta-{}.csv.gz")   # eta: E31 features
+FLAG_FILES = {"transition": "transition_flags.csv", "prediction_miss": "prediction_flags.csv", "display": "display_flags.csv"}
 
 
 def log(*a):
@@ -101,8 +111,11 @@ def fetch(dl, src_data):
             if n in assets and not (dl / n).exists():
                 download(assets[n], dl / n)
                 got += 1
-    for f in ("arrivals.csv", "alerts.csv", "bus_changes.csv"):
-        shutil.copy2(Path(src_data) / "data" / "ground_truth" / f, dl / f)
+    gt = Path(src_data) / "data" / "ground_truth"
+    for f in ("arrivals.csv", "alerts.csv", "bus_changes.csv", "predictions.csv"):
+        shutil.copy2(gt / f, dl / f)
+    for p in sorted((gt / "archive").glob("predictions-*.csv")):    # older predictions (E30, E31), oldest first
+        shutil.copy2(p, dl / p.name)
     log(f"fetch: {len(days)} archived days, {got} new files")
     return days
 
@@ -195,6 +208,67 @@ def ready_text(rows):
     return "\n".join(lines) + "\n"
 
 
+# ---------------------------------------------------------------- 5. flagged lines
+def refresh_flags(live, dl, tdir, eos, work, out, days, eta_dir=None):
+    """Reruns the flag producers (E30, E31) into work/flags, keeps the app repo's reviewed copy of every producer file
+    not rerun (or whose rerun failed), and merges them into out/csv/flagged_lines.csv + out/FLAGGED-LINES.md with the
+    app repo's tools/flag_lines.py. -> {"refreshed": [...], "kept": [...], "failed": {category: error}, "active": n}, or None
+    when the merge itself failed (the workbook then shows the app repo's registry)."""
+    fdir = work / "flags"
+    if fdir.exists():
+        shutil.rmtree(fdir)
+    fdir.mkdir(parents=True)
+    app = Path(live) / "data" / "labeled" / "flags"
+    for f in FLAG_FILES.values():                          # each producer's previous file (its own first_flagged)
+        if (app / f).exists():
+            shutil.copy2(app / f, fdir / f)
+    res = {"refreshed": [], "kept": [], "failed": {}}
+    e30 = work / "e30"
+    try:                                                   # E30: odd bus behavior at transition times
+        run(live, "experiments/routeknower/E30-scripts/run_odd.py", "--dl", dl, "--e28", eos, "--transitions",
+            tdir / "transitions.csv", "--out", tdir, "--work", e30 / "days", "--json", e30 / "e30.json")
+        run(live, "experiments/routeknower/E30-scripts/flags.py", "--tables", tdir, "--json", e30 / "e30.json",
+            "--out", fdir / FLAG_FILES["transition"])
+        res["refreshed"].append("transition")
+    except (RuntimeError, OSError) as ex:
+        res["failed"]["transition"] = str(ex)
+        log(f"E30 flags not refreshed (the app repo's copy is kept): {ex}")
+    e31 = work / "e31"
+    try:                                                   # E31: lines with large prediction misses
+        preds = sorted(Path(dl).glob("predictions-*.csv")) + [Path(dl) / "predictions.csv"]
+        run(live, "experiments/routeknower/E31-scripts/misses.py", "--predictions", *preds, "--arrivals",
+            Path(dl) / "arrivals.csv", "--eta-dir", eta_dir or dl, "--pred-updates", dl, "--bus-changes",
+            Path(dl) / "bus_changes.csv", "--transitions", tdir / "transitions.csv", "--to", days[-1], "--out", e31)
+        run(live, "experiments/routeknower/E31-scripts/flags.py", "--tables", e31, "--out",
+            fdir / FLAG_FILES["prediction_miss"])
+        res["refreshed"].append("prediction_miss")
+    except (RuntimeError, OSError) as ex:
+        res["failed"]["prediction_miss"] = str(ex)
+        log(f"E31 flags not refreshed (the app repo's copy is kept): {ex}")
+    res["kept"] = [c for c, f in FLAG_FILES.items() if c not in res["refreshed"] and (fdir / f).exists()]
+    reg = Path(out) / "csv" / "flagged_lines.csv"
+    prev = reg if reg.exists() else app / "flagged_lines.csv"
+    try:
+        run(live, "tools/flag_lines.py", "--flags-dir", fdir, "--prev", prev, "--out", work / "flagged_lines.csv",
+            "--md", work / "FLAGGED-LINES.md")
+    except RuntimeError as ex:
+        log(f"flagged lines not merged (the workbook keeps the app repo's registry): {ex}")
+        return None
+    reg.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(work / "flagged_lines.csv", reg)
+    head, _, body = (work / "FLAGGED-LINES.md").read_text(encoding="utf-8").partition("\n")
+    note = (f"> **Weekly refresh** ({datetime.now(timezone.utc):%Y-%m-%d}) by `findings/run_findings.py` in this repo. "
+            f"Rerun on the archived days: {', '.join(res['refreshed']) or 'none'}; kept from the app repo: "
+            f"{', '.join(res['kept']) or 'none'}. Machine-readable copy: `findings/csv/flagged_lines.csv` (the workbook's "
+            "first tab). The paths below name the app repo, whose `data/labeled/flags/` is the reviewed copy and whose "
+            "README there says what every agent must do about a flag.\n")
+    with open(Path(out) / "FLAGGED-LINES.md", "w", encoding="utf-8", newline="") as f:
+        f.write(head + "\n\n" + note + body)
+    with open(reg, encoding="utf-8", newline="") as f:
+        res["active"] = sum(r["status"] in ("open", "watch") for r in csv.DictReader(f))
+    return res
+
+
 # ---------------------------------------------------------------- main
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -205,6 +279,8 @@ def main(argv=None):
     ap.add_argument("--work")
     ap.add_argument("--skip-fetch", action="store_true")
     ap.add_argument("--skip-eos", action="store_true", help="use the app repo's committed end-of-service files")
+    ap.add_argument("--skip-flags", action="store_true", help="do not rerun E30 / E31 (the workbook shows the app repo's flags)")
+    ap.add_argument("--eta-dir", help="folder with eta-<day>.csv.gz for E31 (default: --dl)")
     a = ap.parse_args(argv)
     live, out, dl = Path(a.live).resolve(), Path(a.out).resolve(), Path(a.dl).resolve()
     work = Path(a.work or out / ".work").resolve()
@@ -244,6 +320,9 @@ def main(argv=None):
                                "min_flagged": READY_MIN_FLAGGED, "train_precision": READY_TRAIN_PRECISION, "consecutive_runs": 2},
             "transitions": json.loads((work / "e29.json").read_text(encoding="utf-8")).get("by_kind_label"),
             "end_of_service_source": str(eos.relative_to(live)) if str(eos).startswith(str(live)) else "rebuilt this run"}
+    flags = None if a.skip_flags else refresh_flags(live, dl, tdir, eos, work, out, days, a.eta_dir)
+    meta["flags_source"] = "refreshed" if flags else "app repo"
+    meta["flags"] = flags
     sys.path.insert(0, str(HERE))
     import build_workbook as W
     W.build(out, live, tdir, eos, Path(out).parent, meta)
