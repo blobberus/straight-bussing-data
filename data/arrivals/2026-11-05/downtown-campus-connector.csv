@@ -1,462 +1,462 @@
-epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
-1793881073,2026-11-05 06:17:53,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,0,,,,,,
-1793881900,2026-11-05 06:31:40,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,1,,,,,,
-1793881957,2026-11-05 06:32:37,5704,Downtown Campus Connector,874028,4327,8612,Goldblatt Pavilion,2,,,,,,
-1793882227,2026-11-05 06:37:07,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,3,,,,,,
-1793882384,2026-11-05 06:39:44,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,4,,,,,,
-1793882454,2026-11-05 06:40:54,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793882769,2026-11-05 06:46:09,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,8,,,,,,
-1793882773,2026-11-05 06:46:13,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793883125,2026-11-05 06:52:05,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793883191,2026-11-05 06:53:11,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793883401,2026-11-05 06:56:41,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793883478,2026-11-05 06:57:58,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793883488,2026-11-05 06:58:08,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793883535,2026-11-05 06:58:55,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793883543,2026-11-05 06:59:03,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793883762,2026-11-05 07:02:42,5704,Downtown Campus Connector,874028,4327,132963,Gleacher Center,8,,,,,,
-1793883905,2026-11-05 07:05:05,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793884161,2026-11-05 07:09:21,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793884348,2026-11-05 07:12:28,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793884523,2026-11-05 07:15:23,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793884572,2026-11-05 07:16:12,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793884657,2026-11-05 07:17:37,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793884815,2026-11-05 07:20:15,5704,Downtown Campus Connector,874028,4313,151794,S Lake Park & E 53rd St,4,,,,,,
-1793884891,2026-11-05 07:21:31,5704,Downtown Campus Connector,874028,4313,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793884946,2026-11-05 07:22:26,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793885166,2026-11-05 07:26:06,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793885183,2026-11-05 07:26:23,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,13,,,,,,
-1793885251,2026-11-05 07:27:31,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793885350,2026-11-05 07:29:10,5704,Downtown Campus Connector,874028,4327,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793885460,2026-11-05 07:31:00,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793885669,2026-11-05 07:34:29,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793885713,2026-11-05 07:35:13,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793885734,2026-11-05 07:35:34,5704,Downtown Campus Connector,874028,4313,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793885798,2026-11-05 07:36:38,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,8,,,,,,
-1793885886,2026-11-05 07:38:06,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793885933,2026-11-05 07:38:53,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,13,,,,,,
-1793885965,2026-11-05 07:39:25,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793885987,2026-11-05 07:39:47,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793886121,2026-11-05 07:42:01,5704,Downtown Campus Connector,874028,4313,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793886191,2026-11-05 07:43:11,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793886202,2026-11-05 07:43:22,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,14,,,,,,
-1793886323,2026-11-05 07:45:23,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793886325,2026-11-05 07:45:25,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,1,,,,,,
-1793886401,2026-11-05 07:46:41,5704,Downtown Campus Connector,874028,4313,132963,Gleacher Center,8,,,,,,
-1793886613,2026-11-05 07:50:13,5704,Downtown Campus Connector,874028,4313,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793886731,2026-11-05 07:52:11,5704,Downtown Campus Connector,,12647,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793886918,2026-11-05 07:55:18,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,0,,,,,,
-1793886956,2026-11-05 07:55:56,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,,,,,,
-1793887015,2026-11-05 07:56:55,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,1,,,,,,
-1793887095,2026-11-05 07:58:15,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793887155,2026-11-05 07:59:15,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793887161,2026-11-05 07:59:21,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,4,,,,,,
-1793887239,2026-11-05 08:00:39,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793887278,2026-11-05 08:01:18,5704,Downtown Campus Connector,874028,4313,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793887297,2026-11-05 08:01:37,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793887309,2026-11-05 08:01:49,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,13,,,,,,
-1793887402,2026-11-05 08:03:22,5704,Downtown Campus Connector,874028,4313,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793887623,2026-11-05 08:07:03,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,3,,,,,,
-1793887662,2026-11-05 08:07:42,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793887681,2026-11-05 08:08:01,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793887693,2026-11-05 08:08:13,5704,Downtown Campus Connector,874028,4313,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793887806,2026-11-05 08:10:06,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,4,,,,,,
-1793887929,2026-11-05 08:12:09,5704,Downtown Campus Connector,874028,4313,132968,Roosevelt Station,13,,,,,,
-1793887938,2026-11-05 08:12:18,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793887976,2026-11-05 08:12:56,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793888172,2026-11-05 08:16:12,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793888252,2026-11-05 08:17:32,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793888387,2026-11-05 08:19:47,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793888472,2026-11-05 08:21:12,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,2,,,,,,
-1793888839,2026-11-05 08:27:19,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793888862,2026-11-05 08:27:42,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793888867,2026-11-05 08:27:47,5704,Downtown Campus Connector,874028,4313,8591,Rockefeller Chapel,14,,,,,,
-1793888942,2026-11-05 08:29:02,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793888963,2026-11-05 08:29:23,5704,Downtown Campus Connector,874028,4313,8654,59th & Ellis,1,,,,,,
-1793889032,2026-11-05 08:30:32,5704,Downtown Campus Connector,874028,4313,8612,Goldblatt Pavilion,2,,,,,,
-1793889094,2026-11-05 08:31:34,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793889123,2026-11-05 08:32:03,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793889196,2026-11-05 08:33:16,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793889203,2026-11-05 08:33:23,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793889355,2026-11-05 08:35:55,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793889435,2026-11-05 08:37:15,5704,Downtown Campus Connector,874028,4313,140009,55th Street & University,3,,,,,,
-1793889569,2026-11-05 08:39:29,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793889583,2026-11-05 08:39:43,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,8,,,,,,
-1793889629,2026-11-05 08:40:29,5704,Downtown Campus Connector,874028,4327,132963,Gleacher Center,8,,,,,,
-1793889674,2026-11-05 08:41:14,5704,Downtown Campus Connector,874028,4313,151794,S Lake Park & E 53rd St,4,,,,,,
-1793889751,2026-11-05 08:42:31,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793889761,2026-11-05 08:42:41,5704,Downtown Campus Connector,874028,12643,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793889764,2026-11-05 08:42:44,5704,Downtown Campus Connector,874028,4313,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793889838,2026-11-05 08:43:58,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793889905,2026-11-05 08:45:05,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,13,,,,,,
-1793890023,2026-11-05 08:47:03,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793890348,2026-11-05 08:52:28,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793890524,2026-11-05 08:55:24,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793890555,2026-11-05 08:55:55,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793890556,2026-11-05 08:55:56,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793890619,2026-11-05 08:56:59,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793890684,2026-11-05 08:58:04,5704,Downtown Campus Connector,874028,4313,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793890813,2026-11-05 09:00:13,5704,Downtown Campus Connector,874028,4327,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793890969,2026-11-05 09:02:49,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,0,,,,,,
-1793891062,2026-11-05 09:04:22,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793891158,2026-11-05 09:05:58,5704,Downtown Campus Connector,874028,4313,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793891163,2026-11-05 09:06:03,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793891273,2026-11-05 09:07:53,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793891459,2026-11-05 09:10:59,5704,Downtown Campus Connector,874028,4313,132963,Gleacher Center,8,,,,,,
-1793891509,2026-11-05 09:11:49,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793891624,2026-11-05 09:13:44,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,13,,,,,,
-1793891735,2026-11-05 09:15:35,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793891750,2026-11-05 09:15:50,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793891767,2026-11-05 09:16:07,5704,Downtown Campus Connector,874028,4327,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793891829,2026-11-05 09:17:09,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793891842,2026-11-05 09:17:22,5704,Downtown Campus Connector,874028,4327,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793891858,2026-11-05 09:17:38,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793892232,2026-11-05 09:23:52,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793892353,2026-11-05 09:25:53,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793892427,2026-11-05 09:27:07,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,13,,,,,,
-1793892636,2026-11-05 09:30:36,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793892719,2026-11-05 09:31:59,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793892794,2026-11-05 09:33:14,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793892882,2026-11-05 09:34:42,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793892898,2026-11-05 09:34:58,5704,Downtown Campus Connector,874028,4313,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793893028,2026-11-05 09:37:08,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793893283,2026-11-05 09:41:23,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793893333,2026-11-05 09:42:13,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793893355,2026-11-05 09:42:35,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,0,,,,,,
-1793893399,2026-11-05 09:43:19,5704,Downtown Campus Connector,874028,4313,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793893401,2026-11-05 09:43:21,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793893450,2026-11-05 09:44:10,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,1,,,,,,
-1793893475,2026-11-05 09:44:35,5704,Downtown Campus Connector,874028,4313,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793893507,2026-11-05 09:45:07,5704,Downtown Campus Connector,,12647,132968,Roosevelt Station,13,,,,,,
-1793893521,2026-11-05 09:45:21,5704,Downtown Campus Connector,874028,4327,8612,Goldblatt Pavilion,2,,,,,,
-1793893816,2026-11-05 09:50:16,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,3,,,,,,
-1793893844,2026-11-05 09:50:44,5704,Downtown Campus Connector,874028,4313,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793894089,2026-11-05 09:54:49,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,4,,,,,,
-1793894094,2026-11-05 09:54:54,5704,Downtown Campus Connector,874028,4313,132968,Roosevelt Station,13,,,,,,
-1793894159,2026-11-05 09:55:59,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793894178,2026-11-05 09:56:18,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,8,,,,,,
-1793894500,2026-11-05 10:01:40,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793894588,2026-11-05 10:03:08,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793894593,2026-11-05 10:03:13,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,2,,,,,,
-1793894679,2026-11-05 10:04:39,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793894752,2026-11-05 10:05:52,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793894942,2026-11-05 10:09:02,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793894971,2026-11-05 10:09:31,5704,Downtown Campus Connector,874028,4313,8591,Rockefeller Chapel,14,,,,,,
-1793894982,2026-11-05 10:09:42,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793895020,2026-11-05 10:10:20,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793895021,2026-11-05 10:10:21,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793895081,2026-11-05 10:11:21,5704,Downtown Campus Connector,874028,4313,8654,59th & Ellis,1,,,,,,
-1793895121,2026-11-05 10:12:01,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793895161,2026-11-05 10:12:41,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,14,,,,,,
-1793895186,2026-11-05 10:13:06,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,,,,,,
-1793895203,2026-11-05 10:13:23,5704,Downtown Campus Connector,,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793895230,2026-11-05 10:13:50,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,8,,,,,,
-1793895274,2026-11-05 10:14:34,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,13,,,,,,
-1793895330,2026-11-05 10:15:30,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793895400,2026-11-05 10:16:40,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793895540,2026-11-05 10:19:00,5704,Downtown Campus Connector,874028,12643,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793895675,2026-11-05 10:21:15,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793896013,2026-11-05 10:26:53,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793896053,2026-11-05 10:27:33,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793896143,2026-11-05 10:29:03,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793896309,2026-11-05 10:31:49,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793896394,2026-11-05 10:33:14,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793896441,2026-11-05 10:34:01,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793896500,2026-11-05 10:35:00,5704,Downtown Campus Connector,874028,4315,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793904040,2026-11-05 12:40:40,5704,Downtown Campus Connector,874028,4325,8654,59th & Ellis,1,,,,,,
-1793904083,2026-11-05 12:41:23,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793904127,2026-11-05 12:42:07,5704,Downtown Campus Connector,874028,4325,8612,Goldblatt Pavilion,2,,,,,,
-1793904199,2026-11-05 12:43:19,5704,Downtown Campus Connector,874028,12646,8591,Rockefeller Chapel,0,,,,,,
-1793904264,2026-11-05 12:44:24,5704,Downtown Campus Connector,874028,12646,8654,59th & Ellis,1,,,,,,
-1793904328,2026-11-05 12:45:28,5704,Downtown Campus Connector,874028,12646,8612,Goldblatt Pavilion,2,,,,,,
-1793904332,2026-11-05 12:45:32,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793904381,2026-11-05 12:46:21,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793904422,2026-11-05 12:47:02,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793904513,2026-11-05 12:48:33,5704,Downtown Campus Connector,874028,12648,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793904557,2026-11-05 12:49:17,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793904673,2026-11-05 12:51:13,5704,Downtown Campus Connector,874028,4315,8654,59th & Ellis,1,,,,,,
-1793904918,2026-11-05 12:55:18,5704,Downtown Campus Connector,874028,12648,132968,Roosevelt Station,13,,,,,,
-1793904928,2026-11-05 12:55:28,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793905167,2026-11-05 12:59:27,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793905237,2026-11-05 13:00:37,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793905456,2026-11-05 13:04:16,5704,Downtown Campus Connector,874028,4315,8654,59th & Ellis,1,,,,,,
-1793905532,2026-11-05 13:05:32,5704,Downtown Campus Connector,874028,4315,8612,Goldblatt Pavilion,2,,,,,,
-1793905642,2026-11-05 13:07:22,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793905893,2026-11-05 13:11:33,5704,Downtown Campus Connector,874028,12648,8591,Rockefeller Chapel,14,,,,,,
-1793905907,2026-11-05 13:11:47,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,8,,,,,,
-1793905981,2026-11-05 13:13:01,5704,Downtown Campus Connector,874028,12648,8654,59th & Ellis,1,,,,,,
-1793906065,2026-11-05 13:14:25,5704,Downtown Campus Connector,874028,12648,8612,Goldblatt Pavilion,2,,,,,,
-1793906236,2026-11-05 13:17:16,5704,Downtown Campus Connector,874028,12647,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793906275,2026-11-05 13:17:55,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793906380,2026-11-05 13:19:40,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793906456,2026-11-05 13:20:56,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,2,,,,,,
-1793906834,2026-11-05 13:27:14,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793907070,2026-11-05 13:31:10,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793907092,2026-11-05 13:31:32,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793907130,2026-11-05 13:32:10,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793907140,2026-11-05 13:32:20,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793907142,2026-11-05 13:32:22,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793907152,2026-11-05 13:32:32,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,8,,,,,,
-1793907332,2026-11-05 13:35:32,5704,Downtown Campus Connector,,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793907384,2026-11-05 13:36:24,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,14,,,,,,
-1793907463,2026-11-05 13:37:43,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,1,,,,,,
-1793907523,2026-11-05 13:38:43,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,2,,,,,,
-1793907627,2026-11-05 13:40:27,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793907646,2026-11-05 13:40:46,5704,Downtown Campus Connector,,12647,132968,Roosevelt Station,13,,,,,,
-1793907705,2026-11-05 13:41:45,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793907833,2026-11-05 13:43:53,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,,,,,,
-1793907849,2026-11-05 13:44:09,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793908042,2026-11-05 13:47:22,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793908065,2026-11-05 13:47:45,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,4,,,,,,
-1793908294,2026-11-05 13:51:34,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793908313,2026-11-05 13:51:53,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793908376,2026-11-05 13:52:56,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793908385,2026-11-05 13:53:05,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793908684,2026-11-05 13:58:04,5704,Downtown Campus Connector,874028,12647,8591,Rockefeller Chapel,0,,,,,,
-1793908876,2026-11-05 14:01:16,5704,Downtown Campus Connector,874028,4327,8612,Goldblatt Pavilion,2,,,,,,
-1793908920,2026-11-05 14:02:00,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793909004,2026-11-05 14:03:24,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793909022,2026-11-05 14:03:42,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793909246,2026-11-05 14:07:26,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,3,,,,,,
-1793909321,2026-11-05 14:08:41,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793909400,2026-11-05 14:10:00,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793909446,2026-11-05 14:10:46,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,2,,,,,,
-1793909508,2026-11-05 14:11:48,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,4,,,,,,
-1793909556,2026-11-05 14:12:36,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,8,,,,,,
-1793909636,2026-11-05 14:13:56,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793909804,2026-11-05 14:16:44,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793910050,2026-11-05 14:20:50,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793910183,2026-11-05 14:23:03,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793910297,2026-11-05 14:24:57,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793910674,2026-11-05 14:31:14,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793910714,2026-11-05 14:31:54,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793910752,2026-11-05 14:32:32,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793910790,2026-11-05 14:33:10,5704,Downtown Campus Connector,874028,4320,132968,Roosevelt Station,13,,,,,,
-1793910818,2026-11-05 14:33:38,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793911319,2026-11-05 14:41:59,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793911359,2026-11-05 14:42:39,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793911542,2026-11-05 14:45:42,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793911681,2026-11-05 14:48:01,5704,Downtown Campus Connector,874028,12643,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793911872,2026-11-05 14:51:12,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793911874,2026-11-05 14:51:14,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,0,,,,,,
-1793911933,2026-11-05 14:52:13,5704,Downtown Campus Connector,874028,4320,8654,59th & Ellis,1,,,,,,
-1793912029,2026-11-05 14:53:49,5704,Downtown Campus Connector,874028,4320,8612,Goldblatt Pavilion,2,,,,,,
-1793912170,2026-11-05 14:56:10,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793912302,2026-11-05 14:58:22,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793912371,2026-11-05 14:59:31,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793912414,2026-11-05 15:00:14,5704,Downtown Campus Connector,874028,4320,140009,55th Street & University,3,,,,,,
-1793912604,2026-11-05 15:03:24,5704,Downtown Campus Connector,874028,4327,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793912711,2026-11-05 15:05:11,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793912722,2026-11-05 15:05:22,5704,Downtown Campus Connector,874028,4320,151794,S Lake Park & E 53rd St,4,,,,,,
-1793912763,2026-11-05 15:06:03,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793912806,2026-11-05 15:06:46,5704,Downtown Campus Connector,874028,4320,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793912835,2026-11-05 15:07:15,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793912869,2026-11-05 15:07:49,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,8,,,,,,
-1793912899,2026-11-05 15:08:19,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,13,,,,,,
-1793913179,2026-11-05 15:12:59,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793913287,2026-11-05 15:14:47,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793913335,2026-11-05 15:15:35,5704,Downtown Campus Connector,874028,4327,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793913436,2026-11-05 15:17:16,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793913526,2026-11-05 15:18:46,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,2,,,,,,
-1793913529,2026-11-05 15:18:49,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793913616,2026-11-05 15:20:16,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793913680,2026-11-05 15:21:20,5704,Downtown Campus Connector,874028,4320,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793913740,2026-11-05 15:22:20,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793913904,2026-11-05 15:25:04,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793913936,2026-11-05 15:25:36,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793913982,2026-11-05 15:26:22,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,13,,,,,,
-1793914016,2026-11-05 15:26:56,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,14,,,,,,
-1793914174,2026-11-05 15:29:34,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,1,,,,,,
-1793914258,2026-11-05 15:30:58,5704,Downtown Campus Connector,874028,4320,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793914261,2026-11-05 15:31:01,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793914274,2026-11-05 15:31:14,5704,Downtown Campus Connector,,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793914282,2026-11-05 15:31:22,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,2,,,,,,
-1793914335,2026-11-05 15:32:15,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793914372,2026-11-05 15:32:52,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793914509,2026-11-05 15:35:09,5704,Downtown Campus Connector,874028,4320,132963,Gleacher Center,8,,,,,,
-1793914583,2026-11-05 15:36:23,5704,Downtown Campus Connector,,12647,132968,Roosevelt Station,13,,,,,,
-1793914778,2026-11-05 15:39:38,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793914796,2026-11-05 15:39:56,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,,,,,,
-1793914994,2026-11-05 15:43:14,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793915002,2026-11-05 15:43:22,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,14,,,,,,
-1793915099,2026-11-05 15:44:59,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,4,,,,,,
-1793915130,2026-11-05 15:45:30,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,1,,,,,,
-1793915233,2026-11-05 15:47:13,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793915570,2026-11-05 15:52:50,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,3,,,,,,
-1793915730,2026-11-05 15:55:30,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793915888,2026-11-05 15:58:08,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,4,,,,,,
-1793915958,2026-11-05 15:59:18,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793916046,2026-11-05 16:00:46,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793916111,2026-11-05 16:01:51,5704,Downtown Campus Connector,874028,4320,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793916153,2026-11-05 16:02:33,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793916179,2026-11-05 16:02:59,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793916371,2026-11-05 16:06:11,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,2,,,,,,
-1793916490,2026-11-05 16:08:10,5704,Downtown Campus Connector,874028,4320,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793916760,2026-11-05 16:12:40,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793916835,2026-11-05 16:13:55,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793916919,2026-11-05 16:15:19,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793916929,2026-11-05 16:15:29,5704,Downtown Campus Connector,874028,4320,132968,Roosevelt Station,13,,,,,,
-1793917033,2026-11-05 16:17:13,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793917052,2026-11-05 16:17:32,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793917108,2026-11-05 16:18:28,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793917210,2026-11-05 16:20:10,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793917453,2026-11-05 16:24:13,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793917622,2026-11-05 16:27:02,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793917759,2026-11-05 16:29:19,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,13,,,,,,
-1793917936,2026-11-05 16:32:16,5704,Downtown Campus Connector,874028,4327,132963,Gleacher Center,8,,,,,,
-1793918308,2026-11-05 16:38:28,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793918461,2026-11-05 16:41:01,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793918638,2026-11-05 16:43:58,5704,Downtown Campus Connector,874028,4320,8654,59th & Ellis,1,,,,,,
-1793918929,2026-11-05 16:48:49,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793918955,2026-11-05 16:49:15,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,14,,,,,,
-1793919137,2026-11-05 16:52:17,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793919177,2026-11-05 16:52:57,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793919289,2026-11-05 16:54:49,5704,Downtown Campus Connector,874028,4320,140009,55th Street & University,3,,,,,,
-1793919376,2026-11-05 16:56:16,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793919441,2026-11-05 16:57:21,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793919505,2026-11-05 16:58:25,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,8,,,,,,
-1793919578,2026-11-05 16:59:38,5704,Downtown Campus Connector,874028,4320,151794,S Lake Park & E 53rd St,4,,,,,,
-1793919740,2026-11-05 17:02:20,5704,Downtown Campus Connector,874028,4320,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793919810,2026-11-05 17:03:30,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793919816,2026-11-05 17:03:36,5704,Downtown Campus Connector,874028,4327,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793920140,2026-11-05 17:09:00,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793920198,2026-11-05 17:09:58,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793920354,2026-11-05 17:12:34,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793920571,2026-11-05 17:16:11,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,13,,,,,,
-1793920582,2026-11-05 17:16:22,5704,Downtown Campus Connector,874028,12647,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793920908,2026-11-05 17:21:48,5704,Downtown Campus Connector,874028,4320,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793920966,2026-11-05 17:22:46,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793921158,2026-11-05 17:25:58,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793921318,2026-11-05 17:28:38,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,2,,,,,,
-1793921429,2026-11-05 17:30:29,5704,Downtown Campus Connector,874028,4327,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793921481,2026-11-05 17:31:21,5704,Downtown Campus Connector,874028,4327,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793921513,2026-11-05 17:31:53,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793921727,2026-11-05 17:35:27,5704,Downtown Campus Connector,874028,4320,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793921783,2026-11-05 17:36:23,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793921982,2026-11-05 17:39:42,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,14,,,,,,
-1793922037,2026-11-05 17:40:37,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793922085,2026-11-05 17:41:25,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793922124,2026-11-05 17:42:04,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793922159,2026-11-05 17:42:39,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,1,,,,,,
-1793922161,2026-11-05 17:42:41,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793922274,2026-11-05 17:44:34,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793922293,2026-11-05 17:44:53,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,2,,,,,,
-1793922395,2026-11-05 17:46:35,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793922497,2026-11-05 17:48:17,5704,Downtown Campus Connector,874028,4320,132963,Gleacher Center,8,,,,,,
-1793922549,2026-11-05 17:49:09,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,13,,,,,,
-1793922675,2026-11-05 17:51:15,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793922730,2026-11-05 17:52:10,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,3,,,,,,
-1793922883,2026-11-05 17:54:43,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793922975,2026-11-05 17:56:15,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,13,,,,,,
-1793923024,2026-11-05 17:57:04,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,4,,,,,,
-1793923140,2026-11-05 17:59:00,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793923142,2026-11-05 17:59:02,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793923149,2026-11-05 17:59:09,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793923881,2026-11-05 18:11:21,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793923984,2026-11-05 18:13:04,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793924157,2026-11-05 18:15:57,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793924237,2026-11-05 18:17:17,5704,Downtown Campus Connector,874028,4320,8591,Rockefeller Chapel,0,,,,,,
-1793924267,2026-11-05 18:17:47,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793924479,2026-11-05 18:21:19,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793924554,2026-11-05 18:22:34,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,13,,,,,,
-1793924675,2026-11-05 18:24:35,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,8,,,,,,
-1793925170,2026-11-05 18:32:50,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793925418,2026-11-05 18:36:58,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793925429,2026-11-05 18:37:09,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793925569,2026-11-05 18:39:29,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793925646,2026-11-05 18:40:46,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,14,,,,,,
-1793925738,2026-11-05 18:42:18,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793926025,2026-11-05 18:47:05,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793926033,2026-11-05 18:47:13,5704,Downtown Campus Connector,874028,4315,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793926305,2026-11-05 18:51:45,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793926384,2026-11-05 18:53:04,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793926466,2026-11-05 18:54:26,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793926598,2026-11-05 18:56:38,5704,Downtown Campus Connector,874028,4315,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793926667,2026-11-05 18:57:47,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793926675,2026-11-05 18:57:55,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793926771,2026-11-05 18:59:31,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793926946,2026-11-05 19:02:26,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793926955,2026-11-05 19:02:35,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793926960,2026-11-05 19:02:40,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,8,,,,,,
-1793926988,2026-11-05 19:03:08,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793927021,2026-11-05 19:03:41,5704,Downtown Campus Connector,874028,4315,132963,Gleacher Center,8,,,,,,
-1793927184,2026-11-05 19:06:24,5704,Downtown Campus Connector,874028,4315,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793927328,2026-11-05 19:08:48,5704,Downtown Campus Connector,,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793927492,2026-11-05 19:11:32,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793927959,2026-11-05 19:19:19,5704,Downtown Campus Connector,874028,4315,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793927999,2026-11-05 19:19:59,5704,Downtown Campus Connector,874028,4315,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793928050,2026-11-05 19:20:50,5704,Downtown Campus Connector,,12647,132963,Gleacher Center,8,,,,,,
-1793928182,2026-11-05 19:23:02,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793928184,2026-11-05 19:23:04,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793928310,2026-11-05 19:25:10,5704,Downtown Campus Connector,874028,4315,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793928350,2026-11-05 19:25:50,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793928538,2026-11-05 19:28:58,5704,Downtown Campus Connector,874028,4315,132968,Roosevelt Station,13,,,,,,
-1793928544,2026-11-05 19:29:04,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793928613,2026-11-05 19:30:13,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,2,,,,,,
-1793928978,2026-11-05 19:36:18,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793929051,2026-11-05 19:37:31,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793929120,2026-11-05 19:38:40,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793929191,2026-11-05 19:39:51,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793929277,2026-11-05 19:41:17,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793929337,2026-11-05 19:42:17,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793929413,2026-11-05 19:43:33,5704,Downtown Campus Connector,874028,4315,8591,Rockefeller Chapel,14,,,,,,
-1793929413,2026-11-05 19:43:33,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793929475,2026-11-05 19:44:35,5704,Downtown Campus Connector,874028,4315,8654,59th & Ellis,1,,,,,,
-1793929684,2026-11-05 19:48:04,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,13,,,,,,
-1793929687,2026-11-05 19:48:07,5704,Downtown Campus Connector,874028,4315,8612,Goldblatt Pavilion,2,,,,,,
-1793930001,2026-11-05 19:53:21,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793930047,2026-11-05 19:54:07,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793930330,2026-11-05 19:58:50,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793930454,2026-11-05 20:00:54,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793930565,2026-11-05 20:02:45,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,13,,,,,,
-1793930651,2026-11-05 20:04:11,5704,Downtown Campus Connector,874028,12647,8591,Rockefeller Chapel,14,,,,,,
-1793930681,2026-11-05 20:04:41,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793930780,2026-11-05 20:06:20,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,8,,,,,,
-1793930808,2026-11-05 20:06:48,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,1,,,,,,
-1793930903,2026-11-05 20:08:23,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,2,,,,,,
-1793931088,2026-11-05 20:11:28,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793931261,2026-11-05 20:14:21,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793931297,2026-11-05 20:14:57,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,13,,,,,,
-1793931341,2026-11-05 20:15:41,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,3,,,,,,
-1793931506,2026-11-05 20:18:26,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,14,,,,,,
-1793931564,2026-11-05 20:19:24,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,4,,,,,,
-1793931615,2026-11-05 20:20:15,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,1,,,,,,
-1793931692,2026-11-05 20:21:32,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793931716,2026-11-05 20:21:56,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,2,,,,,,
-1793931965,2026-11-05 20:26:05,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793932032,2026-11-05 20:27:12,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793932036,2026-11-05 20:27:16,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,3,,,,,,
-1793932255,2026-11-05 20:30:55,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,4,,,,,,
-1793932344,2026-11-05 20:32:24,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793932345,2026-11-05 20:32:25,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793932434,2026-11-05 20:33:54,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793932561,2026-11-05 20:36:01,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,13,,,,,,
-1793932838,2026-11-05 20:40:38,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793933049,2026-11-05 20:44:09,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793933466,2026-11-05 20:51:06,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793933522,2026-11-05 20:52:02,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,14,,,,,,
-1793933585,2026-11-05 20:53:05,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,1,,,,,,
-1793934020,2026-11-05 21:00:20,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,2,,,,,,
-1793934177,2026-11-05 21:02:57,5704,Downtown Campus Connector,874028,12647,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793934306,2026-11-05 21:05:06,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,3,,,,,,
-1793934598,2026-11-05 21:09:58,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,4,,,,,,
-1793934688,2026-11-05 21:11:28,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793934803,2026-11-05 21:13:23,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793935312,2026-11-05 21:21:52,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793935399,2026-11-05 21:23:19,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793935462,2026-11-05 21:24:22,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,8,,,,,,
-1793935679,2026-11-05 21:27:59,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,13,,,,,,
-1793936000,2026-11-05 21:33:20,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,7,,,,,,
-1793936240,2026-11-05 21:37:20,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793936317,2026-11-05 21:38:37,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793936636,2026-11-05 21:43:56,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,12,,,,,,
-1793936864,2026-11-05 21:47:44,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,13,,,,,,
-1793936894,2026-11-05 21:48:14,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,0,,,,,,
-1793936898,2026-11-05 21:48:18,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,1,,,,,,
-1793936918,2026-11-05 21:48:38,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,9,,,,,,
-1793936938,2026-11-05 21:48:58,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,6,,,,,,
-1793937224,2026-11-05 21:53:44,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,4,,,,,,
-1793937289,2026-11-05 21:54:49,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,5,,,,,,
-1793937421,2026-11-05 21:57:01,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,10,,,,,,
-1793937508,2026-11-05 21:58:28,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,11,,,,,,
-1793937928,2026-11-05 22:05:28,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,12,,,,,,
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793881073,2026-11-05T12:17:53Z,2026-11-05 06:17:53,3,6,377,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,778,,,proximity
+1793881900,2026-11-05T12:31:40Z,2026-11-05 06:31:40,3,6,391,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793881073,827,7.71,14,1793881778,179,proximity
+1793881957,2026-11-05T12:32:37Z,2026-11-05 06:32:37,3,6,392,5704,Downtown Campus Connector,874028,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793881900,57,4.81,0,1793881825,236,transition
+1793882227,2026-11-05T12:37:07Z,2026-11-05 06:37:07,3,6,397,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793881957,270,6.25,0,1793881852,372,transition
+1793882384,2026-11-05T12:39:44Z,2026-11-05 06:39:44,3,6,399,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793882227,157,8.84,0,1793881854,529,transition
+1793882454,2026-11-05T12:40:54Z,2026-11-05 06:40:54,3,6,400,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793882384,70,5.45,0,1793881856,599,transition
+1793882769,2026-11-05T12:46:09Z,2026-11-05 06:46:09,3,6,406,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,,,,,,8,,,pass
+1793882773,2026-11-05T12:46:13Z,2026-11-05 06:46:13,3,6,406,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,14,1793882590,179,proximity
+1793883125,2026-11-05T12:52:05Z,2026-11-05 06:52:05,3,6,412,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793882454,671,12.55,0,1793883198,1404,transition
+1793883191,2026-11-05T12:53:11Z,2026-11-05 06:53:11,3,6,413,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793882773,418,4.69,17,1793882654,529,pass
+1793883401,2026-11-05T12:56:41Z,2026-11-05 06:56:41,3,6,416,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793883191,210,7.19,48,1793882656,739,pass
+1793883478,2026-11-05T12:57:58Z,2026-11-05 06:57:58,3,6,417,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793883488,2026-11-05T12:58:08Z,2026-11-05 06:58:08,3,6,418,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793883125,363,5.16,5,1793883488,1767,proximity
+1793883535,2026-11-05T12:58:55Z,2026-11-05 06:58:55,3,6,418,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793883401,134,4.43,0,1793882658,873,pass
+1793883543,2026-11-05T12:59:03Z,2026-11-05 06:59:03,3,6,419,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,,,,gps
+1793883762,2026-11-05T13:02:42Z,2026-11-05 07:02:42,3,7,422,5704,Downtown Campus Connector,874028,4327,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793883488,274,3.72,75,1793883716,2041,transition
+1793883905,2026-11-05T13:05:05Z,2026-11-05 07:05:05,3,7,425,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,132963,5070.0,1793882769,1136,4.49,36,1793884274,217,proximity
+1793884161,2026-11-05T13:09:21Z,2026-11-05 07:09:21,3,7,429,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793883905,256,6.01,56,1793884115,172,proximity
+1793884348,2026-11-05T13:12:28Z,2026-11-05 07:12:28,3,7,432,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793883535,813,10.36,5,,,pass
+1793884523,2026-11-05T13:15:23Z,2026-11-05 07:15:23,3,7,435,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,4,,,proximity
+1793884572,2026-11-05T13:16:12Z,2026-11-05 07:16:12,3,7,436,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793884523,49,6.11,0,,,transition
+1793884657,2026-11-05T13:17:37Z,2026-11-05 07:17:37,3,7,437,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793884348,309,6.24,0,,,pass
+1793884815,2026-11-05T13:20:15Z,2026-11-05 07:20:15,3,7,440,5704,Downtown Campus Connector,874028,4313,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,,,,,,16,,,pass
+1793884891,2026-11-05T13:21:31Z,2026-11-05 07:21:31,3,7,441,5704,Downtown Campus Connector,874028,4313,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793884815,76,6.36,0,,,transition
+1793884946,2026-11-05T13:22:26Z,2026-11-05 07:22:26,3,7,442,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793884572,374,4.15,0,1793885074,171,transition
+1793885166,2026-11-05T13:26:06Z,2026-11-05 07:26:06,3,7,446,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793884161,1005,12.41,,1793884243,935,transition
+1793885183,2026-11-05T13:26:23Z,2026-11-05 07:26:23,3,7,446,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793884946,237,5.58,90,1793885122,223,proximity
+1793885251,2026-11-05T13:27:31Z,2026-11-05 07:27:31,3,7,447,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,67,1793884231,1020,proximity
+1793885350,2026-11-05T13:29:10Z,2026-11-05 07:29:10,3,7,449,5704,Downtown Campus Connector,874028,4327,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793885460,2026-11-05T13:31:00Z,2026-11-05 07:31:00,3,7,451,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,0,,,transition
+1793885669,2026-11-05T13:34:29Z,2026-11-05 07:34:29,3,7,454,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793885251,418,5.39,0,1793885196,467,pass
+1793885713,2026-11-05T13:35:13Z,2026-11-05 07:35:13,3,7,455,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793885734,2026-11-05T13:35:34Z,2026-11-05 07:35:34,3,7,455,5704,Downtown Campus Connector,874028,4313,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793884891,843,9.99,20,,,proximity
+1793885798,2026-11-05T13:36:38Z,2026-11-05 07:36:38,3,7,456,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,132965,2872.6,1793884348,1450,1.99,10,,,pass
+1793885886,2026-11-05T13:38:06Z,2026-11-05 07:38:06,3,7,458,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793885669,217,6.4,21,1793885198,684,pass
+1793885933,2026-11-05T13:38:53Z,2026-11-05 07:38:53,3,7,458,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1793885965,2026-11-05T13:39:25Z,2026-11-05 07:39:25,3,7,459,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793885886,79,6.58,17,1793885200,763,proximity
+1793885987,2026-11-05T13:39:47Z,2026-11-05 07:39:47,3,7,459,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793885460,527,3.59,0,,,pass
+1793886121,2026-11-05T13:42:01Z,2026-11-05 07:42:01,3,7,462,5704,Downtown Campus Connector,874028,4313,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793885734,387,5.1,0,,,transition
+1793886191,2026-11-05T13:43:11Z,2026-11-05 07:43:11,3,7,463,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793885987,204,6.8,54,,,pass
+1793886202,2026-11-05T13:43:22Z,2026-11-05 07:43:22,3,7,463,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793885183,1019,12.62,,1793885257,943,transition
+1793886323,2026-11-05T13:45:23Z,2026-11-05 07:45:23,3,7,465,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793886191,132,4.89,0,,,pass
+1793886325,2026-11-05T13:45:25Z,2026-11-05 07:45:25,3,7,465,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,53,1793885247,1066,proximity
+1793886401,2026-11-05T13:46:41Z,2026-11-05 07:46:41,3,7,466,5704,Downtown Campus Connector,874028,4313,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793886121,280,3.57,0,,,transition
+1793886613,2026-11-05T13:50:13Z,2026-11-05 07:50:13,3,7,470,5704,Downtown Campus Connector,874028,4313,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793886401,212,3.07,4,,,proximity
+1793886731,2026-11-05T13:52:11Z,2026-11-05 07:52:11,3,7,472,5704,Downtown Campus Connector,,12647,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793886918,2026-11-05T13:55:18Z,2026-11-05 07:55:18,3,7,475,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,0,1793885970,936,transition
+1793886956,2026-11-05T13:55:56Z,2026-11-05 07:55:56,3,7,475,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793886325,631,3.28,0,1793885251,1697,pass
+1793887015,2026-11-05T13:56:55Z,2026-11-05 07:56:55,3,7,476,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793886918,97,3.89,,1793885972,1033,proximity
+1793887095,2026-11-05T13:58:15Z,2026-11-05 07:58:15,3,7,478,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793885965,1130,7.53,36,,,proximity
+1793887155,2026-11-05T13:59:15Z,2026-11-05 07:59:15,3,7,479,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793887161,2026-11-05T13:59:21Z,2026-11-05 07:59:21,3,7,479,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793886956,205,6.77,0,1793885253,1902,pass
+1793887239,2026-11-05T14:00:39Z,2026-11-05 08:00:39,3,8,480,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793887161,78,4.89,15,1793885255,1980,proximity
+1793887278,2026-11-05T14:01:18Z,2026-11-05 08:01:18,3,8,481,5704,Downtown Campus Connector,874028,4313,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793886613,665,3.92,35,1793887813,156,proximity
+1793887297,2026-11-05T14:01:37Z,2026-11-05 08:01:37,3,8,481,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793886323,974,8.65,0,,,transition
+1793887309,2026-11-05T14:01:49Z,2026-11-05 08:01:49,3,8,481,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1793887402,2026-11-05T14:03:22Z,2026-11-05 08:03:22,3,8,483,5704,Downtown Campus Connector,874028,4313,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793887278,124,3.09,0,1793887783,160,transition
+1793887623,2026-11-05T14:07:03Z,2026-11-05 08:07:03,3,8,487,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,,,,,,,,,gps
+1793887662,2026-11-05T14:07:42Z,2026-11-05 08:07:42,3,8,487,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793887095,567,3.53,34,,,proximity
+1793887681,2026-11-05T14:08:01Z,2026-11-05 08:08:01,3,8,488,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793887297,384,4.88,0,,,transition
+1793887693,2026-11-05T14:08:13Z,2026-11-05 08:08:13,3,8,488,5704,Downtown Campus Connector,874028,4313,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793887402,291,5.34,45,1793888009,211,proximity
+1793887806,2026-11-05T14:10:06Z,2026-11-05 08:10:06,3,8,490,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,8654,3281.5,1793887015,791,4.15,58,,,pass
+1793887929,2026-11-05T14:12:09Z,2026-11-05 08:12:09,3,8,492,5704,Downtown Campus Connector,874028,4313,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793887693,236,6.92,67,1793887913,139,proximity
+1793887938,2026-11-05T14:12:18Z,2026-11-05 08:12:18,3,8,492,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793887806,132,5.15,0,,,pass
+1793887976,2026-11-05T14:12:56Z,2026-11-05 08:12:56,3,8,492,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793887681,295,3.39,35,,,transition
+1793888172,2026-11-05T14:16:12Z,2026-11-05 08:16:12,3,8,496,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793887976,196,4.04,85,,,transition
+1793888252,2026-11-05T14:17:32Z,2026-11-05 08:17:32,3,8,497,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793887239,1013,8.44,40,,,proximity
+1793888387,2026-11-05T14:19:47Z,2026-11-05 08:19:47,3,8,499,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,27,1793887369,1024,transition
+1793888472,2026-11-05T14:21:12Z,2026-11-05 08:21:12,3,8,501,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793888387,85,3.56,39,1793887371,1109,proximity
+1793888839,2026-11-05T14:27:19Z,2026-11-05 08:27:19,3,8,507,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793888472,367,5.14,0,1793887373,1476,pass
+1793888862,2026-11-05T14:27:42Z,2026-11-05 08:27:42,3,8,507,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793887938,924,9.11,0,,,pass
+1793888867,2026-11-05T14:27:47Z,2026-11-05 08:27:47,3,8,507,5704,Downtown Campus Connector,874028,4313,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793887929,938,13.46,,1793887986,898,transition
+1793888942,2026-11-05T14:29:02Z,2026-11-05 08:29:02,3,8,509,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793888252,690,2.88,15,,,proximity
+1793888963,2026-11-05T14:29:23Z,2026-11-05 08:29:23,3,8,509,5704,Downtown Campus Connector,874028,4313,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,15,1793887974,994,proximity
+1793889032,2026-11-05T14:30:32Z,2026-11-05 08:30:32,3,8,510,5704,Downtown Campus Connector,874028,4313,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793888963,69,3.83,34,1793887976,1063,proximity
+1793889094,2026-11-05T14:31:34Z,2026-11-05 08:31:34,3,8,511,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793888839,255,5.44,28,1793887375,1731,pass
+1793889123,2026-11-05T14:32:03Z,2026-11-05 08:32:03,3,8,512,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793889196,2026-11-05T14:33:16Z,2026-11-05 08:33:16,3,8,513,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,0,1793889574,192,transition
+1793889203,2026-11-05T14:33:23Z,2026-11-05 08:33:23,3,8,513,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793889094,109,4.71,0,1793887377,1840,pass
+1793889355,2026-11-05T14:35:55Z,2026-11-05 08:35:55,3,8,515,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793888862,493,3.8,24,,,pass
+1793889435,2026-11-05T14:37:15Z,2026-11-05 08:37:15,3,8,517,5704,Downtown Campus Connector,874028,4313,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793889032,403,4.57,0,1793888886,541,transition
+1793889569,2026-11-05T14:39:29Z,2026-11-05 08:39:29,3,8,519,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,65,1793889649,203,proximity
+1793889583,2026-11-05T14:39:43Z,2026-11-05 08:39:43,3,8,519,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793888942,641,1.6,0,,,transition
+1793889629,2026-11-05T14:40:29Z,2026-11-05 08:40:29,3,8,520,5704,Downtown Campus Connector,874028,4327,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793889355,274,4.0,25,,,proximity
+1793889674,2026-11-05T14:41:14Z,2026-11-05 08:41:14,3,8,521,5704,Downtown Campus Connector,874028,4313,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793889436,238,5.83,0,1793888888,780,transition
+1793889751,2026-11-05T14:42:31Z,2026-11-05 08:42:31,3,8,522,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,24,1793890140,202,pass
+1793889761,2026-11-05T14:42:41Z,2026-11-05 08:42:41,3,8,522,5704,Downtown Campus Connector,874028,12643,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793889583,178,3.65,45,,,transition
+1793889764,2026-11-05T14:42:44Z,2026-11-05 08:42:44,3,8,522,5704,Downtown Campus Connector,874028,4313,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793889674,90,4.24,0,1793888890,870,transition
+1793889838,2026-11-05T14:43:58Z,2026-11-05 08:43:58,3,8,523,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793889751,87,4.37,22,1793890191,228,proximity
+1793889905,2026-11-05T14:45:05Z,2026-11-05 08:45:05,3,8,525,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793889569,336,4.88,118,1793889857,173,proximity
+1793890023,2026-11-05T14:47:03Z,2026-11-05 08:47:03,3,8,527,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,,,,,,,,,gps
+1793890348,2026-11-05T14:52:28Z,2026-11-05 08:52:28,3,8,532,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793889838,510,3.18,0,1793890435,189,transition
+1793890524,2026-11-05T14:55:24Z,2026-11-05 08:55:24,3,8,535,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,0,1793890974,181,transition
+1793890555,2026-11-05T14:55:55Z,2026-11-05 08:55:55,3,8,535,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793890348,207,6.39,152,1793890528,152,proximity
+1793890556,2026-11-05T14:55:56Z,2026-11-05 08:55:56,3,8,535,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,155005,10294.7,1793889203,1353,7.61,5,,,pass
+1793890619,2026-11-05T14:56:59Z,2026-11-05 08:56:59,3,8,536,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793890524,95,2.9,15,1793891034,155,transition
+1793890684,2026-11-05T14:58:04Z,2026-11-05 08:58:04,3,8,538,5704,Downtown Campus Connector,874028,4313,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793889764,920,9.15,0,,,transition
+1793890813,2026-11-05T15:00:13Z,2026-11-05 09:00:13,3,9,540,5704,Downtown Campus Connector,874028,4327,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793889629,1184,0.56,28,,,transition
+1793890969,2026-11-05T15:02:49Z,2026-11-05 09:02:49,3,9,542,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,0,1793889976,993,transition
+1793891062,2026-11-05T15:04:22Z,2026-11-05 09:04:22,3,9,544,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793890969,93,4.06,50,1793889978,1086,proximity
+1793891158,2026-11-05T15:05:58Z,2026-11-05 09:05:58,3,9,545,5704,Downtown Campus Connector,874028,4313,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793890684,474,3.95,0,,,transition
+1793891163,2026-11-05T15:06:03Z,2026-11-05 09:06:03,3,9,546,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793891062,101,4.05,24,1793889980,1187,proximity
+1793891273,2026-11-05T15:07:53Z,2026-11-05 09:07:53,3,9,547,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793890619,654,2.43,60,1793891406,151,proximity
+1793891459,2026-11-05T15:10:59Z,2026-11-05 09:10:59,3,9,550,5704,Downtown Campus Connector,874028,4313,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793891158,301,3.32,5,,,proximity
+1793891509,2026-11-05T15:11:49Z,2026-11-05 09:11:49,3,9,551,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793891163,346,5.24,0,1793889982,1533,pass
+1793891624,2026-11-05T15:13:44Z,2026-11-05 09:13:44,3,9,553,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793891273,351,4.55,55,1793891585,130,proximity
+1793891735,2026-11-05T15:15:35Z,2026-11-05 09:15:35,3,9,555,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793890555,1180,11.41,,1793890709,1028,transition
+1793891750,2026-11-05T15:15:50Z,2026-11-05 09:15:50,3,9,555,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793891509,241,5.76,0,1793889984,1774,pass
+1793891767,2026-11-05T15:16:07Z,2026-11-05 09:16:07,3,9,556,5704,Downtown Campus Connector,874028,4327,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793891829,2026-11-05T15:17:09Z,2026-11-05 09:17:09,3,9,557,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793891750,79,4.83,0,1793889986,1853,transition
+1793891842,2026-11-05T15:17:22Z,2026-11-05 09:17:22,3,9,557,5704,Downtown Campus Connector,874028,4327,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,14,1793892266,172,transition
+1793891858,2026-11-05T15:17:38Z,2026-11-05 09:17:38,3,9,557,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,67,1793890697,1151,proximity
+1793892232,2026-11-05T15:23:52Z,2026-11-05 09:23:52,3,9,563,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793891842,390,4.13,0,1793892378,201,transition
+1793892353,2026-11-05T15:25:53Z,2026-11-05 09:25:53,3,9,565,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793891858,495,4.42,0,1793891787,561,pass
+1793892427,2026-11-05T15:27:07Z,2026-11-05 09:27:07,3,9,567,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793892232,195,6.78,,1793892423,204,proximity
+1793892636,2026-11-05T15:30:36Z,2026-11-05 09:30:36,3,9,570,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793892353,283,4.9,0,1793891789,844,pass
+1793892719,2026-11-05T15:31:59Z,2026-11-05 09:31:59,3,9,571,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793892636,83,4.59,14,1793891791,927,pass
+1793892794,2026-11-05T15:33:14Z,2026-11-05 09:33:14,3,9,573,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793892882,2026-11-05T15:34:42Z,2026-11-05 09:34:42,3,9,574,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,,,,gps
+1793892898,2026-11-05T15:34:58Z,2026-11-05 09:34:58,3,9,574,5704,Downtown Campus Connector,874028,4313,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793891459,1439,0.45,0,,,transition
+1793893028,2026-11-05T15:37:08Z,2026-11-05 09:37:08,3,9,577,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,155005,10294.7,1793891829,1199,8.59,25,,,proximity
+1793893283,2026-11-05T15:41:23Z,2026-11-05 09:41:23,3,9,581,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793893333,2026-11-05T15:42:13Z,2026-11-05 09:42:13,3,9,582,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793893028,305,3.57,230,,,proximity
+1793893355,2026-11-05T15:42:35Z,2026-11-05 09:42:35,3,9,582,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,0,1793892517,834,transition
+1793893399,2026-11-05T15:43:19Z,2026-11-05 09:43:19,3,9,583,5704,Downtown Campus Connector,874028,4313,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793892898,501,5.17,0,1793893935,142,transition
+1793893401,2026-11-05T15:43:21Z,2026-11-05 09:43:21,3,9,583,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793892719,682,12.61,0,,,transition
+1793893450,2026-11-05T15:44:10Z,2026-11-05 09:44:10,3,9,584,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793893355,95,3.98,28,1793892519,929,proximity
+1793893475,2026-11-05T15:44:35Z,2026-11-05 09:44:35,3,9,584,5704,Downtown Campus Connector,874028,4313,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793893399,76,3.62,0,1793893943,168,transition
+1793893507,2026-11-05T15:45:07Z,2026-11-05 09:45:07,3,9,585,5704,Downtown Campus Connector,,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1793893521,2026-11-05T15:45:21Z,2026-11-05 09:45:21,3,9,585,5704,Downtown Campus Connector,874028,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793893450,71,4.81,28,1793892521,1000,proximity
+1793893816,2026-11-05T15:50:16Z,2026-11-05 09:50:16,3,9,590,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793893521,295,6.32,0,1793892523,1295,pass
+1793893844,2026-11-05T15:50:44Z,2026-11-05 09:50:44,3,9,590,5704,Downtown Campus Connector,874028,4313,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793893475,369,4.21,0,1793894025,168,transition
+1793894089,2026-11-05T15:54:49Z,2026-11-05 09:54:49,3,9,594,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793893816,273,5.08,0,1793892525,1568,transition
+1793894094,2026-11-05T15:54:54Z,2026-11-05 09:54:54,3,9,594,5704,Downtown Campus Connector,874028,4313,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793893844,250,5.29,39,1793894042,170,proximity
+1793894159,2026-11-05T15:55:59Z,2026-11-05 09:55:59,3,9,595,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793894089,70,5.45,0,1793892527,1638,transition
+1793894178,2026-11-05T15:56:18Z,2026-11-05 09:56:18,3,9,596,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,132965,2872.6,1793893401,777,3.7,0,,,pass
+1793894500,2026-11-05T16:01:40Z,2026-11-05 10:01:40,3,10,601,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,32,1793893553,947,proximity
+1793894588,2026-11-05T16:03:08Z,2026-11-05 10:03:08,3,10,603,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,47,1793895044,184,proximity
+1793894593,2026-11-05T16:03:13Z,2026-11-05 10:03:13,3,10,603,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793894500,93,3.39,74,1793893555,1040,proximity
+1793894679,2026-11-05T16:04:39Z,2026-11-05 10:04:39,3,10,604,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793894588,91,6.25,52,1793895033,161,proximity
+1793894752,2026-11-05T16:05:52Z,2026-11-05 10:05:52,3,10,605,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793894159,593,14.2,14,,,proximity
+1793894942,2026-11-05T16:09:02Z,2026-11-05 10:09:02,3,10,609,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,,,,gps
+1793894971,2026-11-05T16:09:31Z,2026-11-05 10:09:31,3,10,609,5704,Downtown Campus Connector,874028,4313,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793894094,877,13.99,,1793894125,875,transition
+1793894982,2026-11-05T16:09:42Z,2026-11-05 10:09:42,3,10,609,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793894593,389,5.35,0,1793893557,1429,pass
+1793895020,2026-11-05T16:10:20Z,2026-11-05 10:10:20,3,10,610,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,,,,gps
+1793895021,2026-11-05T16:10:21Z,2026-11-05 10:10:21,3,10,610,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,65,1793895303,192,proximity
+1793895081,2026-11-05T16:11:21Z,2026-11-05 10:11:21,3,10,611,5704,Downtown Campus Connector,874028,4313,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793894971,110,3.43,25,1793894113,985,proximity
+1793895121,2026-11-05T16:12:01Z,2026-11-05 10:12:01,3,10,612,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,,,,,,,,,gps
+1793895161,2026-11-05T16:12:41Z,2026-11-05 10:12:41,3,10,612,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,,,,,,,1793891683,3491,transition
+1793895186,2026-11-05T16:13:06Z,2026-11-05 10:13:06,3,10,613,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,,,,,,0,1793891675,3516,transition
+1793895203,2026-11-05T16:13:23Z,2026-11-05 10:13:23,3,10,613,5704,Downtown Campus Connector,,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,,,,,,,,,gps
+1793895230,2026-11-05T16:13:50Z,2026-11-05 10:13:50,3,10,613,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,140009,13064.0,1793895186,44,,25,,,transition
+1793895274,2026-11-05T16:14:34Z,2026-11-05 10:14:34,3,10,614,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793895021,253,7.04,92,1793895212,238,proximity
+1793895330,2026-11-05T16:15:30Z,2026-11-05 10:15:30,3,10,615,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,,,,,,,,,gps
+1793895400,2026-11-05T16:16:40Z,2026-11-05 10:16:40,3,10,616,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793895540,2026-11-05T16:19:00Z,2026-11-05 10:19:00,3,10,619,5704,Downtown Campus Connector,874028,12643,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793895230,310,2.28,0,,,transition
+1793895675,2026-11-05T16:21:15Z,2026-11-05 10:21:15,3,10,621,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132963,6392.6,1793894178,1497,4.27,84,1793895597,217,proximity
+1793896013,2026-11-05T16:26:53Z,2026-11-05 10:26:53,3,10,626,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,140009,10191.4,1793894982,1031,9.88,34,,,pass
+1793896053,2026-11-05T16:27:33Z,2026-11-05 10:27:33,3,10,627,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793895540,513,5.05,13,1793896536,225,transition
+1793896143,2026-11-05T16:29:03Z,2026-11-05 10:29:03,3,10,629,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793896053,90,3.57,34,1793896537,136,transition
+1793896309,2026-11-05T16:31:49Z,2026-11-05 10:31:49,3,10,631,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,48,1793895340,971,proximity
+1793896394,2026-11-05T16:33:14Z,2026-11-05 10:33:14,3,10,633,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793896309,85,5.59,24,1793895342,1056,proximity
+1793896441,2026-11-05T16:34:01Z,2026-11-05 10:34:01,3,10,634,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793896143,298,5.88,45,1793896831,197,proximity
+1793896500,2026-11-05T16:35:00Z,2026-11-05 10:35:00,3,10,635,5704,Downtown Campus Connector,874028,4315,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,,,,,,0,,,pass
+1793904040,2026-11-05T18:40:40Z,2026-11-05 12:40:40,3,12,760,5704,Downtown Campus Connector,874028,4325,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,33,,,proximity
+1793904083,2026-11-05T18:41:23Z,2026-11-05 12:41:23,3,12,761,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,,,,,,0,,,pass
+1793904127,2026-11-05T18:42:07Z,2026-11-05 12:42:07,3,12,762,5704,Downtown Campus Connector,874028,4325,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793904040,87,3.83,22,1793903967,145,proximity
+1793904199,2026-11-05T18:43:19Z,2026-11-05 12:43:19,3,12,763,5704,Downtown Campus Connector,874028,12646,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,0,1793903373,830,transition
+1793904264,2026-11-05T18:44:24Z,2026-11-05 12:44:24,3,12,764,5704,Downtown Campus Connector,874028,12646,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793904199,65,5.81,25,1793903375,895,proximity
+1793904328,2026-11-05T18:45:28Z,2026-11-05 12:45:28,3,12,765,5704,Downtown Campus Connector,874028,12646,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793904264,64,5.3,0,1793903377,959,transition
+1793904332,2026-11-05T18:45:32Z,2026-11-05 12:45:32,3,12,765,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793904083,249,5.57,0,,,pass
+1793904381,2026-11-05T18:46:21Z,2026-11-05 12:46:21,3,12,766,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,6,1793904961,157,proximity
+1793904422,2026-11-05T18:47:02Z,2026-11-05 12:47:02,3,12,767,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793904332,90,4.24,0,,,pass
+1793904513,2026-11-05T18:48:33Z,2026-11-05 12:48:33,3,12,768,5704,Downtown Campus Connector,874028,12648,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793904557,2026-11-05T18:49:17Z,2026-11-05 12:49:17,3,12,769,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793904381,176,1.62,29,1793904994,152,proximity
+1793904673,2026-11-05T18:51:13Z,2026-11-05 12:51:13,3,12,771,5704,Downtown Campus Connector,874028,4315,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,0,1793907446,207,transition
+1793904918,2026-11-05T18:55:18Z,2026-11-05 12:55:18,3,12,775,5704,Downtown Campus Connector,874028,12648,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,0,1793904782,211,transition
+1793904928,2026-11-05T18:55:28Z,2026-11-05 12:55:28,3,12,775,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793904557,371,4.54,73,1793905065,221,proximity
+1793905167,2026-11-05T18:59:27Z,2026-11-05 12:59:27,3,12,779,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793904422,745,11.3,68,,,pass
+1793905237,2026-11-05T19:00:37Z,2026-11-05 13:00:37,3,13,780,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793904928,309,5.6,23,1793905174,230,proximity
+1793905456,2026-11-05T19:04:16Z,2026-11-05 13:04:16,3,13,784,5704,Downtown Campus Connector,874028,4315,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,8,1793908570,147,proximity
+1793905532,2026-11-05T19:05:32Z,2026-11-05 13:05:32,3,13,785,5704,Downtown Campus Connector,874028,4315,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793905456,76,3.04,672,1793908533,163,transition
+1793905642,2026-11-05T19:07:22Z,2026-11-05 13:07:22,3,13,787,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793905167,475,4.6,30,,,pass
+1793905893,2026-11-05T19:11:33Z,2026-11-05 13:11:33,3,13,791,5704,Downtown Campus Connector,874028,12648,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793904918,975,12.03,,1793904946,886,transition
+1793905907,2026-11-05T19:11:47Z,2026-11-05 13:11:47,3,13,791,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793905642,265,4.25,50,,,pass
+1793905981,2026-11-05T19:13:01Z,2026-11-05 13:13:01,3,13,793,5704,Downtown Campus Connector,874028,12648,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793905894,87,4.34,0,1793904934,974,transition
+1793906065,2026-11-05T19:14:25Z,2026-11-05 13:14:25,3,13,794,5704,Downtown Campus Connector,874028,12648,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793905981,84,2.46,0,1793904936,1058,transition
+1793906236,2026-11-05T19:17:16Z,2026-11-05 13:17:16,3,13,797,5704,Downtown Campus Connector,874028,12647,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,,,,,,,,,gps
+1793906275,2026-11-05T19:17:55Z,2026-11-05 13:17:55,3,13,797,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793905237,1038,11.55,,1793905271,1027,transition
+1793906380,2026-11-05T19:19:40Z,2026-11-05 13:19:40,3,13,799,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793906275,105,3.6,24,1793905259,1132,proximity
+1793906456,2026-11-05T19:20:56Z,2026-11-05 13:20:56,3,13,800,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793906380,76,3.98,75,1793905261,1208,proximity
+1793906834,2026-11-05T19:27:14Z,2026-11-05 13:27:14,3,13,807,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793906456,378,5.57,23,1793905263,1586,proximity
+1793907070,2026-11-05T19:31:10Z,2026-11-05 13:31:10,3,13,811,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793906834,236,6.52,0,1793905265,1822,transition
+1793907092,2026-11-05T19:31:32Z,2026-11-05 13:31:32,3,13,811,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,,,,gps
+1793907130,2026-11-05T19:32:10Z,2026-11-05 13:32:10,3,13,812,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,,,,,,0,,,transition
+1793907140,2026-11-05T19:32:20Z,2026-11-05 13:32:20,3,13,812,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793907130,10,,0,,,transition
+1793907142,2026-11-05T19:32:22Z,2026-11-05 13:32:22,3,13,812,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793907070,72,5.3,0,1793905267,1894,transition
+1793907152,2026-11-05T19:32:32Z,2026-11-05 13:32:32,3,13,812,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793907140,12,,0,,,transition
+1793907332,2026-11-05T19:35:32Z,2026-11-05 13:35:32,3,13,815,5704,Downtown Campus Connector,,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793907384,2026-11-05T19:36:24Z,2026-11-05 13:36:24,3,13,816,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132963,18118.9,1793907152,232,,,1793905884,2677,transition
+1793907463,2026-11-05T19:37:43Z,2026-11-05 13:37:43,3,13,817,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,5,1793905870,2756,proximity
+1793907523,2026-11-05T19:38:43Z,2026-11-05 13:38:43,3,13,818,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793907463,60,3.76,8,1793905872,2816,proximity
+1793907627,2026-11-05T19:40:27Z,2026-11-05 13:40:27,3,13,820,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,0,,,transition
+1793907646,2026-11-05T19:40:46Z,2026-11-05 13:40:46,3,13,820,5704,Downtown Campus Connector,,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1793907705,2026-11-05T19:41:45Z,2026-11-05 13:41:45,3,13,821,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793907627,78,2.65,39,,,proximity
+1793907833,2026-11-05T19:43:53Z,2026-11-05 13:43:53,3,13,823,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793907523,310,5.59,40,1793905874,3126,proximity
+1793907849,2026-11-05T19:44:09Z,2026-11-05 13:44:09,3,13,824,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793907142,707,11.91,0,,,transition
+1793908042,2026-11-05T19:47:22Z,2026-11-05 13:47:22,3,13,827,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793907705,337,5.66,27,,,transition
+1793908065,2026-11-05T19:47:45Z,2026-11-05 13:47:45,3,13,827,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793907833,232,7.23,45,1793905876,3358,proximity
+1793908294,2026-11-05T19:51:34Z,2026-11-05 13:51:34,3,13,831,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793908062,232,2.07,0,1793905878,3587,transition
+1793908313,2026-11-05T19:51:53Z,2026-11-05 13:51:53,3,13,831,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793908042,271,5.12,0,,,transition
+1793908376,2026-11-05T19:52:56Z,2026-11-05 13:52:56,3,13,832,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793907859,517,3.62,42,,,proximity
+1793908385,2026-11-05T19:53:05Z,2026-11-05 13:53:05,3,13,833,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793908313,72,5.3,0,,,transition
+1793908684,2026-11-05T19:58:04Z,2026-11-05 13:58:04,3,13,838,5704,Downtown Campus Connector,874028,12647,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,200,1793907719,957,proximity
+1793908876,2026-11-05T20:01:16Z,2026-11-05 14:01:16,3,14,841,5704,Downtown Campus Connector,874028,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,,,,,,38,1793908696,176,proximity
+1793908920,2026-11-05T20:02:00Z,2026-11-05 14:02:00,3,14,842,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793908294,626,13.45,14,,,transition
+1793909004,2026-11-05T20:03:24Z,2026-11-05 14:03:24,3,14,843,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793908684,320,3.15,50,1793907721,1277,proximity
+1793909022,2026-11-05T20:03:42Z,2026-11-05 14:03:42,3,14,843,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793908385,637,13.22,35,,,proximity
+1793909246,2026-11-05T20:07:26Z,2026-11-05 14:07:26,3,14,847,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793908876,370,5.08,23,1793908818,423,transition
+1793909321,2026-11-05T20:08:41Z,2026-11-05 14:08:41,3,14,848,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,,,,,,,,,gps
+1793909400,2026-11-05T20:10:00Z,2026-11-05 14:10:00,3,14,850,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793909022,378,5.48,52,,,proximity
+1793909446,2026-11-05T20:10:46Z,2026-11-05 14:10:46,3,14,850,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793909004,442,0.53,80,1793907723,1719,proximity
+1793909508,2026-11-05T20:11:48Z,2026-11-05 14:11:48,3,14,851,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793909246,262,5.81,45,1793908820,685,proximity
+1793909556,2026-11-05T20:12:36Z,2026-11-05 14:12:36,3,14,852,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,,,,,,,,,gps
+1793909636,2026-11-05T20:13:56Z,2026-11-05 14:13:56,3,14,853,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793909508,128,4.59,0,1793908822,813,transition
+1793909804,2026-11-05T20:16:44Z,2026-11-05 14:16:44,3,14,856,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793909446,358,6.07,0,1793907725,2077,pass
+1793910050,2026-11-05T20:20:50Z,2026-11-05 14:20:50,3,14,860,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793909804,246,5.64,38,1793907727,2323,pass
+1793910183,2026-11-05T20:23:03Z,2026-11-05 14:23:03,3,14,863,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793910050,133,4.01,0,1793907729,2456,pass
+1793910297,2026-11-05T20:24:57Z,2026-11-05 14:24:57,3,14,864,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793909636,661,12.74,0,,,transition
+1793910674,2026-11-05T20:31:14Z,2026-11-05 14:31:14,3,14,871,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793910297,377,4.97,26,,,proximity
+1793910714,2026-11-05T20:31:54Z,2026-11-05 14:31:54,3,14,871,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793909400,1314,0.79,0,,,transition
+1793910752,2026-11-05T20:32:32Z,2026-11-05 14:32:32,3,14,872,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,,,,,,0,,,transition
+1793910790,2026-11-05T20:33:10Z,2026-11-05 14:33:10,3,14,873,5704,Downtown Campus Connector,874028,4320,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1793910818,2026-11-05T20:33:38Z,2026-11-05 14:33:38,3,14,873,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,,,,,,46,,,pass
+1793911319,2026-11-05T20:41:59Z,2026-11-05 14:41:59,3,14,881,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793910818,501,4.12,20,,,proximity
+1793911359,2026-11-05T20:42:39Z,2026-11-05 14:42:39,3,14,882,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793910752,607,4.27,4,,,transition
+1793911542,2026-11-05T20:45:42Z,2026-11-05 14:45:42,3,14,885,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793911359,183,1.54,0,1793910154,2842,transition
+1793911681,2026-11-05T20:48:01Z,2026-11-05 14:48:01,3,14,888,5704,Downtown Campus Connector,874028,12643,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,,,,,,0,,,transition
+1793911872,2026-11-05T20:51:12Z,2026-11-05 14:51:12,3,14,891,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793911542,330,4.71,15,1793912013,149,transition
+1793911874,2026-11-05T20:51:14Z,2026-11-05 14:51:14,3,14,891,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,780,1793912931,812,proximity
+1793911933,2026-11-05T20:52:13Z,2026-11-05 14:52:13,3,14,892,5704,Downtown Campus Connector,874028,4320,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,48,1793910806,1125,proximity
+1793912029,2026-11-05T20:53:49Z,2026-11-05 14:53:49,3,14,893,5704,Downtown Campus Connector,874028,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793911933,96,4.31,46,1793911840,186,proximity
+1793912170,2026-11-05T20:56:10Z,2026-11-05 14:56:10,3,14,896,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793911872,298,4.67,73,1793912110,207,proximity
+1793912302,2026-11-05T20:58:22Z,2026-11-05 14:58:22,3,14,898,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793911681,621,4.17,16,,,proximity
+1793912371,2026-11-05T20:59:31Z,2026-11-05 14:59:31,3,14,899,5704,Downtown Campus Connector,874028,12643,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793912302,69,5.19,37,1793910816,3610,proximity
+1793912414,2026-11-05T21:00:14Z,2026-11-05 15:00:14,3,15,900,5704,Downtown Campus Connector,874028,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793912029,385,4.98,49,1793911842,571,proximity
+1793912604,2026-11-05T21:03:24Z,2026-11-05 15:03:24,3,15,903,5704,Downtown Campus Connector,874028,4327,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,,,,,,18,,,proximity
+1793912711,2026-11-05T21:05:11Z,2026-11-05 15:05:11,3,15,905,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793912371,340,5.13,0,1793912900,136,transition
+1793912722,2026-11-05T21:05:22Z,2026-11-05 15:05:22,3,15,905,5704,Downtown Campus Connector,874028,4320,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793912414,308,5.36,12,1793911844,879,transition
+1793912763,2026-11-05T21:06:03Z,2026-11-05 15:06:03,3,15,906,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793911874,889,3.47,26,1793912933,1701,proximity
+1793912806,2026-11-05T21:06:46Z,2026-11-05 15:06:46,3,15,906,5704,Downtown Campus Connector,874028,4320,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793912722,84,5.3,18,1793911846,963,proximity
+1793912835,2026-11-05T21:07:15Z,2026-11-05 15:07:15,3,15,907,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793912763,72,4.49,34,1793912686,140,proximity
+1793912869,2026-11-05T21:07:49Z,2026-11-05 15:07:49,3,15,907,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,,,,,,0,,,pass
+1793912899,2026-11-05T21:08:19Z,2026-11-05 15:08:19,3,15,908,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793912711,188,7.04,185,1793912961,204,transition
+1793913179,2026-11-05T21:12:59Z,2026-11-05 15:12:59,3,15,912,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793912835,344,5.44,72,1793912688,484,transition
+1793913287,2026-11-05T21:14:47Z,2026-11-05 15:14:47,3,15,914,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793912170,1117,11.23,4,1793912221,1084,proximity
+1793913335,2026-11-05T21:15:35Z,2026-11-05 15:15:35,3,15,915,5704,Downtown Campus Connector,874028,4327,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,132964,2866.5,1793912604,731,4.02,8,1793913882,220,pass
+1793913436,2026-11-05T21:17:16Z,2026-11-05 15:17:16,3,15,917,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,25,1793912209,1233,proximity
+1793913526,2026-11-05T21:18:46Z,2026-11-05 15:18:46,3,15,918,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793913436,90,3.18,25,1793912211,1323,proximity
+1793913529,2026-11-05T21:18:49Z,2026-11-05 15:18:49,3,15,918,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793913179,350,4.99,5,1793912690,834,proximity
+1793913616,2026-11-05T21:20:16Z,2026-11-05 15:20:16,3,15,920,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793913529,87,4.65,0,1793912692,921,transition
+1793913680,2026-11-05T21:21:20Z,2026-11-05 15:21:20,3,15,921,5704,Downtown Campus Connector,874028,4320,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793912806,874,9.84,44,,,proximity
+1793913740,2026-11-05T21:22:20Z,2026-11-05 15:22:20,3,15,922,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793913335,405,3.91,66,1793913969,195,pass
+1793913904,2026-11-05T21:25:04Z,2026-11-05 15:25:04,3,15,925,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,,,,gps
+1793913936,2026-11-05T21:25:36Z,2026-11-05 15:25:36,3,15,925,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793913526,410,4.38,41,1793912213,1733,transition
+1793913982,2026-11-05T21:26:22Z,2026-11-05 15:26:22,3,15,926,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793913740,242,7.51,44,1793914020,189,pass
+1793914016,2026-11-05T21:26:56Z,2026-11-05 15:26:56,3,15,926,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,,,,,,,1793912909,1141,transition
+1793914174,2026-11-05T21:29:34Z,2026-11-05 15:29:34,3,15,929,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793914016,158,2.39,50,1793912897,1299,transition
+1793914258,2026-11-05T21:30:58Z,2026-11-05 15:30:58,3,15,930,5704,Downtown Campus Connector,874028,4320,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793913680,578,3.51,29,,,proximity
+1793914261,2026-11-05T21:31:01Z,2026-11-05 15:31:01,3,15,931,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793913936,325,4.89,0,1793912215,2058,transition
+1793914274,2026-11-05T21:31:14Z,2026-11-05 15:31:14,3,15,931,5704,Downtown Campus Connector,,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,,,,gps
+1793914282,2026-11-05T21:31:22Z,2026-11-05 15:31:22,3,15,931,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793914174,108,3.56,35,1793912899,1407,proximity
+1793914335,2026-11-05T21:32:15Z,2026-11-05 15:32:15,3,15,932,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793914261,74,5.15,30,1793912217,2132,proximity
+1793914372,2026-11-05T21:32:52Z,2026-11-05 15:32:52,3,15,932,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793913616,756,11.14,0,,,transition
+1793914509,2026-11-05T21:35:09Z,2026-11-05 15:35:09,3,15,935,5704,Downtown Campus Connector,874028,4320,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793914258,251,4.39,620,,,proximity
+1793914583,2026-11-05T21:36:23Z,2026-11-05 15:36:23,3,15,936,5704,Downtown Campus Connector,,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,,,,,,,,,gps
+1793914778,2026-11-05T21:39:38Z,2026-11-05 15:39:38,3,15,939,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793914372,406,4.61,0,,,transition
+1793914796,2026-11-05T21:39:56Z,2026-11-05 15:39:56,3,15,939,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793914282,514,3.52,30,1793912901,1921,transition
+1793914994,2026-11-05T21:43:14Z,2026-11-05 15:43:14,3,15,943,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793914335,659,13.28,0,,,transition
+1793915002,2026-11-05T21:43:22Z,2026-11-05 15:43:22,3,15,943,5704,Downtown Campus Connector,874028,4327,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793913982,1020,12.06,,1793914030,969,transition
+1793915099,2026-11-05T21:44:59Z,2026-11-05 15:44:59,3,15,944,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793914796,303,5.18,34,1793912903,2224,proximity
+1793915130,2026-11-05T21:45:30Z,2026-11-05 15:45:30,3,15,945,5704,Downtown Campus Connector,874028,4327,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793915002,128,2.95,20,1793914018,1097,pass
+1793915233,2026-11-05T21:47:13Z,2026-11-05 15:47:13,3,15,947,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793915099,134,3.81,18,1793912905,2358,proximity
+1793915570,2026-11-05T21:52:50Z,2026-11-05 15:52:50,3,15,952,5704,Downtown Campus Connector,874028,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8654,1893.5,1793915130,440,4.51,0,1793914022,1537,pass
+1793915730,2026-11-05T21:55:30Z,2026-11-05 15:55:30,3,15,955,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793914778,952,1.05,85,,,proximity
+1793915888,2026-11-05T21:58:08Z,2026-11-05 15:58:08,3,15,958,5704,Downtown Campus Connector,874028,4327,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793915570,318,4.36,61,1793914024,1855,transition
+1793915958,2026-11-05T21:59:18Z,2026-11-05 15:59:18,3,15,959,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,155006,1649.8,1793914778,1180,1.4,0,,,transition
+1793916046,2026-11-05T22:00:46Z,2026-11-05 16:00:46,3,16,960,5704,Downtown Campus Connector,874028,4327,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793915888,158,3.93,0,1793914026,2013,transition
+1793916111,2026-11-05T22:01:51Z,2026-11-05 16:01:51,3,16,961,5704,Downtown Campus Connector,874028,4320,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,3,,,proximity
+1793916153,2026-11-05T22:02:33Z,2026-11-05 16:02:33,3,16,962,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,151,1793914638,1523,proximity
+1793916179,2026-11-05T22:02:59Z,2026-11-05 16:02:59,3,16,962,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793915233,946,9.08,80,,,proximity
+1793916371,2026-11-05T22:06:11Z,2026-11-05 16:06:11,3,16,966,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793916153,218,3.09,30,1793916078,284,transition
+1793916490,2026-11-05T22:08:10Z,2026-11-05 16:08:10,3,16,968,5704,Downtown Campus Connector,874028,4320,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151792,1828.7,1793916111,379,4.86,141,1793917396,164,pass
+1793916760,2026-11-05T22:12:40Z,2026-11-05 16:12:40,3,16,972,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793916371,389,4.7,39,1793916080,673,proximity
+1793916835,2026-11-05T22:13:55Z,2026-11-05 16:13:55,3,16,973,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793916179,656,3.25,29,,,proximity
+1793916919,2026-11-05T22:15:19Z,2026-11-05 16:15:19,3,16,975,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793915958,961,2.7,0,,,transition
+1793916929,2026-11-05T22:15:29Z,2026-11-05 16:15:29,3,16,975,5704,Downtown Campus Connector,874028,4320,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793916490,439,4.44,81,1793916849,239,pass
+1793917033,2026-11-05T22:17:13Z,2026-11-05 16:17:13,3,16,977,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793916919,114,2.41,82,1793917165,1067,transition
+1793917052,2026-11-05T22:17:32Z,2026-11-05 16:17:32,3,16,977,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793916760,292,5.49,50,1793916082,965,proximity
+1793917108,2026-11-05T22:18:28Z,2026-11-05 16:18:28,3,16,978,5704,Downtown Campus Connector,874028,4327,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793916046,1062,7.93,8,,,proximity
+1793917210,2026-11-05T22:20:10Z,2026-11-05 16:20:10,3,16,980,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793917052,158,3.53,25,1793916084,1123,proximity
+1793917453,2026-11-05T22:24:13Z,2026-11-05 16:24:13,3,16,984,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793917033,420,4.6,40,1793918230,165,proximity
+1793917622,2026-11-05T22:27:02Z,2026-11-05 16:27:02,3,16,987,5704,Downtown Campus Connector,874028,4327,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793917108,514,3.7,0,,,transition
+1793917759,2026-11-05T22:29:19Z,2026-11-05 16:29:19,3,16,989,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793917453,306,4.97,66,1793917736,173,proximity
+1793917936,2026-11-05T22:32:16Z,2026-11-05 16:32:16,3,16,992,5704,Downtown Campus Connector,874028,4327,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793917622,314,3.18,48,,,transition
+1793918308,2026-11-05T22:38:28Z,2026-11-05 16:38:28,3,16,998,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793917210,1098,7.85,56,,,proximity
+1793918461,2026-11-05T22:41:01Z,2026-11-05 16:41:01,3,16,1001,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,,,,,,99,1793917424,2495,pass
+1793918638,2026-11-05T22:43:58Z,2026-11-05 16:43:58,3,16,1003,5704,Downtown Campus Connector,874028,4320,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,,,,gps
+1793918929,2026-11-05T22:48:49Z,2026-11-05 16:48:49,3,16,1008,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793918461,468,4.21,74,1793919630,230,pass
+1793918955,2026-11-05T22:49:15Z,2026-11-05 16:49:15,3,16,1009,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793917759,1196,10.38,,1793917835,1128,transition
+1793919137,2026-11-05T22:52:17Z,2026-11-05 16:52:17,3,16,1012,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793918955,182,2.08,174,1793917823,1310,proximity
+1793919177,2026-11-05T22:52:57Z,2026-11-05 16:52:57,3,16,1012,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793918308,869,2.3,0,,,transition
+1793919289,2026-11-05T22:54:49Z,2026-11-05 16:54:49,3,16,1014,5704,Downtown Campus Connector,874028,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,,,,,,,,,gps
+1793919376,2026-11-05T22:56:16Z,2026-11-05 16:56:16,3,16,1016,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793919137,239,3.18,35,1793918996,374,transition
+1793919441,2026-11-05T22:57:21Z,2026-11-05 16:57:21,3,16,1017,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793918929,512,3.02,140,1793919383,192,pass
+1793919505,2026-11-05T22:58:25Z,2026-11-05 16:58:25,3,16,1018,5704,Downtown Campus Connector,874028,12647,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793919177,328,3.05,0,,,transition
+1793919578,2026-11-05T22:59:38Z,2026-11-05 16:59:38,3,16,1019,5704,Downtown Campus Connector,874028,4320,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,,,,,,,,,gps
+1793919740,2026-11-05T23:02:20Z,2026-11-05 17:02:20,3,17,1022,5704,Downtown Campus Connector,874028,4320,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,,,,,,6,1793918438,1310,pass
+1793919810,2026-11-05T23:03:30Z,2026-11-05 17:03:30,3,17,1023,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793919376,434,4.23,25,1793918998,808,proximity
+1793919816,2026-11-05T23:03:36Z,2026-11-05 17:03:36,3,17,1023,5704,Downtown Campus Connector,874028,4327,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,,,,,,65,,,transition
+1793920140,2026-11-05T23:09:00Z,2026-11-05 17:09:00,3,17,1029,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,,,,,,75,1793920290,162,pass
+1793920198,2026-11-05T23:09:58Z,2026-11-05 17:09:58,3,17,1029,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793919810,388,3.82,16,1793919000,1196,proximity
+1793920354,2026-11-05T23:12:34Z,2026-11-05 17:12:34,3,17,1032,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793920198,156,2.72,19,1793919002,1352,proximity
+1793920571,2026-11-05T23:16:11Z,2026-11-05 17:16:11,3,17,1036,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793920140,431,3.72,89,1793920524,171,pass
+1793920582,2026-11-05T23:16:22Z,2026-11-05 17:16:22,3,17,1036,5704,Downtown Campus Connector,874028,12647,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793919505,1077,0.6,0,,,transition
+1793920908,2026-11-05T23:21:48Z,2026-11-05 17:21:48,3,17,1041,5704,Downtown Campus Connector,874028,4320,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793919740,1168,7.25,73,,,pass
+1793920966,2026-11-05T23:22:46Z,2026-11-05 17:22:46,3,17,1042,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,,,,,,,1793919565,1412,transition
+1793921158,2026-11-05T23:25:58Z,2026-11-05 17:25:58,3,17,1045,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793920966,192,1.97,104,1793919553,1604,proximity
+1793921318,2026-11-05T23:28:38Z,2026-11-05 17:28:38,3,17,1048,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793921158,160,3.69,64,1793920996,314,proximity
+1793921429,2026-11-05T23:30:29Z,2026-11-05 17:30:29,3,17,1050,5704,Downtown Campus Connector,874028,4327,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,0,1793921886,193,transition
+1793921481,2026-11-05T23:31:21Z,2026-11-05 17:31:21,3,17,1051,5704,Downtown Campus Connector,874028,4327,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793921429,52,5.29,40,1793921938,176,transition
+1793921513,2026-11-05T23:31:53Z,2026-11-05 17:31:53,3,17,1051,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793920354,1159,7.39,0,,,transition
+1793921727,2026-11-05T23:35:27Z,2026-11-05 17:35:27,3,17,1055,5704,Downtown Campus Connector,874028,4320,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793920908,819,2.51,72,,,pass
+1793921783,2026-11-05T23:36:23Z,2026-11-05 17:36:23,3,17,1056,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793921318,465,4.21,80,1793920998,779,transition
+1793921982,2026-11-05T23:39:42Z,2026-11-05 17:39:42,3,17,1059,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793920571,1411,8.87,,1793920653,1349,transition
+1793922037,2026-11-05T23:40:37Z,2026-11-05 17:40:37,3,17,1060,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793920582,1455,1.78,0,1793922513,138,transition
+1793922085,2026-11-05T23:41:25Z,2026-11-05 17:41:25,3,17,1061,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793921783,302,6.25,0,1793921000,1081,transition
+1793922124,2026-11-05T23:42:04Z,2026-11-05 17:42:04,3,17,1062,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793922037,87,3.16,28,1793922575,167,pass
+1793922159,2026-11-05T23:42:39Z,2026-11-05 17:42:39,3,17,1062,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793921972,187,2.02,75,1793920643,1526,proximity
+1793922161,2026-11-05T23:42:41Z,2026-11-05 17:42:41,3,17,1062,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793922085,76,5.02,0,1793921002,1157,transition
+1793922274,2026-11-05T23:44:34Z,2026-11-05 17:44:34,3,17,1064,5704,Downtown Campus Connector,874028,4327,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793921481,793,2.06,0,1793922447,129,transition
+1793922293,2026-11-05T23:44:53Z,2026-11-05 17:44:53,3,17,1064,5704,Downtown Campus Connector,874028,12643,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793922159,134,3.5,30,1793922076,207,proximity
+1793922395,2026-11-05T23:46:35Z,2026-11-05 17:46:35,3,17,1066,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793921513,882,2.12,16,,,proximity
+1793922497,2026-11-05T23:48:17Z,2026-11-05 17:48:17,3,17,1068,5704,Downtown Campus Connector,874028,4320,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,,,,,,15,,,proximity
+1793922549,2026-11-05T23:49:09Z,2026-11-05 17:49:09,3,17,1069,5704,Downtown Campus Connector,874028,4327,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793922274,275,4.81,101,1793922511,167,proximity
+1793922675,2026-11-05T23:51:15Z,2026-11-05 17:51:15,3,17,1071,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793922124,551,2.97,25,1793922821,164,pass
+1793922730,2026-11-05T23:52:10Z,2026-11-05 17:52:10,3,17,1072,5704,Downtown Campus Connector,874028,12643,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793922293,437,4.14,30,1793922078,644,proximity
+1793922883,2026-11-05T23:54:43Z,2026-11-05 17:54:43,3,17,1074,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793922395,488,2.12,28,,,proximity
+1793922975,2026-11-05T23:56:15Z,2026-11-05 17:56:15,3,17,1076,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793922675,300,4.81,49,1793922950,162,pass
+1793923024,2026-11-05T23:57:04Z,2026-11-05 17:57:04,3,17,1077,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793922730,294,5.26,28,1793922080,938,proximity
+1793923140,2026-11-05T23:59:00Z,2026-11-05 17:59:00,3,17,1079,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793922161,979,8.6,62,,,proximity
+1793923142,2026-11-05T23:59:02Z,2026-11-05 17:59:02,3,17,1079,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793922883,259,2.81,0,,,transition
+1793923149,2026-11-05T23:59:09Z,2026-11-05 17:59:09,3,17,1079,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793923024,125,3.93,10,1793922082,1063,proximity
+1793923881,2026-11-06T00:11:21Z,2026-11-05 18:11:21,3,18,1091,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793923132,749,3.46,0,1793924431,157,transition
+1793923984,2026-11-06T00:13:04Z,2026-11-05 18:13:04,3,18,1093,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793923881,103,2.67,0,1793924408,144,transition
+1793924157,2026-11-06T00:15:57Z,2026-11-05 18:15:57,3,18,1095,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793923140,1017,1.96,100,,,proximity
+1793924237,2026-11-06T00:17:17Z,2026-11-05 18:17:17,3,18,1097,5704,Downtown Campus Connector,874028,4320,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,,1793924849,1239,proximity
+1793924267,2026-11-06T00:17:47Z,2026-11-05 18:17:47,3,18,1097,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793923984,283,5.49,35,1793924470,186,proximity
+1793924479,2026-11-06T00:21:19Z,2026-11-05 18:21:19,3,18,1101,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,,,,gps
+1793924554,2026-11-06T00:22:34Z,2026-11-05 18:22:34,3,18,1102,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793924267,287,5.25,0,1793924524,162,transition
+1793924675,2026-11-06T00:24:35Z,2026-11-05 18:24:35,3,18,1104,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793924157,518,2.39,41,,,transition
+1793925170,2026-11-06T00:32:50Z,2026-11-05 18:32:50,3,18,1112,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,,,,,,,,,gps
+1793925418,2026-11-06T00:36:58Z,2026-11-05 18:36:58,3,18,1116,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793924675,743,0.93,5,,,transition
+1793925429,2026-11-06T00:37:09Z,2026-11-05 18:37:09,3,18,1117,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,,,,,,,,,gps
+1793925569,2026-11-06T00:39:29Z,2026-11-05 18:39:29,3,18,1119,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,,,,,,21,1793924385,1177,pass
+1793925646,2026-11-06T00:40:46Z,2026-11-05 18:40:46,3,18,1120,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793924554,1092,10.74,,1793924582,1081,transition
+1793925738,2026-11-06T00:42:18Z,2026-11-05 18:42:18,3,18,1122,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793925646,92,4.11,240,1793924570,1173,pass
+1793926025,2026-11-06T00:47:05Z,2026-11-05 18:47:05,3,18,1127,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793925738,287,4.4,35,1793925661,364,proximity
+1793926033,2026-11-06T00:47:13Z,2026-11-05 18:47:13,3,18,1127,5704,Downtown Campus Connector,874028,4315,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,,,,,,0,,,pass
+1793926305,2026-11-06T00:51:45Z,2026-11-05 18:51:45,3,18,1131,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,132964,2866.5,1793925418,887,3.25,0,1793926830,210,pass
+1793926384,2026-11-06T00:53:04Z,2026-11-05 18:53:04,3,18,1133,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793926025,359,5.21,50,1793925663,723,proximity
+1793926466,2026-11-06T00:54:26Z,2026-11-05 18:54:26,3,18,1134,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793925569,897,9.61,40,,,pass
+1793926598,2026-11-06T00:56:38Z,2026-11-05 18:56:38,3,18,1136,5704,Downtown Campus Connector,874028,4315,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793926033,565,3.31,0,,,transition
+1793926667,2026-11-06T00:57:47Z,2026-11-05 18:57:47,3,18,1137,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793926305,362,4.29,30,1793926808,157,pass
+1793926675,2026-11-06T00:57:55Z,2026-11-05 18:57:55,3,18,1137,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793926384,291,5.76,15,1793925665,1014,proximity
+1793926771,2026-11-06T00:59:31Z,2026-11-05 18:59:31,3,18,1139,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793926675,96,4.71,0,1793925667,1110,transition
+1793926946,2026-11-06T01:02:26Z,2026-11-05 19:02:26,3,19,1142,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,,,,,,0,,,transition
+1793926955,2026-11-06T01:02:35Z,2026-11-05 19:02:35,3,19,1142,5704,Downtown Campus Connector,874028,12643,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793926946,9,,0,,,transition
+1793926960,2026-11-06T01:02:40Z,2026-11-05 19:02:40,3,19,1142,5704,Downtown Campus Connector,874028,12643,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793926955,5,,0,,,transition
+1793926988,2026-11-06T01:03:08Z,2026-11-05 19:03:08,3,19,1143,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793926667,321,4.62,22,1793926942,175,pass
+1793927021,2026-11-06T01:03:41Z,2026-11-05 19:03:41,3,19,1143,5704,Downtown Campus Connector,874028,4315,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793926598,423,2.36,15,,,proximity
+1793927184,2026-11-06T01:06:24Z,2026-11-05 19:06:24,3,19,1146,5704,Downtown Campus Connector,874028,4315,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793927021,163,4.39,0,,,transition
+1793927328,2026-11-06T01:08:48Z,2026-11-05 19:08:48,3,19,1148,5704,Downtown Campus Connector,,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,,,,,,,,,gps
+1793927492,2026-11-06T01:11:32Z,2026-11-05 19:11:32,3,19,1151,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793926769,723,11.88,68,,,transition
+1793927959,2026-11-06T01:19:19Z,2026-11-05 19:19:19,3,19,1159,5704,Downtown Campus Connector,874028,4315,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793927184,775,3.34,0,1793928383,176,transition
+1793927999,2026-11-06T01:19:59Z,2026-11-05 19:19:59,3,19,1159,5704,Downtown Campus Connector,874028,4315,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793927959,40,6.88,36,1793928385,216,proximity
+1793928050,2026-11-06T01:20:50Z,2026-11-05 19:20:50,3,19,1160,5704,Downtown Campus Connector,,12647,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,,,,,,,,,gps
+1793928182,2026-11-06T01:23:02Z,2026-11-05 19:23:02,3,19,1163,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793926988,1194,10.01,,1793927016,1189,transition
+1793928184,2026-11-06T01:23:04Z,2026-11-05 19:23:04,3,19,1163,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793927492,692,3.0,0,,,transition
+1793928310,2026-11-06T01:25:10Z,2026-11-05 19:25:10,3,19,1165,5704,Downtown Campus Connector,874028,4315,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793927999,311,5.65,0,1793928554,225,transition
+1793928350,2026-11-06T01:25:50Z,2026-11-05 19:25:50,3,19,1165,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,195,1793927004,1357,proximity
+1793928538,2026-11-06T01:28:58Z,2026-11-05 19:28:58,3,19,1168,5704,Downtown Campus Connector,874028,4315,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793928310,228,5.8,0,1793928490,208,transition
+1793928544,2026-11-06T01:29:04Z,2026-11-05 19:29:04,3,19,1169,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793928184,360,2.78,591,,,transition
+1793928613,2026-11-06T01:30:13Z,2026-11-05 19:30:13,3,19,1170,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793928350,263,3.04,20,1793928267,339,proximity
+1793928978,2026-11-06T01:36:18Z,2026-11-05 19:36:18,3,19,1176,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793928613,365,4.89,26,1793928269,704,proximity
+1793929051,2026-11-06T01:37:31Z,2026-11-05 19:37:31,3,19,1177,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,0,1793929514,232,transition
+1793929120,2026-11-06T01:38:40Z,2026-11-05 19:38:40,3,19,1178,5704,Downtown Campus Connector,874028,12647,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793929051,69,3.99,38,1793929533,179,proximity
+1793929191,2026-11-06T01:39:51Z,2026-11-05 19:39:51,3,19,1179,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793928978,213,7.42,25,1793928271,917,proximity
+1793929277,2026-11-06T01:41:17Z,2026-11-05 19:41:17,3,19,1181,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793929191,86,6.46,27,1793928273,1003,transition
+1793929337,2026-11-06T01:42:17Z,2026-11-05 19:42:17,3,19,1182,5704,Downtown Campus Connector,874028,12642,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793928542,795,3.22,0,,,transition
+1793929413,2026-11-06T01:43:33Z,2026-11-05 19:43:33,3,19,1183,5704,Downtown Campus Connector,874028,4315,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793928539,874,13.42,,1793928542,893,transition
+1793929413,2026-11-06T01:43:33Z,2026-11-05 19:43:33,3,19,1183,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793929120,293,6.09,77,1793929599,229,transition
+1793929475,2026-11-06T01:44:35Z,2026-11-05 19:44:35,3,19,1184,5704,Downtown Campus Connector,874028,4315,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,86,1793928530,955,proximity
+1793929684,2026-11-06T01:48:04Z,2026-11-05 19:48:04,3,19,1188,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793929413,271,6.82,61,1793929665,131,transition
+1793929687,2026-11-06T01:48:07Z,2026-11-05 19:48:07,3,19,1188,5704,Downtown Campus Connector,874028,4315,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793929475,212,1.64,0,1793928532,1167,transition
+1793930001,2026-11-06T01:53:21Z,2026-11-05 19:53:21,3,19,1193,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132963,3241.4,1793928544,1457,3.74,0,1793930476,150,transition
+1793930047,2026-11-06T01:54:07Z,2026-11-05 19:54:07,3,19,1194,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793929277,770,11.34,61,,,proximity
+1793930330,2026-11-06T01:58:50Z,2026-11-05 19:58:50,3,19,1198,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151792,1828.7,1793930001,329,5.56,55,1793930673,170,pass
+1793930454,2026-11-06T02:00:54Z,2026-11-05 20:00:54,3,20,1200,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793930047,407,5.41,0,,,transition
+1793930565,2026-11-06T02:02:45Z,2026-11-05 20:02:45,3,20,1202,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793930330,235,7.35,25,1793930562,164,pass
+1793930651,2026-11-06T02:04:11Z,2026-11-05 20:04:11,3,20,1204,5704,Downtown Campus Connector,874028,12647,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793929684,967,12.94,,1793929693,977,transition
+1793930681,2026-11-06T02:04:41Z,2026-11-05 20:04:41,3,20,1204,5704,Downtown Campus Connector,874028,12643,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,0,1793931164,158,pass
+1793930780,2026-11-06T02:06:20Z,2026-11-05 20:06:20,3,20,1206,5704,Downtown Campus Connector,874028,12644,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,155006,999.9,1793930454,326,3.07,0,,,transition
+1793930808,2026-11-06T02:06:48Z,2026-11-05 20:06:48,3,20,1206,5704,Downtown Campus Connector,874028,12647,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,50,1793929681,1134,proximity
+1793930903,2026-11-06T02:08:23Z,2026-11-05 20:08:23,3,20,1208,5704,Downtown Campus Connector,874028,12647,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793930808,95,4.59,118,1793929683,1229,proximity
+1793931088,2026-11-06T02:11:28Z,2026-11-05 20:11:28,3,20,1211,5704,Downtown Campus Connector,874028,12643,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151792,1828.7,1793930681,407,4.49,0,1793931466,200,pass
+1793931261,2026-11-06T02:14:21Z,2026-11-05 20:14:21,3,20,1214,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,132963,649.9,1793930780,481,1.35,0,,,transition
+1793931297,2026-11-06T02:14:57Z,2026-11-05 20:14:57,3,20,1214,5704,Downtown Campus Connector,874028,12643,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793931088,209,6.33,32,1793931265,222,transition
+1793931341,2026-11-06T02:15:41Z,2026-11-05 20:15:41,3,20,1215,5704,Downtown Campus Connector,874028,12647,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793930903,438,5.27,0,1793929685,1667,transition
+1793931506,2026-11-06T02:18:26Z,2026-11-05 20:18:26,3,20,1218,5704,Downtown Campus Connector,874028,12642,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793930565,941,12.8,,1793930608,917,transition
+1793931564,2026-11-06T02:19:24Z,2026-11-05 20:19:24,3,20,1219,5704,Downtown Campus Connector,874028,12647,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793931341,223,6.22,59,1793929687,1890,proximity
+1793931615,2026-11-06T02:20:15Z,2026-11-05 20:20:15,3,20,1220,5704,Downtown Campus Connector,874028,12642,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,53,1793930596,1026,proximity
+1793931692,2026-11-06T02:21:32Z,2026-11-05 20:21:32,3,20,1221,5704,Downtown Campus Connector,874028,12647,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793931564,128,5.53,0,1793929689,2018,transition
+1793931716,2026-11-06T02:21:56Z,2026-11-05 20:21:56,3,20,1221,5704,Downtown Campus Connector,874028,12642,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793931615,101,4.31,37,1793930598,1127,proximity
+1793931965,2026-11-06T02:26:05Z,2026-11-05 20:26:05,3,20,1226,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793931261,704,3.68,0,1793932399,220,transition
+1793932032,2026-11-06T02:27:12Z,2026-11-05 20:27:12,3,20,1227,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793931965,67,4.11,5,1793932446,167,transition
+1793932036,2026-11-06T02:27:16Z,2026-11-05 20:27:16,3,20,1227,5704,Downtown Campus Connector,874028,12642,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793931716,320,5.96,35,1793930600,1447,transition
+1793932255,2026-11-06T02:30:55Z,2026-11-05 20:30:55,3,20,1230,5704,Downtown Campus Connector,874028,12642,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793932036,219,7.54,38,1793930602,1666,proximity
+1793932344,2026-11-06T02:32:24Z,2026-11-05 20:32:24,3,20,1232,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793932032,312,5.06,48,1793932500,183,proximity
+1793932345,2026-11-06T02:32:25Z,2026-11-05 20:32:25,3,20,1232,5704,Downtown Campus Connector,874028,12642,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793932255,90,7.33,16,1793930604,1756,proximity
+1793932434,2026-11-06T02:33:54Z,2026-11-05 20:33:54,3,20,1233,5704,Downtown Campus Connector,874028,12647,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793931692,742,11.35,68,,,proximity
+1793932561,2026-11-06T02:36:01Z,2026-11-05 20:36:01,3,20,1236,5704,Downtown Campus Connector,874028,12644,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793932344,217,7.83,15,1793932530,213,proximity
+1793932838,2026-11-06T02:40:38Z,2026-11-05 20:40:38,3,20,1240,5704,Downtown Campus Connector,874028,12647,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793932434,404,5.57,27,,,proximity
+1793933049,2026-11-06T02:44:09Z,2026-11-05 20:44:09,3,20,1244,5704,Downtown Campus Connector,874028,12642,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793932345,704,12.24,0,,,transition
+1793933466,2026-11-06T02:51:06Z,2026-11-05 20:51:06,3,20,1251,5704,Downtown Campus Connector,874028,12642,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793933049,417,4.49,34,,,proximity
+1793933522,2026-11-06T02:52:02Z,2026-11-05 20:52:02,3,20,1252,5704,Downtown Campus Connector,874028,12644,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,14,132968,11726.3,1793932561,961,12.4,8,1793932611,933,proximity
+1793933585,2026-11-06T02:53:05Z,2026-11-05 20:53:05,3,20,1253,5704,Downtown Campus Connector,874028,12644,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,,,,,,389,1793932599,996,proximity
+1793934020,2026-11-06T03:00:20Z,2026-11-05 21:00:20,3,21,1260,5704,Downtown Campus Connector,874028,12644,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,8654,206.7,1793933585,435,4.49,0,1793932601,1431,transition
+1793934177,2026-11-06T03:02:57Z,2026-11-05 21:02:57,3,21,1262,5704,Downtown Campus Connector,874028,12647,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,155006,1649.8,1793932828,1349,1.26,0,,,transition
+1793934306,2026-11-06T03:05:06Z,2026-11-05 21:05:06,3,21,1265,5704,Downtown Campus Connector,874028,12644,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,3,8612,1686.8,1793934020,286,5.9,23,1793932603,1717,proximity
+1793934598,2026-11-06T03:09:58Z,2026-11-05 21:09:58,3,21,1269,5704,Downtown Campus Connector,874028,12644,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,140009,1388.0,1793934306,292,5.16,26,1793932605,2009,proximity
+1793934688,2026-11-06T03:11:28Z,2026-11-05 21:11:28,3,21,1271,5704,Downtown Campus Connector,874028,12644,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,151794,381.4,1793934598,90,5.96,0,1793932607,2099,transition
+1793934803,2026-11-06T03:13:23Z,2026-11-05 21:13:23,3,21,1273,5704,Downtown Campus Connector,874028,12647,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,,,,,,0,1793935136,215,transition
+1793935312,2026-11-06T03:21:52Z,2026-11-05 21:21:52,3,21,1281,5704,Downtown Campus Connector,874028,12647,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151792,1828.7,1793934803,509,3.59,75,1793935415,177,pass
+1793935399,2026-11-06T03:23:19Z,2026-11-05 21:23:19,3,21,1283,5704,Downtown Campus Connector,874028,12644,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,155005,8422.0,1793934688,711,11.85,25,,,proximity
+1793935462,2026-11-06T03:24:22Z,2026-11-05 21:24:22,3,21,1284,5704,Downtown Campus Connector,874028,12642,132963,Gleacher Center,North Cityfront Plaza Drive,41.88965,-87.62198,8,,,,,,0,,,transition
+1793935679,2026-11-06T03:27:59Z,2026-11-05 21:27:59,3,21,1287,5704,Downtown Campus Connector,874028,12647,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793935312,367,4.53,0,1793935607,180,pass
+1793936000,2026-11-06T03:33:20Z,2026-11-05 21:33:20,3,21,1293,5704,Downtown Campus Connector,874028,12644,155006,E Randolph St & S Michigan Ave,Millennium Station / Pedway,41.88433,-87.62383,7,132965,1872.7,1793935399,601,3.25,0,,,transition
+1793936240,2026-11-06T03:37:20Z,2026-11-05 21:37:20,3,21,1297,5704,Downtown Campus Connector,874028,12642,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132963,3241.4,1793935462,778,4.17,20,1793936668,187,pass
+1793936317,2026-11-06T03:38:37Z,2026-11-05 21:38:37,3,21,1298,5704,Downtown Campus Connector,874028,12642,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793936240,77,4.83,0,1793936665,200,pass
+1793936636,2026-11-06T03:43:56Z,2026-11-05 21:43:56,3,21,1303,5704,Downtown Campus Connector,874028,12642,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793936317,319,4.87,56,1793936843,222,proximity
+1793936864,2026-11-06T03:47:44Z,2026-11-05 21:47:44,3,21,1307,5704,Downtown Campus Connector,874028,12642,132968,Roosevelt Station,East Roosevelt Road,41.86734,-87.62686,13,132967,1322.6,1793936636,228,7.69,169,1793936867,207,proximity
+1793936894,2026-11-06T03:48:14Z,2026-11-05 21:48:14,3,21,1308,5704,Downtown Campus Connector,874028,12643,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,0,,,transition
+1793936898,2026-11-06T03:48:18Z,2026-11-05 21:48:18,3,21,1308,5704,Downtown Campus Connector,874028,12643,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,1,8591,377.7,1793936894,4,,0,,,transition
+1793936918,2026-11-06T03:48:38Z,2026-11-05 21:48:38,3,21,1308,5704,Downtown Campus Connector,874028,12644,132964,UCHICAGO Medicine - River East,East Grand Avenue,41.89192,-87.61812,9,155006,1649.8,1793936000,918,1.8,0,,,transition
+1793936938,2026-11-06T03:48:58Z,2026-11-05 21:48:58,3,21,1308,5704,Downtown Campus Connector,874028,12643,132965,S Michigan Ave/Roosevelt,South Michigan Avenue,41.8679,-87.624,6,8654,12084.9,1793936898,40,,0,,,transition
+1793937224,2026-11-06T03:53:44Z,2026-11-05 21:53:44,3,21,1313,5704,Downtown Campus Connector,874028,12643,151794,S Lake Park & E 53rd St,South Lake Park Avenue,41.79954,-87.58718,4,,,,,,15,,,pass
+1793937289,2026-11-06T03:54:49Z,2026-11-05 21:54:49,3,21,1314,5704,Downtown Campus Connector,874028,12643,155005,S Lake Park Ave & E Hyde Park Blvd,South Lake Park Avenue,41.80297,-87.58791,5,,,,,,,,,gps
+1793937421,2026-11-06T03:57:01Z,2026-11-05 21:57:01,3,21,1317,5704,Downtown Campus Connector,874028,12644,151792,N (Upper) Wacker Dr & W Madison St,West Lower Madison Street,41.88195,-87.63706,10,132964,2591.4,1793936918,503,5.15,50,1793937850,162,proximity
+1793937508,2026-11-06T03:58:28Z,2026-11-05 21:58:28,3,21,1318,5704,Downtown Campus Connector,874028,12644,151793,S (Upper) Wacker Dr & W Adams St,South Lower Wacker Service Drive,41.87949,-87.63705,11,151792,275.1,1793937421,87,7.43,0,1793937860,186,transition
+1793937928,2026-11-06T04:05:28Z,2026-11-05 22:05:28,3,22,1325,5704,Downtown Campus Connector,874028,12644,132967,UCHICAGO Medicine - South Loop,South Canal Street,41.86975,-87.63933,12,151793,1553.6,1793937508,420,3.7,55,1793938112,174,proximity

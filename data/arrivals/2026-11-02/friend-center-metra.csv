@@ -1,385 +1,385 @@
-epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
-1793617254,2026-11-02 05:00:54,5700,Friend Center/Metra,499490,4327,8613,Wyler Pavilion,1,,,,,,
-1793617279,2026-11-02 05:01:19,5700,Friend Center/Metra,499490,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793617850,2026-11-02 05:10:50,5700,Friend Center/Metra,499490,4327,8616,58th Street & Drexel,3,,,,,,
-1793617874,2026-11-02 05:11:14,5700,Friend Center/Metra,499490,4327,8617,Comer Children's Hospital,4,,,,,,
-1793617881,2026-11-02 05:11:21,5700,Friend Center/Metra,499490,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793617970,2026-11-02 05:12:50,5700,Friend Center/Metra,499490,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793618093,2026-11-02 05:14:53,5700,Friend Center/Metra,499490,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793618223,2026-11-02 05:17:03,5700,Friend Center/Metra,499490,4327,140009,55th Street & University,8,,,,,,
-1793618361,2026-11-02 05:19:21,5700,Friend Center/Metra,499490,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793618496,2026-11-02 05:21:36,5700,Friend Center/Metra,499490,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793618695,2026-11-02 05:24:55,5700,Friend Center/Metra,499490,4327,8658,59th St & Metra,11,,,,,,
-1793618920,2026-11-02 05:28:40,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793619155,2026-11-02 05:32:35,5700,Friend Center/Metra,499491,4327,8613,Wyler Pavilion,1,,,,,,
-1793619169,2026-11-02 05:32:49,5700,Friend Center/Metra,499491,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793619211,2026-11-02 05:33:31,5700,Friend Center/Metra,499491,4327,8616,58th Street & Drexel,3,,,,,,
-1793619231,2026-11-02 05:33:51,5700,Friend Center/Metra,499491,4327,8617,Comer Children's Hospital,4,,,,,,
-1793619239,2026-11-02 05:33:59,5700,Friend Center/Metra,499491,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793619346,2026-11-02 05:35:46,5700,Friend Center/Metra,499491,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793619432,2026-11-02 05:37:12,5700,Friend Center/Metra,499491,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793620031,2026-11-02 05:47:11,5700,Friend Center/Metra,499491,4327,140009,55th Street & University,8,,,,,,
-1793620146,2026-11-02 05:49:06,5700,Friend Center/Metra,499491,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793620279,2026-11-02 05:51:19,5700,Friend Center/Metra,499491,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793620416,2026-11-02 05:53:36,5700,Friend Center/Metra,499491,4327,8658,59th St & Metra,11,,,,,,
-1793620665,2026-11-02 05:57:45,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793621030,2026-11-02 06:03:50,5700,Friend Center/Metra,499492,4327,8613,Wyler Pavilion,1,,,,,,
-1793621053,2026-11-02 06:04:13,5700,Friend Center/Metra,499492,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793621070,2026-11-02 06:04:30,5700,Friend Center/Metra,499492,4327,8616,58th Street & Drexel,3,,,,,,
-1793621093,2026-11-02 06:04:53,5700,Friend Center/Metra,499492,4327,8617,Comer Children's Hospital,4,,,,,,
-1793621109,2026-11-02 06:05:09,5700,Friend Center/Metra,499492,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793621209,2026-11-02 06:06:49,5700,Friend Center/Metra,499492,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793621272,2026-11-02 06:07:52,5700,Friend Center/Metra,499492,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793622047,2026-11-02 06:20:47,5700,Friend Center/Metra,499492,4327,140009,55th Street & University,8,,,,,,
-1793622133,2026-11-02 06:22:13,5700,Friend Center/Metra,499492,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793622250,2026-11-02 06:24:10,5700,Friend Center/Metra,499492,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793622357,2026-11-02 06:25:57,5700,Friend Center/Metra,499492,4327,8658,59th St & Metra,11,,,,,,
-1793622591,2026-11-02 06:29:51,5700,Friend Center/Metra,499493,4327,8612,Goldblatt Pavilion,0,,,,,,
-1793622668,2026-11-02 06:31:08,5700,Friend Center/Metra,499493,4327,8613,Wyler Pavilion,1,,,,,,
-1793622687,2026-11-02 06:31:27,5700,Friend Center/Metra,499493,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793622740,2026-11-02 06:32:20,5700,Friend Center/Metra,499493,4327,8616,58th Street & Drexel,3,,,,,,
-1793622768,2026-11-02 06:32:48,5700,Friend Center/Metra,499493,4327,8617,Comer Children's Hospital,4,,,,,,
-1793622785,2026-11-02 06:33:05,5700,Friend Center/Metra,499493,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793622881,2026-11-02 06:34:41,5700,Friend Center/Metra,499493,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793622981,2026-11-02 06:36:21,5700,Friend Center/Metra,499493,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793623646,2026-11-02 06:47:26,5700,Friend Center/Metra,499493,4327,140009,55th Street & University,8,,,,,,
-1793623761,2026-11-02 06:49:21,5700,Friend Center/Metra,499493,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793623888,2026-11-02 06:51:28,5700,Friend Center/Metra,499493,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793624023,2026-11-02 06:53:43,5700,Friend Center/Metra,499493,4327,8658,59th St & Metra,11,,,,,,
-1793624230,2026-11-02 06:57:10,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793624530,2026-11-02 07:02:10,5700,Friend Center/Metra,499494,4327,8613,Wyler Pavilion,1,,,,,,
-1793624544,2026-11-02 07:02:24,5700,Friend Center/Metra,499494,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793624592,2026-11-02 07:03:12,5700,Friend Center/Metra,499494,4327,8616,58th Street & Drexel,3,,,,,,
-1793624620,2026-11-02 07:03:40,5700,Friend Center/Metra,499494,4327,8617,Comer Children's Hospital,4,,,,,,
-1793624641,2026-11-02 07:04:01,5700,Friend Center/Metra,499494,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793624758,2026-11-02 07:05:58,5700,Friend Center/Metra,499494,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793624874,2026-11-02 07:07:54,5700,Friend Center/Metra,499494,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793625598,2026-11-02 07:19:58,5700,Friend Center/Metra,499494,4327,140009,55th Street & University,8,,,,,,
-1793625705,2026-11-02 07:21:45,5700,Friend Center/Metra,499494,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793625879,2026-11-02 07:24:39,5700,Friend Center/Metra,499494,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793626036,2026-11-02 07:27:16,5700,Friend Center/Metra,499494,4327,8658,59th St & Metra,11,,,,,,
-1793626273,2026-11-02 07:31:13,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793626351,2026-11-02 07:32:31,5700,Friend Center/Metra,499495,4327,8613,Wyler Pavilion,1,,,,,,
-1793626367,2026-11-02 07:32:47,5700,Friend Center/Metra,499495,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793626488,2026-11-02 07:34:48,5700,Friend Center/Metra,499495,4327,8616,58th Street & Drexel,3,,,,,,
-1793626515,2026-11-02 07:35:15,5700,Friend Center/Metra,499495,4327,8617,Comer Children's Hospital,4,,,,,,
-1793626525,2026-11-02 07:35:25,5700,Friend Center/Metra,499495,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793626633,2026-11-02 07:37:13,5700,Friend Center/Metra,499495,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793626751,2026-11-02 07:39:11,5700,Friend Center/Metra,499495,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793626948,2026-11-02 07:42:28,5700,Friend Center/Metra,499495,4327,140009,55th Street & University,8,,,,,,
-1793627060,2026-11-02 07:44:20,5700,Friend Center/Metra,499495,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793627215,2026-11-02 07:46:55,5700,Friend Center/Metra,499495,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793627507,2026-11-02 07:51:47,5700,Friend Center/Metra,499490,4327,8658,59th St & Metra,11,,,,,,
-1793627800,2026-11-02 07:56:40,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793627931,2026-11-02 07:58:51,5700,Friend Center/Metra,499496,4327,8613,Wyler Pavilion,1,,,,,,
-1793627978,2026-11-02 07:59:38,5700,Friend Center/Metra,499496,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793628043,2026-11-02 08:00:43,5700,Friend Center/Metra,499496,4327,8616,58th Street & Drexel,3,,,,,,
-1793628060,2026-11-02 08:01:00,5700,Friend Center/Metra,499496,4327,8617,Comer Children's Hospital,4,,,,,,
-1793628068,2026-11-02 08:01:08,5700,Friend Center/Metra,499496,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793628632,2026-11-02 08:10:32,5700,Friend Center/Metra,499496,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793628736,2026-11-02 08:12:16,5700,Friend Center/Metra,499496,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793628916,2026-11-02 08:15:16,5700,Friend Center/Metra,499496,4327,140009,55th Street & University,8,,,,,,
-1793629033,2026-11-02 08:17:13,5700,Friend Center/Metra,499496,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793629262,2026-11-02 08:21:02,5700,Friend Center/Metra,499496,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793629634,2026-11-02 08:27:14,5700,Friend Center/Metra,499496,4327,8658,59th St & Metra,11,,,,,,
-1793629931,2026-11-02 08:32:11,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793630017,2026-11-02 08:33:37,5700,Friend Center/Metra,499497,4327,8613,Wyler Pavilion,1,,,,,,
-1793630037,2026-11-02 08:33:57,5700,Friend Center/Metra,499497,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793630063,2026-11-02 08:34:23,5700,Friend Center/Metra,499497,4327,8616,58th Street & Drexel,3,,,,,,
-1793630086,2026-11-02 08:34:46,5700,Friend Center/Metra,499497,4327,8617,Comer Children's Hospital,4,,,,,,
-1793630094,2026-11-02 08:34:54,5700,Friend Center/Metra,499497,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793630189,2026-11-02 08:36:29,5700,Friend Center/Metra,499497,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793630288,2026-11-02 08:38:08,5700,Friend Center/Metra,499497,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793631041,2026-11-02 08:50:41,5700,Friend Center/Metra,499497,4327,140009,55th Street & University,8,,,,,,
-1793631152,2026-11-02 08:52:32,5700,Friend Center/Metra,499497,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793631274,2026-11-02 08:54:34,5700,Friend Center/Metra,499497,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793631405,2026-11-02 08:56:45,5700,Friend Center/Metra,499497,4327,8658,59th St & Metra,11,,,,,,
-1793631606,2026-11-02 09:00:06,5700,Friend Center/Metra,499498,4327,8612,Goldblatt Pavilion,0,,,,,,
-1793631680,2026-11-02 09:01:20,5700,Friend Center/Metra,499498,4327,8613,Wyler Pavilion,1,,,,,,
-1793631739,2026-11-02 09:02:19,5700,Friend Center/Metra,499498,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793631783,2026-11-02 09:03:03,5700,Friend Center/Metra,499498,4327,8616,58th Street & Drexel,3,,,,,,
-1793631806,2026-11-02 09:03:26,5700,Friend Center/Metra,499498,4327,8617,Comer Children's Hospital,4,,,,,,
-1793631816,2026-11-02 09:03:36,5700,Friend Center/Metra,499498,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793631937,2026-11-02 09:05:37,5700,Friend Center/Metra,499498,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793632045,2026-11-02 09:07:25,5700,Friend Center/Metra,499498,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793632334,2026-11-02 09:12:14,5700,Friend Center/Metra,499498,4327,140009,55th Street & University,8,,,,,,
-1793632486,2026-11-02 09:14:46,5700,Friend Center/Metra,499498,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793632609,2026-11-02 09:16:49,5700,Friend Center/Metra,499498,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793633302,2026-11-02 09:28:22,5700,Friend Center/Metra,499498,4327,8658,59th St & Metra,11,,,,,,
-1793633543,2026-11-02 09:32:23,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793633616,2026-11-02 09:33:36,5700,Friend Center/Metra,499499,4327,8613,Wyler Pavilion,1,,,,,,
-1793633629,2026-11-02 09:33:49,5700,Friend Center/Metra,499499,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793633677,2026-11-02 09:34:37,5700,Friend Center/Metra,499499,4327,8616,58th Street & Drexel,3,,,,,,
-1793633706,2026-11-02 09:35:06,5700,Friend Center/Metra,499499,4327,8617,Comer Children's Hospital,4,,,,,,
-1793633710,2026-11-02 09:35:10,5700,Friend Center/Metra,499499,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793633821,2026-11-02 09:37:01,5700,Friend Center/Metra,499499,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793633924,2026-11-02 09:38:44,5700,Friend Center/Metra,499499,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793634595,2026-11-02 09:49:55,5700,Friend Center/Metra,499499,4327,140009,55th Street & University,8,,,,,,
-1793634709,2026-11-02 09:51:49,5700,Friend Center/Metra,499499,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793634850,2026-11-02 09:54:10,5700,Friend Center/Metra,499499,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793634966,2026-11-02 09:56:06,5700,Friend Center/Metra,499499,4327,8658,59th St & Metra,11,,,,,,
-1793635219,2026-11-02 10:00:19,5700,Friend Center/Metra,499500,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793635291,2026-11-02 10:01:31,5700,Friend Center/Metra,499500,4327,8613,Wyler Pavilion,1,,,,,,
-1793635304,2026-11-02 10:01:44,5700,Friend Center/Metra,499500,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793635377,2026-11-02 10:02:57,5700,Friend Center/Metra,499500,4327,8616,58th Street & Drexel,3,,,,,,
-1793635405,2026-11-02 10:03:25,5700,Friend Center/Metra,499500,4327,8617,Comer Children's Hospital,4,,,,,,
-1793635439,2026-11-02 10:03:59,5700,Friend Center/Metra,499500,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793635574,2026-11-02 10:06:14,5700,Friend Center/Metra,499500,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793635659,2026-11-02 10:07:39,5700,Friend Center/Metra,499500,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793636160,2026-11-02 10:16:00,5700,Friend Center/Metra,499500,4327,140009,55th Street & University,8,,,,,,
-1793636293,2026-11-02 10:18:13,5700,Friend Center/Metra,499500,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793636411,2026-11-02 10:20:11,5700,Friend Center/Metra,499500,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793636547,2026-11-02 10:22:27,5700,Friend Center/Metra,499500,4327,8658,59th St & Metra,11,,,,,,
-1793636827,2026-11-02 10:27:07,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793637042,2026-11-02 10:30:42,5700,Friend Center/Metra,499501,4327,8613,Wyler Pavilion,1,,,,,,
-1793637090,2026-11-02 10:31:30,5700,Friend Center/Metra,499501,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793637137,2026-11-02 10:32:17,5700,Friend Center/Metra,499501,4327,8616,58th Street & Drexel,3,,,,,,
-1793637160,2026-11-02 10:32:40,5700,Friend Center/Metra,499501,4327,8617,Comer Children's Hospital,4,,,,,,
-1793637171,2026-11-02 10:32:51,5700,Friend Center/Metra,499501,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793637284,2026-11-02 10:34:44,5700,Friend Center/Metra,499501,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793637388,2026-11-02 10:36:28,5700,Friend Center/Metra,499501,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793637970,2026-11-02 10:46:10,5700,Friend Center/Metra,499501,4327,140009,55th Street & University,8,,,,,,
-1793638090,2026-11-02 10:48:10,5700,Friend Center/Metra,499501,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793638218,2026-11-02 10:50:18,5700,Friend Center/Metra,499501,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793638318,2026-11-02 10:51:58,5700,Friend Center/Metra,499501,4327,8658,59th St & Metra,11,,,,,,
-1793638776,2026-11-02 10:59:36,5700,Friend Center/Metra,499501,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793639060,2026-11-02 11:04:20,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,1,,,,,,
-1793639076,2026-11-02 11:04:36,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793639184,2026-11-02 11:06:24,5700,Friend Center/Metra,499502,4327,8616,58th Street & Drexel,3,,,,,,
-1793639220,2026-11-02 11:07:00,5700,Friend Center/Metra,499502,4327,8617,Comer Children's Hospital,4,,,,,,
-1793639228,2026-11-02 11:07:08,5700,Friend Center/Metra,499502,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793639360,2026-11-02 11:09:20,5700,Friend Center/Metra,499502,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793639496,2026-11-02 11:11:36,5700,Friend Center/Metra,499502,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793639708,2026-11-02 11:15:08,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,8,,,,,,
-1793639872,2026-11-02 11:17:52,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793639978,2026-11-02 11:19:38,5700,Friend Center/Metra,499502,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793640249,2026-11-02 11:24:09,5700,Friend Center/Metra,499502,4327,8658,59th St & Metra,11,,,,,,
-1793640649,2026-11-02 11:30:49,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793640766,2026-11-02 11:32:46,5700,Friend Center/Metra,499503,4327,8613,Wyler Pavilion,1,,,,,,
-1793640788,2026-11-02 11:33:08,5700,Friend Center/Metra,499503,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793640862,2026-11-02 11:34:22,5700,Friend Center/Metra,499503,4327,8616,58th Street & Drexel,3,,,,,,
-1793640888,2026-11-02 11:34:48,5700,Friend Center/Metra,499503,4327,8617,Comer Children's Hospital,4,,,,,,
-1793640900,2026-11-02 11:35:00,5700,Friend Center/Metra,499503,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793641032,2026-11-02 11:37:12,5700,Friend Center/Metra,499503,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793641145,2026-11-02 11:39:05,5700,Friend Center/Metra,499503,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793641361,2026-11-02 11:42:41,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,8,,,,,,
-1793641487,2026-11-02 11:44:47,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793641603,2026-11-02 11:46:43,5700,Friend Center/Metra,499503,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793641827,2026-11-02 11:50:27,5700,Friend Center/Metra,499503,4327,8658,59th St & Metra,11,,,,,,
-1793642278,2026-11-02 11:57:58,5700,Friend Center/Metra,499504,4327,8612,Goldblatt Pavilion,0,,,,,,
-1793642533,2026-11-02 12:02:13,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793642551,2026-11-02 12:02:31,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,1,,,,,,
-1793642665,2026-11-02 12:04:25,5700,Friend Center/Metra,499504,4327,8616,58th Street & Drexel,3,,,,,,
-1793642689,2026-11-02 12:04:49,5700,Friend Center/Metra,499504,4327,8617,Comer Children's Hospital,4,,,,,,
-1793642736,2026-11-02 12:05:36,5700,Friend Center/Metra,499504,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793642853,2026-11-02 12:07:33,5700,Friend Center/Metra,499504,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793642952,2026-11-02 12:09:12,5700,Friend Center/Metra,499504,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793643335,2026-11-02 12:15:35,5700,Friend Center/Metra,499504,4327,140009,55th Street & University,8,,,,,,
-1793643466,2026-11-02 12:17:46,5700,Friend Center/Metra,499504,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793643594,2026-11-02 12:19:54,5700,Friend Center/Metra,499504,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793643736,2026-11-02 12:22:16,5700,Friend Center/Metra,499504,4327,8658,59th St & Metra,11,,,,,,
-1793644131,2026-11-02 12:28:51,5700,Friend Center/Metra,499504,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793644386,2026-11-02 12:33:06,5700,Friend Center/Metra,499505,4327,8613,Wyler Pavilion,1,,,,,,
-1793644414,2026-11-02 12:33:34,5700,Friend Center/Metra,499505,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793644454,2026-11-02 12:34:14,5700,Friend Center/Metra,499505,4327,8616,58th Street & Drexel,3,,,,,,
-1793644520,2026-11-02 12:35:20,5700,Friend Center/Metra,499505,4327,8617,Comer Children's Hospital,4,,,,,,
-1793644527,2026-11-02 12:35:27,5700,Friend Center/Metra,499505,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793644625,2026-11-02 12:37:05,5700,Friend Center/Metra,499505,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793644687,2026-11-02 12:38:07,5700,Friend Center/Metra,499505,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793644966,2026-11-02 12:42:46,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,8,,,,,,
-1793645169,2026-11-02 12:46:09,5700,Friend Center/Metra,499505,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793645282,2026-11-02 12:48:02,5700,Friend Center/Metra,499505,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793645577,2026-11-02 12:52:57,5700,Friend Center/Metra,499505,4327,8658,59th St & Metra,11,,,,,,
-1793645859,2026-11-02 12:57:39,5700,Friend Center/Metra,499505,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793646143,2026-11-02 13:02:23,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,1,,,,,,
-1793646156,2026-11-02 13:02:36,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793646202,2026-11-02 13:03:22,5700,Friend Center/Metra,499506,4327,8616,58th Street & Drexel,3,,,,,,
-1793646244,2026-11-02 13:04:04,5700,Friend Center/Metra,499506,4327,8617,Comer Children's Hospital,4,,,,,,
-1793646273,2026-11-02 13:04:33,5700,Friend Center/Metra,499506,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793646381,2026-11-02 13:06:21,5700,Friend Center/Metra,499506,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793646480,2026-11-02 13:08:00,5700,Friend Center/Metra,499506,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793646704,2026-11-02 13:11:44,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,8,,,,,,
-1793646870,2026-11-02 13:14:30,5700,Friend Center/Metra,499506,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793647009,2026-11-02 13:16:49,5700,Friend Center/Metra,499506,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793647415,2026-11-02 13:23:35,5700,Friend Center/Metra,499502,4327,8658,59th St & Metra,11,,,,,,
-1793647796,2026-11-02 13:29:56,5700,Friend Center/Metra,499506,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793647900,2026-11-02 13:31:40,5700,Friend Center/Metra,499507,4327,8613,Wyler Pavilion,1,,,,,,
-1793647936,2026-11-02 13:32:16,5700,Friend Center/Metra,499507,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793648019,2026-11-02 13:33:39,5700,Friend Center/Metra,499507,4327,8616,58th Street & Drexel,3,,,,,,
-1793648055,2026-11-02 13:34:15,5700,Friend Center/Metra,499507,4327,8617,Comer Children's Hospital,4,,,,,,
-1793648062,2026-11-02 13:34:22,5700,Friend Center/Metra,499507,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793648226,2026-11-02 13:37:06,5700,Friend Center/Metra,499507,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793648298,2026-11-02 13:38:18,5700,Friend Center/Metra,499507,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793648502,2026-11-02 13:41:42,5700,Friend Center/Metra,499507,4327,140009,55th Street & University,8,,,,,,
-1793648635,2026-11-02 13:43:55,5700,Friend Center/Metra,499507,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793648823,2026-11-02 13:47:03,5700,Friend Center/Metra,499502,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793649189,2026-11-02 13:53:09,5700,Friend Center/Metra,499507,4327,8658,59th St & Metra,11,,,,,,
-1793649561,2026-11-02 13:59:21,5700,Friend Center/Metra,499507,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793649702,2026-11-02 14:01:42,5700,Friend Center/Metra,499508,4327,8613,Wyler Pavilion,1,,,,,,
-1793649735,2026-11-02 14:02:15,5700,Friend Center/Metra,499508,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793649823,2026-11-02 14:03:43,5700,Friend Center/Metra,499508,4327,8616,58th Street & Drexel,3,,,,,,
-1793649852,2026-11-02 14:04:12,5700,Friend Center/Metra,499508,4327,8617,Comer Children's Hospital,4,,,,,,
-1793649860,2026-11-02 14:04:20,5700,Friend Center/Metra,499502,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793649995,2026-11-02 14:06:35,5700,Friend Center/Metra,499508,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793650115,2026-11-02 14:08:35,5700,Friend Center/Metra,499508,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793650324,2026-11-02 14:12:04,5700,Friend Center/Metra,499508,4327,140009,55th Street & University,8,,,,,,
-1793650538,2026-11-02 14:15:38,5700,Friend Center/Metra,499508,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793650710,2026-11-02 14:18:30,5700,Friend Center/Metra,499508,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793651038,2026-11-02 14:23:58,5700,Friend Center/Metra,499508,4327,8658,59th St & Metra,11,,,,,,
-1793651363,2026-11-02 14:29:23,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793651567,2026-11-02 14:32:47,5700,Friend Center/Metra,499509,4327,8613,Wyler Pavilion,1,,,,,,
-1793651619,2026-11-02 14:33:39,5700,Friend Center/Metra,499509,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793651702,2026-11-02 14:35:02,5700,Friend Center/Metra,499509,4327,8616,58th Street & Drexel,3,,,,,,
-1793651772,2026-11-02 14:36:12,5700,Friend Center/Metra,499509,4327,8617,Comer Children's Hospital,4,,,,,,
-1793651786,2026-11-02 14:36:26,5700,Friend Center/Metra,499509,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793651914,2026-11-02 14:38:34,5700,Friend Center/Metra,499509,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793651997,2026-11-02 14:39:57,5700,Friend Center/Metra,499509,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793652213,2026-11-02 14:43:33,5700,Friend Center/Metra,499509,4327,140009,55th Street & University,8,,,,,,
-1793652390,2026-11-02 14:46:30,5700,Friend Center/Metra,499509,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793652543,2026-11-02 14:49:03,5700,Friend Center/Metra,499509,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793652758,2026-11-02 14:52:38,5700,Friend Center/Metra,499509,4327,8658,59th St & Metra,11,,,,,,
-1793653129,2026-11-02 14:58:49,5700,Friend Center/Metra,499510,4327,8612,Goldblatt Pavilion,0,,,,,,
-1793653327,2026-11-02 15:02:07,5700,Friend Center/Metra,499510,4327,8613,Wyler Pavilion,1,,,,,,
-1793653372,2026-11-02 15:02:52,5700,Friend Center/Metra,499510,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793653473,2026-11-02 15:04:33,5700,Friend Center/Metra,499510,4327,8616,58th Street & Drexel,3,,,,,,
-1793653498,2026-11-02 15:04:58,5700,Friend Center/Metra,499510,4327,8617,Comer Children's Hospital,4,,,,,,
-1793653522,2026-11-02 15:05:22,5700,Friend Center/Metra,499510,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793653639,2026-11-02 15:07:19,5700,Friend Center/Metra,499510,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793653712,2026-11-02 15:08:32,5700,Friend Center/Metra,499510,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793653866,2026-11-02 15:11:06,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,8,,,,,,
-1793654010,2026-11-02 15:13:30,5700,Friend Center/Metra,499510,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793654159,2026-11-02 15:15:59,5700,Friend Center/Metra,499510,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793654645,2026-11-02 15:24:05,5700,Friend Center/Metra,499502,4327,8658,59th St & Metra,11,,,,,,
-1793655042,2026-11-02 15:30:42,5700,Friend Center/Metra,499510,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793655126,2026-11-02 15:32:06,5700,Friend Center/Metra,499511,4327,8613,Wyler Pavilion,1,,,,,,
-1793655159,2026-11-02 15:32:39,5700,Friend Center/Metra,499511,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793655233,2026-11-02 15:33:53,5700,Friend Center/Metra,499511,4327,8616,58th Street & Drexel,3,,,,,,
-1793655253,2026-11-02 15:34:13,5700,Friend Center/Metra,499511,4327,8617,Comer Children's Hospital,4,,,,,,
-1793655359,2026-11-02 15:35:59,5700,Friend Center/Metra,499511,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793655495,2026-11-02 15:38:15,5700,Friend Center/Metra,499511,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793655609,2026-11-02 15:40:09,5700,Friend Center/Metra,499511,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793655815,2026-11-02 15:43:35,5700,Friend Center/Metra,499511,4327,140009,55th Street & University,8,,,,,,
-1793655966,2026-11-02 15:46:06,5700,Friend Center/Metra,499511,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793656114,2026-11-02 15:48:34,5700,Friend Center/Metra,499511,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793656270,2026-11-02 15:51:10,5700,Friend Center/Metra,499511,4327,8658,59th St & Metra,11,,,,,,
-1793656579,2026-11-02 15:56:19,5700,Friend Center/Metra,499511,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793656925,2026-11-02 16:02:05,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,1,,,,,,
-1793656962,2026-11-02 16:02:42,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793657049,2026-11-02 16:04:09,5700,Friend Center/Metra,499502,4327,8616,58th Street & Drexel,3,,,,,,
-1793657079,2026-11-02 16:04:39,5700,Friend Center/Metra,499502,4327,8617,Comer Children's Hospital,4,,,,,,
-1793657106,2026-11-02 16:05:06,5700,Friend Center/Metra,499512,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793657289,2026-11-02 16:08:09,5700,Friend Center/Metra,499512,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793657415,2026-11-02 16:10:15,5700,Friend Center/Metra,499512,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793657628,2026-11-02 16:13:48,5700,Friend Center/Metra,499512,4327,140009,55th Street & University,8,,,,,,
-1793657754,2026-11-02 16:15:54,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793657966,2026-11-02 16:19:26,5700,Friend Center/Metra,499512,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793658081,2026-11-02 16:21:21,5700,Friend Center/Metra,499512,4327,8658,59th St & Metra,11,,,,,,
-1793658438,2026-11-02 16:27:18,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793658700,2026-11-02 16:31:40,5700,Friend Center/Metra,499513,4327,8613,Wyler Pavilion,1,,,,,,
-1793658840,2026-11-02 16:34:00,5700,Friend Center/Metra,499513,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793658840,2026-11-02 16:34:00,5700,Friend Center/Metra,499513,4327,8616,58th Street & Drexel,3,,,,,,
-1793658941,2026-11-02 16:35:41,5700,Friend Center/Metra,499513,4327,8617,Comer Children's Hospital,4,,,,,,
-1793658971,2026-11-02 16:36:11,5700,Friend Center/Metra,499513,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793659121,2026-11-02 16:38:41,5700,Friend Center/Metra,499513,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793659235,2026-11-02 16:40:35,5700,Friend Center/Metra,499513,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793659447,2026-11-02 16:44:07,5700,Friend Center/Metra,499513,4327,140009,55th Street & University,8,,,,,,
-1793659625,2026-11-02 16:47:05,5700,Friend Center/Metra,499513,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793659842,2026-11-02 16:50:42,5700,Friend Center/Metra,499513,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793659970,2026-11-02 16:52:50,5700,Friend Center/Metra,499513,4327,8658,59th St & Metra,11,,,,,,
-1793660315,2026-11-02 16:58:35,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793660554,2026-11-02 17:02:34,5700,Friend Center/Metra,499514,4327,8613,Wyler Pavilion,1,,,,,,
-1793660577,2026-11-02 17:02:57,5700,Friend Center/Metra,499514,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793660645,2026-11-02 17:04:05,5700,Friend Center/Metra,499514,4327,8616,58th Street & Drexel,3,,,,,,
-1793660655,2026-11-02 17:04:15,5700,Friend Center/Metra,499514,4327,8617,Comer Children's Hospital,4,,,,,,
-1793660752,2026-11-02 17:05:52,5700,Friend Center/Metra,499514,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793660879,2026-11-02 17:07:59,5700,Friend Center/Metra,499514,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793660957,2026-11-02 17:09:17,5700,Friend Center/Metra,499502,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793661179,2026-11-02 17:12:59,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,8,,,,,,
-1793661403,2026-11-02 17:16:43,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793661673,2026-11-02 17:21:13,5700,Friend Center/Metra,499514,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793661778,2026-11-02 17:22:58,5700,Friend Center/Metra,499514,4327,8658,59th St & Metra,11,,,,,,
-1793662154,2026-11-02 17:29:14,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,12,,,,,,
-1793662313,2026-11-02 17:31:53,5700,Friend Center/Metra,499515,4327,8613,Wyler Pavilion,1,,,,,,
-1793662391,2026-11-02 17:33:11,5700,Friend Center/Metra,499515,4327,8615,Bernard Mitchell Hospital,2,,,,,,
-1793662443,2026-11-02 17:34:03,5700,Friend Center/Metra,499515,4327,8616,58th Street & Drexel,3,,,,,,
-1793662448,2026-11-02 17:34:08,5700,Friend Center/Metra,499515,4327,8617,Comer Children's Hospital,4,,,,,,
-1793662496,2026-11-02 17:34:56,5700,Friend Center/Metra,499515,4327,138838,S Drexel Ave & 57th St,5,,,,,,
-1793662610,2026-11-02 17:36:50,5700,Friend Center/Metra,499515,4327,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793662686,2026-11-02 17:38:06,5700,Friend Center/Metra,499515,4327,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793662833,2026-11-02 17:40:33,5700,Friend Center/Metra,499515,4327,140009,55th Street & University,8,,,,,,
-1793663032,2026-11-02 17:43:52,5700,Friend Center/Metra,499515,4327,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793663164,2026-11-02 17:46:04,5700,Friend Center/Metra,499515,4327,8619,57th Street Metra Station (E),10,,,,,,
-1793663361,2026-11-02 17:49:21,5700,Friend Center/Metra,499515,4327,8658,59th St & Metra,11,,,,,,
-1793663713,2026-11-02 17:55:13,5700,Friend Center/Metra,499516,4327,8612,Goldblatt Pavilion,0,,,,,,
-1793664087,2026-11-02 18:01:27,5700,Friend Center/Metra,499516,4320,8613,Wyler Pavilion,1,,,,,,
-1793664104,2026-11-02 18:01:44,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,2,,,,,,
-1793664160,2026-11-02 18:02:40,5700,Friend Center/Metra,499516,4320,8616,58th Street & Drexel,3,,,,,,
-1793664191,2026-11-02 18:03:11,5700,Friend Center/Metra,499516,4320,8617,Comer Children's Hospital,4,,,,,,
-1793664196,2026-11-02 18:03:16,5700,Friend Center/Metra,499516,4320,138838,S Drexel Ave & 57th St,5,,,,,,
-1793664338,2026-11-02 18:05:38,5700,Friend Center/Metra,499516,4320,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793664420,2026-11-02 18:07:00,5700,Friend Center/Metra,499516,4320,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793664571,2026-11-02 18:09:31,5700,Friend Center/Metra,499516,4320,140009,55th Street & University,8,,,,,,
-1793664706,2026-11-02 18:11:46,5700,Friend Center/Metra,499516,4320,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793664828,2026-11-02 18:13:48,5700,Friend Center/Metra,499516,4320,8619,57th Street Metra Station (E),10,,,,,,
-1793664902,2026-11-02 18:15:02,5700,Friend Center/Metra,499516,4320,8658,59th St & Metra,11,,,,,,
-1793665184,2026-11-02 18:19:44,5700,Friend Center/Metra,499516,4320,8612,Goldblatt Pavilion,12,,,,,,
-1793665933,2026-11-02 18:32:13,5700,Friend Center/Metra,499517,4320,8613,Wyler Pavilion,1,,,,,,
-1793666101,2026-11-02 18:35:01,5700,Friend Center/Metra,499517,4320,8615,Bernard Mitchell Hospital,2,,,,,,
-1793666256,2026-11-02 18:37:36,5700,Friend Center/Metra,499517,4320,8616,58th Street & Drexel,3,,,,,,
-1793666287,2026-11-02 18:38:07,5700,Friend Center/Metra,499517,4320,8617,Comer Children's Hospital,4,,,,,,
-1793666296,2026-11-02 18:38:16,5700,Friend Center/Metra,499517,4320,138838,S Drexel Ave & 57th St,5,,,,,,
-1793666390,2026-11-02 18:39:50,5700,Friend Center/Metra,499517,4320,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793666462,2026-11-02 18:41:02,5700,Friend Center/Metra,499517,4320,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793666613,2026-11-02 18:43:33,5700,Friend Center/Metra,499517,4320,140009,55th Street & University,8,,,,,,
-1793666722,2026-11-02 18:45:22,5700,Friend Center/Metra,499517,4320,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793666817,2026-11-02 18:46:57,5700,Friend Center/Metra,499517,4320,8619,57th Street Metra Station (E),10,,,,,,
-1793666925,2026-11-02 18:48:45,5700,Friend Center/Metra,499517,4320,8658,59th St & Metra,11,,,,,,
-1793667135,2026-11-02 18:52:15,5700,Friend Center/Metra,499518,4320,8612,Goldblatt Pavilion,0,,,,,,
-1793667696,2026-11-02 19:01:36,5700,Friend Center/Metra,499518,4320,8613,Wyler Pavilion,1,,,,,,
-1793667718,2026-11-02 19:01:58,5700,Friend Center/Metra,499518,4320,8615,Bernard Mitchell Hospital,2,,,,,,
-1793667744,2026-11-02 19:02:24,5700,Friend Center/Metra,499518,4320,8616,58th Street & Drexel,3,,,,,,
-1793667772,2026-11-02 19:02:52,5700,Friend Center/Metra,499518,4320,8617,Comer Children's Hospital,4,,,,,,
-1793667783,2026-11-02 19:03:03,5700,Friend Center/Metra,499518,4320,138838,S Drexel Ave & 57th St,5,,,,,,
-1793667916,2026-11-02 19:05:16,5700,Friend Center/Metra,499518,4320,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793667990,2026-11-02 19:06:30,5700,Friend Center/Metra,499518,4320,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793668114,2026-11-02 19:08:34,5700,Friend Center/Metra,499518,4320,140009,55th Street & University,8,,,,,,
-1793668248,2026-11-02 19:10:48,5700,Friend Center/Metra,499518,4320,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793668373,2026-11-02 19:12:53,5700,Friend Center/Metra,499518,4320,8619,57th Street Metra Station (E),10,,,,,,
-1793668490,2026-11-02 19:14:50,5700,Friend Center/Metra,499518,4320,8658,59th St & Metra,11,,,,,,
-1793668755,2026-11-02 19:19:15,5700,Friend Center/Metra,499518,4320,8612,Goldblatt Pavilion,12,,,,,,
-1793669601,2026-11-02 19:33:21,5700,Friend Center/Metra,499519,4320,8613,Wyler Pavilion,1,,,,,,
-1793669616,2026-11-02 19:33:36,5700,Friend Center/Metra,499519,4320,8615,Bernard Mitchell Hospital,2,,,,,,
-1793669672,2026-11-02 19:34:32,5700,Friend Center/Metra,499519,4320,8616,58th Street & Drexel,3,,,,,,
-1793669694,2026-11-02 19:34:54,5700,Friend Center/Metra,499519,4320,8617,Comer Children's Hospital,4,,,,,,
-1793669724,2026-11-02 19:35:24,5700,Friend Center/Metra,499519,4320,138838,S Drexel Ave & 57th St,5,,,,,,
-1793669822,2026-11-02 19:37:02,5700,Friend Center/Metra,499519,4320,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793669919,2026-11-02 19:38:39,5700,Friend Center/Metra,499519,4320,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793670073,2026-11-02 19:41:13,5700,Friend Center/Metra,499519,4320,140009,55th Street & University,8,,,,,,
-1793670218,2026-11-02 19:43:38,5700,Friend Center/Metra,499519,4320,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793670338,2026-11-02 19:45:38,5700,Friend Center/Metra,499519,4320,8619,57th Street Metra Station (E),10,,,,,,
-1793670478,2026-11-02 19:47:58,5700,Friend Center/Metra,499519,4320,8658,59th St & Metra,11,,,,,,
-1793670772,2026-11-02 19:52:52,5700,Friend Center/Metra,499519,4320,8612,Goldblatt Pavilion,12,,,,,,
-1793671265,2026-11-02 20:01:05,5700,Friend Center/Metra,499520,4320,8613,Wyler Pavilion,1,,,,,,
-1793671285,2026-11-02 20:01:25,5700,Friend Center/Metra,499520,4320,8615,Bernard Mitchell Hospital,2,,,,,,
-1793671350,2026-11-02 20:02:30,5700,Friend Center/Metra,499520,4320,8616,58th Street & Drexel,3,,,,,,
-1793671373,2026-11-02 20:02:53,5700,Friend Center/Metra,499520,4320,8617,Comer Children's Hospital,4,,,,,,
-1793671384,2026-11-02 20:03:04,5700,Friend Center/Metra,499520,4320,138838,S Drexel Ave & 57th St,5,,,,,,
-1793671499,2026-11-02 20:04:59,5700,Friend Center/Metra,499520,4320,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793671590,2026-11-02 20:06:30,5700,Friend Center/Metra,499520,4320,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793671735,2026-11-02 20:08:55,5700,Friend Center/Metra,499520,4320,140009,55th Street & University,8,,,,,,
-1793671853,2026-11-02 20:10:53,5700,Friend Center/Metra,499520,4320,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793671969,2026-11-02 20:12:49,5700,Friend Center/Metra,499520,4320,8619,57th Street Metra Station (E),10,,,,,,
-1793672078,2026-11-02 20:14:38,5700,Friend Center/Metra,499520,4320,8658,59th St & Metra,11,,,,,,
-1793672313,2026-11-02 20:18:33,5700,Friend Center/Metra,499520,4320,8612,Goldblatt Pavilion,12,,,,,,
-1793673138,2026-11-02 20:32:18,5700,Friend Center/Metra,499521,4320,8613,Wyler Pavilion,1,,,,,,
-1793673151,2026-11-02 20:32:31,5700,Friend Center/Metra,499521,4320,8615,Bernard Mitchell Hospital,2,,,,,,
-1793673172,2026-11-02 20:32:52,5700,Friend Center/Metra,499521,4320,8616,58th Street & Drexel,3,,,,,,
-1793673196,2026-11-02 20:33:16,5700,Friend Center/Metra,499521,4320,8617,Comer Children's Hospital,4,,,,,,
-1793673207,2026-11-02 20:33:27,5700,Friend Center/Metra,499521,4320,138838,S Drexel Ave & 57th St,5,,,,,,
-1793673303,2026-11-02 20:35:03,5700,Friend Center/Metra,499521,4320,8635,Ellis Garage & Ratner Athletic Center (East),6,,,,,,
-1793673389,2026-11-02 20:36:29,5700,Friend Center/Metra,499521,4320,8618,Ronald McDonald House & Friend Center,7,,,,,,
-1793673523,2026-11-02 20:38:43,5700,Friend Center/Metra,499521,4320,140009,55th Street & University,8,,,,,,
-1793673630,2026-11-02 20:40:30,5700,Friend Center/Metra,499521,4320,8645,Hyde Park Shopping Center (S),9,,,,,,
-1793673722,2026-11-02 20:42:02,5700,Friend Center/Metra,499521,4320,8619,57th Street Metra Station (E),10,,,,,,
-1793673854,2026-11-02 20:44:14,5700,Friend Center/Metra,499521,4320,8658,59th St & Metra,11,,,,,,
-1793674056,2026-11-02 20:47:36,5700,Friend Center/Metra,499521,4320,8612,Goldblatt Pavilion,12,,,,,,
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1793617254,2026-11-02T11:00:54Z,2026-11-02 05:00:54,0,5,300,5700,Friend Center/Metra,499490,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,5,,,proximity
+1793617279,2026-11-02T11:01:19Z,2026-11-02 05:01:19,0,5,301,5700,Friend Center/Metra,499490,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793617254,25,4.79,544,,,transition
+1793617850,2026-11-02T11:10:50Z,2026-11-02 05:10:50,0,5,310,5700,Friend Center/Metra,499490,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793617279,571,3.58,0,1793617772,272,transition
+1793617874,2026-11-02T11:11:14Z,2026-11-02 05:11:14,0,5,311,5700,Friend Center/Metra,499490,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793617850,24,5.29,0,1793617774,296,transition
+1793617881,2026-11-02T11:11:21Z,2026-11-02 05:11:21,0,5,311,5700,Friend Center/Metra,499490,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793617874,7,10.02,0,1793617776,303,transition
+1793617970,2026-11-02T11:12:50Z,2026-11-02 05:12:50,0,5,312,5700,Friend Center/Metra,499490,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793617881,89,6.0,0,1793617982,192,transition
+1793618093,2026-11-02T11:14:53Z,2026-11-02 05:14:53,0,5,314,5700,Friend Center/Metra,499490,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793617970,123,3.0,35,1793618058,188,transition
+1793618223,2026-11-02T11:17:03Z,2026-11-02 05:17:03,0,5,317,5700,Friend Center/Metra,499490,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793618093,130,7.4,0,1793618171,191,transition
+1793618361,2026-11-02T11:19:21Z,2026-11-02 05:19:21,0,5,319,5700,Friend Center/Metra,499490,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793618223,138,6.28,0,1793618321,138,transition
+1793618496,2026-11-02T11:21:36Z,2026-11-02 05:21:36,0,5,321,5700,Friend Center/Metra,499490,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793618361,135,4.23,100,1793618459,208,proximity
+1793618695,2026-11-02T11:24:55Z,2026-11-02 05:24:55,0,5,324,5700,Friend Center/Metra,499490,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793618496,199,6.06,0,1793618564,204,transition
+1793618920,2026-11-02T11:28:40Z,2026-11-02 05:28:40,0,5,328,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793618695,225,6.0,0,1793618949,169,transition
+1793619155,2026-11-02T11:32:35Z,2026-11-02 05:32:35,0,5,332,5700,Friend Center/Metra,499491,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793618920,235,0.86,0,1793618945,212,transition
+1793619169,2026-11-02T11:32:49Z,2026-11-02 05:32:49,0,5,332,5700,Friend Center/Metra,499491,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793619155,14,6.84,8,1793619072,162,transition
+1793619211,2026-11-02T11:33:31Z,2026-11-02 05:33:31,0,5,333,5700,Friend Center/Metra,499491,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793619169,42,2.84,0,1793619075,204,transition
+1793619231,2026-11-02T11:33:51Z,2026-11-02 05:33:51,0,5,333,5700,Friend Center/Metra,499491,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793619211,20,6.35,,1793619172,160,transition
+1793619239,2026-11-02T11:33:59Z,2026-11-02 05:33:59,0,5,333,5700,Friend Center/Metra,499491,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793619231,8,8.76,0,1793619210,168,pass
+1793619346,2026-11-02T11:35:46Z,2026-11-02 05:35:46,0,5,335,5700,Friend Center/Metra,499491,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793619239,107,4.99,0,1793619344,210,transition
+1793619432,2026-11-02T11:37:12Z,2026-11-02 05:37:12,0,5,337,5700,Friend Center/Metra,499491,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793619346,86,4.28,0,1793619421,167,transition
+1793620031,2026-11-02T11:47:11Z,2026-11-02 05:47:11,0,5,347,5700,Friend Center/Metra,499491,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793619432,599,1.17,0,1793619926,238,transition
+1793620146,2026-11-02T11:49:06Z,2026-11-02 05:49:06,0,5,349,5700,Friend Center/Metra,499491,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793620031,115,7.54,20,1793620113,225,proximity
+1793620279,2026-11-02T11:51:19Z,2026-11-02 05:51:19,0,5,351,5700,Friend Center/Metra,499491,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793620146,133,5.05,0,1793620247,229,transition
+1793620416,2026-11-02T11:53:36Z,2026-11-02 05:53:36,0,5,353,5700,Friend Center/Metra,499491,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793620279,137,4.38,0,1793620331,171,transition
+1793620665,2026-11-02T11:57:45Z,2026-11-02 05:57:45,0,5,357,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,,,transition
+1793621030,2026-11-02T12:03:50Z,2026-11-02 06:03:50,0,6,363,5700,Friend Center/Metra,499492,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793620665,365,0.55,0,1793620668,602,transition
+1793621053,2026-11-02T12:04:13Z,2026-11-02 06:04:13,0,6,364,5700,Friend Center/Metra,499492,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793621030,23,4.16,0,1793620958,180,transition
+1793621070,2026-11-02T12:04:30Z,2026-11-02 06:04:30,0,6,364,5700,Friend Center/Metra,499492,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793621053,17,5.68,0,1793620961,197,transition
+1793621093,2026-11-02T12:04:53Z,2026-11-02 06:04:53,0,6,364,5700,Friend Center/Metra,499492,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793621070,23,5.52,0,1793620987,220,transition
+1793621109,2026-11-02T12:05:09Z,2026-11-02 06:05:09,0,6,365,5700,Friend Center/Metra,499492,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793621093,16,4.38,4,1793621100,159,proximity
+1793621209,2026-11-02T12:06:49Z,2026-11-02 06:06:49,0,6,366,5700,Friend Center/Metra,499492,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793621109,100,5.56,0,1793621250,193,transition
+1793621272,2026-11-02T12:07:52Z,2026-11-02 06:07:52,0,6,367,5700,Friend Center/Metra,499492,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793621209,63,5.85,648,1793621281,201,transition
+1793622047,2026-11-02T12:20:47Z,2026-11-02 06:20:47,0,6,380,5700,Friend Center/Metra,499492,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793621272,775,5.53,0,1793622008,160,transition
+1793622133,2026-11-02T12:22:13Z,2026-11-02 06:22:13,0,6,382,5700,Friend Center/Metra,499492,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793622047,86,10.08,14,1793622130,179,proximity
+1793622250,2026-11-02T12:24:10Z,2026-11-02 06:24:10,0,6,384,5700,Friend Center/Metra,499492,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793622133,117,5.54,0,1793622254,176,transition
+1793622357,2026-11-02T12:25:57Z,2026-11-02 06:25:57,0,6,385,5700,Friend Center/Metra,499492,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793622250,107,5.6,0,1793622325,151,transition
+1793622591,2026-11-02T12:29:51Z,2026-11-02 06:29:51,0,6,389,5700,Friend Center/Metra,499493,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,15,1793622573,142,proximity
+1793622668,2026-11-02T12:31:08Z,2026-11-02 06:31:08,0,6,391,5700,Friend Center/Metra,499493,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793622591,77,3.0,0,1793622585,164,transition
+1793622687,2026-11-02T12:31:27Z,2026-11-02 06:31:27,0,6,391,5700,Friend Center/Metra,499493,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793622668,19,5.04,24,1793622695,183,transition
+1793622740,2026-11-02T12:32:20Z,2026-11-02 06:32:20,0,6,392,5700,Friend Center/Metra,499493,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793622687,53,3.33,0,1793622698,170,transition
+1793622768,2026-11-02T12:32:48Z,2026-11-02 06:32:48,0,6,392,5700,Friend Center/Metra,499493,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793622740,28,4.54,0,1793622722,131,transition
+1793622785,2026-11-02T12:33:05Z,2026-11-02 06:33:05,0,6,393,5700,Friend Center/Metra,499493,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793622768,17,4.12,0,1793622764,148,transition
+1793622881,2026-11-02T12:34:41Z,2026-11-02 06:34:41,0,6,394,5700,Friend Center/Metra,499493,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793622785,96,5.56,0,1793622890,177,transition
+1793622981,2026-11-02T12:36:21Z,2026-11-02 06:36:21,0,6,396,5700,Friend Center/Metra,499493,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793622881,100,3.68,531,1793622955,154,transition
+1793623646,2026-11-02T12:47:26Z,2026-11-02 06:47:26,0,6,407,5700,Friend Center/Metra,499493,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793622981,665,5.24,0,1793623597,172,transition
+1793623761,2026-11-02T12:49:21Z,2026-11-02 06:49:21,0,6,409,5700,Friend Center/Metra,499493,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793623646,115,7.54,8,1793623680,230,proximity
+1793623888,2026-11-02T12:51:28Z,2026-11-02 06:51:28,0,6,411,5700,Friend Center/Metra,499493,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793623761,127,4.8,46,1793623855,167,proximity
+1793624023,2026-11-02T12:53:43Z,2026-11-02 06:53:43,0,6,413,5700,Friend Center/Metra,499493,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793623888,135,6.74,0,1793623939,178,transition
+1793624230,2026-11-02T12:57:10Z,2026-11-02 06:57:10,0,6,417,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1793622480,1969,transition
+1793624530,2026-11-02T13:02:10Z,2026-11-02 07:02:10,0,7,422,5700,Friend Center/Metra,499494,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793624230,300,0.67,,1793624230,493,transition
+1793624544,2026-11-02T13:02:24Z,2026-11-02 07:02:24,0,7,422,5700,Friend Center/Metra,499494,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793624530,14,6.84,28,1793624495,507,proximity
+1793624592,2026-11-02T13:03:12Z,2026-11-02 07:03:12,0,7,423,5700,Friend Center/Metra,499494,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793624544,48,4.83,0,1793624498,555,transition
+1793624620,2026-11-02T13:03:40Z,2026-11-02 07:03:40,0,7,423,5700,Friend Center/Metra,499494,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793624592,28,4.54,0,1793624524,583,transition
+1793624641,2026-11-02T13:04:01Z,2026-11-02 07:04:01,0,7,424,5700,Friend Center/Metra,499494,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793624620,21,3.34,2,1793624628,164,proximity
+1793624758,2026-11-02T13:05:58Z,2026-11-02 07:05:58,0,7,425,5700,Friend Center/Metra,499494,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793624641,117,4.64,16,1793624768,144,proximity
+1793624874,2026-11-02T13:07:54Z,2026-11-02 07:07:54,0,7,427,5700,Friend Center/Metra,499494,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793624758,116,3.68,637,1793624840,203,proximity
+1793625598,2026-11-02T13:19:58Z,2026-11-02 07:19:58,0,7,439,5700,Friend Center/Metra,499494,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793624874,724,8.08,0,1793625527,210,transition
+1793625705,2026-11-02T13:21:45Z,2026-11-02 07:21:45,0,7,441,5700,Friend Center/Metra,499494,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793625598,107,8.1,39,1793625816,177,proximity
+1793625879,2026-11-02T13:24:39Z,2026-11-02 07:24:39,0,7,444,5700,Friend Center/Metra,499494,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793625705,174,4.23,65,1793625825,158,proximity
+1793626036,2026-11-02T13:27:16Z,2026-11-02 07:27:16,0,7,447,5700,Friend Center/Metra,499494,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793625879,157,6.52,0,1793625941,190,transition
+1793626273,2026-11-02T13:31:13Z,2026-11-02 07:31:13,0,7,451,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1793624410,1853,transition
+1793626351,2026-11-02T13:32:31Z,2026-11-02 07:32:31,0,7,452,5700,Friend Center/Metra,499495,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793626273,78,2.58,0,1793626302,198,transition
+1793626367,2026-11-02T13:32:47Z,2026-11-02 07:32:47,0,7,452,5700,Friend Center/Metra,499495,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793626351,16,5.99,98,1793626361,214,transition
+1793626488,2026-11-02T13:34:48Z,2026-11-02 07:34:48,0,7,454,5700,Friend Center/Metra,499495,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793626367,121,4.2,9,1793626341,210,proximity
+1793626515,2026-11-02T13:35:15Z,2026-11-02 07:35:15,0,7,455,5700,Friend Center/Metra,499495,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793626488,27,7.06,0,1793626412,168,transition
+1793626525,2026-11-02T13:35:25Z,2026-11-02 07:35:25,0,7,455,5700,Friend Center/Metra,499495,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793626515,10,7.01,29,1793626450,178,proximity
+1793626633,2026-11-02T13:37:13Z,2026-11-02 07:37:13,0,7,457,5700,Friend Center/Metra,499495,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793626525,108,6.76,0,1793626654,160,transition
+1793626751,2026-11-02T13:39:11Z,2026-11-02 07:39:11,0,7,459,5700,Friend Center/Metra,499495,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793626633,118,3.12,0,1793626706,151,transition
+1793626948,2026-11-02T13:42:28Z,2026-11-02 07:42:28,0,7,462,5700,Friend Center/Metra,499495,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793626751,197,3.57,0,1793626927,153,transition
+1793627060,2026-11-02T13:44:20Z,2026-11-02 07:44:20,0,7,464,5700,Friend Center/Metra,499495,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793626948,112,7.74,38,1793627089,138,proximity
+1793627215,2026-11-02T13:46:55Z,2026-11-02 07:46:55,0,7,466,5700,Friend Center/Metra,499495,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793627060,155,4.88,215,1793627169,166,transition
+1793627507,2026-11-02T13:51:47Z,2026-11-02 07:51:47,0,7,471,5700,Friend Center/Metra,499490,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793627215,292,7.79,0,1793627303,400,transition
+1793627800,2026-11-02T13:56:40Z,2026-11-02 07:56:40,0,7,476,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1793627466,693,transition
+1793627931,2026-11-02T13:58:51Z,2026-11-02 07:58:51,0,7,478,5700,Friend Center/Metra,499496,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793627800,131,1.54,5,1793627817,293,proximity
+1793627978,2026-11-02T13:59:38Z,2026-11-02 07:59:38,0,7,479,5700,Friend Center/Metra,499496,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793627931,47,2.28,25,1793628086,340,proximity
+1793628043,2026-11-02T14:00:43Z,2026-11-02 08:00:43,0,8,480,5700,Friend Center/Metra,499496,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793627978,65,2.41,0,1793628090,405,transition
+1793628060,2026-11-02T14:01:00Z,2026-11-02 08:01:00,0,8,481,5700,Friend Center/Metra,499496,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793628043,17,7.47,0,1793627978,167,transition
+1793628068,2026-11-02T14:01:08Z,2026-11-02 08:01:08,0,8,481,5700,Friend Center/Metra,499496,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793628060,8,8.76,470,1793628016,175,proximity
+1793628632,2026-11-02T14:10:32Z,2026-11-02 08:10:32,0,8,490,5700,Friend Center/Metra,499496,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793628068,564,5.68,0,1793628614,141,transition
+1793628736,2026-11-02T14:12:16Z,2026-11-02 08:12:16,0,8,492,5700,Friend Center/Metra,499496,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793628632,104,3.54,0,1793628695,185,transition
+1793628916,2026-11-02T14:15:16Z,2026-11-02 08:15:16,0,8,495,5700,Friend Center/Metra,499496,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793628736,180,3.9,0,1793628879,174,transition
+1793629033,2026-11-02T14:17:13Z,2026-11-02 08:17:13,0,8,497,5700,Friend Center/Metra,499496,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793628916,117,7.41,50,1793629019,161,proximity
+1793629262,2026-11-02T14:21:02Z,2026-11-02 08:21:02,0,8,501,5700,Friend Center/Metra,499496,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793629033,229,3.19,44,1793629160,193,transition
+1793629634,2026-11-02T14:27:14Z,2026-11-02 08:27:14,0,8,507,5700,Friend Center/Metra,499496,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793629262,372,1.83,5,1793629474,240,proximity
+1793629931,2026-11-02T14:32:11Z,2026-11-02 08:32:11,0,8,512,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,,,transition
+1793630017,2026-11-02T14:33:37Z,2026-11-02 08:33:37,0,8,513,5700,Friend Center/Metra,499497,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,0,1793629956,291,transition
+1793630037,2026-11-02T14:33:57Z,2026-11-02 08:33:57,0,8,513,5700,Friend Center/Metra,499497,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793630017,20,4.79,0,1793630018,311,transition
+1793630063,2026-11-02T14:34:23Z,2026-11-02 08:34:23,0,8,514,5700,Friend Center/Metra,499497,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793630037,26,3.71,0,1793630020,337,transition
+1793630086,2026-11-02T14:34:46Z,2026-11-02 08:34:46,0,8,514,5700,Friend Center/Metra,499497,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793630063,23,5.52,0,,,transition
+1793630094,2026-11-02T14:34:54Z,2026-11-02 08:34:54,0,8,514,5700,Friend Center/Metra,499497,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8616,197.1,1793630063,31,6.36,0,1793630071,368,pass
+1793630189,2026-11-02T14:36:29Z,2026-11-02 08:36:29,0,8,516,5700,Friend Center/Metra,499497,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793630094,95,5.62,0,1793630208,214,transition
+1793630288,2026-11-02T14:38:08Z,2026-11-02 08:38:08,0,8,518,5700,Friend Center/Metra,499497,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793630189,99,3.72,0,1793630289,179,transition
+1793631041,2026-11-02T14:50:41Z,2026-11-02 08:50:41,0,8,530,5700,Friend Center/Metra,499497,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793630288,753,0.93,14,1793630986,204,proximity
+1793631152,2026-11-02T14:52:32Z,2026-11-02 08:52:32,0,8,532,5700,Friend Center/Metra,499497,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793631041,111,8.94,25,1793631134,169,transition
+1793631274,2026-11-02T14:54:34Z,2026-11-02 08:54:34,0,8,534,5700,Friend Center/Metra,499497,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793631152,122,5.89,34,1793631263,170,transition
+1793631405,2026-11-02T14:56:45Z,2026-11-02 08:56:45,0,8,536,5700,Friend Center/Metra,499497,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793631274,131,6.18,0,1793631334,242,transition
+1793631606,2026-11-02T15:00:06Z,2026-11-02 09:00:06,0,9,540,5700,Friend Center/Metra,499498,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,18,1793631685,239,proximity
+1793631680,2026-11-02T15:01:20Z,2026-11-02 09:01:20,0,9,541,5700,Friend Center/Metra,499498,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793631606,74,3.59,49,1793631677,191,proximity
+1793631739,2026-11-02T15:02:19Z,2026-11-02 09:02:19,0,9,542,5700,Friend Center/Metra,499498,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793631680,59,9.58,15,1793631720,190,transition
+1793631783,2026-11-02T15:03:03Z,2026-11-02 09:03:03,0,9,543,5700,Friend Center/Metra,499498,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793631739,44,2.84,0,1793631722,234,transition
+1793631806,2026-11-02T15:03:26Z,2026-11-02 09:03:26,0,9,543,5700,Friend Center/Metra,499498,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793631783,23,5.52,0,1793631750,257,transition
+1793631816,2026-11-02T15:03:36Z,2026-11-02 09:03:36,0,9,543,5700,Friend Center/Metra,499498,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793631806,10,7.01,28,1793631790,267,proximity
+1793631937,2026-11-02T15:05:37Z,2026-11-02 09:05:37,0,9,545,5700,Friend Center/Metra,499498,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793631816,121,5.74,0,1793631939,192,transition
+1793632045,2026-11-02T15:07:25Z,2026-11-02 09:07:25,0,9,547,5700,Friend Center/Metra,499498,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793631937,108,3.41,0,1793631998,179,transition
+1793632334,2026-11-02T15:12:14Z,2026-11-02 09:12:14,0,9,552,5700,Friend Center/Metra,499498,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,,,,gps
+1793632486,2026-11-02T15:14:46Z,2026-11-02 09:14:46,0,9,554,5700,Friend Center/Metra,499498,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,8615,2765.7,1793631739,747,3.78,27,,,proximity
+1793632609,2026-11-02T15:16:49Z,2026-11-02 09:16:49,0,9,556,5700,Friend Center/Metra,499498,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793632486,123,5.95,584,1793632581,229,transition
+1793633302,2026-11-02T15:28:22Z,2026-11-02 09:28:22,0,9,568,5700,Friend Center/Metra,499498,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793632609,693,5.5,0,1793633196,198,transition
+1793633543,2026-11-02T15:32:23Z,2026-11-02 09:32:23,0,9,572,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1793633237,574,transition
+1793633616,2026-11-02T15:33:36Z,2026-11-02 09:33:36,0,9,573,5700,Friend Center/Metra,499499,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793633543,73,2.76,0,1793633600,318,transition
+1793633629,2026-11-02T15:33:49Z,2026-11-02 09:33:49,0,9,573,5700,Friend Center/Metra,499499,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793633616,13,7.37,38,1793633671,331,transition
+1793633677,2026-11-02T15:34:37Z,2026-11-02 09:34:37,0,9,574,5700,Friend Center/Metra,499499,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793633629,48,9.65,4,1793633674,379,proximity
+1793633706,2026-11-02T15:35:06Z,2026-11-02 09:35:06,0,9,575,5700,Friend Center/Metra,499499,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,0,1793633701,408,transition
+1793633710,2026-11-02T15:35:10Z,2026-11-02 09:35:10,0,9,575,5700,Friend Center/Metra,499499,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8616,197.1,1793633677,33,6.8,0,1793633729,412,pass
+1793633821,2026-11-02T15:37:01Z,2026-11-02 09:37:01,0,9,577,5700,Friend Center/Metra,499499,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793633710,111,4.81,0,1793633855,205,transition
+1793633924,2026-11-02T15:38:44Z,2026-11-02 09:38:44,0,9,578,5700,Friend Center/Metra,499499,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793633821,103,3.58,0,1793633897,235,transition
+1793634595,2026-11-02T15:49:55Z,2026-11-02 09:49:55,0,9,589,5700,Friend Center/Metra,499499,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793633924,671,1.05,0,1793634546,192,transition
+1793634709,2026-11-02T15:51:49Z,2026-11-02 09:51:49,0,9,591,5700,Friend Center/Metra,499499,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793634595,114,7.61,32,1793634715,175,proximity
+1793634850,2026-11-02T15:54:10Z,2026-11-02 09:54:10,0,9,594,5700,Friend Center/Metra,499499,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793634709,141,5.24,32,1793634820,185,proximity
+1793634966,2026-11-02T15:56:06Z,2026-11-02 09:56:06,0,9,596,5700,Friend Center/Metra,499499,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793634850,116,7.14,29,1793634917,172,transition
+1793635219,2026-11-02T16:00:19Z,2026-11-02 10:00:19,0,10,600,5700,Friend Center/Metra,499500,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,,,,gps
+1793635291,2026-11-02T16:01:31Z,2026-11-02 10:01:31,0,10,601,5700,Friend Center/Metra,499500,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,,1793635288,177,transition
+1793635304,2026-11-02T16:01:44Z,2026-11-02 10:01:44,0,10,601,5700,Friend Center/Metra,499500,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793635291,13,7.37,45,1793635359,190,proximity
+1793635377,2026-11-02T16:02:57Z,2026-11-02 10:02:57,0,10,602,5700,Friend Center/Metra,499500,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793635304,73,3.45,0,1793635362,263,transition
+1793635405,2026-11-02T16:03:25Z,2026-11-02 10:03:25,0,10,603,5700,Friend Center/Metra,499500,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793635377,28,4.54,18,1793635390,291,proximity
+1793635439,2026-11-02T16:03:59Z,2026-11-02 10:03:59,0,10,603,5700,Friend Center/Metra,499500,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793635405,34,4.38,0,1793635448,137,transition
+1793635574,2026-11-02T16:06:14Z,2026-11-02 10:06:14,0,10,606,5700,Friend Center/Metra,499500,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793635439,135,3.95,0,1793635608,153,transition
+1793635659,2026-11-02T16:07:39Z,2026-11-02 10:07:39,0,10,607,5700,Friend Center/Metra,499500,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793635574,85,4.33,0,1793635651,179,transition
+1793636160,2026-11-02T16:16:00Z,2026-11-02 10:16:00,0,10,616,5700,Friend Center/Metra,499500,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793635659,501,1.4,6,1793636085,169,proximity
+1793636293,2026-11-02T16:18:13Z,2026-11-02 10:18:13,0,10,618,5700,Friend Center/Metra,499500,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793636160,133,6.83,18,1793636308,183,proximity
+1793636411,2026-11-02T16:20:11Z,2026-11-02 10:20:11,0,10,620,5700,Friend Center/Metra,499500,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793636293,118,5.71,38,1793636414,172,proximity
+1793636547,2026-11-02T16:22:27Z,2026-11-02 10:22:27,0,10,622,5700,Friend Center/Metra,499500,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793636411,136,6.12,0,1793636514,178,transition
+1793636827,2026-11-02T16:27:07Z,2026-11-02 10:27:07,0,10,627,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,,,,transition
+1793637042,2026-11-02T16:30:42Z,2026-11-02 10:30:42,0,10,630,5700,Friend Center/Metra,499501,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793636827,215,0.94,5,1793636910,413,transition
+1793637090,2026-11-02T16:31:30Z,2026-11-02 10:31:30,0,10,631,5700,Friend Center/Metra,499501,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793637042,48,2.23,15,1793637136,461,proximity
+1793637137,2026-11-02T16:32:17Z,2026-11-02 10:32:17,0,10,632,5700,Friend Center/Metra,499501,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793637090,47,3.02,0,1793637141,508,transition
+1793637160,2026-11-02T16:32:40Z,2026-11-02 10:32:40,0,10,632,5700,Friend Center/Metra,499501,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793637137,23,5.52,0,1793637190,531,transition
+1793637171,2026-11-02T16:32:51Z,2026-11-02 10:32:51,0,10,632,5700,Friend Center/Metra,499501,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793637160,11,6.37,0,1793637238,542,transition
+1793637284,2026-11-02T16:34:44Z,2026-11-02 10:34:44,0,10,634,5700,Friend Center/Metra,499501,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793637171,113,4.72,0,1793637330,207,transition
+1793637388,2026-11-02T16:36:28Z,2026-11-02 10:36:28,0,10,636,5700,Friend Center/Metra,499501,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793637284,104,3.54,0,1793637408,181,transition
+1793637970,2026-11-02T16:46:10Z,2026-11-02 10:46:10,0,10,646,5700,Friend Center/Metra,499501,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793637388,582,1.21,0,1793637959,176,transition
+1793638090,2026-11-02T16:48:10Z,2026-11-02 10:48:10,0,10,648,5700,Friend Center/Metra,499501,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793637970,120,7.23,15,1793638052,224,proximity
+1793638218,2026-11-02T16:50:18Z,2026-11-02 10:50:18,0,10,650,5700,Friend Center/Metra,499501,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793638090,128,5.05,5,1793638216,222,proximity
+1793638318,2026-11-02T16:51:58Z,2026-11-02 10:51:58,0,10,651,5700,Friend Center/Metra,499501,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793638218,100,6.31,0,1793638325,204,transition
+1793638776,2026-11-02T16:59:36Z,2026-11-02 10:59:36,0,10,659,5700,Friend Center/Metra,499501,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793638318,458,2.95,,1793638685,211,transition
+1793639060,2026-11-02T17:04:20Z,2026-11-02 11:04:20,0,11,664,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793638776,284,0.71,0,1793638810,317,transition
+1793639076,2026-11-02T17:04:36Z,2026-11-02 11:04:36,0,11,664,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793639060,16,5.99,79,1793638938,333,transition
+1793639184,2026-11-02T17:06:24Z,2026-11-02 11:06:24,0,11,666,5700,Friend Center/Metra,499502,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793639076,108,3.33,20,1793639080,166,proximity
+1793639220,2026-11-02T17:07:00Z,2026-11-02 11:07:00,0,11,667,5700,Friend Center/Metra,499502,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793639184,36,7.94,0,1793639117,202,transition
+1793639228,2026-11-02T17:07:08Z,2026-11-02 11:07:08,0,11,667,5700,Friend Center/Metra,499502,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793639220,8,8.76,27,1793639159,210,proximity
+1793639360,2026-11-02T17:09:20Z,2026-11-02 11:09:20,0,11,669,5700,Friend Center/Metra,499502,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793639228,132,5.08,0,1793639350,211,transition
+1793639496,2026-11-02T17:11:36Z,2026-11-02 11:11:36,0,11,671,5700,Friend Center/Metra,499502,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793639360,136,2.71,0,1793639427,146,transition
+1793639708,2026-11-02T17:15:08Z,2026-11-02 11:15:08,0,11,675,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793639496,212,3.31,0,1793639655,179,transition
+1793639872,2026-11-02T17:17:52Z,2026-11-02 11:17:52,0,11,677,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793639708,164,5.29,0,1793639828,213,transition
+1793639978,2026-11-02T17:19:38Z,2026-11-02 11:19:38,0,11,679,5700,Friend Center/Metra,499502,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793639872,106,5.39,145,1793639979,188,proximity
+1793640249,2026-11-02T17:24:09Z,2026-11-02 11:24:09,0,11,684,5700,Friend Center/Metra,499502,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793639978,271,4.76,0,1793640146,207,transition
+1793640649,2026-11-02T17:30:49Z,2026-11-02 11:30:49,0,11,690,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793640249,400,3.38,0,1793640564,202,transition
+1793640766,2026-11-02T17:32:46Z,2026-11-02 11:32:46,0,11,692,5700,Friend Center/Metra,499503,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,0,1793640622,199,transition
+1793640788,2026-11-02T17:33:08Z,2026-11-02 11:33:08,0,11,693,5700,Friend Center/Metra,499503,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793640766,22,4.35,35,1793640731,149,transition
+1793640862,2026-11-02T17:34:22Z,2026-11-02 11:34:22,0,11,694,5700,Friend Center/Metra,499503,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793640788,74,2.48,0,1793640771,163,transition
+1793640888,2026-11-02T17:34:48Z,2026-11-02 11:34:48,0,11,694,5700,Friend Center/Metra,499503,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793640862,26,4.89,0,1793640808,189,pass
+1793640900,2026-11-02T17:35:00Z,2026-11-02 11:35:00,0,11,695,5700,Friend Center/Metra,499503,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793640888,12,5.84,39,1793640850,201,proximity
+1793641032,2026-11-02T17:37:12Z,2026-11-02 11:37:12,0,11,697,5700,Friend Center/Metra,499503,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793640900,132,5.74,0,1793641044,201,transition
+1793641145,2026-11-02T17:39:05Z,2026-11-02 11:39:05,0,11,699,5700,Friend Center/Metra,499503,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793641032,113,3.26,0,1793641134,190,transition
+1793641361,2026-11-02T17:42:41Z,2026-11-02 11:42:41,0,11,702,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,0,1793641357,142,transition
+1793641487,2026-11-02T17:44:47Z,2026-11-02 11:44:47,0,11,704,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,,,,,,0,1793641491,136,transition
+1793641603,2026-11-02T17:46:43Z,2026-11-02 11:46:43,0,11,706,5700,Friend Center/Metra,499503,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,,,,,,85,1793641602,193,transition
+1793641827,2026-11-02T17:50:27Z,2026-11-02 11:50:27,0,11,710,5700,Friend Center/Metra,499503,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793641603,224,4.31,0,1793641908,213,transition
+1793642278,2026-11-02T17:57:58Z,2026-11-02 11:57:58,0,11,717,5700,Friend Center/Metra,499504,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,172,1793642182,222,proximity
+1793642533,2026-11-02T18:02:13Z,2026-11-02 12:02:13,0,12,722,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8612,296.9,1793642278,255,3.58,98,,,pass
+1793642551,2026-11-02T18:02:31Z,2026-11-02 12:02:31,0,12,722,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,0,,,transition
+1793642665,2026-11-02T18:04:25Z,2026-11-02 12:04:25,0,12,724,5700,Friend Center/Metra,499504,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,,,,gps
+1793642689,2026-11-02T18:04:49Z,2026-11-02 12:04:49,0,12,724,5700,Friend Center/Metra,499504,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,27,1793642543,442,proximity
+1793642736,2026-11-02T18:05:36Z,2026-11-02 12:05:36,0,12,725,5700,Friend Center/Metra,499504,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793642689,47,3.51,0,1793642586,489,transition
+1793642853,2026-11-02T18:07:33Z,2026-11-02 12:07:33,0,12,727,5700,Friend Center/Metra,499504,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793642736,117,4.56,0,1793642711,606,transition
+1793642952,2026-11-02T18:09:12Z,2026-11-02 12:09:12,0,12,729,5700,Friend Center/Metra,499504,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793642853,99,3.72,0,1793642933,201,transition
+1793643335,2026-11-02T18:15:35Z,2026-11-02 12:15:35,0,12,735,5700,Friend Center/Metra,499504,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793642952,383,1.83,0,1793643231,190,transition
+1793643466,2026-11-02T18:17:46Z,2026-11-02 12:17:46,0,12,737,5700,Friend Center/Metra,499504,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793643335,131,6.62,0,1793643465,190,transition
+1793643594,2026-11-02T18:19:54Z,2026-11-02 12:19:54,0,12,739,5700,Friend Center/Metra,499504,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793643466,128,4.46,0,1793643579,198,transition
+1793643736,2026-11-02T18:22:16Z,2026-11-02 12:22:16,0,12,742,5700,Friend Center/Metra,499504,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793643594,142,4.22,0,1793643707,208,transition
+1793644131,2026-11-02T18:28:51Z,2026-11-02 12:28:51,0,12,748,5700,Friend Center/Metra,499504,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793643736,395,3.42,0,,,transition
+1793644386,2026-11-02T18:33:06Z,2026-11-02 12:33:06,0,12,753,5700,Friend Center/Metra,499505,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793644128,258,0.78,23,1793644080,550,transition
+1793644414,2026-11-02T18:33:34Z,2026-11-02 12:33:34,0,12,753,5700,Friend Center/Metra,499505,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793644386,28,19.16,,1793644330,189,transition
+1793644454,2026-11-02T18:34:14Z,2026-11-02 12:34:14,0,12,754,5700,Friend Center/Metra,499505,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793644414,40,2.41,0,1793644334,229,transition
+1793644520,2026-11-02T18:35:20Z,2026-11-02 12:35:20,0,12,755,5700,Friend Center/Metra,499505,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793644454,66,1.92,0,1793644446,234,transition
+1793644527,2026-11-02T18:35:27Z,2026-11-02 12:35:27,0,12,755,5700,Friend Center/Metra,499505,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793644520,7,10.02,0,1793644487,241,transition
+1793644625,2026-11-02T18:37:05Z,2026-11-02 12:37:05,0,12,757,5700,Friend Center/Metra,499505,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793644527,98,5.45,0,1793644638,206,transition
+1793644687,2026-11-02T18:38:07Z,2026-11-02 12:38:07,0,12,758,5700,Friend Center/Metra,499505,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793644625,62,5.94,0,1793644697,268,transition
+1793644966,2026-11-02T18:42:46Z,2026-11-02 12:42:46,0,12,762,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793644687,279,2.52,0,1793644977,134,transition
+1793645169,2026-11-02T18:46:09Z,2026-11-02 12:46:09,0,12,766,5700,Friend Center/Metra,499505,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,,,,,,15,1793645107,205,proximity
+1793645282,2026-11-02T18:48:02Z,2026-11-02 12:48:02,0,12,768,5700,Friend Center/Metra,499505,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793645169,113,5.83,195,1793645268,176,proximity
+1793645577,2026-11-02T18:52:57Z,2026-11-02 12:52:57,0,12,772,5700,Friend Center/Metra,499505,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793645282,295,5.99,5,1793645445,221,proximity
+1793645859,2026-11-02T18:57:39Z,2026-11-02 12:57:39,0,12,777,5700,Friend Center/Metra,499505,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793645577,282,4.87,,1793645952,180,transition
+1793646143,2026-11-02T19:02:23Z,2026-11-02 13:02:23,0,13,782,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,0,,,transition
+1793646156,2026-11-02T19:02:36Z,2026-11-02 13:02:36,0,13,782,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8612,296.9,1793645859,297,1.0,0,,,pass
+1793646202,2026-11-02T19:03:22Z,2026-11-02 13:03:22,0,13,783,5700,Friend Center/Metra,499506,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,5,1793646056,261,proximity
+1793646244,2026-11-02T19:04:04Z,2026-11-02 13:04:04,0,13,784,5700,Friend Center/Metra,499506,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793646202,42,3.43,14,1793646098,303,proximity
+1793646273,2026-11-02T19:04:33Z,2026-11-02 13:04:33,0,13,784,5700,Friend Center/Metra,499506,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793646244,29,4.67,0,1793646139,332,transition
+1793646381,2026-11-02T19:06:21Z,2026-11-02 13:06:21,0,13,786,5700,Friend Center/Metra,499506,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793646273,108,4.94,0,1793646391,164,transition
+1793646480,2026-11-02T19:08:00Z,2026-11-02 13:08:00,0,13,788,5700,Friend Center/Metra,499506,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793646381,99,3.72,5,1793646472,192,proximity
+1793646704,2026-11-02T19:11:44Z,2026-11-02 13:11:44,0,13,791,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,0,,,transition
+1793646870,2026-11-02T19:14:30Z,2026-11-02 13:14:30,0,13,794,5700,Friend Center/Metra,499506,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,,,,,,25,1793646888,402,proximity
+1793647009,2026-11-02T19:16:49Z,2026-11-02 13:16:49,0,13,796,5700,Friend Center/Metra,499506,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793646870,139,5.01,258,1793646954,214,proximity
+1793647415,2026-11-02T19:23:35Z,2026-11-02 13:23:35,0,13,803,5700,Friend Center/Metra,499502,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793647009,406,4.05,0,,,transition
+1793647796,2026-11-02T19:29:56Z,2026-11-02 13:29:56,0,13,809,5700,Friend Center/Metra,499506,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,14,1793647724,222,transition
+1793647900,2026-11-02T19:31:40Z,2026-11-02 13:31:40,0,13,811,5700,Friend Center/Metra,499507,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793647796,104,2.23,0,1793647748,206,transition
+1793647936,2026-11-02T19:32:16Z,2026-11-02 13:32:16,0,13,812,5700,Friend Center/Metra,499507,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793647900,36,2.66,30,1793647933,242,transition
+1793648019,2026-11-02T19:33:39Z,2026-11-02 13:33:39,0,13,813,5700,Friend Center/Metra,499507,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793647936,83,1.82,0,1793647938,266,transition
+1793648055,2026-11-02T19:34:15Z,2026-11-02 13:34:15,0,13,814,5700,Friend Center/Metra,499507,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793648019,36,3.53,0,1793647981,302,transition
+1793648062,2026-11-02T19:34:22Z,2026-11-02 13:34:22,0,13,814,5700,Friend Center/Metra,499507,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793648055,7,10.02,0,1793648048,178,pass
+1793648226,2026-11-02T19:37:06Z,2026-11-02 13:37:06,0,13,817,5700,Friend Center/Metra,499507,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793648062,164,3.25,0,1793648194,210,transition
+1793648298,2026-11-02T19:38:18Z,2026-11-02 13:38:18,0,13,818,5700,Friend Center/Metra,499507,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793648226,72,5.12,0,1793648271,210,transition
+1793648502,2026-11-02T19:41:42Z,2026-11-02 13:41:42,0,13,821,5700,Friend Center/Metra,499507,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793648298,204,3.44,0,1793648469,168,transition
+1793648635,2026-11-02T19:43:55Z,2026-11-02 13:43:55,0,13,823,5700,Friend Center/Metra,499507,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793648502,133,6.52,50,1793648624,169,transition
+1793648823,2026-11-02T19:47:03Z,2026-11-02 13:47:03,0,13,827,5700,Friend Center/Metra,499502,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793648635,188,4.14,0,,,transition
+1793649189,2026-11-02T19:53:09Z,2026-11-02 13:53:09,0,13,833,5700,Friend Center/Metra,499507,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793648823,366,1.64,0,1793649151,135,transition
+1793649561,2026-11-02T19:59:21Z,2026-11-02 13:59:21,0,13,839,5700,Friend Center/Metra,499507,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793649189,372,3.63,0,1793649520,194,transition
+1793649702,2026-11-02T20:01:42Z,2026-11-02 14:01:42,0,14,841,5700,Friend Center/Metra,499508,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793649561,141,1.43,4,1793649581,143,proximity
+1793649735,2026-11-02T20:02:15Z,2026-11-02 14:02:15,0,14,842,5700,Friend Center/Metra,499508,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793649702,33,3.3,60,1793649733,176,transition
+1793649823,2026-11-02T20:03:43Z,2026-11-02 14:03:43,0,14,843,5700,Friend Center/Metra,499508,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793649735,88,3.45,0,1793649728,205,transition
+1793649852,2026-11-02T20:04:12Z,2026-11-02 14:04:12,0,14,844,5700,Friend Center/Metra,499508,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793649823,29,4.38,0,1793649759,234,transition
+1793649860,2026-11-02T20:04:20Z,2026-11-02 14:04:20,0,14,844,5700,Friend Center/Metra,499502,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,0,,,transition
+1793649995,2026-11-02T20:06:35Z,2026-11-02 14:06:35,0,14,846,5700,Friend Center/Metra,499508,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,,,,,,19,1793649990,186,transition
+1793650115,2026-11-02T20:08:35Z,2026-11-02 14:08:35,0,14,848,5700,Friend Center/Metra,499508,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793649995,120,3.65,0,1793650064,176,transition
+1793650324,2026-11-02T20:12:04Z,2026-11-02 14:12:04,0,14,852,5700,Friend Center/Metra,499508,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793650115,209,3.36,20,1793650265,201,proximity
+1793650538,2026-11-02T20:15:38Z,2026-11-02 14:15:38,0,14,855,5700,Friend Center/Metra,499508,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793650324,214,4.38,42,1793650484,166,proximity
+1793650710,2026-11-02T20:18:30Z,2026-11-02 14:18:30,0,14,858,5700,Friend Center/Metra,499508,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793650538,172,4.39,134,1793650662,144,proximity
+1793651038,2026-11-02T20:23:58Z,2026-11-02 14:23:58,0,14,863,5700,Friend Center/Metra,499508,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793650710,328,3.09,0,1793650935,209,transition
+1793651363,2026-11-02T20:29:23Z,2026-11-02 14:29:23,0,14,869,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,,,transition
+1793651567,2026-11-02T20:32:47Z,2026-11-02 14:32:47,0,14,872,5700,Friend Center/Metra,499509,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793651363,204,0.99,8,1793651348,533,transition
+1793651619,2026-11-02T20:33:39Z,2026-11-02 14:33:39,0,14,873,5700,Friend Center/Metra,499509,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793651567,52,2.18,68,1793651517,204,proximity
+1793651702,2026-11-02T20:35:02Z,2026-11-02 14:35:02,0,14,875,5700,Friend Center/Metra,499509,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793651619,83,6.44,15,1793651581,231,proximity
+1793651772,2026-11-02T20:36:12Z,2026-11-02 14:36:12,0,14,876,5700,Friend Center/Metra,499509,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793651702,70,2.31,0,1793651652,229,transition
+1793651786,2026-11-02T20:36:26Z,2026-11-02 14:36:26,0,14,876,5700,Friend Center/Metra,499509,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793651772,14,5.01,0,1793651688,176,transition
+1793651914,2026-11-02T20:38:34Z,2026-11-02 14:38:34,0,14,878,5700,Friend Center/Metra,499509,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793651786,128,4.17,0,1793651901,155,transition
+1793651997,2026-11-02T20:39:57Z,2026-11-02 14:39:57,0,14,879,5700,Friend Center/Metra,499509,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793651914,83,4.44,0,1793651985,179,transition
+1793652213,2026-11-02T20:43:33Z,2026-11-02 14:43:33,0,14,883,5700,Friend Center/Metra,499509,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793651997,216,3.25,0,1793652145,217,transition
+1793652390,2026-11-02T20:46:30Z,2026-11-02 14:46:30,0,14,886,5700,Friend Center/Metra,499509,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793652213,177,4.9,28,1793652348,192,proximity
+1793652543,2026-11-02T20:49:03Z,2026-11-02 14:49:03,0,14,889,5700,Friend Center/Metra,499509,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793652390,153,4.57,34,1793652492,157,transition
+1793652758,2026-11-02T20:52:38Z,2026-11-02 14:52:38,0,14,892,5700,Friend Center/Metra,499509,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793652543,215,3.31,0,1793652664,184,transition
+1793653129,2026-11-02T20:58:49Z,2026-11-02 14:58:49,0,14,898,5700,Friend Center/Metra,499510,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,115,1793653072,169,proximity
+1793653327,2026-11-02T21:02:07Z,2026-11-02 15:02:07,0,15,902,5700,Friend Center/Metra,499510,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793653129,198,2.42,15,1793653139,239,proximity
+1793653372,2026-11-02T21:02:52Z,2026-11-02 15:02:52,0,15,902,5700,Friend Center/Metra,499510,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793653327,45,3.19,65,1793653317,284,proximity
+1793653473,2026-11-02T21:04:33Z,2026-11-02 15:04:33,0,15,904,5700,Friend Center/Metra,499510,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793653372,101,2.68,0,1793653367,187,transition
+1793653498,2026-11-02T21:04:58Z,2026-11-02 15:04:58,0,15,904,5700,Friend Center/Metra,499510,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793653473,25,5.08,9,1793653404,212,transition
+1793653522,2026-11-02T21:05:22Z,2026-11-02 15:05:22,0,15,905,5700,Friend Center/Metra,499510,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793653498,24,4.67,0,1793653445,236,transition
+1793653639,2026-11-02T21:07:19Z,2026-11-02 15:07:19,0,15,907,5700,Friend Center/Metra,499510,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793653522,117,4.56,0,1793653621,224,transition
+1793653712,2026-11-02T21:08:32Z,2026-11-02 15:08:32,0,15,908,5700,Friend Center/Metra,499510,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793653639,73,5.05,0,1793653700,226,transition
+1793653866,2026-11-02T21:11:06Z,2026-11-02 15:11:06,0,15,911,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,0,,,transition
+1793654010,2026-11-02T21:13:30Z,2026-11-02 15:13:30,0,15,913,5700,Friend Center/Metra,499510,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,,,,,,0,1793654017,278,transition
+1793654159,2026-11-02T21:15:59Z,2026-11-02 15:15:59,0,15,915,5700,Friend Center/Metra,499510,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793654010,149,3.83,,1793654115,239,proximity
+1793654645,2026-11-02T21:24:05Z,2026-11-02 15:24:05,0,15,924,5700,Friend Center/Metra,499502,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793654159,486,1.23,0,,,transition
+1793655042,2026-11-02T21:30:42Z,2026-11-02 15:30:42,0,15,930,5700,Friend Center/Metra,499510,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1793655006,203,transition
+1793655126,2026-11-02T21:32:06Z,2026-11-02 15:32:06,0,15,932,5700,Friend Center/Metra,499511,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,,,,,,,1793655024,158,transition
+1793655159,2026-11-02T21:32:39Z,2026-11-02 15:32:39,0,15,932,5700,Friend Center/Metra,499511,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793655126,33,2.9,58,1793655138,191,transition
+1793655233,2026-11-02T21:33:53Z,2026-11-02 15:33:53,0,15,933,5700,Friend Center/Metra,499511,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793655159,74,6.03,,1793655147,205,transition
+1793655253,2026-11-02T21:34:13Z,2026-11-02 15:34:13,0,15,934,5700,Friend Center/Metra,499511,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793655233,20,6.35,0,1793655203,154,transition
+1793655359,2026-11-02T21:35:59Z,2026-11-02 15:35:59,0,15,935,5700,Friend Center/Metra,499511,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793655253,106,0.66,30,1793655301,129,proximity
+1793655495,2026-11-02T21:38:15Z,2026-11-02 15:38:15,0,15,938,5700,Friend Center/Metra,499511,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793655359,136,5.04,43,1793655419,265,transition
+1793655609,2026-11-02T21:40:09Z,2026-11-02 15:40:09,0,15,940,5700,Friend Center/Metra,499511,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,,,,,,,,,gps
+1793655815,2026-11-02T21:43:35Z,2026-11-02 15:43:35,0,15,943,5700,Friend Center/Metra,499511,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,0,1793655762,276,transition
+1793655966,2026-11-02T21:46:06Z,2026-11-02 15:46:06,0,15,946,5700,Friend Center/Metra,499511,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793655815,151,5.74,29,1793655957,168,proximity
+1793656114,2026-11-02T21:48:34Z,2026-11-02 15:48:34,0,15,948,5700,Friend Center/Metra,499511,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793655966,148,4.8,0,1793656069,187,transition
+1793656270,2026-11-02T21:51:10Z,2026-11-02 15:51:10,0,15,951,5700,Friend Center/Metra,499511,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793656114,156,3.84,0,1793656320,156,transition
+1793656579,2026-11-02T21:56:19Z,2026-11-02 15:56:19,0,15,956,5700,Friend Center/Metra,499511,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793656270,309,4.37,,1793656603,196,transition
+1793656925,2026-11-02T22:02:05Z,2026-11-02 16:02:05,0,16,962,5700,Friend Center/Metra,499502,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793656579,346,0.58,24,,,proximity
+1793656962,2026-11-02T22:02:42Z,2026-11-02 16:02:42,0,16,962,5700,Friend Center/Metra,499502,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793656925,37,7.37,74,,,proximity
+1793657049,2026-11-02T22:04:09Z,2026-11-02 16:04:09,0,16,964,5700,Friend Center/Metra,499502,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793656962,87,7.43,0,,,pass
+1793657079,2026-11-02T22:04:39Z,2026-11-02 16:04:39,0,16,964,5700,Friend Center/Metra,499502,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793657049,30,4.23,8,,,transition
+1793657106,2026-11-02T22:05:06Z,2026-11-02 16:05:06,0,16,965,5700,Friend Center/Metra,499512,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793657079,27,3.69,48,1793656998,535,transition
+1793657289,2026-11-02T22:08:09Z,2026-11-02 16:08:09,0,16,968,5700,Friend Center/Metra,499512,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793657106,183,3.95,16,1793657255,190,proximity
+1793657415,2026-11-02T22:10:15Z,2026-11-02 16:10:15,0,16,970,5700,Friend Center/Metra,499512,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793657289,126,3.35,18,1793657338,175,proximity
+1793657628,2026-11-02T22:13:48Z,2026-11-02 16:13:48,0,16,973,5700,Friend Center/Metra,499512,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793657415,213,3.6,0,1793657586,199,transition
+1793657754,2026-11-02T22:15:54Z,2026-11-02 16:15:54,0,16,975,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,,,,,,0,,,transition
+1793657966,2026-11-02T22:19:26Z,2026-11-02 16:19:26,0,16,979,5700,Friend Center/Metra,499512,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793657756,210,2.72,18,1793657868,349,transition
+1793658081,2026-11-02T22:21:21Z,2026-11-02 16:21:21,0,16,981,5700,Friend Center/Metra,499512,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793657966,115,6.18,0,1793658121,209,transition
+1793658438,2026-11-02T22:27:18Z,2026-11-02 16:27:18,0,16,987,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,,,transition
+1793658700,2026-11-02T22:31:40Z,2026-11-02 16:31:40,0,16,991,5700,Friend Center/Metra,499513,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793658438,262,0.77,125,1793658430,444,proximity
+1793658840,2026-11-02T22:34:00Z,2026-11-02 16:34:00,0,16,994,5700,Friend Center/Metra,499513,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793658700,140,6.39,,1793658760,190,proximity
+1793658840,2026-11-02T22:34:00Z,2026-11-02 16:34:00,0,16,994,5700,Friend Center/Metra,499513,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,0,1793658764,190,transition
+1793658941,2026-11-02T22:35:41Z,2026-11-02 16:35:41,0,16,995,5700,Friend Center/Metra,499513,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793658840,101,1.26,15,1793658815,221,transition
+1793658971,2026-11-02T22:36:11Z,2026-11-02 16:36:11,0,16,996,5700,Friend Center/Metra,499513,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793658941,30,4.67,18,1793658924,182,proximity
+1793659121,2026-11-02T22:38:41Z,2026-11-02 16:38:41,0,16,998,5700,Friend Center/Metra,499513,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793658971,150,4.04,0,1793659057,204,transition
+1793659235,2026-11-02T22:40:35Z,2026-11-02 16:40:35,0,16,1000,5700,Friend Center/Metra,499513,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,,,,,,,,,gps
+1793659447,2026-11-02T22:44:07Z,2026-11-02 16:44:07,0,16,1004,5700,Friend Center/Metra,499513,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,0,1793659393,204,transition
+1793659625,2026-11-02T22:47:05Z,2026-11-02 16:47:05,0,16,1007,5700,Friend Center/Metra,499513,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793659447,178,4.87,62,1793659588,184,proximity
+1793659842,2026-11-02T22:50:42Z,2026-11-02 16:50:42,0,16,1010,5700,Friend Center/Metra,499513,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793659625,217,3.68,35,1793659787,134,proximity
+1793659970,2026-11-02T22:52:50Z,2026-11-02 16:52:50,0,16,1012,5700,Friend Center/Metra,499513,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793659842,128,6.45,0,1793659942,146,transition
+1793660315,2026-11-02T22:58:35Z,2026-11-02 16:58:35,0,16,1018,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,,,transition
+1793660554,2026-11-02T23:02:34Z,2026-11-02 17:02:34,0,17,1022,5700,Friend Center/Metra,499514,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793660315,239,0.84,2,1793660309,533,transition
+1793660577,2026-11-02T23:02:57Z,2026-11-02 17:02:57,0,17,1022,5700,Friend Center/Metra,499514,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793660554,23,4.56,41,1793660523,556,proximity
+1793660645,2026-11-02T23:04:05Z,2026-11-02 17:04:05,0,17,1024,5700,Friend Center/Metra,499514,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793660577,68,3.58,,1793660527,624,transition
+1793660655,2026-11-02T23:04:15Z,2026-11-02 17:04:15,0,17,1024,5700,Friend Center/Metra,499514,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793660645,10,12.7,0,1793660577,180,transition
+1793660752,2026-11-02T23:05:52Z,2026-11-02 17:05:52,0,17,1025,5700,Friend Center/Metra,499514,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793660655,97,0.72,0,1793660679,207,transition
+1793660879,2026-11-02T23:07:59Z,2026-11-02 17:07:59,0,17,1027,5700,Friend Center/Metra,499514,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793660752,127,4.2,0,1793660808,264,transition
+1793660957,2026-11-02T23:09:17Z,2026-11-02 17:09:17,0,17,1029,5700,Friend Center/Metra,499502,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,,,,,,,,,gps
+1793661179,2026-11-02T23:12:59Z,2026-11-02 17:12:59,0,17,1032,5700,Friend Center/Metra,499502,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,,,,,,0,,,transition
+1793661403,2026-11-02T23:16:43Z,2026-11-02 17:16:43,0,17,1036,5700,Friend Center/Metra,499502,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,,,,,,0,,,transition
+1793661673,2026-11-02T23:21:13Z,2026-11-02 17:21:13,0,17,1041,5700,Friend Center/Metra,499514,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793661403,270,2.11,0,1793661516,239,transition
+1793661778,2026-11-02T23:22:58Z,2026-11-02 17:22:58,0,17,1042,5700,Friend Center/Metra,499514,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793661673,105,5.71,30,1793661727,146,proximity
+1793662154,2026-11-02T23:29:14Z,2026-11-02 17:29:14,0,17,1049,5700,Friend Center/Metra,499502,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,116,,,transition
+1793662313,2026-11-02T23:31:53Z,2026-11-02 17:31:53,0,17,1051,5700,Friend Center/Metra,499515,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793662154,159,4.68,55,1793662046,484,proximity
+1793662391,2026-11-02T23:33:11Z,2026-11-02 17:33:11,0,17,1053,5700,Friend Center/Metra,499515,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793662313,78,4.16,41,1793662304,239,transition
+1793662443,2026-11-02T23:34:03Z,2026-11-02 17:34:03,0,17,1054,5700,Friend Center/Metra,499515,4327,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793662391,52,8.78,,1793662307,291,transition
+1793662448,2026-11-02T23:34:08Z,2026-11-02 17:34:08,0,17,1054,5700,Friend Center/Metra,499515,4327,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793662443,5,25.41,0,1793662380,169,transition
+1793662496,2026-11-02T23:34:56Z,2026-11-02 17:34:56,0,17,1054,5700,Friend Center/Metra,499515,4327,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793662448,48,1.46,0,1793662431,217,transition
+1793662610,2026-11-02T23:36:50Z,2026-11-02 17:36:50,0,17,1056,5700,Friend Center/Metra,499515,4327,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793662496,114,4.68,0,1793662606,192,transition
+1793662686,2026-11-02T23:38:06Z,2026-11-02 17:38:06,0,17,1058,5700,Friend Center/Metra,499515,4327,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793662610,76,4.85,0,1793662659,268,transition
+1793662833,2026-11-02T23:40:33Z,2026-11-02 17:40:33,0,17,1060,5700,Friend Center/Metra,499515,4327,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793662686,147,4.78,18,1793662937,160,proximity
+1793663032,2026-11-02T23:43:52Z,2026-11-02 17:43:52,0,17,1063,5700,Friend Center/Metra,499515,4327,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793662833,199,4.79,0,1793662962,163,transition
+1793663164,2026-11-02T23:46:04Z,2026-11-02 17:46:04,0,17,1066,5700,Friend Center/Metra,499515,4327,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793663032,132,4.32,75,1793663097,179,proximity
+1793663361,2026-11-02T23:49:21Z,2026-11-02 17:49:21,0,17,1069,5700,Friend Center/Metra,499515,4327,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793663164,197,4.91,0,1793663260,179,transition
+1793663713,2026-11-02T23:55:13Z,2026-11-02 17:55:13,0,17,1075,5700,Friend Center/Metra,499516,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,374,1793663633,160,proximity
+1793664087,2026-11-03T00:01:27Z,2026-11-02 18:01:27,0,18,1081,5700,Friend Center/Metra,499516,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793663400,687,0.29,0,,,transition
+1793664104,2026-11-03T00:01:44Z,2026-11-02 18:01:44,0,18,1081,5700,Friend Center/Metra,499516,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793664087,17,5.63,27,1793664017,180,proximity
+1793664160,2026-11-03T00:02:40Z,2026-11-02 18:02:40,0,18,1082,5700,Friend Center/Metra,499516,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793664104,56,3.33,0,1793664078,167,transition
+1793664191,2026-11-03T00:03:11Z,2026-11-02 18:03:11,0,18,1083,5700,Friend Center/Metra,499516,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793664160,31,4.1,0,1793664148,140,transition
+1793664196,2026-11-03T00:03:16Z,2026-11-02 18:03:16,0,18,1083,5700,Friend Center/Metra,499516,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793664191,5,14.02,0,1793664183,145,transition
+1793664338,2026-11-03T00:05:38Z,2026-11-02 18:05:38,0,18,1085,5700,Friend Center/Metra,499516,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793664196,142,3.76,0,1793664314,160,transition
+1793664420,2026-11-03T00:07:00Z,2026-11-02 18:07:00,0,18,1087,5700,Friend Center/Metra,499516,4320,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793664338,82,4.49,0,1793664365,184,transition
+1793664571,2026-11-03T00:09:31Z,2026-11-02 18:09:31,0,18,1089,5700,Friend Center/Metra,499516,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793664433,138,5.09,23,1793664739,159,proximity
+1793664706,2026-11-03T00:11:46Z,2026-11-02 18:11:46,0,18,1091,5700,Friend Center/Metra,499516,4320,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793664571,135,7.74,11,1793664677,167,transition
+1793664828,2026-11-03T00:13:48Z,2026-11-02 18:13:48,0,18,1093,5700,Friend Center/Metra,499516,4320,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793664706,122,5.14,0,1793664790,174,transition
+1793664902,2026-11-03T00:15:02Z,2026-11-02 18:15:02,0,18,1095,5700,Friend Center/Metra,499516,4320,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793664828,74,8.1,0,1793665287,191,transition
+1793665184,2026-11-03T00:19:44Z,2026-11-02 18:19:44,0,18,1099,5700,Friend Center/Metra,499516,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793664902,282,4.79,,1793665152,151,proximity
+1793665933,2026-11-03T00:32:13Z,2026-11-02 18:32:13,0,18,1112,5700,Friend Center/Metra,499517,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793665184,749,0.27,,1793665185,775,proximity
+1793666101,2026-11-03T00:35:01Z,2026-11-02 18:35:01,0,18,1115,5700,Friend Center/Metra,499517,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793665933,168,0.57,120,1793666088,142,proximity
+1793666256,2026-11-03T00:37:36Z,2026-11-02 18:37:36,0,18,1117,5700,Friend Center/Metra,499517,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793666101,155,2.76,0,1793666207,160,transition
+1793666287,2026-11-03T00:38:07Z,2026-11-02 18:38:07,0,18,1118,5700,Friend Center/Metra,499517,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793666256,31,4.1,0,1793666209,191,transition
+1793666296,2026-11-03T00:38:16Z,2026-11-02 18:38:16,0,18,1118,5700,Friend Center/Metra,499517,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793666287,9,7.79,0,1793666264,142,transition
+1793666390,2026-11-03T00:39:50Z,2026-11-02 18:39:50,0,18,1119,5700,Friend Center/Metra,499517,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793666296,94,5.68,0,1793666389,179,transition
+1793666462,2026-11-03T00:41:02Z,2026-11-02 18:41:02,0,18,1121,5700,Friend Center/Metra,499517,4320,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793666390,72,5.12,0,1793666473,183,transition
+1793666613,2026-11-03T00:43:33Z,2026-11-02 18:43:33,0,18,1123,5700,Friend Center/Metra,499517,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793666462,151,4.65,0,1793666541,153,transition
+1793666722,2026-11-03T00:45:22Z,2026-11-02 18:45:22,0,18,1125,5700,Friend Center/Metra,499517,4320,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793666613,109,7.96,0,1793666689,194,transition
+1793666817,2026-11-03T00:46:57Z,2026-11-02 18:46:57,0,18,1126,5700,Friend Center/Metra,499517,4320,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793666722,95,6.01,0,1793666822,163,transition
+1793666925,2026-11-03T00:48:45Z,2026-11-02 18:48:45,0,18,1128,5700,Friend Center/Metra,499517,4320,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793666814,111,5.4,0,1793667087,158,transition
+1793667135,2026-11-03T00:52:15Z,2026-11-02 18:52:15,0,18,1132,5700,Friend Center/Metra,499518,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,479,1793667164,186,proximity
+1793667696,2026-11-03T01:01:36Z,2026-11-02 19:01:36,0,19,1141,5700,Friend Center/Metra,499518,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793667135,561,2.45,0,1793667144,566,transition
+1793667718,2026-11-03T01:01:58Z,2026-11-02 19:01:58,0,19,1141,5700,Friend Center/Metra,499518,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793667696,22,4.35,0,1793667641,160,transition
+1793667744,2026-11-03T01:02:24Z,2026-11-02 19:02:24,0,19,1142,5700,Friend Center/Metra,499518,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793667718,26,3.71,0,1793667643,186,transition
+1793667772,2026-11-03T01:02:52Z,2026-11-02 19:02:52,0,19,1142,5700,Friend Center/Metra,499518,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793667744,28,4.54,0,1793667669,214,transition
+1793667783,2026-11-03T01:03:03Z,2026-11-02 19:03:03,0,19,1143,5700,Friend Center/Metra,499518,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793667772,11,6.37,0,1793667746,157,transition
+1793667916,2026-11-03T01:05:16Z,2026-11-02 19:05:16,0,19,1145,5700,Friend Center/Metra,499518,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793667783,133,4.01,0,1793667878,178,transition
+1793667990,2026-11-03T01:06:30Z,2026-11-02 19:06:30,0,19,1146,5700,Friend Center/Metra,499518,4320,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793667916,74,4.98,0,1793667947,184,transition
+1793668114,2026-11-03T01:08:34Z,2026-11-02 19:08:34,0,19,1148,5700,Friend Center/Metra,499518,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793667990,124,5.67,15,1793668334,184,transition
+1793668248,2026-11-03T01:10:48Z,2026-11-02 19:10:48,0,19,1150,5700,Friend Center/Metra,499518,4320,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793668114,134,7.29,0,1793668226,203,transition
+1793668373,2026-11-03T01:12:53Z,2026-11-02 19:12:53,0,19,1152,5700,Friend Center/Metra,499518,4320,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793668248,125,4.57,0,1793668342,204,transition
+1793668490,2026-11-03T01:14:50Z,2026-11-02 19:14:50,0,19,1154,5700,Friend Center/Metra,499518,4320,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793668373,117,5.12,0,1793668894,197,transition
+1793668755,2026-11-03T01:19:15Z,2026-11-02 19:19:15,0,19,1159,5700,Friend Center/Metra,499518,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793668490,265,5.09,0,1793668739,216,transition
+1793669601,2026-11-03T01:33:21Z,2026-11-02 19:33:21,0,19,1173,5700,Friend Center/Metra,499519,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793668755,846,0.24,0,1793668763,860,transition
+1793669616,2026-11-03T01:33:36Z,2026-11-02 19:33:36,0,19,1173,5700,Friend Center/Metra,499519,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793669601,15,6.39,21,1793669474,214,proximity
+1793669672,2026-11-03T01:34:32Z,2026-11-02 19:34:32,0,19,1174,5700,Friend Center/Metra,499519,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793669616,56,2.76,,1793669595,147,transition
+1793669694,2026-11-03T01:34:54Z,2026-11-02 19:34:54,0,19,1174,5700,Friend Center/Metra,499519,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793669672,22,5.77,15,1793669619,169,transition
+1793669724,2026-11-03T01:35:24Z,2026-11-02 19:35:24,0,19,1175,5700,Friend Center/Metra,499519,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793669694,30,4.67,0,1793669652,199,transition
+1793669822,2026-11-03T01:37:02Z,2026-11-02 19:37:02,0,19,1177,5700,Friend Center/Metra,499519,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793669724,98,5.45,0,1793669864,174,transition
+1793669919,2026-11-03T01:38:39Z,2026-11-02 19:38:39,0,19,1178,5700,Friend Center/Metra,499519,4320,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793669822,97,3.8,0,1793669886,148,transition
+1793670073,2026-11-03T01:41:13Z,2026-11-02 19:41:13,0,19,1181,5700,Friend Center/Metra,499519,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793669919,154,4.56,0,1793670132,179,transition
+1793670218,2026-11-03T01:43:38Z,2026-11-02 19:43:38,0,19,1183,5700,Friend Center/Metra,499519,4320,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793670073,145,5.98,0,1793670156,202,transition
+1793670338,2026-11-03T01:45:38Z,2026-11-02 19:45:38,0,19,1185,5700,Friend Center/Metra,499519,4320,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793670218,120,4.76,43,1793670291,200,transition
+1793670478,2026-11-03T01:47:58Z,2026-11-02 19:47:58,0,19,1187,5700,Friend Center/Metra,499519,4320,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793670338,140,6.18,0,1793670688,151,transition
+1793670772,2026-11-03T01:52:52Z,2026-11-02 19:52:52,0,19,1192,5700,Friend Center/Metra,499519,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793670477,295,4.58,0,1793670762,191,transition
+1793671265,2026-11-03T02:01:05Z,2026-11-02 20:01:05,0,20,1201,5700,Friend Center/Metra,499520,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793670787,478,4.19,3,1793670784,496,proximity
+1793671285,2026-11-03T02:01:25Z,2026-11-02 20:01:25,0,20,1201,5700,Friend Center/Metra,499520,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793671265,20,5.63,41,1793671200,152,proximity
+1793671350,2026-11-03T02:02:30Z,2026-11-02 20:02:30,0,20,1202,5700,Friend Center/Metra,499520,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793671285,65,4.02,0,1793671264,162,transition
+1793671373,2026-11-03T02:02:53Z,2026-11-02 20:02:53,0,20,1202,5700,Friend Center/Metra,499520,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793671350,23,5.52,0,1793671288,185,transition
+1793671384,2026-11-03T02:03:04Z,2026-11-02 20:03:04,0,20,1203,5700,Friend Center/Metra,499520,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793671373,11,6.37,0,1793671321,196,transition
+1793671499,2026-11-03T02:04:59Z,2026-11-02 20:04:59,0,20,1204,5700,Friend Center/Metra,499520,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793671384,115,4.64,0,1793671551,179,transition
+1793671590,2026-11-03T02:06:30Z,2026-11-02 20:06:30,0,20,1206,5700,Friend Center/Metra,499520,4320,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793671499,91,4.05,0,1793671621,204,transition
+1793671735,2026-11-03T02:08:55Z,2026-11-02 20:08:55,0,20,1208,5700,Friend Center/Metra,499520,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793671590,145,4.85,0,1793672003,173,transition
+1793671853,2026-11-03T02:10:53Z,2026-11-02 20:10:53,0,20,1210,5700,Friend Center/Metra,499520,4320,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793671737,116,7.48,0,1793671941,168,transition
+1793671969,2026-11-03T02:12:49Z,2026-11-02 20:12:49,0,20,1212,5700,Friend Center/Metra,499520,4320,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793671853,116,4.92,0,1793672111,164,transition
+1793672078,2026-11-03T02:14:38Z,2026-11-02 20:14:38,0,20,1214,5700,Friend Center/Metra,499520,4320,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793671969,109,5.5,0,1793672734,206,transition
+1793672313,2026-11-03T02:18:33Z,2026-11-02 20:18:33,0,20,1218,5700,Friend Center/Metra,499520,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793672078,235,5.75,0,1793672333,190,transition
+1793673138,2026-11-03T02:32:18Z,2026-11-02 20:32:18,0,20,1232,5700,Friend Center/Metra,499521,4320,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,1,8612,201.1,1793672313,825,0.24,0,1793672323,840,transition
+1793673151,2026-11-03T02:32:31Z,2026-11-02 20:32:31,0,20,1232,5700,Friend Center/Metra,499521,4320,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,8613,95.8,1793673138,13,7.37,0,1793673032,188,transition
+1793673172,2026-11-03T02:32:52Z,2026-11-02 20:32:52,0,20,1232,5700,Friend Center/Metra,499521,4320,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,8615,96.5,1793673151,21,4.6,0,1793673038,209,transition
+1793673196,2026-11-03T02:33:16Z,2026-11-02 20:33:16,0,20,1233,5700,Friend Center/Metra,499521,4320,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,8616,127.0,1793673172,24,5.29,0,1793673143,168,transition
+1793673207,2026-11-03T02:33:27Z,2026-11-02 20:33:27,0,20,1233,5700,Friend Center/Metra,499521,4320,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,8617,70.1,1793673196,11,6.37,0,1793673181,179,transition
+1793673303,2026-11-03T02:35:03Z,2026-11-02 20:35:03,0,20,1235,5700,Friend Center/Metra,499521,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,6,138838,533.7,1793673207,96,5.56,0,1793673389,220,transition
+1793673389,2026-11-03T02:36:29Z,2026-11-02 20:36:29,0,20,1236,5700,Friend Center/Metra,499521,4320,8618,Ronald McDonald House & Friend Center,5444 South Drexel Avenue,41.79538,-87.60419,7,8635,368.5,1793673303,86,4.28,0,1793673411,186,transition
+1793673523,2026-11-03T02:38:43Z,2026-11-02 20:38:43,0,20,1238,5700,Friend Center/Metra,499521,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,8,8618,702.6,1793673389,134,5.24,0,1793673802,200,transition
+1793673630,2026-11-03T02:40:30Z,2026-11-02 20:40:30,0,20,1240,5700,Friend Center/Metra,499521,4320,8645,Hyde Park Shopping Center (S),55th Street Bikeway,41.7951,-87.58775,9,140009,867.2,1793673523,107,8.1,0,1793673753,188,transition
+1793673722,2026-11-03T02:42:02Z,2026-11-02 20:42:02,0,20,1242,5700,Friend Center/Metra,499521,4320,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,10,8645,570.9,1793673630,92,6.21,18,1793673912,160,proximity
+1793673854,2026-11-03T02:44:14Z,2026-11-02 20:44:14,0,20,1244,5700,Friend Center/Metra,499521,4320,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,11,8619,599.5,1793673722,132,5.26,0,1793674532,173,transition
+1793674056,2026-11-03T02:47:36Z,2026-11-02 20:47:36,0,20,1247,5700,Friend Center/Metra,499521,4320,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,8658,1350.2,1793673854,202,6.68,,1793674179,190,transition

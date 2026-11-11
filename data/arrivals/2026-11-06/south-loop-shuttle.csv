@@ -1,26 +1,26 @@
-epoch,local_time,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_index,lead_target_s,pred_epoch,pred_made_epoch,pred_lead_s,pred_minus_actual_s,pred_seen_epoch
-1794015935,2026-11-06 19:45:35,5716,South Loop Shuttle,501794,4328,9593,International House,4,,,,,,
-1794016856,2026-11-06 20:00:56,5716,South Loop Shuttle,501795,4328,8579,Reynolds Club,0,,,,,,
-1794017056,2026-11-06 20:04:16,5716,South Loop Shuttle,501795,4328,8619,57th Street Metra Station (E),1,,,,,,
-1794018162,2026-11-06 20:22:42,5716,South Loop Shuttle,501795,4328,8621,Roosevelt CTA Station,2,,,,,,
-1794019731,2026-11-06 20:48:51,5716,South Loop Shuttle,501795,4328,9593,International House,4,,,,,,
-1794020455,2026-11-06 21:00:55,5716,South Loop Shuttle,501796,4328,8579,Reynolds Club,5,,,,,,
-1794020646,2026-11-06 21:04:06,5716,South Loop Shuttle,501796,4328,8619,57th Street Metra Station (E),1,,,,,,
-1794020651,2026-11-06 21:04:11,5716,South Loop Shuttle,501796,4328,141882,57th St. & Metra (SB),3,,,,,,
-1794021766,2026-11-06 21:22:46,5716,South Loop Shuttle,501796,4328,8621,Roosevelt CTA Station,2,,,,,,
-1794023147,2026-11-06 21:45:47,5716,South Loop Shuttle,501796,4328,9593,International House,4,,,,,,
-1794024125,2026-11-06 22:02:05,5716,South Loop Shuttle,501797,4328,8579,Reynolds Club,5,,,,,,
-1794024308,2026-11-06 22:05:08,5716,South Loop Shuttle,501797,4328,8619,57th Street Metra Station (E),1,,,,,,
-1794025444,2026-11-06 22:24:04,5716,South Loop Shuttle,501797,4328,8621,Roosevelt CTA Station,2,,,,,,
-1794026644,2026-11-06 22:44:04,5716,South Loop Shuttle,501797,4328,9593,International House,4,,,,,,
-1794026811,2026-11-06 22:46:51,5716,South Loop Shuttle,501798,4328,8579,Reynolds Club,0,,,,,,
-1794027772,2026-11-06 23:02:52,5716,South Loop Shuttle,501798,4328,8619,57th Street Metra Station (E),1,,,,,,
-1794027773,2026-11-06 23:02:53,5716,South Loop Shuttle,501798,4328,141882,57th St. & Metra (SB),3,,,,,,
-1794028826,2026-11-06 23:20:26,5716,South Loop Shuttle,501798,4328,8621,Roosevelt CTA Station,2,,,,,,
-1794030257,2026-11-06 23:44:17,5716,South Loop Shuttle,501798,4328,9593,International House,4,,,,,,
-1794030409,2026-11-06 23:46:49,5716,South Loop Shuttle,501799,4328,8579,Reynolds Club,0,,,,,,
-1794031519,2026-11-07 00:05:19,5716,South Loop Shuttle,501799,4328,8619,57th Street Metra Station (E),1,,,,,,
-1794031529,2026-11-07 00:05:29,5716,South Loop Shuttle,501799,4328,141882,57th St. & Metra (SB),3,,,,,,
-1794032602,2026-11-07 00:23:22,5716,South Loop Shuttle,501799,4328,8621,Roosevelt CTA Station,2,,,,,,
-1794034277,2026-11-07 00:51:17,5716,South Loop Shuttle,501799,4328,9593,International House,4,,,,,,
-1794034436,2026-11-07 00:53:56,5716,South Loop Shuttle,501799,4328,8579,Reynolds Club,5,,,,,,
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794015935,2026-11-07T01:45:35Z,2026-11-06 19:45:35,4,19,1185,5716,South Loop Shuttle,501794,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,,,,,,0,1794015921,182,pass
+1794016856,2026-11-07T02:00:56Z,2026-11-06 20:00:56,4,20,1200,5716,South Loop Shuttle,501795,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,15,1794016688,168,proximity
+1794017056,2026-11-07T02:04:16Z,2026-11-06 20:04:16,4,20,1204,5716,South Loop Shuttle,501795,4328,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,8579,939.2,1794016856,200,5.08,18,1794016501,707,proximity
+1794018162,2026-11-07T02:22:42Z,2026-11-06 20:22:42,4,20,1222,5716,South Loop Shuttle,501795,4328,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,8619,11658.2,1794017056,1106,10.72,,1794017382,1813,transition
+1794019731,2026-11-07T02:48:51Z,2026-11-06 20:48:51,4,20,1248,5716,South Loop Shuttle,501795,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,,,,,,0,,,pass
+1794020455,2026-11-07T03:00:55Z,2026-11-06 21:00:55,4,21,1260,5716,South Loop Shuttle,501796,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,,,,,,,,,gps
+1794020646,2026-11-07T03:04:06Z,2026-11-06 21:04:06,4,21,1264,5716,South Loop Shuttle,501796,4328,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,4,1794020468,957,transition
+1794020651,2026-11-07T03:04:11Z,2026-11-06 21:04:11,4,21,1264,5716,South Loop Shuttle,501796,4328,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,8619,36.3,1794020646,5,,0,1794022829,962,pass
+1794021766,2026-11-07T03:22:46Z,2026-11-06 21:22:46,4,21,1282,5716,South Loop Shuttle,501796,4328,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,56,1794021345,2077,proximity
+1794023147,2026-11-07T03:45:47Z,2026-11-06 21:45:47,4,21,1305,5716,South Loop Shuttle,501796,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794021766,1381,8.52,0,,,pass
+1794024125,2026-11-07T04:02:05Z,2026-11-06 22:02:05,4,22,1322,5716,South Loop Shuttle,501797,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,,,,,,,,,gps
+1794024308,2026-11-07T04:05:08Z,2026-11-06 22:05:08,4,22,1325,5716,South Loop Shuttle,501797,4328,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,68,1794024145,1188,proximity
+1794025444,2026-11-07T04:24:04Z,2026-11-06 22:24:04,4,22,1344,5716,South Loop Shuttle,501797,4328,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,8619,11658.2,1794024308,1136,10.92,50,1794024984,2324,proximity
+1794026644,2026-11-07T04:44:04Z,2026-11-06 22:44:04,4,22,1364,5716,South Loop Shuttle,501797,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794025444,1200,9.77,0,1794026646,141,pass
+1794026811,2026-11-07T04:46:51Z,2026-11-06 22:46:51,4,22,1366,5716,South Loop Shuttle,501798,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,812,1794026872,244,proximity
+1794027772,2026-11-07T05:02:52Z,2026-11-06 23:02:52,4,23,1382,5716,South Loop Shuttle,501798,4328,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,8579,939.2,1794026811,961,6.3,0,1794027748,1007,transition
+1794027773,2026-11-07T05:02:53Z,2026-11-06 23:02:53,4,23,1382,5716,South Loop Shuttle,501798,4328,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,8579,1069.8,1794026811,962,7.13,0,1794030083,1008,pass
+1794028826,2026-11-07T05:20:26Z,2026-11-06 23:20:26,4,23,1400,5716,South Loop Shuttle,501798,4328,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,8619,11658.2,1794027780,1046,11.15,17,1794028579,2061,proximity
+1794030257,2026-11-07T05:44:17Z,2026-11-06 23:44:17,4,23,1424,5716,South Loop Shuttle,501798,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794028826,1431,7.98,0,1794030209,3492,pass
+1794030409,2026-11-07T05:46:49Z,2026-11-06 23:46:49,4,23,1426,5716,South Loop Shuttle,501799,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,925,,,proximity
+1794031519,2026-11-07T06:05:19Z,2026-11-07 00:05:19,5,0,5,5716,South Loop Shuttle,501799,4328,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,8579,939.2,1794030409,1110,5.08,,1794031333,1269,proximity
+1794031529,2026-11-07T06:05:29Z,2026-11-07 00:05:29,5,0,5,5716,South Loop Shuttle,501799,4328,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,8619,36.3,1794031519,10,3.63,15,1794033678,1279,proximity
+1794032602,2026-11-07T06:23:22Z,2026-11-07 00:23:22,5,0,23,5716,South Loop Shuttle,501799,4328,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,25,1794034419,678,proximity
+1794034277,2026-11-07T06:51:17Z,2026-11-07 00:51:17,5,0,51,5716,South Loop Shuttle,501799,4328,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,,,,,,0,,,pass
+1794034436,2026-11-07T06:53:56Z,2026-11-07 00:53:56,5,0,53,5716,South Loop Shuttle,501799,4328,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,9593,943.4,1794034277,159,5.93,482,1794036986,1356,pass
