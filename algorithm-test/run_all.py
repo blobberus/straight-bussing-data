@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild every result in order: fetch the data, run the checks, then each experiment (01, 03 to 12) into results/.
+"""Rebuild every result in order: fetch the data, run the checks, then each experiment (01, 03 to 13) into results/.
 
   python algorithm-test/run_all.py            everything (about an hour on a laptop CPU; the deep models take most of it)
   python algorithm-test/run_all.py --only 07  one step (its number)
@@ -20,6 +20,7 @@ CHECKS = [
     ("tree tests", ["test_gbm.py"]),
     ("scoreboard check", ["validate.py"]),
     ("leak guard", ["test_leak.py"]),
+    ("flagged-slice tests", ["test_flagged.py"]),
 ]
 STEPS = [
     ("01", ["evaluate.py", "--models", "passio,timetable,timetable_delay", "--out", "results/01-baselines",
@@ -38,6 +39,7 @@ STEPS = [
     ("11", ["evaluate.py", "--models", "passio,deep_q15,deep_safe", "--out", "results/11-safe-setting",
             "--title", "A network tuned to the ship gate's safety rule: never too late more often than Passio"]),
     ("12", ["transitions.py"]),
+    ("13", ["flagged.py"]),           # every model on each flagged line (main repo data/labeled/flags/)
 ]
 
 

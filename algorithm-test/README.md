@@ -53,6 +53,7 @@ otherwise, the test days are October 20 to 30 and every model is trained only on
 | [10-e24-leak-check](results/10-e24-leak-check.md) | Was the main repo's older headroom estimate (E24) leaky? | Yes; up to 10 points too high, same verdict. |
 | [11-safe-setting](results/11-safe-setting.md) | Can the network obey the "never too late more often than Passio" rule? | Nearly: `deep_safe` 27%, 15%, 15%, 26%, 13%, too late within noise of Passio in every bin. The best candidate so far. |
 | [12-transitions](results/12-transitions.md) | How do the models do when a line's bus count changes (a bus leaving for a break, its shift end or another line, or joining)? | Every predictor is worse within 15 min of a change at 10 to 45 min ahead (Passio 21% to 12% at 20-30 min, the safe network 28% to 20%); the models keep their lead over Passio. 70% of Passio's times for a bus about to leave never came true. Test days Oct 26 to Nov 5. |
+| [13-flagged-lines](results/13-flagged-lines.md) | Does a model lose on a flagged line (the main repo's `data/labeled/flags/flagged_lines.csv`: odd transitions, large prediction misses, display problems, narrowed to their stops, hours and buses)? | Each open or watch flag is its own slice; a model that loses on one is not shipped (RouteKnower 6.4). The "which model loses where" table comes first. Rerun after every flag refresh: `python algorithm-test/run_all.py --only 13`. |
 
 ### The four biggest lateness perpetrators (results/07)
 
