@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794521972,2026-11-12T22:19:32Z,2026-11-12 16:19:32,3,16,979,1075,North,501585,4538,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,16,,,proximity
+1794522029,2026-11-12T22:20:29Z,2026-11-12 16:20:29,3,16,980,1075,North,501585,4538,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1794521972,57,3.26,14,,,proximity
