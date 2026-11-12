@@ -1,0 +1,5 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794525964,2026-11-12T23:26:04Z,2026-11-12 17:26:04,3,17,1046,5715,Regents Express,524063,12643,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,6,1794525880,178,proximity
+1794526028,2026-11-12T23:27:08Z,2026-11-12 17:27:08,3,17,1047,5715,Regents Express,524063,12643,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,8599,315.7,1794525964,64,5.44,14,1794525947,242,proximity
+1794526062,2026-11-12T23:27:42Z,2026-11-12 17:27:42,3,17,1047,5715,Regents Express,524063,12643,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,72572,121.2,1794526028,34,6.06,0,1794525970,276,transition
+1794526180,2026-11-12T23:29:40Z,2026-11-12 17:29:40,3,17,1049,5715,Regents Express,524063,12643,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,72573,558.3,1794526062,118,4.73,20,1794526069,394,proximity
