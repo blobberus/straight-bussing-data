@@ -22,7 +22,10 @@ Each run:
     `flags.py`) on the same days, keeps the app repo's reviewed copy of any producer file it cannot rerun (E32's display
     flags need a browser) or whose rerun fails, and merges them with the app repo's `tools/flag_lines.py` into
     findings/csv/flagged_lines.csv + findings/FLAGGED-LINES.md (first_flagged kept from last week's copy; a flag no
-    longer reported becomes resolved); the rerun producer files go to findings/flags/ for the app repo to adopt. Nothing is written to the app repo: its data/labeled/flags/ stays the reviewed copy;
+    longer reported becomes resolved); the rerun producer files go to findings/flags/ for the app repo to adopt. Nothing is written to the app repo: its data/labeled/flags/ stays the reviewed copy.
+    Since 2026-11-13 (owner: "Run a data collection check recording bus line issues") it also reruns the app repo's
+    `tools/collection_flags.py` (category `collection`: per-line issues in the collected data itself) on the same days;
+    its evidence goes to findings/collection/ next to findings/flags/collection_flags.csv;
  6. rebuilds findings/straight-bussing-findings.xlsx and its CSV copies in findings/csv/ (build_workbook.py; the
     flagged_lines tab comes first);
  7. refreshes the HIDDEN BUSES (owner, 2026-11-11: "Keep hidden bus times off until it reports again. If passio is
@@ -61,7 +64,8 @@ HISTORY_COLS = ["run_utc", "data_from", "data_to", "days", "train_to", "test_fro
                 "test_flagged", "test_hits", "test_precision", "test_recall", "train_flagged", "train_precision",
                 "train_recall", "test_visits_base_rate", "meets_criteria", "consecutive_runs", "ready", "note"]
 KINDS = ("raw-polls-{}.jsonl.gz", "pred-updates-{}.jsonl.gz", "gtfs-{}.zip", "eta-{}.csv.gz")   # eta: E31 features
-FLAG_FILES = {"transition": "transition_flags.csv", "prediction_miss": "prediction_flags.csv", "display": "display_flags.csv"}
+FLAG_FILES = {"transition": "transition_flags.csv", "prediction_miss": "prediction_flags.csv", "display": "display_flags.csv",
+              "collection": "collection_flags.csv"}
 E32 = "experiments/routeknower/E32-scripts"
 HIDDEN_BUDGET_S = 45 * 60      # the whole hidden-bus replay (inputs + replay of every day) stops after this
 
@@ -257,6 +261,13 @@ def refresh_flags(live, dl, tdir, eos, work, out, days, eta_dir=None):
     except (RuntimeError, OSError) as ex:
         res["failed"]["prediction_miss"] = str(ex)
         log(f"E31 flags not refreshed (the app repo's copy is kept): {ex}")
+    if (Path(live) / "tools" / "collection_flags.py").exists():
+        try:                                               # collection: per-line issues in the collected data
+            refresh_collection(live, dl, work, fdir, days[-1])
+            res["refreshed"].append("collection")
+        except (RuntimeError, OSError) as ex:
+            res["failed"]["collection"] = str(ex)
+            log(f"collection flags not refreshed (the app repo's copy is kept): {ex}")
     res["kept"] = [c for c, f in FLAG_FILES.items() if c not in res["refreshed"] and (fdir / f).exists()]
     reg = Path(out) / "csv" / "flagged_lines.csv"
     prev = reg if reg.exists() else app / "flagged_lines.csv"
@@ -275,12 +286,18 @@ def refresh_flags(live, dl, tdir, eos, work, out, days, eta_dir=None):
             shutil.copy2(fdir / f, pub / f)
         elif (pub / f).exists():                           # never leave last week's file looking fresh
             (pub / f).unlink()
+    ev = Path(out) / "collection"                          # its evidence, which the flags' rows name (adopt both)
+    if ev.exists():
+        shutil.rmtree(ev)
+    if "collection" in res["refreshed"]:
+        shutil.copytree(work / "collection", ev)
     head, _, body = (work / "FLAGGED-LINES.md").read_text(encoding="utf-8").partition("\n")
     note = (f"> **Weekly refresh** ({datetime.now(timezone.utc):%Y-%m-%d}) by `findings/run_findings.py` in this repo. "
             f"Rerun on the archived days: {', '.join(res['refreshed']) or 'none'}; kept from the app repo: "
             f"{', '.join(res['kept']) or 'none'}. Machine-readable copy: `findings/csv/flagged_lines.csv` (the workbook's "
             "first tab); the rerun producer files are in `findings/flags/` (to adopt them in the app repo: copy them "
-            "into its `data/labeled/flags/`, run `python tools/flag_lines.py`, review the new and resolved flags, commit). "
+            "into its `data/labeled/flags/`, and `findings/collection/` into its `data/labeled/collection/` with "
+            "collection_flags.csv, run `python tools/flag_lines.py`, review the new and resolved flags, commit). "
             "The paths below name the app repo, whose `data/labeled/flags/` is the reviewed copy and whose README there "
             "says what every agent must do about a flag.\n")
     with open(Path(out) / "FLAGGED-LINES.md", "w", encoding="utf-8", newline="") as f:
@@ -288,6 +305,17 @@ def refresh_flags(live, dl, tdir, eos, work, out, days, eta_dir=None):
     with open(reg, encoding="utf-8", newline="") as f:
         res["active"] = sum(r["status"] in ("open", "watch") for r in csv.DictReader(f))
     return res
+
+
+def refresh_collection(live, dl, work, fdir, newest):
+    """The app repo's tools/collection_flags.py on every archived day in dl (arrivals.csv, predictions*.csv,
+    raw-polls-<day>, gtfs-<day>): flags into fdir/collection_flags.csv (first_flagged kept from the copy there),
+    evidence into work/collection. About 30 s for a month of days."""
+    ev = Path(work) / "collection"
+    if ev.exists():
+        shutil.rmtree(ev)
+    run(live, "tools/collection_flags.py", "--dl", dl, "--to", newest, "--cache", Path(work) / "collection-static",
+        "--out-dir", ev, "--flags", Path(fdir) / FLAG_FILES["collection"], "--json", Path(work) / "collection.json")
 
 
 # ---------------------------------------------------------------- 7. hidden buses (E32 replay)
