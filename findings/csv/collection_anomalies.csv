@@ -1,4 +1,8 @@
 entry,item,title,status,first line
+DC-027,,Checkup 2026-11-13: healthy; bus line issues recorded line by line,,"Owner (2026-11-13): ""Run a data collection check recording bus line issues."" This entry is the checkup of both"
+DC-027,1,"Collector: healthy, nothing lost from the arrivals (nothing to fix there).",nothing to fix there,
+DC-027,2,Database: the whole-database audit is clean; Nov 11 and 12 are the busiest Wednesday and Thursday logged.,,
+DC-027,3,"Every line, Nov 11 and 12 (the owner's focus).",the owner's focus,"Per line: arrivals against the same weekday's median (four weeks),"
 DC-026,,Checkup 2026-11-11: healthy; the public data repo's per-day files had the prediction columns since Oct 29 (fixed); a whole-database audit (new); the archive check missed two file kinds (fixed); Passio's missing stop times unchanged and its times late on four lines since Oct 27 (open),open,"Owner (2026-11-11): ""Check this project on the repo and the straight bussing database repo. From here, run a database"
 DC-026,1,"Collector: healthy, no gap since the last checkup (nothing to fix).",nothing to fix,
 DC-026,2,"The public data repo's per-day files had the prediction columns since Oct 29 (fixed in the data repo, `36126a1`).","fixed in the data repo, `36126a1`",

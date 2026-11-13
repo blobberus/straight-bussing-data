@@ -1,61 +1,61 @@
 spot,lat,lon,episodes,bus_hours,median_min,p90_min,layover,break,end_of_shift,garage_return,parked_never_served,routes,typical_start_p10_p50_p90,end_of_shift_typical_start,shown_by_app_bus_hours_not_layover
-Goldblatt Pavilion,41.78769,-87.60366,1696,238.8,6.7,13.4,1501,101,89,0,5,Apostolic/Drexel 1030 / Friend Center/Metra 258 / Midway Metra 201 / Downtown Campus Connector 84,10:34 / 16:06 / 21:15,11:29 / 20:49 / 23:54,46.2
-Reynolds Club,41.79113,-87.59809,1323,206.4,7.4,13.9,1139,46,123,0,15,North 458 / Central 370 / East 360 / South Loop Shuttle 58,16:57 / 20:25 / 23:22,20:54 / 23:49 / 23:55,50.0
-Gleacher Center,41.88933,-87.62149,1034,169.7,7.5,17.9,829,131,54,0,20,Downtown Campus Connector 1020 / Apostolic/Drexel 6 / Midway Metra 4 / Apostolic 3,08:27 / 15:00 / 20:11,10:07 / 18:39 / 19:49,41.1
-Logan Center for Arts,41.78553,-87.6042,857,130.2,7.3,13.1,789,53,6,0,9,Drexel 609 / Red Line/Arts Block 180 / 53rd Street Express 24 / Midway Metra 20,05:35 / 08:11 / 18:50,09:34 / 15:04 / 21:08,27.8
-Burton-Judson Courts (NE Corner),41.78611,-87.60122,475,105.0,11.6,18.4,417,35,23,0,0,South 437 / Regents Express 19 / Apostolic/Drexel 6 / Apostolic 5,16:22 / 19:44 / 22:49,20:48 / 22:51 / 23:48,23.0
-Apostolic Lot,41.77928,-87.59321,562,72.7,7.3,12.6,554,1,0,0,7,Apostolic 521 / Apostolic/Drexel 20 / Drexel 7 / East 6,05:35 / 07:15 / 09:42,,0.1
-Press Building,41.7861,-87.59056,397,42.3,5.4,9.2,393,3,1,0,0,53rd Street Express 335 / Midway Metra 60 / Apostolic 1 / South 1,07:39 / 10:20 / 16:08,12:18 / 12:18 / 12:18,1.3
-Bernard Mitchell Hospital,41.78922,-87.60489,211,35.6,8.5,18.3,183,13,11,0,4,Apostolic/Drexel 91 / Friend Center/Metra 45 / Apostolic 30 / Drexel 24,05:16 / 16:32 / 22:51,20:50 / 22:00 / 23:49,6.2
-"Operator garage (41.820, -87.642)",41.81994,-87.64203,205,32.9,6.1,16.9,0,0,0,106,99,Downtown Campus Connector 42 / Red Line/Arts Block 36 / Apostolic/Drexel 23 / East 19,05:17 / 15:06 / 00:31,,15.6
-59th & Ellis,41.78768,-87.60171,239,32.8,4.4,24.4,190,35,9,0,5,Downtown Campus Connector 153 / Midway Metra 32 / Red Line/Arts Block 21 / Apostolic/Drexel 18,10:04 / 16:24 / 20:53,16:24 / 19:44 / 21:33,12.0
-Midway Plaisance & Cottage Grove,41.78665,-87.60663,114,28.0,9.7,31.7,49,38,27,0,0,Downtown Campus Connector 40 / Red Line/Arts Block 25 / Apostolic 21 / Midway Metra 17,09:25 / 10:28 / 20:49,09:49 / 10:27 / 20:54,21.2
-Rockefeller Chapel,41.78746,-87.59653,125,27.1,7.8,31.4,101,20,3,0,1,Downtown Campus Connector 95 / Apostolic 10 / Midway Metra 5 / 53rd Street Express 5,06:24 / 12:14 / 20:43,10:05 / 10:11 / 10:37,8.0
-Ronald McDonald House & Friend Center,41.79528,-87.60411,208,25.6,7.2,11.2,207,1,0,0,0,Friend Center/Metra 199 / Downtown Campus Connector 5 / Apostolic/Drexel 3 / Red Line/Arts Block 1,05:37 / 07:37 / 10:36,,0.1
-S Drexel Ave & 57th St,41.79104,-87.6037,201,23.5,6.2,10.8,169,16,16,0,0,Apostolic 122 / Drexel 32 / Friend Center/Metra 23 / Apostolic/Drexel 15,06:30 / 08:34 / 10:57,09:49 / 10:29 / 12:41,4.9
-Garfield Green Line Station,41.79481,-87.61769,208,21.6,4.8,9.6,197,4,7,0,0,Red Line/Arts Block 204 / Apostolic 1 / Downtown Campus Connector 1 / Central 1,06:52 / 10:00 / 20:08,10:51 / 20:45 / 22:07,2.7
-57th Street Metra Station (E),41.7914,-87.58684,237,19.2,4.3,7.6,237,0,0,0,0,Friend Center/Metra 114 / Midway Metra 100 / Apostolic 16 / South Loop Shuttle 3,05:54 / 08:19 / 14:16,,0.0
-Law School (N),41.78592,-87.59925,109,13.4,6.8,8.9,104,4,1,0,0,Regents Express 101 / Apostolic/Drexel 6 / Downtown Campus Connector 2,17:45 / 19:13 / 20:12,20:39 / 20:39 / 20:39,0.5
-Roosevelt Station,41.86738,-87.62671,132,13.4,5.3,10.2,117,6,9,0,0,Downtown Campus Connector 72 / South Loop Shuttle 60,08:49 / 19:24 / 23:23,21:27 / 21:43 / 00:26,1.8
+Goldblatt Pavilion,41.78769,-87.60366,1771,249.3,6.7,13.3,1570,104,92,0,5,Apostolic/Drexel 1083 / Friend Center/Metra 268 / Midway Metra 209 / Downtown Campus Connector 88,10:34 / 16:06 / 21:15,11:30 / 20:49 / 23:54,48.4
+Reynolds Club,41.79113,-87.59809,1352,210.0,7.4,13.8,1163,48,126,0,15,North 460 / Central 381 / East 374 / South Loop Shuttle 58,16:58 / 20:25 / 23:22,20:53 / 23:49 / 23:55,50.5
+Gleacher Center,41.88933,-87.62149,1082,178.0,7.5,17.9,869,137,54,0,22,Downtown Campus Connector 1068 / Apostolic/Drexel 6 / Midway Metra 4 / Apostolic 3,08:27 / 15:00 / 20:12,10:07 / 18:39 / 19:49,42.1
+Logan Center for Arts,41.78553,-87.60419,893,135.6,7.3,13.1,823,55,6,0,9,Drexel 637 / Red Line/Arts Block 186 / 53rd Street Express 26 / Midway Metra 20,05:34 / 08:10 / 18:50,09:34 / 15:04 / 21:08,29.1
+Burton-Judson Courts (NE Corner),41.78611,-87.60122,492,109.2,11.6,18.5,432,36,24,0,0,South 453 / Regents Express 20 / Apostolic/Drexel 6 / Apostolic 5,16:22 / 19:45 / 22:49,20:48 / 23:18 / 23:48,24.4
+Apostolic Lot,41.77928,-87.59321,582,75.2,7.3,12.6,574,1,0,0,7,Apostolic 540 / Apostolic/Drexel 21 / Drexel 7 / East 6,05:36 / 07:16 / 09:42,,0.1
+Press Building,41.7861,-87.59055,411,44.0,5.4,9.2,407,3,1,0,0,53rd Street Express 348 / Midway Metra 61 / Apostolic 1 / South 1,07:39 / 10:20 / 16:02,12:18 / 12:18 / 12:18,1.3
+Bernard Mitchell Hospital,41.78922,-87.60489,221,37.1,8.5,18.3,193,13,11,0,4,Apostolic/Drexel 97 / Friend Center/Metra 47 / Apostolic 30 / Drexel 24,05:16 / 18:10 / 22:51,20:50 / 22:00 / 23:49,6.2
+59th & Ellis,41.78768,-87.6017,249,33.8,4.4,23.9,200,35,9,0,5,Downtown Campus Connector 163 / Midway Metra 32 / Red Line/Arts Block 21 / Apostolic/Drexel 18,10:08 / 16:36 / 20:42,16:24 / 19:44 / 21:33,12.0
+"Operator garage (41.820, -87.642)",41.81994,-87.64203,208,33.1,6.1,16.8,0,0,0,109,99,Downtown Campus Connector 42 / Red Line/Arts Block 39 / Apostolic/Drexel 23 / East 19,05:17 / 14:41 / 00:31,,15.8
+Midway Plaisance & Cottage Grove,41.78664,-87.60664,120,30.7,9.6,32.7,51,41,27,0,1,Downtown Campus Connector 42 / Red Line/Arts Block 26 / Apostolic 23 / Midway Metra 18,09:23 / 10:28 / 20:48,09:49 / 10:27 / 20:54,23.7
+Rockefeller Chapel,41.78746,-87.59653,131,27.9,7.7,30.5,105,21,4,0,1,Downtown Campus Connector 99 / Apostolic 10 / Drexel 6 / Midway Metra 5,06:23 / 12:14 / 20:38,10:02 / 10:07 / 10:33,8.2
+Ronald McDonald House & Friend Center,41.79528,-87.60411,220,27.4,7.3,11.5,219,1,0,0,0,Friend Center/Metra 211 / Downtown Campus Connector 5 / Apostolic/Drexel 3 / Red Line/Arts Block 1,05:37 / 07:38 / 10:36,,0.1
+S Drexel Ave & 57th St,41.79104,-87.6037,210,24.3,6.1,10.8,177,17,16,0,0,Apostolic 126 / Drexel 33 / Friend Center/Metra 27 / Apostolic/Drexel 15,06:30 / 08:33 / 11:05,09:49 / 10:29 / 12:41,5.0
+Garfield Green Line Station,41.79481,-87.61771,224,23.2,4.8,9.6,212,4,8,0,0,Red Line/Arts Block 220 / Apostolic 1 / Downtown Campus Connector 1 / Central 1,06:51 / 09:56 / 20:03,10:58 / 20:45 / 21:47,2.8
+57th Street Metra Station (E),41.7914,-87.58684,245,19.9,4.3,7.6,245,0,0,0,0,Friend Center/Metra 118 / Midway Metra 103 / Apostolic 17 / South Loop Shuttle 3,05:54 / 08:19 / 14:16,,0.0
+Law School (N),41.78593,-87.59925,117,14.5,7.0,9.1,112,4,1,0,0,Regents Express 109 / Apostolic/Drexel 6 / Downtown Campus Connector 2,17:45 / 19:12 / 20:12,20:39 / 20:39 / 20:39,0.5
+Roosevelt Station,41.86738,-87.62672,136,13.7,5.3,10.1,121,6,9,0,0,Downtown Campus Connector 76 / South Loop Shuttle 60,08:49 / 19:24 / 23:22,21:27 / 21:43 / 00:26,1.8
 "Unnamed (41.8102, -87.5905)",41.81017,-87.59049,7,13.2,37.5,274.3,3,0,1,0,3,Downtown Campus Connector 7,06:44 / 10:30 / 19:09,20:11 / 20:11 / 20:11,12.8
 "Unnamed (41.8238, -87.6504)",41.82376,-87.65042,94,12.4,6.3,15.0,3,5,78,0,8,Downtown Campus Connector 19 / Red Line/Arts Block 15 / Apostolic/Drexel 14 / East 12,16:29 / 22:17 / 00:19,21:17 / 22:26 / 00:19,8.5
 Booth School,41.7895,-87.59689,69,10.2,6.4,12.7,52,9,3,0,5,Downtown Campus Connector 15 / Central 14 / East 13 / South 13,17:27 / 20:44 / 23:10,19:02 / 19:09 / 21:07,4.0
-Stony Island Parking Lot,41.78628,-87.58779,52,6.5,6.4,13.8,52,0,0,0,0,Midway Metra 52,05:57 / 07:41 / 08:51,,0.0
+Stony Island Parking Lot,41.78628,-87.58777,57,6.9,6.2,13.6,57,0,0,0,0,Midway Metra 57,06:03 / 07:42 / 08:52,,0.0
 "Unnamed (41.8904, -87.6198)",41.89041,-87.61983,35,5.1,4.0,21.3,20,15,0,0,0,Downtown Campus Connector 35,16:23 / 18:36 / 20:10,,2.7
+Ellis/57th,41.79083,-87.60129,27,4.6,4.9,7.8,20,2,5,0,0,Apostolic 11 / 53rd Street Express 5 / Red Line/Arts Block 5 / Central 4,06:52 / 10:23 / 21:24,14:59 / 21:48 / 23:52,2.4
 Keller Center EB,41.78605,-87.59362,15,4.5,14.2,36.3,10,3,2,0,0,South 10 / 53rd Street Express 2 / Apostolic/Drexel 1 / Central 1,13:46 / 18:23 / 21:50,10:54 / 11:07 / 11:19,2.1
-Ellis/57th,41.79083,-87.60131,25,4.4,4.8,7.8,20,1,4,0,0,Apostolic 11 / Red Line/Arts Block 5 / 53rd Street Express 4 / Central 3,06:49 / 09:49 / 20:34,13:58 / 21:28 / 23:15,2.2
-"Unnamed (41.7915, -87.5894)",41.79152,-87.58936,28,4.2,10.6,15.0,23,5,0,0,0,Apostolic 21 / Regents Express 3 / Friend Center/Metra 2 / South 1,08:04 / 08:07 / 19:32,,0.8
-Garfield Red Line Station (WB),41.79446,-87.63121,33,2.8,4.6,8.0,32,0,0,0,1,Red Line/Arts Block 32 / Apostolic 1,06:29 / 14:50 / 19:04,,0.0
+"Unnamed (41.7915, -87.5894)",41.79153,-87.58936,29,4.4,10.6,15.0,24,5,0,0,0,Apostolic 22 / Regents Express 3 / Friend Center/Metra 2 / South 1,08:04 / 08:07 / 19:23,,0.8
+Garfield Red Line Station (WB),41.79447,-87.63121,35,2.9,4.5,7.8,34,0,0,0,1,Red Line/Arts Block 34 / Apostolic 1,06:29 / 14:50 / 18:49,,0.0
 Cottage & 61st,41.7837,-87.60623,7,2.7,11.8,52.2,5,0,2,0,0,South 6 / Apostolic/Drexel 1,16:46 / 20:58 / 22:08,22:07 / 22:08 / 22:11,1.8
-"Unnamed (41.7954, -87.6256)",41.79541,-87.62563,16,2.5,8.7,14.3,2,13,0,0,1,Red Line/Arts Block 15 / Apostolic 1,11:09 / 13:50 / 13:53,,2.3
+"Unnamed (41.7954, -87.6256)",41.79542,-87.62563,17,2.6,8.4,14.3,2,14,0,0,1,Red Line/Arts Block 16 / Apostolic 1,11:13 / 13:51 / 13:53,,2.4
+Smart Museum of Arts,41.79418,-87.60141,28,2.6,5.6,7.1,28,0,0,0,0,Red Line/Arts Block 20 / Friend Center/Metra 4 / 53rd Street Express 2 / East 1,08:03 / 09:23 / 17:58,,0.0
 "Unnamed (41.8844, -87.6214)",41.88438,-87.62137,22,2.4,3.3,18.7,20,2,0,0,0,Downtown Campus Connector 22,09:50 / 15:44 / 17:44,,0.8
 "Unnamed (41.8894, -87.6185)",41.88938,-87.61855,11,2.4,16.8,20.2,1,6,4,0,0,Downtown Campus Connector 11,10:24 / 10:43 / 18:47,10:21 / 10:28 / 10:39,2.0
-Smart Museum of Arts,41.79416,-87.60141,26,2.4,5.3,7.2,26,0,0,0,0,Red Line/Arts Block 19 / Friend Center/Metra 3 / 53rd Street Express 2 / East 1,08:03 / 09:23 / 18:02,,0.0
 55th Street & University,41.79504,-87.59783,18,1.9,5.3,10.9,18,0,0,0,0,Downtown Campus Connector 14 / East 1 / Apostolic 1 / Friend Center/Metra 1,08:36 / 10:08 / 16:45,,0.0
-63rd & Ellis,41.78057,-87.60053,13,1.6,7.2,11.3,13,0,0,0,0,Apostolic 13,05:30 / 06:32 / 08:46,,0.0
-"Unnamed (41.7941, -87.6137)",41.7941,-87.61369,10,1.5,5.0,15.2,7,2,1,0,0,Red Line/Arts Block 7 / Drexel 2 / Downtown Campus Connector 1,08:35 / 10:13 / 10:55,12:34 / 12:34 / 12:34,0.5
-59th St & Metra,41.78785,-87.5891,21,1.5,3.9,5.2,21,0,0,0,0,Midway Metra 20 / Friend Center/Metra 1,07:35 / 09:02 / 17:52,,0.0
-South Campus Resident Hall,41.78334,-87.60116,16,1.5,4.9,7.1,16,0,0,0,0,Apostolic/Drexel 10 / Apostolic 5 / Red Line/Arts Block 1,07:08 / 12:13 / 19:35,,0.0
+63rd & Ellis,41.78059,-87.60059,16,1.8,5.9,11.0,16,0,0,0,0,Apostolic 16,05:31 / 06:34 / 08:11,,0.0
+"Unnamed (41.7941, -87.6137)",41.79412,-87.61373,12,1.7,5.0,12.4,9,2,1,0,0,Red Line/Arts Block 9 / Drexel 2 / Downtown Campus Connector 1,07:19 / 10:11 / 10:44,12:34 / 12:34 / 12:34,0.5
+South Campus Resident Hall,41.78328,-87.60116,17,1.6,5.1,7.1,17,0,0,0,0,Apostolic/Drexel 10 / Apostolic 6 / Red Line/Arts Block 1,06:16 / 12:12 / 19:21,,0.0
+59th St & Metra,41.78785,-87.5891,22,1.5,3.9,5.2,22,0,0,0,0,Midway Metra 21 / Friend Center/Metra 1,07:18 / 08:00 / 17:50,,0.0
+Levi Hall (E),41.78945,-87.60131,17,1.5,4.3,8.8,17,0,0,0,0,Red Line/Arts Block 5 / Apostolic 4 / South 3 / 53rd Street Express 3,07:38 / 10:22 / 17:29,,0.0
 Garfield & Wabash (WB),41.79472,-87.62344,17,1.4,4.3,7.8,15,1,1,0,0,Red Line/Arts Block 13 / Downtown Campus Connector 2 / Drexel 1 / Apostolic 1,07:32 / 11:19 / 12:40,10:11 / 10:11 / 10:11,0.3
 "Unnamed (41.8885, -87.6177)",41.88851,-87.61769,8,1.4,9.1,17.2,3,2,3,0,0,Downtown Campus Connector 8,10:47 / 10:00 / 11:13,10:38 / 10:53 / 10:55,0.9
-Levi Hall (E),41.78946,-87.60131,15,1.4,4.3,9.1,15,0,0,0,0,Red Line/Arts Block 5 / Apostolic 3 / South 3 / 53rd Street Express 3,08:14 / 10:22 / 17:11,,0.0
-UCHICAGO Medicine - River East,41.89134,-87.6178,20,1.2,3.2,5.3,16,2,2,0,0,Downtown Campus Connector 20,08:30 / 10:38 / 16:42,10:39 / 10:41 / 10:43,0.4
-"Unnamed (41.8669, -87.6202)",41.86693,-87.62023,22,1.2,3.1,3.6,22,0,0,0,0,Downtown Campus Connector 20 / South Loop Shuttle 2,16:23 / 17:18 / 18:09,,0.0
+Lake Park & 55th St. (SE Corner),41.79498,-87.58712,13,1.4,4.5,8.5,13,0,0,0,0,53rd Street Express 11 / East 2,08:14 / 09:10 / 16:22,,0.0
+UCHICAGO Medicine - River East,41.89136,-87.61784,21,1.3,3.1,5.2,17,2,2,0,0,Downtown Campus Connector 21,08:31 / 10:39 / 16:30,10:39 / 10:41 / 10:43,0.4
+"Unnamed (41.8669, -87.6202)",41.86694,-87.62023,23,1.2,3.1,3.6,23,0,0,0,0,Downtown Campus Connector 21 / South Loop Shuttle 2,16:24 / 17:12 / 18:09,,0.0
 "Unnamed (41.7947, -87.6272)",41.79469,-87.62723,12,1.1,5.8,7.3,10,1,0,0,1,Red Line/Arts Block 11 / Apostolic 1,10:32 / 13:40 / 13:43,,0.1
-Lake Park & 55th St. (SE Corner),41.79481,-87.587,10,1.1,3.9,10.2,10,0,0,0,0,53rd Street Express 8 / East 2,08:08 / 08:56 / 17:55,,0.0
 S Lake Park & E 53rd St,41.79951,-87.58745,14,1.0,3.4,6.2,13,0,1,0,0,53rd Street Express 9 / Downtown Campus Connector 2 / East 2 / Central 1,11:21 / 16:48 / 18:31,10:50 / 10:50 / 10:50,0.1
+S Lake Park Ave & E Hyde Park Blvd,41.80301,-87.58814,9,1.0,3.7,9.3,8,0,1,0,0,Downtown Campus Connector 4 / North 4 / East 1,08:32 / 16:48 / 20:13,08:42 / 08:42 / 08:42,0.5
 "Unnamed (41.8167, -87.6315)",41.81668,-87.63155,7,1.0,8.2,9.8,0,0,4,0,3,Red Line/Arts Block 2 / Central 2 / East 1 / Downtown Campus Connector 1,08:31 / 21:28 / 22:10,21:28 / 21:49 / 22:10,0.6
-S Lake Park Ave & E Hyde Park Blvd,41.80304,-87.58807,8,0.9,3.6,11.9,7,0,1,0,0,Downtown Campus Connector 4 / North 3 / East 1,08:28 / 16:45 / 20:38,08:42 / 08:42 / 08:42,0.5
 S (Upper) Wacker Dr & W Adams St,41.87922,-87.63712,13,0.9,3.9,5.7,13,0,0,0,0,Downtown Campus Connector 13,08:18 / 16:06 / 17:21,,0.0
 Drexel Garage,41.78446,-87.60439,12,0.9,3.9,7.0,12,0,0,0,0,Drexel 10 / Apostolic/Drexel 1 / Apostolic 1,06:42 / 08:16 / 09:45,,0.0
-UCHICAGO Medicine - South Loop,41.87019,-87.64053,5,0.8,8.9,16.1,3,0,2,0,0,Downtown Campus Connector 5,10:29 / 10:51 / 17:42,10:31 / 10:40 / 10:49,0.5
+UCHICAGO Medicine - South Loop,41.87016,-87.64045,6,0.8,6.9,14.9,4,0,2,0,0,Downtown Campus Connector 6,10:29 / 12:14 / 17:58,10:31 / 10:40 / 10:49,0.5
+"Unnamed (41.8877, -87.6200)",41.88772,-87.62002,9,0.8,5.0,6.5,9,0,0,0,0,Downtown Campus Connector 9,06:56 / 15:59 / 19:13,,0.0
+"Unnamed (41.7878, -87.5988)",41.78776,-87.5988,9,0.8,4.6,7.1,9,0,0,0,0,Downtown Campus Connector 6 / Friend Center/Metra 3,10:43 / 13:54 / 19:20,,0.0
 "Unnamed (41.8673, -87.6313)",41.8673,-87.63135,6,0.8,6.6,10.6,6,0,0,0,0,Downtown Campus Connector 6,14:39 / 15:23 / 16:15,,0.0
+"Unnamed (41.7805, -87.6037)",41.78049,-87.60367,9,0.7,4.5,7.4,9,0,0,0,0,South 8 / Apostolic 1,15:04 / 20:04 / 22:05,,0.0
 Regents Park Apartments,41.8033,-87.58556,8,0.7,4.7,8.5,8,0,0,0,0,East 8,17:47 / 19:12 / 21:19,,0.0
-"Unnamed (41.7878, -87.5988)",41.78776,-87.59881,8,0.7,5.2,7.3,8,0,0,0,0,Downtown Campus Connector 5 / Friend Center/Metra 3,10:37 / 13:08 / 16:20,,0.0
-"Unnamed (41.8877, -87.6200)",41.8877,-87.61997,8,0.7,5.3,6.6,8,0,0,0,0,Downtown Campus Connector 8,06:55 / 17:08 / 19:18,,0.0
-Wyler Pavilion,41.7877,-87.60593,7,0.7,5.3,9.4,6,0,1,0,0,Downtown Campus Connector 3 / Midway Metra 1 / Drexel 1 / Friend Center/Metra 1,07:40 / 09:08 / 13:40,07:37 / 07:37 / 07:37,0.2
 E Randolph St & S Michigan Ave,41.88426,-87.6242,8,0.7,4.5,7.4,5,3,0,0,0,Downtown Campus Connector 8,08:35 / 10:44 / 19:56,,0.3
-"Unnamed (41.7805, -87.6037)",41.78049,-87.60366,8,0.7,4.5,7.5,8,0,0,0,0,South 7 / Apostolic 1,14:16 / 19:19 / 22:05,,0.0
+Wyler Pavilion,41.78775,-87.60596,6,0.7,5.4,9.9,5,0,1,0,0,Downtown Campus Connector 3 / Midway Metra 1 / Drexel 1 / Friend Center/Metra 1,07:39 / 08:36 / 14:26,07:37 / 07:37 / 07:37,0.2
 S Michigan Ave/Roosevelt,41.86796,-87.62396,8,0.6,4.1,6.7,7,0,1,0,0,Downtown Campus Connector 7 / South Loop Shuttle 1,09:55 / 17:00 / 22:12,22:09 / 22:09 / 22:09,0.1
 Kimbark Plaza (NE Corner),41.79943,-87.59589,7,0.6,3.3,9.7,6,0,1,0,0,Central 3 / East 3 / South 1,17:30 / 18:52 / 21:57,21:02 / 21:02 / 21:02,0.0
 "Unnamed (41.8870, -87.6344)",41.88696,-87.63435,9,0.6,3.8,5.2,9,0,0,0,0,Downtown Campus Connector 9,16:40 / 17:14 / 17:40,,0.0
