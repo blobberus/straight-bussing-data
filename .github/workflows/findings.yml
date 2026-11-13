@@ -11,6 +11,9 @@ name: Weekly findings (which bus will leave, findings workbook)
 # for this data. Flag these lines") it also reruns the flag producers, RouteKnower E30 (odd bus behavior at transition
 # times) and E31 (large prediction misses; needs the eta tables and the data branch's predictions.csv + archive), and
 # merges them with the app repo's tools/flag_lines.py into findings/csv/flagged_lines.csv, the workbook's first tab.
+# Since 2026-11-13 (owner: "Run a data collection check recording bus line issues") the app repo's
+# tools/collection_flags.py runs with them (per-line issues in the collected data: findings/flags/collection_flags.csv
+# and its evidence in findings/collection/; about 30 s).
 # Since 2026-11-11 (owner: "Keep hidden bus times off until it reports again. If passio is still reporting them, add them
 # to a hidden bus file in the data") it also replays every archived day through the app's own display code (E32, headless
 # Edge) and writes findings/hidden_buses/hidden_buses.csv (capped at 45 min; skipped without a browser).
