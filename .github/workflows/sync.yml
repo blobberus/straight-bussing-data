@@ -17,7 +17,7 @@ concurrency: { group: sync, cancel-in-progress: false }
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 60     # the chain step waits 25 min, then up to 17 min of dispatch retries
+    timeout-minutes: 90     # the chain step waits 19 min, then up to 6 tries, each new run watched up to 6 min
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -57,21 +57,42 @@ jobs:
         run: |
           curl -fsS -X PUT -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/sync.yml/enable" || echo "keepalive failed (harmless)"
-      - name: Chain the next sync in about 30 min (DC-013; retries DC-023)
+      - name: Chain the next sync in about 30 min (DC-013; retries DC-023; started check DC-027)
         if: always() && vars.SYNC_CHAIN != 'off'
-        env: { GH_TOKEN: "${{ github.token }}" }
+        env: { GH_TOKEN: "${{ github.token }}", RUN_ID: "${{ github.run_id }}" }
         run: |
-          sleep 1500
+          sleep 1140
           # A failed dispatch is tried again (1, 2, 4, 5, 5 min apart): on 2026-11-05 GitHub's API answered 500 for
           # minutes, the single try failed and the chain (and the watchdog) stopped for 2 hours (app repo DC-023).
           # The waiting check runs before every try, so a run GitHub created despite an error is never doubled.
+          # A dispatch that goes through is then watched for 6 min (19 + 6 = the 25 min this step slept before), while
+          # the new run waits behind this one (same concurrency group): GitHub can accept the call and end the new run
+          # without a job (startup_failure, or failure with no job). That stopped the chain 2 h 35 min on 2026-11-09 and
+          # 5 h 12 min on 2026-11-11 (app repo DC-025, DC-027; the second was marked so after 5 min 25 s). Such a run
+          # counts as a failed try.
+          seen='[.[] | select(.databaseId != ($ENV.RUN_ID | tonumber)) | select((.createdAt | fromdateiso8601) >= (($ENV.SINCE | tonumber) - 60))] as $n
+            | if ($n | length) == 0 then "wait"
+              elif ($n | all(.status == "completed" and (.conclusion == "startup_failure" or .conclusion == "failure"))) then "failed"
+              elif ($n | any(.status == "in_progress" or (.status == "completed" and .conclusion != "startup_failure" and .conclusion != "failure"))) then "started"
+              else "wait" end'
           for try in 1 2 3 4 5 6; do
             waiting=$(gh run list -R "${{ github.repository }}" -w sync.yml -L 20 --json status               --jq '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length' || echo 0)
             if [ "${waiting:-0}" -gt 0 ]; then echo "a sync is already waiting: no new link"; exit 0; fi
-            if gh workflow run sync.yml -R "${{ github.repository }}" --ref main; then echo "next sync dispatched (try $try)"; exit 0; fi
+            export SINCE=$(date -u +%s)
+            if gh workflow run sync.yml -R "${{ github.repository }}" --ref main; then
+              echo "next sync dispatched (try $try); watching that GitHub starts it"
+              verdict=wait
+              for k in 1 2 3 4 5 6 7 8 9 10 11 12; do
+                sleep 30
+                verdict=$(gh run list -R "${{ github.repository }}" -w sync.yml -L 10 --json databaseId,status,conclusion,createdAt --jq "$seen" || echo wait)
+                [ "$verdict" = wait ] || break
+              done
+              if [ "$verdict" != failed ]; then echo "next sync ${verdict/wait/waiting behind this run} (try $try)"; exit 0; fi
+              echo "the dispatched sync never ran (GitHub ended it without a job)"
+            fi
             [ "$try" -ge 6 ] && break
             pause=$(( 60 * (1 << (try - 1)) )); [ "$pause" -gt 300 ] && pause=300
-            echo "dispatch failed (try $try of 6); trying again in $pause s"
+            echo "no next sync yet (try $try of 6); trying again in $pause s"
             sleep "$pause"
           done
-          echo "::warning title=Sync chain::dispatch failed 6 times; the cron backstop still runs"
+          echo "::warning title=Sync chain::the next sync could not be started in 6 tries; the cron backstop still runs"
