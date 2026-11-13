@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-13 11:52",
+ "synced": "2026-11-13 12:43",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 111651,
- "newest": "2026-11-13 05:22:59",
+ "rows": 111726,
+ "newest": "2026-11-13 06:36:21",
  "cutoff_hour": 4,
  "days": [
   {
@@ -2168,16 +2168,21 @@
   },
   {
    "day": "2026-11-13",
-   "rows": 14,
+   "rows": 89,
    "routes": {
     "Apostolic": {
      "file": "data/arrivals/2026-11-13/apostolic.csv",
-     "rows": 6,
+     "rows": 53,
      "route_id": "5702"
+    },
+    "Downtown Campus Connector": {
+     "file": "data/arrivals/2026-11-13/downtown-campus-connector.csv",
+     "rows": 2,
+     "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-11-13/drexel.csv",
-     "rows": 8,
+     "rows": 34,
      "route_id": "5701"
     }
    }
