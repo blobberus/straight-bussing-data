@@ -1,0 +1,3 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794608398,2026-11-13T22:19:58Z,2026-11-13 16:19:58,4,16,979,1077,East,501673,4317,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,4,,,,,,0,,,pass
+1794608612,2026-11-13T22:23:32Z,2026-11-13 16:23:32,4,16,983,1077,East,501673,4317,20132,53 & Kimbark (EB),1301 East 53rd Street,41.79938,-87.59512,5,140009,754.2,1794608398,214,3.52,7,1794609711,252,proximity

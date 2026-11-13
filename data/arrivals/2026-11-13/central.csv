@@ -1,0 +1,4 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794608589,2026-11-13T22:23:09Z,2026-11-13 16:23:09,4,16,983,1078,Central,501716,4322,140016,55th Street & Blackstone,1436 East 55th Street,41.79563,-87.59021,10,,,,,,12,,,proximity
+1794608670,2026-11-13T22:24:30Z,2026-11-13 16:24:30,4,16,984,1078,Central,501716,4322,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,140016,461.2,1794608589,81,6.68,18,,,proximity
+1794608776,2026-11-13T22:26:16Z,2026-11-13 16:26:16,4,16,986,1078,Central,501716,4322,140012,53 & Kimbark (WB),East 53rd Street,41.79956,-87.59485,12,141862,358.6,1794608670,106,4.08,,1794609020,191,transition
