@@ -1,6 +1,4 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
-1794628869,2026-11-14T04:01:09Z,2026-11-13 22:01:09,4,22,1321,5700,Friend Center/Metra,,4313,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,2,,,,,,,,,gps
-1794628909,2026-11-14T04:01:49Z,2026-11-13 22:01:49,4,22,1321,5700,Friend Center/Metra,,4313,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,3,,,,,,,,,gps
 1794628927,2026-11-14T04:02:07Z,2026-11-13 22:02:07,4,22,1322,1077,East,501701,4317,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,4,8635,334.4,1794628834,93,3.6,0,1794628936,1025,transition
 1794628938,2026-11-14T04:02:18Z,2026-11-13 22:02:18,4,22,1322,5700,Friend Center/Metra,,4313,8617,Comer Children's Hospital,South Drexel Avenue,41.79051,-87.60365,4,,,,,,,,,gps
 1794628950,2026-11-14T04:02:30Z,2026-11-13 22:02:30,4,22,1322,5700,Friend Center/Metra,,4313,138838,S Drexel Ave & 57th St,South Drexel Avenue,41.79114,-87.60365,5,,,,,,,,,gps
@@ -199,3 +197,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794635888,2026-11-14T05:58:08Z,2026-11-13 23:58:08,4,23,1438,1077,East,501706,4317,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,,,,,,0,,,transition
 1794636464,2026-11-14T06:07:44Z,2026-11-14 00:07:44,5,0,7,5716,South Loop Shuttle,501797,4327,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,8579,1069.8,1794635426,1038,1.24,0,1794635256,1406,pass
 1794637690,2026-11-14T06:28:10Z,2026-11-14 00:28:10,5,0,28,5716,South Loop Shuttle,501797,4327,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,54,1794638717,582,proximity
+1794638753,2026-11-14T06:45:53Z,2026-11-14 00:45:53,5,0,45,5716,South Loop Shuttle,501797,4327,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794637690,1063,11.18,0,,,pass
+1794638944,2026-11-14T06:49:04Z,2026-11-14 00:49:04,5,0,49,5716,South Loop Shuttle,,4327,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,,,,,,,,,gps
