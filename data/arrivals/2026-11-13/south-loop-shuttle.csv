@@ -1,2 +1,5 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
 1794616117,2026-11-14T00:28:37Z,2026-11-13 18:28:37,4,18,1108,5716,South Loop Shuttle,501793,4326,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,,1794615929,184,proximity
+1794618273,2026-11-14T01:04:33Z,2026-11-13 19:04:33,4,19,1144,5716,South Loop Shuttle,501794,4326,8619,57th Street Metra Station (E),East 57th Street,41.79149,-87.58686,1,,,,,,,1794618139,1793,transition
+1794618273,2026-11-14T01:04:33Z,2026-11-13 19:04:33,4,19,1144,5716,South Loop Shuttle,501794,4326,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,,,,,,45,1794620495,1793,proximity
+1794619431,2026-11-14T01:23:51Z,2026-11-13 19:23:51,4,19,1163,5716,South Loop Shuttle,501794,4326,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,56,1794619016,2951,proximity
