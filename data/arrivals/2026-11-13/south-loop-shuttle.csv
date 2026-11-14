@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794616117,2026-11-14T00:28:37Z,2026-11-13 18:28:37,4,18,1108,5716,South Loop Shuttle,501793,4326,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,,1794615929,184,proximity
