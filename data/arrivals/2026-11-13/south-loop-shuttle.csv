@@ -24,3 +24,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794631584,2026-11-14T04:46:24Z,2026-11-13 22:46:24,4,22,1366,5716,South Loop Shuttle,501797,4327,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794630411,1173,12.17,0,1794631412,1775,pass
 1794631756,2026-11-14T04:49:16Z,2026-11-13 22:49:16,4,22,1369,5716,South Loop Shuttle,,4327,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,,,,,,,,,gps
 1794632633,2026-11-14T05:03:53Z,2026-11-13 23:03:53,4,23,1383,5716,South Loop Shuttle,,4327,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,3,,,,,,,,,gps
+1794635230,2026-11-14T05:47:10Z,2026-11-13 23:47:10,4,23,1427,5716,South Loop Shuttle,,4327,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,,,,,,,,,gps
+1794635426,2026-11-14T05:50:26Z,2026-11-13 23:50:26,4,23,1430,5716,South Loop Shuttle,501797,4327,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,175,1794635240,183,proximity
