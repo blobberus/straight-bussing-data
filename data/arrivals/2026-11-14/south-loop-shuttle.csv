@@ -13,3 +13,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794710613,2026-11-15T02:43:33Z,2026-11-14 20:43:33,5,20,1243,5716,South Loop Shuttle,501795,4322,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794709193,1420,8.35,19,,,pass
 1794710809,2026-11-15T02:46:49Z,2026-11-14 20:46:49,5,20,1246,5716,South Loop Shuttle,501796,4322,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,,,,proximity
 1794711931,2026-11-15T03:05:31Z,2026-11-14 21:05:31,5,21,1265,5716,South Loop Shuttle,501796,4322,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,5,8579,,1794710809,1122,,4,,,pass
+1794712825,2026-11-15T03:20:25Z,2026-11-14 21:20:25,5,21,1280,5716,South Loop Shuttle,501796,4322,8621,Roosevelt CTA Station,3 East Roosevelt Road,41.86732,-87.62707,2,,,,,,17,1794712796,181,proximity
+1794714103,2026-11-15T03:41:43Z,2026-11-14 21:41:43,5,21,1301,5716,South Loop Shuttle,501796,4322,9593,International House,South Dorchester Avenue,41.78786,-87.59148,4,8621,11283.7,1794712825,1278,8.95,0,1794714149,412,pass
