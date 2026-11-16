@@ -261,3 +261,4 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794846040,2026-11-16T16:20:40Z,2026-11-16 10:20:40,0,10,620,5703,Midway Metra,676435,4328,8631,60th St. & Ellis (SE Corner),East 60th Street,41.78583,-87.60109,8,,,,,,0,1794844068,2403,pass
 1794846097,2026-11-16T16:21:37Z,2026-11-16 10:21:37,0,10,621,5703,Midway Metra,501539,4315,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,3,,,,,,,,,gps
 1794846138,2026-11-16T16:22:18Z,2026-11-16 10:22:18,0,10,622,5703,Midway Metra,501539,4315,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,4,,,,,,,,,gps
+1794866148,2026-11-16T21:55:48Z,2026-11-16 15:55:48,0,15,955,5703,Midway Metra,676436,12643,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,3,,,,,,0,,,transition
