@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-16 16:07 UTC · 118,226 arrivals · 40 service days · newest arrival 2026-11-16 10:00:03 (Chicago time)_
+_Last sync: 2026-11-16 16:58 UTC · 118,374 arrivals · 40 service days · newest arrival 2026-11-16 10:39:57 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-16 | 1,304 | 7 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
+| 2026-11-16 | 1,452 | 8 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
 | 2026-11-15 | 715 | 4 | [data/arrivals/2026-11-15/](data/arrivals/2026-11-15) |
 | 2026-11-14 | 926 | 5 | [data/arrivals/2026-11-14/](data/arrivals/2026-11-14) |
 | 2026-11-13 | 3,644 | 13 | [data/arrivals/2026-11-13/](data/arrivals/2026-11-13) |
@@ -64,11 +64,12 @@ Routes on 2026-11-16:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Midway Metra | 257 | [midway-metra.csv](data/arrivals/2026-11-16/midway-metra.csv) |
+| Midway Metra | 262 | [midway-metra.csv](data/arrivals/2026-11-16/midway-metra.csv) |
 | Apostolic | 238 | [apostolic.csv](data/arrivals/2026-11-16/apostolic.csv) |
+| Red Line/Arts Block | 214 | [red-line-arts-block.csv](data/arrivals/2026-11-16/red-line-arts-block.csv) |
 | Drexel | 197 | [drexel.csv](data/arrivals/2026-11-16/drexel.csv) |
-| Red Line/Arts Block | 183 | [red-line-arts-block.csv](data/arrivals/2026-11-16/red-line-arts-block.csv) |
-| Downtown Campus Connector | 165 | [downtown-campus-connector.csv](data/arrivals/2026-11-16/downtown-campus-connector.csv) |
-| 53rd Street Express | 144 | [53rd-street-express.csv](data/arrivals/2026-11-16/53rd-street-express.csv) |
-| Friend Center/Metra | 120 | [friend-center-metra.csv](data/arrivals/2026-11-16/friend-center-metra.csv) |
+| Downtown Campus Connector | 189 | [downtown-campus-connector.csv](data/arrivals/2026-11-16/downtown-campus-connector.csv) |
+| 53rd Street Express | 188 | [53rd-street-express.csv](data/arrivals/2026-11-16/53rd-street-express.csv) |
+| Friend Center/Metra | 140 | [friend-center-metra.csv](data/arrivals/2026-11-16/friend-center-metra.csv) |
+| Apostolic/Drexel | 24 | [apostolic-drexel.csv](data/arrivals/2026-11-16/apostolic-drexel.csv) |
 <!-- SYNC:END -->
