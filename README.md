@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-16 22:00 UTC · 119,057 arrivals · 40 service days · newest arrival 2026-11-16 15:57:12 (Chicago time)_
+_Last sync: 2026-11-16 22:51 UTC · 119,193 arrivals · 40 service days · newest arrival 2026-11-16 16:28:32 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-16 | 2,135 | 8 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
+| 2026-11-16 | 2,271 | 12 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
 | 2026-11-15 | 715 | 4 | [data/arrivals/2026-11-15/](data/arrivals/2026-11-15) |
 | 2026-11-14 | 926 | 5 | [data/arrivals/2026-11-14/](data/arrivals/2026-11-14) |
 | 2026-11-13 | 3,644 | 13 | [data/arrivals/2026-11-13/](data/arrivals/2026-11-13) |
@@ -64,12 +64,16 @@ Routes on 2026-11-16:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Downtown Campus Connector | 335 | [downtown-campus-connector.csv](data/arrivals/2026-11-16/downtown-campus-connector.csv) |
-| 53rd Street Express | 329 | [53rd-street-express.csv](data/arrivals/2026-11-16/53rd-street-express.csv) |
-| Red Line/Arts Block | 300 | [red-line-arts-block.csv](data/arrivals/2026-11-16/red-line-arts-block.csv) |
-| Midway Metra | 263 | [midway-metra.csv](data/arrivals/2026-11-16/midway-metra.csv) |
-| Friend Center/Metra | 243 | [friend-center-metra.csv](data/arrivals/2026-11-16/friend-center-metra.csv) |
+| Downtown Campus Connector | 355 | [downtown-campus-connector.csv](data/arrivals/2026-11-16/downtown-campus-connector.csv) |
+| 53rd Street Express | 346 | [53rd-street-express.csv](data/arrivals/2026-11-16/53rd-street-express.csv) |
+| Red Line/Arts Block | 319 | [red-line-arts-block.csv](data/arrivals/2026-11-16/red-line-arts-block.csv) |
+| Midway Metra | 284 | [midway-metra.csv](data/arrivals/2026-11-16/midway-metra.csv) |
+| Friend Center/Metra | 254 | [friend-center-metra.csv](data/arrivals/2026-11-16/friend-center-metra.csv) |
+| Apostolic/Drexel | 242 | [apostolic-drexel.csv](data/arrivals/2026-11-16/apostolic-drexel.csv) |
 | Apostolic | 238 | [apostolic.csv](data/arrivals/2026-11-16/apostolic.csv) |
-| Apostolic/Drexel | 230 | [apostolic-drexel.csv](data/arrivals/2026-11-16/apostolic-drexel.csv) |
 | Drexel | 197 | [drexel.csv](data/arrivals/2026-11-16/drexel.csv) |
+| Central | 12 | [central.csv](data/arrivals/2026-11-16/central.csv) |
+| East | 9 | [east.csv](data/arrivals/2026-11-16/east.csv) |
+| South | 8 | [south.csv](data/arrivals/2026-11-16/south.csv) |
+| North | 7 | [north.csv](data/arrivals/2026-11-16/north.csv) |
 <!-- SYNC:END -->
