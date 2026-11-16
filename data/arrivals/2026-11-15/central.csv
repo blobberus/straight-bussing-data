@@ -212,3 +212,7 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794807687,2026-11-16T05:41:27Z,2026-11-15 23:41:27,6,23,1421,1078,Central,540734,4318,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,7,,,,,,,,,gps
 1794807716,2026-11-16T05:41:56Z,2026-11-15 23:41:56,6,23,1421,1078,Central,540734,4318,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,8,,,,,,,,,gps
 1794807769,2026-11-16T05:42:49Z,2026-11-15 23:42:49,6,23,1422,1078,Central,540734,4318,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,9,,,,,,,,,gps
+1794808082,2026-11-16T05:48:02Z,2026-11-15 23:48:02,6,23,1428,1078,Central,,4318,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,,,,,,,,,gps
+1794808157,2026-11-16T05:49:17Z,2026-11-15 23:49:17,6,23,1429,1078,Central,,4318,140012,53 & Kimbark (WB),East 53rd Street,41.79956,-87.59485,12,,,,,,,,,gps
+1794808406,2026-11-16T05:53:26Z,2026-11-15 23:53:26,6,23,1433,1078,Central,,4318,8652,Booth School,South Woodlawn Avenue,41.78955,-87.59636,13,,,,,,,,,gps
+1794808861,2026-11-16T06:01:01Z,2026-11-16 00:01:01,0,0,1,1078,Central,540737,4318,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,14,,,,,,,,,gps
