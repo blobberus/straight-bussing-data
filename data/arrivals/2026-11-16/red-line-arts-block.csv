@@ -241,3 +241,4 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794849149,2026-11-16T17:12:29Z,2026-11-16 11:12:29,0,11,672,5699,Red Line/Arts Block,690464,4328,67600,Smart Museum of Arts,South Ellis Avenue,41.79412,-87.60125,3,8650,315.0,1794849094,55,5.73,0,1794849358,140,transition
 1794849660,2026-11-16T17:21:00Z,2026-11-16 11:21:00,0,11,681,5699,Red Line/Arts Block,690464,4328,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,67600,1620.8,1794849149,511,3.17,0,1794849455,214,transition
 1794849737,2026-11-16T17:22:17Z,2026-11-16 11:22:17,0,11,682,5699,Red Line/Arts Block,690464,4328,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,67601,473.1,1794849660,77,6.14,0,1794849528,220,transition
+1794858734,2026-11-16T19:52:14Z,2026-11-16 13:52:14,0,13,832,5699,Red Line/Arts Block,690473,4315,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,,,,,,0,,,transition
