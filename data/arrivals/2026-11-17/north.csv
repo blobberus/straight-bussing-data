@@ -3,3 +3,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794952880,2026-11-17T22:01:20Z,2026-11-17 16:01:20,1,16,961,1075,North,501582,12646,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1794952326,554,2.23,6,,,proximity
 1794952981,2026-11-17T22:03:01Z,2026-11-17 16:03:01,1,16,963,1075,North,501582,12646,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1794952880,101,3.54,0,,,transition
 1794953010,2026-11-17T22:03:30Z,2026-11-17 16:03:30,1,16,963,1075,North,501582,12646,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1794952981,29,4.57,0,,,transition
+1794955150,2026-11-17T22:39:10Z,2026-11-17 16:39:10,1,16,999,1075,North,501582,12646,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,,,,,,0,1794955143,223,pass
+1794955413,2026-11-17T22:43:33Z,2026-11-17 16:43:33,1,16,1003,1075,North,501585,12646,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,998,,,proximity
