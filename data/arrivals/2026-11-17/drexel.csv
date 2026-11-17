@@ -1,0 +1,5 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794913177,2026-11-17T10:59:37Z,2026-11-17 04:59:37,1,4,299,5701,Drexel,501392,4319,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,0,,,,,,39,,,proximity
+1794913506,2026-11-17T11:05:06Z,2026-11-17 05:05:06,1,5,305,5701,Drexel,501392,4319,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,2,8611,1373.0,1794913177,329,4.73,0,1794913436,247,pass
+1794913536,2026-11-17T11:05:36Z,2026-11-17 05:05:36,1,5,305,5701,Drexel,501392,4319,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,3,8613,95.8,1794913506,30,3.19,39,1794913495,277,pass
+1794913595,2026-11-17T11:06:35Z,2026-11-17 05:06:35,1,5,306,5701,Drexel,501392,4319,8616,58th Street & Drexel,850 East 58th Street,41.78951,-87.60392,4,8615,96.6,1794913536,59,4.83,0,1794913557,188,pass
