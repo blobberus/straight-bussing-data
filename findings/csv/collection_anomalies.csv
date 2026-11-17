@@ -1,8 +1,18 @@
 entry,item,title,status,first line
-DC-027,,Checkup 2026-11-13: healthy; bus line issues recorded line by line,,"Owner (2026-11-13): ""Run a data collection check recording bus line issues."" This entry is the checkup of both"
+DC-028,,"Checkup 2026-11-16: a 46-minute gap Monday noon (GitHub kept the chain's next run queued 75 min: fixed, a run now holds); South's and Regents Express's Friday evening under another label or missing (accepted; a line that logs nothing is now flagged); the lockstep fix held",,"Owner (2026-11-16): ""Run a collector check and make changes as needed to fix any errors."" This entry is the checkup of"
+DC-028,1,"Collector: healthy, except one 46-minute gap on Monday (item 5).",item 5,
+DC-028,2,Database: the whole-database audit is clean once Monday's gap and Friday's two lines are explained.,,
+DC-028,3,"Every line, Fri Nov 13 to Mon Nov 16 (DC-027 item 3's form).",DC-027 item 3's form,Per line: arrivals against the same weekday's median
+DC-028,7,"DC-027's open per-line rows, with the new days.",,
+DC-028,8,"Archives: Nov 13, 14 and 15 on `data-archive-2026-11`, all six file kinds.",,Nov 13 by the schedule Sat 10:44 AM
+DC-028,9,Off-GitHub backup refreshed (it was due Nov 20 to 27; done now for the new days).,it was due Nov 20 to 27; done now for the new days,"`python tools/backup.py`, Mon"
+DC-028,10,"Still open, for the owner (unchanged unless said).",unchanged unless said,The closest-approach rule for South's Logan Center and
+DC-027,,Checkup 2026-11-13: healthy; bus line issues recorded line by line (South and Regents Express lose a stop on every lap: open; North half its rows two evenings: accepted); a run GitHub never started stopped the data repo's chain 5 h (fixed in both chains); one run's polls not archived (accepted),accepted,"Owner (2026-11-13): ""Run a data collection check recording bus line issues."" This entry is the checkup of both"
 DC-027,1,"Collector: healthy, nothing lost from the arrivals (nothing to fix there).",nothing to fix there,
 DC-027,2,Database: the whole-database audit is clean; Nov 11 and 12 are the busiest Wednesday and Thursday logged.,,
 DC-027,3,"Every line, Nov 11 and 12 (the owner's focus).",the owner's focus,"Per line: arrivals against the same weekday's median (four weeks),"
+DC-027,8,"Still open from DC-024 to DC-026 (Passio's side, numbers in item 3).","Passio's side, numbers in item 3",The four Connector downtown stops: a time on 1
+DC-027,10,Off-GitHub backup refreshed (it was due Nov 13 to 20).,it was due Nov 13 to 20,"`python tools/backup.py`, Fri 3:07 AM: the data branch's"
 DC-026,,Checkup 2026-11-11: healthy; the public data repo's per-day files had the prediction columns since Oct 29 (fixed); a whole-database audit (new); the archive check missed two file kinds (fixed); Passio's missing stop times unchanged and its times late on four lines since Oct 27 (open),open,"Owner (2026-11-11): ""Check this project on the repo and the straight bussing database repo. From here, run a database"
 DC-026,1,"Collector: healthy, no gap since the last checkup (nothing to fix).",nothing to fix,
 DC-026,2,"The public data repo's per-day files had the prediction columns since Oct 29 (fixed in the data repo, `36126a1`).","fixed in the data repo, `36126a1`",
