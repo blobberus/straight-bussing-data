@@ -1,0 +1,5 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794952326,2026-11-17T21:52:06Z,2026-11-17 15:52:06,1,15,952,1075,North,501582,12646,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,0,,,,,,494,,,proximity
+1794952880,2026-11-17T22:01:20Z,2026-11-17 16:01:20,1,16,961,1075,North,501582,12646,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1794952326,554,2.23,6,,,proximity
+1794952981,2026-11-17T22:03:01Z,2026-11-17 16:03:01,1,16,963,1075,North,501582,12646,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1794952880,101,3.54,0,,,transition
+1794953010,2026-11-17T22:03:30Z,2026-11-17 16:03:30,1,16,963,1075,North,501582,12646,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1794952981,29,4.57,0,,,transition
