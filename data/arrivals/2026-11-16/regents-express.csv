@@ -10,3 +10,12 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1794873882,2026-11-17T00:04:42Z,2026-11-16 18:04:42,0,18,1084,5715,Regents Express,524063,4326,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,,,,,,,,,gps
 1794873922,2026-11-17T00:05:22Z,2026-11-16 18:05:22,0,18,1085,5715,Regents Express,524063,4326,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,,,,,,,,,gps
 1794874037,2026-11-17T00:07:17Z,2026-11-16 18:07:17,0,18,1087,5715,Regents Express,524063,4326,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,,,,,,,,,gps
+1794874759,2026-11-17T00:19:19Z,2026-11-16 18:19:19,0,18,1099,5715,Regents Express,,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,,,,,,,,,gps
+1794874979,2026-11-17T00:22:59Z,2026-11-16 18:22:59,0,18,1102,5715,Regents Express,524066,4326,8643,Law School (N),East 60th Street,41.78589,-87.59906,0,,,,,,26,,,proximity
+1794875278,2026-11-17T00:27:58Z,2026-11-16 18:27:58,0,18,1107,5715,Regents Express,524063,4326,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,1,,,,,,,,,gps
+1794875351,2026-11-17T00:29:11Z,2026-11-16 18:29:11,0,18,1109,5715,Regents Express,524063,4326,72572,E 56th St & S Cornell Ave (SW Corner),East 56th Street,41.79338,-87.58544,2,,,,,,,,,gps
+1794875371,2026-11-17T00:29:31Z,2026-11-16 18:29:31,0,18,1109,5715,Regents Express,524065,4326,72573,E 56th St & S Hyde Park Blvd (SW Corner),South Hyde Park Boulevard,41.7934,-87.58396,3,,,,,,,,,gps
+1794875481,2026-11-17T00:31:21Z,2026-11-16 18:31:21,0,18,1111,5715,Regents Express,524063,4326,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,,,,,,,,,gps
+1794876193,2026-11-17T00:43:13Z,2026-11-16 18:43:13,0,18,1123,5715,Regents Express,524063,4326,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,6,,,,,,,,,gps
+1794876407,2026-11-17T00:46:47Z,2026-11-16 18:46:47,0,18,1126,5715,Regents Express,524066,4326,8643,Law School (N),East 60th Street,41.78589,-87.59906,0,,,,,,,1794876060,1398,proximity
+1794877169,2026-11-17T00:59:29Z,2026-11-16 18:59:29,0,18,1139,5715,Regents Express,524063,4326,8657,Shoreland Building,South Shore Drive,41.79615,-87.58081,4,,,,,,27,,,proximity
