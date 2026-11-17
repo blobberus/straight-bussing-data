@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1794917903,2026-11-17T12:18:23Z,2026-11-17 06:18:23,1,6,378,5704,Downtown Campus Connector,874028,4314,8591,Rockefeller Chapel,South Woodlawn Avenue,41.78787,-87.59649,0,,,,,,,,,proximity

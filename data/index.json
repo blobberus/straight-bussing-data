@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-17 11:55",
+ "synced": "2026-11-17 12:46",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 120974,
- "newest": "2026-11-17 05:49:05",
+ "rows": 121082,
+ "newest": "2026-11-17 06:29:29",
  "cutoff_hour": 4,
  "days": [
   {
@@ -2367,27 +2367,37 @@
   },
   {
    "day": "2026-11-17",
-   "rows": 89,
+   "rows": 197,
    "routes": {
     "Apostolic": {
      "file": "data/arrivals/2026-11-17/apostolic.csv",
-     "rows": 32,
+     "rows": 71,
      "route_id": "5702"
+    },
+    "Downtown Campus Connector": {
+     "file": "data/arrivals/2026-11-17/downtown-campus-connector.csv",
+     "rows": 1,
+     "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-11-17/drexel.csv",
-     "rows": 29,
+     "rows": 57,
      "route_id": "5701"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-17/friend-center-metra.csv",
-     "rows": 23,
+     "rows": 38,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-17/midway-metra.csv",
-     "rows": 5,
+     "rows": 29,
      "route_id": "5703"
+    },
+    "Red Line/Arts Block": {
+     "file": "data/arrivals/2026-11-17/red-line-arts-block.csv",
+     "rows": 1,
+     "route_id": "5699"
     }
    }
   }
