@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-18 23:06",
+ "synced": "2026-11-18 23:32",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 128553,
- "newest": "2026-11-18 16:43:08",
+ "rows": 128721,
+ "newest": "2026-11-18 17:14:00",
  "cutoff_hour": 4,
  "days": [
   {
@@ -2438,11 +2438,11 @@
   },
   {
    "day": "2026-11-18",
-   "rows": 2674,
+   "rows": 2842,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-18/53rd-street-express.csv",
-     "rows": 354,
+     "rows": 370,
      "route_id": "4346"
     },
     "Apostolic": {
@@ -2452,17 +2452,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-18/apostolic-drexel.csv",
-     "rows": 352,
+     "rows": 390,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-11-18/central.csv",
-     "rows": 22,
+     "rows": 34,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-18/downtown-campus-connector.csv",
-     "rows": 403,
+     "rows": 421,
      "route_id": "5704"
     },
     "Drexel": {
@@ -2472,32 +2472,32 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-18/east.csv",
-     "rows": 20,
+     "rows": 23,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-18/friend-center-metra.csv",
-     "rows": 284,
+     "rows": 295,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-18/midway-metra.csv",
-     "rows": 365,
+     "rows": 402,
      "route_id": "5703"
     },
     "North": {
      "file": "data/arrivals/2026-11-18/north.csv",
-     "rows": 11,
+     "rows": 18,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-18/red-line-arts-block.csv",
-     "rows": 405,
+     "rows": 423,
      "route_id": "5699"
     },
     "South": {
      "file": "data/arrivals/2026-11-18/south.csv",
-     "rows": 21,
+     "rows": 29,
      "route_id": "1076"
     }
    }
