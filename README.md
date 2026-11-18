@@ -41,24 +41,24 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-18 11:39 UTC · 125,188 arrivals · 42 service days · newest arrival 2026-11-18 05:25:35 (Chicago time)_
+_Last sync: 2026-11-18 12:05 UTC · 125,910 arrivals · 42 service days · newest arrival 2026-11-18 05:25:35 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
 | 2026-11-18 | 31 | 2 | [data/arrivals/2026-11-18/](data/arrivals/2026-11-18) |
-| 2026-11-17 | 4,272 | 13 | [data/arrivals/2026-11-17/](data/arrivals/2026-11-17) |
-| 2026-11-16 | 3,963 | 13 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
-| 2026-11-15 | 715 | 4 | [data/arrivals/2026-11-15/](data/arrivals/2026-11-15) |
-| 2026-11-14 | 926 | 5 | [data/arrivals/2026-11-14/](data/arrivals/2026-11-14) |
-| 2026-11-13 | 3,644 | 13 | [data/arrivals/2026-11-13/](data/arrivals/2026-11-13) |
-| 2026-11-12 | 4,362 | 13 | [data/arrivals/2026-11-12/](data/arrivals/2026-11-12) |
-| 2026-11-11 | 4,286 | 13 | [data/arrivals/2026-11-11/](data/arrivals/2026-11-11) |
-| 2026-11-10 | 3,897 | 13 | [data/arrivals/2026-11-10/](data/arrivals/2026-11-10) |
-| 2026-11-09 | 3,949 | 13 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
-| 2026-11-08 | 1,017 | 4 | [data/arrivals/2026-11-08/](data/arrivals/2026-11-08) |
-| 2026-11-07 | 756 | 5 | [data/arrivals/2026-11-07/](data/arrivals/2026-11-07) |
-| 2026-11-06 | 3,987 | 14 | [data/arrivals/2026-11-06/](data/arrivals/2026-11-06) |
-| 2026-11-05 | 3,656 | 13 | [data/arrivals/2026-11-05/](data/arrivals/2026-11-05) |
+| 2026-11-17 | 4,286 | 13 | [data/arrivals/2026-11-17/](data/arrivals/2026-11-17) |
+| 2026-11-16 | 3,985 | 13 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
+| 2026-11-15 | 728 | 4 | [data/arrivals/2026-11-15/](data/arrivals/2026-11-15) |
+| 2026-11-14 | 939 | 5 | [data/arrivals/2026-11-14/](data/arrivals/2026-11-14) |
+| 2026-11-13 | 3,656 | 13 | [data/arrivals/2026-11-13/](data/arrivals/2026-11-13) |
+| 2026-11-12 | 4,390 | 13 | [data/arrivals/2026-11-12/](data/arrivals/2026-11-12) |
+| 2026-11-11 | 4,312 | 13 | [data/arrivals/2026-11-11/](data/arrivals/2026-11-11) |
+| 2026-11-10 | 3,917 | 13 | [data/arrivals/2026-11-10/](data/arrivals/2026-11-10) |
+| 2026-11-09 | 3,971 | 13 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
+| 2026-11-08 | 1,033 | 4 | [data/arrivals/2026-11-08/](data/arrivals/2026-11-08) |
+| 2026-11-07 | 768 | 5 | [data/arrivals/2026-11-07/](data/arrivals/2026-11-07) |
+| 2026-11-06 | 4,010 | 14 | [data/arrivals/2026-11-06/](data/arrivals/2026-11-06) |
+| 2026-11-05 | 3,676 | 13 | [data/arrivals/2026-11-05/](data/arrivals/2026-11-05) |
 
 Routes on 2026-11-18:
 

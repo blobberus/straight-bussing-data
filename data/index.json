@@ -1,7 +1,7 @@
 {
- "synced": "2026-11-18 11:39",
+ "synced": "2026-11-18 12:05",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 125188,
+ "rows": 125910,
  "newest": "2026-11-18 05:25:35",
  "cutoff_hour": 4,
  "days": [
@@ -154,7 +154,7 @@
   },
   {
    "day": "2026-10-10",
-   "rows": 1022,
+   "rows": 1040,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-10/central.csv",
@@ -163,7 +163,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-10/east.csv",
-     "rows": 326,
+     "rows": 328,
      "route_id": "1077"
     },
     "North": {
@@ -173,19 +173,19 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-10/south.csv",
-     "rows": 208,
+     "rows": 223,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-10-10/south-loop-shuttle.csv",
-     "rows": 31,
+     "rows": 32,
      "route_id": "5716"
     }
    }
   },
   {
    "day": "2026-10-11",
-   "rows": 784,
+   "rows": 800,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-11/central.csv",
@@ -204,14 +204,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-11/south.csv",
-     "rows": 208,
+     "rows": 224,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-12",
-   "rows": 4000,
+   "rows": 4025,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-12/53rd-street-express.csv",
@@ -220,7 +220,7 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-12/apostolic.csv",
-     "rows": 225,
+     "rows": 226,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
@@ -235,7 +235,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-12/downtown-campus-connector.csv",
-     "rows": 455,
+     "rows": 457,
      "route_id": "5704"
     },
     "Drexel": {
@@ -250,12 +250,12 @@
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-10-12/friend-center-metra.csv",
-     "rows": 384,
+     "rows": 386,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-12/midway-metra.csv",
-     "rows": 485,
+     "rows": 488,
      "route_id": "5703"
     },
     "North": {
@@ -270,19 +270,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-12/regents-express.csv",
-     "rows": 38,
+     "rows": 44,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-12/south.csv",
-     "rows": 148,
+     "rows": 159,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-13",
-   "rows": 3998,
+   "rows": 4021,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-13/53rd-street-express.csv",
@@ -291,12 +291,12 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-13/apostolic.csv",
-     "rows": 232,
+     "rows": 233,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-13/apostolic-drexel.csv",
-     "rows": 650,
+     "rows": 651,
      "route_id": "6126"
     },
     "Central": {
@@ -306,12 +306,12 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-13/downtown-campus-connector.csv",
-     "rows": 589,
+     "rows": 597,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-10-13/drexel.csv",
-     "rows": 199,
+     "rows": 200,
      "route_id": "5701"
     },
     "East": {
@@ -326,7 +326,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-13/midway-metra.csv",
-     "rows": 382,
+     "rows": 384,
      "route_id": "5703"
     },
     "North": {
@@ -341,19 +341,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-13/regents-express.csv",
-     "rows": 22,
+     "rows": 24,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-13/south.csv",
-     "rows": 87,
+     "rows": 95,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-14",
-   "rows": 3995,
+   "rows": 4017,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-14/53rd-street-express.csv",
@@ -377,7 +377,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-14/downtown-campus-connector.csv",
-     "rows": 568,
+     "rows": 570,
      "route_id": "5704"
     },
     "Drexel": {
@@ -397,7 +397,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-14/midway-metra.csv",
-     "rows": 366,
+     "rows": 367,
      "route_id": "5703"
     },
     "North": {
@@ -412,19 +412,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-14/regents-express.csv",
-     "rows": 32,
+     "rows": 36,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-14/south.csv",
-     "rows": 193,
+     "rows": 208,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-15",
-   "rows": 3805,
+   "rows": 3822,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-15/53rd-street-express.csv",
@@ -438,27 +438,27 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-15/apostolic-drexel.csv",
-     "rows": 414,
+     "rows": 415,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-10-15/central.csv",
-     "rows": 239,
+     "rows": 240,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-15/downtown-campus-connector.csv",
-     "rows": 444,
+     "rows": 445,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-10-15/drexel.csv",
-     "rows": 156,
+     "rows": 158,
      "route_id": "5701"
     },
     "East": {
      "file": "data/arrivals/2026-10-15/east.csv",
-     "rows": 251,
+     "rows": 252,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -468,7 +468,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-15/midway-metra.csv",
-     "rows": 456,
+     "rows": 457,
      "route_id": "5703"
     },
     "North": {
@@ -483,19 +483,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-15/regents-express.csv",
-     "rows": 43,
+     "rows": 49,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-15/south.csv",
-     "rows": 178,
+     "rows": 182,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-16",
-   "rows": 3994,
+   "rows": 4009,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-16/53rd-street-express.csv",
@@ -509,7 +509,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-16/apostolic-drexel.csv",
-     "rows": 573,
+     "rows": 575,
      "route_id": "6126"
     },
     "Central": {
@@ -519,7 +519,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-16/downtown-campus-connector.csv",
-     "rows": 595,
+     "rows": 596,
      "route_id": "5704"
     },
     "Drexel": {
@@ -529,7 +529,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-16/east.csv",
-     "rows": 137,
+     "rows": 139,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -554,12 +554,12 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-16/regents-express.csv",
-     "rows": 34,
+     "rows": 39,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-16/south.csv",
-     "rows": 172,
+     "rows": 177,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
@@ -571,7 +571,7 @@
   },
   {
    "day": "2026-10-17",
-   "rows": 1027,
+   "rows": 1048,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-17/central.csv",
@@ -580,7 +580,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-17/east.csv",
-     "rows": 315,
+     "rows": 320,
      "route_id": "1077"
     },
     "North": {
@@ -590,7 +590,7 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-17/south.csv",
-     "rows": 196,
+     "rows": 212,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
@@ -602,7 +602,7 @@
   },
   {
    "day": "2026-10-18",
-   "rows": 729,
+   "rows": 744,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-18/central.csv",
@@ -621,14 +621,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-18/south.csv",
-     "rows": 209,
+     "rows": 224,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-19",
-   "rows": 4070,
+   "rows": 4092,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-19/53rd-street-express.csv",
@@ -637,7 +637,7 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-19/apostolic.csv",
-     "rows": 225,
+     "rows": 227,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
@@ -647,7 +647,7 @@
     },
     "Central": {
      "file": "data/arrivals/2026-10-19/central.csv",
-     "rows": 211,
+     "rows": 212,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
@@ -672,7 +672,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-19/midway-metra.csv",
-     "rows": 461,
+     "rows": 466,
      "route_id": "5703"
     },
     "North": {
@@ -687,19 +687,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-19/regents-express.csv",
-     "rows": 40,
+     "rows": 42,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-19/south.csv",
-     "rows": 150,
+     "rows": 162,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-20",
-   "rows": 3704,
+   "rows": 3715,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-20/53rd-street-express.csv",
@@ -713,7 +713,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-20/apostolic-drexel.csv",
-     "rows": 523,
+     "rows": 525,
      "route_id": "6126"
     },
     "Central": {
@@ -723,12 +723,12 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-20/downtown-campus-connector.csv",
-     "rows": 417,
+     "rows": 418,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-10-20/drexel.csv",
-     "rows": 202,
+     "rows": 203,
      "route_id": "5701"
     },
     "East": {
@@ -743,7 +743,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-20/midway-metra.csv",
-     "rows": 434,
+     "rows": 435,
      "route_id": "5703"
     },
     "North": {
@@ -763,14 +763,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-20/south.csv",
-     "rows": 79,
+     "rows": 85,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-21",
-   "rows": 4124,
+   "rows": 4154,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-21/53rd-street-express.csv",
@@ -784,7 +784,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-21/apostolic-drexel.csv",
-     "rows": 612,
+     "rows": 614,
      "route_id": "6126"
     },
     "Central": {
@@ -794,7 +794,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-21/downtown-campus-connector.csv",
-     "rows": 488,
+     "rows": 491,
      "route_id": "5704"
     },
     "Drexel": {
@@ -804,17 +804,17 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-21/east.csv",
-     "rows": 187,
+     "rows": 193,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-10-21/friend-center-metra.csv",
-     "rows": 315,
+     "rows": 316,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-21/midway-metra.csv",
-     "rows": 456,
+     "rows": 458,
      "route_id": "5703"
     },
     "North": {
@@ -829,19 +829,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-21/regents-express.csv",
-     "rows": 40,
+     "rows": 47,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-21/south.csv",
-     "rows": 205,
+     "rows": 214,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-22",
-   "rows": 3757,
+   "rows": 3768,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-22/53rd-street-express.csv",
@@ -865,12 +865,12 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-22/downtown-campus-connector.csv",
-     "rows": 475,
+     "rows": 476,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-10-22/drexel.csv",
-     "rows": 162,
+     "rows": 163,
      "route_id": "5701"
     },
     "East": {
@@ -885,7 +885,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-22/midway-metra.csv",
-     "rows": 432,
+     "rows": 434,
      "route_id": "5703"
     },
     "North": {
@@ -900,19 +900,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-22/regents-express.csv",
-     "rows": 31,
+     "rows": 35,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-22/south.csv",
-     "rows": 151,
+     "rows": 154,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-23",
-   "rows": 3944,
+   "rows": 3973,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-23/53rd-street-express.csv",
@@ -921,12 +921,12 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-23/apostolic.csv",
-     "rows": 242,
+     "rows": 243,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-23/apostolic-drexel.csv",
-     "rows": 567,
+     "rows": 568,
      "route_id": "6126"
     },
     "Central": {
@@ -936,12 +936,12 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-23/downtown-campus-connector.csv",
-     "rows": 510,
+     "rows": 515,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-10-23/drexel.csv",
-     "rows": 178,
+     "rows": 181,
      "route_id": "5701"
     },
     "East": {
@@ -966,29 +966,29 @@
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-10-23/red-line-arts-block.csv",
-     "rows": 607,
+     "rows": 608,
      "route_id": "5699"
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-23/regents-express.csv",
-     "rows": 33,
+     "rows": 37,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-23/south.csv",
-     "rows": 170,
+     "rows": 183,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-10-23/south-loop-shuttle.csv",
-     "rows": 29,
+     "rows": 30,
      "route_id": "5716"
     }
    }
   },
   {
    "day": "2026-10-24",
-   "rows": 1065,
+   "rows": 1084,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-24/central.csv",
@@ -997,7 +997,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-24/east.csv",
-     "rows": 295,
+     "rows": 298,
      "route_id": "1077"
     },
     "North": {
@@ -1012,19 +1012,19 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-24/south.csv",
-     "rows": 209,
+     "rows": 224,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-10-24/south-loop-shuttle.csv",
-     "rows": 29,
+     "rows": 30,
      "route_id": "5716"
     }
    }
   },
   {
    "day": "2026-10-25",
-   "rows": 856,
+   "rows": 871,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-25/central.csv",
@@ -1033,7 +1033,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-25/east.csv",
-     "rows": 234,
+     "rows": 235,
      "route_id": "1077"
     },
     "North": {
@@ -1043,14 +1043,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-25/south.csv",
-     "rows": 188,
+     "rows": 202,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-26",
-   "rows": 3925,
+   "rows": 3952,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-26/53rd-street-express.csv",
@@ -1059,12 +1059,12 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-26/apostolic.csv",
-     "rows": 220,
+     "rows": 221,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-26/apostolic-drexel.csv",
-     "rows": 656,
+     "rows": 657,
      "route_id": "6126"
     },
     "Central": {
@@ -1074,7 +1074,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-26/downtown-campus-connector.csv",
-     "rows": 587,
+     "rows": 590,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1084,17 +1084,17 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-26/east.csv",
-     "rows": 185,
+     "rows": 186,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-10-26/friend-center-metra.csv",
-     "rows": 302,
+     "rows": 303,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-26/midway-metra.csv",
-     "rows": 380,
+     "rows": 382,
      "route_id": "5703"
     },
     "North": {
@@ -1109,19 +1109,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-26/regents-express.csv",
-     "rows": 40,
+     "rows": 47,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-26/south.csv",
-     "rows": 132,
+     "rows": 143,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-27",
-   "rows": 4151,
+   "rows": 4166,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-27/53rd-street-express.csv",
@@ -1135,7 +1135,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-27/apostolic-drexel.csv",
-     "rows": 710,
+     "rows": 711,
      "route_id": "6126"
     },
     "Central": {
@@ -1145,7 +1145,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-27/downtown-campus-connector.csv",
-     "rows": 499,
+     "rows": 502,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1160,12 +1160,12 @@
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-10-27/friend-center-metra.csv",
-     "rows": 311,
+     "rows": 312,
      "route_id": "5700"
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-10-27/midway-metra.csv",
-     "rows": 456,
+     "rows": 457,
      "route_id": "5703"
     },
     "North": {
@@ -1175,38 +1175,38 @@
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-10-27/red-line-arts-block.csv",
-     "rows": 580,
+     "rows": 581,
      "route_id": "5699"
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-27/regents-express.csv",
-     "rows": 30,
+     "rows": 34,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-27/south.csv",
-     "rows": 179,
+     "rows": 183,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-28",
-   "rows": 3728,
+   "rows": 3748,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-28/53rd-street-express.csv",
-     "rows": 404,
+     "rows": 405,
      "route_id": "4346"
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-28/apostolic.csv",
-     "rows": 280,
+     "rows": 283,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-28/apostolic-drexel.csv",
-     "rows": 499,
+     "rows": 500,
      "route_id": "6126"
     },
     "Central": {
@@ -1216,7 +1216,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-28/downtown-campus-connector.csv",
-     "rows": 508,
+     "rows": 511,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1226,7 +1226,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-28/east.csv",
-     "rows": 145,
+     "rows": 148,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1251,19 +1251,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-28/regents-express.csv",
-     "rows": 21,
+     "rows": 23,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-28/south.csv",
-     "rows": 97,
+     "rows": 104,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-29",
-   "rows": 4168,
+   "rows": 4187,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-29/53rd-street-express.csv",
@@ -1277,7 +1277,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-29/apostolic-drexel.csv",
-     "rows": 572,
+     "rows": 573,
      "route_id": "6126"
     },
     "Central": {
@@ -1287,7 +1287,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-29/downtown-campus-connector.csv",
-     "rows": 451,
+     "rows": 453,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1297,7 +1297,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-10-29/east.csv",
-     "rows": 222,
+     "rows": 223,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1322,53 +1322,53 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-29/regents-express.csv",
-     "rows": 20,
+     "rows": 22,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-29/south.csv",
-     "rows": 187,
+     "rows": 200,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-10-30",
-   "rows": 4203,
+   "rows": 4236,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-10-30/53rd-street-express.csv",
-     "rows": 422,
+     "rows": 423,
      "route_id": "4346"
     },
     "Apostolic": {
      "file": "data/arrivals/2026-10-30/apostolic.csv",
-     "rows": 308,
+     "rows": 310,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-10-30/apostolic-drexel.csv",
-     "rows": 661,
+     "rows": 662,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-10-30/central.csv",
-     "rows": 132,
+     "rows": 134,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-10-30/downtown-campus-connector.csv",
-     "rows": 541,
+     "rows": 543,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-10-30/drexel.csv",
-     "rows": 154,
+     "rows": 156,
      "route_id": "5701"
     },
     "East": {
      "file": "data/arrivals/2026-10-30/east.csv",
-     "rows": 139,
+     "rows": 140,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1393,12 +1393,12 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-10-30/regents-express.csv",
-     "rows": 41,
+     "rows": 47,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-10-30/south.csv",
-     "rows": 234,
+     "rows": 250,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
@@ -1410,7 +1410,7 @@
   },
   {
    "day": "2026-10-31",
-   "rows": 929,
+   "rows": 932,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-10-31/central.csv",
@@ -1429,7 +1429,7 @@
     },
     "South": {
      "file": "data/arrivals/2026-10-31/south.csv",
-     "rows": 201,
+     "rows": 204,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
@@ -1441,7 +1441,7 @@
   },
   {
    "day": "2026-11-01",
-   "rows": 776,
+   "rows": 782,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-11-01/central.csv",
@@ -1460,14 +1460,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-11-01/south.csv",
-     "rows": 177,
+     "rows": 183,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-02",
-   "rows": 3931,
+   "rows": 3944,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-02/53rd-street-express.csv",
@@ -1491,7 +1491,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-02/downtown-campus-connector.csv",
-     "rows": 398,
+     "rows": 399,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1501,7 +1501,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-02/east.csv",
-     "rows": 178,
+     "rows": 181,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1526,19 +1526,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-02/regents-express.csv",
-     "rows": 9,
+     "rows": 11,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-02/south.csv",
-     "rows": 112,
+     "rows": 119,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-03",
-   "rows": 4148,
+   "rows": 4161,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-03/53rd-street-express.csv",
@@ -1547,7 +1547,7 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-11-03/apostolic.csv",
-     "rows": 270,
+     "rows": 271,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
@@ -1562,7 +1562,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-03/downtown-campus-connector.csv",
-     "rows": 476,
+     "rows": 481,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1597,19 +1597,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-03/regents-express.csv",
-     "rows": 42,
+     "rows": 48,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-03/south.csv",
-     "rows": 175,
+     "rows": 176,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-04",
-   "rows": 4080,
+   "rows": 4103,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-04/53rd-street-express.csv",
@@ -1618,7 +1618,7 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-11-04/apostolic.csv",
-     "rows": 246,
+     "rows": 247,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
@@ -1628,12 +1628,12 @@
     },
     "Central": {
      "file": "data/arrivals/2026-11-04/central.csv",
-     "rows": 287,
+     "rows": 288,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-04/downtown-campus-connector.csv",
-     "rows": 472,
+     "rows": 473,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1643,7 +1643,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-04/east.csv",
-     "rows": 132,
+     "rows": 134,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1668,19 +1668,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-04/regents-express.csv",
-     "rows": 39,
+     "rows": 44,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-04/south.csv",
-     "rows": 169,
+     "rows": 182,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-05",
-   "rows": 3656,
+   "rows": 3676,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-05/53rd-street-express.csv",
@@ -1694,7 +1694,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-05/apostolic-drexel.csv",
-     "rows": 555,
+     "rows": 556,
      "route_id": "6126"
     },
     "Central": {
@@ -1704,7 +1704,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-05/downtown-campus-connector.csv",
-     "rows": 461,
+     "rows": 463,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1714,7 +1714,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-05/east.csv",
-     "rows": 181,
+     "rows": 188,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -1724,7 +1724,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-05/midway-metra.csv",
-     "rows": 369,
+     "rows": 370,
      "route_id": "5703"
     },
     "North": {
@@ -1734,24 +1734,24 @@
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-05/red-line-arts-block.csv",
-     "rows": 507,
+     "rows": 508,
      "route_id": "5699"
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-05/regents-express.csv",
-     "rows": 42,
+     "rows": 43,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-05/south.csv",
-     "rows": 190,
+     "rows": 197,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-06",
-   "rows": 3987,
+   "rows": 4010,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-06/53rd-street-express.csv",
@@ -1775,7 +1775,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-06/downtown-campus-connector.csv",
-     "rows": 460,
+     "rows": 462,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1785,12 +1785,12 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-06/east.csv",
-     "rows": 154,
+     "rows": 155,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
      "file": "data/arrivals/2026-11-06/friend-center-metra.csv",
-     "rows": 377,
+     "rows": 378,
      "route_id": "5700"
     },
     "Midway Metra": {
@@ -1810,24 +1810,24 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-06/regents-express.csv",
-     "rows": 40,
+     "rows": 45,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-06/south.csv",
-     "rows": 174,
+     "rows": 187,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-11-06/south-loop-shuttle.csv",
-     "rows": 25,
+     "rows": 26,
      "route_id": "5716"
     }
    }
   },
   {
    "day": "2026-11-07",
-   "rows": 756,
+   "rows": 768,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-11-07/central.csv",
@@ -1846,7 +1846,7 @@
     },
     "South": {
      "file": "data/arrivals/2026-11-07/south.csv",
-     "rows": 183,
+     "rows": 195,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
@@ -1858,7 +1858,7 @@
   },
   {
    "day": "2026-11-08",
-   "rows": 1017,
+   "rows": 1033,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-11-08/central.csv",
@@ -1877,14 +1877,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-11-08/south.csv",
-     "rows": 208,
+     "rows": 224,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-09",
-   "rows": 3949,
+   "rows": 3971,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-09/53rd-street-express.csv",
@@ -1893,12 +1893,12 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-11-09/apostolic.csv",
-     "rows": 149,
+     "rows": 150,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-09/apostolic-drexel.csv",
-     "rows": 763,
+     "rows": 764,
      "route_id": "6126"
     },
     "Central": {
@@ -1908,7 +1908,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-09/downtown-campus-connector.csv",
-     "rows": 543,
+     "rows": 551,
      "route_id": "5704"
     },
     "Drexel": {
@@ -1943,19 +1943,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-09/regents-express.csv",
-     "rows": 49,
+     "rows": 56,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-09/south.csv",
-     "rows": 174,
+     "rows": 179,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-10",
-   "rows": 3897,
+   "rows": 3917,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-10/53rd-street-express.csv",
@@ -1969,7 +1969,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-10/apostolic-drexel.csv",
-     "rows": 655,
+     "rows": 657,
      "route_id": "6126"
     },
     "Central": {
@@ -1979,7 +1979,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-10/downtown-campus-connector.csv",
-     "rows": 517,
+     "rows": 521,
      "route_id": "5704"
     },
     "Drexel": {
@@ -2009,24 +2009,24 @@
     },
     "Red Line/Arts Block": {
      "file": "data/arrivals/2026-11-10/red-line-arts-block.csv",
-     "rows": 605,
+     "rows": 606,
      "route_id": "5699"
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-10/regents-express.csv",
-     "rows": 47,
+     "rows": 53,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-10/south.csv",
-     "rows": 138,
+     "rows": 145,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-11",
-   "rows": 4286,
+   "rows": 4312,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-11/53rd-street-express.csv",
@@ -2035,12 +2035,12 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-11-11/apostolic.csv",
-     "rows": 243,
+     "rows": 244,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-11/apostolic-drexel.csv",
-     "rows": 804,
+     "rows": 806,
      "route_id": "6126"
     },
     "Central": {
@@ -2050,7 +2050,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-11/downtown-campus-connector.csv",
-     "rows": 571,
+     "rows": 574,
      "route_id": "5704"
     },
     "Drexel": {
@@ -2085,19 +2085,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-11/regents-express.csv",
-     "rows": 48,
+     "rows": 54,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-11/south.csv",
-     "rows": 202,
+     "rows": 216,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-12",
-   "rows": 4362,
+   "rows": 4390,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-12/53rd-street-express.csv",
@@ -2111,7 +2111,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-12/apostolic-drexel.csv",
-     "rows": 869,
+     "rows": 871,
      "route_id": "6126"
     },
     "Central": {
@@ -2121,7 +2121,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-12/downtown-campus-connector.csv",
-     "rows": 570,
+     "rows": 579,
      "route_id": "5704"
     },
     "Drexel": {
@@ -2141,7 +2141,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-12/midway-metra.csv",
-     "rows": 455,
+     "rows": 456,
      "route_id": "5703"
     },
     "North": {
@@ -2156,19 +2156,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-12/regents-express.csv",
-     "rows": 47,
+     "rows": 52,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-12/south.csv",
-     "rows": 196,
+     "rows": 207,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-13",
-   "rows": 3644,
+   "rows": 3656,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-13/53rd-street-express.csv",
@@ -2177,12 +2177,12 @@
     },
     "Apostolic": {
      "file": "data/arrivals/2026-11-13/apostolic.csv",
-     "rows": 250,
+     "rows": 251,
      "route_id": "5702"
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-13/apostolic-drexel.csv",
-     "rows": 472,
+     "rows": 473,
      "route_id": "6126"
     },
     "Central": {
@@ -2192,17 +2192,17 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-13/downtown-campus-connector.csv",
-     "rows": 595,
+     "rows": 599,
      "route_id": "5704"
     },
     "Drexel": {
      "file": "data/arrivals/2026-11-13/drexel.csv",
-     "rows": 163,
+     "rows": 164,
      "route_id": "5701"
     },
     "East": {
      "file": "data/arrivals/2026-11-13/east.csv",
-     "rows": 151,
+     "rows": 152,
      "route_id": "1077"
     },
     "Friend Center/Metra": {
@@ -2212,7 +2212,7 @@
     },
     "Midway Metra": {
      "file": "data/arrivals/2026-11-13/midway-metra.csv",
-     "rows": 405,
+     "rows": 407,
      "route_id": "5703"
     },
     "North": {
@@ -2227,7 +2227,7 @@
     },
     "South": {
      "file": "data/arrivals/2026-11-13/south.csv",
-     "rows": 26,
+     "rows": 28,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
@@ -2239,7 +2239,7 @@
   },
   {
    "day": "2026-11-14",
-   "rows": 926,
+   "rows": 939,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-11-14/central.csv",
@@ -2248,7 +2248,7 @@
     },
     "East": {
      "file": "data/arrivals/2026-11-14/east.csv",
-     "rows": 318,
+     "rows": 323,
      "route_id": "1077"
     },
     "North": {
@@ -2258,19 +2258,19 @@
     },
     "South": {
      "file": "data/arrivals/2026-11-14/south.csv",
-     "rows": 199,
+     "rows": 206,
      "route_id": "1076"
     },
     "South Loop Shuttle": {
      "file": "data/arrivals/2026-11-14/south-loop-shuttle.csv",
-     "rows": 29,
+     "rows": 30,
      "route_id": "5716"
     }
    }
   },
   {
    "day": "2026-11-15",
-   "rows": 715,
+   "rows": 728,
    "routes": {
     "Central": {
      "file": "data/arrivals/2026-11-15/central.csv",
@@ -2289,14 +2289,14 @@
     },
     "South": {
      "file": "data/arrivals/2026-11-15/south.csv",
-     "rows": 186,
+     "rows": 199,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-16",
-   "rows": 3963,
+   "rows": 3985,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-16/53rd-street-express.csv",
@@ -2310,7 +2310,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-16/apostolic-drexel.csv",
-     "rows": 626,
+     "rows": 627,
      "route_id": "6126"
     },
     "Central": {
@@ -2320,7 +2320,7 @@
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-16/downtown-campus-connector.csv",
-     "rows": 518,
+     "rows": 522,
      "route_id": "5704"
     },
     "Drexel": {
@@ -2355,19 +2355,19 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-16/regents-express.csv",
-     "rows": 43,
+     "rows": 46,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-16/south.csv",
-     "rows": 162,
+     "rows": 176,
      "route_id": "1076"
     }
    }
   },
   {
    "day": "2026-11-17",
-   "rows": 4272,
+   "rows": 4286,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-17/53rd-street-express.csv",
@@ -2381,17 +2381,17 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-17/apostolic-drexel.csv",
-     "rows": 685,
+     "rows": 687,
      "route_id": "6126"
     },
     "Central": {
      "file": "data/arrivals/2026-11-17/central.csv",
-     "rows": 310,
+     "rows": 311,
      "route_id": "1078"
     },
     "Downtown Campus Connector": {
      "file": "data/arrivals/2026-11-17/downtown-campus-connector.csv",
-     "rows": 569,
+     "rows": 570,
      "route_id": "5704"
     },
     "Drexel": {
@@ -2416,7 +2416,7 @@
     },
     "North": {
      "file": "data/arrivals/2026-11-17/north.csv",
-     "rows": 99,
+     "rows": 100,
      "route_id": "1075"
     },
     "Red Line/Arts Block": {
@@ -2426,12 +2426,12 @@
     },
     "Regents Express": {
      "file": "data/arrivals/2026-11-17/regents-express.csv",
-     "rows": 46,
+     "rows": 54,
      "route_id": "5715"
     },
     "South": {
      "file": "data/arrivals/2026-11-17/south.csv",
-     "rows": 27,
+     "rows": 28,
      "route_id": "1076"
     }
    }
