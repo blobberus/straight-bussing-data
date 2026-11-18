@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795039293,2026-11-18T22:01:33Z,2026-11-18 16:01:33,2,16,961,1078,Central,501716,4319,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,1,,,,,,,,,transition
