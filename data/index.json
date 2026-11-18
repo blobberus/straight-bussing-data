@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-18 06:59",
+ "synced": "2026-11-18 11:39",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 125157,
- "newest": "2026-11-18 00:07:00",
+ "rows": 125188,
+ "newest": "2026-11-18 05:25:35",
  "cutoff_hour": 4,
  "days": [
   {
@@ -2433,6 +2433,22 @@
      "file": "data/arrivals/2026-11-17/south.csv",
      "rows": 27,
      "route_id": "1076"
+    }
+   }
+  },
+  {
+   "day": "2026-11-18",
+   "rows": 31,
+   "routes": {
+    "Drexel": {
+     "file": "data/arrivals/2026-11-18/drexel.csv",
+     "rows": 19,
+     "route_id": "5701"
+    },
+    "Friend Center/Metra": {
+     "file": "data/arrivals/2026-11-18/friend-center-metra.csv",
+     "rows": 12,
+     "route_id": "5700"
     }
    }
   }
