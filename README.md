@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-18 06:33 UTC · 125,156 arrivals · 41 service days · newest arrival 2026-11-18 00:03:20 (Chicago time)_
+_Last sync: 2026-11-18 06:59 UTC · 125,157 arrivals · 41 service days · newest arrival 2026-11-18 00:07:00 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-17 | 4,271 | 13 | [data/arrivals/2026-11-17/](data/arrivals/2026-11-17) |
+| 2026-11-17 | 4,272 | 13 | [data/arrivals/2026-11-17/](data/arrivals/2026-11-17) |
 | 2026-11-16 | 3,963 | 13 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
 | 2026-11-15 | 715 | 4 | [data/arrivals/2026-11-15/](data/arrivals/2026-11-15) |
 | 2026-11-14 | 926 | 5 | [data/arrivals/2026-11-14/](data/arrivals/2026-11-14) |
@@ -64,7 +64,7 @@ Routes on 2026-11-17:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic/Drexel | 684 | [apostolic-drexel.csv](data/arrivals/2026-11-17/apostolic-drexel.csv) |
+| Apostolic/Drexel | 685 | [apostolic-drexel.csv](data/arrivals/2026-11-17/apostolic-drexel.csv) |
 | Downtown Campus Connector | 569 | [downtown-campus-connector.csv](data/arrivals/2026-11-17/downtown-campus-connector.csv) |
 | Red Line/Arts Block | 546 | [red-line-arts-block.csv](data/arrivals/2026-11-17/red-line-arts-block.csv) |
 | Midway Metra | 479 | [midway-metra.csv](data/arrivals/2026-11-17/midway-metra.csv) |
