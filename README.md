@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-19 15:08 UTC · 131,373 arrivals · 43 service days · newest arrival 2026-11-19 09:06:01 (Chicago time)_
+_Last sync: 2026-11-19 15:59 UTC · 131,588 arrivals · 43 service days · newest arrival 2026-11-19 09:46:03 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-19 | 1,025 | 8 | [data/arrivals/2026-11-19/](data/arrivals/2026-11-19) |
+| 2026-11-19 | 1,240 | 8 | [data/arrivals/2026-11-19/](data/arrivals/2026-11-19) |
 | 2026-11-18 | 4,469 | 13 | [data/arrivals/2026-11-18/](data/arrivals/2026-11-18) |
 | 2026-11-17 | 4,286 | 13 | [data/arrivals/2026-11-17/](data/arrivals/2026-11-17) |
 | 2026-11-16 | 3,985 | 13 | [data/arrivals/2026-11-16/](data/arrivals/2026-11-16) |
@@ -64,12 +64,12 @@ Routes on 2026-11-19:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic | 237 | [apostolic.csv](data/arrivals/2026-11-19/apostolic.csv) |
-| Midway Metra | 219 | [midway-metra.csv](data/arrivals/2026-11-19/midway-metra.csv) |
-| Red Line/Arts Block | 135 | [red-line-arts-block.csv](data/arrivals/2026-11-19/red-line-arts-block.csv) |
-| Drexel | 117 | [drexel.csv](data/arrivals/2026-11-19/drexel.csv) |
-| Downtown Campus Connector | 107 | [downtown-campus-connector.csv](data/arrivals/2026-11-19/downtown-campus-connector.csv) |
-| 53rd Street Express | 104 | [53rd-street-express.csv](data/arrivals/2026-11-19/53rd-street-express.csv) |
-| Friend Center/Metra | 103 | [friend-center-metra.csv](data/arrivals/2026-11-19/friend-center-metra.csv) |
+| Apostolic | 277 | [apostolic.csv](data/arrivals/2026-11-19/apostolic.csv) |
+| Midway Metra | 248 | [midway-metra.csv](data/arrivals/2026-11-19/midway-metra.csv) |
+| Red Line/Arts Block | 174 | [red-line-arts-block.csv](data/arrivals/2026-11-19/red-line-arts-block.csv) |
+| 53rd Street Express | 145 | [53rd-street-express.csv](data/arrivals/2026-11-19/53rd-street-express.csv) |
+| Drexel | 144 | [drexel.csv](data/arrivals/2026-11-19/drexel.csv) |
+| Downtown Campus Connector | 133 | [downtown-campus-connector.csv](data/arrivals/2026-11-19/downtown-campus-connector.csv) |
+| Friend Center/Metra | 116 | [friend-center-metra.csv](data/arrivals/2026-11-19/friend-center-metra.csv) |
 | South | 3 | [south.csv](data/arrivals/2026-11-19/south.csv) |
 <!-- SYNC:END -->
