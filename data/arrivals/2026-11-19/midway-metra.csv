@@ -1,0 +1,7 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795088553,2026-11-19T11:42:33Z,2026-11-19 05:42:33,3,5,342,5703,Midway Metra,501528,4315,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,0,,,,,,0,,,transition
+1795088674,2026-11-19T11:44:34Z,2026-11-19 05:44:34,3,5,344,5703,Midway Metra,501528,4315,8658,59th St & Metra,East 59th Street,41.78792,-87.5888,1,141882,538.8,1795088553,121,4.45,0,,,transition
+1795088750,2026-11-19T11:45:50Z,2026-11-19 05:45:50,3,5,345,5703,Midway Metra,501528,4315,8607,59th St & Kimbark / Lab School,East 59th Street,41.78786,-87.59451,2,8658,474.0,1795088674,76,6.24,0,,,transition
+1795088825,2026-11-19T11:47:05Z,2026-11-19 05:47:05,3,5,347,5703,Midway Metra,501528,4315,8654,59th & Ellis,East 59th Street,41.78778,-87.60105,3,8607,543.0,1795088750,75,7.24,0,1795088821,151,transition
+1795088862,2026-11-19T11:47:42Z,2026-11-19 05:47:42,3,5,347,5703,Midway Metra,501528,4315,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,4,8654,205.9,1795088825,37,5.56,0,1795088879,124,transition
+1795088924,2026-11-19T11:48:44Z,2026-11-19 05:48:44,3,5,348,5703,Midway Metra,501528,4315,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,5,8612,303.6,1795088862,62,4.9,8,1795088950,186,proximity
