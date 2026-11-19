@@ -1,0 +1,9 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795125595,2026-11-19T21:59:55Z,2026-11-19 15:59:55,3,15,959,1075,North,501582,4320,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,,,,,,0,,,transition
+1795125684,2026-11-19T22:01:24Z,2026-11-19 16:01:24,3,16,961,1075,North,501582,4320,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,8633,336.0,1795125595,89,3.77,0,,,transition
+1795125709,2026-11-19T22:01:49Z,2026-11-19 16:01:49,3,16,961,1075,North,501582,4320,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1795125684,25,5.3,0,,,transition
+1795125856,2026-11-19T22:04:16Z,2026-11-19 16:04:16,3,16,964,1075,North,501582,4320,140008,S. Drexel Ave & E 53rd St,5327 South Drexel Avenue,41.79853,-87.60374,4,8635,685.0,1795125709,147,4.66,0,,,transition
+1795126928,2026-11-19T22:22:08Z,2026-11-19 16:22:08,3,16,982,1075,North,501582,4320,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,5,140008,708.5,1795125856,1072,0.66,0,1795126966,139,transition
+1795126970,2026-11-19T22:22:50Z,2026-11-19 16:22:50,3,16,982,1075,North,501582,4320,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,140009,334.6,1795126928,42,7.97,0,1795126968,181,transition
+1795127180,2026-11-19T22:26:20Z,2026-11-19 16:26:20,3,16,986,1075,North,501582,4320,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,7,8637,1138.1,1795126970,210,5.42,,1795127010,201,transition
+1795127396,2026-11-19T22:29:56Z,2026-11-19 16:29:56,3,16,989,1075,North,501585,4320,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1795127180,216,0.62,0,,,transition
