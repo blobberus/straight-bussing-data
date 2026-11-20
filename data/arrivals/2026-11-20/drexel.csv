@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795172391,2026-11-20T10:59:51Z,2026-11-20 04:59:51,4,4,299,5701,Drexel,501392,4327,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,0,,,,,,34,1795172716,166,proximity
+1795172736,2026-11-20T11:05:36Z,2026-11-20 05:05:36,4,5,305,5701,Drexel,501392,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,1,8611,1165.2,1795172391,345,3.75,17,1795172661,186,proximity
+1795172819,2026-11-20T11:06:59Z,2026-11-20 05:06:59,4,5,306,5701,Drexel,501392,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,2,8612,207.8,1795172736,83,3.15,64,1795172682,206,proximity
+1795172908,2026-11-20T11:08:28Z,2026-11-20 05:08:28,4,5,308,5701,Drexel,501392,4327,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,3,8613,95.8,1795172819,89,3.83,0,1795172765,232,transition
+1795173267,2026-11-20T11:14:27Z,2026-11-20 05:14:27,4,5,314,5701,Drexel,501393,4327,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,2,,,,,,87,1795173786,212,pass
