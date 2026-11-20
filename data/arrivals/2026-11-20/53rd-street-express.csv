@@ -1,0 +1,9 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795179535,2026-11-20T12:58:55Z,2026-11-20 06:58:55,4,6,418,4346,53rd Street Express,681016,4326,8594,Press Building,South Blackstone Avenue,41.78604,-87.59018,12,,,,,,,,,gps
+1795179557,2026-11-20T12:59:17Z,2026-11-20 06:59:17,4,6,419,4346,53rd Street Express,681016,4326,8624,Stony Island Parking Lot,East 60th Street,41.78633,-87.58739,13,,,,,,0,,,transition
+1795179681,2026-11-20T13:01:21Z,2026-11-20 07:01:21,4,7,421,4346,53rd Street Express,681016,4326,8599,57th St. & Metra (NB),South Stony Island Avenue,41.79139,-87.58659,14,8624,622.1,1795179557,124,5.02,5,,,proximity
+1795179772,2026-11-20T13:02:52Z,2026-11-20 07:02:52,4,7,422,4346,53rd Street Express,681016,4326,8626,Lake Park & 55th St. (SE Corner),South Lake Park Avenue,41.79506,-87.58745,15,8599,545.3,1795179681,91,6.34,0,1795179745,173,transition
+1795179832,2026-11-20T13:03:52Z,2026-11-20 07:03:52,4,7,423,4346,53rd Street Express,681016,4326,8596,Harper Court (NE Corner),1522 East 53rd Street,41.79965,-87.588,16,8626,562.6,1795179772,60,9.38,14,1795179747,233,proximity
+1795179942,2026-11-20T13:05:42Z,2026-11-20 07:05:42,4,7,425,4346,53rd Street Express,680993,4326,8811,53rd St & Kenwood,East 53rd Street,41.79955,-87.59251,1,,,,,,5,,,proximity
+1795180001,2026-11-20T13:06:41Z,2026-11-20 07:06:41,4,7,426,4346,53rd Street Express,680993,4326,8628,Kimbark Plaza (NE Corner),South Woodlawn Avenue,41.79953,-87.5965,2,8811,331.4,1795179942,59,6.14,0,1795179976,154,transition
+1795180081,2026-11-20T13:08:01Z,2026-11-20 07:08:01,4,7,428,4346,53rd Street Express,680993,4326,8595,Ellis & 53rd St.,South Ellis Avenue,41.79912,-87.60138,3,8628,409.7,1795180001,80,5.12,0,1795180058,178,transition
