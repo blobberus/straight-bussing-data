@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-21 06:46 UTC · 138,960 arrivals · 44 service days · newest arrival 2026-11-21 00:23:31 (Chicago time)_
+_Last sync: 2026-11-21 07:37 UTC · 138,962 arrivals · 44 service days · newest arrival 2026-11-21 00:46:47 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-20 | 4,074 | 14 | [data/arrivals/2026-11-20/](data/arrivals/2026-11-20) |
+| 2026-11-20 | 4,076 | 14 | [data/arrivals/2026-11-20/](data/arrivals/2026-11-20) |
 | 2026-11-19 | 4,538 | 13 | [data/arrivals/2026-11-19/](data/arrivals/2026-11-19) |
 | 2026-11-18 | 4,469 | 13 | [data/arrivals/2026-11-18/](data/arrivals/2026-11-18) |
 | 2026-11-17 | 4,286 | 13 | [data/arrivals/2026-11-17/](data/arrivals/2026-11-17) |
@@ -76,6 +76,6 @@ Routes on 2026-11-20:
 | East | 144 | [east.csv](data/arrivals/2026-11-20/east.csv) |
 | Drexel | 101 | [drexel.csv](data/arrivals/2026-11-20/drexel.csv) |
 | North | 90 | [north.csv](data/arrivals/2026-11-20/north.csv) |
+| South Loop Shuttle | 29 | [south-loop-shuttle.csv](data/arrivals/2026-11-20/south-loop-shuttle.csv) |
 | Regents Express | 28 | [regents-express.csv](data/arrivals/2026-11-20/regents-express.csv) |
-| South Loop Shuttle | 27 | [south-loop-shuttle.csv](data/arrivals/2026-11-20/south-loop-shuttle.csv) |
 <!-- SYNC:END -->
