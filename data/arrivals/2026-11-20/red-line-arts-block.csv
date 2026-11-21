@@ -548,7 +548,10 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1795229148,2026-11-21T02:45:48Z,2026-11-20 20:45:48,4,20,1245,5699,Red Line/Arts Block,,4315,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,,,,gps
 1795229205,2026-11-21T02:46:45Z,2026-11-20 20:46:45,4,20,1246,5699,Red Line/Arts Block,690513,12648,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,161392,464.2,1795229133,72,6.45,0,1795229079,134,pass
 1795229397,2026-11-21T02:49:57Z,2026-11-20 20:49:57,4,20,1249,5699,Red Line/Arts Block,690513,12648,138836,Midway Plaisance & Cottage Grove,East Midway Plaisance,41.78635,-87.60624,10,67603,1590.1,1795229205,192,8.28,0,,,pass
+1795229767,2026-11-21T02:56:07Z,2026-11-20 20:56:07,4,20,1256,5699,Red Line/Arts Block,690481,4315,67601,Garfield Green Line Station,East Garfield Boulevard,41.79494,-87.61833,4,,,,,,0,,,pass
 1795229778,2026-11-21T02:56:18Z,2026-11-20 20:56:18,4,20,1256,5699,Red Line/Arts Block,690464,4328,67603,Washington Park Arts Incubator,East Garfield Boulevard,41.79439,-87.6182,9,,,,,,0,,,pass
-1795229876,2026-11-21T02:57:56Z,2026-11-20 20:57:56,4,20,1257,5699,Red Line/Arts Block,,4315,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,,,,,,,,,gps
+1795229876,2026-11-21T02:57:56Z,2026-11-20 20:57:56,4,20,1257,5699,Red Line/Arts Block,690481,4315,161393,Garfield & Wabash (WB),48 East Garfield Boulevard,41.79478,-87.62367,5,67601,473.1,1795229767,109,4.34,16,1795229698,175,pass
 1795230024,2026-11-21T03:00:24Z,2026-11-20 21:00:24,4,21,1260,5699,Red Line/Arts Block,690513,12648,8650,Ellis/57th,East 57th Street,41.79129,-87.60125,2,,,,,,,,,gps
 1795230078,2026-11-21T03:01:18Z,2026-11-20 21:01:18,4,21,1261,5699,Red Line/Arts Block,690513,12648,67600,Smart Museum of Arts,South Ellis Avenue,41.79412,-87.60125,3,,,,,,,,,gps
+1795232713,2026-11-21T03:45:13Z,2026-11-20 21:45:13,4,21,1305,5699,Red Line/Arts Block,,4328,8650,Ellis/57th,East 57th Street,41.79129,-87.60125,2,,,,,,,,,gps
+1795232779,2026-11-21T03:46:19Z,2026-11-20 21:46:19,4,21,1306,5699,Red Line/Arts Block,,4328,67600,Smart Museum of Arts,South Ellis Avenue,41.79412,-87.60125,3,,,,,,,,,gps
