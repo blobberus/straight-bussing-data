@@ -41,10 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-22 08:09 UTC · 139,913 arrivals · 45 service days · newest arrival 2026-11-22 01:00:31 (Chicago time)_
+_Last sync: 2026-11-22 22:36 UTC · 139,940 arrivals · 46 service days · newest arrival 2026-11-22 16:14:53 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
+| 2026-11-22 | 27 | 4 | [data/arrivals/2026-11-22/](data/arrivals/2026-11-22) |
 | 2026-11-21 | 951 | 6 | [data/arrivals/2026-11-21/](data/arrivals/2026-11-21) |
 | 2026-11-20 | 4,076 | 14 | [data/arrivals/2026-11-20/](data/arrivals/2026-11-20) |
 | 2026-11-19 | 4,538 | 13 | [data/arrivals/2026-11-19/](data/arrivals/2026-11-19) |
@@ -58,16 +59,13 @@ _Last sync: 2026-11-22 08:09 UTC · 139,913 arrivals · 45 service days · newes
 | 2026-11-11 | 4,312 | 13 | [data/arrivals/2026-11-11/](data/arrivals/2026-11-11) |
 | 2026-11-10 | 3,917 | 13 | [data/arrivals/2026-11-10/](data/arrivals/2026-11-10) |
 | 2026-11-09 | 3,971 | 13 | [data/arrivals/2026-11-09/](data/arrivals/2026-11-09) |
-| 2026-11-08 | 1,033 | 4 | [data/arrivals/2026-11-08/](data/arrivals/2026-11-08) |
 
-Routes on 2026-11-21:
+Routes on 2026-11-22:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Central | 326 | [central.csv](data/arrivals/2026-11-21/central.csv) |
-| East | 255 | [east.csv](data/arrivals/2026-11-21/east.csv) |
-| South | 193 | [south.csv](data/arrivals/2026-11-21/south.csv) |
-| North | 156 | [north.csv](data/arrivals/2026-11-21/north.csv) |
-| South Loop Shuttle | 19 | [south-loop-shuttle.csv](data/arrivals/2026-11-21/south-loop-shuttle.csv) |
-| Red Line/Arts Block | 2 | [red-line-arts-block.csv](data/arrivals/2026-11-21/red-line-arts-block.csv) |
+| Central | 9 | [central.csv](data/arrivals/2026-11-22/central.csv) |
+| East | 9 | [east.csv](data/arrivals/2026-11-22/east.csv) |
+| South | 5 | [south.csv](data/arrivals/2026-11-22/south.csv) |
+| North | 4 | [north.csv](data/arrivals/2026-11-22/north.csv) |
 <!-- SYNC:END -->
