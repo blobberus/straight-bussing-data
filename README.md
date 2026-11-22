@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-22 06:26 UTC · 139,910 arrivals · 45 service days · newest arrival 2026-11-22 00:00:59 (Chicago time)_
+_Last sync: 2026-11-22 06:52 UTC · 139,911 arrivals · 45 service days · newest arrival 2026-11-22 00:44:52 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-21 | 948 | 6 | [data/arrivals/2026-11-21/](data/arrivals/2026-11-21) |
+| 2026-11-21 | 949 | 6 | [data/arrivals/2026-11-21/](data/arrivals/2026-11-21) |
 | 2026-11-20 | 4,076 | 14 | [data/arrivals/2026-11-20/](data/arrivals/2026-11-20) |
 | 2026-11-19 | 4,538 | 13 | [data/arrivals/2026-11-19/](data/arrivals/2026-11-19) |
 | 2026-11-18 | 4,469 | 13 | [data/arrivals/2026-11-18/](data/arrivals/2026-11-18) |
@@ -68,6 +68,6 @@ Routes on 2026-11-21:
 | East | 255 | [east.csv](data/arrivals/2026-11-21/east.csv) |
 | South | 193 | [south.csv](data/arrivals/2026-11-21/south.csv) |
 | North | 156 | [north.csv](data/arrivals/2026-11-21/north.csv) |
-| South Loop Shuttle | 16 | [south-loop-shuttle.csv](data/arrivals/2026-11-21/south-loop-shuttle.csv) |
+| South Loop Shuttle | 17 | [south-loop-shuttle.csv](data/arrivals/2026-11-21/south-loop-shuttle.csv) |
 | Red Line/Arts Block | 2 | [red-line-arts-block.csv](data/arrivals/2026-11-21/red-line-arts-block.csv) |
 <!-- SYNC:END -->
