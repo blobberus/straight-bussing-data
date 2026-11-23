@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795471230,2026-11-23T22:00:30Z,2026-11-23 16:00:30,0,16,960,1075,North,501582,4328,8634,Max Palevsky Residential Commons (NE Corner),5625 South Ellis Avenue,41.79313,-87.60129,2,,,,,,,,,transition
+1795471253,2026-11-23T22:00:53Z,2026-11-23 16:00:53,0,16,960,1075,North,501582,4328,8635,Ellis Garage & Ratner Athletic Center (East),South Ellis Avenue,41.79432,-87.6013,3,8634,132.5,1795471230,23,5.76,17,,,transition
+1795471398,2026-11-23T22:03:18Z,2026-11-23 16:03:18,0,16,963,1075,North,501582,4328,140008,S. Drexel Ave & E 53rd St,5327 South Drexel Avenue,41.79853,-87.60374,4,8635,685.0,1795471253,145,5.35,0,1795471394,172,transition
+1795472145,2026-11-23T22:15:45Z,2026-11-23 16:15:45,0,16,975,1075,North,501582,4328,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,5,140008,708.5,1795471398,747,0.95,0,1795472182,207,transition
+1795472211,2026-11-23T22:16:51Z,2026-11-23 16:16:51,0,16,976,1075,North,501582,4328,8637,Alumni House (NW Corner),South Woodlawn Avenue,41.79331,-87.59658,6,140009,334.6,1795472145,66,5.07,0,1795472188,156,transition
