@@ -1,0 +1,7 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795449504,2026-11-23T15:58:24Z,2026-11-23 09:58:24,0,9,598,6126,Apostolic/Drexel,501457,4324,8630,Levi Hall (W),970 East 58th Street,41.78966,-87.6013,6,,,,,,0,,,pass
+1795449681,2026-11-23T16:01:21Z,2026-11-23 10:01:21,0,10,601,6126,Apostolic/Drexel,501457,4324,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,7,8630,874.3,1795449504,177,4.94,32,1795450290,244,pass
+1795449829,2026-11-23T16:03:49Z,2026-11-23 10:03:49,0,10,603,6126,Apostolic/Drexel,501457,4324,225834,61st & Kimbark,61st & Kimbark,41.78412,-87.59492,8,,,,,,,,,gps
+1795450009,2026-11-23T16:06:49Z,2026-11-23 10:06:49,0,10,606,6126,Apostolic/Drexel,501457,4324,8614,Apostolic Lot,6320 South Dorchester Avenue,41.77961,-87.59301,9,8611,1681.1,1795449681,328,5.68,0,1795449822,188,transition
+1795450218,2026-11-23T16:10:18Z,2026-11-23 10:10:18,0,10,610,6126,Apostolic/Drexel,501457,4324,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,10,8614,140.1,1795450009,209,0.67,,1795450015,212,transition
+1795450808,2026-11-23T16:20:08Z,2026-11-23 10:20:08,0,10,620,6126,Apostolic/Drexel,501457,4324,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,12,,,,,,0,1795450300,1371,transition
