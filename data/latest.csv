@@ -1,6 +1,4 @@
 epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
-1795405724,2026-11-23T03:48:44Z,2026-11-22 21:48:44,6,21,1308,1076,South,501645,4327,8652,Booth School,South Woodlawn Avenue,41.78955,-87.59636,13,,,,,,,,,gps
-1795405749,2026-11-23T03:49:09Z,2026-11-22 21:49:09,6,21,1309,1078,Central,501740,4538,140016,55th Street & Blackstone,1436 East 55th Street,41.79563,-87.59021,10,140009,865.2,1795405325,424,2.04,0,1795406063,189,transition
 1795405817,2026-11-23T03:50:17Z,2026-11-22 21:50:17,6,21,1310,1078,Central,501740,4538,141862,Blackstone & 53rd,1439 East 53rd Street,41.79938,-87.5903,11,140016,461.2,1795405749,68,6.78,0,1795406125,195,transition
 1795405831,2026-11-23T03:50:31Z,2026-11-22 21:50:31,6,21,1310,1076,South,501645,4327,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,14,,,,,,0,1795405655,923,transition
 1795405870,2026-11-23T03:51:10Z,2026-11-22 21:51:10,6,21,1311,1075,North,501605,4313,140009,55th Street & University,55th Street Bikeway,41.79501,-87.598,5,140008,708.5,1795404907,963,0.74,0,1795405885,145,transition
@@ -199,3 +197,5 @@ epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehic
 1795413612,2026-11-23T06:00:12Z,2026-11-23 00:00:12,0,0,0,1078,Central,,4538,8579,Reynolds Club,South University Avenue,41.79134,-87.59802,14,,,,,,,,,gps
 1795413650,2026-11-23T06:00:50Z,2026-11-23 00:00:50,0,0,0,1075,North,501612,4313,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,8579,133.6,1795413300,350,0.38,0,1795413429,218,transition
 1795413651,2026-11-23T06:00:51Z,2026-11-23 00:00:51,0,0,0,1077,East,501706,4315,8633,Regenstein Library (N),East 57th Street,41.79147,-87.59961,1,,,,,,0,,,transition
+1795431175,2026-11-23T10:52:55Z,2026-11-23 04:52:55,0,4,292,5700,Friend Center/Metra,499490,4327,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,0,,,,,,,,,proximity
+1795431536,2026-11-23T10:58:56Z,2026-11-23 04:58:56,0,4,298,5701,Drexel,501392,4318,8611,Drexel Garage,850 East 61st Street,41.78443,-87.60444,0,,,,,,50,,,proximity
