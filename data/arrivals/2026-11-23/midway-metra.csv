@@ -1,0 +1,2 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795434052,2026-11-23T11:40:52Z,2026-11-23 05:40:52,0,5,340,5703,Midway Metra,501528,4315,141882,57th St. & Metra (SB),South Stony Island Avenue,41.79121,-87.5868,0,,,,,,0,,,transition
