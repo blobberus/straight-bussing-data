@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-24 12:30 UTC · 145,350 arrivals · 48 service days · newest arrival 2026-11-24 06:07:25 (Chicago time)_
+_Last sync: 2026-11-24 16:09 UTC · 146,456 arrivals · 48 service days · newest arrival 2026-11-24 10:01:06 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-24 | 146 | 4 | [data/arrivals/2026-11-24/](data/arrivals/2026-11-24) |
+| 2026-11-24 | 1,252 | 8 | [data/arrivals/2026-11-24/](data/arrivals/2026-11-24) |
 | 2026-11-23 | 4,535 | 13 | [data/arrivals/2026-11-23/](data/arrivals/2026-11-23) |
 | 2026-11-22 | 756 | 4 | [data/arrivals/2026-11-22/](data/arrivals/2026-11-22) |
 | 2026-11-21 | 951 | 6 | [data/arrivals/2026-11-21/](data/arrivals/2026-11-21) |
@@ -64,8 +64,12 @@ Routes on 2026-11-24:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Apostolic | 60 | [apostolic.csv](data/arrivals/2026-11-24/apostolic.csv) |
-| Drexel | 40 | [drexel.csv](data/arrivals/2026-11-24/drexel.csv) |
-| Friend Center/Metra | 31 | [friend-center-metra.csv](data/arrivals/2026-11-24/friend-center-metra.csv) |
-| Midway Metra | 15 | [midway-metra.csv](data/arrivals/2026-11-24/midway-metra.csv) |
+| Apostolic | 288 | [apostolic.csv](data/arrivals/2026-11-24/apostolic.csv) |
+| Midway Metra | 221 | [midway-metra.csv](data/arrivals/2026-11-24/midway-metra.csv) |
+| Drexel | 196 | [drexel.csv](data/arrivals/2026-11-24/drexel.csv) |
+| Red Line/Arts Block | 166 | [red-line-arts-block.csv](data/arrivals/2026-11-24/red-line-arts-block.csv) |
+| Downtown Campus Connector | 155 | [downtown-campus-connector.csv](data/arrivals/2026-11-24/downtown-campus-connector.csv) |
+| Friend Center/Metra | 121 | [friend-center-metra.csv](data/arrivals/2026-11-24/friend-center-metra.csv) |
+| 53rd Street Express | 101 | [53rd-street-express.csv](data/arrivals/2026-11-24/53rd-street-express.csv) |
+| Apostolic/Drexel | 4 | [apostolic-drexel.csv](data/arrivals/2026-11-24/apostolic-drexel.csv) |
 <!-- SYNC:END -->
