@@ -1,152 +1,156 @@
 route,day_type,hour,leaves,leaves_not_layover,adds,break,shift_end,route_switch,feed_drop,layover_swap,added_from_garage,added_from_break,added_from_route,unknown,days_with_leave,days_of_type,leaves_per_day,top_leave_spot,top_add_spot,passio_predicted_leaving_bus,phantom_stops
-53rd Street Express,weekday,7,1,1,8,0,0,1,0,0,6,0,0,2,1,25,0.04,Ellis Garage & Ratner Athletic (West),60th St. & Woodlawn Ave (SE Corner),1,16
-53rd Street Express,weekday,8,0,0,17,0,0,0,0,0,16,0,0,1,0,25,0.0,,Press Building,0,0
-53rd Street Express,weekday,9,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,Wyler Pavilion,0,0
-53rd Street Express,weekday,10,14,14,0,1,4,7,2,0,0,0,0,0,14,25,0.56,59th & Ellis,,13,159
-53rd Street Express,weekday,11,13,13,5,2,2,7,2,1,1,1,2,0,12,25,0.52,Midway Plaisance & Cottage Grove,Keller Center WB,12,136
-53rd Street Express,weekday,12,5,5,3,0,3,1,1,0,0,3,0,0,5,25,0.2,Midway Plaisance & Cottage Grove,near Hyde Park Shopping Center,4,28
-53rd Street Express,weekday,13,1,1,0,1,0,0,0,0,0,0,0,0,1,25,0.04,Burton-Judson Courts (NE Corner),,1,14
-53rd Street Express,weekday,15,1,1,2,0,0,1,0,0,0,2,0,0,1,25,0.04,"Unnamed (41.8220, -87.6231)",Operator garage,1,0
-53rd Street Express,weekday,16,1,0,1,0,0,0,0,1,1,0,0,0,0,25,0.0,,Ellis & 53rd St.,0,0
-53rd Street Express,weekday,18,1,1,0,0,1,0,0,0,0,0,0,0,1,25,0.04,Midway Plaisance & Cottage Grove,,0,0
-Apostolic,weekday,4,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,60th St. & Woodlawn Ave (SE Corner),0,0
-Apostolic,weekday,5,16,0,49,0,0,0,0,24,37,0,1,3,0,25,0.0,,Apostolic Lot,0,0
-Apostolic,weekday,6,23,0,26,0,0,0,0,43,3,0,0,3,0,25,0.0,,Comer Children's Hospital,0,0
-Apostolic,weekday,7,28,0,28,0,0,0,0,54,2,0,0,0,0,25,0.0,,Woodlawn Ave & 61st St,0,0
-Apostolic,weekday,8,21,7,21,7,0,0,0,35,0,0,0,0,7,25,0.28,South Campus Resident Hall,,6,19
-Apostolic,weekday,9,26,10,30,4,4,0,2,41,0,3,0,2,10,25,0.4,S Drexel Ave & 57th St,Apostolic Lot,9,44
-Apostolic,weekday,10,39,36,5,2,8,20,6,7,0,1,0,0,21,25,1.44,S Drexel Ave & 57th St,59th & Ellis,11,48
-Apostolic,weekday,11,6,5,2,1,1,3,0,2,0,1,0,0,3,25,0.2,Operator garage,Operator garage,0,0
-Apostolic,weekday,15,1,1,1,0,0,1,0,0,1,0,0,0,1,25,0.04,240 m from Garfield & Wabash (WB),Operator garage,0,0
-Apostolic/Drexel,weekday,4,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,Operator garage,0,0
-Apostolic/Drexel,weekday,6,1,1,0,0,0,1,0,0,0,0,0,0,1,25,0.04,"Unnamed (41.8148, -87.6262)",,1,4
-Apostolic/Drexel,weekday,10,2,1,20,0,0,1,0,2,1,0,17,1,1,25,0.04,Burton-Judson Courts (NE Corner),Goldblatt Pavilion,1,9
-Apostolic/Drexel,weekday,11,3,2,8,0,2,0,0,2,1,0,6,0,2,25,0.08,Goldblatt Pavilion,Goldblatt Pavilion,2,19
-Apostolic/Drexel,weekday,12,3,3,1,3,0,0,0,0,0,1,0,0,3,25,0.12,S Drexel Ave & 57th St,Logan Center for Arts,3,16
-Apostolic/Drexel,weekday,13,3,3,6,2,0,1,0,2,1,0,0,3,3,25,0.12,Operator garage,Goldblatt Pavilion,3,25
-Apostolic/Drexel,weekday,14,2,1,1,1,0,0,0,2,0,0,0,0,1,25,0.04,Ellis/57th,,1,9
-Apostolic/Drexel,weekday,15,5,3,17,0,0,3,0,2,3,11,1,2,2,25,0.12,Goldblatt Pavilion,Goldblatt Pavilion,3,9
-Apostolic/Drexel,weekday,16,6,4,8,0,0,4,0,3,1,5,0,1,4,25,0.16,Wyler Pavilion,59th & Ellis,4,40
-Apostolic/Drexel,weekday,17,4,3,13,1,0,2,0,4,0,2,8,0,3,25,0.12,Goldblatt Pavilion,Goldblatt Pavilion,2,20
-Apostolic/Drexel,weekday,18,20,18,15,2,4,11,1,6,0,0,11,0,15,25,0.72,Wyler Pavilion,Goldblatt Pavilion,18,140
-Apostolic/Drexel,weekday,19,10,9,3,2,2,3,2,1,0,1,2,0,7,25,0.36,Goldblatt Pavilion,Bernard Mitchell Hospital,9,71
-Apostolic/Drexel,weekday,20,24,20,9,9,2,6,3,5,0,4,4,0,15,25,0.8,Goldblatt Pavilion,59th & Ellis,20,136
-Apostolic/Drexel,weekday,21,13,13,17,0,5,1,7,1,0,11,2,3,12,25,0.52,59th & Ellis,Goldblatt Pavilion,13,105
-Apostolic/Drexel,weekday,22,2,1,2,1,0,0,0,2,1,0,0,0,1,25,0.04,Goldblatt Pavilion,Operator garage,1,9
-Apostolic/Drexel,weekday,23,7,6,4,0,5,1,0,2,0,1,1,1,6,25,0.24,Goldblatt Pavilion,Levi Hall (W),5,27
-Apostolic/Drexel,weekday,0,4,4,0,0,2,0,2,0,0,0,0,0,4,25,0.16,Goldblatt Pavilion,,3,11
-Central,weekday,16,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,Reynolds Club,0,0
-Central,weekday,18,0,0,6,0,0,0,0,0,0,1,3,2,0,25,0.0,,Reynolds Club,0,0
-Central,weekday,19,4,4,3,2,0,1,1,0,0,1,1,1,3,25,0.16,Reynolds Club,Reynolds Club,2,11
-Central,weekday,20,1,1,2,1,0,0,0,0,0,0,2,0,1,25,0.04,Booth School,55th Street & Blackstone,1,14
-Central,weekday,21,3,3,1,0,0,1,2,0,0,0,1,0,3,25,0.12,Ellis Ave & 57th St,Ellis/57th,2,27
-Central,weekday,22,5,5,0,0,2,0,3,0,0,0,0,0,5,25,0.2,Ellis Ave & 57th St,,4,55
-Central,weekend,16,1,0,9,0,0,0,0,2,7,0,1,0,0,10,0.0,,Reynolds Club,0,0
-Central,weekend,19,0,0,1,0,0,0,0,0,1,0,0,0,0,10,0.0,,Levi Hall (E),0,0
-Central,weekend,20,1,0,0,0,0,0,0,1,0,0,0,0,0,10,0.0,,,0,0
-Central,weekend,21,6,6,1,0,3,0,3,1,0,0,0,0,6,10,0.6,Booth School,,5,38
-Central,weekend,22,3,3,0,0,3,0,0,0,0,0,0,0,3,10,0.3,Reynolds Club,,2,27
-Downtown Campus Connector,weekday,6,1,1,79,0,0,1,0,0,77,0,0,2,1,25,0.04,Logan Center,Gleacher Center,1,0
-Downtown Campus Connector,weekday,7,10,6,52,3,3,0,0,8,40,0,2,6,6,25,0.24,S Michigan Ave/Roosevelt,Rockefeller Chapel,4,15
-Downtown Campus Connector,weekday,8,19,17,8,9,7,0,1,6,3,0,0,1,13,25,0.68,Gleacher Center,Rockefeller Chapel,12,84
-Downtown Campus Connector,weekday,9,11,8,20,3,2,0,3,6,4,7,0,6,6,25,0.32,Goldblatt Pavilion,UCHICAGO Medicine - River East,3,17
-Downtown Campus Connector,weekday,10,82,78,60,38,13,0,27,11,2,13,29,9,25,25,3.12,Midway Plaisance & Cottage Grove,Rockefeller Chapel,48,359
-Downtown Campus Connector,weekday,11,77,75,69,57,9,1,8,6,0,36,27,2,24,25,3.0,Midway Plaisance & Cottage Grove,Rockefeller Chapel,55,348
-Downtown Campus Connector,weekday,12,64,62,64,15,27,1,19,8,0,53,0,5,23,25,2.48,Midway Plaisance & Cottage Grove,Rockefeller Chapel,56,241
-Downtown Campus Connector,weekday,13,62,56,57,33,13,5,5,15,20,21,0,7,25,25,2.24,Midway Plaisance & Cottage Grove,59th & Ellis,50,102
-Downtown Campus Connector,weekday,14,14,10,40,6,4,0,0,16,18,8,0,2,7,25,0.4,Gleacher Center,Gleacher Center,8,34
-Downtown Campus Connector,weekday,15,18,16,28,5,2,9,0,5,6,14,0,5,9,25,0.64,Operator garage,Operator garage,11,48
-Downtown Campus Connector,weekday,16,17,12,17,4,2,6,0,9,5,4,0,4,10,25,0.48,Midway Plaisance & Cottage Grove,Operator garage,10,49
-Downtown Campus Connector,weekday,17,15,13,12,4,2,5,2,7,1,2,0,4,9,25,0.52,Ronald McDonald House & Friend Center,Rockefeller Chapel,10,57
-Downtown Campus Connector,weekday,18,42,37,12,4,11,2,20,13,0,2,1,1,24,25,1.48,Gleacher Center,57th St. & Metra (NB),35,264
-Downtown Campus Connector,weekday,19,29,27,15,10,10,1,6,8,0,5,1,3,15,25,1.08,Gleacher Center,Gleacher Center,21,124
-Downtown Campus Connector,weekday,20,29,26,19,10,11,0,5,7,1,12,0,2,18,25,1.04,Rockefeller Chapel,Gleacher Center,16,121
-Downtown Campus Connector,weekday,21,24,21,17,0,10,0,11,10,0,9,0,1,15,25,0.84,near Gleacher Center,Rockefeller Chapel,14,80
-Downtown Campus Connector,weekday,22,57,53,2,0,20,0,33,5,0,1,0,0,25,25,2.12,59th & Ellis,270 m from UCHICAGO Medicine - River East,38,211
-Drexel,weekday,4,0,0,5,0,0,0,0,0,4,0,0,1,0,25,0.0,,Drexel Garage,0,0
-Drexel,weekday,5,3,0,20,0,0,0,0,6,14,0,2,1,0,25,0.0,,Drexel Garage,0,0
-Drexel,weekday,6,5,2,7,0,0,2,0,6,2,0,1,1,2,25,0.08,"Unnamed (41.8806, -87.6172)",Logan Center for Arts,2,10
-Drexel,weekday,7,2,1,2,0,0,1,0,2,1,0,0,0,1,25,0.04,Goldblatt Pavilion,Goldblatt Pavilion,1,5
-Drexel,weekday,8,1,0,0,0,0,0,0,1,0,0,0,0,0,25,0.0,,,0,0
-Drexel,weekday,9,13,13,2,1,3,8,1,1,0,0,1,0,13,25,0.52,Goldblatt Pavilion,Goldblatt Pavilion,10,46
-Drexel,weekday,10,12,10,0,2,0,8,0,2,0,0,0,0,9,25,0.4,Burton-Judson Courts (NE Corner),,2,25
-East,weekday,4,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,Operator garage,0,0
-East,weekday,5,1,1,0,1,0,0,0,0,0,0,0,0,1,25,0.04,Operator garage,,0,0
-East,weekday,18,1,1,3,0,0,0,1,0,0,0,2,1,1,25,0.04,Ellis Ave & 57th St,Reynolds Club,1,11
-East,weekday,19,1,1,4,1,0,0,0,0,0,0,3,1,1,25,0.04,Reynolds Club,Reynolds Club,1,13
-East,weekday,20,6,5,5,3,1,1,0,2,0,2,1,1,4,25,0.2,Reynolds Club,Reynolds Club,4,33
-East,weekday,21,3,3,2,0,1,1,1,0,0,1,1,0,3,25,0.12,Reynolds Club,Max Palevsky Residential Commons (NE Corner),3,22
-East,weekday,22,4,4,1,0,1,0,3,0,0,1,0,0,4,25,0.16,Ellis Ave & 57th St,Reynolds Club,3,32
-East,weekend,15,0,0,1,0,0,0,0,0,1,0,0,0,0,10,0.0,,Reynolds Club,0,0
-East,weekend,16,3,1,8,0,0,1,0,3,6,0,0,1,1,10,0.1,Reynolds Club,Reynolds Club,1,12
-East,weekend,17,1,0,2,0,0,0,0,3,0,0,0,0,0,10,0.0,,,0,0
-East,weekend,18,4,0,3,0,0,0,0,7,0,0,0,0,0,10,0.0,,,0,0
-East,weekend,19,4,1,5,1,0,0,0,6,1,0,1,0,1,10,0.1,Booth School,Lake Park & 55th St. (SE Corner),1,8
-East,weekend,20,5,1,4,0,0,0,1,7,0,1,0,0,1,10,0.1,Reynolds Club,Reynolds Club,1,8
-East,weekend,21,5,5,1,0,3,1,1,1,0,0,0,0,5,10,0.5,Ellis Garage & Ratner Athletic (West),,5,55
-East,weekend,22,3,2,2,0,2,0,0,2,0,1,0,0,2,10,0.2,Ellis Garage & Ratner Athletic (West),Smart Museum of Arts,1,13
-East,weekend,23,1,1,0,0,1,0,0,0,0,0,0,0,1,10,0.1,Operator garage,,0,0
-Friend Center/Metra,weekday,5,1,1,1,0,0,1,0,0,1,0,0,0,1,25,0.04,Bernard Mitchell Hospital,Ronald McDonald House & Friend Center,1,8
-Friend Center/Metra,weekday,6,1,1,1,0,0,1,0,0,0,0,1,0,1,25,0.04,Logan Center for Arts,Logan Center for Arts,1,12
-Friend Center/Metra,weekday,7,1,1,1,0,0,0,1,0,0,0,1,0,1,25,0.04,Goldblatt Pavilion,Goldblatt Pavilion,1,12
-Friend Center/Metra,weekday,9,1,1,1,0,1,0,0,0,0,1,0,0,1,25,0.04,Wyler Pavilion,Goldblatt Pavilion,1,10
-Friend Center/Metra,weekday,10,1,1,3,0,1,0,0,0,1,1,1,0,1,25,0.04,Bernard Mitchell Hospital,near Duchossois Center (DCAM),1,4
-Friend Center/Metra,weekday,11,2,2,0,0,1,0,1,0,0,0,0,0,2,25,0.08,Goldblatt Pavilion,,2,21
-Friend Center/Metra,weekday,12,1,1,2,1,0,0,0,0,1,1,0,0,1,25,0.04,Goldblatt Pavilion,Goldblatt Pavilion,1,12
-Friend Center/Metra,weekday,13,2,2,1,0,0,1,1,0,0,0,0,1,2,25,0.08,Goldblatt Pavilion,Goldblatt Pavilion,2,23
-Friend Center/Metra,weekday,17,2,2,2,0,0,2,0,0,0,0,2,0,2,25,0.08,Goldblatt Pavilion,Goldblatt Pavilion,2,15
-Friend Center/Metra,weekday,18,1,1,1,0,0,1,0,0,0,0,0,1,1,25,0.04,Goldblatt Pavilion,Wyler Pavilion,1,1
-Friend Center/Metra,weekday,19,1,1,2,0,0,1,0,0,0,0,2,0,1,25,0.04,S Drexel Ave & 57th St,Bernard Mitchell Hospital,1,9
-Friend Center/Metra,weekday,20,0,0,1,0,0,0,0,0,0,0,1,0,0,25,0.0,,Bernard Mitchell Hospital,0,0
-Friend Center/Metra,weekday,21,1,1,0,0,1,0,0,0,0,0,0,0,1,25,0.04,Operator garage,,1,10
-Friend Center/Metra,weekday,22,1,1,0,0,1,0,0,0,0,0,0,0,1,25,0.04,Hyde Park Shopping Center (S),,1,2
-Midway Metra,weekday,6,1,1,21,0,0,1,0,0,21,0,0,0,1,25,0.04,Operator garage,60th St. & Ellis (SE Corner),0,0
-Midway Metra,weekday,7,3,3,7,0,1,2,0,0,7,0,0,0,3,25,0.12,Logan Center,60th St. & Woodlawn Ave (SE Corner),3,33
-Midway Metra,weekday,8,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,Logan Center for Arts,0,0
-Midway Metra,weekday,9,21,16,3,2,0,12,2,8,0,0,0,0,16,25,0.64,Midway Plaisance & Cottage Grove,,15,179
-Midway Metra,weekday,10,7,7,0,0,0,7,0,0,0,0,0,0,7,25,0.28,Midway Plaisance & Cottage Grove,,3,29
-Midway Metra,weekday,15,0,0,10,0,0,0,0,0,3,4,1,2,0,25,0.0,,Goldblatt Pavilion,0,0
-Midway Metra,weekday,16,0,0,11,0,0,0,0,0,4,1,4,2,0,25,0.0,,Goldblatt Pavilion,0,0
-Midway Metra,weekday,17,2,2,2,1,1,0,0,0,0,0,2,0,2,25,0.08,300 m from Stony Island Parking Lot,57th St. & Metra (SB),2,25
-Midway Metra,weekday,18,18,12,4,2,1,6,3,8,1,0,0,1,12,25,0.48,Goldblatt Pavilion,Press Building,8,73
-Midway Metra,weekday,19,11,11,4,1,4,4,2,3,0,0,0,1,11,25,0.44,Midway Plaisance & Cottage Grove,60th & Cottage Grove,8,53
-Midway Metra,weekday,20,0,0,1,0,0,0,0,0,0,1,0,0,0,25,0.0,,Operator garage,0,0
-Midway Metra,weekday,21,1,1,0,0,0,1,0,0,0,0,0,0,1,25,0.04,Rockefeller Chapel,,0,0
-North,weekday,16,1,1,1,0,0,0,1,0,1,0,0,0,1,25,0.04,Ellis Ave & 57th St,Reynolds Club,1,3
-North,weekday,18,0,0,2,0,0,0,0,0,0,0,1,1,0,25,0.0,,Reynolds Club,0,0
-North,weekday,19,3,3,3,1,1,1,0,0,0,1,2,0,3,25,0.12,Reynolds Club,200 m from S. Drexel Ave & E 53rd St,3,10
-North,weekday,20,2,2,2,0,0,2,0,0,0,0,0,2,2,25,0.08,55th Street & University,Reynolds Club,2,11
-North,weekday,21,2,2,2,0,0,2,0,0,1,0,1,0,2,25,0.08,Rockefeller Chapel,"Unnamed (41.8077, -87.5976)",2,14
-North,weekday,22,2,2,2,0,0,1,1,0,0,1,1,0,2,25,0.08,Ellis Garage & Ratner Athletic (West),Ellis Ave & 57th St,2,8
-North,weekday,23,2,2,0,0,1,0,1,0,0,0,0,0,2,25,0.08,Ellis Ave & 57th St,,2,8
-North,weekend,16,0,0,5,0,0,0,0,0,4,0,0,1,0,10,0.0,,Reynolds Club,0,0
-North,weekend,17,1,0,1,0,0,0,0,2,0,0,0,0,0,10,0.0,,,0,0
-North,weekend,18,2,1,1,0,0,0,1,2,0,0,0,0,1,10,0.1,Reynolds Club,,1,1
-North,weekend,19,1,1,0,0,0,1,0,0,0,0,0,0,1,10,0.1,55th Street & University,,0,0
-North,weekend,20,1,0,2,0,0,0,0,2,1,0,0,0,0,10,0.0,,310 m from Kimbark Plaza (NE Corner),0,0
-North,weekend,21,4,4,0,0,3,1,0,0,0,0,0,0,4,10,0.4,420 m from Ellis & 53rd St.,,3,19
-Red Line/Arts Block,weekday,6,0,0,17,0,0,0,0,0,12,0,0,5,0,25,0.0,,Logan Center,0,0
-Red Line/Arts Block,weekday,7,0,0,8,0,0,0,0,0,7,0,1,0,0,25,0.0,,near Washington Park Arts Incubator,0,0
-Red Line/Arts Block,weekday,9,0,0,1,0,0,0,0,0,0,0,1,0,0,25,0.0,,Logan Center,0,0
-Red Line/Arts Block,weekday,10,24,23,24,17,2,2,2,3,0,0,10,12,18,25,0.92,Logan Center,Logan Center,22,195
-Red Line/Arts Block,weekday,11,43,42,18,4,8,19,11,7,0,9,1,2,23,25,1.68,Midway Plaisance & Cottage Grove,Garfield Green Line Station,38,268
-Red Line/Arts Block,weekday,12,1,1,1,0,0,1,0,0,0,1,0,0,1,25,0.04,580 m from UCHICAGO Medicine - South Loop,Midway Plaisance & Cottage Grove,1,7
-Red Line/Arts Block,weekday,13,5,5,20,4,1,0,0,0,0,19,0,1,5,25,0.2,160 m from Garfield & Wabash (WB),Operator garage,4,23
-Red Line/Arts Block,weekday,14,18,18,7,14,0,4,0,7,0,0,0,0,16,25,0.72,170 m from Garfield & Wabash (WB),,17,102
-Red Line/Arts Block,weekday,15,3,1,23,0,0,1,0,4,14,4,0,3,1,25,0.04,Burton-Judson Courts (NE Corner),Operator garage,0,0
-Red Line/Arts Block,weekday,16,7,5,11,1,0,4,0,4,6,1,0,2,3,25,0.2,Levi Hall (E),Garfield Red Line Station (WB),5,39
-Red Line/Arts Block,weekday,17,5,3,4,0,0,3,0,5,0,0,0,1,2,25,0.12,Logan Center,59th & Ellis,3,32
-Red Line/Arts Block,weekday,18,2,2,1,0,0,1,1,0,0,0,0,1,2,25,0.08,59th & Ellis,60th & Cottage Grove,1,9
-Red Line/Arts Block,weekday,19,4,4,14,2,1,1,0,0,0,2,11,1,4,25,0.16,Logan Center for Arts,Logan Center,1,9
-Red Line/Arts Block,weekday,20,18,17,4,1,5,3,8,1,0,4,0,0,14,25,0.68,Garfield Green Line Station,59th & Ellis,13,59
-Red Line/Arts Block,weekday,21,24,24,1,0,10,2,12,1,0,0,0,0,17,25,0.96,Garfield & Wabash (WB),,21,131
-South,weekday,15,0,0,1,0,0,0,0,0,1,0,0,0,0,25,0.0,,60th St. & Woodlawn Ave (SE Corner),0,0
-South,weekday,16,0,0,1,0,0,0,0,0,0,0,0,1,0,25,0.0,,Burton-Judson Courts (NE Corner),0,0
-South,weekday,17,1,1,0,1,0,0,0,0,0,0,0,0,1,25,0.04,Reynolds Club,,1,15
-South,weekday,20,1,1,0,0,1,0,0,0,0,0,0,0,1,25,0.04,Burton-Judson Courts (NE Corner),,1,10
-South,weekday,21,6,4,13,0,3,0,1,3,1,1,9,1,4,25,0.16,Burton-Judson Courts (NE Corner),Burton-Judson Courts (NE Corner),4,57
-South,weekday,22,10,8,4,0,2,0,6,3,0,1,0,2,8,25,0.32,59th & Ellis,Reynolds Club,8,81
-South,weekday,23,3,3,2,0,1,1,1,1,0,0,1,0,3,25,0.12,Ellis/57th,Rockefeller Chapel,3,32
-South,weekday,0,0,0,1,0,0,0,0,1,0,0,0,0,0,25,0.0,,,0,0
-South,weekend,21,1,1,1,0,0,0,1,0,0,0,1,0,1,10,0.1,Reynolds Club,South Campus Resident Hall,1,16
-South Loop Shuttle,weekday,21,1,1,1,0,1,0,0,0,0,0,0,1,1,25,0.04,Reynolds Club,Reynolds Club,1,4
+53rd Street Express,weekday,7,1,1,10,0,0,1,0,0,8,0,0,2,1,30,0.03,Ellis Garage & Ratner Athletic (West),60th St. & Woodlawn Ave (SE Corner),1,16
+53rd Street Express,weekday,8,0,0,19,0,0,0,0,0,18,0,0,1,0,30,0.0,,Press Building,0,0
+53rd Street Express,weekday,9,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0.0,,Wyler Pavilion,0,0
+53rd Street Express,weekday,10,17,17,0,1,4,10,2,0,0,0,0,0,17,30,0.57,Press Building,,16,198
+53rd Street Express,weekday,11,14,14,5,2,2,8,2,1,1,1,2,0,13,30,0.47,Midway Plaisance & Cottage Grove,Keller Center WB,13,150
+53rd Street Express,weekday,12,5,5,3,0,3,1,1,0,0,3,0,0,5,30,0.17,Midway Plaisance & Cottage Grove,near Hyde Park Shopping Center,4,28
+53rd Street Express,weekday,13,1,1,0,1,0,0,0,0,0,0,0,0,1,30,0.03,Burton-Judson Courts (NE Corner),,1,14
+53rd Street Express,weekday,15,1,1,2,0,0,1,0,0,0,2,0,0,1,30,0.03,"Unnamed (41.8220, -87.6231)",Operator garage,1,0
+53rd Street Express,weekday,16,1,0,1,0,0,0,0,1,1,0,0,0,0,30,0.0,,Ellis & 53rd St.,0,0
+53rd Street Express,weekday,18,1,1,0,0,1,0,0,0,0,0,0,0,1,30,0.03,Midway Plaisance & Cottage Grove,,0,0
+Apostolic,weekday,4,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0.0,,60th St. & Woodlawn Ave (SE Corner),0,0
+Apostolic,weekday,5,17,0,57,0,0,0,0,25,43,0,2,4,0,30,0.0,,Apostolic Lot,0,0
+Apostolic,weekday,6,28,1,32,1,0,0,0,51,4,1,0,3,1,30,0.03,South Campus Resident Hall,Apostolic Lot,1,7
+Apostolic,weekday,7,32,0,31,0,0,0,0,60,2,1,0,0,0,30,0.0,,Woodlawn Ave & 61st St,0,0
+Apostolic,weekday,8,23,6,24,6,0,0,0,41,0,0,0,0,6,30,0.2,South Campus Resident Hall,,5,16
+Apostolic,weekday,9,30,10,35,4,4,0,2,49,0,4,0,2,10,30,0.33,S Drexel Ave & 57th St,Apostolic Lot,9,44
+Apostolic,weekday,10,49,43,6,2,9,23,9,11,0,1,0,0,26,30,1.43,S Drexel Ave & 57th St,59th & Ellis,15,72
+Apostolic,weekday,11,6,5,2,1,1,3,0,2,0,1,0,0,3,30,0.17,Operator garage,Operator garage,0,0
+Apostolic,weekday,15,1,1,1,0,0,1,0,0,1,0,0,0,1,30,0.03,240 m from Garfield & Wabash (WB),Operator garage,0,0
+Apostolic/Drexel,weekday,4,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0.0,,Operator garage,0,0
+Apostolic/Drexel,weekday,6,1,1,0,0,0,1,0,0,0,0,0,0,1,30,0.03,"Unnamed (41.8148, -87.6262)",,1,4
+Apostolic/Drexel,weekday,9,0,0,1,0,0,0,0,0,0,0,1,0,0,30,0.0,,Apostolic Lot,0,0
+Apostolic/Drexel,weekday,10,3,2,25,0,0,2,0,2,2,0,20,2,2,30,0.07,Burton-Judson Courts (NE Corner),Goldblatt Pavilion,2,19
+Apostolic/Drexel,weekday,11,4,3,9,0,3,0,0,2,2,0,6,0,3,30,0.1,Goldblatt Pavilion,Goldblatt Pavilion,3,30
+Apostolic/Drexel,weekday,12,3,3,1,3,0,0,0,0,0,1,0,0,3,30,0.1,S Drexel Ave & 57th St,Logan Center for Arts,3,16
+Apostolic/Drexel,weekday,13,3,3,6,2,0,1,0,2,1,0,0,3,3,30,0.1,Operator garage,Goldblatt Pavilion,3,25
+Apostolic/Drexel,weekday,14,2,1,1,1,0,0,0,2,0,0,0,0,1,30,0.03,Ellis/57th,,1,9
+Apostolic/Drexel,weekday,15,7,5,22,0,0,4,1,2,5,14,1,2,4,30,0.17,Goldblatt Pavilion,Goldblatt Pavilion,5,29
+Apostolic/Drexel,weekday,16,6,4,8,0,0,4,0,3,1,5,0,1,4,30,0.13,Wyler Pavilion,59th & Ellis,4,40
+Apostolic/Drexel,weekday,17,6,5,14,1,0,4,0,4,0,2,9,0,5,30,0.17,Goldblatt Pavilion,Goldblatt Pavilion,4,38
+Apostolic/Drexel,weekday,18,24,22,19,2,4,15,1,6,0,0,15,0,19,30,0.73,Burton-Judson Courts (NE Corner),Goldblatt Pavilion,22,182
+Apostolic/Drexel,weekday,19,10,9,3,2,2,3,2,1,0,1,2,0,7,30,0.3,Goldblatt Pavilion,Bernard Mitchell Hospital,9,71
+Apostolic/Drexel,weekday,20,29,25,12,12,4,6,3,5,0,5,6,0,17,30,0.83,Goldblatt Pavilion,Goldblatt Pavilion,25,173
+Apostolic/Drexel,weekday,21,16,15,21,0,5,1,9,3,0,14,2,3,14,30,0.5,59th & Ellis,Goldblatt Pavilion,15,124
+Apostolic/Drexel,weekday,22,2,1,2,1,0,0,0,2,1,0,0,0,1,30,0.03,Goldblatt Pavilion,Operator garage,1,9
+Apostolic/Drexel,weekday,23,10,9,4,0,7,1,1,2,0,1,1,1,9,30,0.3,Goldblatt Pavilion,Levi Hall (W),8,49
+Apostolic/Drexel,weekday,0,6,6,0,0,3,0,3,0,0,0,0,0,6,30,0.2,Goldblatt Pavilion,,4,22
+Central,weekday,16,0,0,2,0,0,0,0,0,2,0,0,0,0,30,0.0,,Reynolds Club,0,0
+Central,weekday,18,2,2,9,2,0,0,0,0,0,1,5,3,2,30,0.07,Booth School,Reynolds Club,1,11
+Central,weekday,19,6,6,5,3,0,2,1,0,0,2,2,1,5,30,0.2,Reynolds Club,Reynolds Club,2,11
+Central,weekday,20,2,2,4,1,0,1,0,0,0,2,2,0,2,30,0.07,Booth School,55th Street & Blackstone,2,27
+Central,weekday,21,5,5,1,0,1,1,3,0,0,0,1,0,5,30,0.17,Ellis Ave & 57th St,Ellis/57th,3,38
+Central,weekday,22,6,6,0,0,2,0,4,0,0,0,0,0,6,30,0.2,Ellis Ave & 57th St,,5,68
+Central,weekend,16,1,0,10,0,0,0,0,2,8,0,1,0,0,11,0.0,,Reynolds Club,0,0
+Central,weekend,18,0,0,1,0,0,0,0,0,0,0,0,1,0,11,0.0,,Reynolds Club,0,0
+Central,weekend,19,1,1,1,1,0,0,0,0,1,0,0,0,1,11,0.09,Reynolds Club,Levi Hall (E),0,0
+Central,weekend,20,2,1,1,0,0,1,0,1,0,1,0,0,1,11,0.09,Reynolds Club,55th Street & University,0,0
+Central,weekend,21,7,7,1,0,3,0,4,1,0,0,0,0,7,11,0.64,Ellis Ave & 57th St,,6,52
+Central,weekend,22,3,3,0,0,3,0,0,0,0,0,0,0,3,11,0.27,Reynolds Club,,2,27
+Downtown Campus Connector,weekday,6,2,2,96,0,0,2,0,0,94,0,0,2,2,30,0.07,Logan Center,Gleacher Center,2,0
+Downtown Campus Connector,weekday,7,11,7,60,4,3,0,0,8,47,0,2,7,7,30,0.23,S Michigan Ave/Roosevelt,Rockefeller Chapel,4,15
+Downtown Campus Connector,weekday,8,21,17,11,9,7,0,1,9,4,1,0,1,13,30,0.57,"Unnamed (41.8098, -87.5917)",Roosevelt Station,12,86
+Downtown Campus Connector,weekday,9,12,9,21,4,2,0,3,6,4,8,0,6,7,30,0.3,Goldblatt Pavilion,UCHICAGO Medicine - River East,3,17
+Downtown Campus Connector,weekday,10,104,96,75,46,17,0,33,16,2,13,42,10,30,30,3.2,Rockefeller Chapel,Rockefeller Chapel,60,452
+Downtown Campus Connector,weekday,11,86,84,80,64,10,1,9,8,1,41,30,2,28,30,2.8,Midway Plaisance & Cottage Grove,Rockefeller Chapel,63,351
+Downtown Campus Connector,weekday,12,77,74,76,18,31,1,24,11,0,63,0,5,28,30,2.47,Midway Plaisance & Cottage Grove,Rockefeller Chapel,65,251
+Downtown Campus Connector,weekday,13,72,65,70,40,13,6,6,16,26,27,0,8,30,30,2.17,Midway Plaisance & Cottage Grove,59th & Ellis,58,109
+Downtown Campus Connector,weekday,14,19,10,46,5,4,1,0,25,19,9,0,2,7,30,0.33,E 56th St & S Hyde Park Blvd (SW Corner),Gleacher Center,7,27
+Downtown Campus Connector,weekday,15,20,18,33,5,2,11,0,6,7,16,0,6,10,30,0.6,Rockefeller Chapel,Operator garage,12,48
+Downtown Campus Connector,weekday,16,22,14,20,5,2,7,0,15,5,4,0,4,12,30,0.47,Midway Plaisance & Cottage Grove,Operator garage,12,68
+Downtown Campus Connector,weekday,17,15,13,13,4,2,5,2,8,1,2,0,4,9,30,0.43,Ronald McDonald House & Friend Center,Rockefeller Chapel,10,57
+Downtown Campus Connector,weekday,18,51,45,15,5,12,3,25,14,0,3,3,1,29,30,1.5,Gleacher Center,Rockefeller Chapel,43,321
+Downtown Campus Connector,weekday,19,36,33,17,12,12,1,8,10,0,6,1,3,20,30,1.1,Gleacher Center,Gleacher Center,26,174
+Downtown Campus Connector,weekday,20,31,28,22,12,11,0,5,8,1,14,0,2,20,30,0.93,Rockefeller Chapel,Gleacher Center,17,131
+Downtown Campus Connector,weekday,21,27,23,19,0,11,0,12,11,0,11,0,1,17,30,0.77,Operator garage,Rockefeller Chapel,15,90
+Downtown Campus Connector,weekday,22,70,66,2,0,22,0,44,5,0,1,0,0,30,30,2.2,59th & Ellis,270 m from UCHICAGO Medicine - River East,50,285
+Drexel,weekday,4,0,0,6,0,0,0,0,0,5,0,0,1,0,30,0.0,,Logan Center for Arts,0,0
+Drexel,weekday,5,3,0,22,0,0,0,0,6,16,0,2,1,0,30,0.0,,Drexel Garage,0,0
+Drexel,weekday,6,5,2,7,0,0,2,0,6,2,0,1,1,2,30,0.07,"Unnamed (41.8806, -87.6172)",Logan Center for Arts,2,10
+Drexel,weekday,7,2,1,2,0,0,1,0,2,1,0,0,0,1,30,0.03,Goldblatt Pavilion,Goldblatt Pavilion,1,5
+Drexel,weekday,8,1,0,0,0,0,0,0,1,0,0,0,0,0,30,0.0,,,0,0
+Drexel,weekday,9,16,16,2,1,3,11,1,1,0,0,1,0,16,30,0.53,S Drexel Ave & 57th St,Goldblatt Pavilion,11,58
+Drexel,weekday,10,13,11,0,3,0,8,0,2,0,0,0,0,10,30,0.37,Burton-Judson Courts (NE Corner),,3,32
+East,weekday,4,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0.0,,Operator garage,0,0
+East,weekday,5,1,1,0,1,0,0,0,0,0,0,0,0,1,30,0.03,Operator garage,,0,0
+East,weekday,16,1,1,1,0,0,0,1,0,1,0,0,0,1,30,0.03,Ellis/57th,Reynolds Club,1,10
+East,weekday,18,3,3,7,1,0,1,1,0,1,0,4,2,2,30,0.1,Ellis Ave & 57th St,Reynolds Club,2,22
+East,weekday,19,1,1,5,1,0,0,0,0,0,0,4,1,1,30,0.03,Reynolds Club,Reynolds Club,1,13
+East,weekday,20,7,6,5,3,2,1,0,2,0,2,1,1,5,30,0.2,Reynolds Club,Reynolds Club,4,33
+East,weekday,21,5,5,3,0,1,1,3,0,0,2,1,0,5,30,0.17,Ellis Ave & 57th St,Reynolds Club,5,35
+East,weekday,22,5,5,1,0,1,0,4,0,0,1,0,0,5,30,0.17,Ellis Ave & 57th St,Reynolds Club,4,42
+East,weekend,15,0,0,1,0,0,0,0,0,1,0,0,0,0,11,0.0,,Reynolds Club,0,0
+East,weekend,16,3,1,8,0,0,1,0,3,6,0,0,1,1,11,0.09,Reynolds Club,Reynolds Club,1,12
+East,weekend,17,1,0,2,0,0,0,0,3,0,0,0,0,0,11,0.0,,,0,0
+East,weekend,18,4,0,4,0,0,0,0,7,1,0,0,0,0,11,0.0,,55th Street & University,0,0
+East,weekend,19,5,2,5,2,0,0,0,6,1,0,1,0,2,11,0.18,Booth School,Lake Park & 55th St. (SE Corner),2,9
+East,weekend,20,5,1,6,0,0,0,1,7,0,2,1,0,1,11,0.09,Reynolds Club,Reynolds Club,1,8
+East,weekend,21,7,7,1,0,4,2,1,1,0,0,0,0,6,11,0.64,Ellis Garage & Ratner Athletic (West),,7,73
+East,weekend,22,3,2,2,0,2,0,0,2,0,1,0,0,2,11,0.18,Ellis Garage & Ratner Athletic (West),Smart Museum of Arts,1,13
+East,weekend,23,1,1,0,0,1,0,0,0,0,0,0,0,1,11,0.09,Operator garage,,0,0
+Friend Center/Metra,weekday,5,1,1,1,0,0,1,0,0,1,0,0,0,1,30,0.03,Bernard Mitchell Hospital,Ronald McDonald House & Friend Center,1,8
+Friend Center/Metra,weekday,6,1,1,1,0,0,1,0,0,0,0,1,0,1,30,0.03,Logan Center for Arts,Logan Center for Arts,1,12
+Friend Center/Metra,weekday,7,1,1,1,0,0,0,1,0,0,0,1,0,1,30,0.03,Goldblatt Pavilion,Goldblatt Pavilion,1,12
+Friend Center/Metra,weekday,9,1,1,1,0,1,0,0,0,0,1,0,0,1,30,0.03,Wyler Pavilion,Goldblatt Pavilion,1,10
+Friend Center/Metra,weekday,10,1,1,3,0,1,0,0,0,1,1,1,0,1,30,0.03,Bernard Mitchell Hospital,near Duchossois Center (DCAM),1,4
+Friend Center/Metra,weekday,11,2,2,0,0,1,0,1,0,0,0,0,0,2,30,0.07,Goldblatt Pavilion,,2,21
+Friend Center/Metra,weekday,12,1,1,2,1,0,0,0,0,1,1,0,0,1,30,0.03,Goldblatt Pavilion,Goldblatt Pavilion,1,12
+Friend Center/Metra,weekday,13,2,2,1,0,0,1,1,0,0,0,0,1,2,30,0.07,Goldblatt Pavilion,Goldblatt Pavilion,2,23
+Friend Center/Metra,weekday,17,2,2,3,0,0,2,0,0,0,0,3,0,2,30,0.07,Goldblatt Pavilion,Goldblatt Pavilion,2,15
+Friend Center/Metra,weekday,18,3,3,2,0,0,3,0,0,0,0,1,1,3,30,0.1,Goldblatt Pavilion,Wyler Pavilion,3,21
+Friend Center/Metra,weekday,19,1,1,2,0,0,1,0,0,0,0,2,0,1,30,0.03,S Drexel Ave & 57th St,Bernard Mitchell Hospital,1,9
+Friend Center/Metra,weekday,20,0,0,1,0,0,0,0,0,0,0,1,0,0,30,0.0,,Bernard Mitchell Hospital,0,0
+Friend Center/Metra,weekday,21,1,1,0,0,1,0,0,0,0,0,0,0,1,30,0.03,Operator garage,,1,10
+Friend Center/Metra,weekday,22,1,1,0,0,1,0,0,0,0,0,0,0,1,30,0.03,Hyde Park Shopping Center (S),,1,2
+Midway Metra,weekday,6,2,1,26,0,0,1,0,2,25,0,0,0,1,30,0.03,Operator garage,Stony Island Parking Lot,0,0
+Midway Metra,weekday,7,3,3,8,0,1,2,0,0,8,0,0,0,3,30,0.1,Logan Center,60th St. & Woodlawn Ave (SE Corner),3,33
+Midway Metra,weekday,8,1,0,1,0,0,0,0,1,1,0,0,0,0,30,0.0,,Logan Center for Arts,0,0
+Midway Metra,weekday,9,25,20,4,3,0,15,2,9,0,0,0,0,20,30,0.67,Midway Plaisance & Cottage Grove,,19,229
+Midway Metra,weekday,10,9,9,1,0,0,9,0,0,0,1,0,0,9,30,0.3,Midway Plaisance & Cottage Grove,Midway Plaisance & Cottage Grove,3,29
+Midway Metra,weekday,15,0,0,13,0,0,0,0,0,6,4,1,2,0,30,0.0,,Goldblatt Pavilion,0,0
+Midway Metra,weekday,16,1,1,13,0,0,0,1,0,6,1,4,2,1,30,0.03,59th & Ellis,Goldblatt Pavilion,1,12
+Midway Metra,weekday,17,2,2,2,1,1,0,0,0,0,0,2,0,2,30,0.07,300 m from Stony Island Parking Lot,57th St. & Metra (SB),2,25
+Midway Metra,weekday,18,22,16,5,2,1,9,4,8,2,0,0,1,16,30,0.53,Goldblatt Pavilion,Press Building,11,107
+Midway Metra,weekday,19,12,12,4,1,5,4,2,3,0,0,0,1,12,30,0.4,Midway Plaisance & Cottage Grove,60th & Cottage Grove,9,63
+Midway Metra,weekday,20,0,0,1,0,0,0,0,0,0,1,0,0,0,30,0.0,,Operator garage,0,0
+Midway Metra,weekday,21,1,1,0,0,0,1,0,0,0,0,0,0,1,30,0.03,Rockefeller Chapel,,0,0
+North,weekday,16,1,1,1,0,0,0,1,0,1,0,0,0,1,30,0.03,Ellis Ave & 57th St,Reynolds Club,1,3
+North,weekday,18,1,0,3,0,0,0,0,1,0,0,2,1,0,30,0.0,,Reynolds Club,0,0
+North,weekday,19,5,5,5,3,1,1,0,0,0,2,3,0,5,30,0.17,Ellis/57th,Reynolds Club,5,21
+North,weekday,20,3,3,3,0,0,2,1,0,0,0,1,2,3,30,0.1,55th Street & University,Reynolds Club,3,18
+North,weekday,21,2,2,2,0,0,2,0,0,1,0,1,0,2,30,0.07,Rockefeller Chapel,"Unnamed (41.8077, -87.5976)",2,14
+North,weekday,22,2,2,2,0,0,1,1,0,0,1,1,0,2,30,0.07,Ellis Garage & Ratner Athletic (West),Ellis Ave & 57th St,2,8
+North,weekday,23,2,2,0,0,1,0,1,0,0,0,0,0,2,30,0.07,Ellis Ave & 57th St,,2,8
+North,weekend,16,0,0,6,0,0,0,0,0,5,0,0,1,0,11,0.0,,Reynolds Club,0,0
+North,weekend,17,1,0,1,0,0,0,0,2,0,0,0,0,0,11,0.0,,,0,0
+North,weekend,18,2,1,1,0,0,0,1,2,0,0,0,0,1,11,0.09,Reynolds Club,,1,1
+North,weekend,19,1,1,0,0,0,1,0,0,0,0,0,0,1,11,0.09,55th Street & University,,0,0
+North,weekend,20,2,1,2,1,0,0,0,2,1,0,0,0,1,11,0.09,Booth School,310 m from Kimbark Plaza (NE Corner),1,2
+North,weekend,21,5,5,1,0,3,1,1,0,0,0,1,0,5,11,0.45,420 m from Ellis & 53rd St.,"Unnamed (41.8076, -87.6039)",4,24
+North,weekend,22,1,1,1,0,0,1,0,0,0,1,0,0,1,11,0.09,Reynolds Club,Ronald McDonald House & Friend Center,1,4
+Red Line/Arts Block,weekday,6,0,0,22,0,0,0,0,0,17,0,0,5,0,30,0.0,,Logan Center,0,0
+Red Line/Arts Block,weekday,7,0,0,8,0,0,0,0,0,7,0,1,0,0,30,0.0,,near Washington Park Arts Incubator,0,0
+Red Line/Arts Block,weekday,9,0,0,1,0,0,0,0,0,0,0,1,0,0,30,0.0,,Logan Center,0,0
+Red Line/Arts Block,weekday,10,33,30,32,21,4,3,2,8,0,0,12,15,23,30,1.0,Logan Center,Logan Center,28,252
+Red Line/Arts Block,weekday,11,52,49,24,6,10,20,13,13,0,11,1,2,27,30,1.63,Garfield Green Line Station,Garfield Green Line Station,45,316
+Red Line/Arts Block,weekday,12,2,2,1,0,0,2,0,0,0,1,0,0,2,30,0.07,580 m from UCHICAGO Medicine - South Loop,Midway Plaisance & Cottage Grove,2,17
+Red Line/Arts Block,weekday,13,8,8,24,7,1,0,0,0,1,22,0,1,8,30,0.27,160 m from Garfield & Wabash (WB),Operator garage,7,28
+Red Line/Arts Block,weekday,14,19,19,7,14,1,4,0,7,0,0,0,0,17,30,0.63,170 m from Garfield & Wabash (WB),,18,112
+Red Line/Arts Block,weekday,15,3,1,25,0,0,1,0,4,15,5,0,3,1,30,0.03,Burton-Judson Courts (NE Corner),Operator garage,0,0
+Red Line/Arts Block,weekday,16,9,5,16,1,0,4,0,8,8,2,0,2,3,30,0.17,Levi Hall (E),Garfield Red Line Station (WB),5,39
+Red Line/Arts Block,weekday,17,8,3,6,0,0,3,0,10,0,0,0,1,2,30,0.1,Logan Center,59th & Ellis,3,32
+Red Line/Arts Block,weekday,18,4,4,3,2,0,1,1,1,0,0,1,1,4,30,0.13,Logan Center for Arts,60th & Cottage Grove,1,9
+Red Line/Arts Block,weekday,19,5,5,20,2,1,2,0,0,1,4,14,1,5,30,0.17,59th & Ellis,Logan Center,2,19
+Red Line/Arts Block,weekday,20,25,23,5,1,6,5,11,3,0,4,0,0,18,30,0.77,Garfield Green Line Station,59th & Ellis,18,91
+Red Line/Arts Block,weekday,21,28,28,2,0,11,2,15,2,0,0,0,0,19,30,0.93,Garfield & Wabash (WB),,24,162
+South,weekday,15,0,0,1,0,0,0,0,0,1,0,0,0,0,30,0.0,,60th St. & Woodlawn Ave (SE Corner),0,0
+South,weekday,16,0,0,1,0,0,0,0,0,0,0,0,1,0,30,0.0,,Burton-Judson Courts (NE Corner),0,0
+South,weekday,17,1,1,0,1,0,0,0,0,0,0,0,0,1,30,0.03,Reynolds Club,,1,15
+South,weekday,20,1,1,0,0,1,0,0,0,0,0,0,0,1,30,0.03,Burton-Judson Courts (NE Corner),,1,10
+South,weekday,21,7,5,16,0,4,0,1,3,1,1,11,2,5,30,0.17,Burton-Judson Courts (NE Corner),Burton-Judson Courts (NE Corner),5,64
+South,weekday,22,12,10,4,0,2,0,8,3,0,1,0,2,10,30,0.33,59th & Ellis,Reynolds Club,10,111
+South,weekday,23,3,3,2,0,1,1,1,1,0,0,1,0,3,30,0.1,Ellis/57th,Rockefeller Chapel,3,32
+South,weekday,0,0,0,1,0,0,0,0,1,0,0,0,0,0,30,0.0,,,0,0
+South,weekend,21,1,1,1,0,0,0,1,0,0,0,1,0,1,11,0.09,Reynolds Club,South Campus Resident Hall,1,16
+South Loop Shuttle,weekday,21,1,1,1,0,1,0,0,0,0,0,0,1,1,30,0.03,Reynolds Club,Reynolds Club,1,4

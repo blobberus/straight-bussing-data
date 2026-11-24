@@ -1,4 +1,22 @@
 entry,item,title,status,first line
+DC-030,,"South's Logan Center and Regents Express's Regents Park Apartments logged: the closest-approach rule (source `approach`, fixed); a week's replay adds 134 rows and changes no other row",,"Owner (2026-11-17): ""resolve all issues and things addressed to me on my behalf"". The lead decided DC-027 item 4 on"
+DC-030,1,"The rule (`Tracker._closest_row`, `tools/arrival_detector.py`; constants `APPROACH_*` in `tools/arrivals_lib.py`).","`Tracker._closest_row`, `tools/arrival_detector.py`; constants `APPROACH_*` in `tools/arrivals_lib.py`",
+DC-030,3,"What changed from DC-027's proposal, and why.",,
+DC-030,4,Every reader of `source` and of the row schema.,,Changed: `tools/db_audit.py` (`SOURCES`: an unknown source was
+DC-030,5,Tests.,,`tools/test_truth.py` 73 (61 before): a stop passed 85 m off with a late switch (one row at the closest
+DC-030,6,"Backfill (add-only), Wed Nov 18 5:55 AM: data branch `5cdefd10`.",,Every day whose run artifacts are still kept
+DC-030,7,Live.,,"Main reached `72231765` / `975ae8fc` at 12:14 AM Wed Nov 18. The first run on it (`44253452893`, 12:43"
+DC-030,8,"First evening, Wed Nov 18 (rows merged to 10:27 PM).",rows merged to 10:27 PM,17 live `approach` rows: South at Logan Center 8 (13 rows
+DC-029,,"Checkup 2026-11-17: healthy, no gap since Monday noon; DC-028's fixes held (no run needed the hold, the fallback tag follows main); the Collector tests workflow red since Nov 16 (a test hook Linux ignored: fixed); South's Tuesday evening driven under Apostolic/Drexel's label (accepted); an East alert filed under North's id (Passio's side)",Passio's side,"Owner (2026-11-17): ""Run a data collection [check] and resolve all issues"". This entry is the checkup of both"
+DC-029,1,"Collector: healthy, no gap.",,
+DC-029,2,DC-028's fixes over a full day: all held; none had to act.,,
+DC-029,3,Database: the whole-database audit is clean.,,`python tools/db_audit.py --mirror <data repo clone>` (data branch at
+DC-029,4,"Every line, Mon Nov 16 (whole day) and Tue Nov 17 (to 11:20 PM)",to 11:20 PM,(DC-027 item 3's form). Per line: arrivals against
+DC-029,5,Tue Nov 17: South's evening under Apostolic/Drexel's label (accepted: Passio's label).,accepted: Passio's label,
+DC-029,6,"Tue Nov 17, 4:10 PM: an alert about East filed under North's id (Passio's side).",Passio's side,
+DC-029,7,The Collector tests workflow was red since Mon 4:13 PM (fixed).,fixed,
+DC-029,8,"DC-028's open rows, with the new days.",,
+DC-029,9,"Archives: Nov 16 on `data-archive-2026-11`, all six file kinds.",,"By the schedule Tue 1:20 PM (`44157539704`, 8 h"
 DC-028,,"Checkup 2026-11-16: a 46-minute gap Monday noon (GitHub kept the chain's next run queued 75 min: fixed, a run now holds); South's and Regents Express's Friday evening under another label or missing (accepted; a line that logs nothing is now flagged); the lockstep fix held",,"Owner (2026-11-16): ""Run a collector check and make changes as needed to fix any errors."" This entry is the checkup of"
 DC-028,1,"Collector: healthy, except one 46-minute gap on Monday (item 5).",item 5,
 DC-028,2,Database: the whole-database audit is clean once Monday's gap and Friday's two lines are explained.,,

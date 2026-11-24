@@ -1,17 +1,17 @@
 {
- "run_utc": "2026-11-17T01:02Z",
+ "run_utc": "2026-11-24T03:28Z",
  "data_from": "2026-10-10",
- "data_to": "2026-11-15",
- "days": 37,
- "train_to": "2026-11-08",
+ "data_to": "2026-11-22",
+ "days": 44,
+ "train_to": "2026-11-15",
  "test_days": [
-  "2026-11-09",
-  "2026-11-10",
-  "2026-11-11",
-  "2026-11-12",
-  "2026-11-13",
-  "2026-11-14",
-  "2026-11-15"
+  "2026-11-16",
+  "2026-11-17",
+  "2026-11-18",
+  "2026-11-19",
+  "2026-11-20",
+  "2026-11-21",
+  "2026-11-22"
  ],
  "ready_signals": [],
  "readiness_rule": {
@@ -24,18 +24,18 @@
  },
  "transitions": {
   "leave": {
-   "shift_end": 263,
-   "feed_drop": 242,
-   "route_switch": 221,
-   "layover_swap": 227,
-   "break": 304
+   "shift_end": 297,
+   "feed_drop": 303,
+   "route_switch": 268,
+   "layover_swap": 279,
+   "break": 361
   },
   "add": {
-   "added_from_garage": 382,
-   "added_from_route": 190,
-   "layover_swap": 273,
-   "unknown": 137,
-   "added_from_break": 295
+   "added_from_garage": 461,
+   "added_from_route": 241,
+   "layover_swap": 321,
+   "unknown": 150,
+   "added_from_break": 355
   }
  },
  "end_of_service_source": "rebuilt this run",
@@ -50,32 +50,32 @@
    "display"
   ],
   "failed": {},
-  "active": 143
+  "active": 150
  },
  "service_seen": {
   "file": "findings/service_seen/service_seen.json",
   "from": "2026-10-10",
-  "to": "2026-11-15",
-  "days": 37,
+  "to": "2026-11-20",
+  "days": 42,
   "lines": 14,
-  "transitions": 38,
-  "valid_until": "2026-12-30"
+  "transitions": 40,
+  "valid_until": "2027-01-04"
  },
  "hidden_buses": {
   "file": "findings/hidden_buses/hidden_buses.csv",
-  "rules": "main@9edbb64",
-  "days": 37,
+  "rules": "main@8e1fa77",
+  "days": 44,
   "from": "2026-10-10",
-  "to": "2026-11-15",
+  "to": "2026-11-22",
   "not_replayed": [],
   "all_days_replayed": true,
   "episodes": {
-   "off_route": 1337,
-   "idle": 130,
-   "gone": 217,
-   "held": 203,
-   "transitioning": 353,
-   "not_operating": 43
+   "off_route": 1545,
+   "idle": 154,
+   "gone": 251,
+   "held": 233,
+   "transitioning": 417,
+   "not_operating": 54
   }
  }
 }

@@ -1,481 +1,481 @@
 period,route_id,route,measure,value,baseline,ratio,excess,numerator,denominator,unit,events,days,days_over_high,days_over_medium,days_over_low,grade,data_from,data_to
-all,4346,53rd Street Express,double_logged_visits,0.018,0.061,0.289,-0.043,2,11415,arrival rows,2,27,2,2,2,,2026-10-08,2026-11-15
-all,5702,Apostolic,double_logged_visits,0.074,0.061,1.214,0.013,5,6780,arrival rows,5,27,5,5,5,,2026-10-08,2026-11-15
-all,6126,Apostolic/Drexel,double_logged_visits,0.018,0.061,0.302,-0.042,3,16371,arrival rows,3,27,3,3,3,,2026-10-08,2026-11-15
-all,1078,Central,double_logged_visits,0.023,0.061,0.374,-0.038,2,8813,arrival rows,2,39,2,2,2,,2026-10-08,2026-11-15
-all,5704,Downtown Campus Connector,double_logged_visits,0.17,0.061,2.792,0.109,23,13567,arrival rows,23,27,17,17,17,,2026-10-08,2026-11-15
-all,5701,Drexel,double_logged_visits,0.183,0.061,3.02,0.123,9,4908,arrival rows,9,27,7,7,7,,2026-10-08,2026-11-15
-all,1077,East,double_logged_visits,0.063,0.061,1.043,0.003,5,7892,arrival rows,5,39,5,5,5,,2026-10-08,2026-11-15
-all,5700,Friend Center/Metra,double_logged_visits,0.022,0.061,0.366,-0.038,2,8999,arrival rows,2,27,2,2,2,,2026-10-08,2026-11-15
-all,5703,Midway Metra,double_logged_visits,0.026,0.061,0.43,-0.035,3,11496,arrival rows,3,27,3,3,3,,2026-10-08,2026-11-15
-all,1075,North,double_logged_visits,0.073,0.061,1.207,0.013,3,4092,arrival rows,3,39,3,3,3,,2026-10-08,2026-11-15
-all,5699,Red Line/Arts Block,double_logged_visits,0.033,0.061,0.55,-0.027,5,14975,arrival rows,5,28,4,4,4,,2026-10-08,2026-11-15
-all,5715,Regents Express,double_logged_visits,0.112,0.061,1.848,0.052,1,891,arrival rows,1,26,1,1,1,,2026-10-08,2026-11-15
-all,1076,South,double_logged_visits,0.094,0.061,1.547,0.033,6,6388,arrival rows,6,39,6,6,6,,2026-10-08,2026-11-15
-all,5716,South Loop Shuttle,double_logged_visits,0.597,0.061,9.832,0.536,2,335,arrival rows,2,12,1,1,1,,2026-10-08,2026-11-15
-all,ALL,All lines,double_logged_visits,0.061,0.061,1,0,71,116922,arrival rows,71,39,,,,,2026-10-08,2026-11-15
-all,4346,53rd Street Express,feed_skipped_stops,1.244,7.81,0.159,-6.566,142,11415,arrival rows,142,27,0,0,1,,2026-10-08,2026-11-15
-all,5702,Apostolic,feed_skipped_stops,3.599,7.81,0.461,-4.212,244,6780,arrival rows,244,27,1,1,2,,2026-10-08,2026-11-15
-all,6126,Apostolic/Drexel,feed_skipped_stops,4.734,7.81,0.606,-3.076,775,16371,arrival rows,775,27,1,3,4,,2026-10-08,2026-11-15
-all,1078,Central,feed_skipped_stops,5.662,7.81,0.725,-2.148,499,8813,arrival rows,499,39,2,4,6,,2026-10-08,2026-11-15
-all,5704,Downtown Campus Connector,feed_skipped_stops,14.638,7.81,1.874,6.828,1986,13567,arrival rows,1986,27,12,21,21,medium,2026-10-08,2026-11-15
-all,5701,Drexel,feed_skipped_stops,5.134,7.81,0.657,-2.676,252,4908,arrival rows,252,27,2,2,4,,2026-10-08,2026-11-15
-all,1077,East,feed_skipped_stops,6.564,7.81,0.84,-1.247,518,7892,arrival rows,518,39,4,9,11,,2026-10-08,2026-11-15
-all,5700,Friend Center/Metra,feed_skipped_stops,2.511,7.81,0.322,-5.299,226,8999,arrival rows,226,27,0,0,0,,2026-10-08,2026-11-15
-all,5703,Midway Metra,feed_skipped_stops,4.636,7.81,0.594,-3.174,533,11496,arrival rows,533,27,0,1,1,,2026-10-08,2026-11-15
-all,1075,North,feed_skipped_stops,3.348,7.81,0.429,-4.462,137,4092,arrival rows,137,39,1,2,6,,2026-10-08,2026-11-15
-all,5699,Red Line/Arts Block,feed_skipped_stops,7.566,7.81,0.969,-0.244,1133,14975,arrival rows,1133,28,0,3,6,,2026-10-08,2026-11-15
-all,5715,Regents Express,feed_skipped_stops,17.172,7.81,2.199,9.361,153,891,arrival rows,153,26,15,19,22,medium,2026-10-08,2026-11-15
-all,1076,South,feed_skipped_stops,38.056,7.81,4.872,30.245,2431,6388,arrival rows,2431,39,37,37,37,high,2026-10-08,2026-11-15
-all,5716,South Loop Shuttle,feed_skipped_stops,30.746,7.81,3.937,22.936,103,335,arrival rows,103,12,11,11,11,high,2026-10-08,2026-11-15
-all,ALL,All lines,feed_skipped_stops,7.81,7.81,1,0,9132,116922,arrival rows,9132,39,,,,,2026-10-08,2026-11-15
-all,4346,53rd Street Express,frozen_gps,0,0.243,0,-0.243,0,21713.1,bus-minutes under the line's label,0,26,0,0,0,,2026-10-10,2026-11-15
-all,5702,Apostolic,frozen_gps,0,0.243,0,-0.243,0,21167.5,bus-minutes under the line's label,0,25,0,0,0,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,frozen_gps,0,0.243,0,-0.243,0,45241.9,bus-minutes under the line's label,0,26,0,0,0,,2026-10-10,2026-11-15
-all,1078,Central,frozen_gps,0,0.243,0,-0.243,0,21976.3,bus-minutes under the line's label,0,37,0,0,0,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,frozen_gps,0.839,0.243,3.452,0.596,950.8,113307.5,bus-minutes under the line's label,16,25,4,5,5,medium,2026-10-10,2026-11-15
-all,5701,Drexel,frozen_gps,0,0.243,0,-0.243,0,15571.1,bus-minutes under the line's label,0,25,0,0,0,,2026-10-10,2026-11-15
-all,1077,East,frozen_gps,0,0.243,0,-0.243,0,20417.2,bus-minutes under the line's label,0,37,0,0,0,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,frozen_gps,0,0.243,0,-0.243,0,22930.1,bus-minutes under the line's label,0,25,0,0,0,,2026-10-10,2026-11-15
-all,5703,Midway Metra,frozen_gps,0,0.243,0,-0.243,0,21730.3,bus-minutes under the line's label,0,25,0,0,0,,2026-10-10,2026-11-15
-all,1075,North,frozen_gps,0,0.243,0,-0.243,0,19241.8,bus-minutes under the line's label,0,37,0,0,0,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,frozen_gps,0,0.243,0,-0.243,0,40127.5,bus-minutes under the line's label,0,28,0,0,0,,2026-10-10,2026-11-15
-all,5715,Regents Express,frozen_gps,0,0.243,0,-0.243,0,5344.6,bus-minutes under the line's label,0,25,0,0,0,,2026-10-10,2026-11-15
-all,1076,South,frozen_gps,0,0.243,0,-0.243,0,17881.6,bus-minutes under the line's label,0,37,0,0,0,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,frozen_gps,0,0.243,0,-0.243,0,4482.7,bus-minutes under the line's label,0,16,0,0,0,,2026-10-10,2026-11-15
-all,ALL,All lines,frozen_gps,0.243,0.243,1,0,950.8,391132.9,bus-minutes under the line's label,16,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,gps_only_rows,2.865,8.846,0.324,-5.981,327,11415,arrival rows,327,27,2,2,2,,2026-10-08,2026-11-15
-all,5702,Apostolic,gps_only_rows,2.979,8.846,0.337,-5.867,202,6780,arrival rows,202,27,0,0,0,,2026-10-08,2026-11-15
-all,6126,Apostolic/Drexel,gps_only_rows,3.085,8.846,0.349,-5.761,505,16371,arrival rows,505,27,1,1,1,,2026-10-08,2026-11-15
-all,1078,Central,gps_only_rows,18.461,8.846,2.087,9.615,1627,8813,arrival rows,1627,39,23,28,30,medium,2026-10-08,2026-11-15
-all,5704,Downtown Campus Connector,gps_only_rows,9.567,8.846,1.082,0.721,1298,13567,arrival rows,1298,27,1,7,11,,2026-10-08,2026-11-15
-all,5701,Drexel,gps_only_rows,3.158,8.846,0.357,-5.688,155,4908,arrival rows,155,27,0,1,1,,2026-10-08,2026-11-15
-all,1077,East,gps_only_rows,1.977,8.846,0.223,-6.869,156,7892,arrival rows,156,39,0,0,1,,2026-10-08,2026-11-15
-all,5700,Friend Center/Metra,gps_only_rows,4.578,8.846,0.518,-4.268,412,8999,arrival rows,412,27,1,2,3,,2026-10-08,2026-11-15
-all,5703,Midway Metra,gps_only_rows,3.74,8.846,0.423,-5.106,430,11496,arrival rows,430,27,0,1,1,,2026-10-08,2026-11-15
-all,1075,North,gps_only_rows,3.152,8.846,0.356,-5.694,129,4092,arrival rows,129,39,2,2,2,,2026-10-08,2026-11-15
-all,5699,Red Line/Arts Block,gps_only_rows,26.023,8.846,2.942,17.177,3897,14975,arrival rows,3897,28,22,25,25,high,2026-10-08,2026-11-15
-all,5715,Regents Express,gps_only_rows,14.366,8.846,1.624,5.52,128,891,arrival rows,128,26,7,14,15,medium,2026-10-08,2026-11-15
-all,1076,South,gps_only_rows,16.609,8.846,1.878,7.763,1061,6388,arrival rows,1061,39,11,11,11,medium,2026-10-08,2026-11-15
-all,5716,South Loop Shuttle,gps_only_rows,4.776,8.846,0.54,-4.07,16,335,arrival rows,16,12,1,1,2,,2026-10-08,2026-11-15
-all,ALL,All lines,gps_only_rows,8.846,8.846,1,0,10343,116922,arrival rows,10343,39,,,,,2026-10-08,2026-11-15
-all,4346,53rd Street Express,listed_stops_not_driven,0,1.266,0,-1.266,0,16,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5702,Apostolic,listed_stops_not_driven,0,1.266,0,-1.266,0,10,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,1078,Central,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5701,Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,1077,East,listed_stops_not_driven,0,1.266,0,-1.266,0,13,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5703,Midway Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,1075,North,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,listed_stops_not_driven,0,1.266,0,-1.266,0,11,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,5715,Regents Express,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,1076,South,listed_stops_not_driven,12.5,1.266,9.875,11.234,2,16,stops of the line's route order,2,37,,,,low,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,listed_stops_not_driven,0,1.266,0,-1.266,0,5,stops of the line's route order,0,37,,,,,2026-10-10,2026-11-15
-all,ALL,All lines,listed_stops_not_driven,1.266,1.266,1,0,2,158,stops of the line's route order,2,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,listed_time_no_bus,7.563,8.154,0.927,-0.592,139,1838,listed 10-min bins with the feed alive,139,25,1,1,3,,2026-10-10,2026-11-15
-all,5702,Apostolic,listed_time_no_bus,5.75,8.154,0.705,-2.404,46,800,listed 10-min bins with the feed alive,46,25,2,3,3,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,listed_time_no_bus,1.536,8.154,0.188,-6.618,33,2148,listed 10-min bins with the feed alive,33,25,0,0,0,,2026-10-10,2026-11-15
-all,1078,Central,listed_time_no_bus,2.645,8.154,0.324,-5.509,42,1588,listed 10-min bins with the feed alive,42,37,2,3,3,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,listed_time_no_bus,9.743,8.154,1.195,1.589,258,2648,listed 10-min bins with the feed alive,258,25,0,1,13,,2026-10-10,2026-11-15
-all,5701,Drexel,listed_time_no_bus,1.806,8.154,0.222,-6.348,14,775,listed 10-min bins with the feed alive,14,25,1,1,1,,2026-10-10,2026-11-15
-all,1077,East,listed_time_no_bus,6.888,8.154,0.845,-1.267,133,1931,listed 10-min bins with the feed alive,133,37,3,5,9,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,listed_time_no_bus,15.971,8.154,1.959,7.817,440,2755,listed 10-min bins with the feed alive,440,37,12,13,13,medium,2026-10-10,2026-11-15
-all,5703,Midway Metra,listed_time_no_bus,17.278,8.154,2.119,9.124,245,1418,listed 10-min bins with the feed alive,245,25,18,20,21,medium,2026-10-10,2026-11-15
-all,1075,North,listed_time_no_bus,8.856,8.154,1.086,0.701,171,1931,listed 10-min bins with the feed alive,171,37,4,10,11,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,listed_time_no_bus,2.426,8.154,0.297,-5.729,53,2185,listed 10-min bins with the feed alive,53,25,0,0,1,,2026-10-10,2026-11-15
-all,5715,Regents Express,listed_time_no_bus,16.819,8.154,2.063,8.665,92,547,listed 10-min bins with the feed alive,92,25,8,8,8,medium,2026-10-10,2026-11-15
-all,1076,South,listed_time_no_bus,8.907,8.154,1.092,0.753,172,1931,listed 10-min bins with the feed alive,172,37,6,11,13,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,listed_time_no_bus,7.333,8.154,0.899,-0.821,33,450,listed 10-min bins with the feed alive,33,11,1,2,4,,2026-10-10,2026-11-15
-all,ALL,All lines,listed_time_no_bus,8.154,8.154,1,0,1871,22945,listed 10-min bins with the feed alive,1871,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,no_passio_time,7.698,12.435,0.619,-4.736,770,10002,non-gps arrival rows since Oct 12 noon,770,25,0,0,1,,2026-10-12,2026-11-15
-all,5702,Apostolic,no_passio_time,10.575,12.435,0.85,-1.86,620,5863,non-gps arrival rows since Oct 12 noon,620,24,2,3,6,,2026-10-12,2026-11-15
-all,6126,Apostolic/Drexel,no_passio_time,12.155,12.435,0.978,-0.28,1800,14809,non-gps arrival rows since Oct 12 noon,1800,25,1,5,5,,2026-10-12,2026-11-15
-all,1078,Central,no_passio_time,12.714,12.435,1.022,0.28,809,6363,non-gps arrival rows since Oct 12 noon,809,35,3,5,7,,2026-10-12,2026-11-15
-all,5704,Downtown Campus Connector,no_passio_time,25.129,12.435,2.021,12.694,2833,11274,non-gps arrival rows since Oct 12 noon,2833,25,13,13,14,high,2026-10-12,2026-11-15
-all,5701,Drexel,no_passio_time,12.646,12.435,1.017,0.211,542,4286,non-gps arrival rows since Oct 12 noon,542,24,4,7,8,,2026-10-12,2026-11-15
-all,1077,East,no_passio_time,16.965,12.435,1.364,4.531,1155,6808,non-gps arrival rows since Oct 12 noon,1155,35,13,19,20,low,2026-10-12,2026-11-15
-all,5700,Friend Center/Metra,no_passio_time,5.6,12.435,0.45,-6.835,431,7697,non-gps arrival rows since Oct 12 noon,431,25,0,0,0,,2026-10-12,2026-11-15
-all,5703,Midway Metra,no_passio_time,9.141,12.435,0.735,-3.294,914,9999,non-gps arrival rows since Oct 12 noon,914,25,2,3,3,,2026-10-12,2026-11-15
-all,1075,North,no_passio_time,21.163,12.435,1.702,8.729,746,3525,non-gps arrival rows since Oct 12 noon,746,35,18,21,22,medium,2026-10-12,2026-11-15
-all,5699,Red Line/Arts Block,no_passio_time,8.905,12.435,0.716,-3.53,908,10197,non-gps arrival rows since Oct 12 noon,908,25,0,0,0,,2026-10-12,2026-11-15
-all,5715,Regents Express,no_passio_time,14.727,12.435,1.184,2.292,105,713,non-gps arrival rows since Oct 12 noon,105,24,3,7,7,,2026-10-12,2026-11-15
-all,1076,South,no_passio_time,6.273,12.435,0.505,-6.161,302,4814,non-gps arrival rows since Oct 12 noon,302,35,0,1,4,,2026-10-12,2026-11-15
-all,5716,South Loop Shuttle,no_passio_time,28.521,12.435,2.294,16.087,81,284,non-gps arrival rows since Oct 12 noon,81,10,7,7,7,medium,2026-10-12,2026-11-15
-all,ALL,All lines,no_passio_time,12.435,12.435,1,0,12016,96634,non-gps arrival rows since Oct 12 noon,12016,35,,,,,2026-10-12,2026-11-15
-all,4346,53rd Street Express,report_gaps,0.203,1.757,0.116,-1.554,44.1,21713.1,bus-minutes under the line's label,17,26,0,0,0,,2026-10-10,2026-11-15
-all,5702,Apostolic,report_gaps,2.022,1.757,1.151,0.265,427.9,21167.5,bus-minutes under the line's label,113,25,6,12,12,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,report_gaps,2.4,1.757,1.366,0.643,1085.6,45241.9,bus-minutes under the line's label,238,26,6,6,6,low,2026-10-10,2026-11-15
-all,1078,Central,report_gaps,2.364,1.757,1.345,0.607,519.5,21976.3,bus-minutes under the line's label,159,37,8,9,9,low,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,report_gaps,3.019,1.757,1.718,1.262,3420.6,113307.5,bus-minutes under the line's label,632,25,5,5,6,medium,2026-10-10,2026-11-15
-all,5701,Drexel,report_gaps,0.525,1.757,0.299,-1.232,81.8,15571.1,bus-minutes under the line's label,22,25,1,2,3,,2026-10-10,2026-11-15
-all,1077,East,report_gaps,2.111,1.757,1.201,0.354,430.9,20417.2,bus-minutes under the line's label,108,37,7,8,8,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,report_gaps,0.541,1.757,0.308,-1.216,123.9,22930.1,bus-minutes under the line's label,33,25,1,2,2,,2026-10-10,2026-11-15
-all,5703,Midway Metra,report_gaps,0.675,1.757,0.384,-1.082,146.6,21730.3,bus-minutes under the line's label,35,25,2,2,2,,2026-10-10,2026-11-15
-all,1075,North,report_gaps,1.289,1.757,0.734,-0.468,248,19241.8,bus-minutes under the line's label,65,37,2,2,3,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,report_gaps,0.343,1.757,0.195,-1.414,137.7,40127.5,bus-minutes under the line's label,39,28,0,1,1,,2026-10-10,2026-11-15
-all,5715,Regents Express,report_gaps,0.821,1.757,0.468,-0.935,43.9,5344.6,bus-minutes under the line's label,14,25,2,2,2,,2026-10-10,2026-11-15
-all,1076,South,report_gaps,0.589,1.757,0.335,-1.168,105.2,17881.6,bus-minutes under the line's label,32,37,2,2,3,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,report_gaps,1.241,1.757,0.707,-0.515,55.7,4482.7,bus-minutes under the line's label,18,16,1,1,1,,2026-10-10,2026-11-15
-all,ALL,All lines,report_gaps,1.757,1.757,1,0,6871.5,391132.9,bus-minutes under the line's label,1525,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,row_time_off_gps,0.179,0.539,0.333,-0.36,18,10041,logged stop visits driven past (GPS),18,25,0,0,0,,2026-10-10,2026-11-15
-all,5702,Apostolic,row_time_off_gps,0.128,0.539,0.237,-0.411,6,4687,logged stop visits driven past (GPS),6,25,0,1,1,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,row_time_off_gps,0.152,0.539,0.283,-0.387,18,11808,logged stop visits driven past (GPS),18,25,0,0,0,,2026-10-10,2026-11-15
-all,1078,Central,row_time_off_gps,0.476,0.539,0.883,-0.063,34,7140,logged stop visits driven past (GPS),34,37,7,8,9,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,row_time_off_gps,0.173,0.539,0.32,-0.366,16,9269,logged stop visits driven past (GPS),16,25,0,0,1,,2026-10-10,2026-11-15
-all,5701,Drexel,row_time_off_gps,1.393,0.539,2.584,0.854,52,3733,logged stop visits driven past (GPS),52,25,14,15,15,,2026-10-10,2026-11-15
-all,1077,East,row_time_off_gps,0.015,0.539,0.028,-0.524,1,6546,logged stop visits driven past (GPS),1,37,0,0,0,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,row_time_off_gps,0.192,0.539,0.356,-0.347,13,6780,logged stop visits driven past (GPS),13,25,0,0,0,,2026-10-10,2026-11-15
-all,5703,Midway Metra,row_time_off_gps,0.161,0.539,0.298,-0.379,15,9341,logged stop visits driven past (GPS),15,25,0,0,1,,2026-10-10,2026-11-15
-all,1075,North,row_time_off_gps,0.091,0.539,0.168,-0.448,3,3303,logged stop visits driven past (GPS),3,37,1,2,3,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,row_time_off_gps,2.306,0.539,4.278,1.767,319,13833,logged stop visits driven past (GPS),319,25,24,24,25,low,2026-10-10,2026-11-15
-all,5715,Regents Express,row_time_off_gps,0,0.539,0,-0.539,0,792,logged stop visits driven past (GPS),0,24,0,0,0,,2026-10-10,2026-11-15
-all,1076,South,row_time_off_gps,0.102,0.539,0.19,-0.437,6,5859,logged stop visits driven past (GPS),6,37,0,0,0,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,row_time_off_gps,1.149,0.539,2.132,0.61,2,174,logged stop visits driven past (GPS),2,11,2,2,2,,2026-10-10,2026-11-15
-all,ALL,All lines,row_time_off_gps,0.539,0.539,1,0,503,93306,logged stop visits driven past (GPS),503,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,rows_outside_hours,0,0.701,0,-0.701,0,10993,arrival rows on days with a timetable,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5702,Apostolic,rows_outside_hours,0.795,0.701,1.134,0.094,52,6537,arrival rows on days with a timetable,52,26,5,6,7,,2026-10-09,2026-11-15
-all,6126,Apostolic/Drexel,rows_outside_hours,0.057,0.701,0.081,-0.644,9,15795,arrival rows on days with a timetable,9,26,0,1,1,,2026-10-09,2026-11-15
-all,1078,Central,rows_outside_hours,4.794,0.701,6.836,4.093,411,8573,arrival rows on days with a timetable,411,38,34,34,34,medium,2026-10-09,2026-11-15
-all,5704,Downtown Campus Connector,rows_outside_hours,0,0.701,0,-0.701,0,13174,arrival rows on days with a timetable,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5701,Drexel,rows_outside_hours,1.717,0.701,2.448,1.016,82,4776,arrival rows on days with a timetable,82,26,5,5,6,low,2026-10-09,2026-11-15
-all,1077,East,rows_outside_hours,0.013,0.701,0.019,-0.688,1,7599,arrival rows on days with a timetable,1,38,0,0,0,,2026-10-09,2026-11-15
-all,5700,Friend Center/Metra,rows_outside_hours,1.123,0.701,1.602,0.422,97,8634,arrival rows on days with a timetable,97,26,4,4,5,,2026-10-09,2026-11-15
-all,5703,Midway Metra,rows_outside_hours,0.755,0.701,1.077,0.054,84,11125,arrival rows on days with a timetable,84,26,6,8,9,,2026-10-09,2026-11-15
-all,1075,North,rows_outside_hours,0,0.701,0,-0.701,0,4023,arrival rows on days with a timetable,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5699,Red Line/Arts Block,rows_outside_hours,0.123,0.701,0.176,-0.578,18,14576,arrival rows on days with a timetable,18,27,0,0,0,,2026-10-09,2026-11-15
-all,5715,Regents Express,rows_outside_hours,3.958,0.701,5.644,3.257,34,859,arrival rows on days with a timetable,34,25,17,17,17,medium,2026-10-09,2026-11-15
-all,1076,South,rows_outside_hours,0.11,0.701,0.157,-0.591,7,6365,arrival rows on days with a timetable,7,38,1,1,1,,2026-10-09,2026-11-15
-all,5716,South Loop Shuttle,rows_outside_hours,0,0.701,0,-0.701,0,335,arrival rows on days with a timetable,0,12,0,0,0,,2026-10-09,2026-11-15
-all,ALL,All lines,rows_outside_hours,0.701,0.701,1,0,795,113364,arrival rows on days with a timetable,795,38,,,,,2026-10-09,2026-11-15
-all,4346,53rd Street Express,service_under_other_label,0.23,1.621,0.142,-1.391,50,21713.1,bus-minutes under the line's label,1,26,1,1,1,,2026-10-10,2026-11-15
-all,5702,Apostolic,service_under_other_label,0.661,1.621,0.408,-0.96,140,21167.5,bus-minutes under the line's label,3,25,1,2,2,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,service_under_other_label,3.47,1.621,2.141,1.849,1570,45241.9,bus-minutes under the line's label,28,26,11,14,15,medium,2026-10-10,2026-11-15
-all,1078,Central,service_under_other_label,0.819,1.621,0.505,-0.802,180,21976.3,bus-minutes under the line's label,2,37,2,2,2,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,service_under_other_label,0.591,1.621,0.365,-1.03,670,113307.5,bus-minutes under the line's label,16,25,0,2,4,,2026-10-10,2026-11-15
-all,5701,Drexel,service_under_other_label,0.193,1.621,0.119,-1.428,30,15571.1,bus-minutes under the line's label,1,25,1,1,1,,2026-10-10,2026-11-15
-all,1077,East,service_under_other_label,2.743,1.621,1.692,1.122,560,20417.2,bus-minutes under the line's label,8,37,6,6,6,low,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,service_under_other_label,7.152,1.621,4.412,5.531,1640,22930.1,bus-minutes under the line's label,22,25,19,19,20,medium,2026-10-10,2026-11-15
-all,5703,Midway Metra,service_under_other_label,0.46,1.621,0.284,-1.161,100,21730.3,bus-minutes under the line's label,2,25,2,2,2,,2026-10-10,2026-11-15
-all,1075,North,service_under_other_label,0.728,1.621,0.449,-0.893,140,19241.8,bus-minutes under the line's label,3,37,3,3,3,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,service_under_other_label,1.869,1.621,1.153,0.248,750,40127.5,bus-minutes under the line's label,16,28,2,10,12,,2026-10-10,2026-11-15
-all,5715,Regents Express,service_under_other_label,3.555,1.621,2.193,1.934,190,5344.6,bus-minutes under the line's label,3,25,3,3,3,,2026-10-10,2026-11-15
-all,1076,South,service_under_other_label,1.622,1.621,1.001,0.001,290,17881.6,bus-minutes under the line's label,5,37,4,4,4,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,service_under_other_label,0.669,1.621,0.413,-0.952,30,4482.7,bus-minutes under the line's label,1,16,1,1,1,,2026-10-10,2026-11-15
-all,ALL,All lines,service_under_other_label,1.621,1.621,1,0,6340,391132.9,bus-minutes under the line's label,111,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,stops_missed,0.109,0.444,0.247,-0.334,11,10052,stop visits driven past (GPS),11,25,0,0,0,,2026-10-10,2026-11-15
-all,5702,Apostolic,stops_missed,1.222,0.444,2.754,0.779,58,4745,stop visits driven past (GPS),58,25,9,9,12,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,stops_missed,0.572,0.444,1.289,0.128,68,11884,stop visits driven past (GPS),68,25,5,6,7,,2026-10-10,2026-11-15
-all,1078,Central,stops_missed,0.432,0.444,0.974,-0.012,31,7171,stop visits driven past (GPS),31,37,5,7,10,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,stops_missed,0.866,0.444,1.952,0.423,81,9350,stop visits driven past (GPS),81,25,9,12,14,,2026-10-10,2026-11-15
-all,5701,Drexel,stops_missed,0.187,0.444,0.422,-0.257,7,3741,stop visits driven past (GPS),7,25,1,5,5,,2026-10-10,2026-11-15
-all,1077,East,stops_missed,0.092,0.444,0.206,-0.352,6,6552,stop visits driven past (GPS),6,37,2,2,2,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,stops_missed,0.206,0.444,0.464,-0.238,14,6796,stop visits driven past (GPS),14,25,1,1,1,,2026-10-10,2026-11-15
-all,5703,Midway Metra,stops_missed,0.341,0.444,0.769,-0.102,32,9374,stop visits driven past (GPS),32,25,2,3,5,,2026-10-10,2026-11-15
-all,1075,North,stops_missed,0.121,0.444,0.273,-0.323,4,3307,stop visits driven past (GPS),4,37,2,2,2,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,stops_missed,0.418,0.444,0.941,-0.026,58,13891,stop visits driven past (GPS),58,25,1,2,2,,2026-10-10,2026-11-15
-all,5715,Regents Express,stops_missed,0.627,0.444,1.414,0.184,5,797,stop visits driven past (GPS),5,24,5,5,5,,2026-10-10,2026-11-15
-all,1076,South,stops_missed,0.678,0.444,1.528,0.234,40,5899,stop visits driven past (GPS),40,37,14,16,21,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,stops_missed,0.571,0.444,1.288,0.128,1,175,stop visits driven past (GPS),1,11,1,1,1,,2026-10-10,2026-11-15
-all,ALL,All lines,stops_missed,0.444,0.444,1,0,416,93734,stop visits driven past (GPS),416,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,stops_rarely_logged,0,1.266,0,-1.266,0,16,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5702,Apostolic,stops_rarely_logged,0,1.266,0,-1.266,0,10,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,stops_rarely_logged,0,1.266,0,-1.266,0,12,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,1078,Central,stops_rarely_logged,0,1.266,0,-1.266,0,14,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,stops_rarely_logged,0,1.266,0,-1.266,0,14,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5701,Drexel,stops_rarely_logged,0,1.266,0,-1.266,0,7,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,1077,East,stops_rarely_logged,0,1.266,0,-1.266,0,13,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,stops_rarely_logged,0,1.266,0,-1.266,0,12,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5703,Midway Metra,stops_rarely_logged,0,1.266,0,-1.266,0,14,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,1075,North,stops_rarely_logged,0,1.266,0,-1.266,0,7,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,stops_rarely_logged,0,1.266,0,-1.266,0,11,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,5715,Regents Express,stops_rarely_logged,14.286,1.266,11.286,13.02,1,7,stops the line's buses come within 120 m of (the line's route order),1,37,,,,high,2026-10-10,2026-11-15
-all,1076,South,stops_rarely_logged,6.25,1.266,4.938,4.984,1,16,stops the line's buses come within 120 m of (the line's route order),1,37,,,,high,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,stops_rarely_logged,0,1.266,0,-1.266,0,5,stops the line's buses come within 120 m of (the line's route order),0,37,,,,,2026-10-10,2026-11-15
-all,ALL,All lines,stops_rarely_logged,1.266,1.266,1,0,2,158,stops the line's buses come within 120 m of (the line's route order),2,37,,,,,2026-10-10,2026-11-15
-all,4346,53rd Street Express,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5702,Apostolic,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,6126,Apostolic/Drexel,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,1078,Central,thin_line_days,2.632,1.951,1.349,0.68,1,38,listed service days,1,38,1,1,1,,2026-10-09,2026-11-15
-all,5704,Downtown Campus Connector,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5701,Drexel,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,1077,East,thin_line_days,0,1.951,0,-1.951,0,38,listed service days,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5700,Friend Center/Metra,thin_line_days,0,1.951,0,-1.951,0,38,listed service days,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5703,Midway Metra,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,1075,North,thin_line_days,0,1.951,0,-1.951,0,38,listed service days,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5699,Red Line/Arts Block,thin_line_days,0,1.951,0,-1.951,0,26,listed service days,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5715,Regents Express,thin_line_days,15.385,1.951,7.885,13.433,4,26,listed service days,4,26,4,4,4,medium,2026-10-09,2026-11-15
-all,1076,South,thin_line_days,5.263,1.951,2.697,3.312,2,38,listed service days,2,38,2,2,2,low,2026-10-09,2026-11-15
-all,5716,South Loop Shuttle,thin_line_days,8.333,1.951,4.271,6.382,1,12,listed service days,1,12,1,1,1,,2026-10-09,2026-11-15
-all,ALL,All lines,thin_line_days,1.951,1.951,1,0,8,410,listed service days,8,38,,,,,2026-10-09,2026-11-15
-all,4346,53rd Street Express,trip_not_in_timetable,0,0,,0,0,10666,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5702,Apostolic,trip_not_in_timetable,0,0,,0,0,6335,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,6126,Apostolic/Drexel,trip_not_in_timetable,0,0,,0,0,15290,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,1078,Central,trip_not_in_timetable,0,0,,0,0,6946,non-gps arrival rows,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5704,Downtown Campus Connector,trip_not_in_timetable,0,0,,0,0,11876,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5701,Drexel,trip_not_in_timetable,0,0,,0,0,4621,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,1077,East,trip_not_in_timetable,0,0,,0,0,7443,non-gps arrival rows,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5700,Friend Center/Metra,trip_not_in_timetable,0,0,,0,0,8222,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5703,Midway Metra,trip_not_in_timetable,0,0,,0,0,10695,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,1075,North,trip_not_in_timetable,0,0,,0,0,3894,non-gps arrival rows,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5699,Red Line/Arts Block,trip_not_in_timetable,0,0,,0,0,10679,non-gps arrival rows,0,26,0,0,0,,2026-10-09,2026-11-15
-all,5715,Regents Express,trip_not_in_timetable,0,0,,0,0,731,non-gps arrival rows,0,25,0,0,0,,2026-10-09,2026-11-15
-all,1076,South,trip_not_in_timetable,0,0,,0,0,5304,non-gps arrival rows,0,38,0,0,0,,2026-10-09,2026-11-15
-all,5716,South Loop Shuttle,trip_not_in_timetable,0,0,,0,0,319,non-gps arrival rows,0,12,0,0,0,,2026-10-09,2026-11-15
-all,ALL,All lines,trip_not_in_timetable,0,0,,0,0,103021,non-gps arrival rows,0,38,,,,,2026-10-09,2026-11-15
-all,4346,53rd Street Express,wrong_line_label,0.737,1.621,0.455,-0.884,160,21713.1,bus-minutes under the line's label,4,26,3,3,3,,2026-10-10,2026-11-15
-all,5702,Apostolic,wrong_line_label,1.795,1.621,1.108,0.174,380,21167.5,bus-minutes under the line's label,7,25,5,6,6,,2026-10-10,2026-11-15
-all,6126,Apostolic/Drexel,wrong_line_label,3.846,1.621,2.373,2.225,1740,45241.9,bus-minutes under the line's label,24,26,13,15,17,medium,2026-10-10,2026-11-15
-all,1078,Central,wrong_line_label,0.273,1.621,0.168,-1.348,60,21976.3,bus-minutes under the line's label,1,37,1,1,1,,2026-10-10,2026-11-15
-all,5704,Downtown Campus Connector,wrong_line_label,0.459,1.621,0.283,-1.162,520,113307.5,bus-minutes under the line's label,10,25,1,2,2,,2026-10-10,2026-11-15
-all,5701,Drexel,wrong_line_label,1.284,1.621,0.792,-0.337,200,15571.1,bus-minutes under the line's label,4,25,4,4,4,,2026-10-10,2026-11-15
-all,1077,East,wrong_line_label,0.588,1.621,0.363,-1.033,120,20417.2,bus-minutes under the line's label,3,37,3,3,3,,2026-10-10,2026-11-15
-all,5700,Friend Center/Metra,wrong_line_label,2.878,1.621,1.776,1.257,660,22930.1,bus-minutes under the line's label,9,25,6,6,6,low,2026-10-10,2026-11-15
-all,5703,Midway Metra,wrong_line_label,4.05,1.621,2.498,2.429,880,21730.3,bus-minutes under the line's label,21,25,16,16,16,medium,2026-10-10,2026-11-15
-all,1075,North,wrong_line_label,0.312,1.621,0.192,-1.309,60,19241.8,bus-minutes under the line's label,1,37,1,1,1,,2026-10-10,2026-11-15
-all,5699,Red Line/Arts Block,wrong_line_label,2.617,1.621,1.614,0.996,1050,40127.5,bus-minutes under the line's label,20,28,7,11,13,low,2026-10-10,2026-11-15
-all,5715,Regents Express,wrong_line_label,3.181,1.621,1.962,1.56,170,5344.6,bus-minutes under the line's label,4,25,4,4,4,,2026-10-10,2026-11-15
-all,1076,South,wrong_line_label,1.901,1.621,1.173,0.28,340,17881.6,bus-minutes under the line's label,3,37,2,2,2,,2026-10-10,2026-11-15
-all,5716,South Loop Shuttle,wrong_line_label,0,1.621,0,-1.621,0,4482.7,bus-minutes under the line's label,0,16,0,0,0,,2026-10-10,2026-11-15
-all,ALL,All lines,wrong_line_label,1.621,1.621,1,0,6340,391132.9,bus-minutes under the line's label,111,37,,,,,2026-10-10,2026-11-15
-recent,4346,53rd Street Express,double_logged_visits,0,0.069,0,-0.069,0,4208,arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,double_logged_visits,0.118,0.069,1.699,0.048,3,2552,arrival rows,3,10,3,3,3,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,double_logged_visits,0.015,0.069,0.218,-0.054,1,6615,arrival rows,1,10,1,1,1,,2026-11-02,2026-11-15
-recent,1078,Central,double_logged_visits,0,0.069,0,-0.069,0,3016,arrival rows,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,double_logged_visits,0.158,0.069,2.283,0.089,8,5063,arrival rows,8,10,6,6,6,,2026-11-02,2026-11-15
-recent,5701,Drexel,double_logged_visits,0.209,0.069,3.023,0.14,4,1912,arrival rows,4,10,3,3,3,,2026-11-02,2026-11-15
-recent,1077,East,double_logged_visits,0,0.069,0,-0.069,0,2804,arrival rows,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,double_logged_visits,0.063,0.069,0.906,-0.007,2,3190,arrival rows,2,10,2,2,2,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,double_logged_visits,0.024,0.069,0.351,-0.045,1,4123,arrival rows,1,10,1,1,1,,2026-11-02,2026-11-15
-recent,1075,North,double_logged_visits,0.14,0.069,2.023,0.071,2,1429,arrival rows,2,14,2,2,2,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,double_logged_visits,0.071,0.069,1.028,0.002,4,5624,arrival rows,4,10,3,3,3,,2026-11-02,2026-11-15
-recent,5715,Regents Express,double_logged_visits,0,0.069,0,-0.069,0,363,arrival rows,0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,double_logged_visits,0.129,0.069,1.859,0.059,3,2332,arrival rows,3,14,3,3,3,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,double_logged_visits,1.626,0.069,23.498,1.557,2,123,arrival rows,2,4,1,1,1,,2026-11-02,2026-11-15
-recent,ALL,All lines,double_logged_visits,0.069,0.069,1,0,30,43354,arrival rows,30,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,feed_skipped_stops,1.592,8.378,0.19,-6.785,67,4208,arrival rows,67,10,0,0,1,,2026-11-02,2026-11-15
-recent,5702,Apostolic,feed_skipped_stops,5.212,8.378,0.622,-3.166,133,2552,arrival rows,133,10,1,1,2,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,feed_skipped_stops,4.656,8.378,0.556,-3.721,308,6615,arrival rows,308,10,0,1,2,,2026-11-02,2026-11-15
-recent,1078,Central,feed_skipped_stops,5.239,8.378,0.625,-3.139,158,3016,arrival rows,158,14,1,1,1,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,feed_skipped_stops,16.058,8.378,1.917,7.68,813,5063,arrival rows,813,10,4,8,8,medium,2026-11-02,2026-11-15
-recent,5701,Drexel,feed_skipped_stops,6.381,8.378,0.762,-1.997,122,1912,arrival rows,122,10,1,1,2,,2026-11-02,2026-11-15
-recent,1077,East,feed_skipped_stops,8.916,8.378,1.064,0.538,250,2804,arrival rows,250,14,1,4,6,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,feed_skipped_stops,3.73,8.378,0.445,-4.647,119,3190,arrival rows,119,10,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,feed_skipped_stops,5.118,8.378,0.611,-3.26,211,4123,arrival rows,211,10,0,1,1,,2026-11-02,2026-11-15
-recent,1075,North,feed_skipped_stops,2.869,8.378,0.342,-5.508,41,1429,arrival rows,41,14,1,2,2,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,feed_skipped_stops,6.917,8.378,0.826,-1.461,389,5624,arrival rows,389,10,0,0,1,,2026-11-02,2026-11-15
-recent,5715,Regents Express,feed_skipped_stops,20.386,8.378,2.433,12.008,74,363,arrival rows,74,9,7,7,7,high,2026-11-02,2026-11-15
-recent,1076,South,feed_skipped_stops,38.979,8.378,4.653,30.602,909,2332,arrival rows,909,14,14,14,14,high,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,feed_skipped_stops,30.894,8.378,3.688,22.517,38,123,arrival rows,38,4,4,4,4,medium,2026-11-02,2026-11-15
-recent,ALL,All lines,feed_skipped_stops,8.378,8.378,1,0,3632,43354,arrival rows,3632,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,frozen_gps,0,0,,0,0,8509.6,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,frozen_gps,0,0,,0,0,8826.7,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,frozen_gps,0,0,,0,0,17533.8,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,frozen_gps,0,0,,0,0,7326.5,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,frozen_gps,0,0,,0,0,44609,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5701,Drexel,frozen_gps,0,0,,0,0,6535.4,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1077,East,frozen_gps,0,0,,0,0,7271.6,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,frozen_gps,0,0,,0,0,9121.8,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,frozen_gps,0,0,,0,0,8496.2,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1075,North,frozen_gps,0,0,,0,0,6818.1,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,frozen_gps,0,0,,0,0,15915.3,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5715,Regents Express,frozen_gps,0,0,,0,0,2103.5,bus-minutes under the line's label,0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,frozen_gps,0,0,,0,0,6410.3,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,frozen_gps,0,0,,0,0,1618,bus-minutes under the line's label,0,6,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,frozen_gps,0,0,,0,0,151095.8,bus-minutes under the line's label,0,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,gps_only_rows,0.119,9.6,0.012,-9.481,5,4208,arrival rows,5,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,gps_only_rows,3.762,9.6,0.392,-5.838,96,2552,arrival rows,96,10,0,0,0,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,gps_only_rows,5.306,9.6,0.553,-4.294,351,6615,arrival rows,351,10,1,1,1,,2026-11-02,2026-11-15
-recent,1078,Central,gps_only_rows,17.275,9.6,1.799,7.674,521,3016,arrival rows,521,14,7,8,10,medium,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,gps_only_rows,9.876,9.6,1.029,0.276,500,5063,arrival rows,500,10,0,1,4,,2026-11-02,2026-11-15
-recent,5701,Drexel,gps_only_rows,4.864,9.6,0.507,-4.736,93,1912,arrival rows,93,10,0,0,1,,2026-11-02,2026-11-15
-recent,1077,East,gps_only_rows,2.389,9.6,0.249,-7.211,67,2804,arrival rows,67,14,0,0,1,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,gps_only_rows,8.276,9.6,0.862,-1.324,264,3190,arrival rows,264,10,1,1,3,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,gps_only_rows,4.851,9.6,0.505,-4.749,200,4123,arrival rows,200,10,0,0,1,,2026-11-02,2026-11-15
-recent,1075,North,gps_only_rows,3.499,9.6,0.364,-6.101,50,1429,arrival rows,50,14,1,1,1,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,gps_only_rows,28.414,9.6,2.96,18.814,1598,5624,arrival rows,1598,10,9,10,10,high,2026-11-02,2026-11-15
-recent,5715,Regents Express,gps_only_rows,11.019,9.6,1.148,1.419,40,363,arrival rows,40,9,0,4,5,,2026-11-02,2026-11-15
-recent,1076,South,gps_only_rows,15.738,9.6,1.639,6.138,367,2332,arrival rows,367,14,4,4,4,medium,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,gps_only_rows,8.13,9.6,0.847,-1.47,10,123,arrival rows,10,4,1,1,1,,2026-11-02,2026-11-15
-recent,ALL,All lines,gps_only_rows,9.6,9.6,1,0,4162,43354,arrival rows,4162,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,listed_stops_not_driven,0,1.266,0,-1.266,0,16,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5702,Apostolic,listed_stops_not_driven,0,1.266,0,-1.266,0,10,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,1078,Central,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5701,Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,1077,East,listed_stops_not_driven,0,1.266,0,-1.266,0,13,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,1075,North,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,listed_stops_not_driven,0,1.266,0,-1.266,0,11,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,5715,Regents Express,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,1076,South,listed_stops_not_driven,12.5,1.266,9.875,11.234,2,16,stops of the line's route order,2,14,,,,low,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,listed_stops_not_driven,0,1.266,0,-1.266,0,5,stops of the line's route order,0,14,,,,,2026-11-02,2026-11-15
-recent,ALL,All lines,listed_stops_not_driven,1.266,1.266,1,0,2,158,stops of the line's route order,2,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,listed_time_no_bus,6.181,8.295,0.745,-2.114,45,728,listed 10-min bins with the feed alive,45,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,listed_time_no_bus,10.312,8.295,1.243,2.018,33,320,listed 10-min bins with the feed alive,33,10,2,3,3,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,listed_time_no_bus,2.233,8.295,0.269,-6.062,19,851,listed 10-min bins with the feed alive,19,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,listed_time_no_bus,4.153,8.295,0.501,-4.142,25,602,listed 10-min bins with the feed alive,25,14,2,3,3,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,listed_time_no_bus,10.076,8.295,1.215,1.781,106,1052,listed 10-min bins with the feed alive,106,10,0,1,6,,2026-11-02,2026-11-15
-recent,5701,Drexel,listed_time_no_bus,0.645,8.295,0.078,-7.65,2,310,listed 10-min bins with the feed alive,2,10,0,0,0,,2026-11-02,2026-11-15
-recent,1077,East,listed_time_no_bus,5.71,8.295,0.688,-2.585,41,718,listed 10-min bins with the feed alive,41,14,0,1,3,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,listed_time_no_bus,15.117,8.295,1.822,6.822,161,1065,listed 10-min bins with the feed alive,161,14,4,5,5,medium,2026-11-02,2026-11-15
-recent,5703,Midway Metra,listed_time_no_bus,16.163,8.295,1.949,7.868,91,563,listed 10-min bins with the feed alive,91,10,7,7,7,medium,2026-11-02,2026-11-15
-recent,1075,North,listed_time_no_bus,8.774,8.295,1.058,0.479,63,718,listed 10-min bins with the feed alive,63,14,1,4,4,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,listed_time_no_bus,2.535,8.295,0.306,-5.76,22,868,listed 10-min bins with the feed alive,22,10,0,0,0,,2026-11-02,2026-11-15
-recent,5715,Regents Express,listed_time_no_bus,18.182,8.295,2.192,9.887,40,220,listed 10-min bins with the feed alive,40,10,2,2,2,low,2026-11-02,2026-11-15
-recent,1076,South,listed_time_no_bus,10.724,8.295,1.293,2.429,77,718,listed 10-min bins with the feed alive,77,14,4,6,6,low,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,listed_time_no_bus,7.927,8.295,0.956,-0.368,13,164,listed 10-min bins with the feed alive,13,4,0,1,2,,2026-11-02,2026-11-15
-recent,ALL,All lines,listed_time_no_bus,8.295,8.295,1,0,738,8897,listed 10-min bins with the feed alive,738,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,no_passio_time,12.753,16.286,0.783,-3.534,536,4203,non-gps arrival rows since Oct 12 noon,536,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,no_passio_time,14.658,16.286,0.9,-1.629,360,2456,non-gps arrival rows since Oct 12 noon,360,10,0,1,1,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,no_passio_time,14.48,16.286,0.889,-1.807,907,6264,non-gps arrival rows since Oct 12 noon,907,10,1,1,2,,2026-11-02,2026-11-15
-recent,1078,Central,no_passio_time,11.383,16.286,0.699,-4.904,284,2495,non-gps arrival rows since Oct 12 noon,284,14,0,1,1,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,no_passio_time,36.511,16.286,2.242,20.225,1666,4563,non-gps arrival rows since Oct 12 noon,1666,10,10,10,10,high,2026-11-02,2026-11-15
-recent,5701,Drexel,no_passio_time,16.548,16.286,1.016,0.261,301,1819,non-gps arrival rows since Oct 12 noon,301,10,1,3,4,,2026-11-02,2026-11-15
-recent,1077,East,no_passio_time,26.598,16.286,1.633,10.312,728,2737,non-gps arrival rows since Oct 12 noon,728,14,0,9,12,medium,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,no_passio_time,6.254,16.286,0.384,-10.032,183,2926,non-gps arrival rows since Oct 12 noon,183,10,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,no_passio_time,5.531,16.286,0.34,-10.755,217,3923,non-gps arrival rows since Oct 12 noon,217,10,0,0,0,,2026-11-02,2026-11-15
-recent,1075,North,no_passio_time,33.358,16.286,2.048,17.071,460,1379,non-gps arrival rows since Oct 12 noon,460,14,7,12,14,high,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,no_passio_time,12.742,16.286,0.782,-3.544,513,4026,non-gps arrival rows since Oct 12 noon,513,10,0,0,0,,2026-11-02,2026-11-15
-recent,5715,Regents Express,no_passio_time,18.266,16.286,1.122,1.98,59,323,non-gps arrival rows since Oct 12 noon,59,9,0,1,5,,2026-11-02,2026-11-15
-recent,1076,South,no_passio_time,6.616,16.286,0.406,-9.671,130,1965,non-gps arrival rows since Oct 12 noon,130,14,0,0,1,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,no_passio_time,34.513,16.286,2.119,18.227,39,113,non-gps arrival rows since Oct 12 noon,39,4,3,4,4,medium,2026-11-02,2026-11-15
-recent,ALL,All lines,no_passio_time,16.286,16.286,1,0,6383,39192,non-gps arrival rows since Oct 12 noon,6383,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,report_gaps,0.17,1.418,0.12,-1.247,14.5,8509.6,bus-minutes under the line's label,6,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,report_gaps,0.892,1.418,0.629,-0.525,78.8,8826.7,bus-minutes under the line's label,25,10,2,3,3,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,report_gaps,0.08,1.418,0.056,-1.338,14,17533.8,bus-minutes under the line's label,2,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,report_gaps,1.99,1.418,1.404,0.572,145.8,7326.5,bus-minutes under the line's label,46,14,3,3,3,low,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,report_gaps,3.084,1.418,2.176,1.667,1375.9,44609,bus-minutes under the line's label,244,10,2,3,3,medium,2026-11-02,2026-11-15
-recent,5701,Drexel,report_gaps,0.229,1.418,0.162,-1.189,15,6535.4,bus-minutes under the line's label,4,10,0,1,1,,2026-11-02,2026-11-15
-recent,1077,East,report_gaps,1.981,1.418,1.397,0.563,144,7271.6,bus-minutes under the line's label,38,14,3,3,3,low,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,report_gaps,0.267,1.418,0.189,-1.15,24.4,9121.8,bus-minutes under the line's label,7,10,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,report_gaps,1.057,1.418,0.746,-0.36,89.8,8496.2,bus-minutes under the line's label,22,10,1,1,2,,2026-11-02,2026-11-15
-recent,1075,North,report_gaps,1.688,1.418,1.191,0.271,115.1,6818.1,bus-minutes under the line's label,30,14,1,1,1,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,report_gaps,0.447,1.418,0.315,-0.97,71.2,15915.3,bus-minutes under the line's label,21,10,1,1,1,,2026-11-02,2026-11-15
-recent,5715,Regents Express,report_gaps,0,1.418,0,-1.418,0,2103.5,bus-minutes under the line's label,0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,report_gaps,0.088,1.418,0.062,-1.33,5.6,6410.3,bus-minutes under the line's label,2,14,0,0,0,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,report_gaps,2.966,1.418,2.092,1.548,48,1618,bus-minutes under the line's label,16,6,1,1,1,,2026-11-02,2026-11-15
-recent,ALL,All lines,report_gaps,1.418,1.418,1,0,2142,151095.8,bus-minutes under the line's label,463,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,row_time_off_gps,0.175,0.552,0.316,-0.378,7,4005,logged stop visits driven past (GPS),7,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,row_time_off_gps,0.257,0.552,0.466,-0.295,5,1944,logged stop visits driven past (GPS),5,10,0,1,1,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,row_time_off_gps,0.172,0.552,0.311,-0.381,9,5240,logged stop visits driven past (GPS),9,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,row_time_off_gps,0.505,0.552,0.914,-0.047,13,2574,logged stop visits driven past (GPS),13,14,3,4,4,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,row_time_off_gps,0.136,0.552,0.246,-0.417,5,3680,logged stop visits driven past (GPS),5,10,0,0,0,,2026-11-02,2026-11-15
-recent,5701,Drexel,row_time_off_gps,1.928,0.552,3.49,1.376,29,1504,logged stop visits driven past (GPS),29,10,7,7,7,,2026-11-02,2026-11-15
-recent,1077,East,row_time_off_gps,0,0.552,0,-0.552,0,2463,logged stop visits driven past (GPS),0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,row_time_off_gps,0.267,0.552,0.483,-0.286,7,2625,logged stop visits driven past (GPS),7,10,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,row_time_off_gps,0.083,0.552,0.149,-0.47,3,3635,logged stop visits driven past (GPS),3,10,0,0,0,,2026-11-02,2026-11-15
-recent,1075,North,row_time_off_gps,0.083,0.552,0.151,-0.469,1,1202,logged stop visits driven past (GPS),1,14,0,0,1,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,row_time_off_gps,2.264,0.552,4.098,1.712,124,5477,logged stop visits driven past (GPS),124,10,9,9,10,low,2026-11-02,2026-11-15
-recent,5715,Regents Express,row_time_off_gps,0,0.552,0,-0.552,0,346,logged stop visits driven past (GPS),0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,row_time_off_gps,0.046,0.552,0.083,-0.506,1,2174,logged stop visits driven past (GPS),1,14,0,0,0,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,row_time_off_gps,0,0.552,0,-0.552,0,60,logged stop visits driven past (GPS),0,4,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,row_time_off_gps,0.552,0.552,1,0,204,36929,logged stop visits driven past (GPS),204,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,rows_outside_hours,0,0.837,0,-0.837,0,4208,arrival rows on days with a timetable,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,rows_outside_hours,1.136,0.837,1.357,0.299,29,2552,arrival rows on days with a timetable,29,10,3,4,4,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,rows_outside_hours,0,0.837,0,-0.837,0,6615,arrival rows on days with a timetable,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,rows_outside_hours,4.94,0.837,5.9,4.103,149,3016,arrival rows on days with a timetable,149,14,12,12,12,medium,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,rows_outside_hours,0,0.837,0,-0.837,0,5063,arrival rows on days with a timetable,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5701,Drexel,rows_outside_hours,4.184,0.837,4.997,3.347,80,1912,arrival rows on days with a timetable,80,10,4,4,4,medium,2026-11-02,2026-11-15
-recent,1077,East,rows_outside_hours,0,0.837,0,-0.837,0,2804,arrival rows on days with a timetable,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,rows_outside_hours,1.85,0.837,2.209,1.012,59,3190,arrival rows on days with a timetable,59,10,2,2,2,low,2026-11-02,2026-11-15
-recent,5703,Midway Metra,rows_outside_hours,0.582,0.837,0.695,-0.255,24,4123,arrival rows on days with a timetable,24,10,1,1,1,,2026-11-02,2026-11-15
-recent,1075,North,rows_outside_hours,0,0.837,0,-0.837,0,1429,arrival rows on days with a timetable,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,rows_outside_hours,0.036,0.837,0.042,-0.802,2,5624,arrival rows on days with a timetable,2,10,0,0,0,,2026-11-02,2026-11-15
-recent,5715,Regents Express,rows_outside_hours,3.581,0.837,4.277,2.744,13,363,arrival rows on days with a timetable,13,9,7,7,7,medium,2026-11-02,2026-11-15
-recent,1076,South,rows_outside_hours,0.3,0.837,0.359,-0.537,7,2332,arrival rows on days with a timetable,7,14,1,1,1,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,rows_outside_hours,0,0.837,0,-0.837,0,123,arrival rows on days with a timetable,0,4,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,rows_outside_hours,0.837,0.837,1,0,363,43354,arrival rows on days with a timetable,363,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,service_under_other_label,0,1.522,0,-1.522,0,8509.6,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,service_under_other_label,0,1.522,0,-1.522,0,8826.7,bus-minutes under the line's label,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,service_under_other_label,3.992,1.522,2.623,2.47,700,17533.8,bus-minutes under the line's label,13,10,5,5,6,medium,2026-11-02,2026-11-15
-recent,1078,Central,service_under_other_label,0,1.522,0,-1.522,0,7326.5,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,service_under_other_label,0.785,1.522,0.515,-0.738,350,44609,bus-minutes under the line's label,8,10,0,2,3,,2026-11-02,2026-11-15
-recent,5701,Drexel,service_under_other_label,0.459,1.522,0.302,-1.063,30,6535.4,bus-minutes under the line's label,1,10,1,1,1,,2026-11-02,2026-11-15
-recent,1077,East,service_under_other_label,0.413,1.522,0.271,-1.11,30,7271.6,bus-minutes under the line's label,1,14,1,1,1,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,service_under_other_label,6.687,1.522,4.393,5.165,610,9121.8,bus-minutes under the line's label,8,10,6,7,7,low,2026-11-02,2026-11-15
-recent,5703,Midway Metra,service_under_other_label,0.706,1.522,0.464,-0.816,60,8496.2,bus-minutes under the line's label,1,10,1,1,1,,2026-11-02,2026-11-15
-recent,1075,North,service_under_other_label,0.88,1.522,0.578,-0.642,60,6818.1,bus-minutes under the line's label,1,14,1,1,1,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,service_under_other_label,1.508,1.522,0.991,-0.014,240,15915.3,bus-minutes under the line's label,7,10,0,3,5,,2026-11-02,2026-11-15
-recent,5715,Regents Express,service_under_other_label,1.426,1.522,0.937,-0.096,30,2103.5,bus-minutes under the line's label,1,9,1,1,1,,2026-11-02,2026-11-15
-recent,1076,South,service_under_other_label,2.496,1.522,1.64,0.974,160,6410.3,bus-minutes under the line's label,2,14,1,1,1,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,service_under_other_label,1.854,1.522,1.218,0.332,30,1618,bus-minutes under the line's label,1,6,1,1,1,,2026-11-02,2026-11-15
-recent,ALL,All lines,service_under_other_label,1.522,1.522,1,0,2300,151095.8,bus-minutes under the line's label,44,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,stops_missed,0.125,0.488,0.256,-0.363,5,4010,stop visits driven past (GPS),5,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,stops_missed,0.664,0.488,1.362,0.177,13,1957,stop visits driven past (GPS),13,10,1,2,3,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,stops_missed,0.494,0.488,1.012,0.006,26,5268,stop visits driven past (GPS),26,10,1,3,3,,2026-11-02,2026-11-15
-recent,1078,Central,stops_missed,0.155,0.488,0.318,-0.333,4,2578,stop visits driven past (GPS),4,14,1,1,2,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,stops_missed,1.049,0.488,2.15,0.561,39,3719,stop visits driven past (GPS),39,10,5,6,6,,2026-11-02,2026-11-15
-recent,5701,Drexel,stops_missed,0.265,0.488,0.544,-0.222,4,1508,stop visits driven past (GPS),4,10,1,1,2,,2026-11-02,2026-11-15
-recent,1077,East,stops_missed,0.203,0.488,0.415,-0.285,5,2468,stop visits driven past (GPS),5,14,1,1,1,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,stops_missed,0.38,0.488,0.778,-0.108,10,2635,stop visits driven past (GPS),10,10,1,1,1,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,stops_missed,0.356,0.488,0.731,-0.131,13,3648,stop visits driven past (GPS),13,10,0,1,1,,2026-11-02,2026-11-15
-recent,1075,North,stops_missed,0.332,0.488,0.68,-0.156,4,1206,stop visits driven past (GPS),4,14,2,2,2,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,stops_missed,0.761,0.488,1.56,0.273,42,5519,stop visits driven past (GPS),42,10,1,1,1,,2026-11-02,2026-11-15
-recent,5715,Regents Express,stops_missed,0,0.488,0,-0.488,0,346,stop visits driven past (GPS),0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,stops_missed,0.731,0.488,1.498,0.243,16,2190,stop visits driven past (GPS),16,14,5,5,5,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,stops_missed,0,0.488,0,-0.488,0,60,stop visits driven past (GPS),0,4,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,stops_missed,0.488,0.488,1,0,181,37112,stop visits driven past (GPS),181,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,stops_rarely_logged,0,1.266,0,-1.266,0,16,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5702,Apostolic,stops_rarely_logged,0,1.266,0,-1.266,0,10,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,stops_rarely_logged,0,1.266,0,-1.266,0,12,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,1078,Central,stops_rarely_logged,0,1.266,0,-1.266,0,14,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,stops_rarely_logged,0,1.266,0,-1.266,0,14,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5701,Drexel,stops_rarely_logged,0,1.266,0,-1.266,0,7,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,1077,East,stops_rarely_logged,0,1.266,0,-1.266,0,13,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,stops_rarely_logged,0,1.266,0,-1.266,0,12,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,stops_rarely_logged,0,1.266,0,-1.266,0,14,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,1075,North,stops_rarely_logged,0,1.266,0,-1.266,0,7,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,stops_rarely_logged,0,1.266,0,-1.266,0,11,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,5715,Regents Express,stops_rarely_logged,14.286,1.266,11.286,13.02,1,7,stops the line's buses come within 120 m of (the line's route order),1,14,,,,high,2026-11-02,2026-11-15
-recent,1076,South,stops_rarely_logged,6.25,1.266,4.938,4.984,1,16,stops the line's buses come within 120 m of (the line's route order),1,14,,,,high,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,stops_rarely_logged,0,1.266,0,-1.266,0,5,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-02,2026-11-15
-recent,ALL,All lines,stops_rarely_logged,1.266,1.266,1,0,2,158,stops the line's buses come within 120 m of (the line's route order),2,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5701,Drexel,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1077,East,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1075,North,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5715,Regents Express,thin_line_days,20,1.948,10.267,18.052,2,10,listed service days,2,10,2,2,2,low,2026-11-02,2026-11-15
-recent,1076,South,thin_line_days,7.143,1.948,3.667,5.195,1,14,listed service days,1,14,1,1,1,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,thin_line_days,0,1.948,0,-1.948,0,4,listed service days,0,4,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,thin_line_days,1.948,1.948,1,0,3,154,listed service days,3,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,trip_not_in_timetable,0,0,,0,0,4203,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5702,Apostolic,trip_not_in_timetable,0,0,,0,0,2456,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,trip_not_in_timetable,0,0,,0,0,6264,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1078,Central,trip_not_in_timetable,0,0,,0,0,2495,non-gps arrival rows,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,trip_not_in_timetable,0,0,,0,0,4563,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5701,Drexel,trip_not_in_timetable,0,0,,0,0,1819,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1077,East,trip_not_in_timetable,0,0,,0,0,2737,non-gps arrival rows,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,trip_not_in_timetable,0,0,,0,0,2926,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,trip_not_in_timetable,0,0,,0,0,3923,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,1075,North,trip_not_in_timetable,0,0,,0,0,1379,non-gps arrival rows,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,trip_not_in_timetable,0,0,,0,0,4026,non-gps arrival rows,0,10,0,0,0,,2026-11-02,2026-11-15
-recent,5715,Regents Express,trip_not_in_timetable,0,0,,0,0,323,non-gps arrival rows,0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,trip_not_in_timetable,0,0,,0,0,1965,non-gps arrival rows,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,trip_not_in_timetable,0,0,,0,0,113,non-gps arrival rows,0,4,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,trip_not_in_timetable,0,0,,0,0,39192,non-gps arrival rows,0,14,,,,,2026-11-02,2026-11-15
-recent,4346,53rd Street Express,wrong_line_label,1.058,1.522,0.695,-0.465,90,8509.6,bus-minutes under the line's label,2,10,2,2,2,,2026-11-02,2026-11-15
-recent,5702,Apostolic,wrong_line_label,2.153,1.522,1.414,0.63,190,8826.7,bus-minutes under the line's label,4,10,3,3,3,,2026-11-02,2026-11-15
-recent,6126,Apostolic/Drexel,wrong_line_label,2.395,1.522,1.574,0.873,420,17533.8,bus-minutes under the line's label,6,10,4,5,6,low,2026-11-02,2026-11-15
-recent,1078,Central,wrong_line_label,0,1.522,0,-1.522,0,7326.5,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5704,Downtown Campus Connector,wrong_line_label,0.493,1.522,0.324,-1.029,220,44609,bus-minutes under the line's label,4,10,0,1,1,,2026-11-02,2026-11-15
-recent,5701,Drexel,wrong_line_label,3.06,1.522,2.01,1.538,200,6535.4,bus-minutes under the line's label,4,10,4,4,4,,2026-11-02,2026-11-15
-recent,1077,East,wrong_line_label,0.413,1.522,0.271,-1.11,30,7271.6,bus-minutes under the line's label,1,14,1,1,1,,2026-11-02,2026-11-15
-recent,5700,Friend Center/Metra,wrong_line_label,3.398,1.522,2.233,1.876,310,9121.8,bus-minutes under the line's label,4,10,2,2,2,,2026-11-02,2026-11-15
-recent,5703,Midway Metra,wrong_line_label,4.237,1.522,2.784,2.715,360,8496.2,bus-minutes under the line's label,10,10,8,8,8,medium,2026-11-02,2026-11-15
-recent,1075,North,wrong_line_label,0,1.522,0,-1.522,0,6818.1,bus-minutes under the line's label,0,14,0,0,0,,2026-11-02,2026-11-15
-recent,5699,Red Line/Arts Block,wrong_line_label,2.639,1.522,1.734,1.117,420,15915.3,bus-minutes under the line's label,8,10,3,4,5,low,2026-11-02,2026-11-15
-recent,5715,Regents Express,wrong_line_label,0,1.522,0,-1.522,0,2103.5,bus-minutes under the line's label,0,9,0,0,0,,2026-11-02,2026-11-15
-recent,1076,South,wrong_line_label,0.936,1.522,0.615,-0.586,60,6410.3,bus-minutes under the line's label,1,14,1,1,1,,2026-11-02,2026-11-15
-recent,5716,South Loop Shuttle,wrong_line_label,0,1.522,0,-1.522,0,1618,bus-minutes under the line's label,0,6,0,0,0,,2026-11-02,2026-11-15
-recent,ALL,All lines,wrong_line_label,1.522,1.522,1,0,2300,151095.8,bus-minutes under the line's label,44,14,,,,,2026-11-02,2026-11-15
+all,4346,53rd Street Express,double_logged_visits,0.03,0.064,0.465,-0.034,4,13455,arrival rows,4,32,3,3,3,,2026-10-08,2026-11-22
+all,5702,Apostolic,double_logged_visits,0.087,0.064,1.357,0.023,7,8065,arrival rows,7,32,6,6,6,,2026-10-08,2026-11-22
+all,6126,Apostolic/Drexel,double_logged_visits,0.03,0.064,0.467,-0.034,6,20064,arrival rows,6,32,4,5,5,,2026-10-08,2026-11-22
+all,1078,Central,double_logged_visits,0.028,0.064,0.445,-0.036,3,10543,arrival rows,3,46,3,3,3,,2026-10-08,2026-11-22
+all,5704,Downtown Campus Connector,double_logged_visits,0.17,0.064,2.662,0.106,28,16440,arrival rows,28,32,20,20,20,,2026-10-08,2026-11-22
+all,5701,Drexel,double_logged_visits,0.173,0.064,2.706,0.109,10,5776,arrival rows,10,32,8,8,8,,2026-10-08,2026-11-22
+all,1077,East,double_logged_visits,0.064,0.064,1,0,6,9382,arrival rows,6,46,6,6,6,,2026-10-08,2026-11-22
+all,5700,Friend Center/Metra,double_logged_visits,0.019,0.064,0.29,-0.045,2,10795,arrival rows,2,32,2,2,2,,2026-10-08,2026-11-22
+all,5703,Midway Metra,double_logged_visits,0.022,0.064,0.337,-0.042,3,13902,arrival rows,3,32,3,3,3,,2026-10-08,2026-11-22
+all,1075,North,double_logged_visits,0.083,0.064,1.29,0.019,4,4848,arrival rows,4,46,4,4,4,,2026-10-08,2026-11-22
+all,5699,Red Line/Arts Block,double_logged_visits,0.034,0.064,0.525,-0.03,6,17847,arrival rows,6,34,5,5,5,,2026-10-08,2026-11-22
+all,5715,Regents Express,double_logged_visits,0.082,0.064,1.275,0.018,1,1226,arrival rows,1,31,1,1,1,,2026-10-08,2026-11-22
+all,1076,South,double_logged_visits,0.088,0.064,1.378,0.024,7,7938,arrival rows,7,46,7,7,7,,2026-10-08,2026-11-22
+all,5716,South Loop Shuttle,double_logged_visits,0.773,0.064,12.085,0.709,3,388,arrival rows,3,14,1,1,1,,2026-10-08,2026-11-22
+all,ALL,All lines,double_logged_visits,0.064,0.064,1,0,90,140669,arrival rows,90,46,,,,,2026-10-08,2026-11-22
+all,4346,53rd Street Express,feed_skipped_stops,1.353,7.61,0.178,-6.257,182,13455,arrival rows,182,32,0,0,1,,2026-10-08,2026-11-22
+all,5702,Apostolic,feed_skipped_stops,3.298,7.61,0.433,-4.312,266,8065,arrival rows,266,32,1,1,2,,2026-10-08,2026-11-22
+all,6126,Apostolic/Drexel,feed_skipped_stops,4.466,7.61,0.587,-3.144,896,20064,arrival rows,896,32,1,4,4,,2026-10-08,2026-11-22
+all,1078,Central,feed_skipped_stops,5.482,7.61,0.72,-2.128,578,10543,arrival rows,578,46,2,4,6,,2026-10-08,2026-11-22
+all,5704,Downtown Campus Connector,feed_skipped_stops,13.905,7.61,1.827,6.295,2286,16440,arrival rows,2286,32,13,22,23,medium,2026-10-08,2026-11-22
+all,5701,Drexel,feed_skipped_stops,5.125,7.61,0.673,-2.485,296,5776,arrival rows,296,32,2,3,5,,2026-10-08,2026-11-22
+all,1077,East,feed_skipped_stops,6.534,7.61,0.859,-1.076,613,9382,arrival rows,613,46,5,9,14,,2026-10-08,2026-11-22
+all,5700,Friend Center/Metra,feed_skipped_stops,2.362,7.61,0.31,-5.248,255,10795,arrival rows,255,32,0,0,0,,2026-10-08,2026-11-22
+all,5703,Midway Metra,feed_skipped_stops,4.769,7.61,0.627,-2.841,663,13902,arrival rows,663,32,1,1,1,,2026-10-08,2026-11-22
+all,1075,North,feed_skipped_stops,3.3,7.61,0.434,-4.31,160,4848,arrival rows,160,46,2,2,6,,2026-10-08,2026-11-22
+all,5699,Red Line/Arts Block,feed_skipped_stops,7.716,7.61,1.014,0.106,1377,17847,arrival rows,1377,34,0,5,8,,2026-10-08,2026-11-22
+all,5715,Regents Express,feed_skipped_stops,14.6,7.61,1.919,6.99,179,1226,arrival rows,179,31,14,20,23,medium,2026-10-08,2026-11-22
+all,1076,South,feed_skipped_stops,35.676,7.61,4.688,28.066,2832,7938,arrival rows,2832,46,43,44,44,high,2026-10-08,2026-11-22
+all,5716,South Loop Shuttle,feed_skipped_stops,31.443,7.61,4.132,23.833,122,388,arrival rows,122,14,12,12,12,high,2026-10-08,2026-11-22
+all,ALL,All lines,feed_skipped_stops,7.61,7.61,1,0,10705,140669,arrival rows,10705,46,,,,,2026-10-08,2026-11-22
+all,4346,53rd Street Express,frozen_gps,0,0.203,0,-0.203,0,25694.9,bus-minutes under the line's label,0,31,0,0,0,,2026-10-10,2026-11-22
+all,5702,Apostolic,frozen_gps,0,0.203,0,-0.203,0,25341.2,bus-minutes under the line's label,0,30,0,0,0,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,frozen_gps,0,0.203,0,-0.203,0,54683.6,bus-minutes under the line's label,0,31,0,0,0,,2026-10-10,2026-11-22
+all,1078,Central,frozen_gps,0,0.203,0,-0.203,0,26240,bus-minutes under the line's label,0,44,0,0,0,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,frozen_gps,0.696,0.203,3.434,0.494,950.8,136515.8,bus-minutes under the line's label,16,31,4,5,5,low,2026-10-10,2026-11-22
+all,5701,Drexel,frozen_gps,0,0.203,0,-0.203,0,18306.1,bus-minutes under the line's label,0,30,0,0,0,,2026-10-10,2026-11-22
+all,1077,East,frozen_gps,0,0.203,0,-0.203,0,24649.5,bus-minutes under the line's label,0,44,0,0,0,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,frozen_gps,0,0.203,0,-0.203,0,27763.6,bus-minutes under the line's label,0,31,0,0,0,,2026-10-10,2026-11-22
+all,5703,Midway Metra,frozen_gps,0,0.203,0,-0.203,0,26041.8,bus-minutes under the line's label,0,31,0,0,0,,2026-10-10,2026-11-22
+all,1075,North,frozen_gps,0,0.203,0,-0.203,0,23177.2,bus-minutes under the line's label,0,44,0,0,0,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,frozen_gps,0,0.203,0,-0.203,0,47773.3,bus-minutes under the line's label,0,34,0,0,0,,2026-10-10,2026-11-22
+all,5715,Regents Express,frozen_gps,0,0.203,0,-0.203,0,6478.8,bus-minutes under the line's label,0,30,0,0,0,,2026-10-10,2026-11-22
+all,1076,South,frozen_gps,0,0.203,0,-0.203,0,21021.1,bus-minutes under the line's label,0,44,0,0,0,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,frozen_gps,0,0.203,0,-0.203,0,5168.3,bus-minutes under the line's label,0,19,0,0,0,,2026-10-10,2026-11-22
+all,ALL,All lines,frozen_gps,0.203,0.203,1,0,950.8,468855.1,bus-minutes under the line's label,16,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,gps_only_rows,2.676,8.594,0.311,-5.918,360,13455,arrival rows,360,32,2,2,2,,2026-10-08,2026-11-22
+all,5702,Apostolic,gps_only_rows,2.79,8.594,0.325,-5.804,225,8065,arrival rows,225,32,0,0,0,,2026-10-08,2026-11-22
+all,6126,Apostolic/Drexel,gps_only_rows,2.961,8.594,0.344,-5.633,594,20064,arrival rows,594,32,1,1,1,,2026-10-08,2026-11-22
+all,1078,Central,gps_only_rows,17.301,8.594,2.013,8.707,1824,10543,arrival rows,1824,46,26,30,32,medium,2026-10-08,2026-11-22
+all,5704,Downtown Campus Connector,gps_only_rows,8.826,8.594,1.027,0.232,1451,16440,arrival rows,1451,32,1,7,11,,2026-10-08,2026-11-22
+all,5701,Drexel,gps_only_rows,3.064,8.594,0.357,-5.53,177,5776,arrival rows,177,32,0,1,1,,2026-10-08,2026-11-22
+all,1077,East,gps_only_rows,2.462,8.594,0.286,-6.132,231,9382,arrival rows,231,46,0,1,2,,2026-10-08,2026-11-22
+all,5700,Friend Center/Metra,gps_only_rows,4.215,8.594,0.49,-4.379,455,10795,arrival rows,455,32,1,2,3,,2026-10-08,2026-11-22
+all,5703,Midway Metra,gps_only_rows,3.748,8.594,0.436,-4.846,521,13902,arrival rows,521,32,0,1,2,,2026-10-08,2026-11-22
+all,1075,North,gps_only_rows,3.403,8.594,0.396,-5.19,165,4848,arrival rows,165,46,2,2,2,,2026-10-08,2026-11-22
+all,5699,Red Line/Arts Block,gps_only_rows,25.629,8.594,2.982,17.035,4574,17847,arrival rows,4574,34,26,30,30,high,2026-10-08,2026-11-22
+all,5715,Regents Express,gps_only_rows,12.561,8.594,1.462,3.967,154,1226,arrival rows,154,31,7,13,16,low,2026-10-08,2026-11-22
+all,1076,South,gps_only_rows,16.893,8.594,1.966,8.299,1341,7938,arrival rows,1341,46,14,14,14,medium,2026-10-08,2026-11-22
+all,5716,South Loop Shuttle,gps_only_rows,4.381,8.594,0.51,-4.212,17,388,arrival rows,17,14,1,1,2,,2026-10-08,2026-11-22
+all,ALL,All lines,gps_only_rows,8.594,8.594,1,0,12089,140669,arrival rows,12089,46,,,,,2026-10-08,2026-11-22
+all,4346,53rd Street Express,listed_stops_not_driven,0,1.266,0,-1.266,0,16,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5702,Apostolic,listed_stops_not_driven,0,1.266,0,-1.266,0,10,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,1078,Central,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5701,Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,1077,East,listed_stops_not_driven,0,1.266,0,-1.266,0,13,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5703,Midway Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,1075,North,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,listed_stops_not_driven,0,1.266,0,-1.266,0,11,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,5715,Regents Express,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,1076,South,listed_stops_not_driven,12.5,1.266,9.875,11.234,2,16,stops of the line's route order,2,44,,,,low,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,listed_stops_not_driven,0,1.266,0,-1.266,0,5,stops of the line's route order,0,44,,,,,2026-10-10,2026-11-22
+all,ALL,All lines,listed_stops_not_driven,1.266,1.266,1,0,2,158,stops of the line's route order,2,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,listed_time_no_bus,7.8,8.186,0.953,-0.385,172,2205,listed 10-min bins with the feed alive,172,30,1,1,4,,2026-10-10,2026-11-22
+all,5702,Apostolic,listed_time_no_bus,5.312,8.186,0.649,-2.873,51,960,listed 10-min bins with the feed alive,51,30,2,3,3,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,listed_time_no_bus,1.705,8.186,0.208,-6.481,44,2581,listed 10-min bins with the feed alive,44,30,0,0,0,,2026-10-10,2026-11-22
+all,1078,Central,listed_time_no_bus,2.276,8.186,0.278,-5.91,43,1889,listed 10-min bins with the feed alive,43,44,2,3,3,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,listed_time_no_bus,9.877,8.186,1.207,1.691,314,3179,listed 10-min bins with the feed alive,314,30,0,1,17,,2026-10-10,2026-11-22
+all,5701,Drexel,listed_time_no_bus,1.613,8.186,0.197,-6.573,15,930,listed 10-min bins with the feed alive,15,30,1,1,1,,2026-10-10,2026-11-22
+all,1077,East,listed_time_no_bus,7.431,8.186,0.908,-0.755,173,2328,listed 10-min bins with the feed alive,173,44,4,8,13,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,listed_time_no_bus,15.032,8.186,1.836,6.846,495,3293,listed 10-min bins with the feed alive,495,44,14,15,15,medium,2026-10-10,2026-11-22
+all,5703,Midway Metra,listed_time_no_bus,16.794,8.186,2.052,8.608,286,1703,listed 10-min bins with the feed alive,286,30,19,25,26,medium,2026-10-10,2026-11-22
+all,1075,North,listed_time_no_bus,8.978,8.186,1.097,0.792,209,2328,listed 10-min bins with the feed alive,209,44,5,13,14,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,listed_time_no_bus,2.479,8.186,0.303,-5.707,65,2622,listed 10-min bins with the feed alive,65,30,0,0,1,,2026-10-10,2026-11-22
+all,5715,Regents Express,listed_time_no_bus,15.068,8.186,1.841,6.883,99,657,listed 10-min bins with the feed alive,99,30,9,9,9,medium,2026-10-10,2026-11-22
+all,1076,South,listed_time_no_bus,10.223,8.186,1.249,2.037,238,2328,listed 10-min bins with the feed alive,238,44,9,16,19,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,listed_time_no_bus,9.398,8.186,1.148,1.213,50,532,listed 10-min bins with the feed alive,50,13,2,3,5,,2026-10-10,2026-11-22
+all,ALL,All lines,listed_time_no_bus,8.186,8.186,1,0,2254,27535,listed 10-min bins with the feed alive,2254,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,no_passio_time,8.685,13.129,0.662,-4.444,1043,12009,non-gps arrival rows since Oct 12 noon,1043,30,0,0,2,,2026-10-12,2026-11-22
+all,5702,Apostolic,no_passio_time,10.935,13.129,0.833,-2.194,779,7124,non-gps arrival rows since Oct 12 noon,779,29,2,3,6,,2026-10-12,2026-11-22
+all,6126,Apostolic/Drexel,no_passio_time,12.019,13.129,0.915,-1.111,2213,18413,non-gps arrival rows since Oct 12 noon,2213,30,1,5,5,,2026-10-12,2026-11-22
+all,1078,Central,no_passio_time,13.032,13.129,0.993,-0.097,1029,7896,non-gps arrival rows since Oct 12 noon,1029,42,3,6,8,,2026-10-12,2026-11-22
+all,5704,Downtown Campus Connector,no_passio_time,27.305,13.129,2.08,14.175,3821,13994,non-gps arrival rows since Oct 12 noon,3821,30,18,18,18,high,2026-10-12,2026-11-22
+all,5701,Drexel,no_passio_time,13.309,13.129,1.014,0.179,683,5132,non-gps arrival rows since Oct 12 noon,683,29,6,9,11,,2026-10-12,2026-11-22
+all,1077,East,no_passio_time,18.526,13.129,1.411,5.397,1523,8221,non-gps arrival rows since Oct 12 noon,1523,42,17,23,25,low,2026-10-12,2026-11-22
+all,5700,Friend Center/Metra,no_passio_time,5.63,13.129,0.429,-7.5,532,9450,non-gps arrival rows since Oct 12 noon,532,30,0,0,0,,2026-10-12,2026-11-22
+all,5703,Midway Metra,no_passio_time,8.569,13.129,0.653,-4.56,1055,12312,non-gps arrival rows since Oct 12 noon,1055,30,2,3,3,,2026-10-12,2026-11-22
+all,1075,North,no_passio_time,24.806,13.129,1.889,11.676,1053,4245,non-gps arrival rows since Oct 12 noon,1053,42,23,28,28,medium,2026-10-12,2026-11-22
+all,5699,Red Line/Arts Block,no_passio_time,9.611,13.129,0.732,-3.518,1191,12392,non-gps arrival rows since Oct 12 noon,1191,30,0,0,0,,2026-10-12,2026-11-22
+all,5715,Regents Express,no_passio_time,15.264,13.129,1.163,2.135,156,1022,non-gps arrival rows since Oct 12 noon,156,29,6,7,11,,2026-10-12,2026-11-22
+all,1076,South,no_passio_time,6.41,13.129,0.488,-6.719,388,6053,non-gps arrival rows since Oct 12 noon,388,42,0,1,3,,2026-10-12,2026-11-22
+all,5716,South Loop Shuttle,no_passio_time,31.343,13.129,2.387,18.214,105,335,non-gps arrival rows since Oct 12 noon,105,12,8,8,8,high,2026-10-12,2026-11-22
+all,ALL,All lines,no_passio_time,13.129,13.129,1,0,15571,118598,non-gps arrival rows since Oct 12 noon,15571,42,,,,,2026-10-12,2026-11-22
+all,4346,53rd Street Express,report_gaps,0.172,1.617,0.106,-1.446,44.1,25694.9,bus-minutes under the line's label,17,31,0,0,0,,2026-10-10,2026-11-22
+all,5702,Apostolic,report_gaps,2.035,1.617,1.258,0.418,515.6,25341.2,bus-minutes under the line's label,137,30,9,14,14,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,report_gaps,2.362,1.617,1.461,0.745,1291.7,54683.6,bus-minutes under the line's label,293,31,8,8,8,low,2026-10-10,2026-11-22
+all,1078,Central,report_gaps,2.063,1.617,1.275,0.445,541.2,26240,bus-minutes under the line's label,165,44,9,10,10,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,report_gaps,2.602,1.617,1.609,0.985,3552.2,136515.8,bus-minutes under the line's label,659,31,5,5,6,low,2026-10-10,2026-11-22
+all,5701,Drexel,report_gaps,0.7,1.617,0.433,-0.917,128.2,18306.1,bus-minutes under the line's label,35,30,3,5,5,,2026-10-10,2026-11-22
+all,1077,East,report_gaps,1.824,1.617,1.128,0.207,449.6,24649.5,bus-minutes under the line's label,113,44,8,8,8,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,report_gaps,0.446,1.617,0.276,-1.171,123.9,27763.6,bus-minutes under the line's label,33,31,1,2,2,,2026-10-10,2026-11-22
+all,5703,Midway Metra,report_gaps,0.579,1.617,0.358,-1.038,150.8,26041.8,bus-minutes under the line's label,36,31,2,2,2,,2026-10-10,2026-11-22
+all,1075,North,report_gaps,1.2,1.617,0.742,-0.417,278.1,23177.2,bus-minutes under the line's label,73,44,2,3,4,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,report_gaps,0.381,1.617,0.236,-1.236,182.1,47773.3,bus-minutes under the line's label,48,34,1,2,2,,2026-10-10,2026-11-22
+all,5715,Regents Express,report_gaps,1.334,1.617,0.825,-0.283,86.4,6478.8,bus-minutes under the line's label,27,30,3,3,3,,2026-10-10,2026-11-22
+all,1076,South,report_gaps,0.84,1.617,0.52,-0.777,176.7,21021.1,bus-minutes under the line's label,53,44,3,3,4,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,report_gaps,1.187,1.617,0.734,-0.43,61.4,5168.3,bus-minutes under the line's label,19,19,1,1,1,,2026-10-10,2026-11-22
+all,ALL,All lines,report_gaps,1.617,1.617,1,0,7582.2,468855.1,bus-minutes under the line's label,1708,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,row_time_off_gps,0.175,0.543,0.322,-0.368,21,11994,logged stop visits driven past (GPS),21,30,0,0,1,,2026-10-10,2026-11-22
+all,5702,Apostolic,row_time_off_gps,0.159,0.543,0.292,-0.385,9,5677,logged stop visits driven past (GPS),9,30,0,1,1,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,row_time_off_gps,0.129,0.543,0.237,-0.414,19,14732,logged stop visits driven past (GPS),19,30,0,0,0,,2026-10-10,2026-11-22
+all,1078,Central,row_time_off_gps,0.5,0.543,0.92,-0.043,43,8603,logged stop visits driven past (GPS),43,44,10,11,11,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,row_time_off_gps,0.196,0.543,0.36,-0.347,22,11238,logged stop visits driven past (GPS),22,30,0,0,1,,2026-10-10,2026-11-22
+all,5701,Drexel,row_time_off_gps,1.331,0.543,2.451,0.788,59,4433,logged stop visits driven past (GPS),59,30,17,18,18,,2026-10-10,2026-11-22
+all,1077,East,row_time_off_gps,0.013,0.543,0.024,-0.53,1,7823,logged stop visits driven past (GPS),1,44,0,0,0,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,row_time_off_gps,0.204,0.543,0.376,-0.339,17,8330,logged stop visits driven past (GPS),17,30,0,0,0,,2026-10-10,2026-11-22
+all,5703,Midway Metra,row_time_off_gps,0.157,0.543,0.29,-0.386,18,11429,logged stop visits driven past (GPS),18,30,0,0,1,,2026-10-10,2026-11-22
+all,1075,North,row_time_off_gps,0.102,0.543,0.187,-0.442,4,3937,logged stop visits driven past (GPS),4,44,2,3,4,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,row_time_off_gps,2.36,0.543,4.345,1.817,392,16610,logged stop visits driven past (GPS),392,30,29,29,30,low,2026-10-10,2026-11-22
+all,5715,Regents Express,row_time_off_gps,0,0.543,0,-0.543,0,980,logged stop visits driven past (GPS),0,29,0,0,0,,2026-10-10,2026-11-22
+all,1076,South,row_time_off_gps,0.087,0.543,0.161,-0.456,6,6878,logged stop visits driven past (GPS),6,44,0,0,0,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,row_time_off_gps,0.98,0.543,1.805,0.437,2,204,logged stop visits driven past (GPS),2,13,2,2,2,,2026-10-10,2026-11-22
+all,ALL,All lines,row_time_off_gps,0.543,0.543,1,0,613,112868,logged stop visits driven past (GPS),613,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,rows_outside_hours,0,0.667,0,-0.667,0,13033,arrival rows on days with a timetable,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5702,Apostolic,rows_outside_hours,0.678,0.667,1.015,0.01,53,7822,arrival rows on days with a timetable,53,31,5,6,7,,2026-10-09,2026-11-22
+all,6126,Apostolic/Drexel,rows_outside_hours,0.051,0.667,0.077,-0.616,10,19488,arrival rows on days with a timetable,10,31,0,1,2,,2026-10-09,2026-11-22
+all,1078,Central,rows_outside_hours,4.911,0.667,7.359,4.244,506,10303,arrival rows on days with a timetable,506,45,41,41,41,medium,2026-10-09,2026-11-22
+all,5704,Downtown Campus Connector,rows_outside_hours,0.012,0.667,0.019,-0.655,2,16047,arrival rows on days with a timetable,2,31,0,0,0,,2026-10-09,2026-11-22
+all,5701,Drexel,rows_outside_hours,1.488,0.667,2.23,0.821,84,5644,arrival rows on days with a timetable,84,31,5,7,7,,2026-10-09,2026-11-22
+all,1077,East,rows_outside_hours,0.011,0.667,0.016,-0.656,1,9089,arrival rows on days with a timetable,1,45,0,0,0,,2026-10-09,2026-11-22
+all,5700,Friend Center/Metra,rows_outside_hours,0.93,0.667,1.394,0.263,97,10430,arrival rows on days with a timetable,97,31,4,4,5,,2026-10-09,2026-11-22
+all,5703,Midway Metra,rows_outside_hours,0.643,0.667,0.963,-0.024,87,13531,arrival rows on days with a timetable,87,31,6,8,9,,2026-10-09,2026-11-22
+all,1075,North,rows_outside_hours,0,0.667,0,-0.667,0,4779,arrival rows on days with a timetable,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5699,Red Line/Arts Block,rows_outside_hours,0.166,0.667,0.249,-0.501,29,17448,arrival rows on days with a timetable,29,33,0,0,1,,2026-10-09,2026-11-22
+all,5715,Regents Express,rows_outside_hours,3.015,0.667,4.518,2.348,36,1194,arrival rows on days with a timetable,36,30,18,18,18,medium,2026-10-09,2026-11-22
+all,1076,South,rows_outside_hours,0.126,0.667,0.189,-0.541,10,7915,arrival rows on days with a timetable,10,45,2,2,2,,2026-10-09,2026-11-22
+all,5716,South Loop Shuttle,rows_outside_hours,0,0.667,0,-0.667,0,388,arrival rows on days with a timetable,0,14,0,0,0,,2026-10-09,2026-11-22
+all,ALL,All lines,rows_outside_hours,0.667,0.667,1,0,915,137111,arrival rows on days with a timetable,915,45,,,,,2026-10-09,2026-11-22
+all,4346,53rd Street Express,service_under_other_label,0.195,1.502,0.13,-1.307,50,25694.9,bus-minutes under the line's label,1,31,1,1,1,,2026-10-10,2026-11-22
+all,5702,Apostolic,service_under_other_label,0.789,1.502,0.526,-0.712,200,25341.2,bus-minutes under the line's label,4,30,2,3,3,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,service_under_other_label,3.017,1.502,2.01,1.516,1650,54683.6,bus-minutes under the line's label,30,31,12,15,17,medium,2026-10-10,2026-11-22
+all,1078,Central,service_under_other_label,0.686,1.502,0.457,-0.816,180,26240,bus-minutes under the line's label,2,44,2,2,2,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,service_under_other_label,0.586,1.502,0.39,-0.916,800,136515.8,bus-minutes under the line's label,20,31,0,3,4,,2026-10-10,2026-11-22
+all,5701,Drexel,service_under_other_label,0.164,1.502,0.109,-1.338,30,18306.1,bus-minutes under the line's label,1,30,1,1,1,,2026-10-10,2026-11-22
+all,1077,East,service_under_other_label,2.272,1.502,1.513,0.77,560,24649.5,bus-minutes under the line's label,8,44,6,6,6,low,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,service_under_other_label,6.339,1.502,4.222,4.838,1760,27763.6,bus-minutes under the line's label,23,31,20,21,21,medium,2026-10-10,2026-11-22
+all,5703,Midway Metra,service_under_other_label,0.384,1.502,0.256,-1.118,100,26041.8,bus-minutes under the line's label,2,31,2,2,2,,2026-10-10,2026-11-22
+all,1075,North,service_under_other_label,0.777,1.502,0.517,-0.725,180,23177.2,bus-minutes under the line's label,4,44,4,4,4,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,service_under_other_label,1.57,1.502,1.046,0.068,750,47773.3,bus-minutes under the line's label,16,34,2,10,12,,2026-10-10,2026-11-22
+all,5715,Regents Express,service_under_other_label,2.933,1.502,1.953,1.431,190,6478.8,bus-minutes under the line's label,3,30,3,3,3,,2026-10-10,2026-11-22
+all,1076,South,service_under_other_label,2.664,1.502,1.774,1.162,560,21021.1,bus-minutes under the line's label,10,44,6,6,6,medium,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,service_under_other_label,0.58,1.502,0.387,-0.921,30,5168.3,bus-minutes under the line's label,1,19,1,1,1,,2026-10-10,2026-11-22
+all,ALL,All lines,service_under_other_label,1.502,1.502,1,0,7040,468855.1,bus-minutes under the line's label,125,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,stops_missed,0.117,0.417,0.279,-0.301,14,12008,stop visits driven past (GPS),14,30,0,0,0,,2026-10-10,2026-11-22
+all,5702,Apostolic,stops_missed,1.115,0.417,2.672,0.698,64,5741,stop visits driven past (GPS),64,30,11,13,17,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,stops_missed,0.506,0.417,1.213,0.089,75,14817,stop visits driven past (GPS),75,30,5,7,9,,2026-10-10,2026-11-22
+all,1078,Central,stops_missed,0.394,0.417,0.943,-0.024,34,8637,stop visits driven past (GPS),34,44,6,9,12,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,stops_missed,0.847,0.417,2.03,0.43,96,11334,stop visits driven past (GPS),96,30,12,15,18,,2026-10-10,2026-11-22
+all,5701,Drexel,stops_missed,0.18,0.417,0.432,-0.237,8,4442,stop visits driven past (GPS),8,30,1,6,6,,2026-10-10,2026-11-22
+all,1077,East,stops_missed,0.089,0.417,0.214,-0.328,7,7830,stop visits driven past (GPS),7,44,2,2,2,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,stops_missed,0.168,0.417,0.402,-0.25,14,8346,stop visits driven past (GPS),14,30,1,1,1,,2026-10-10,2026-11-22
+all,5703,Midway Metra,stops_missed,0.297,0.417,0.711,-0.121,34,11464,stop visits driven past (GPS),34,30,2,3,7,,2026-10-10,2026-11-22
+all,1075,North,stops_missed,0.101,0.417,0.243,-0.316,4,3941,stop visits driven past (GPS),4,44,2,2,2,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,stops_missed,0.396,0.417,0.948,-0.021,66,16676,stop visits driven past (GPS),66,30,1,3,3,,2026-10-10,2026-11-22
+all,5715,Regents Express,stops_missed,0.508,0.417,1.217,0.09,5,985,stop visits driven past (GPS),5,29,5,5,5,,2026-10-10,2026-11-22
+all,1076,South,stops_missed,0.722,0.417,1.73,0.304,50,6928,stop visits driven past (GPS),50,44,17,19,24,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,stops_missed,0.971,0.417,2.327,0.554,2,206,stop visits driven past (GPS),2,13,2,2,2,,2026-10-10,2026-11-22
+all,ALL,All lines,stops_missed,0.417,0.417,1,0,473,113355,stop visits driven past (GPS),473,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,stops_rarely_logged,0,0,,0,0,16,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5702,Apostolic,stops_rarely_logged,0,0,,0,0,10,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,stops_rarely_logged,0,0,,0,0,12,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,1078,Central,stops_rarely_logged,0,0,,0,0,14,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,stops_rarely_logged,0,0,,0,0,14,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5701,Drexel,stops_rarely_logged,0,0,,0,0,7,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,1077,East,stops_rarely_logged,0,0,,0,0,13,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,stops_rarely_logged,0,0,,0,0,12,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5703,Midway Metra,stops_rarely_logged,0,0,,0,0,14,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,1075,North,stops_rarely_logged,0,0,,0,0,7,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,stops_rarely_logged,0,0,,0,0,11,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5715,Regents Express,stops_rarely_logged,0,0,,0,0,7,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,1076,South,stops_rarely_logged,0,0,,0,0,16,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,stops_rarely_logged,0,0,,0,0,5,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,ALL,All lines,stops_rarely_logged,0,0,,0,0,158,stops the line's buses come within 120 m of (the line's route order),0,44,,,,,2026-10-10,2026-11-22
+all,4346,53rd Street Express,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5702,Apostolic,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,6126,Apostolic/Drexel,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,1078,Central,thin_line_days,2.222,2.053,1.082,0.169,1,45,listed service days,1,45,1,1,1,,2026-10-09,2026-11-22
+all,5704,Downtown Campus Connector,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5701,Drexel,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,1077,East,thin_line_days,0,2.053,0,-2.053,0,45,listed service days,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5700,Friend Center/Metra,thin_line_days,0,2.053,0,-2.053,0,45,listed service days,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5703,Midway Metra,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,1075,North,thin_line_days,0,2.053,0,-2.053,0,45,listed service days,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5699,Red Line/Arts Block,thin_line_days,0,2.053,0,-2.053,0,31,listed service days,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5715,Regents Express,thin_line_days,16.129,2.053,7.855,14.076,5,31,listed service days,5,31,5,5,5,medium,2026-10-09,2026-11-22
+all,1076,South,thin_line_days,6.667,2.053,3.247,4.613,3,45,listed service days,3,45,3,3,3,low,2026-10-09,2026-11-22
+all,5716,South Loop Shuttle,thin_line_days,7.143,2.053,3.479,5.089,1,14,listed service days,1,14,1,1,1,,2026-10-09,2026-11-22
+all,ALL,All lines,thin_line_days,2.053,2.053,1,0,10,487,listed service days,10,45,,,,,2026-10-09,2026-11-22
+all,4346,53rd Street Express,trip_not_in_timetable,0,0,,0,0,12673,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5702,Apostolic,trip_not_in_timetable,0,0,,0,0,7597,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,6126,Apostolic/Drexel,trip_not_in_timetable,0,0,,0,0,18894,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,1078,Central,trip_not_in_timetable,0,0,,0,0,8479,non-gps arrival rows,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5704,Downtown Campus Connector,trip_not_in_timetable,0,0,,0,0,14596,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5701,Drexel,trip_not_in_timetable,0,0,,0,0,5467,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,1077,East,trip_not_in_timetable,0,0,,0,0,8858,non-gps arrival rows,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5700,Friend Center/Metra,trip_not_in_timetable,0,0,,0,0,9975,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5703,Midway Metra,trip_not_in_timetable,0,0,,0,0,13010,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,1075,North,trip_not_in_timetable,0,0,,0,0,4614,non-gps arrival rows,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5699,Red Line/Arts Block,trip_not_in_timetable,0,0,,0,0,12874,non-gps arrival rows,0,31,0,0,0,,2026-10-09,2026-11-22
+all,5715,Regents Express,trip_not_in_timetable,0,0,,0,0,1040,non-gps arrival rows,0,30,0,0,0,,2026-10-09,2026-11-22
+all,1076,South,trip_not_in_timetable,0,0,,0,0,6574,non-gps arrival rows,0,45,0,0,0,,2026-10-09,2026-11-22
+all,5716,South Loop Shuttle,trip_not_in_timetable,0,0,,0,0,371,non-gps arrival rows,0,14,0,0,0,,2026-10-09,2026-11-22
+all,ALL,All lines,trip_not_in_timetable,0,0,,0,0,125022,non-gps arrival rows,0,45,,,,,2026-10-09,2026-11-22
+all,4346,53rd Street Express,wrong_line_label,0.739,1.502,0.492,-0.762,190,25694.9,bus-minutes under the line's label,5,31,4,4,4,,2026-10-10,2026-11-22
+all,5702,Apostolic,wrong_line_label,1.657,1.502,1.104,0.156,420,25341.2,bus-minutes under the line's label,8,30,6,7,7,,2026-10-10,2026-11-22
+all,6126,Apostolic/Drexel,wrong_line_label,3.804,1.502,2.533,2.302,2080,54683.6,bus-minutes under the line's label,29,31,15,19,20,medium,2026-10-10,2026-11-22
+all,1078,Central,wrong_line_label,0.229,1.502,0.152,-1.273,60,26240,bus-minutes under the line's label,1,44,1,1,1,,2026-10-10,2026-11-22
+all,5704,Downtown Campus Connector,wrong_line_label,0.425,1.502,0.283,-1.077,580,136515.8,bus-minutes under the line's label,11,31,1,2,2,,2026-10-10,2026-11-22
+all,5701,Drexel,wrong_line_label,1.093,1.502,0.728,-0.409,200,18306.1,bus-minutes under the line's label,4,30,4,4,4,,2026-10-10,2026-11-22
+all,1077,East,wrong_line_label,0.487,1.502,0.324,-1.015,120,24649.5,bus-minutes under the line's label,3,44,3,3,3,,2026-10-10,2026-11-22
+all,5700,Friend Center/Metra,wrong_line_label,2.557,1.502,1.703,1.056,710,27763.6,bus-minutes under the line's label,10,31,7,7,7,medium,2026-10-10,2026-11-22
+all,5703,Midway Metra,wrong_line_label,3.379,1.502,2.25,1.878,880,26041.8,bus-minutes under the line's label,21,31,16,16,16,medium,2026-10-10,2026-11-22
+all,1075,North,wrong_line_label,0.259,1.502,0.172,-1.243,60,23177.2,bus-minutes under the line's label,1,44,1,1,1,,2026-10-10,2026-11-22
+all,5699,Red Line/Arts Block,wrong_line_label,2.575,1.502,1.715,1.073,1230,47773.3,bus-minutes under the line's label,25,34,11,15,16,medium,2026-10-10,2026-11-22
+all,5715,Regents Express,wrong_line_label,2.624,1.502,1.748,1.122,170,6478.8,bus-minutes under the line's label,4,30,4,4,4,,2026-10-10,2026-11-22
+all,1076,South,wrong_line_label,1.617,1.502,1.077,0.116,340,21021.1,bus-minutes under the line's label,3,44,2,2,2,,2026-10-10,2026-11-22
+all,5716,South Loop Shuttle,wrong_line_label,0,1.502,0,-1.502,0,5168.3,bus-minutes under the line's label,0,19,0,0,0,,2026-10-10,2026-11-22
+all,ALL,All lines,wrong_line_label,1.502,1.502,1,0,7040,468855.1,bus-minutes under the line's label,125,44,,,,,2026-10-10,2026-11-22
+recent,4346,53rd Street Express,double_logged_visits,0.048,0.084,0.569,-0.036,2,4161,arrival rows,2,10,1,1,1,,2026-11-09,2026-11-22
+recent,5702,Apostolic,double_logged_visits,0.206,0.084,2.435,0.121,5,2430,arrival rows,5,10,4,4,4,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,double_logged_visits,0.041,0.084,0.49,-0.043,3,7241,arrival rows,3,10,1,1,2,,2026-11-09,2026-11-22
+recent,1078,Central,double_logged_visits,0.033,0.084,0.386,-0.052,1,3068,arrival rows,1,14,1,1,1,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,double_logged_visits,0.178,0.084,2.106,0.093,10,5621,arrival rows,10,10,6,6,6,,2026-11-09,2026-11-22
+recent,5701,Drexel,double_logged_visits,0.276,0.084,3.262,0.191,5,1814,arrival rows,5,10,4,4,4,,2026-11-09,2026-11-22
+recent,1077,East,double_logged_visits,0.035,0.084,0.411,-0.05,1,2883,arrival rows,1,14,1,1,1,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,double_logged_visits,0.031,0.084,0.361,-0.054,1,3275,arrival rows,1,10,1,1,1,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,double_logged_visits,0,0.084,0,-0.084,0,4420,arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,double_logged_visits,0.212,0.084,2.509,0.128,3,1415,arrival rows,3,14,3,3,3,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,double_logged_visits,0.035,0.084,0.413,-0.05,2,5726,arrival rows,2,11,2,2,2,,2026-11-09,2026-11-22
+recent,5715,Regents Express,double_logged_visits,0,0.084,0,-0.084,0,446,arrival rows,0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,double_logged_visits,0.085,0.084,1.001,0,2,2365,arrival rows,2,14,2,2,2,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,double_logged_visits,2.752,0.084,32.574,2.668,3,109,arrival rows,3,4,1,1,1,,2026-11-09,2026-11-22
+recent,ALL,All lines,double_logged_visits,0.084,0.084,1,0,38,44974,arrival rows,38,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,feed_skipped_stops,2.067,7.373,0.28,-5.306,86,4161,arrival rows,86,10,0,0,1,,2026-11-09,2026-11-22
+recent,5702,Apostolic,feed_skipped_stops,2.881,7.373,0.391,-4.492,70,2430,arrival rows,70,10,0,0,1,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,feed_skipped_stops,3.314,7.373,0.45,-4.059,240,7241,arrival rows,240,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,feed_skipped_stops,4.628,7.373,0.628,-2.745,142,3068,arrival rows,142,14,1,1,2,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,feed_skipped_stops,12.471,7.373,1.691,5.098,701,5621,arrival rows,701,10,3,4,8,medium,2026-11-09,2026-11-22
+recent,5701,Drexel,feed_skipped_stops,5.237,7.373,0.71,-2.136,95,1814,arrival rows,95,10,0,1,2,,2026-11-09,2026-11-22
+recent,1077,East,feed_skipped_stops,8.741,7.373,1.186,1.368,252,2883,arrival rows,252,14,2,4,5,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,feed_skipped_stops,2.351,7.373,0.319,-5.022,77,3275,arrival rows,77,10,0,0,1,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,feed_skipped_stops,5.271,7.373,0.715,-2.102,233,4420,arrival rows,233,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,feed_skipped_stops,2.968,7.373,0.403,-4.405,42,1415,arrival rows,42,14,1,1,1,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,feed_skipped_stops,7.597,7.373,1.03,0.224,435,5726,arrival rows,435,11,0,1,2,,2026-11-09,2026-11-22
+recent,5715,Regents Express,feed_skipped_stops,13.229,7.373,1.794,5.856,59,446,arrival rows,59,9,4,5,7,medium,2026-11-09,2026-11-22
+recent,1076,South,feed_skipped_stops,35.856,7.373,4.863,28.483,848,2365,arrival rows,848,14,13,14,14,high,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,feed_skipped_stops,33.028,7.373,4.479,25.654,36,109,arrival rows,36,4,3,3,3,medium,2026-11-09,2026-11-22
+recent,ALL,All lines,feed_skipped_stops,7.373,7.373,1,0,3316,44974,arrival rows,3316,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,frozen_gps,0,0,,0,0,8281.8,bus-minutes under the line's label,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,frozen_gps,0,0,,0,0,7904.7,bus-minutes under the line's label,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,frozen_gps,0,0,,0,0,18597.6,bus-minutes under the line's label,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,frozen_gps,0,0,,0,0,7621.6,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,frozen_gps,0,0,,0,0,47094.1,bus-minutes under the line's label,0,11,0,0,0,,2026-11-09,2026-11-22
+recent,5701,Drexel,frozen_gps,0,0,,0,0,5724.2,bus-minutes under the line's label,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1077,East,frozen_gps,0,0,,0,0,8038.9,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,frozen_gps,0,0,,0,0,9127.6,bus-minutes under the line's label,0,11,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,frozen_gps,0,0,,0,0,8516.4,bus-minutes under the line's label,0,11,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,frozen_gps,0,0,,0,0,7134.2,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,frozen_gps,0,0,,0,0,15634.3,bus-minutes under the line's label,0,11,0,0,0,,2026-11-09,2026-11-22
+recent,5715,Regents Express,frozen_gps,0,0,,0,0,2232.9,bus-minutes under the line's label,0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,frozen_gps,0,0,,0,0,6129.3,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,frozen_gps,0,0,,0,0,1469.9,bus-minutes under the line's label,0,6,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,frozen_gps,0,0,,0,0,153507.6,bus-minutes under the line's label,0,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,gps_only_rows,0.889,8.031,0.111,-7.142,37,4161,arrival rows,37,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,gps_only_rows,2.84,8.031,0.354,-5.192,69,2430,arrival rows,69,10,0,0,1,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,gps_only_rows,2.417,8.031,0.301,-5.615,175,7241,arrival rows,175,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,gps_only_rows,13.331,8.031,1.66,5.3,409,3068,arrival rows,409,14,5,7,8,medium,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,gps_only_rows,7.205,8.031,0.897,-0.826,405,5621,arrival rows,405,10,0,2,2,,2026-11-09,2026-11-22
+recent,5701,Drexel,gps_only_rows,2.481,8.031,0.309,-5.551,45,1814,arrival rows,45,10,0,0,0,,2026-11-09,2026-11-22
+recent,1077,East,gps_only_rows,4.336,8.031,0.54,-3.696,125,2883,arrival rows,125,14,0,2,2,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,gps_only_rows,3.603,8.031,0.449,-4.428,118,3275,arrival rows,118,10,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,gps_only_rows,4.887,8.031,0.608,-3.144,216,4420,arrival rows,216,10,0,1,2,,2026-11-09,2026-11-22
+recent,1075,North,gps_only_rows,3.604,8.031,0.449,-4.427,51,1415,arrival rows,51,14,0,0,0,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,gps_only_rows,23.926,8.031,2.979,15.895,1370,5726,arrival rows,1370,11,9,10,10,high,2026-11-09,2026-11-22
+recent,5715,Regents Express,gps_only_rows,9.641,8.031,1.2,1.61,43,446,arrival rows,43,9,1,3,3,,2026-11-09,2026-11-22
+recent,1076,South,gps_only_rows,22.918,8.031,2.854,14.886,542,2365,arrival rows,542,14,6,6,6,high,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,gps_only_rows,6.422,8.031,0.8,-1.609,7,109,arrival rows,7,4,1,1,1,,2026-11-09,2026-11-22
+recent,ALL,All lines,gps_only_rows,8.031,8.031,1,0,3612,44974,arrival rows,3612,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,listed_stops_not_driven,0,1.266,0,-1.266,0,16,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5702,Apostolic,listed_stops_not_driven,0,1.266,0,-1.266,0,10,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,1078,Central,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5701,Drexel,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,1077,East,listed_stops_not_driven,0,1.266,0,-1.266,0,13,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,12,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,listed_stops_not_driven,0,1.266,0,-1.266,0,14,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,1075,North,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,listed_stops_not_driven,0,1.266,0,-1.266,0,11,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,5715,Regents Express,listed_stops_not_driven,0,1.266,0,-1.266,0,7,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,1076,South,listed_stops_not_driven,12.5,1.266,9.875,11.234,2,16,stops of the line's route order,2,14,,,,low,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,listed_stops_not_driven,0,1.266,0,-1.266,0,5,stops of the line's route order,0,14,,,,,2026-11-09,2026-11-22
+recent,ALL,All lines,listed_stops_not_driven,1.266,1.266,1,0,2,158,stops of the line's route order,2,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,listed_time_no_bus,7.87,8.803,0.894,-0.933,58,737,listed 10-min bins with the feed alive,58,10,0,0,1,,2026-11-09,2026-11-22
+recent,5702,Apostolic,listed_time_no_bus,10,8.803,1.136,1.197,32,320,listed 10-min bins with the feed alive,32,10,2,2,2,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,listed_time_no_bus,1.856,8.803,0.211,-6.947,16,862,listed 10-min bins with the feed alive,16,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,listed_time_no_bus,4.153,8.803,0.472,-4.65,25,602,listed 10-min bins with the feed alive,25,14,2,3,3,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,listed_time_no_bus,10.264,8.803,1.166,1.461,109,1062,listed 10-min bins with the feed alive,109,10,0,0,5,,2026-11-09,2026-11-22
+recent,5701,Drexel,listed_time_no_bus,0.645,8.803,0.073,-8.158,2,310,listed 10-min bins with the feed alive,2,10,0,0,0,,2026-11-09,2026-11-22
+recent,1077,East,listed_time_no_bus,7.294,8.803,0.829,-1.509,55,754,listed 10-min bins with the feed alive,55,14,1,3,3,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,listed_time_no_bus,13.624,8.803,1.548,4.821,147,1079,listed 10-min bins with the feed alive,147,14,4,4,5,low,2026-11-09,2026-11-22
+recent,5703,Midway Metra,listed_time_no_bus,16.14,8.803,1.833,7.337,92,570,listed 10-min bins with the feed alive,92,10,3,6,9,medium,2026-11-09,2026-11-22
+recent,1075,North,listed_time_no_bus,10.345,8.803,1.175,1.542,78,754,listed 10-min bins with the feed alive,78,14,2,5,6,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,listed_time_no_bus,2.623,8.803,0.298,-6.181,23,877,listed 10-min bins with the feed alive,23,10,0,0,0,,2026-11-09,2026-11-22
+recent,5715,Regents Express,listed_time_no_bus,13.182,8.803,1.497,4.379,29,220,listed 10-min bins with the feed alive,29,10,2,2,2,low,2026-11-09,2026-11-22
+recent,1076,South,listed_time_no_bus,14.324,8.803,1.627,5.521,108,754,listed 10-min bins with the feed alive,108,14,3,6,8,medium,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,listed_time_no_bus,14.634,8.803,1.662,5.831,24,164,listed 10-min bins with the feed alive,24,4,1,1,2,low,2026-11-09,2026-11-22
+recent,ALL,All lines,listed_time_no_bus,8.803,8.803,1,0,798,9065,listed 10-min bins with the feed alive,798,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,no_passio_time,13.676,16.583,0.825,-2.907,564,4124,non-gps arrival rows since Oct 12 noon,564,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,no_passio_time,14.104,16.583,0.851,-2.479,333,2361,non-gps arrival rows since Oct 12 noon,333,10,0,1,1,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,no_passio_time,11.888,16.583,0.717,-4.695,840,7066,non-gps arrival rows since Oct 12 noon,840,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,no_passio_time,13.652,16.583,0.823,-2.931,363,2659,non-gps arrival rows since Oct 12 noon,363,14,0,1,3,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,no_passio_time,36.407,16.583,2.195,19.824,1899,5216,non-gps arrival rows since Oct 12 noon,1899,10,9,10,10,high,2026-11-09,2026-11-22
+recent,5701,Drexel,no_passio_time,16.789,16.583,1.012,0.206,297,1769,non-gps arrival rows since Oct 12 noon,297,10,1,4,5,,2026-11-09,2026-11-22
+recent,1077,East,no_passio_time,27.556,16.583,1.662,10.973,760,2758,non-gps arrival rows since Oct 12 noon,760,14,2,10,12,medium,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,no_passio_time,5.543,16.583,0.334,-11.04,175,3157,non-gps arrival rows since Oct 12 noon,175,10,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,no_passio_time,5.852,16.583,0.353,-10.731,246,4204,non-gps arrival rows since Oct 12 noon,246,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,no_passio_time,38.71,16.583,2.334,22.127,528,1364,non-gps arrival rows since Oct 12 noon,528,14,11,12,14,high,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,no_passio_time,13.131,16.583,0.792,-3.452,572,4356,non-gps arrival rows since Oct 12 noon,572,10,0,0,0,,2026-11-09,2026-11-22
+recent,5715,Regents Express,no_passio_time,21.836,16.583,1.317,5.253,88,403,non-gps arrival rows since Oct 12 noon,88,9,1,4,4,low,2026-11-09,2026-11-22
+recent,1076,South,no_passio_time,8.228,16.583,0.496,-8.355,150,1823,non-gps arrival rows since Oct 12 noon,150,14,0,0,0,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,no_passio_time,43.137,16.583,2.601,26.554,44,102,non-gps arrival rows since Oct 12 noon,44,4,3,3,3,medium,2026-11-09,2026-11-22
+recent,ALL,All lines,no_passio_time,16.583,16.583,1,0,6859,41362,non-gps arrival rows since Oct 12 noon,6859,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,report_gaps,0.175,0.907,0.193,-0.732,14.5,8281.8,bus-minutes under the line's label,6,10,0,1,1,,2026-11-09,2026-11-22
+recent,5702,Apostolic,report_gaps,1.532,0.907,1.689,0.625,121.1,7904.7,bus-minutes under the line's label,34,10,4,4,4,low,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,report_gaps,1.108,0.907,1.223,0.202,206.1,18597.6,bus-minutes under the line's label,55,10,2,2,2,,2026-11-09,2026-11-22
+recent,1078,Central,report_gaps,2.199,0.907,2.425,1.292,167.6,7621.6,bus-minutes under the line's label,52,14,4,4,4,medium,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,report_gaps,0.958,0.907,1.057,0.052,451.2,47094.1,bus-minutes under the line's label,97,11,1,2,2,,2026-11-09,2026-11-22
+recent,5701,Drexel,report_gaps,0.811,0.907,0.895,-0.095,46.4,5724.2,bus-minutes under the line's label,13,10,2,2,2,,2026-11-09,2026-11-22
+recent,1077,East,report_gaps,0.233,0.907,0.257,-0.674,18.7,8038.9,bus-minutes under the line's label,5,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,report_gaps,0,0.907,0,-0.907,0,9127.6,bus-minutes under the line's label,0,11,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,report_gaps,0.104,0.907,0.115,-0.803,8.9,8516.4,bus-minutes under the line's label,3,11,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,report_gaps,1.956,0.907,2.158,1.05,139.6,7134.2,bus-minutes under the line's label,37,14,2,3,4,medium,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,report_gaps,0.284,0.907,0.313,-0.622,44.4,15634.3,bus-minutes under the line's label,9,11,1,1,1,,2026-11-09,2026-11-22
+recent,5715,Regents Express,report_gaps,1.904,0.907,2.1,0.997,42.5,2232.9,bus-minutes under the line's label,13,9,1,1,1,,2026-11-09,2026-11-22
+recent,1076,South,report_gaps,1.257,0.907,1.386,0.35,77,6129.3,bus-minutes under the line's label,23,14,1,1,1,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,report_gaps,3.653,0.907,4.03,2.747,53.7,1469.9,bus-minutes under the line's label,17,6,1,2,2,low,2026-11-09,2026-11-22
+recent,ALL,All lines,report_gaps,0.907,0.907,1,0,1391.8,153507.6,bus-minutes under the line's label,364,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,row_time_off_gps,0.177,0.581,0.304,-0.404,7,3958,logged stop visits driven past (GPS),7,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,row_time_off_gps,0.32,0.581,0.55,-0.261,6,1875,logged stop visits driven past (GPS),6,10,0,1,1,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,row_time_off_gps,0.105,0.581,0.181,-0.476,6,5701,logged stop visits driven past (GPS),6,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,row_time_off_gps,0.462,0.581,0.794,-0.12,12,2600,logged stop visits driven past (GPS),12,14,2,4,4,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,row_time_off_gps,0.227,0.581,0.39,-0.355,9,3970,logged stop visits driven past (GPS),9,10,0,0,0,,2026-11-09,2026-11-22
+recent,5701,Drexel,row_time_off_gps,1.777,0.581,3.057,1.196,26,1463,logged stop visits driven past (GPS),26,10,7,7,7,,2026-11-09,2026-11-22
+recent,1077,East,row_time_off_gps,0,0.581,0,-0.581,0,2559,logged stop visits driven past (GPS),0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,row_time_off_gps,0.291,0.581,0.5,-0.291,8,2753,logged stop visits driven past (GPS),8,10,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,row_time_off_gps,0.128,0.581,0.22,-0.453,5,3902,logged stop visits driven past (GPS),5,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,row_time_off_gps,0.085,0.581,0.146,-0.497,1,1181,logged stop visits driven past (GPS),1,14,1,1,1,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,row_time_off_gps,2.517,0.581,4.33,1.936,140,5562,logged stop visits driven past (GPS),140,10,10,10,10,low,2026-11-09,2026-11-22
+recent,5715,Regents Express,row_time_off_gps,0,0.581,0,-0.581,0,368,logged stop visits driven past (GPS),0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,row_time_off_gps,0.048,0.581,0.083,-0.533,1,2069,logged stop visits driven past (GPS),1,14,0,0,0,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,row_time_off_gps,0,0.581,0,-0.581,0,55,logged stop visits driven past (GPS),0,4,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,row_time_off_gps,0.581,0.581,1,0,221,38016,logged stop visits driven past (GPS),221,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,rows_outside_hours,0,0.538,0,-0.538,0,4161,arrival rows on days with a timetable,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,rows_outside_hours,0.453,0.538,0.841,-0.085,11,2430,arrival rows on days with a timetable,11,10,1,2,2,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,rows_outside_hours,0,0.538,0,-0.538,0,7241,arrival rows on days with a timetable,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,rows_outside_hours,5.052,0.538,9.389,4.514,155,3068,arrival rows on days with a timetable,155,14,12,12,12,medium,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,rows_outside_hours,0.036,0.538,0.066,-0.503,2,5621,arrival rows on days with a timetable,2,10,0,0,0,,2026-11-09,2026-11-22
+recent,5701,Drexel,rows_outside_hours,0.772,0.538,1.434,0.234,14,1814,arrival rows on days with a timetable,14,10,1,2,2,,2026-11-09,2026-11-22
+recent,1077,East,rows_outside_hours,0,0.538,0,-0.538,0,2883,arrival rows on days with a timetable,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,rows_outside_hours,0.824,0.538,1.532,0.286,27,3275,arrival rows on days with a timetable,27,10,1,1,1,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,rows_outside_hours,0.226,0.538,0.42,-0.312,10,4420,arrival rows on days with a timetable,10,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,rows_outside_hours,0,0.538,0,-0.538,0,1415,arrival rows on days with a timetable,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,rows_outside_hours,0.192,0.538,0.357,-0.346,11,5726,arrival rows on days with a timetable,11,11,0,1,1,,2026-11-09,2026-11-22
+recent,5715,Regents Express,rows_outside_hours,2.018,0.538,3.75,1.48,9,446,arrival rows on days with a timetable,9,9,5,5,5,low,2026-11-09,2026-11-22
+recent,1076,South,rows_outside_hours,0.127,0.538,0.236,-0.411,3,2365,arrival rows on days with a timetable,3,14,1,1,1,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,rows_outside_hours,0,0.538,0,-0.538,0,109,arrival rows on days with a timetable,0,4,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,rows_outside_hours,0.538,0.538,1,0,242,44974,arrival rows on days with a timetable,242,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,service_under_other_label,0,1.166,0,-1.166,0,8281.8,bus-minutes under the line's label,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,service_under_other_label,0.759,1.166,0.651,-0.407,60,7904.7,bus-minutes under the line's label,1,10,1,1,1,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,service_under_other_label,1.506,1.166,1.291,0.34,280,18597.6,bus-minutes under the line's label,6,10,2,4,5,,2026-11-09,2026-11-22
+recent,1078,Central,service_under_other_label,0,1.166,0,-1.166,0,7621.6,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,service_under_other_label,0.616,1.166,0.528,-0.55,290,47094.1,bus-minutes under the line's label,8,11,0,2,2,,2026-11-09,2026-11-22
+recent,5701,Drexel,service_under_other_label,0,1.166,0,-1.166,0,5724.2,bus-minutes under the line's label,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1077,East,service_under_other_label,0,1.166,0,-1.166,0,8038.9,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,service_under_other_label,6.135,1.166,5.261,4.969,560,9127.6,bus-minutes under the line's label,5,11,5,5,5,low,2026-11-09,2026-11-22
+recent,5703,Midway Metra,service_under_other_label,0,1.166,0,-1.166,0,8516.4,bus-minutes under the line's label,0,11,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,service_under_other_label,0.561,1.166,0.481,-0.605,40,7134.2,bus-minutes under the line's label,1,14,1,1,1,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,service_under_other_label,0.832,1.166,0.713,-0.335,130,15634.3,bus-minutes under the line's label,4,11,1,3,4,,2026-11-09,2026-11-22
+recent,5715,Regents Express,service_under_other_label,0,1.166,0,-1.166,0,2232.9,bus-minutes under the line's label,0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,service_under_other_label,7.015,1.166,6.016,5.849,430,6129.3,bus-minutes under the line's label,7,14,3,3,3,low,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,service_under_other_label,0,1.166,0,-1.166,0,1469.9,bus-minutes under the line's label,0,6,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,service_under_other_label,1.166,1.166,1,0,1790,153507.6,bus-minutes under the line's label,32,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,stops_missed,0.126,0.356,0.354,-0.23,5,3963,stop visits driven past (GPS),5,10,0,0,1,,2026-11-09,2026-11-22
+recent,5702,Apostolic,stops_missed,0.741,0.356,2.079,0.385,14,1889,stop visits driven past (GPS),14,10,3,6,6,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,stops_missed,0.454,0.356,1.273,0.097,26,5731,stop visits driven past (GPS),26,10,2,3,4,,2026-11-09,2026-11-22
+recent,1078,Central,stops_missed,0.23,0.356,0.646,-0.126,6,2606,stop visits driven past (GPS),6,14,2,3,3,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,stops_missed,0.849,0.356,2.382,0.493,34,4004,stop visits driven past (GPS),34,10,6,6,7,,2026-11-09,2026-11-22
+recent,5701,Drexel,stops_missed,0.137,0.356,0.383,-0.22,2,1465,stop visits driven past (GPS),2,10,1,2,2,,2026-11-09,2026-11-22
+recent,1077,East,stops_missed,0.039,0.356,0.11,-0.317,1,2560,stop visits driven past (GPS),1,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,stops_missed,0.29,0.356,0.813,-0.067,8,2761,stop visits driven past (GPS),8,10,1,1,1,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,stops_missed,0.154,0.356,0.431,-0.203,6,3908,stop visits driven past (GPS),6,10,0,1,1,,2026-11-09,2026-11-22
+recent,1075,North,stops_missed,0.338,0.356,0.947,-0.019,4,1185,stop visits driven past (GPS),4,14,2,2,2,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,stops_missed,0.215,0.356,0.604,-0.141,12,5574,stop visits driven past (GPS),12,10,1,1,2,,2026-11-09,2026-11-22
+recent,5715,Regents Express,stops_missed,0,0.356,0,-0.356,0,368,stop visits driven past (GPS),0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,stops_missed,0.815,0.356,2.286,0.459,17,2086,stop visits driven past (GPS),17,14,5,7,9,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,stops_missed,1.786,0.356,5.01,1.429,1,56,stop visits driven past (GPS),1,4,1,1,1,,2026-11-09,2026-11-22
+recent,ALL,All lines,stops_missed,0.356,0.356,1,0,136,38156,stop visits driven past (GPS),136,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,stops_rarely_logged,0,0,,0,0,16,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5702,Apostolic,stops_rarely_logged,0,0,,0,0,10,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,stops_rarely_logged,0,0,,0,0,12,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,1078,Central,stops_rarely_logged,0,0,,0,0,14,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,stops_rarely_logged,0,0,,0,0,14,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5701,Drexel,stops_rarely_logged,0,0,,0,0,7,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,1077,East,stops_rarely_logged,0,0,,0,0,13,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,stops_rarely_logged,0,0,,0,0,12,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,stops_rarely_logged,0,0,,0,0,14,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,1075,North,stops_rarely_logged,0,0,,0,0,7,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,stops_rarely_logged,0,0,,0,0,11,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5715,Regents Express,stops_rarely_logged,0,0,,0,0,7,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,1076,South,stops_rarely_logged,0,0,,0,0,16,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,stops_rarely_logged,0,0,,0,0,5,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,ALL,All lines,stops_rarely_logged,0,0,,0,0,158,stops the line's buses come within 120 m of (the line's route order),0,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5701,Drexel,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1077,East,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,thin_line_days,0,1.948,0,-1.948,0,14,listed service days,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,thin_line_days,0,1.948,0,-1.948,0,10,listed service days,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5715,Regents Express,thin_line_days,10,1.948,5.133,8.052,1,10,listed service days,1,10,1,1,1,,2026-11-09,2026-11-22
+recent,1076,South,thin_line_days,14.286,1.948,7.333,12.338,2,14,listed service days,2,14,2,2,2,low,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,thin_line_days,0,1.948,0,-1.948,0,4,listed service days,0,4,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,thin_line_days,1.948,1.948,1,0,3,154,listed service days,3,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,trip_not_in_timetable,0,0,,0,0,4124,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5702,Apostolic,trip_not_in_timetable,0,0,,0,0,2361,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,trip_not_in_timetable,0,0,,0,0,7066,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1078,Central,trip_not_in_timetable,0,0,,0,0,2659,non-gps arrival rows,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,trip_not_in_timetable,0,0,,0,0,5216,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5701,Drexel,trip_not_in_timetable,0,0,,0,0,1769,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1077,East,trip_not_in_timetable,0,0,,0,0,2758,non-gps arrival rows,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,trip_not_in_timetable,0,0,,0,0,3157,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,trip_not_in_timetable,0,0,,0,0,4204,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,1075,North,trip_not_in_timetable,0,0,,0,0,1364,non-gps arrival rows,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,trip_not_in_timetable,0,0,,0,0,4356,non-gps arrival rows,0,10,0,0,0,,2026-11-09,2026-11-22
+recent,5715,Regents Express,trip_not_in_timetable,0,0,,0,0,403,non-gps arrival rows,0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,trip_not_in_timetable,0,0,,0,0,1823,non-gps arrival rows,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,trip_not_in_timetable,0,0,,0,0,102,non-gps arrival rows,0,4,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,trip_not_in_timetable,0,0,,0,0,41362,non-gps arrival rows,0,14,,,,,2026-11-09,2026-11-22
+recent,4346,53rd Street Express,wrong_line_label,1.087,1.166,0.932,-0.079,90,8281.8,bus-minutes under the line's label,2,10,2,2,2,,2026-11-09,2026-11-22
+recent,5702,Apostolic,wrong_line_label,0.886,1.166,0.759,-0.281,70,7904.7,bus-minutes under the line's label,2,10,2,2,2,,2026-11-09,2026-11-22
+recent,6126,Apostolic/Drexel,wrong_line_label,3.334,1.166,2.859,2.168,620,18597.6,bus-minutes under the line's label,8,10,5,5,5,low,2026-11-09,2026-11-22
+recent,1078,Central,wrong_line_label,0,1.166,0,-1.166,0,7621.6,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5704,Downtown Campus Connector,wrong_line_label,0.467,1.166,0.401,-0.699,220,47094.1,bus-minutes under the line's label,3,11,1,1,1,,2026-11-09,2026-11-22
+recent,5701,Drexel,wrong_line_label,1.223,1.166,1.049,0.057,70,5724.2,bus-minutes under the line's label,2,10,2,2,2,,2026-11-09,2026-11-22
+recent,1077,East,wrong_line_label,0,1.166,0,-1.166,0,8038.9,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5700,Friend Center/Metra,wrong_line_label,1.972,1.166,1.691,0.806,180,9127.6,bus-minutes under the line's label,3,11,2,2,2,,2026-11-09,2026-11-22
+recent,5703,Midway Metra,wrong_line_label,1.526,1.166,1.309,0.36,130,8516.4,bus-minutes under the line's label,4,11,4,4,4,,2026-11-09,2026-11-22
+recent,1075,North,wrong_line_label,0,1.166,0,-1.166,0,7134.2,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5699,Red Line/Arts Block,wrong_line_label,2.622,1.166,2.249,1.456,410,15634.3,bus-minutes under the line's label,8,11,5,5,5,low,2026-11-09,2026-11-22
+recent,5715,Regents Express,wrong_line_label,0,1.166,0,-1.166,0,2232.9,bus-minutes under the line's label,0,9,0,0,0,,2026-11-09,2026-11-22
+recent,1076,South,wrong_line_label,0,1.166,0,-1.166,0,6129.3,bus-minutes under the line's label,0,14,0,0,0,,2026-11-09,2026-11-22
+recent,5716,South Loop Shuttle,wrong_line_label,0,1.166,0,-1.166,0,1469.9,bus-minutes under the line's label,0,6,0,0,0,,2026-11-09,2026-11-22
+recent,ALL,All lines,wrong_line_label,1.166,1.166,1,0,1790,153507.6,bus-minutes under the line's label,32,14,,,,,2026-11-09,2026-11-22
