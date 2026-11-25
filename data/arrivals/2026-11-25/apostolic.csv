@@ -1,0 +1,6 @@
+epoch,ts_utc,local_time,dow,hour,minute_of_day,route_id,route_name,trip_id,vehicle_id,stop_id,stop_name,stop_address,stop_lat,stop_lon,stop_index,prev_stop_id,dist_prev_m,prev_arrival_epoch,segment_s,speed_mps,dwell_s,passio_pred_epoch,passio_pred_lead_s,source
+1795605630,2026-11-25T11:20:30Z,2026-11-25 05:20:30,2,5,320,5702,Apostolic,675879,4324,133007,Kenwood & 63rd,East 63rd Street,41.78087,-87.5929,0,,,,,,,,,gps
+1795605707,2026-11-25T11:21:47Z,2026-11-25 05:21:47,2,5,321,5702,Apostolic,675879,4324,225833,Kimbark Garage,Kimbark Garage,41.78424,-87.59473,1,,,,,,0,1795605478,1084,transition
+1795605909,2026-11-25T11:25:09Z,2026-11-25 05:25:09,2,5,325,5702,Apostolic,675879,4324,8612,Goldblatt Pavilion,5801 South Ellis Avenue,41.78774,-87.60361,2,225833,1139.3,1795605707,202,5.64,0,1795605933,189,transition
+1795605954,2026-11-25T11:25:54Z,2026-11-25 05:25:54,2,5,325,5702,Apostolic,675879,4324,8613,Wyler Pavilion,South Maryland Avenue,41.7888,-87.60487,3,8612,237.8,1795605909,45,5.28,0,1795605972,170,transition
+1795605979,2026-11-25T11:26:19Z,2026-11-25 05:26:19,2,5,326,5702,Apostolic,675879,4324,8615,Bernard Mitchell Hospital,South Maryland Avenue,41.78943,-87.60487,4,8613,70.1,1795605954,25,2.8,75,1795605974,195,proximity

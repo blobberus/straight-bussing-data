@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-25 09:37",
+ "synced": "2026-11-25 11:45",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 149510,
- "newest": "2026-11-25 01:12:21",
+ "rows": 149542,
+ "newest": "2026-11-25 05:31:18",
  "cutoff_hour": 4,
  "days": [
   {
@@ -2855,6 +2855,27 @@
      "file": "data/arrivals/2026-11-24/south.csv",
      "rows": 190,
      "route_id": "1076"
+    }
+   }
+  },
+  {
+   "day": "2026-11-25",
+   "rows": 32,
+   "routes": {
+    "Apostolic": {
+     "file": "data/arrivals/2026-11-25/apostolic.csv",
+     "rows": 5,
+     "route_id": "5702"
+    },
+    "Drexel": {
+     "file": "data/arrivals/2026-11-25/drexel.csv",
+     "rows": 11,
+     "route_id": "5701"
+    },
+    "Friend Center/Metra": {
+     "file": "data/arrivals/2026-11-25/friend-center-metra.csv",
+     "rows": 16,
+     "route_id": "5700"
     }
    }
   }
