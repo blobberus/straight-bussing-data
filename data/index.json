@@ -1,8 +1,8 @@
 {
- "synced": "2026-11-25 06:32",
+ "synced": "2026-11-25 09:37",
  "source": "https://github.com/blobberus/straight-bussing",
- "rows": 149505,
- "newest": "2026-11-25 00:13:29",
+ "rows": 149510,
+ "newest": "2026-11-25 01:12:21",
  "cutoff_hour": 4,
  "days": [
   {
@@ -2789,7 +2789,7 @@
   },
   {
    "day": "2026-11-24",
-   "rows": 4301,
+   "rows": 4306,
    "routes": {
     "53rd Street Express": {
      "file": "data/arrivals/2026-11-24/53rd-street-express.csv",
@@ -2803,7 +2803,7 @@
     },
     "Apostolic/Drexel": {
      "file": "data/arrivals/2026-11-24/apostolic-drexel.csv",
-     "rows": 824,
+     "rows": 829,
      "route_id": "6126"
     },
     "Central": {
