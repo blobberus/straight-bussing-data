@@ -41,11 +41,11 @@ no rider data. Official service information: 773.702.8181.
 
 ## Latest
 <!-- SYNC:BEGIN -->
-_Last sync: 2026-11-27 03:32 UTC · 154,451 arrivals · 50 service days · newest arrival 2026-11-26 21:10:48 (Chicago time)_
+_Last sync: 2026-11-27 13:00 UTC · 154,708 arrivals · 50 service days · newest arrival 2026-11-27 00:03:32 (Chicago time)_
 
 | Service day | Arrivals | Routes | Files |
 |---|---:|---:|---|
-| 2026-11-26 | 475 | 4 | [data/arrivals/2026-11-26/](data/arrivals/2026-11-26) |
+| 2026-11-26 | 732 | 4 | [data/arrivals/2026-11-26/](data/arrivals/2026-11-26) |
 | 2026-11-25 | 4,466 | 13 | [data/arrivals/2026-11-25/](data/arrivals/2026-11-25) |
 | 2026-11-24 | 4,306 | 13 | [data/arrivals/2026-11-24/](data/arrivals/2026-11-24) |
 | 2026-11-23 | 4,535 | 13 | [data/arrivals/2026-11-23/](data/arrivals/2026-11-23) |
@@ -64,8 +64,8 @@ Routes on 2026-11-26:
 
 | Route | Arrivals | File |
 |---|---:|---|
-| Central | 140 | [central.csv](data/arrivals/2026-11-26/central.csv) |
-| South | 139 | [south.csv](data/arrivals/2026-11-26/south.csv) |
-| East | 135 | [east.csv](data/arrivals/2026-11-26/east.csv) |
-| North | 61 | [north.csv](data/arrivals/2026-11-26/north.csv) |
+| Central | 220 | [central.csv](data/arrivals/2026-11-26/central.csv) |
+| East | 211 | [east.csv](data/arrivals/2026-11-26/east.csv) |
+| South | 202 | [south.csv](data/arrivals/2026-11-26/south.csv) |
+| North | 99 | [north.csv](data/arrivals/2026-11-26/north.csv) |
 <!-- SYNC:END -->
